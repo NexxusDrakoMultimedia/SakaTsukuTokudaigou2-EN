@@ -1,0 +1,44 @@
+REPACK MODEL (best case: perfect packing of all movable strings of a category into their own pooled slots, strings translated greedily cheapest-first).
+scale = factor applied to my English bytes (1.00 = my natural translations; <1 = editing/abbreviating harder)
+category        mov n | pad%  |s=1.00 in-place / repacked (rec%)  s=0.90 in-place / repacked (rec%)  s=0.80 in-place / repacked (rec%)  s=0.70 in-place / repacked (rec%)
+prose_meeting      72 |   0.0 |   45.8 /  83.3              61.1 / 100.0              83.3 / 100.0              95.8 / 100.0           
+prose_news         62 |   0.1 |   12.9 /  30.6              41.9 /  75.8              69.4 / 100.0              96.8 / 100.0           
+prose_event        40 |   2.4 |   27.5 /  50.0              47.5 /  82.5              70.0 / 100.0              87.5 / 100.0           
+prose_training     22 |   0.1 |    4.5 /   9.1              40.9 /  68.2              72.7 / 100.0              90.9 / 100.0           
+prose_other       134 |   0.8 |   20.9 /  45.5              38.1 /  79.1              57.5 / 100.0              85.8 / 100.0           
+help               42 |   0.0 |   35.7 /  69.0              66.7 / 100.0              92.9 / 100.0              97.6 / 100.0           
+label              36 |  23.7 |   47.2 /  88.9              50.0 /  97.2              75.0 / 100.0              86.1 / 100.0           
+name                2 |  13.4 |    0.0 /   0.0               0.0 /  50.0             100.0 / 100.0             100.0 / 100.0           
+place              55 |  18.6 |   40.0 /  85.5              40.0 /  98.2              72.7 / 100.0              83.6 / 100.0           
+numunit            37 |  11.4 |   64.9 /  97.3              70.3 / 100.0              83.8 / 100.0              89.2 / 100.0           
+
+POPULATION-WEIGHTED HEADLINE (all FLOW_PRG + ATFIRST overlay records = 119946, JP bytes 2749078)
+classes: A = fits in own slot; B = fits only if repacked (movable strings, ideal packing); C = needs extra memory / shortening / stays Japanese
+scale 1.00: records A 41.9% B 26.0% C 32.1% | JP-byte-weighted A 28.1% B 22.4% C 49.5%
+scale 0.90: records A 48.9% B 33.9% C 17.2% | JP-byte-weighted A 44.9% B 32.8% C 22.3%
+scale 0.80: records A 77.8% B 18.3% C 3.8% | JP-byte-weighted A 72.5% B 23.9% C 3.6%
+scale 0.70: records A 90.9% B 9.0% C 0.0% | JP-byte-weighted A 93.0% B 6.8% C 0.2%
+
+PROSE+HELP only, scale 1.00: (n=26044, 1937507 JP bytes) records A 27.0% B 25.2% C 47.7% | bytes A 22.2% B 21.3% C 56.5%
+PROSE+HELP only, scale 0.90: (n=26044, 1937507 JP bytes) records A 46.1% B 35.6% C 18.3% | bytes A 44.1% B 32.8% C 23.1%
+PROSE+HELP only, scale 0.80: (n=26044, 1937507 JP bytes) records A 69.8% B 28.0% C 2.2% | bytes A 70.1% B 26.9% C 3.0%
+PROSE+HELP only, scale 0.70: (n=26044, 1937507 JP bytes) records A 91.7% B 8.1% C 0.2% | bytes A 93.9% B 5.8% C 0.3%
+
+BREAK-EVEN: scale at which pooled English == pooled capacity of the category (movable strings), and the required cut
+prose_meeting   EN/JP=1.062 capacity/JP=1.000 -> scale 0.942 (cut 5.8%)
+prose_news      EN/JP=1.171 capacity/JP=1.001 -> scale 0.855 (cut 14.5%)
+prose_event     EN/JP=1.197 capacity/JP=1.024 -> scale 0.855 (cut 14.5%)
+prose_training  EN/JP=1.176 capacity/JP=1.001 -> scale 0.851 (cut 14.9%)
+prose_other     EN/JP=1.202 capacity/JP=1.008 -> scale 0.838 (cut 16.2%)
+help            EN/JP=1.077 capacity/JP=1.000 -> scale 0.928 (cut 7.2%)
+label           EN/JP=1.377 capacity/JP=1.237 -> scale 0.898 (cut 10.2%)
+name            EN/JP=1.318 capacity/JP=1.134 -> scale 0.860 (cut 14.0%)
+place           EN/JP=1.335 capacity/JP=1.186 -> scale 0.889 (cut 11.1%)
+numunit         EN/JP=1.137 capacity/JP=1.114 -> scale 0.980 (cut 2.0%)
+
+NAMES (n=68, 14-byte pinned fields): full "Given Family" fits 32 (47%); with ladder -> "G. Family" 36 more; -> "Family" only 0 more; still too long 0
+   max_bytes values in name sample: {14: 64, 12: 2, 13: 2}
+PLACES (n=56): max_bytes values {8: 48, 12: 8}; fit 23
+   places that fit if the -gun/-cho/-mura suffix were dropped: 38
+
+EN bytes per JP character (visible chars): prose_meeting 2.24, prose_news 2.62, prose_event 2.47, prose_training 2.44, prose_other 2.44, help 2.26, label 3.15, name 2.92, place 3.08, numunit 2.75

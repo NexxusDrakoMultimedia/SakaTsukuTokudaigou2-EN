@@ -1,0 +1,20 @@
+{"l10n":1,"kind":"main","style":"compact","n":19,"final_newline":true,"src":"FLOW_PRG/NEWMONTH.BIN"}
+{"id":"40290","jah":"c6a2b4b434975561cd32e559cd9b834e","max_bytes":8,"ctx":"orphan (no pointer)","orphan":true,"skip":true}
+{"id":"84ad6","jah":"b44f630029ac2a23a32bcd944e8141eb","max_bytes":5,"ctx":"orphan (no pointer)","orphan":true,"skip":true}
+{"id":"9b22c","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@73a4","skip":true}
+{"id":"9b230","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@73ac[0/3]","skip":true}
+{"id":"9b238","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@73ac[1/3]","skip":true}
+{"id":"9b23c","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@73ac[2/3]","skip":true}
+{"id":"9b240","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[0/11]"}
+{"id":"9b244","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[1/11]"}
+{"id":"9b248","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[2/11]"}
+{"id":"9b24c","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[3/11]"}
+{"id":"9b250","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[4/11]"}
+{"id":"9b254","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[5/11]"}
+{"id":"9b258","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[6/11]"}
+{"id":"9b25c","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[7/11]"}
+{"id":"9b260","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[8/11]"}
+{"id":"9b264","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[9/11]"}
+{"id":"9b268","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@9b1fc[10/11]"}
+{"id":"9b3e0","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@84bc"}
+{"id":"9b4c4","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":8,"refs":1,"ctx":"ptr@988c"}

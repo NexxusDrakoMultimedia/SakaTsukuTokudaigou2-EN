@@ -1,0 +1,4 @@
+scale 1.00: 119946 overlay records filled
+legacy textdb per-string       applied  63326 failed  56620 (47.2 %) skipped 0, in_place 42998 relocated 20328, files changed 112, size growth 0, 184s
+repack share=none cross-pool   applied  82891 failed  37055 (30.9 %) skipped 0, in_place 16618 relocated 66273, files changed 112, size growth 0, 29s
+repack share=dup  cross-pool   applied  88155 failed  31791 (26.5 %) skipped 0, in_place 16790 relocated 71365, files changed 112, size growth 0, 36s

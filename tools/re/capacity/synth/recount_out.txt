@@ -1,0 +1,3 @@
+images 114 strings 119946 movable 81986 fixed 37960 (orphan 37885 pinned 34868 interior 35 flags)
+pools 3646 single-string pools 1990 pool capacity 2338194 movable JP bytes 2243846 slack 94348 4.20%
+fixed JP bytes 505232

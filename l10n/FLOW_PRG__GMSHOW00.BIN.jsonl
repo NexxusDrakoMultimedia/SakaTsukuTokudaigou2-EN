@@ -1,0 +1,19 @@
+{"l10n":1,"kind":"main","style":"compact","n":18,"final_newline":true,"src":"FLOW_PRG/GMSHOW00.BIN"}
+{"id":"482c","jah":"de5277b8aa54c1d6a05a7f9ce7751ea4","en":"Thanks for trying the Tokyo Game Show\nversion of @K/\"Sakatsuku\"@!\n\nThis version has a @M/VMU@ file that adds\nextra fun to the full release of\n@K/\"Sakatsuku\"@, so please take it home!\n\nTo save it, select @Y/\"Bonus File\"@ in\nMode Select.","max_bytes":300,"refs":1,"ctx":"ptr@4350"}
+{"id":"49d0","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@944"}
+{"id":"4ab4","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@1d14"}
+{"id":"4b00","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@4160","skip":true}
+{"id":"4b04","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@4168[0/3]","skip":true}
+{"id":"4b0c","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@4168[1/3]","skip":true}
+{"id":"4b10","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@4168[2/3]","skip":true}
+{"id":"4b14","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[0/11]"}
+{"id":"4b18","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[1/11]"}
+{"id":"4b1c","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[2/11]"}
+{"id":"4b20","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[3/11]"}
+{"id":"4b24","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[4/11]"}
+{"id":"4b28","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[5/11]"}
+{"id":"4b2c","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[6/11]"}
+{"id":"4b30","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[7/11]"}
+{"id":"4b34","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[8/11]"}
+{"id":"4b38","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@4ad0[9/11]"}
+{"id":"4b3c","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":3,"refs":1,"ctx":"tbl@4ad0[10/11]"}

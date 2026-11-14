@@ -1,0 +1,231 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Nexxus Drako Multimedia
+#
+# What tools/release.py checks the source disc against and records in a release (analogue of LMASTER-Mod's
+# release.toml). The version (single source of truth, semver) is in tools/VERSION. The hashes are of the repo's own Redump-style multi-bin
+# source disc (the 5 track files in the repo root) as measured here; compare them with the Redump entry of
+# the game before publishing (not done by the tooling: Redump's database is not consulted).
+# Regenerate with:  python -I -X utf8 tools/release.py --print-source-toml
+
+[release]
+project = "SakaTsuku2-EN"
+title = "Sakatsuku Tokudaigou 2 - J.League Pro Soccer Club o Tsukurou! (Japan)"
+product = "HDR-0183"
+
+# The build flags of a release (tools/release.py passes them to tools/build_patch.py when no build option is given on its command line; options given
+# on the command line REPLACE this list).  Together with the command-line defaults of build_patch.py they give exactly the flags of the
+# trial disc prop10j that was checked on screen:
+#   --repack on --share dup --append-safe --proportional-font on --refit on --align-fix on --tag-fix on --scout-fix on --crowd-fix on --bcast-speed 1.9
+#   --lin-center on --cell-prop on --money-format on --prop-scale off --strict --texture-policy exact --open-font on --small-prop on --options-fix on --clip-lead-space on
+# --repack on, --share dup, --append-safe, --proportional-font on, --open-font on, --small-prop on and --strict are not defaults of build_patch.py and stay explicit
+# here on purpose; --refit on and --align-fix on are repeated for clarity; the other flags of the list are defaults of build_patch.py and are not repeated.
+[build]
+standard_flags = ["--repack", "on", "--share", "dup", "--append-safe", "--proportional-font", "on", "--refit", "on", "--align-fix", "on", "--open-font", "on", "--small-prop", "on", "--strict"]
+
+# The release bundle carries the translators' notes and player guide (doc/TRANSLATORS_NOTES.md, real text since 0.1.0). release.py fails the bundle while the
+# file does not exist or still contains the marker PLACEHOLDER (--allow-placeholder for development bundles).
+[bundle]
+translators_notes = "doc/TRANSLATORS_NOTES.md"
+# The changelog (Keep a Changelog) must have a "## [<version>]" section for a real release; the licence texts (REUSE layout) are copied into the bundle.
+changelog = "CHANGELOG.md"
+licenses_dir = "LICENSES"
+
+# [source.*] = Redump disc 27370 (Sakatsuku Tokudaigou 2, Japan), as dumped into the repo root: five raw tracks and the
+# cooked "volume ISO" made from them (tools/isoexport.py == tools/bincue2iso.py, both give the same bytes). apply_patch.py
+# recognises the player's dump by these hashes (embedded in every MANIFEST.json). Redump's own database was NOT consulted.
+
+[source.track1]
+size = 5597760
+crc32 = "1703a248"
+md5 = "9cc52765bbbdce41e4c4f32dcc46f692"
+sha1 = "ec178640c03ab98de4d07b76fd5555417137def1"
+sha256 = "599e3ed5afc723835f33f258c6dc16d38722ff7066bc5eeaf9aac1c2b3d4897c"
+[source.track2]
+size = 2088576
+crc32 = "1859ea65"
+md5 = "652a31166a58b8f933e8a924e7c88780"
+sha1 = "0ecd537e42946f3e74c80c9fcb8d0bccccfc96f1"
+sha256 = "e6c6f921666e7d50c4f943f6ab0f0545732d0534903fc6e5c4b0181ed352dc85"
+[source.track3]
+size = 14916384
+crc32 = "33ea62d0"
+md5 = "1d6a02990ebbb522851c6a2e3ca4f973"
+sha1 = "8a7c7484489d42896e3b73a8b2d4588720a3936d"
+sha256 = "6a24b63b8a2b2b6e75219dbc6915b434a8c911d6d4563f1e58285cc0f29706cc"
+[source.track4]
+size = 12519696
+crc32 = "d3caaa47"
+md5 = "716b732bb8861b012ab5f157fa6aba88"
+sha1 = "fbdd698c67ee95d4223f9c873bb3697ee8447132"
+sha256 = "06a0e7c5af4415c991f1a4c120f1d0b7a330bd6a22b5b6c063edb52674b9b4bc"
+[source.track5]
+size = 1158324720
+crc32 = "e5bc326c"
+md5 = "f364436ea0f054ea3a6558ab4aec69ff"
+sha1 = "753b66f8a2a5553cce8abe804fa68145cf3522e4"
+sha256 = "9c9078ec96db45a3cb8531957ebd1e60833a1532a9673db25d26da9e6a779d01"
+[source.volume_iso]
+size = 1032499200
+crc32 = "395d0590"
+md5 = "1b836a438f963af1bba2cf41551bc0ef"
+sha1 = "62a9ccfd3a965328861e5b46fa71e5686642e5e1"
+sha256 = "88ae8a9df5736e4dfdd5a6102922e85c8a325dd17cbc60ab8c1c51f33016ff8b"
+# DEVELOPMENT hashes of the trial disc prop5.gdi (not a release; regenerate with release.py --print-dev-toml)
+[dev.prop5]
+note = "development record, not a release"
+[dev.prop5.track1]
+size = 5597760
+crc32 = "1703a248"
+md5 = "9cc52765bbbdce41e4c4f32dcc46f692"
+sha1 = "ec178640c03ab98de4d07b76fd5555417137def1"
+sha256 = "599e3ed5afc723835f33f258c6dc16d38722ff7066bc5eeaf9aac1c2b3d4897c"
+[dev.prop5.track2]
+size = 2088576
+crc32 = "1859ea65"
+md5 = "652a31166a58b8f933e8a924e7c88780"
+sha1 = "0ecd537e42946f3e74c80c9fcb8d0bccccfc96f1"
+sha256 = "e6c6f921666e7d50c4f943f6ab0f0545732d0534903fc6e5c4b0181ed352dc85"
+[dev.prop5.track3]
+size = 14916384
+crc32 = "097c3871"
+md5 = "637b56061e9dae8f1fa62616dec03c58"
+sha1 = "64eec15dbbcbf394e0e733b2615e71388e3218c8"
+sha256 = "4b91b924159c5e05e2a9f2a930e8be7e7439a77b7954c2e053562b58697cd771"
+[dev.prop5.track4]
+size = 12519696
+crc32 = "d3caaa47"
+md5 = "716b732bb8861b012ab5f157fa6aba88"
+sha1 = "fbdd698c67ee95d4223f9c873bb3697ee8447132"
+sha256 = "06a0e7c5af4415c991f1a4c120f1d0b7a330bd6a22b5b6c063edb52674b9b4bc"
+[dev.prop5.track5]
+size = 1158324720
+crc32 = "ecc92084"
+md5 = "160e82876d5698ad116ce608f958b6ea"
+sha1 = "6481afd484eadb6a77a20ace37df74becf45b4f1"
+sha256 = "9edd4eea1ca0bc3dd1fa9876a8e3e27484d175f3ee6a6d6ecd35cf8662184d85"
+[dev.prop5.volume_iso]
+size = 1032499200
+crc32 = "22809ebf"
+md5 = "d96ea90eb074b97d339132c2ca9edf96"
+sha1 = "5a06b8d808ca382967d4fec4bb882b64749b30e4"
+sha256 = "2c4c9f7020ccca0ee92abcbc8cfcd6f9e92e67e9285beedf3926d8f0bdecf679"
+
+# DEVELOPMENT hashes of the trial disc prop6.gdi (not a release; regenerate with release.py --print-dev-toml)
+[dev.prop6]
+note = "development record, not a release"
+[dev.prop6.track1]
+size = 5597760
+crc32 = "1703a248"
+md5 = "9cc52765bbbdce41e4c4f32dcc46f692"
+sha1 = "ec178640c03ab98de4d07b76fd5555417137def1"
+sha256 = "599e3ed5afc723835f33f258c6dc16d38722ff7066bc5eeaf9aac1c2b3d4897c"
+[dev.prop6.track2]
+size = 2088576
+crc32 = "1859ea65"
+md5 = "652a31166a58b8f933e8a924e7c88780"
+sha1 = "0ecd537e42946f3e74c80c9fcb8d0bccccfc96f1"
+sha256 = "e6c6f921666e7d50c4f943f6ab0f0545732d0534903fc6e5c4b0181ed352dc85"
+[dev.prop6.track3]
+size = 14916384
+crc32 = "097c3871"
+md5 = "637b56061e9dae8f1fa62616dec03c58"
+sha1 = "64eec15dbbcbf394e0e733b2615e71388e3218c8"
+sha256 = "4b91b924159c5e05e2a9f2a930e8be7e7439a77b7954c2e053562b58697cd771"
+[dev.prop6.track4]
+size = 12519696
+crc32 = "d3caaa47"
+md5 = "716b732bb8861b012ab5f157fa6aba88"
+sha1 = "fbdd698c67ee95d4223f9c873bb3697ee8447132"
+sha256 = "06a0e7c5af4415c991f1a4c120f1d0b7a330bd6a22b5b6c063edb52674b9b4bc"
+[dev.prop6.track5]
+size = 1158324720
+crc32 = "05993b5e"
+md5 = "a28017e9961d513e7ba85a4d53b368f3"
+sha1 = "9b017a7474af9e0d01d887ffe4dfdbbda5627437"
+sha256 = "f51d508726e03d211e1f37b2fc076e25bee6d0761003a417204d37e4a65108fc"
+[dev.prop6.volume_iso]
+size = 1032499200
+crc32 = "a597e631"
+md5 = "f0ecca97efa7c2b733eb25b2f356218f"
+sha1 = "794728f8264109cb02493be86ba0cd1413c47bcf"
+sha256 = "83fe69967f435e6b2a7bcfe0f0e53a6a5d8486bc28c01ac923c73ab8fed782d9"
+
+# DEVELOPMENT hashes of the trial disc prop7.gdi (not a release; regenerate with release.py --print-dev-toml)
+[dev.prop7]
+note = "development record, not a release"
+[dev.prop7.track1]
+size = 5597760
+crc32 = "1703a248"
+md5 = "9cc52765bbbdce41e4c4f32dcc46f692"
+sha1 = "ec178640c03ab98de4d07b76fd5555417137def1"
+sha256 = "599e3ed5afc723835f33f258c6dc16d38722ff7066bc5eeaf9aac1c2b3d4897c"
+[dev.prop7.track2]
+size = 2088576
+crc32 = "1859ea65"
+md5 = "652a31166a58b8f933e8a924e7c88780"
+sha1 = "0ecd537e42946f3e74c80c9fcb8d0bccccfc96f1"
+sha256 = "e6c6f921666e7d50c4f943f6ab0f0545732d0534903fc6e5c4b0181ed352dc85"
+[dev.prop7.track3]
+size = 14916384
+crc32 = "097c3871"
+md5 = "637b56061e9dae8f1fa62616dec03c58"
+sha1 = "64eec15dbbcbf394e0e733b2615e71388e3218c8"
+sha256 = "4b91b924159c5e05e2a9f2a930e8be7e7439a77b7954c2e053562b58697cd771"
+[dev.prop7.track4]
+size = 12519696
+crc32 = "d3caaa47"
+md5 = "716b732bb8861b012ab5f157fa6aba88"
+sha1 = "fbdd698c67ee95d4223f9c873bb3697ee8447132"
+sha256 = "06a0e7c5af4415c991f1a4c120f1d0b7a330bd6a22b5b6c063edb52674b9b4bc"
+[dev.prop7.track5]
+size = 1158324720
+crc32 = "a9293e3c"
+md5 = "cd001f843ffbd0cbbc5b1a0c34fb94b9"
+sha1 = "6e15e5e87bbdc4392364f400498a718142d0efb5"
+sha256 = "f2a537fc5982fd09522bd4a469d71e60c522d9278f8ebfe3ffe9012d33bdcff7"
+[dev.prop7.volume_iso]
+size = 1032499200
+crc32 = "c9570458"
+md5 = "19a53aa671278274c4578affb96ff501"
+sha1 = "cc872a43288c2138c6c04de0aae1b0f8c810f7a5"
+sha256 = "3fbcb017da2ba57df36d31b6fd89532debeebbdf3c5669e60be387c9557d70fb"
+
+# DEVELOPMENT hashes of the trial disc prop10j.gdi (not a release; regenerate with release.py --print-dev-toml)
+[dev.prop10j]
+note = "development record, not a release"
+[dev.prop10j.track1]
+size = 5597760
+crc32 = "1703a248"
+md5 = "9cc52765bbbdce41e4c4f32dcc46f692"
+sha1 = "ec178640c03ab98de4d07b76fd5555417137def1"
+sha256 = "599e3ed5afc723835f33f258c6dc16d38722ff7066bc5eeaf9aac1c2b3d4897c"
+[dev.prop10j.track2]
+size = 2088576
+crc32 = "1859ea65"
+md5 = "652a31166a58b8f933e8a924e7c88780"
+sha1 = "0ecd537e42946f3e74c80c9fcb8d0bccccfc96f1"
+sha256 = "e6c6f921666e7d50c4f943f6ab0f0545732d0534903fc6e5c4b0181ed352dc85"
+[dev.prop10j.track3]
+size = 14916384
+crc32 = "097c3871"
+md5 = "637b56061e9dae8f1fa62616dec03c58"
+sha1 = "64eec15dbbcbf394e0e733b2615e71388e3218c8"
+sha256 = "4b91b924159c5e05e2a9f2a930e8be7e7439a77b7954c2e053562b58697cd771"
+[dev.prop10j.track4]
+size = 12519696
+crc32 = "d3caaa47"
+md5 = "716b732bb8861b012ab5f157fa6aba88"
+sha1 = "fbdd698c67ee95d4223f9c873bb3697ee8447132"
+sha256 = "06a0e7c5af4415c991f1a4c120f1d0b7a330bd6a22b5b6c063edb52674b9b4bc"
+[dev.prop10j.track5]
+size = 1158324720
+crc32 = "72ec9bb9"
+md5 = "3994947ded46a246148d961004691e53"
+sha1 = "ffa869e57be500f7f33a1042ade13c369884f307"
+sha256 = "d413a474bd45107aa174d1bdfa53101e7d66c58b3ab0f97157d2bd6194323891"
+[dev.prop10j.volume_iso]
+size = 1032499200
+crc32 = "68b1937e"
+md5 = "35d2d61bae75731ecbe7d2531cd14a00"
+sha1 = "19c1fcfd35462e4000cc67b51e502689b0bd55df"
+sha256 = "19e725d3efeb355519cf59f520053c91675f7db34f11ec75f2b24c24bed8684d"

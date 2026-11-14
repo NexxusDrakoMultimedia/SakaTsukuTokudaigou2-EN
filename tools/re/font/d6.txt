@@ -1,0 +1,14 @@
+8c15eeb8  sts.l PR,@-r15
+8c15eeba  bsr 0x8c15eede
+8c15eebc  _mov #0x0,r7
+8c15eebe  mov r0,r4
+8c15eec0  tst r4,r4
+8c15eec2  bf 0x8c15eeca
+8c15eec4  lds.l @r15+,PR
+8c15eec6  rts
+8c15eec8  _mov #-0x1,r0
+8c15eeca  mov #0x0,r0
+8c15eecc  lds.l @r15+,PR
+8c15eece  rts
+8c15eed0  _nop
+8c15eed2  add #-0x4,r15

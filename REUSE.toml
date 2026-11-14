@@ -1,0 +1,94 @@
+version = 1
+SPDX-PackageName = "SakaTsuku2-EN"
+SPDX-PackageSupplier = "Nexxus Drako Multimedia"
+SPDX-PackageDownloadLocation = "https://github.com/NexxusDrakoMultimedia/SakaTsukuTokudaigou2-EN"
+
+# Licence map of this repository (REUSE 3.x, https://reuse.software).  Later annotations win over earlier ones.
+#
+#   code, build scripts, tests, tooling data ........ GPL-3.0-or-later   (LICENSES/GPL-3.0-or-later.txt)
+#   the translators' own contribution:
+#     English text (the `en` fields, glossary), the
+#     documents, the texture deltas ................. CC-BY-SA-4.0        (LICENSES/CC-BY-SA-4.0.txt)
+#   the original game's text, art, music, code ...... NOT licensed by this project; (c) their owners
+#
+# The project ships no original Sega pixels.  The Japanese strings in the local, git-ignored translation/*.jsonl (`ja`, ids, contexts) are the original
+# game's text, kept only as lookup keys; they are not licensed by this project.  The repainted textures are new artwork
+# painted over the game's own pictures: CC-BY-SA-4.0 applies to the new contribution only, never to the underlying game art.
+# They are committed only as binary deltas against the player's own textures (l10n/textures/, see the annotation below).
+
+# Everything not named below is tooling: GPL-3.0-or-later.
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Nexxus Drako Multimedia"
+SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# The translators' text and documentation: CC-BY-SA-4.0.
+[[annotations]]
+path = [
+  "README.md",
+  "CHANGELOG.md",
+  "doc/**",
+  "docs/**",
+  "translation/glossary.tsv",
+  "translation/art/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Nexxus Drako Multimedia"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# The committed form of the translation (docs/l10n-format.md): English text, record ids, contexts and SHA-256 prefixes of the original
+# strings, no Japanese.  l10n/disc-files.tsv (sizes and hashes of the disc's files, a tooling table) keeps the GPL default.
+[[annotations]]
+path = [
+  "l10n/*.jsonl",
+  "l10n/refit/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Nexxus Drako Multimedia"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Mixed files: the English (`en`) text and the repainted pixels are the translators' CC-BY-SA-4.0 contribution, but the same
+# files also carry the original game's Japanese strings (`ja`) or are painted over the game's own pictures.  REUSE cannot split a
+# file per field, so both identifiers apply; the game part stays NOT licensed by this project (LicenseRef-Game-Content).
+[[annotations]]
+path = [
+  "translation/*.jsonl",
+  "translation/refit/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = ["2026 Nexxus Drako Multimedia", "The owners of the original game"]
+SPDX-License-Identifier = "CC-BY-SA-4.0 AND LicenseRef-Game-Content"
+
+# The half-width glyph bitmaps of `--open-font on` are rendered from Roboto Condensed (SIL Open Font License 1.1, the licence text is
+# LICENSES/OFL-1.1.txt, the notice doc/NOTICE-fonts.md).  The generator tools/re/font/render_open_font.py and the loader tools/openfont.py are
+# the project's own code (GPL-3.0-or-later, the default above); the TTF is not in the repository.
+[[annotations]]
+path = "translation/fonts/**"
+precedence = "override"
+SPDX-FileCopyrightText = "2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)"
+SPDX-License-Identifier = "OFL-1.1"
+
+# The texture deltas (docs/texture-delta.md): VCDIFF files that describe our repaint against the original texture of the player's own dump,
+# plus MANIFEST.tsv (hashes and sizes).  They are the project's own repaint data: CC-BY-SA-4.0.  They contain no unchanged original data
+# (no run of 10 or more original bytes is stored; `tools/texdelta.py analyze`), only COPY references to the original and our new pixels, and they
+# are applied to the owner's own dump.  The original textures underneath stay NOT licensed by this project.
+# (For the 236 VQ textures the stored codebook is a re-quantisation of the whole picture, a known point listed in README.md.)
+[[annotations]]
+path = "l10n/textures/**"
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Nexxus Drako Multimedia"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+# Images that show the ORIGINAL game's art (extracted sheets, "before" pictures): not licensed by this project.  The ones that are
+# produced locally are git-ignored (.gitignore), so this annotation only documents the label of files present in a working tree.
+[[annotations]]
+path = [
+  "tools/re/**/*.png",
+  "docs/art-sample/club_edit_menu_*.png",
+  "tools/re/capacity/ratio/sample.jsonl",
+  "tools/re/capacity/ratio/sample_src.tsv",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "The owners of the original game"
+SPDX-License-Identifier = "LicenseRef-Game-Content"

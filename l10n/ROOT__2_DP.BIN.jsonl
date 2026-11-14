@@ -1,0 +1,158 @@
+{"l10n":1,"kind":"main","style":"spaced","n":157,"final_newline":true,"src":"2_DP.BIN","ctx":["ptr shares-tail"]}
+{"id":"15ec34","jah":"560efc24df7da6a556f3dd7710bc96e2","max_bytes":38,"refs":1,"ctx":0}
+{"id":"15ec38","jah":"b32763a2f2929f28b70f7aa25df302cb","max_bytes":34,"refs":1,"ctx":0}
+{"id":"15ec3c","jah":"022d2791d67f9dfe61119995a0bcd13b","max_bytes":30,"refs":1,"ctx":0}
+{"id":"15ec40","jah":"927d5e00b86157ef19dd85dacaa99850","max_bytes":26,"refs":1,"ctx":0}
+{"id":"15ec44","jah":"ed523a0e5afebd79866c9bbf74c42141","max_bytes":22,"refs":1,"ctx":0}
+{"id":"15ec48","jah":"c298144d06ff58e24e6312bf927fc317","max_bytes":18,"refs":1,"ctx":0}
+{"id":"15ec4c","jah":"b81db464541433241e2343e9d43432d5","max_bytes":14,"refs":1,"ctx":0}
+{"id":"15f91c","jah":"7702a4f8844aaf8ec8120094429b308a","en":"Browse","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"15ff58","jah":"7702a4f8844aaf8ec8120094429b308a","en":"Browse","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"161a60","jah":"49414ad3949deaba8d49e24440331252","en":".","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"161a6c","jah":"77b4a257e19a9154cf0ec432bf4a5f8d","en":"'","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"162274","jah":"53470d56145394cdded4a63dce176e1e","en":"Downloading:<br>","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"162298","jah":"e77ce857da2834d75a97264324db11a4","en":"KB recd","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"1622a8","jah":"93674c1b86f2ae8f469acf415ca596d5","en":"Time left: ","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1622c4","jah":"1b12f58cbce09325ec119581ff64c53e","en":"Rate: ","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"163454","jah":"8511b38dbb38c1f7742f8b65681738f7","en":"Conn 00:00","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"163504","jah":"388c60a276e4988bd39322e20bf10579","en":"User name","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"163510","jah":"e0fc7d1daa0c9466f986a815450ef13a","en":"Password","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1635ac","jah":"6749205ec49933017b58d793b88c746c","en":"%d/%d/%d %02d:%02d:%02d","max_bytes":28,"refs":1,"ctx":"ptr"}
+{"id":"1638c4","jah":"4d11d48166aeb5e3f60f750e354e57d8","en":"'s message\n------------\n","max_bytes":36,"refs":1,"ctx":"ptr"}
+{"id":"163c04","jah":"6a13ddd9e1427409bcfcb6d182e8cd50","en":"Failed to post","max_bytes":20,"refs":2,"ctx":"ptr"}
+{"id":"163c28","jah":"44578caa037901d69be56a2324ef03bb","en":"Exit failed","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"163dfc","jah":"71e0262a6477027cd133f6cb25664207","en":"Select Chat Server","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"163e14","jah":"59eae049ef1ae290410b0b6b649f0c5b","en":"IRC Server List","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"163e2c","jah":"ad0ae2c491c92f2078639b5948baf1c2","en":"Enter IRC Server","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"163e44","jah":"4b1c563834239b83a4461dc16e57e7df","en":"Enter Nickname","max_bytes":20,"refs":2,"ctx":"ptr"}
+{"id":"163e58","jah":"789b583fb44435c8ac3169fa9e34e2ce","en":"Room List","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"163e68","jah":"a22bff4744b0de3375beb11e25481f9e","en":"Enter Room Name","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"163e78","jah":"4e806df1cd35fc8dd5126a29e64dfed6","en":"Member List","max_bytes":16,"refs":2,"ctx":"ptr"}
+{"id":"163ec0","jah":"1dd20c4d6ec0bf48f20ef2770ccb6194","en":"<blink><font color=red>No file found.</font></blink>","max_bytes":64,"refs":1,"ctx":"ptr"}
+{"id":"163f00","jah":"362dd41990f8d7d5daed30ad9c22294a","en":"<title>History</title>\n","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"163f88","jah":"59d0f877c42e4605bee897f184ff4f2c","en":"<tr><th bgcolor=papayawhip>Title</th><th bgcolor=lightcyan>URL</th>\n","max_bytes":72,"refs":1,"ctx":"ptr"}
+{"id":"164088","jah":"0316510023431e25bf445cf9bcef34db","en":"Back</a>","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"164978","jah":"a1dfef467eb764ed1f65bbce2f917386","en":"Ota, Tokyo","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"164998","jah":"d99e9f5e89294a8bbc09d3e9f5b668b9","en":"Sega","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"1649a0","jah":"ddd43334f1ab4e9612376ee34a475e02","en":"Taro","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"1649a8","jah":"d07aef1a18344017f4d5ab3d4d8b740e","en":"Sega","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"1649b0","jah":"b222b81ffb6d8f1fc915844b1f76ba4e","en":"Taro","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"164a14","jah":"a201c8c5867c32b96a1c2ba2119368bf","en":"1-2-12 Haneda","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"164aac","jah":"2de257d2808c1960ac77a28703083004","en":"[Reading] ","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"164ac4","jah":"dee05614a1a06123c421a4bc38fc1d20","en":"[Name] ","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"164ad4","jah":"32344564ba90623ae196264870af32ab","en":"[Birthday] ","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"164af4","jah":"40bdfa5e44a3c07edea24daea9d2968f","en":"[Gender] ","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"164b10","jah":"09c8d2ca61225ba5af752a56b4006a2c","en":"[Postcode] ","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"164b54","jah":"55815913bd2a966f37b08a867e9e3bab","en":"[Phone No.] ","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"164b64","jah":"75d79128c45de013cbae309b19be1293","en":"[Preferred Account 1] ","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"164b7c","jah":"d027b8d254c2cd536adda320e1332ab9","en":"[Preferred Account 2] ","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"164b94","jah":"3f04107046b0453fa6957a1373b10310","en":"[Preferred Account 3] ","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"164c94","jah":"006b68d4c9e2ff5e65bce6bfb6ed5518","en":"Error","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"164dc0","jah":"38785218a40776ff0122b20a4d46e2d0","en":"SSL Certificate:\n%s\nIssuer: %s\nValid: %d/%d/%d - %d/%d/%d\nSignature: RSA/%dbits %s hash","max_bytes":100,"refs":1,"ctx":"ptr"}
+{"id":"165374","jah":"18e0e350cd8152c613ffe91b3f02370a","en":"Title:   %s<br>Maker:     %s<br>Version: %d.%02d<br>Files: %d (%d blocks in total)<br><br>Download this file?","max_bytes":136,"refs":1,"ctx":"ptr"}
+{"id":"1653fc","jah":"c7b85c03785f2989964c9bab7146b330","en":"Title:   %s<br>Maker:     %s<br>Version: %d.%02d<br>Files: %d (%d blocks in total)<br><br>Download these files?","max_bytes":140,"refs":1,"ctx":"ptr"}
+{"id":"16692c","jah":"be8fe679cf7301854e4ada3b65f68c0f","en":"(Game)","max_bytes":12,"refs":2,"ctx":"ptr"}
+{"id":"1669b8","jah":"e445787cdd5a7bc90f16399213247ac7","en":"  (L or R: switch info)","max_bytes":32,"refs":2,"ctx":"ptr"}
+{"id":"167010","jah":"192ff1bf9c1ffbb853e24f87b687fb41","en":"PM","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"167018","jah":"2d95b15bf1f6e230b470d7d078e0c73a","en":"AM","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"167044","jah":"6cdf193c69594e0d01fcb76e8539fa37","en":"PM","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"16704c","jah":"ad38991071a952c7cb4c8ec52cc37f64","en":"AM","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"167128","jah":"b51af804551dfcbf40330e40cca325ed","en":"--hrs --min --sec","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"167140","jah":"0c3fd30e785562b1039152a8df536c16","en":"Hour","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"1671c4","jah":"6568cf87068a004e28f9f446956684c4","en":"chi","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671c8","jah":"3f97ec8bbf23c7440a5c80a4455db0d7","en":"ko","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671cc","jah":"c01cc943eec974a879b7bcf12c47ae7e","en":"so","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671d0","jah":"b478856e6a4883b96430ba429965377b","en":"shi","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671d4","jah":"d08c21f8143b0388f99c703af3add9e3","en":"i","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1671d8","jah":"e5927f09466d9bc7e3723cc499457684","en":"ha","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671dc","jah":"d7614dc1a945e8dd2a4de253a5702769","en":"ki","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671e0","jah":"17d7247a5b6b9f217f268c3484a6f76b","en":"ku","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671e4","jah":"d086e2064b64633c817d316eb86dd8af","en":"ni","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671e8","jah":"4e7a85a6089d64cce9fdf3ad0deaf3ca","en":"ma","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671ec","jah":"dc4340449eb512f8beba091ac8f043c8","en":"no","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671f0","jah":"bd81a816009a69104ceb871bd9f1b229","en":"ri","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671f4","jah":"9a6cf9edd60be045d60a38f7b6d615f7","en":"mo","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671f8","jah":"cc9575db1e4c0b397077e2598857b738","en":"mi","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1671fc","jah":"85329da6e1f5e6e93e98934bc85386cc","en":"ra","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167200","jah":"01ea236bdb2064f392486822c45782a6","en":"se","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167204","jah":"01ed564977b9494453c4225b49612e58","en":"ta","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167208","jah":"ad8a9479ae74bc932ea15d5e91040407","en":"su","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"16720c","jah":"1b5e8e038d841d1a9aada3cb1a402031","en":"to","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167210","jah":"c251701a4859889969056cb3f2ef78d2","en":"ka","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167214","jah":"dbaad20d4e0367868ead5f42f82749d0","en":"na","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167218","jah":"ad3cab656813097956905dc34e4fc54c","en":"hi","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"16721c","jah":"d9efd58d4b366b6ee15423d091302496","en":"te","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167220","jah":"2a9cfc5170355ddf19f3834e27baac67","en":"sa","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167224","jah":"d976ed7e98c3cb78eaff3bf5a6b8705b","en":"n","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167228","jah":"2bc534ec1c865f6ee14cebdbe552fc4e","en":"tsu","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"16722c","jah":"6adf067c1ebd8aee0631163ba644076d","en":"nu","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167230","jah":"190a9bfa57f064dc54d3a2bee1942bdd","en":"fu","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167234","jah":"73170355cd1bc70b8cacb33a972fbdba","en":"A","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167238","jah":"4f2c35494e59879be0e8e895af78d04c","en":"u","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"16723c","jah":"73945857e82acfea50bd0959b925e05b","en":"e","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167240","jah":"f7838ed1cab81216fd33141271f3534c","en":"o","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167244","jah":"1a1191ab990bfa11d4ab00630eed3ee3","en":"ya","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167248","jah":"8eae3962caf57a4ef28acd5a24585068","en":"yu","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"16724c","jah":"90c0682c9ee541966507ddf15b17e833","en":"yo","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167250","jah":"16cb07a40a60551f2509369c73550c00","en":"wa","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167254","jah":"0cff8ec920ea5e6ae5cf71a4504b9fe4","en":"ho","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167258","jah":"eba47d8983e385a3f7966220965942b8","en":"he","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"16725c","jah":"cb8369696447644192d203753f5031cf","en":"\"","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167260","jah":"77b4a257e19a9154cf0ec432bf4a5f8d","en":"'","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167264","jah":"9c9436fd55fd53389f7d867f1d5cc5bb","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"167268","jah":"98a6b5158c5376dc416457dee033e58e","en":"mu","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"16726c","jah":"b911ab7749df8d52667068f70aee980d","en":"re","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167270","jah":"b0b61789ae5bc4c3aac0b654db84fc57","en":"ke","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167274","jah":"ce97fdf2e651497299ac20b18cfbc814","en":"ne","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167278","jah":"341c6beda9c0417138b6b85774b1c59f","en":"ru","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"16727c","jah":"0042b255080a82b7df93fd05737c318b","en":"me","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672bc","jah":"e2bd317163e7ae5a65f58342415b419e","en":"ro","max_bytes":4,"refs":2,"ctx":"ptr"}
+{"id":"1672c8","jah":"75919def0ced873da3beb4a2545cf51e","en":"i","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672d0","jah":"0207ce5299216261d6865caebc616c1d","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672d4","jah":"4268b98e8f18e3d0787285dcb773df0d","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672d8","jah":"556b15f4089004663cf69dc86e0b1066","en":"u","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672dc","jah":"65a5a3ac47b9be304779c47d47d37274","en":"e","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672e0","jah":"07da9a10b5ba29644b2acbcdcf174a32","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672e4","jah":"3c780fbd50b0d570b7d8bc44ad46b8c6","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672e8","jah":"831a3b608afbed0c50a7bfb32e33d599","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672ec","jah":"a1afe673e65098cb69024dfad96062cc","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"1672f0","jah":"4f5f834d6911c7e81a3627c61555cb80","en":"wo","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167310","jah":"df61fb86a053c6d52d998f5c6faeaeac","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"16731c","jah":"49414ad3949deaba8d49e24440331252","en":".","max_bytes":4,"refs":1,"ctx":"ptr"}
+{"id":"167380","jah":"0d08a80e2f8fa8b5dbdedbdb9e396976","en":"JIS Code","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"167390","jah":"b2ecc8dd27cdec0dbf938c693e7b0322","en":"SJIS Code","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1673a0","jah":"adbdd003bccb9ca656bddef4611ec136","en":"Hiragana","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1673ac","jah":"a56f7a12fac5ee0c31984bef4d08982d","en":"Katakana","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1673b8","jah":"d0600f52c01796d58491c52515276367","en":"No Conv","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"1673c0","jah":"620f33e5c385cd89a84c34fdf23a4d17","en":"Copy","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"1673c8","jah":"742506916c6cd1d067c56f129a6a02c0","en":"Paste","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"167ac8","jah":"bb3144efffb38669a31b4db1815a52d5","en":"Auto Set","max_bytes":12,"refs":2,"ctx":"ptr"}
+{"id":"167ad4","jah":"d2bdd1d85c4c3c122c6067ca252060b2","en":"Please Enter","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"167b74","jah":"641ef941a6e11af903d89aca4c7b0331","en":"Not set","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"167f00","jah":"13785e9faf54ef44d0bcc2257b1d114c","en":"<font color=\"#008800\">Connection    </font>: Non-BBA","max_bytes":64,"refs":1,"ctx":"ptr"}
+{"id":"167f4c","jah":"db4d5e8d1d7df0992c43981428e23cc5","en":"<font color=\"#008800\">Connection    </font>: Fixed IP Address","max_bytes":64,"refs":1,"ctx":"ptr"}
+{"id":"167f98","jah":"26ac36dc1413259c26420409cac5f45c","en":"<font color=\"#008800\">Connection    </font>: DHCP (<font color=\"#CC0000\">Not Connected</font>)","max_bytes":100,"refs":1,"ctx":"ptr"}
+{"id":"167ffc","jah":"40c4f7478d72d0540e4d1892d7cce2dc","en":"<font color=\"#008800\">Connection    </font>: DHCP (<font color=\"#0000CC\">Connected</font>)","max_bytes":100,"refs":1,"ctx":"ptr"}
+{"id":"168060","jah":"8bf2018e8d75893c18cf0a90bb90aac8","en":"<font color=\"#008800\">Connection    </font>: DHCP (<font color=\"#CC0000\">Disconnecting</font>)","max_bytes":100,"refs":1,"ctx":"ptr"}
+{"id":"1680c4","jah":"06a07b6eac2e92643f7d05ca33933d49","en":"IP Address    : %s","max_bytes":24,"refs":2,"ctx":"ptr"}
+{"id":"1680dc","jah":"8102c79440b10f245c022b68ba540dbc","en":"Subnet Mask   : %s","max_bytes":24,"refs":2,"ctx":"ptr"}
+{"id":"1680f4","jah":"5e182bcb491dd68cc6ba4128cb1b41a7","en":"Broadcast     : %s","max_bytes":24,"refs":2,"ctx":"ptr"}
+{"id":"16810c","jah":"aa3e626c4abc115d6df58ac9d52bb4f1","en":"Gateway       : %s","max_bytes":24,"refs":2,"ctx":"ptr"}
+{"id":"168124","jah":"c354b593ed9ee9aab0f1d58a463eae72","en":"Domain Name   : %s","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"16813c","jah":"a73afb8fe03f75c82e40c1d2a8dd19ac","en":"Proxy         : %s:%d","max_bytes":24,"refs":2,"ctx":"ptr"}
+{"id":"168154","jah":"078512f87ba7dfb7e55ed3eb06c75f1b","en":"Proxy         : -","max_bytes":24,"refs":2,"ctx":"ptr"}
+{"id":"16816c","jah":"deef0bb0374e10f3a4ed6af891e1af35","en":"DNS           : From DHCP","max_bytes":36,"refs":1,"ctx":"ptr"}
+{"id":"168190","jah":"071a72a4f9f2f1b0637c232ce0a2e3e1","en":"  Primary     : %s","max_bytes":24,"refs":2,"ctx":"ptr"}
+{"id":"1681a8","jah":"3f31f1439b634f918d90e56f1072bfde","en":"  Secondary   : %s","max_bytes":24,"refs":2,"ctx":"ptr"}
+{"id":"1681c0","jah":"d8372469b46660c671ba164d1a5a9f95","en":"DNS           : From Network Info","max_bytes":44,"refs":2,"ctx":"ptr"}
+{"id":"1681ec","jah":"e3d859a513c2011071dd39b3f29a2c9a","en":"Lease Time    : %d sec","max_bytes":28,"refs":1,"ctx":"ptr"}
+{"id":"168240","jah":"c52522e715c696cb1e6877197225158e","en":"IP Address    : -","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"168258","jah":"07e31d1569cca09946fde728403deb31","en":"Subnet Mask   : -","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"168270","jah":"1a7e816435f2cf9e5de1701b7ac56398","en":"Broadcast     : -","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"168288","jah":"c7b2e33ff688f36aacc37a95d62f23c8","en":"Gateway       : -","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"1682a0","jah":"1a88f61c33f08d5750ad9f48bf3174c5","en":"Domain Name   : -","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"1682b8","jah":"bcfa479db35bc17d94e57a76e4da90f4","en":"Lease Time    : -","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"168a6c","jah":"03948cabbb850e8ef442e0034c1a8db9","en":"0123456789","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"2cb986","jah":"abb200c6fa3d31a0d4532d3f0b066372","max_bytes":8,"refs":2,"ctx":"ptr"}
+{"id":"2d8cc8","jah":"0c10c58958480cfde19aba9feee59a5e","en":"Cf","max_bytes":7,"refs":1,"ctx":"ptr"}
+{"id":"35c120","jah":"b7ab5ef9ac4a86c913ac878f346d09d3","en":"5ARK:adxt_obj","max_bytes":20,"refs":1,"ctx":"ptr"}

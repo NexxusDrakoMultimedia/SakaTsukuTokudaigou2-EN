@@ -1,0 +1,53 @@
+== WRAP before / after  ( MEETING.BIN )
+8c2de334  64b3  mov r11,r4                                   | 8c2de334  64cd  extu.w r12,r4
+8c2de336  e03c  mov #60,r0                                   | 8c2de336  65e3  mov r14,r5
+8c2de338  e300  mov #0,r3                                    | 8c2de338  d305  mov.l @(0x8c2de350),r3    ; = 0x8c13c100
+8c2de33a  02ec  mov.b @(r0,r14),r2                           | 8c2de33a  430b  jsr @r3
+8c2de33c  7401  add #1,r4                                    | 8c2de33c  66a3  mov r10,r6
+8c2de33e  3347  cmp/gt r4,r3                                 | 8c2de33e  2008  tst r0,r0
+8c2de340  72ff  add #-1,r2                                   | 8c2de340  891a  bt 0x8c2de378
+8c2de342  343e  addc r3,r4                                   | 8c2de342  e03f  mov #63,r0
+8c2de344  4421  shar r4                                      | 8c2de344  02ec  mov.b @(r0,r14),r2
+8c2de346  3427  cmp/gt r2,r4                                 | 8c2de346  e04a  mov #74,r0
+8c2de348  8b06  bf 0x8c2de358                                | 8c2de348  0aed  mov.w @(r0,r14),r10
+8c2de34a  e03f  mov #63,r0                                   | 8c2de34a  382c  add r2,r8
+8c2de34c  02ec  mov.b @(r0,r14),r2                           | 8c2de34c  a014  bra 0x8c2de378
+8c2de34e  e04a  mov #74,r0                                   | 8c2de34e  6bd3  mov r13,r11
+8c2de350  0aed  mov.w @(r0,r14),r10                          | 8c2de350  c100  mov.w r0,@(0,gbr)
+8c2de352  382c  add r2,r8                                    | 8c2de352  8c13  .word 0x8c13
+8c2de354  a010  bra 0x8c2de378                               | 8c2de354  0009  nop
+8c2de356  6bd3  mov r13,r11                                  | 8c2de356  0009  nop
+8c2de358  3420  cmp/eq r2,r4                                 | 8c2de358  0009  nop
+8c2de35a  8b0d  bf 0x8c2de378                                | 8c2de35a  0009  nop
+8c2de35c  e045  mov #69,r0                                   | 8c2de35c  0009  nop
+8c2de35e  02ec  mov.b @(r0,r14),r2                           | 8c2de35e  0009  nop
+8c2de360  2228  tst r2,r2                                    | 8c2de360  0009  nop
+8c2de362  8b09  bf 0x8c2de378                                | 8c2de362  0009  nop
+8c2de364  926f  mov.w @(0x8c2de446),r2    ; = 0x4000 (1638   | 8c2de364  0009  nop
+8c2de366  63cd  extu.w r12,r3                                | 8c2de366  0009  nop
+8c2de368  2328  tst r2,r3                                    | 8c2de368  0009  nop
+8c2de36a  8b05  bf 0x8c2de378                                | 8c2de36a  0009  nop
+8c2de36c  e03f  mov #63,r0                                   | 8c2de36c  0009  nop
+8c2de36e  6bd3  mov r13,r11                                  | 8c2de36e  0009  nop
+8c2de370  00ec  mov.b @(r0,r14),r0                           | 8c2de370  0009  nop
+8c2de372  380c  add r0,r8                                    | 8c2de372  0009  nop
+8c2de374  e04a  mov #74,r0                                   | 8c2de374  0009  nop
+8c2de376  0aed  mov.w @(r0,r14),r10                          | 8c2de376  0009  nop
+== ADV before / after  ( MEETING.BIN )
+8c2de48a  6ccd  extu.w r12,r12                               | 8c2de48a  6ccd  extu.w r12,r12
+8c2de48c  2c98  tst r9,r12                                   | 8c2de48c  64c3  mov r12,r4
+8c2de48e  8908  bt 0x8c2de4a2                                | 8c2de48e  d304  mov.l @(0x8c2de4a0),r3    ; = 0x8c13c000
+8c2de490  e03e  mov #62,r0                                   | 8c2de490  430b  jsr @r3
+8c2de492  02ec  mov.b @(r0,r14),r2                           | 8c2de492  65e3  mov r14,r5
+8c2de494  e300  mov #0,r3                                    | 8c2de494  3a0c  add r0,r10
+8c2de496  3327  cmp/gt r2,r3                                 | 8c2de496  a008  bra 0x8c2de4aa
+8c2de498  323e  addc r3,r2                                   | 8c2de498  7b01  add #1,r11
+8c2de49a  4221  shar r2                                      | 8c2de49a  0009  nop
+8c2de49c  3a2c  add r2,r10                                   | 8c2de49c  0009  nop
+8c2de49e  a004  bra 0x8c2de4aa                               | 8c2de49e  0009  nop
+8c2de4a0  7b01  add #1,r11                                   | 8c2de4a0  c000  mov.b r0,@(0,gbr)
+8c2de4a2  e03e  mov #62,r0                                   | 8c2de4a2  8c13  .word 0x8c13
+8c2de4a4  03ec  mov.b @(r0,r14),r3                           | 8c2de4a4  0009  nop
+8c2de4a6  7b02  add #2,r11                                   | 8c2de4a6  0009  nop
+8c2de4a8  3a3c  add r3,r10                                   | 8c2de4a8  0009  nop
+changed bytes: 95 range 0x8c2de334 .. 0x8c2de4a9

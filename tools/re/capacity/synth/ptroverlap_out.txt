@@ -1,0 +1,4 @@
+{'strings': 119946, 'overlap': 1, 'overlap_movable': 0, 'overlap_orphan': 1}
+overlays affected 1 top [('FLOW_PRG/NEWS_OP.BIN', 1)]
+('FLOW_PRG/NEWS_OP.BIN', '0x28f21', 7, ['0x28f20'], b'\x8f\x8f\x8c\x96')
+ids written: 1

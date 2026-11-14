@@ -1,0 +1,9 @@
+scale 1.00: fixed strings 37960, overflowing 18673 (2757 distinct JP texts), EN bytes 448223
+   by category (overflowing/fixed total): {'label': '443/2103', 'name': '16021/32592', 'numunit': '26/96', 'place': '710/1492', 'prose_event': '0/1', 'prose_meeting': '0/2', 'prose_news': '1/2', 'prose_other': '89/118', 'prose_training': '1383/1554'}
+   top overlays: [('TRAINING.BIN', 1386), ('SPF_READ.BIN', 1023), ('BPMATCH.BIN', 1015), ('DMCLBEDT.BIN', 1015), ('VTRLOAD.BIN', 1015), ('AUTOSAVE.BIN', 1013)]
+scale 0.85: fixed strings 37960, overflowing 6674 (1418 distinct JP texts), EN bytes 166721
+   by category (overflowing/fixed total): {'label': '312/2103', 'name': '5295/32592', 'numunit': '17/96', 'place': '341/1492', 'prose_event': '0/1', 'prose_meeting': '0/2', 'prose_news': '0/2', 'prose_other': '54/118', 'prose_training': '655/1554'}
+   top overlays: [('TRAINING.BIN', 657), ('CSAVE3.BIN', 521), ('NENREP.BIN', 384), ('SPF_READ.BIN', 325), ('AUTOSAVE.BIN', 323), ('BACKUP.BIN', 323)]
+scale 0.80: fixed strings 37960, overflowing 3841 (992 distinct JP texts), EN bytes 106255
+   by category (overflowing/fixed total): {'label': '284/2103', 'name': '2672/32592', 'numunit': '14/96', 'place': '314/1492', 'prose_event': '0/1', 'prose_meeting': '0/2', 'prose_news': '0/2', 'prose_other': '38/118', 'prose_training': '519/1554'}
+   top overlays: [('TRAINING.BIN', 521), ('NENREP.BIN', 348), ('CSAVE3.BIN', 266), ('AUTOSAVE.BIN', 167), ('SONGSAVE.BIN', 166), ('FREELOAD.BIN', 165)]

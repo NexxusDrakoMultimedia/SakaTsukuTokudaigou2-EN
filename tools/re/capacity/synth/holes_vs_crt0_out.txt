@@ -1,0 +1,15 @@
+0x8c1fe000-0x8c226000  163840 B:  163840 B inside crt0 BSS clear,       0 B survive
+0x8c13d000-0x8c158000  110592 B:       0 B inside crt0 BSS clear,  110592 B survive
+0x8c1cf000-0x8c1e4000   86016 B:   86016 B inside crt0 BSS clear,       0 B survive
+0x8c1e7000-0x8c1f7000   65536 B:   65536 B inside crt0 BSS clear,       0 B survive
+0x8c18a000-0x8c192000   32768 B:   32768 B inside crt0 BSS clear,       0 B survive
+0x8c17f000-0x8c186000   28672 B:   28672 B inside crt0 BSS clear,       0 B survive
+0x8c199000-0x8c19e000   20480 B:   20480 B inside crt0 BSS clear,       0 B survive
+0x8c1b9000-0x8c1be000   20480 B:   20480 B inside crt0 BSS clear,       0 B survive
+0x8c129000-0x8c12b000    8192 B:       0 B inside crt0 BSS clear,    8192 B survive
+0x8c11a000-0x8c11b000    4096 B:       0 B inside crt0 BSS clear,    4096 B survive
+0x8c173000-0x8c174000    4096 B:    4096 B inside crt0 BSS clear,       0 B survive
+0x8c179000-0x8c17a000    4096 B:    4096 B inside crt0 BSS clear,       0 B survive
+0x8c17d000-0x8c17e000    4096 B:    4096 B inside crt0 BSS clear,       0 B survive
+0x8c1b0000-0x8c1b1000    4096 B:    4096 B inside crt0 BSS clear,       0 B survive
+memmap holes 557056 B; surviving (not zero-filled by crt0) 122880 B; cleared 434176 B (77.9 %)

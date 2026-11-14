@@ -1,0 +1,42 @@
+0|@Y/[Change Basic Policy]@|You can change the player layout, and select the club's "System", "Tactics", "Midfield Defence" and "DF Type". You can also designate the player who takes place kicks.
+1|@Y/[Chants]@|Compose chants and assign them to the club or the national team. The number of songs you can assign depends on your number of supporters, up to 3 each. You can also exchange data with friends by e-mail or memory card.
+2|@O/[Goal Area]@|The area in front of the goal, 5.5 metres deep and 18.3 metres wide.
+3|@O/[Set Piece]@|A kick awarded for a foul by the opposition, which can be taken freely. The defending side must stand 10 yards from the kicker. This means free kicks and corner kicks.
+4|@O/[Cross]@|When an attacking player sends a pass from the touchline side into the area in front of goal. If the pass is accurate, it is more likely to lead to a goal.
+5|@Y/[Sign Overseas Players]@|Sign players with foreign nationality. The quality and number of players on the list change depending on your current scouts. Players are more likely to appear if you have a scout from the same country as the player you want, but they may not appear depending on the club's record, years of history or the current manager. The list is updated in the first half of Weeks 1 and 3.
+6|@O/[Points System]@|A win in 90 minutes earns the team 3 points, a win by V-goal 2 points, and a draw 1 point. The team with the most points in each stage becomes champion.
+7|@O/[Ground Pass]@|A pass sent rolling along the ground.
+8|@Y/[Commentary Messages]@|You can set whether the commentary messages shown during a match are displayed or not.|"ON" displays them.|"OFF" hides them.|It is normally "ON".
+9|@Y/[5-3-2]@|The youth team trains to adapt to the 5-3-2 system. If it works well, you can expect a solid defence that allows no goals. However, with few midfielders, it is better to use tactics that make good use of the full-backs in attack.
+10|@O/[Goal Mouth]@|The goal itself: the inside of the frame, 2.44 m high and 7.32 m wide. It is sometimes called "the frame".
+11|@Y/[Height]@|You can set the height from 150 to 199 centimetres.
+12|@O/[Switch of Play]@|Sending the ball to the opposite side, where the defence is thin, to change the flow of attack. Using the whole pitch can reveal gaps in the opposing defence. However, if it is not done with quick passing, there is a risk of interception.
+13|@Y/[Special Conditioning]@|Special conditioning greatly raises condition. It is useful when there is a match you absolutely must win that turn, but fatigue also rises sharply, so take care with tiredness.
+14|@O/[Man-to-Man Marking]@|A defensive method of marking a specific opponent one-on-one. Defenders often mark the opposing team's striker. It is also called "man marking".
+15|@Y/[GK Ranking]@|View rankings of goalkeepers at clubs around the world. Left/Right selects the year to view; Up/Down scrolls the ranked players in that direction and shows players that are off screen.
+16|@Y/[Advance Schedule]@|Ends the current turn and moves on to the next. If a match is scheduled this turn, the match is played first, then the game moves on to the next turn. One turn is half a week.
+17|@Y/[GK]@|Train to improve your abilities as a goalkeeper.
+18|@Y/[Selling Points]@|Have the players state their own selling points. Players who don't feel they have one will not say anything. You can also hear from them here when something good has happened.
+19|@Y/[Screen Saver]@|You can set the time before the screen saver starts.|"1 min" starts after 1 minute.|"3 min" starts after 3 minutes.|"5 min" starts after 5 minutes.|It is normally "3 min".
+20|@K/[When Injuries Are Likely]@|If players seem very tired, make sure to give them plenty of rest. The risk of injury also varies with the state of the training ground. Grass is of course kinder to players than dirt, and a rough pitch means more injuries. Please watch the training ground too.
+21|@O/System@|  3-4-3|  3-5-2|  3-6-1|  4-3-3|  4-4-2|  4-5-1|  5-3-2|  5-4-1||
+22|@Y/[Manager's Team Analysis]@|Ask the manager for an overall evaluation of your club, plus an assessment of and advice on tactics and DF type.
+23|@Y/[Player Names]@|You can set whether player names are displayed during a match.|"ON" shows player names.|"OFF" hides them.|It is normally "ON".
+24|@Y/[Rest]@|Rest only selected players to recover built-up fatigue. The other players carry out the specified training.
+25|@Y/[3-4-3]@|Train to improve understanding of 3-4-3. Players become able to make the 3-4-3 system work effectively.
+26|@Y/[Supporters' Club]@|Shows this month's change in Supporters' Club membership. The number of supporters rises and falls with the annual fee, advertising budget, the club's popularity and this month's results. The number of supporters affects attendance, TV ratings, Supporters' Club commands and more.
+27|@Y/[Great Players Screen]@|Here you can check the great footballers, famous around the world, whom our club has signed. Signed players are divided by ability into "FANTASTIC PLAYER" and "GREAT PLAYER"; Up/Down switches the display. Left/Right scrolls the list in that direction.
+28|@Y/[4-3-3]@|Changes the system used in matches to 4-3-3. If it works well, it becomes a system that is strong in both attack and defence.
+29|@Y/[Ability]@|Select a position and the traits linked to it to determine the player's abilities. There are 3 types of trait: strengths, personality and special skills, and their combination determines the player's basic abilities.
+30|@Y/[Left Side Attack]@|The satellite team trains to adapt to the left side attack tactic. If it works well, you will be able to exploit the space on the left flank and build attacks.
+31|@Y/[National Team Ground]@|The place where the national team trains. It is used for the practical training, tactics checks and adjustments needed just before a match. The national team ground can only be entered when there is an international match.
+32|@O/[Delay]@|Making the opposition's attack take longer, buying time for your own defence to organise.
+33|@Y/[Individual Training]@|Let each player train as they like. Players practise to play their strongest position even better.
+34|@K/[Tips for Developing Defensive MFs]@|The defensive MF is the link between attack and defence. In defence, interceptions nip attacks in the bud; in attack, it is good to train passing and strength. Defensive MFs also need a higher work rate than other positions. Be sure to train their endurance well.
+35|@O/[Onside]@|A position outside the offside area where a player can legitimately play.
+36|@K/[Choosing a System]@|Every system has its pros and cons, so none can be called simply the best; choose freely. Decide on a system considering the tactics you use and your squad. Players also have strengths and weaknesses, so if understanding does not improve, it may be worth boldly changing tactics.
+37|@Y/[Personnel News]@|Reports the main personnel moves around the world this month. Transfers of players from one club to another are listed in order of newsworthiness. Of course, many more moves take place than those listed here. It is a useful reference for what kinds of players exist in the world.
+38|@Y/[Choose Squad Number]@|Decide a player's squad number. Select the player with the direction buttons, then choose the number you want from 1 to 29. You cannot take the number of a player already in the club.
+39|@Y/[5-3-2]@|Train to improve understanding of 5-3-2. Players become able to make the 5-3-2 system work effectively.
+40|@O/[Through Ball]@|A pass played in behind the last line of defence, with a high chance of leading to a goal. Because it goes behind the line, the receiver is offside if they run too early. The timing between the receiver and the passer is important.
+41|  Target Man|  Holding Mid|  Libero||||||||

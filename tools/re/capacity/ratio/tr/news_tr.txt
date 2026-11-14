@@ -1,0 +1,111 @@
+358|Now for the results. It has been a closely fought @P/J2@, but @Y/#tk08#@ have secured their ticket to J1.
+359|A winning streak at this stage is a big deal. #tk00# have shown no sign of slowing down.
+360|@Y/Japan@ stayed steady in the final and have at last won the @P/International Cup@. This title should be a great boost to their confidence.
+361|Now for news of overseas leagues. This month we bring you the @Y/Brazilian League@, where outstanding individual skill is on show.
+362|@M/Japan@ have suddenly collapsed here. They were beaten by a huge margin of #tk05# goals against @Y/#tk04#@.
+363|@Y/Japan@ are winning steadily against @Y/#tk04#@. They are holding their own against the best in the world.
+364|It must be hard for @Y/#tk03#@, with rivals on their heels. The top sides are evenly matched, and no one can tell who will reach the final until the very end.
+365|Tournament results not entered. match = %d
+366|Here are the standings after today's results. Without waiting for the last round, @Y/#tk00#@ have secured first place and qualification.
+367|As for today's results, @Y/#tk01#@ have been defeated.
+368|Only a few matches remain. @Y/#tk00#@ have slipped further down the table and are wandering around the bottom.
+369|Today's results settle the 12 clubs, apart from the seeds, that advance to round 2. @Y/#tk00#@ have also made it through.
+370|Here are the standings after today's results. @Y/#tk00#@ have secured qualification.
+371|We are nearing the middle of the season, and everything is going to plan for @Y/#tk00#@. At this rate, the finish should be quite easy.
+372|Now for the results. @P/#tk04#@ are nearing the middle of the season, but @M/#tk05#@ have been defeated.
+373|This year, #tk02# players tied at the top have given us all kinds of great performances, and the matches have been of a high standard.
+374|The ability of #tk02# is now being questioned. Neither mentally nor physically do they seem able to keep up with the local level.
+375|#tk00#, now the pride of Asia, are out, but they can be proud of this result. See you again next time.
+376|A match was played between @M/Japan@ and @Y/#tk02#@. They fought bravely, but sadly @M/Japan@ lost.
+377|@P/J1 #tk01#@ has finished all its fixtures. It was a close contest, a fitting end. See you again.
+378|It was a complete defeat for @M/#tk03#@. They finished second, but the gap in ability seems to have been even bigger.
+379|@Y/#tk01#@ seem to be in good form. I hope they treasure this momentum and aim even higher.
+380|Every club was deadly serious about the place in the final tournament, but #tk00# shone with a brave showing. See you again next time.
+381|@Y/#tk00#@ won the @P/European Challenge League@, and the MVP is @Y/#tk03#@. @M/Japan@ ended with a disappointing result.
+382|Today @P/#tk05#@ has finished. Looking back over all the matches so far, what are your impressions?
+383|Current leaders @Y/#tk03#@ have already pulled well clear of the other teams and are heading for a runaway win.
+384|@Y/#tk03#@ and @M/#tk04#@: with almost no gap in ability, it was a close match, so the frustration must be even greater.
+385|In today's @P/pre-season match@, @Y/#tk03#@ against @Y/#tk02#@ ended in a draw.
+386|It was very close, but @Y/Japan U22@ edged out @M/#tk04#@. Will this tenacity pay off in the final?
+387|Here are the standings from today's results. @Y/#tk00#@, who made a flawless start, have dropped down the table a little.
+388|#tk00# have got through round 1. It will be interesting to see how far up they can climb. See you again next time.
+389|This is the J.League Best XI for month #tk00#. As expected, the lone striker is a player with great scoring ability.
+390|It was very close, but @Y/Japan@ edged out @Y/#tk04#@. Will this tenacity pay off in the final?
+391|@Y/#tk00#@ won, but together with earlier results they did not make the final. A bitter result with the final so close.
+392|@Y/#tk00#@ stayed steady in the final and took the title without any scares. This title should be a great boost to their confidence.
+393|The players at the top are closely matched, with #tk02# tied for first. The goal-scoring race has also heated up.
+394|It must be hard for @Y/#tk03#@, with rivals on their heels. The top sides are evenly matched, and the champions may not be known until the very end.
+395|All @P/J2 League@ matches are over. Please see the final standings. Looking back on this tournament, what are your thoughts?
+396|While the @P/Platinum League@ battled over the standings, the champions @Y/#tk01#@ played with plenty to spare.
+397|The form of #tk03# place's @Y/#tk01#@ is not improving. The club may not be getting the best out of them.
+398|Here are the standings from today's results. @Y/#tk00#@ have dropped slightly from the title race.
+399|At last, the @P/#tk00#@ final. @Y/#tk01#@ beat @M/#tk02#@ to take the title.
+400|Today there were many matches worth watching, with some superb play. Every club gave everything.
+401|It is undeniable that the tension of the title race is gone, but some clubs are now getting going, and there are some interesting matches.
+402|Rating ranking update finished
+403|Here are the standings from today's results. The champions are already decided, but the battle for second place and below goes on.
+404|Now for the results. Again today every club gave their all, and it seems there were fierce battles.
+405|In today's matches, every club thought only of giving their all, and there were many matches worth watching.
+406|Their form really seemed to be at its worst. I hope they win even one of the remaining matches so it doesn't drag on.
+407|CHK_CMP_RES_RES_ANY (anything OK)
+408|This is a time when positions change a lot. A few wins are enough to reach the top, so there should be almost no problem.
+409|The title is already decided, but every club's momentum has not faded. They seem to be focused on each match.
+410|Japan are on the rise and can be called the top title favourites. But don't let your guard down.
+411|The other teams show no sign of losing heart, and fierce battles are being fought as each tries to finish even one place higher.
+412|Their physical potential and ability are rated highly, and they seem to fully meet the level of the study-abroad destination.|.
+413|#tk00#, it seems, can work together to some extent with anyone on the team.
+414|Qualification was settled before the last round, but what will the @Y/top 4 teams@ that advance to the finals do next year?
+415|@Y/#tk01#@ seem to be out of form. Results will come if they concentrate, so I hope they keep trying to the end.
+416|#tk00# are still alive in round 2, and I think they can go further. See you again next time.
+417|Their attack is average, but they have especially good defence. They look able to play as a defensive MF who also builds attacks smoothly.
+418|@Y/#tk00#@, who joined the title race late on, are not far behind the champions. They look set to do well in the next tournament.
+419|@M/Japan@ and @Y/#tk04#@: with almost no gap in ability, it was a close match, so the frustration must be even greater.
+556|The team's understanding of tactics is low, but @Y/%s@ is outstanding as a winger and is making the right side attack work smoothly.
+557|@Y/#tk20#@ is very good at GK skills and rushing out, and puts great pressure on opposing forwards. A goalkeeper you can rely on.
+558|@Y/#tk20#@ has high defensive skill and kicking accuracy. Looks set to be very useful linking up with attack.
+559|Improves your abilities as a @Y/Striker@. Builds concentration on goal and finishing ability.
+560|@Y/#tk20#@ has high running ability but a low understanding of the winger role. Do not expect overlaps.
+561|Decide the team tactic to use in this match. It is currently @Y/#tk21#@.
+562|Training results for @Y/#tk20#@. They understand the 4-3-3 system quite well, and it seems to be working.
+563|The team is coming to understand the tactics, and @Y/%s@ has reliable pace, so attacks down the right are going smoothly.
+564|@Y/%s@ is the focal point up front, though inexperienced, but the team's understanding of the tactics is far too low for it to work.
+565|Training results for @Y/#tk20#@. The 5-3-2 system, which looks for chances from defence, is not working well.
+566|@Y/#tk20#@ has very high shooting skill and a fair grasp of the striker role, so should become the club's source of goals.
+567|Improves your abilities as a @Y/Dribbler@. Builds the dribbling skill and ball retention needed to break through and create scoring chances.
+568|@Y/#tk20#@ has fair kicking accuracy but no on-the-spot judgement at all. Still needs plenty of training as a playmaker.
+569|@Y/#tk20#@ has world-class scoring ability, but a poor understanding of post play drags down this style.
+570|@Y/#tk20#@ has hopeless kicking accuracy, but standard on-the-spot judgement. Can just about manage to make plays.
+571|@Y/#tk20#@ has high shooting skill and can be expected to score a fair number. With training, they can aim even higher.
+572|Improves your abilities as a @Y/Holding Midfielder@. Builds the ability to link defence and attack and be the starting point for both.
+573|Improves your abilities as a @Y/Full-Back@. Builds the running and passing ability to overlap quickly from deep when attacking.
+574|@Y/#tk20#@ has phenomenal scoring ability and a high understanding of post play, and is making it work superbly.
+575|Winger @Y/%s@ is average, and the team is coming to understand the tactics, so the left side attack is just about working.
+576|Carries out the training menu you have set. After training, each player's results are reported.
+577|A forward with very high finishing ability. He won't be easy to stop.
+578|A system that thickens the midfield to create chances and aims for the second line to join the attack. Zonal pressing can also be used effectively.
+579|A player who doesn't handle pressure well, but has one of the best shots in the world. His finishing looks promising.
+580|They are injured. They will not be able to move as they normally do.
+581|Improves your interception skill. Builds the positioning and judgement to cut off the opposition's passing lanes effectively.
+582|A defender with plenty of ability. It doesn't look easy to beat his defending.
+583|A player with phenomenal stamina. From now, they could give everything without resting for a single second.
+584|Carries out the set training. Is that all right?
+585|Practise a system built on solid defence, leaving only one forward devoted to attack.
+586|Information on the opposing team has not been gathered yet. It will be gathered by the time the next match is played, so please wait until then.
+587|A more defensive version of the 3-5-2 system. It is still mainly based on attacking down the flanks, but puts more emphasis on defence.
+588|Improves explosive speed. Builds quickness of action and running ability to gain the upper hand in every situation.
+589|Keeps a lone striker pinned up front. With so few players, you need a forward with the finishing to convert fewer chances.
+590|Plays normal midfield defence. Compared with zonal pressing, it puts less strain on the players.
+591|Strengthens the whole club's attack. All players train to raise their attacking ability.
+592|They are very good at applying a press in zonal pressing, but most of the players lack the stamina to do it during a match.
+593|Training for a slightly attacking GK who rushes out at the right moment against an opponent's cross so they cannot get a shot off.
+594|The central players are skilled at dribbling and passing, and the team fully understands the tactics, so they can break through the middle brilliantly.
+595|Improves heading ability. Builds the positioning and timing to win the battle for the air in attack and defence.
+596|Practises for a variety of set piece situations and improves scoring from set pieces.
+597|Practises a system that thickens the midfield to create chances and aims for the second line to join the attack.
+598|No special tactics are specified. Attacks in a balanced way.
+599|A very attacking MF type. Can attack effectively through the centre and down the flanks. However, the drop in defensive strength in midfield is undeniable.
+600|An MF with plenty of ability. Stops the opposition's attacks in midfield and reliably links up with attack.
+601|You lead on goals, but the flow of the match is completely with the opposition. At this rate, they may catch up.
+602|@Y/#tk20#@ has high defensive skill and standard kicking accuracy. Doing well to stop the enemy's advance in midfield.
+603|Cancels training and rests the players. Restores their fatigue and prevents injuries before they happen.
+604|A defensive tactic using a sweeper to fill gaps in defensive space and strengthen the defence. Needs a DF with high defensive ability.

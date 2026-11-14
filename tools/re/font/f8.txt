@@ -1,0 +1,158 @@
+== refs to 8c22837c
+  from 8c15e77a WRITE
+  from 8c15e850 DATA
+  from 8c15ece2 READ
+  from 8c15ed58 DATA
+  from 8c15ea0c READ
+  from 8c15ea84 DATA
+== refs to 8c228380
+  from 8c15e784 WRITE
+  from 8c15e854 DATA
+  from 8c15ed64 READ
+  from 8c15ee9c DATA
+  from 8c15ea90 READ
+  from 8c15ebec DATA
+== refs to 8c228378
+  from 8c15e772 WRITE
+  from 8c15e84c DATA
+  from 8c15ed66 READ
+  from 8c15eea0 DATA
+  from 8c15ea92 READ
+  from 8c15ebf0 DATA
+== refs to 8c22835c
+  from 8c15e758 WRITE
+  from 8c15e786 READ
+  from 8c15e83c DATA
+  from 8c15e80c READ
+
+//////// FUN_8c15e72c @ 8c15e72c body 8c15e72c-8c15e79b
+
+void FUN_8c15e72c(void)
+
+{
+  undefined4 *puVar1;
+  undefined *puVar2;
+  undefined *puVar3;
+  undefined *puVar4;
+  undefined *puVar5;
+  undefined *puVar6;
+  undefined2 *puVar7;
+  undefined2 *puVar8;
+  
+  puVar1 = DAT_8c15e830;
+  puVar8 = (undefined2 *)(PTR_DAT_8c15e834 + DAT_8c15e820);
+  for (puVar7 = (undefined2 *)PTR_DAT_8c15e834; puVar7 < puVar8; puVar7 = puVar7 + 1) {
+    *puVar7 = 0;
+  }
+  *PTR_DAT_8c15e838 = 0;
+  FUN_8c15eb12();
+  puVar3 = PTR_DAT_8c15e840;
+  *(undefined4 *)PTR_DAT_8c15e83c = *puVar1;
+  puVar2 = PTR_DAT_8c15e844;
+  *(undefined4 *)puVar3 = puVar1[1];
+  puVar4 = PTR_DAT_8c15e848;
+  *(undefined4 *)puVar2 = puVar1[2];
+  puVar5 = PTR_DAT_8c15e850;
+  *(undefined4 *)puVar4 = puVar1[3];
+  *(int *)PTR_DAT_8c15e84c = *(int *)puVar2 + (int)puVar1;
+  puVar6 = PTR_DAT_8c15e854;
+  *(int *)puVar5 = *(int *)puVar4 + (int)puVar1;
+  puVar4 = PTR_s_number_of_fonts__d_8c15e858;
+  puVar2 = PTR_DAT_8c15e83c;
+  *(int *)puVar6 = (int)puVar1 + *(int *)puVar3;
+  (*(code *)PTR_FUN_8c15e85c)(0x16,puVar4,*(undefined4 *)puVar2);
+  return;
+}
+
+
+-- callers:
+   8c160290
+   8c160364
+   8c1593a8
+
+//////// FUN_8c15eca4 @ 8c15eca4 body 8c15eca4-8c15ee75
+
+/* WARNING: Removing unreachable block (ram,0x8c15ee18) */
+/* WARNING: Removing unreachable block (ram,0x8c15edaa) */
+/* WARNING: Removing unreachable block (ram,0x8c15edde) */
+/* WARNING: Removing unreachable block (ram,0x8c15ee4c) */
+
+void FUN_8c15eca4(int param_1,uint param_2)
+
+{
+  undefined2 *puVar1;
+  undefined2 *puVar2;
+  byte *pbVar3;
+  byte *pbVar4;
+  undefined2 *puVar5;
+  int iVar6;
+  int iVar7;
+  short *psVar8;
+  short *psVar9;
+  
+  pbVar4 = PTR_DAT_8c15ed54;
+  psVar8 = (short *)PTR_DAT_8c15ed50;
+  if ((param_2 & 0xffff & DAT_8c15ed48) == 0) {
+    (*(code *)PTR_FUN_8c15eea4)
+              (PTR_DAT_8c15ed54,
+               *(int *)(*(int *)PTR_DAT_8c15ee9c + (param_2 & 0xffff) * 4) +
+               *(int *)PTR_DAT_8c15eea0);
+  }
+  else {
+    param_2 = param_2 & (int)DAT_8c15ed42;
+    if ((int)(param_2 & 0xffff) < (int)DAT_8c15ed44) {
+      param_2 = param_2 - 0x20;
+    }
+    else {
+      param_2 = param_2 - 0x40;
+    }
+    iVar6 = 0x18;
+    puVar1 = (undefined2 *)((param_2 & 0xffff) * 0x90 + *(int *)PTR_DAT_8c15ed58);
+    puVar5 = (undefined2 *)PTR_DAT_8c15ed54;
+    do {
+      *puVar5 = *puVar1;
+      puVar5[1] = puVar1[1];
+      puVar5[2] = puVar1[2];
+      puVar5[6] = puVar1[3];
+      puVar5[7] = puVar1[4];
+      puVar5[8] = puVar1[5];
+      iVar6 = iVar6 + -3;
+      puVar5[0xc] = puVar1[6];
+      puVar2 = puVar1 + 8;
+      puVar5[0xd] = puVar1[7];
+      puVar1 = puVar1 + 9;
+      puVar5[0xe] = *puVar2;
+      puVar5 = puVar5 + 0x12;
+    } while (iVar6 != 0);
+  }
+  iVar6 = 0xc;
+  do {
+    iVar7 = 3;
+    do {
+      pbVar3 = pbVar4;
+      *(ushort *)(*psVar8 * 2 + param_1) =
+           (ushort)((*pbVar3 & 0xf) << 8) | (ushort)pbVar3[0xc] << 0xc |
+           (ushort)((int)(uint)*pbVar3 >> 4) | pbVar3[0xc] & 0xf0;
+      *(ushort *)(psVar8[1] * 2 + param_1) =
+           (ushort)((pbVar3[1] & 0xf) << 8) | (ushort)pbVar3[0xd] << 0xc |
+           (ushort)((int)(uint)pbVar3[1] >> 4) | pbVar3[0xd] & 0xf0;
+      psVar9 = psVar8 + 3;
+      *(ushort *)(psVar8[2] * 2 + param_1) =
+           (ushort)((pbVar3[2] & 0xf) << 8) | (ushort)pbVar3[0xe] << 0xc |
+           (ushort)((int)(uint)pbVar3[2] >> 4) | pbVar3[0xe] & 0xf0;
+      psVar8 = psVar8 + 4;
+      iVar7 = iVar7 + -1;
+      *(ushort *)(*psVar9 * 2 + param_1) =
+           (ushort)((pbVar3[3] & 0xf) << 8) | (ushort)pbVar3[0xf] << 0xc |
+           (ushort)((int)(uint)pbVar3[3] >> 4) | pbVar3[0xf] & 0xf0;
+      pbVar4 = pbVar3 + 4;
+    } while (iVar7 != 0);
+    iVar6 = iVar6 + -1;
+    pbVar4 = pbVar3 + 0x10;
+  } while (iVar6 != 0);
+  return;
+}
+
+
+-- callers:
+   8c15e914

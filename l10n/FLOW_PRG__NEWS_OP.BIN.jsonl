@@ -1,0 +1,590 @@
+{"l10n":1,"kind":"main","style":"compact","n":589,"final_newline":true,"src":"FLOW_PRG/NEWS_OP.BIN","ctx":["orphan (no pointer)"]}
+{"id":"26304","jah":"1ad89cf5a40f7695f41005befe9503d9","max_bytes":11,"refs":1,"ctx":"ptr@26320"}
+{"id":"2673c","jah":"c6b1e25b7eb146c690ad1e5e22516d34","max_bytes":12,"refs":1,"ctx":"ptr@26758"}
+{"id":"26e8c","jah":"406ba02f76c02176f4e2670330089b48","max_bytes":20,"refs":1,"ctx":"ptr@26ea8"}
+{"id":"28f00","jah":"0e1aa0371c3ec434f1451af518da3a24","max_bytes":20,"refs":1,"ctx":"ptr@28f20"}
+{"id":"28f21","jah":"9cac76bd5936464114adc11137764a3b","max_bytes":7,"ctx":0,"orphan":true}
+{"id":"2976c","jah":"686fb48521c688ee47f1dccffa47772e","max_bytes":12,"refs":1,"ctx":"ptr@29788"}
+{"id":"2b394","jah":"fe61c9b5e82e419f1c5571708cef06f4","max_bytes":5,"refs":1,"ctx":"ptr@2b3b0"}
+{"id":"2b850","jah":"6168e951235d742e212f7491734e2bc0","max_bytes":20,"refs":1,"ctx":"ptr@2b86c"}
+{"id":"2b940","jah":"10091d39ad3d772927ef1261651e767b","max_bytes":20,"refs":1,"ctx":"ptr@2b95c"}
+{"id":"2ba30","jah":"919f1187b0301f39bf8d0e4118060fcb","max_bytes":20,"refs":1,"ctx":"ptr@2ba4c"}
+{"id":"2bb50","jah":"22ae3259148280f3a904c5cf38156a98","max_bytes":20,"refs":1,"ctx":"ptr@2bb6c"}
+{"id":"2d4a0","jah":"f54f63a17b27543bbec9c1b10e708005","max_bytes":12,"refs":1,"ctx":"ptr@2d4bc"}
+{"id":"347dc","jah":"67f5000adb3b7a3ed4f412fb79020684","max_bytes":11,"refs":1,"ctx":"ptr@347f8"}
+{"id":"369b0","jah":"2e545befa7bcb5a790cba06372ce14e8","max_bytes":12,"refs":1,"ctx":"ptr@369cc"}
+{"id":"36e1c","jah":"13d3c0fa31623331ca89d5e520cc9b44","max_bytes":5,"refs":1,"ctx":"ptr@36e38"}
+{"id":"39764","jah":"bb1c5006575446f6c1e656e649a4262f","max_bytes":8,"refs":1,"ctx":"ptr@39774"}
+{"id":"39b74","jah":"9bf43b1c770fc9f0da136241103382da","max_bytes":8,"refs":2,"ctx":"ptr@5a0 xrefs=2"}
+{"id":"39d64","jah":"27fd775c2e3b14d4472b845c741a737e","max_bytes":8,"refs":2,"ctx":"ptr@5a8 xrefs=2"}
+{"id":"3a228","jah":"19a5aeba988dd1a76ddfcd29b8b823ba","max_bytes":16,"refs":1,"ctx":"ptr@3a244"}
+{"id":"3b32c","jah":"2116d1fe811afe70cb95380b77f0be8b","max_bytes":15,"refs":1,"ctx":"ptr@3b348"}
+{"id":"3b63c","jah":"72879fd0c2257454b54b28e1391cbac5","max_bytes":11,"refs":1,"ctx":"ptr@3b658"}
+{"id":"3b728","jah":"c5057f1783997dee62bf4f2b086d42fd","max_bytes":11,"refs":1,"ctx":"ptr@3b744"}
+{"id":"452c0","jah":"7a6235fe8c40bba2b50f81964b7a72f3","max_bytes":11,"refs":1,"ctx":"ptr@452dc"}
+{"id":"45c08","jah":"fdb995d25df44e8599958bc0af0bdf40","max_bytes":11,"refs":1,"ctx":"ptr@45c24"}
+{"id":"47e58","jah":"12eb24a94bf643d4913f790de18d925a","max_bytes":11,"refs":1,"ctx":"ptr@47e74"}
+{"id":"4a240","jah":"bc416668d8311ee404ee6faa5aaa8b6e","max_bytes":11,"refs":1,"ctx":"ptr@4a25c"}
+{"id":"4c928","jah":"40676c9a8b1603bdf956a47187d96743","max_bytes":20,"refs":1,"ctx":"ptr@4c944"}
+{"id":"4e3b4","jah":"dc6aa9e14e74880132c43be4e3765a23","max_bytes":8,"refs":2,"ctx":"tbl@850[0/3] xrefs=2"}
+{"id":"4e4c4","jah":"e0619a9ca74f3851a7eb6b54f336be73","max_bytes":8,"refs":2,"ctx":"tbl@850[2/3] xrefs=2"}
+{"id":"4e5d4","jah":"66a709c37d5bd633dfca58a0231bfc21","max_bytes":8,"refs":2,"ctx":"tbl@850[1/3] xrefs=2"}
+{"id":"4e854","jah":"a13ff5e211c7108ae73ac241c2f6c03b","max_bytes":8,"refs":2,"ctx":"ptr@58c xrefs=2"}
+{"id":"55de8","jah":"464d115f7cf9b7c5e03f705230844196","en":"Today the @P/J1#tk00#@ kicked off.\nHow did newly promoted @Y/#tk01#@\nget on in their match?","max_bytes":101,"refs":1,"ctx":"tbl@21fb0[0/227]"}
+{"id":"55e4d","jah":"4417fd5db32f14e1588f7b9ea2e361a2","en":"The @P/J1#tk00#@, with 16 clubs chasing\nthe national title, has finally begun.\nThe action is already heating up.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[1/227]"}
+{"id":"55eba","jah":"aa091d19738a9656d27133f30562c2ef","en":"Fierce matches day after day in the\n@P/J1#tk00#@. It is early days, but\nimportant matches lie ahead.","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[2/227]"}
+{"id":"55f25","jah":"c4c43170a2b820f1a04732ac76e875ea","en":"Spring sunshine, but a chill lingers,\nand the @P/J1#tk00#@ is fiercely fought\neven this early. See today's results.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[3/227]"}
+{"id":"55f92","jah":"f14250aba80f9a8a142c3cdb0b02127a","en":"In the gentle spring warmth, the\n@P/J1#tk00#@ is livening up. How did\nthe results turn out?","max_bytes":101,"refs":1,"ctx":"tbl@21fb0[4/227]"}
+{"id":"55ff7","jah":"3d8640325bf633dac041d573a8284026","en":"Survival or relegation, with club pride\nat stake in the @P/J1#tk00#@. Another\nmatchday of heated battles.","max_bytes":91,"refs":1,"ctx":"tbl@21fb0[5/227]"}
+{"id":"56052","jah":"7a3e862966260f0c4893f51fd9fc17c8","en":"The @P/J1#tk00#@ is at mid-season.\nNo club can afford to relax as the\nmatches keep coming.","max_bytes":81,"refs":1,"ctx":"tbl@21fb0[6/227]"}
+{"id":"560a3","jah":"df86382765dbe4879f29139504bc910f","en":"The @P/J1#tk00#@, sandwiched between\nJ.League Cup ties. Showing no sign of\nfatigue, every match is lively.","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[7/227]"}
+{"id":"5610d","jah":"0be0ff3800d9bc67bdb5987d8f999f1d","en":"The @P/J1#tk00#@ has entered its second\nhalf, and every club is fighting with\neverything it has to climb the table.","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[8/227]"}
+{"id":"56174","jah":"df86382765dbe4879f29139504bc910f","en":"The @P/J1#tk00#@, sandwiched between\nJ.League Cup ties. Showing no sign of\nfatigue, every match is lively.","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[9/227]"}
+{"id":"561de","jah":"ab1a7d86a1fca65547b3294790cb6bb2","en":"The @P/J1#tk00#@ is taking shape. Title\nbids and relegation fears collide as\ntop and bottom clubs fight hard.","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[10/227]"}
+{"id":"56251","jah":"c69a66e9acc523967beea51d2cdc78ed","en":"Golden Week is in full swing for the\n@P/J1#tk00# Round 11@. Families dot the\ncrowd. How did the results go?","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[11/227]"}
+{"id":"562c2","jah":"24c33a0062758339ccfd8e012cfbb7e7","en":"The @P/J1#tk00#@ nears its climax,\nand every club's league position is of\ngreat interest. Let's see the results.","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[12/227]"}
+{"id":"5632d","jah":"073a9d0adfbb13f03f94464d6810dae1","en":"Only three matches left in the\n@P/J1#tk00#@. Every club wants to end\nas high as it can, with great spirit.","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[13/227]"}
+{"id":"5639e","jah":"5ebe01aae62d51d4289699b3dda8c043","en":"Few matches left in the @P/J1#tk00#@,\nand the battles for J1 survival look to\nhave been fierce and full of pride.","max_bytes":101,"refs":1,"ctx":"tbl@21fb0[14/227]"}
+{"id":"56403","jah":"0ef97a4881e847e1c3994d06177ee4f0","en":"The @P/J1#tk00#@ final round is here.\nHow did each club approach this closing\nmatch of the season? Results, please.","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[15/227]"}
+{"id":"56466","jah":"b95a2a07fcfa9a3400bbe2e04bf61732","en":"The @P/J1#tk00#@ opening match is on.\nEvery club is hugely motivated for this\nstage that decides next season.","max_bytes":111,"refs":1,"ctx":"tbl@21fb0[16/227]"}
+{"id":"564d5","jah":"68a902fbf8c1abfea68711a3e828951b","en":"In midsummer heat, the @P/J1#tk00#@ has\nstarted. It is early, but every club\nseems to have played a fiery match.","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[17/227]"}
+{"id":"5653c","jah":"6e47e12099e3d44293e6ad80cbce36ba","en":"The @P/J1#tk00#@, held in the scorching\nheat of recent days. Was there a match\ngood enough to blow the heat away?","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[18/227]"}
+{"id":"5659f","jah":"e0e6b74f2d1c29a9526bf44864c41e4b","en":"In the heat, the @P/J1#tk00#@ shows\nplenty of passion on the pitch. What\nwere the results?","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[19/227]"}
+{"id":"56602","jah":"8cf92eb0f660f40c49d3471c5aca30f1","en":"Unbothered by the sweltering heat, the\n@P/J1#tk00#@ gets ever livelier. How\ndid today's matches go?","max_bytes":97,"refs":1,"ctx":"tbl@21fb0[20/227]"}
+{"id":"56663","jah":"36b29d47eb2c9c6c49689badf47a79e6","en":"The @P/J1#tk00#@ is at its midpoint.\nThe fierce matches go on daily. How did\ntoday's results turn out?","max_bytes":91,"refs":1,"ctx":"tbl@21fb0[21/227]"}
+{"id":"566be","jah":"0a7f348313c16241f415c436cb533ad8","en":"With signs of autumn in the air, the\n@P/J1#tk00#@ keeps heating up. Here\nare today's match results.","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[22/227]"}
+{"id":"56721","jah":"ccccd2cfbf0bcb306f2957d365fdf779","en":"The @P/J1#tk00#@ has turned the halfway\ncorner, with every club locked in tense\nmatches. How did today's matches go?","max_bytes":105,"refs":1,"ctx":"tbl@21fb0[23/227]"}
+{"id":"5678a","jah":"68b581e39c99e2efcd0b4c88d9a9cb89","en":"The @P/J1#tk00#@ second half is here,\nand clubs desperate to stay up face one\nhigh-pressure match after another.","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[24/227]"}
+{"id":"567f5","jah":"727c11209495a360d1ea3550a5bfd344","en":"The @P/J1#tk00#@ survival fight is\nstarting to take shape, and every club\nis battling hard for its pride.","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[25/227]"}
+{"id":"56860","jah":"023a33ac0c1ef71e0bc0c4fae6b3bdc4","en":"The @P/J1#tk00#@ is in the home stretch\nand no club can relax.\nHere are the results.","max_bytes":87,"refs":1,"ctx":"tbl@21fb0[26/227]"}
+{"id":"568b7","jah":"24fafade48f97b9969692a09afb7834d","en":"With autumn well and truly here,\n@P/J1#tk00# Round 12@ brings spirited\nbattles on the road to the last round.","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[27/227]"}
+{"id":"56922","jah":"e1a98d341b8709c3a7c507d40555c3a5","en":"Just three rounds remain. Which clubs\nwill secure survival? Here are the\n@P/J1#tk00#@ results.","max_bytes":97,"refs":1,"ctx":"tbl@21fb0[28/227]"}
+{"id":"56983","jah":"436f70b42ba76fb296d3aa0e4a41b7b5","en":"The long @P/J1#tk00#@ has two rounds\nleft. Today, clubs fought with all they\nhad for the honour of the club.","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[29/227]"}
+{"id":"569f6","jah":"da6f93dd0491395ffdd39fa793300369","en":"The @P/J1#tk00#@ final round is finally\nhere. How did a full year of fighting\nto stay in J1 turn out?","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[30/227]"}
+{"id":"56a59","jah":"65109dbc159f035d688c0c06610c2271","en":"The @P/J2 League@ opened today. We\nwelcome @Y/#tk01#@, relegated from J1,\nand the race for a J1 ticket begins.","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[31/227]"}
+{"id":"56abc","jah":"2822b2e5f47d2e829ceffd4d5e400d82","en":"The @P/J2 League@ is finally under way.\nThe 52-round battle for J1 promotion\nhas begun. Here are the results.","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[32/227]"}
+{"id":"56b1f","jah":"59dd379a57d1ef7e2c5bb3200658b5e1","en":"With snow still on the ground, fierce\nbattles go on in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":92,"refs":1,"ctx":"tbl@21fb0[33/227]"}
+{"id":"56b7b","jah":"30ae61be9977769ff0f7c36c80b14860","en":"With a chill lingering in the air,\nthere are fierce battles in\n@P/J.League Division 2@. Results, please.","max_bytes":88,"refs":1,"ctx":"tbl@21fb0[34/227]"}
+{"id":"56bd3","jah":"a5b1508caec4cf8a68a91173a1e79c75","en":"A hint of spring is in the air as the\n@P/J.League Division 2@ heats up.\nHow did today's matches go?","max_bytes":96,"refs":1,"ctx":"tbl@21fb0[35/227]"}
+{"id":"56c33","jah":"6a66e604515720fac3cdb13fb45a4a97","en":"Plum blossoms begin to open as the\n@P/J.League Division 2@ battles on.\nHow did today's matches go?","max_bytes":94,"refs":1,"ctx":"tbl@21fb0[36/227]"}
+{"id":"56c91","jah":"8ef32850b208e315d8605667d674a23f","en":"Red and white plum blossoms are in full\nbloom as the @P/J.League Division 2@\nbattles on. What were today's results?","max_bytes":96,"refs":1,"ctx":"tbl@21fb0[37/227]"}
+{"id":"56cf1","jah":"ece7eb87b1d8ce20d3b2d6fac717e4f0","en":"Plum blossoms are starting to fall as\nthe @P/J.League Division 2@ battles on.\nHow did today's matches go?","max_bytes":90,"refs":1,"ctx":"tbl@21fb0[38/227]"}
+{"id":"56d4b","jah":"a5b1508caec4cf8a68a91173a1e79c75","en":"A hint of spring is in the air as the\n@P/J.League Division 2@ heats up.\nHow did today's matches go?","max_bytes":96,"refs":1,"ctx":"tbl@21fb0[39/227]"}
+{"id":"56dab","jah":"a5fe2da30cde0688abcbf0ead7701ea8","en":"Cherry blossoms are starting to open as\nthe @P/J.League Division 2@ battles on.\nHow did today's matches go?","max_bytes":98,"refs":1,"ctx":"tbl@21fb0[40/227]"}
+{"id":"56e0d","jah":"0f0f6a4bf686a4bfc05aef5d3f238297","en":"Cherry blossoms are in full bloom as\nthe @P/J.League Division 2@ battles on.\nHow did today's matches go?","max_bytes":90,"refs":1,"ctx":"tbl@21fb0[41/227]"}
+{"id":"56e67","jah":"7eca0263d1086f869931cc60518923f6","en":"Cherry blossoms are already falling,\nbut the @P/J.League Division 2@ fights on.\nHow did today's matches go?","max_bytes":98,"refs":1,"ctx":"tbl@21fb0[42/227]"}
+{"id":"56ec9","jah":"3c4bb1d75ec0b9dfdce4981e6443406e","en":"A breeze carries the scent of spring as\nthe @P/J.League Division 2@ fights hard.\nHow did today's matches go?","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[43/227]"}
+{"id":"56f2f","jah":"6aaaa7dd2c02838483ab6e8f8d8293fe","en":"Spring is in full swing, and fierce\nbattles go on in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":90,"refs":1,"ctx":"tbl@21fb0[44/227]"}
+{"id":"56f89","jah":"7632ed87605605ae329272ad83c6e231","en":"It is getting warm, yet the battles go\non in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":92,"refs":1,"ctx":"tbl@21fb0[45/227]"}
+{"id":"56fe5","jah":"ea52f00125ce25e4cdc3ad2f27ac9b3f","en":"Carp streamers sway in the wind as the\nfight goes on in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":88,"refs":1,"ctx":"tbl@21fb0[46/227]"}
+{"id":"5703d","jah":"1273552312b099f002cdc02a51c46fb2","en":"It is jacket-free weather now, but\nthe @P/J.League Division 2@ fights on.\nHow did today's matches go?","max_bytes":100,"refs":1,"ctx":"tbl@21fb0[47/227]"}
+{"id":"570a1","jah":"65e4f90b220cf9ccfd9162f0abd96297","en":"Days are getting sweaty, but the\n@P/J.League Division 2@ fights on.\nHow did today's matches go?","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[48/227]"}
+{"id":"57107","jah":"09432e4af5f4a3876436ab7e171aaddf","en":"Even nights need no jacket now, but\nthe @P/J.League Division 2@ fights on.\nHow did today's matches go?","max_bytes":108,"refs":1,"ctx":"tbl@21fb0[49/227]"}
+{"id":"57173","jah":"3b03467c1d58c41d5dead6a7889ca1c0","en":"Summer is drawing near, as they say,\nand the stadiums feel like summer.\n@P/J.League Division 2@ results follow.","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[50/227]"}
+{"id":"571e1","jah":"ec8518be39052a4864a6671ecf466a0b","en":"Day and night, 14 clubs fight for\npromotion in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":108,"refs":1,"ctx":"tbl@21fb0[51/227]"}
+{"id":"5724d","jah":"4145ce6905eb4bbacceb9ff801a0b67b","en":"Even with hydrangeas in bloom, the\n@P/J.League Division 2@ fights on.\nHow did today's matches go?","max_bytes":96,"refs":1,"ctx":"tbl@21fb0[52/227]"}
+{"id":"572ad","jah":"8d59944bbf3c25fc544ec8a5976bde92","en":"The rainy season has begun in places,\nbut the @P/J.League Division 2@ fights on.\nHow did today's matches go?","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[53/227]"}
+{"id":"57313","jah":"afc6e223eb0818257cc0d3e32c193129","en":"The damp season is here, but the\n@P/J.League Division 2@ fights on.\nHow did today's matches go?","max_bytes":100,"refs":1,"ctx":"tbl@21fb0[54/227]"}
+{"id":"57377","jah":"3e2fd2b4bb24a427827b70b17511308f","en":"Rainy skies mean wet matches, but the\n@P/J.League Division 2@ fights on.\nHow did today's matches go?","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[55/227]"}
+{"id":"573e1","jah":"15234665c6133b17d7655692a3b7b51f","en":"14 clubs battle for J1 promotion in the\n@P/J.League Division 2@. The season is\nnow at midpoint. Here are the results.","max_bytes":108,"refs":1,"ctx":"tbl@21fb0[56/227]"}
+{"id":"5744d","jah":"4f2bee7b766d4ab3e3e087f1591df469","en":"The @P/J.League Division 2@ battles have\nalready hit the halfway mark. How did\neach club finish the first half?","max_bytes":104,"refs":1,"ctx":"tbl@21fb0[57/227]"}
+{"id":"574b5","jah":"ada076b9b86b76984b295f559c855fc3","en":"In the scorching summer heat, @P/J2@ is\nheating up even more. How did today's\nmatches go?","max_bytes":91,"refs":1,"ctx":"tbl@21fb0[58/227]"}
+{"id":"57510","jah":"f38c1462eb8196e583e70bbb06265b7c","en":"Stadiums are full of families on summer\nholiday. How did the clubs live up to\nexpectations? Now the @P/J2@ results.","max_bytes":111,"refs":1,"ctx":"tbl@21fb0[59/227]"}
+{"id":"5757f","jah":"31a18dedc8a59f5f7fafe1c0576016b1","en":"With fireworks displays all over,\nthe second half is heating up in\n@P/J.League Division 2@. Today's results.","max_bytes":96,"refs":1,"ctx":"tbl@21fb0[60/227]"}
+{"id":"575df","jah":"1ab3c0086cdd1f5264cd5100416e3400","en":"Record-breaking heat continues, and the\nsecond half is heating up in\n@P/J.League Division 2@. Today's results.","max_bytes":90,"refs":1,"ctx":"tbl@21fb0[61/227]"}
+{"id":"57639","jah":"9fb6a90378a80781854fd8eb34446402","en":"With sunflowers, a summer classic, in\nfull bloom, the second half is heating\nup in @P/J.League Division 2@. Results.","max_bytes":104,"refs":1,"ctx":"tbl@21fb0[62/227]"}
+{"id":"576a1","jah":"bdb307197b85e1d855cd6b9f5386e097","en":"Water shortages are a worry in places,\nyet @P/J.League Division 2@ stays fierce.\nHere are today's results.","max_bytes":96,"refs":1,"ctx":"tbl@21fb0[63/227]"}
+{"id":"57701","jah":"3b0273749fa7f4ff7733d3d64941eacd","en":"Children's summer holidays are nearly\nover, and @P/J.League Division 2@ stays\nintense. Here are today's results.","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[64/227]"}
+{"id":"57767","jah":"54c3853e66a5e767001120746334dc10","en":"Late summer heat is still harsh,\nyet @P/J.League Division 2@ stays intense.\nHere are today's results.","max_bytes":94,"refs":1,"ctx":"tbl@21fb0[65/227]"}
+{"id":"577c5","jah":"c867546927343a8f7808c0b690f1c2f8","en":"Autumn insects are starting to appear\nas @P/J.League Division 2@ stays intense.\nHere are today's results.","max_bytes":92,"refs":1,"ctx":"tbl@21fb0[66/227]"}
+{"id":"57821","jah":"dc5e1db622ac25301918aef6d45d0a43","en":"Typhoon damage reports are coming in,\nyet @P/J.League Division 2@ stays intense.\nHere are today's results.","max_bytes":94,"refs":1,"ctx":"tbl@21fb0[67/227]"}
+{"id":"5787f","jah":"02fd6f098d2be48d67289522abaa45f8","en":"Moon-viewing season is here, and the\nbattles go on in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":96,"refs":1,"ctx":"tbl@21fb0[68/227]"}
+{"id":"578df","jah":"9b0dc6a303f966cb44c595850f9ba231","en":"Autumn has fully arrived, but the\nbattles go on in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[69/227]"}
+{"id":"57945","jah":"6b7468306af9a1829b1df2872afb616d","en":"The wind is cooling these days, yet the\nbattles go on in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":108,"refs":1,"ctx":"tbl@21fb0[70/227]"}
+{"id":"579b1","jah":"bf3e1cc6538e8aa052b6ea5d3f53cd98","en":"Only a few matches remain, and no club\ncan relax in @P/J.League Division 2@.\nHere are the results.","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[71/227]"}
+{"id":"57a23","jah":"e7df6c908efe837e32b89767933d41eb","en":"True to the autumn sports season, the\nbattles go on in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[72/227]"}
+{"id":"57a89","jah":"767f91e205d92cdb1a12831e424e6fdf","en":"The long season has 10 rounds to go,\nand every match is decisive in\n@P/J.League Division 2@. Results, please.","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[73/227]"}
+{"id":"57af7","jah":"d25cb30d177768b57425c567026aaf9e","en":"The serious fight for J1 promotion is\nnearly over. No club can relax in\n@P/J.League Division 2@. Results, please.","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[74/227]"}
+{"id":"57b67","jah":"3deb3ea2078a0b029460580522a1992c","en":"Top clubs fight tooth and nail for\npromotion in @P/J.League Division 2@.\nHow did today's matches go?","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[75/227]"}
+{"id":"57bd7","jah":"da5fb6f8cd320f572cb6b6aecff4ecb5","en":"Leaves are turning red, and the fight\nfor promotion rages on in\n@P/J.League Division 2@. See the results.","max_bytes":116,"refs":1,"ctx":"tbl@21fb0[76/227]"}
+{"id":"57c4b","jah":"9f71a6ce14f32f708d253d948cb37345","en":"As the leaves turn red, matches across\nthe country burn hot in\n@P/J.League Division 2@. See the results.","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[77/227]"}
+{"id":"57cb9","jah":"43e884d5e6634f5007616232c3a24957","en":"A cold wind is already blowing, but the\nstadiums are fired up. Here are the\n@P/J.League Division 2@ results.","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[78/227]"}
+{"id":"57d23","jah":"9167f73608625211630083bfb348378a","en":"Winter has all but arrived, but the\nstadiums are fired up. Here are the\n@P/J.League Division 2@ results.","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[79/227]"}
+{"id":"57d89","jah":"a6b37a3241f0f99168aed3955679e1c0","en":"The first snow has fallen up north, and\nthe fight for promotion rages on in\n@P/J.League Division 2@. See the results.","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[80/227]"}
+{"id":"57df7","jah":"2c1f79b422165eb923140a12c962d410","en":"Only 3 rounds remain in the 52-round\n@P/J2@ season, and the promotion race\nis red hot. Here are today's results.","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[81/227]"}
+{"id":"57e5d","jah":"e36b236cb5d785f546f1bc8c5531edfe","en":"The 14 clubs fighting for J1 promotion\nin @P/J.League Division 2@ have just two\nrounds left. Here are the results.","max_bytes":95,"refs":1,"ctx":"tbl@21fb0[82/227]"}
+{"id":"57ebc","jah":"d951d01cb89c43eeac8db79c432abe8e","en":"The long fight reaches its last round.\nHow did the final table turn out?\nHere are this year's final @P/J2@ results.","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[83/227]"}
+{"id":"57f27","jah":"4b7461c46efd76363ba54aa63fe6be65","en":"Who will be Japan's true champions?\n@P/J.League Championship@, Round 1.\nSee the results right away.","max_bytes":101,"refs":1,"ctx":"tbl@21fb0[84/227]"}
+{"id":"57f8c","jah":"8a88ae0bd01c30443e83eea5f540167c","en":"Today we find Japan's true champions.\n@P/J.League Championship@, Round 2.\nPlease see the results.","max_bytes":89,"refs":1,"ctx":"tbl@21fb0[85/227]"}
+{"id":"57fe5","jah":"f772662ef2080b919f0be430a7836f93","en":"All 30 J.League clubs, home and away,\nin a knockout for the @P/J.League Cup@.\nHere is the Round 1, Match 1 result.","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[86/227]"}
+{"id":"58058","jah":"b76b22adb8d4ad4e717e388c6bf28c59","en":"All 30 J.League clubs, home and away,\nin a knockout for the @P/J.League Cup@.\nRound 2 qualifiers are decided today.","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[87/227]"}
+{"id":"580cb","jah":"85e03ca28e21449b32c180292560625d","en":"All 30 J.League clubs, home and away,\nin a knockout for the @P/J.League Cup@.\nHere is the Round 2, Match 1 result.","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[88/227]"}
+{"id":"5813e","jah":"a24aeb00aa08f31d367e4e1d690b88b0","en":"All 30 J.League clubs, home and away,\nin a knockout for the @P/J.League Cup@.\nToday's quarter-finalists are decided.","max_bytes":117,"refs":1,"ctx":"tbl@21fb0[89/227]"}
+{"id":"581b3","jah":"96574d7d97a64cb714a35e4baa1957f8","en":"All 30 clubs chase the @P/J.League Cup@.\nThe last eight are set, raising hopes.\nSee the quarter-final Match 1 result.","max_bytes":118,"refs":1,"ctx":"tbl@21fb0[90/227]"}
+{"id":"58229","jah":"29a39ff92416748734bee5a50f8aa455","en":"All 30 clubs chase the @P/J.League Cup@.\nToday the semi-finalists are decided.\nWhich four clubs are left standing?","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[91/227]"}
+{"id":"5829b","jah":"dff47b3ca10ffd6b699a5cde7e3a8c1a","en":"All 30 clubs chase the @P/J.League Cup@.\nThe last four are in fierce battles.\nSee the semi-final Match 1 result.","max_bytes":116,"refs":1,"ctx":"tbl@21fb0[92/227]"}
+{"id":"5830f","jah":"7edb3d93e6e92ee217248379b3cacf86","en":"All 30 clubs chase the @P/J.League Cup@.\nToday the finalists are decided.\nWhich two clubs will it be?","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[93/227]"}
+{"id":"58381","jah":"947cf522f2cae63b984eb2f33702fe11","en":"All 30 clubs chase the @P/J.League Cup@.\nA one-match final: who will win it?\nPlease see the result.","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[94/227]"}
+{"id":"583f1","jah":"56dfc4f3bffa8d3e35b5e7b3cd673448","en":"J1's 16 clubs send their most popular\nand talented players to the\nEast v West @P/All-Star Match@. Who wins?","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[95/227]"}
+{"id":"58462","jah":"14607d39d7616649736d2c9e57d21f8a","en":"J2's 14 clubs send their finest, most\npopular players to the East v West\n@P/All-Star Match@. Who will win?","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[96/227]"}
+{"id":"584d5","jah":"a1a0683b0500a9a0f40910146a683108","en":"A winter tradition: the @P/New Year Cup@,\na one-match knockout for all 30 clubs.\nThe opening matches were played today.","max_bytes":97,"refs":1,"ctx":"tbl@21fb0[97/227]"}
+{"id":"58536","jah":"961d08afd3249d820ce8dec9a9bc511c","en":"Round 2 of the @P/New Year Cup@ was played\ntoday. The first-round winners put on\nsome matches well worth watching.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[98/227]"}
+{"id":"585a3","jah":"efa5bdff16f4d25eac559544af955d70","en":"Round 3 of the @P/New Year Cup@ was played\ntoday. The last eight left in the cup\nplayed some spirited matches.","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[99/227]"}
+{"id":"58614","jah":"3480a53c1eb6863dd6a22e95ee7e52a4","en":"The @P/New Year Cup@ semi-finals were\nplayed today. The last four delivered\nhigh-level matches.","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[100/227]"}
+{"id":"58685","jah":"ebb341c87e5da3d7945d2a9f90fd5632","en":"All 30 clubs chase the @P/New Year Cup@,\nand the final was played today. Which\nclub lifted the trophy?","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[101/227]"}
+{"id":"586f2","jah":"cbe9d51e2b14b2ff790e0509be8b183d","en":"Today @Y/#tk01#@ took on @Y/#tk02#@.\nWith the official season near, they are\nbusy fine-tuning their preparations.","max_bytes":97,"refs":1,"ctx":"tbl@21fb0[102/227]"}
+{"id":"58753","jah":"e1b9f04f8aa5b07a6936342857627219","en":"Today @Y/#tk01#@ and @Y/#tk02#@ played\na @P/Preseason Match@. What sort of\nmatch was it?","max_bytes":98,"refs":1,"ctx":"tbl@21fb0[103/227]"}
+{"id":"587b5","jah":"b6ff7428d75c71e63723fc91b0b1b6e1","en":"Today @Y/#tk01#@ and @Y/#tk02#@ played\na @P/Preseason Match@. Now, here is\nthe result.","max_bytes":92,"refs":1,"ctx":"tbl@21fb0[104/227]"}
+{"id":"58811","jah":"ea3674c20ce251f27c33c78d09fcf839","en":"Today @Y/#tk01#@ and @Y/#tk02#@ played\na @P/Preseason Match@. How did they\nfare against such strong opposition?","max_bytes":104,"refs":1,"ctx":"tbl@21fb0[105/227]"}
+{"id":"58879","jah":"df93209e29cee4732fd1f96b52435618","en":"Hand-picked players from Europe and the\nrest of the world meet in\n@P/World vs Europe@. The result?","max_bytes":119,"refs":1,"ctx":"tbl@21fb0[106/227]"}
+{"id":"588f0","jah":"d57417fdd10c9a8fd02fbb972a78b276","en":"League champions across Asia vie to be\nthe continent's best in the\n@P/Asia Winners Cup@. Opening result?","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[107/227]"}
+{"id":"58963","jah":"ca14da67d950d08601e51d80e6a67d9c","en":"The @P/Asia Winners Cup@, deciding Asia's\nbest club. @Y/#tk01#@ won its opener;\nsee how its next match went.","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[108/227]"}
+{"id":"589ca","jah":"d5464604c9292aac9e1580f8d17510ec","en":"Asia's best club is decided in the\n@P/Asia Winners Cup@ final. Did\n@Y/#tk01#@ become Asian champions?","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[109/227]"}
+{"id":"58a3b","jah":"1f299b5b7d70de7f2db4de30de7c4b03","en":"League champions from around the world\nvie to be the strongest club, in the\n@P/World Winners Cup@. Today's opener:","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[110/227]"}
+{"id":"58aa9","jah":"085269037d4a9deff801988f58f63ee2","en":"The @P/World Winners Cup@, deciding the\nworld's best club. How did @Y/#tk01#@,\nwhich won its opener, get on next?","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[111/227]"}
+{"id":"58b1b","jah":"2250c4322be1a59cd4abb5fc19060145","en":"The @P/World Winners Cup@ goes on with\nmatches of the very highest level.\nHow did @Y/#tk01#@ get on?","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[112/227]"}
+{"id":"58b89","jah":"0dcdb147a125a3ea22756aa8505ac595","en":"The @P/World Winners Cup@ final is here.\nPlease see the result for @Y/#tk01#@,\nwho made it this far.","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[113/227]"}
+{"id":"58bfb","jah":"1c5bc7ac6a15667b4220d3d56faa77af","en":"Deciding the true world club champion,\nthe @P/Great Club Cup@. Here is the result\nof the first Asian qualifying match.","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[114/227]"}
+{"id":"58c65","jah":"9563be6c1cdc791a4a5d6037b167e25b","en":"More @P/Great Club Cup Qualifying@ today,\nwith national pride at stake. Early as\nit is, every match is a serious fight.","max_bytes":118,"refs":1,"ctx":"tbl@21fb0[115/227]"}
+{"id":"58cdb","jah":"b92937d02d919943534b1d6d977ef513","en":"@P/Great Club Cup Qualifying@ is halfway\nthrough. With Asia's best all present,\nsee how Japan's entrants got on.","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[116/227]"}
+{"id":"58d4d","jah":"a8f7e26d78949e20b8622bc20fdf6db6","en":"@P/Great Club Cup Qualifying@ is now in\nits second half. Every team gives its\nall in high-level matches.","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[117/227]"}
+{"id":"58dbd","jah":"45e8e8d861ba0037bd24361745043c0b","en":"Today was the last day of\n@P/Great Club Cup Qualifying@. What does\nthe final table look like? Results:","max_bytes":120,"refs":1,"ctx":"tbl@21fb0[118/227]"}
+{"id":"58e35","jah":"a4783e916719864d12ead282c11852af","en":"The @P/Great Club Cup@ decides the world's\nbest club. Group stage began today.\nNow, the opening match result.","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[119/227]"}
+{"id":"58e9f","jah":"d4fe90513b56ace68fdc80fb35fefb3c","en":"@P/Great Club Cup@ Round #tk03#.\nStill early in the group stage, but\nevery team is fighting hard.","max_bytes":100,"refs":1,"ctx":"tbl@21fb0[120/227]"}
+{"id":"58f03","jah":"393eb97c9949d5d759441ab3d591da37","en":"@P/Great Club Cup@ Round #tk03#.\nThe group stage is at its midpoint and\nevery team is playing more fiercely.","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[121/227]"}
+{"id":"58f69","jah":"08d5107ebbba0518615a0eb448662979","en":"The @P/Great Club Cup@ group stage is in\nits final phase. Every team gives all\nit has in a final sprint.","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[122/227]"}
+{"id":"58fd3","jah":"d81f19dae99ed9d158a9f7f791c9d470","en":"Final day of the @P/Great Club Cup@ group\nstage for @Y/#tk01#@. All Japan is\nwatching. What was the result?","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[123/227]"}
+{"id":"5903d","jah":"4809536e1a8ae502866cca8ccbe3e56a","en":"Last @P/Great Club Cup@ group match.\n@Y/#tk01#@ missed the final stage,\nbut was it a finale without regrets?","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[124/227]"}
+{"id":"590af","jah":"5beb82eff589afe579c790f662b98870","en":"Last @P/Great Club Cup@ group match.\n@Y/#tk01#@ are already in the finals.\nDid they build some momentum?","max_bytes":116,"refs":1,"ctx":"tbl@21fb0[125/227]"}
+{"id":"59123","jah":"539a2bbe600765d1394ac3bdeec4d55d","en":"@P/Great Club Cup@ knockout, Round 1.\n@Y/#tk01#@ qualified in fine style.\nCould they win through this time?","max_bytes":108,"refs":1,"ctx":"tbl@21fb0[126/227]"}
+{"id":"5918f","jah":"e0c42db6755219802b26118116a46008","en":"@P/Great Club Cup@ knockout, round two.\n@Y/#tk01#@ has made it this far, but\nwill they go through?","max_bytes":104,"refs":1,"ctx":"tbl@21fb0[127/227]"}
+{"id":"591f7","jah":"2bb107bde2ba2776e77d05b9bf0a3d89","en":"@P/Great Club Cup@ semi-final.\nFrom here, the title is the target!\nHow did @Y/#tk01#@ get on?","max_bytes":94,"refs":1,"ctx":"tbl@21fb0[128/227]"}
+{"id":"59255","jah":"d4102dfd3611bc0c181f2ec57525816a","en":"At last, the @P/Great Club Cup@ final.\n@Y/#tk01#@ or @Y/#tk02#@. Which way did\nLady Luck smile?","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[129/227]"}
+{"id":"592bb","jah":"552739805440c27fff28dfd3f94b23eb","en":"The @P/Great Club Cup@ final is here!\nDid @Y/#tk01#@ land a first title?\nHere is the thrilling result.","max_bytes":105,"refs":1,"ctx":"tbl@21fb0[130/227]"}
+{"id":"59324","jah":"0779f9ceee813b05778ec2b3e805e0e6","en":"Six top clubs from around the world\nfight for the @P/Platinum League@ title.\nMatch one was at World Stadium today.","max_bytes":105,"refs":1,"ctx":"tbl@21fb0[131/227]"}
+{"id":"5938d","jah":"ccae6d7656dd2db2334cd2d89bca1c4f","en":"Six top clubs from around the world\nfight for the @P/Platinum League@ title.\nToday's second matches: results below.","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[132/227]"}
+{"id":"593fd","jah":"67bc90f8b06ac1189cca1e15cbeed6e1","en":"Six top clubs from around the world\nfight for the @P/Platinum League@ title.\nMatch three is done. How did it go?","max_bytes":116,"refs":1,"ctx":"tbl@21fb0[133/227]"}
+{"id":"59471","jah":"304b22d6e95d14a6bf368dd707a05231","en":"Six top clubs from around the world\nfight for the @P/Platinum League@ title.\nFew matches remain. How did today go?","max_bytes":118,"refs":1,"ctx":"tbl@21fb0[134/227]"}
+{"id":"594e7","jah":"78af17b483be4aa22833c9f32abe90d2","en":"Six top clubs from around the world\nfight for the @P/Platinum League@ title.\nThe last matches are in. Final table?","max_bytes":116,"refs":1,"ctx":"tbl@21fb0[135/227]"}
+{"id":"5955b","jah":"7fbde1e3abacdbcaeed2eaeca765cd41","en":"Sixteen top clubs from all over Asia\nopen the @P/Asia Tournament@. Which clubs\nmade it through round one?","max_bytes":117,"refs":1,"ctx":"tbl@21fb0[136/227]"}
+{"id":"595d0","jah":"dee1f32adadcf07efbd04bfd8310fc17","en":"The @P/Asia Tournament@, round two.\nWith 16 elite clubs from across Asia,\nthere are no easy matches.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[137/227]"}
+{"id":"5963d","jah":"392b6c0f8e94342bea22951ae0b073cf","en":"The @P/Asia Tournament@ semi-finals.\nAt this stage, every club wants a\nplace in the final.","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[138/227]"}
+{"id":"596a0","jah":"3e31620bdf017c8b67588a823d4bfd89","en":"The @P/Asia Tournament@ final is here.\nWhich team will be crowned champions\nof this competition?","max_bytes":97,"refs":1,"ctx":"tbl@21fb0[139/227]"}
+{"id":"59701","jah":"c809c834b3ff52f1043b879be071873c","en":"16 top clubs from around the world\nkick off the @P/World Club Tournament@.\nWho won their opening match?","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[140/227]"}
+{"id":"59772","jah":"8a1c54905326cdc9a2c0d7b1757e4b9a","en":"@P/World Club Tournament@ round two.\nIt's still early, but the matches are\nalready fiercely contested.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[141/227]"}
+{"id":"597df","jah":"6e456220dca0878ef297d8be4334336a","en":"The @P/World Club Tournament@ semi-finals.\nEvery team wants a place in the final.\nWho will come through?","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[142/227]"}
+{"id":"5984a","jah":"ab0b0da1cabd4455779aaf1f98a740ba","en":"@P/World Club Tournament@ final at last.\nWho has been crowned champion of this\ncompetition?","max_bytes":91,"refs":1,"ctx":"tbl@21fb0[143/227]"}
+{"id":"598a5","jah":"15fe6fb2d703fec2542722d5baca957a","en":"The @P/Europe Cup@ against Europe's best\nopened today. Asia Tournament winners\n@Y/#tk01#@ join as guests. Result?","max_bytes":119,"refs":1,"ctx":"tbl@21fb0[144/227]"}
+{"id":"5991c","jah":"86534f812998b59588a81c17bc9d3475","en":"The @P/Europe Cup@ pits Europe's best\n@Y/#tk02#@ against @Y/#tk01#@. See the\nresult of the battle.","max_bytes":101,"refs":1,"ctx":"tbl@21fb0[145/227]"}
+{"id":"59981","jah":"73192cfc3db8a6440040dabd3d985601","en":"Fighting for the @P/Europe Cup@ title,\ntoday's semi-final: did @Y/#tk01#@\nreach the final?","max_bytes":117,"refs":1,"ctx":"tbl@21fb0[146/227]"}
+{"id":"599f6","jah":"f541d735447bdb3d45b1766d53a33a16","en":"Today's @P/Europe Cup@ final.\nDid Japan's @Y/#tk01#@ become\nchampions of the tournament?","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[147/227]"}
+{"id":"59a5d","jah":"49a19600ec8fc2b67be78814a45d1728","en":"The @P/South America Cup@ opened today.\nAsia Tournament winners @Y/#tk01#@ join\nas guests. How will they fare?","max_bytes":119,"refs":1,"ctx":"tbl@21fb0[148/227]"}
+{"id":"59ad4","jah":"929af7e4a11eca37e4d44af3190a03e4","en":"In the @P/South America Cup@ against the\ncontinent's top club @Y/#tk02#@, how\ndid @Y/#tk01#@ get on?","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[149/227]"}
+{"id":"59b3f","jah":"99ae5dd1e93150eeb7dcbedfcbd150fd","en":"The @P/South America Cup@ semi-finals.\n@Y/#tk01#@ has come this far. Did they\nreach the final?","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[150/227]"}
+{"id":"59ba6","jah":"d03025be975858d0508a008826610bf1","en":"The @P/South America Cup@ final.\n@Y/#tk01#@ v @Y/#tk02#@: who took the\ntitle in this tournament?","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[151/227]"}
+{"id":"59c0d","jah":"4e9f6e2c274dd033a696cb619c4406be","en":"Sixteen clubs from around the world\ncontest the @P/World Challenge Cup@, which\nopened today. Day one's results below.","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[152/227]"}
+{"id":"59c7f","jah":"d453d26a25d2cdf8c5dc74a108b63755","en":"Sixteen clubs from around the world\ncontest the @P/World Challenge Cup@.\nSee today's round-two matches.","max_bytes":98,"refs":1,"ctx":"tbl@21fb0[153/227]"}
+{"id":"59ce1","jah":"fcbede7b2797ed6eac94be04e246f174","en":"World Stadium is buzzing with the\n@P/World Challenge Cup@. Semi-finalists\n@Y/#tk01#@: did they make the final?","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[154/227]"}
+{"id":"59d4f","jah":"e723302c36754a95d0b89e58372397a8","en":"The @P/World Challenge Cup@ final is here.\nDid @Y/#tk01#@ win the tournament?","max_bytes":94,"refs":1,"ctx":"tbl@21fb0[155/227]"}
+{"id":"59dad","jah":"bfb6528a5f1a546820be6b4a603a06da","en":"Six clubs from South America and Europe\nmeet in the @P/World Champions League@.\nHow did guests @Y/#tk01#@ get on?","max_bytes":121,"refs":1,"ctx":"tbl@21fb0[156/227]"}
+{"id":"59e26","jah":"54f2ba8af5bf4a44ddc33b7a9b99a853","en":"South America meets Europe in the\n@P/World Champions League@. Match two was\nplayed amid fierce regional rivalry.","max_bytes":111,"refs":1,"ctx":"tbl@21fb0[157/227]"}
+{"id":"59e95","jah":"69d8ea1785b8bf4072dde64bf807d12d","en":"South America meets Europe in the\n@P/World Champions League@, match three.\nHow did Japan's @Y/#tk01#@ get on?","max_bytes":119,"refs":1,"ctx":"tbl@21fb0[158/227]"}
+{"id":"59f0c","jah":"936e43a1ed6942ea7c886804b2a349bf","en":"The @P/World Champions League@ reaches\nmatch four. The table race is tight.\nHow did @Y/#tk01#@ get on?","max_bytes":101,"refs":1,"ctx":"tbl@21fb0[159/227]"}
+{"id":"59f71","jah":"a0ab39596b902dd133c38890ac848da8","en":"Today the @P/World Champions League@\nreaches its last match. Did @Y/#tk01#@\nfinish with a fitting performance?","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[160/227]"}
+{"id":"59fdc","jah":"1c5dfbda030720313abe48eb1c32d781","en":"The @P/Golden Cup@ is underway, with 16\nclubs from around the world. J2 side\n@Y/#tk01#@ are Japan's entrants.","max_bytes":120,"refs":1,"ctx":"tbl@21fb0[161/227]"}
+{"id":"5a054","jah":"95f6a4aba13465baa858ed3a892d378f","en":"16 clubs from around the world contest\nthe @P/Golden Cup@. Round two was played\ntoday. See the results.","max_bytes":100,"refs":1,"ctx":"tbl@21fb0[162/227]"}
+{"id":"5a0b8","jah":"789fab80907179f6e7f7a59573e4f5f0","en":"16 clubs from around the world contest\nthe @P/Golden Cup@. J2 side @Y/#tk01#@ are\nstill in. How did they fare?","max_bytes":116,"refs":1,"ctx":"tbl@21fb0[163/227]"}
+{"id":"5a12c","jah":"254b24168033eb5fb7f52cf95e9f87cd","en":"The @P/Golden Cup@ final is here.\nDid @Y/#tk01#@ take the title in this\nworld tournament of 16 clubs?","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[164/227]"}
+{"id":"5a19c","jah":"acfe2981918772bc2846569b5f70c8f6","en":"Today a sponsored @P/Thanksgiving Match@\nwas held against strong @Y/#tk02#@.\nSee how it went.","max_bytes":91,"refs":1,"ctx":"tbl@21fb0[165/227]"}
+{"id":"5a1f7","jah":"2ff4a5aed27d3ab0f920670e2051c99f","en":"Good evening to the nation's 60 million\nfootball fans. Here are the topics.","max_bytes":85,"refs":1,"ctx":"tbl@21fb0[166/227]"}
+{"id":"5a24c","jah":"d36dc59e9247beda4820b021859ef247","en":"Clubs fight for pride in the\n@P/Best Players Match@, held today.\nPlease see today's results.","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[167/227]"}
+{"id":"5a2bf","jah":"acab7c8521182e4caeb9170006d78a1a","en":"Today, @Y/Japan@ faced @Y/#tk02#@ in a\n@P/Friendly Match@. What was it like?","max_bytes":99,"refs":1,"ctx":"tbl@21fb0[168/227]"}
+{"id":"5a322","jah":"bc3393f9557db64670ed5191bf2bd4f2","en":"Today, @Y/Japan@ faced @Y/#tk02#@ in a\n@P/Friendly Match@. See the result.","max_bytes":95,"refs":1,"ctx":"tbl@21fb0[169/227]"}
+{"id":"5a381","jah":"4e551d93fcfac2da88de52a4adeadd5d","en":"Today, a @P/Friendly Match@ was played\nagainst overseas side @Y/#tk02#@.\nWhat was the result?","max_bytes":101,"refs":1,"ctx":"tbl@21fb0[170/227]"}
+{"id":"5a3e6","jah":"c4854a3d962cf1c613791230c5bf351f","en":"A tournament for four Asian national\nteams, the @P/Asia Super Cup@. Round one\nwas held today. Here are the results.","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[171/227]"}
+{"id":"5a44c","jah":"1291ff632e63f40261b4d8ab4b570ebf","en":"A tournament for four Asian national\nteams, the @P/Asia Super Cup@ final@ has\nbeen played. Who is Asia's top nation?","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[172/227]"}
+{"id":"5a4bf","jah":"780e9c6a35a953c51e8e8f2f86be9da5","en":"Qualifying has begun in Asia for the\nworld's four-yearly football festival,\n@P/International Cup@. Japan's results.","max_bytes":120,"refs":1,"ctx":"tbl@21fb0[173/227]"}
+{"id":"5a537","jah":"37d4ebfa1b90a9023b6a43af3e1be049","en":"@P/International Cup Qualifiers@,\nMatchday #tk03#: two places a group\nare at stake. The battles are fierce.","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[174/227]"}
+{"id":"5a5a7","jah":"97715ffb887a49a5114279b87ae240af","en":"Battling for a place at the finals,\n@P/International Cup Asia Qualifiers@.\nMidway through, the key matches go on.","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[175/227]"}
+{"id":"5a60d","jah":"de4c90d59e987bbd72e00a45fcdb8557","en":"Battling for a place at the finals,\n@P/International Cup Asia Qualifiers@.\nNearing the end, it's unmissable.","max_bytes":108,"refs":1,"ctx":"tbl@21fb0[176/227]"}
+{"id":"5a679","jah":"d7de547f6c0b5d4fd162908399507083","en":"Today was the last matchday of the\n@P/International Cup Qualifiers@. How did\nit end? See how the matches went.","max_bytes":116,"refs":1,"ctx":"tbl@21fb0[177/227]"}
+{"id":"5a6ed","jah":"fb67ea3262eb9844312cff04ba26dbad","en":"The world's biggest football festival,\nthe @P/International Cup@, has begun.\nSee today's group stage results.","max_bytes":104,"refs":1,"ctx":"tbl@21fb0[178/227]"}
+{"id":"5a755","jah":"a3b94418e2da8aaf38142e3436e52e91","en":"The @P/International Cup@ group stage:\nmatchday two has been played. See how\nthe nations fared.","max_bytes":100,"refs":1,"ctx":"tbl@21fb0[179/227]"}
+{"id":"5a7b9","jah":"c05c4a1086facc9a9f251531504f77bd","en":"Nations fight for prestige at the\n@P/International Cup@. Group matchday 3:\nsee a record of today's hard battles.","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[180/227]"}
+{"id":"5a823","jah":"5344cfb3e55e1302a3478ab5b387271b","en":"@P/International Cup@ group matchday 3.\nJapan's back is against the wall. Did\nthey get through the group?","max_bytes":104,"refs":1,"ctx":"tbl@21fb0[181/227]"}
+{"id":"5a88b","jah":"95a1d06d85e6b21be16b0d9cc253ff87","en":"The @P/International Cup@ knockout stage\nhas begun at last. Which team has come\nthrough the knockout rounds?","max_bytes":108,"refs":1,"ctx":"tbl@21fb0[182/227]"}
+{"id":"5a8f7","jah":"91d6f5547765c871779c93ab7d6b1faa","en":"The @P/International Cup@ knockout stage.\nMore fierce battles for national pride\nare in. Please take a look.","max_bytes":116,"refs":1,"ctx":"tbl@21fb0[183/227]"}
+{"id":"5a96b","jah":"e6fc30854411ca7926efa3e57fd198ef","en":"Nearing the end: the semi-finals of the\n@P/International Cup@ knockout stage.\nLet's see the results.","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[184/227]"}
+{"id":"5a9db","jah":"edac1044a7bf66c3688070af953df8a5","en":"At last, the @P/International Cup@ final.\nWho won this historic match? Here is\nthe thrilling action.","max_bytes":118,"refs":1,"ctx":"tbl@21fb0[185/227]"}
+{"id":"5aa51","jah":"d96657c04bce3c7eeca901b41c4ff466","en":"At last, the @P/International Cup@ final.\nDid Japan win its first-ever title?","max_bytes":100,"refs":1,"ctx":"tbl@21fb0[186/227]"}
+{"id":"5aab5","jah":"e6d29059690ef203fe8a0bce242ec33a","en":"European heavyweights clash in\nthe @P/Europe Challenge League@, match\none. See guests Japan's opener.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[187/227]"}
+{"id":"5ab22","jah":"219ec9c804aa7ec28714ccc0794d5950","en":"Europe's top-nation showdown,\nthe @P/Europe Challenge League@. How did\nguests Japan get on today?","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[188/227]"}
+{"id":"5ab89","jah":"cdeda03eec1835aec362ae50c5afdeb4","en":"Europe's top-nation showdown,\nthe @P/Europe Challenge League@. Facing\ntop rivals, how did guests Japan fare?","max_bytes":111,"refs":1,"ctx":"tbl@21fb0[189/227]"}
+{"id":"5abf8","jah":"68412d7b7506ae52ffa54660cc7dd0ec","en":"Two matches left in Europe's showdown,\nthe @P/Europe Challenge League@. Guests\nJapan: see the match result.","max_bytes":105,"refs":1,"ctx":"tbl@21fb0[190/227]"}
+{"id":"5ac61","jah":"ea536d0318a5b289708b42c25d2606e2","en":"Europe's showdown finale:\nthe @P/Europe Challenge League@. Did\nJapan sign off in style?","max_bytes":111,"refs":1,"ctx":"tbl@21fb0[191/227]"}
+{"id":"5acd0","jah":"10502bcb27338ea760010379e4021755","en":"South American heavyweights clash in\nthe @P/South America Challenge League@,\nmatch one. See guests Japan's opener.","max_bytes":115,"refs":1,"ctx":"tbl@21fb0[192/227]"}
+{"id":"5ad43","jah":"4b689a44e1bd420e55cbee067bb1eced","en":"South America's top-nation showdown,\nthe @P/South America Challenge League@.\nSee guest Japan's result today.","max_bytes":91,"refs":1,"ctx":"tbl@21fb0[193/227]"}
+{"id":"5ad9e","jah":"0efae17e471538c6bd3affeea2339f03","en":"South America's top-nation showdown,\nthe @P/South America Challenge League@.\nGuests Japan v top rivals: the result.","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[194/227]"}
+{"id":"5ae09","jah":"bed5df0c4305ee2e6c53cd029da79301","en":"Two to go in South America's showdown,\nthe @P/South America Challenge League@.\nGuests Japan: see the match result.","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[195/227]"}
+{"id":"5ae70","jah":"88955bcdfbcaaea6c0adb0f2682b497f","en":"South America's showdown finale:\nthe @P/South America Challenge League@.\nDid Japan sign off in style?","max_bytes":111,"refs":1,"ctx":"tbl@21fb0[196/227]"}
+{"id":"5aedf","jah":"9b111ccf462a68d1c9ca1d1b11b8f823","en":"Hosted by International Cup holders,\nthe @P/International Champions Cup@ opens,\ngathering world teams. Japan's result?","max_bytes":118,"refs":1,"ctx":"tbl@21fb0[197/227]"}
+{"id":"5af55","jah":"587739f9489de7398e938a6e03501270","en":"Hosted by International Cup holders,\nthe @P/International Champions Cup@, round\ntwo. See Japan's match result.","max_bytes":112,"refs":1,"ctx":"tbl@21fb0[198/227]"}
+{"id":"5afc5","jah":"26421cd052e8ca81a132059ae2e8c4a8","en":"Hosted by International Cup holders,\nthe @P/International Champions Cup@ final\nis here. How will Japan fare?","max_bytes":114,"refs":1,"ctx":"tbl@21fb0[199/227]"}
+{"id":"5b037","jah":"a830cb7e537d699c17dab3179020b27b","en":"The four-yearly U23 sports festival,\nthe @P/World Sports Festival@: football\nqualifying kicked off today. Results:","max_bytes":120,"refs":1,"ctx":"tbl@21fb0[200/227]"}
+{"id":"5b0af","jah":"98ab8b762437e96feba5e8f8ffb040b1","en":"@P/World Sports Festival Asia Qualifiers@\nMatchday #tk03#: two places a group\nare at stake. The action is intense.","max_bytes":120,"refs":1,"ctx":"tbl@21fb0[201/227]"}
+{"id":"5b127","jah":"4565f6a58de0dbab59682723f750e152","en":"Battling for a place at the Games,\n@P/World Sports Festival Asia Qualifiers@.\nMidway through, the key matches go on.","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[202/227]"}
+{"id":"5b18d","jah":"884fa3318a26ed2006f13a3f83840d9b","en":"Battling for a place at the Games,\n@P/World Sports Festival Asia Qualifiers@.\nNearing the end, the action is heated.","max_bytes":106,"refs":1,"ctx":"tbl@21fb0[203/227]"}
+{"id":"5b1f7","jah":"84a8231a6fb33124f3506d9a19d3b59a","en":"The last match of the\n@P/World Sports Festival Asia\nQualifiers@. How did it all end?","max_bytes":104,"refs":1,"ctx":"tbl@21fb0[204/227]"}
+{"id":"5b25f","jah":"d511f6857069d91d5972e1b1efa9d369","en":"The four-yearly sports festival, the\n@P/World Sports Festival@, has begun. See\nthe football group stage.","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[205/227]"}
+{"id":"5b2d0","jah":"6d5d76de70029e47e1ff9730c0be09fe","en":"The @P/World Sports Festival@ group stage:\nmatch two has been played. See how the\nnations fared.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[206/227]"}
+{"id":"5b33d","jah":"f0587bf166a4cb642dd6719cf69c0a06","en":"Nations fight for honour at the\n@P/World Sports Festival@. Group matchday 3:\nsee a record of today's hard battles.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[207/227]"}
+{"id":"5b3aa","jah":"509c726441e9bad83ed6363ae58ca179","en":"@P/World Sports Festival@ group matchday 3.\nJapan U23 are up against it. Did they\nget through the group?","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[208/227]"}
+{"id":"5b418","jah":"eead882afe04af22a55add48bd6279f1","en":"The @P/World Sports Festival@ knockout stage\nhas begun. Which teams came through\ntoday's knockout round?","max_bytes":111,"refs":1,"ctx":"tbl@21fb0[209/227]"}
+{"id":"5b487","jah":"4457ec6ad7646ea890c77ee220266472","en":"The @P/World Sports Festival@ knockout stage.\nMore fierce battles for national pride\nare in. Please take a look.","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[210/227]"}
+{"id":"5b4f8","jah":"ce3e79e84ceb560cae24ab85c403f87f","en":"A long fight nears its end: the\n@P/World Sports Festival@ football semis.\nLet's look at the results.","max_bytes":119,"refs":1,"ctx":"tbl@21fb0[211/227]"}
+{"id":"5b56f","jah":"c03276a0573ebca0d67252773ac930b7","en":"The @P/World Sports Festival@ final at last.\nWho won the match the world watched?\nSee the result.","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[212/227]"}
+{"id":"5b5da","jah":"84309b857d16c5353775abc93b5bb9bc","en":"The @P/World Sports Festival@ final at last.\nDid our Japan side seize the glory of\na first title?","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[213/227]"}
+{"id":"5b641","jah":"2ffa615ba807d75ed3d0d81cff62ac74","en":"Asia's future football stars gather at\nthe @P/U22 Asia Tournament@. Here is the\nopening match.","max_bytes":102,"refs":1,"ctx":"tbl@21fb0[214/227]"}
+{"id":"5b6a7","jah":"48563b4afeb06c0de53fb347004f6993","en":"Asian under-22 national sides play in\nthe @P/U22 Asia Tournament@ round two.\nSee Japan's result.","max_bytes":110,"refs":1,"ctx":"tbl@21fb0[215/227]"}
+{"id":"5b715","jah":"548f71b09761935b1e6830af2e13bfeb","en":"Asia's U22 sides play on in the\n@P/U22 Asia Tournament@ round three.\nDid Japan reach the final?","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[216/227]"}
+{"id":"5b782","jah":"dd83438ae7cebdfe9dae59e09a09a64b","en":"The @P/U22 Asia Tournament@ final is here.\nCan the U22 side conquer Asia?","max_bytes":87,"refs":1,"ctx":"tbl@21fb0[217/227]"}
+{"id":"5b7d9","jah":"ab8102d4a3db9503d9ac46a22624565f","en":"World U23 sides play in the\n@P/U23 Inter League@, a guide to how the\nGames will go. See the opening match.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[218/227]"}
+{"id":"5b846","jah":"2e49967dfd73f622ce7da145a3732c9d","en":"World U23 sides play in the\n@P/U23 Inter League@. Match two is done.\nSee the result for Japan.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[219/227]"}
+{"id":"5b8b3","jah":"6eb0b0be8d39a975ff0bbade6c6c1f1b","en":"World U23 sides play in the\n@P/U23 Inter League@. Match three is done.\nSee Japan's result.","max_bytes":103,"refs":1,"ctx":"tbl@21fb0[220/227]"}
+{"id":"5b91a","jah":"fe81544eaa8786be537a0f5c94f95e3a","en":"World U23 sides play in the\n@P/U23 Inter League@. Match four is done.\nFirst, see how Japan got on.","max_bytes":113,"refs":1,"ctx":"tbl@21fb0[221/227]"}
+{"id":"5b98b","jah":"9ce62a0df27b4d019c42d0bba5ed8de2","en":"World U23 sides play in the\n@P/U23 Inter League@. The final matches\nare in. How did the table finish up?","max_bytes":107,"refs":1,"ctx":"tbl@21fb0[222/227]"}
+{"id":"5b9f6","jah":"0d3fb860c2f3c5f838847e099cd95186","en":"16 U22 sides from around the world\ncontest the @P/U22 Super Youth Cup@, which\nhas begun. Watch Japan's youngsters.","max_bytes":111,"refs":1,"ctx":"tbl@21fb0[223/227]"}
+{"id":"5ba65","jah":"d4a7cb868ae04c59702667b75fd528dc","en":"World U22 sides play in the\n@P/U22 Super Youth Cup@. Round two done.\nSee the result for Japan.","max_bytes":109,"refs":1,"ctx":"tbl@21fb0[224/227]"}
+{"id":"5bad2","jah":"553411cd3c6269f8872c8ded6acc8bdc","en":"World U22 sides play in the\n@P/U22 Super Youth Cup@. Round three is\ndone. Did Japan reach the final?","max_bytes":119,"refs":1,"ctx":"tbl@21fb0[225/227]"}
+{"id":"5bb49","jah":"e9d7815167ff01a1c66bc616c5b8f5d0","en":"World U22 sides play in the\n@P/U22 Super Youth Cup@. Today's final:\ndid our Japan side take the title?","max_bytes":119,"refs":1,"ctx":"tbl@21fb0[226/227]"}
+{"id":"5bbc0","jah":"440ebc6bc385ea7e98e560fae74db875","en":"NEWS:Entered event:%d Rd %d","max_bytes":28,"refs":1,"ctx":"ptr@fac"}
+{"id":"5bbe0","jah":"a08d7eaa835da48973f80dc7a0ecaf50","en":"1st Stage","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@22570[0/2] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5bbec","jah":"6c4bc1eda133fb3516eb781083b788ad","en":"2nd Stage","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@22570[1/2] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5d794","jah":"9e7d7f5a91c0ed851ada6f3a7fde11ed","en":"Expression %d","max_bytes":16,"refs":1,"ctx":"ptr@1efc"}
+{"id":"5d7a4","jah":"bf901b65b51e0860dba2b43242bbd483","en":"Expression textures not loaded","max_bytes":36,"refs":1,"ctx":"ptr@2188"}
+{"id":"5d844","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@26b4"}
+{"id":"5d928","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@3a84"}
+{"id":"5ea20","jah":"11e8b45fc9c29ec519855ec2c9843504","max_bytes":28,"refs":1,"ctx":"tbl@5fc4[0/4]"}
+{"id":"5ea3c","jah":"428aeb4a3408fb1aa3d5f6a86e2f7e55","max_bytes":24,"refs":1,"ctx":"tbl@5fc4[2/4]"}
+{"id":"5ea54","jah":"d6cba393b52f1f0872e04ba610f27607","max_bytes":24,"refs":1,"ctx":"tbl@5fc4[1/4]"}
+{"id":"5ea6c","jah":"f2fa7be0a66ca7d798996477eb80103a","max_bytes":32,"refs":1,"ctx":"tbl@5fc4[3/4]"}
+{"id":"5ea8c","jah":"1abfad5635c18b460ceaa8ddcd99010c","max_bytes":32,"refs":1,"ctx":"ptr@6c6c"}
+{"id":"5ec34","jah":"a28b21d35df1c21ef71553fe300e300b","en":"No Team","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f174[0/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec3c","jah":"51b3ee0ee947569705dc0c4405d57c16","en":"My Team","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f174[1/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec44","jah":"5f9ae182679fa38b3d4a4a286aaa7c76","en":"Rival Team","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f174[2/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec50","jah":"f18a3c3a264d68dc075306c5f8d5a01f","en":"Antlers","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f174[3/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec58","jah":"19fcd082afd0e183ee5d1e97b1d3bcb2","en":"Reds","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f174[4/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec60","jah":"0af80e82f62cb52f602f775cc918f9d9","en":"JEF","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f174[5/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec68","jah":"1b62551679ac2281c383c93a794ea295","en":"Reysol","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f174[6/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec70","jah":"82c121fda3b602102cc34f37366c4a16","en":"Verdy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f174[7/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec78","jah":"10c1d794ee6ce3d0ec8b1b345700d6a4","en":"Marinos","max_bytes":8,"refs":0,"ctx":"hwpool run=36 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec80","jah":"aaf12fb2bdb6267b3db0c8facc4cf5ce","en":"Belmare","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[0/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec88","jah":"b7bb52311ecd0cd69c0c4b748686e16e","en":"S-Pulse","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[1/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec90","jah":"20b901f043f9a4b0d4e17eadd89a3293","en":"Jubilo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[2/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ec98","jah":"0310a14bf66e2c05692fafa06692c3c5","en":"Grampus","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[3/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eca0","jah":"5257001f2713f636d511f6957d6f611a","en":"PurpleSanga","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f198[4/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ecac","jah":"b4b6bc550a07ea3c755cc5feb9e6ca05","en":"Gamba","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[5/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ecb4","jah":"320fa46c8fa320ff787add95815c0119","en":"Cerezo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[6/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ecbc","jah":"a2255446499c05d2fe56ae4c2c057317","en":"Vissel","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[7/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ecc4","jah":"a10fb15f4877cea2c4a7bbee1e64c57f","en":"Sanfrec","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[8/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eccc","jah":"1ac1ff36eb4d66a052c30459b23c0cbe","en":"Avispa","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[9/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ecd4","jah":"98aef041effa5675c2e0aa59902748e1","en":"Consado","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[10/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ecdc","jah":"ebb14dee04c47449660d3fa412b67587","en":"Vegalta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[11/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ece4","jah":"ed7454c7a16670804c09b3c445007b99","en":"Montedo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f198[12/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ecec","jah":"c41b357d8d0ae2d3eb043c2e2e950715","en":"Ardija","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f198[13/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ecf8","jah":"9bbd678e223e2c7ad64e2ae0a922769f","en":"FCTokyo","max_bytes":8,"refs":1,"ctx":"ptr@4f1d0"}
+{"id":"5ed00","jah":"be605122902addb49be4b17b89ee626e","en":"Frontal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f1d4[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed08","jah":"0ce43c4429469f58828e96c4ff959051","en":"Ventforet","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f1d4[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed14","jah":"572f9b1f761932650540ce57f491e111","en":"Albirex","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f1d4[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed20","jah":"41530ec4602f673444ab7770b6397cb3","en":"Sagan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f1d4[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed28","jah":"f0858223bd8b84ce4582febafe6e911a","en":"Trinita","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f1d4[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed30","jah":"dcb3be575c5c4d6e3a13c834d70ec1f4","en":"Holyhok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f1d4[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed38","jah":"8ae10017e8eb311254732c6dc8be7199","en":"Yoko.FC","max_bytes":8,"refs":1,"ctx":"ptr@4f1ec"}
+{"id":"5ed40","jah":"93912bb0b16dcf81a16f2e22338e740b","en":"East","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f1f0[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed48","jah":"e0174adbca8a7146b241315ca06fa353","en":"West","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f1f0[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed50","jah":"a3c1faae1d6b5be7d6521ea591e1709f","en":"Dream","max_bytes":40,"slot":12,"refs":2,"ctx":"hwptr tbl@4f1f0[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed5c","jah":"8af8e3662e9f2e334bf05b82ee8d9fd8","en":"Euro","max_bytes":12,"refs":1,"ctx":"ptr@4f200"}
+{"id":"5ed68","jah":"fbc6c63107460e861b77440d4a571c20","en":"World","max_bytes":12,"refs":1,"ctx":"ptr@4f204"}
+{"id":"5ed7c","jah":"d298eea0ec1f04db1fb83882f018ae51","en":"Japan","max_bytes":8,"refs":1,"ctx":"ptr@4f23c"}
+{"id":"5ed84","jah":"43de6e90dcda5594949f6278d57a7071","en":"S.Korea","max_bytes":8,"refs":1,"ctx":"ptr@4f240"}
+{"id":"5ed8c","jah":"8e90a9f7e065518f069f6fde4fb8ea3c","en":"Saudi Arab.","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f244[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed98","jah":"6e4278ee4049a946cc6d5222ce2f278a","en":"IRN","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f244[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ed9c","jah":"688a9dcc1f1fe35203303edf13cbc56d","en":"THA","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f244[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eda0","jah":"f2a9cf3006c70c99d645d1354bef85b9","en":"China","max_bytes":8,"refs":1,"ctx":"ptr@4f250"}
+{"id":"5eda8","jah":"9673ca66abf53ca9d9317d090cbb2e77","en":"Kuwait","max_bytes":40,"slot":8,"refs":2,"ctx":"hwptr ptr@4f254 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5edb4","jah":"eb84ad62590e6e1c190c403ae35273f4","en":"Uzbekistan","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f25c[0/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5edc0","jah":"804dedc7d3faa54212f098fb674dd1fb","en":"IRQ","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f25c[1/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5edc4","jah":"04560fe5e37872e5bdb05b1a9dbc6f9a","en":"Kazakh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f25c[2/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5edcc","jah":"3887573b4f64bf221411d3d33e06d663","en":"Turkmen","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f25c[3/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5edd8","jah":"803dc7aa2aff7bf6c2cdba4e16bb4641","en":"N.Korea","max_bytes":8,"refs":1,"ctx":"ptr@4f26c"}
+{"id":"5ede0","jah":"1f33ea08babf05b439a180fd2f87338c","en":"Qatar","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f270[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ede8","jah":"e3a4853a4a850e88d91015a7778dbb5b","en":"Indon.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f270[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5edf0","jah":"d6a25a0402a11f58d6b39487b8dad607","en":"Singapore","max_bytes":40,"slot":12,"refs":2,"ctx":"hwptr tbl@4f270[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5edfc","jah":"3981f879dd27ff5b6b80382b9f0aca9e","en":"Malay.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f270[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee04","jah":"90283fd65975e62fc42fc89e09ad4c0e","en":"Oman","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f270[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee0c","jah":"b539093f790ca3783d8431d04eb78bec","en":"Tajik.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f270[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee14","jah":"e9dae6f899a91f24b9acd5deac416c92","en":"HK","max_bytes":8,"refs":2,"ctx":"ptr@4f288 xrefs=2"}
+{"id":"5ee1c","jah":"da357531cf1c922653c841d3e971b736","en":"Kyrgyz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr ptr@4f28c stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee24","jah":"4b94bdfdc19883198bff9ca3fe51afaf","en":"Taiwan","max_bytes":8,"refs":1,"ctx":"ptr@4f290"}
+{"id":"5ee2c","jah":"2fd67d8551393c8a5e800125c9f9812b","en":"MAC","max_bytes":40,"slot":4,"refs":2,"ctx":"hwptr tbl@4f294[0/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee30","jah":"8462fc14f940f055841b4ae0499c436d","en":"Nepal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f294[1/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee38","jah":"aab79c214bb26c1693c3f98e6a47ae2b","en":"Austral","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f294[2/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee40","jah":"9a172eb61032f4719320148103e084e2","en":"Nigeria","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f294[3/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee48","jah":"ead600c5eb5af4685ab68dc9bd508453","en":"Morocco","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f294[4/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee50","jah":"9884080639d0896b906348b0cb8db6b7","en":"Camern.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f294[5/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee58","jah":"779fafd51f839e81877a4952531dc0e1","en":"Tunisia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f294[6/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee60","jah":"64212fd24932bb326aa9dcd8d29091fb","en":"S.Afr.","max_bytes":8,"refs":1,"ctx":"ptr@4f2b0"}
+{"id":"5ee68","jah":"acaa076bdfc31f5715316e73d96d5bc7","en":"Egypt","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[0/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee70","jah":"ff2369c3b50273e6c02fe7bb343cb881","en":"Zambia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[1/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee78","jah":"c64d83e82ff2ee0023550491d943f0b3","en":"Ghana","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[2/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee80","jah":"5754a4d850b5400feec507a396dbe496","en":"Liberia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[3/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee88","jah":"2fd5bdcd632e7d2c490a890ed1916019","en":"Zimbabwe","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f2b4[4/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee94","jah":"200d8b6acdf9af3f0308043ce413a0fe","en":"France","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[5/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ee9c","jah":"2a26773c68a6ae65ede64c72c1cbaeac","en":"Germany","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[6/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eea4","jah":"fea12737a943cbd27e15d1cea70b36a3","en":"Holland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[7/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eeac","jah":"51cfdd9cd3a951bc283953102f9609c2","en":"Italy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[8/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eeb4","jah":"c3bc56ef5c67cc047123cb903b5af0a5","en":"England","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f2b4[9/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eec0","jah":"7908a4439dbf7a02b8cd52116c8216ff","en":"Spain","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[10/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eec8","jah":"076b67b017eb2ce2f4264845268581a6","en":"Croatia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[11/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eed0","jah":"2774c595b23be0695cfafdf997c244b8","en":"CZE","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f2b4[12/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eed4","jah":"4dbb8420cb61edc8d015e5bf6f0ac1cb","en":"Yugoslavia","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f2b4[13/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eee0","jah":"1c6f5bbf7667e9484c56604e11dd55ee","en":"Norway","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[14/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eee8","jah":"6ae6c347fe5f3fd47ebee459fdea7905","en":"Romania","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[15/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eef0","jah":"b0c886f269fcb2bfd3d9cb04982b7719","en":"Denmark","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[16/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eef8","jah":"f6416ff3b1cd11f8ce992980315f7fde","en":"RUS","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f2b4[17/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eefc","jah":"1652c7f1a2f43303916ae7c5c0b821c4","en":"Sweden","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[18/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef04","jah":"0f06150e06c618c5e0119e9b7d309fec","en":"Belgium","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[19/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef0c","jah":"45f8eeb909c0ecd8e44aa970a52f47ab","en":"Bulg.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[20/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef14","jah":"5c35b24229b137a07b3f070b4abafcfa","en":"Scotland","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f2b4[21/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef20","jah":"d3b8ec46e7e353f572fe424782d2855d","en":"Port.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[22/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef28","jah":"a8c2673ea2f385bad95ce4ab029d2b44","en":"Austria","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[23/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef30","jah":"54ca015f29ba77afc7897d72235f4744","en":"Slovak.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[24/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef38","jah":"776268b45d49b6e1520db5595633785a","en":"Poland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[25/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef40","jah":"d20cdff23622e9b3e0f52f7d8c874d6e","en":"Greece","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[26/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef48","jah":"35b506bfa0e22daa41ef168e619a1a27","en":"SUI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f2b4[27/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef4c","jah":"b85e4acbaeca9134c048f166ec35820f","en":"Israel","max_bytes":40,"slot":8,"refs":2,"ctx":"hwptr tbl@4f2b4[28/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef54","jah":"1ab80c616bc38d1fbe34fa918d222438","en":"Ireland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[29/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef5c","jah":"4b64792aba2b0a0d91b9ebd9da0e535b","en":"TUR","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f2b4[30/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef60","jah":"179b2731784c1e517b6664cccecf1908","en":"Hungary","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[31/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef68","jah":"ab1679e3916081d85ae924d2125cd4c6","en":"Finland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[32/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef70","jah":"49f04d27d69344146b29b805197c302b","en":"Ukraine","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f2b4[33/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef78","jah":"79f5cf0156b31b21c8271d233ba22595","en":"N.Ireland","max_bytes":12,"refs":1,"ctx":"ptr@4f33c"}
+{"id":"5ef84","jah":"32ebd76a2e68126f9773e4ed2650caaf","en":"Brazil","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[0/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef8c","jah":"8c14f3320fc7dc72b2679ee3a62a0a73","en":"Arg.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[1/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef94","jah":"01f43676e9acf85dd2b1fc562c7d2704","en":"CHI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f340[2/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5ef98","jah":"eb099d1078323ea83011052e66e34b76","en":"Col.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[3/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efa0","jah":"e7116e53b1dd357df15f71a9dcac61d4","en":"Parag.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[4/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efa8","jah":"050a9f19cad9640d2a8f0aa40f4d8e20","en":"Uruguay","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[5/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efb0","jah":"7b2f4b1dfd931442a017a870a373f06c","en":"Peru","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[6/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efb8","jah":"8c777ca5ca6142e9cd55d972273e28d7","en":"Bolivia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[7/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efc0","jah":"24298350279c9a712003c3a9e87b6de1","en":"Venez.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[8/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efc8","jah":"a22665b0ba244787ab0db4effe4aff65","en":"Ecuador","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[9/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efd0","jah":"aa622ebb6cc65f6e8c8af0fb0245feb3","en":"Mexico","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f340[10/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efdc","jah":"7e1e15c453e4b60e0bab0facd82fe33e","en":"Jamaica","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f370[0/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efe4","jah":"d7099aa59801f49eeb3ec293e6d27576","en":"C. Rica","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f370[1/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5efec","jah":"4270949e2f10cc9365e5e5c5b99fff47","en":"El Salvador","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f370[2/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5eff8","jah":"9fb212d87725cf4f7801e72092c6898f","en":"Canada","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f370[3/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f000","jah":"45af52067f918268d9c66d16a7e32d80","en":"Sloven.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f370[4/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f00c","jah":"11e09c982b019e8ef65a85617e819cb4","en":"Not set","max_bytes":8,"refs":1,"ctx":"ptr@4f388"}
+{"id":"5f014","jah":"67df2a8cc517ef009498a6c1dd1daa88","en":"Incheon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[0/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f01c","jah":"c3b6356c7180f72ada626830bd1eff82","en":"SEO","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f3a4[1/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f020","jah":"6105807a173a0a198e7d9336fb31529e","en":"Daegu","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[2/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f028","jah":"cd0fdb6b0ba34b5466558ff3c5e1c800","en":"Daejeon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[3/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f030","jah":"a23847fc6bea512e2138e89feaef28d6","en":"Busan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[4/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f038","jah":"de09326329ad6ada6b4e4831ff84626b","en":"Riyadh","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[5/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f040","jah":"4ad04ec03af370ad241805dbce549545","en":"Tehran","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[6/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f048","jah":"a1ebfd8e3c62fd5f5564b5f9b100cd8e","en":"Bangkok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[7/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f050","jah":"f4c94aa612bafa9ddb9dbb0ddd45250b","en":"Qingdao","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[8/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f058","jah":"00a4832aa3b818490b99ca766e4567ac","en":"Shangh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[9/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f060","jah":"6365c0f8daa1e3d36fbc777b20b45621","en":"Dalian","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[10/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f068","jah":"f3db83aa82970343dfcd1fadbf2a71ba","en":"Beijing","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3a4[11/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f070","jah":"7f6fcda6ed9bb8221d33700cc05d1dff","en":"A.Dhabi","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3d8[0/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f078","jah":"c1cae71d35ae14f3b838adf06f2d5937","en":"Bukhara","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3d8[1/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f080","jah":"0d9dd31a2b34c9cfb24c02f03ff597f0","en":"Baghdad","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f3d8[2/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f08c","jah":"910d5d329ad3432e09289c369df598fd","en":"Astana","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3d8[3/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f094","jah":"4aa7a736b30a2044eee85b7a1242852b","en":"Krasnovodsk","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f3d8[4/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0a0","jah":"4d7785f7ae3b8798db7478c30547f6bb","en":"Pyong.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3d8[5/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0a8","jah":"35878447e662db2ba363f8d03ac06af8","en":"Doha","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3d8[6/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0b0","jah":"20dadcf56d711de097c24a62176b3630","en":"Jakarta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3d8[7/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0b8","jah":"e2e986cb86254872a08bbcc941e63246","en":"K. Lumpur","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f3fc[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0c4","jah":"bcf9a57166e58627a17fb3fde711c570","en":"Muscat","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3fc[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0cc","jah":"752e711046029429c7e810604cf41e7f","en":"Dush.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f3fc[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0d4","jah":"e112c21e57247cc34b092e791eae3965","en":"Frunze","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f40c[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0dc","jah":"c23eb43bfff024e07b354068b289dac2","en":"Taipei","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f40c[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0e4","jah":"a11a6bf383760711098b757a51392dc7","en":"Kaoh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f40c[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0ec","jah":"3a8dc1b4a67f8c284efd1c32aa8c0d7b","en":"Kathm.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[0/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0f4","jah":"94b612d76e5118ee262e18830f290c7b","en":"Canb.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[1/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f0fc","jah":"a2cb44996043d02cd94995c0e2cc0100","en":"Lagos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[2/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f104","jah":"465ecc24b896aaeef5e39448b0e74f7e","en":"Casab.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[3/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f10c","jah":"fa18ab05c1a811c330d73d17f8331fc7","en":"Yaounde","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[4/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f114","jah":"fe98241b5ef93e9fe056fa38b2d69e4a","en":"Carth.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[5/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f11c","jah":"9020386cb9e01d9821cf60dc4f2c2bb7","en":"Joburg","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[6/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f128","jah":"cb44ffdda18d9f308556fb25dfd6598b","en":"CAI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[7/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f12c","jah":"7f435ee38cd550bdcc217c5dd92c2c2e","en":"Lus","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[8/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f130","jah":"dfb3e7d6847528e2dde3ff161f11d57f","en":"ACC","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[9/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f134","jah":"dd4c01c6434245ef18748cb91dad4737","en":"Monrov.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[10/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f13c","jah":"70885bdd6cd0c42495a035546a336f20","en":"Salisbury","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[11/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f148","jah":"5137db63ffca1c614d120695fdab38e9","en":"PAR","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[12/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f14c","jah":"24e2d63920017f04cd87d951b5affd9f","en":"MON","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[13/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f150","jah":"7cc32824575bd8e49def424a7ff694cb","en":"Mars.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[14/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f158","jah":"dfe2beadbd15f07347b6dc05671221da","en":"Dortm.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[15/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f160","jah":"591e534829fa621ead462f7e312b92f8","en":"Munich","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[16/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f168","jah":"e982ea729b517f3be8aac146ea099c2a","en":"Bremen","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[17/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f170","jah":"1800dc3b3716c4346565c177f0f8d043","en":"Amsterdam","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[18/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f17c","jah":"d2853b2ef0e15d00f26eaca785b82672","en":"Eindhoven","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[19/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f188","jah":"f0d6b52e4e8d3ada52dea80ca38632cc","en":"R'dam","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[20/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f190","jah":"0b16729a314328161cc1ea2fff0ca633","en":"TRN","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[21/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f194","jah":"49c11c76c969d5caca63a50893c41613","en":"MIL","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[22/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f198","jah":"eecdace6497c30f49aab8030b0b7daeb","en":"ROM","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[23/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f19c","jah":"491f8a3029c0e3f8df362cb034d245d8","en":"Lazio","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[24/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1a4","jah":"b53ac44136640d9344a12c495328d787","en":"Manch.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[25/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1ac","jah":"3b4e7128152b8fcd9b46a9272840ead5","en":"London","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[26/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1b4","jah":"062bc304f3fd93d090898765504e8cd0","en":"L'pool","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[27/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1bc","jah":"21ba9c1500fdc6df3a2da15e51bc7ede","en":"Stamford","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[28/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1c8","jah":"51dea70b94441933b002b669c05374bc","en":"Barca","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[29/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1d0","jah":"5f0d36ad1fe3d2246660d3a0d814414e","en":"Madrid","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[30/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1d8","jah":"82d1e465b11f51bda1a2f225bf24cb0a","en":"Valenci","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[31/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1e0","jah":"3a1c91e0facadbd7dddfd4c2bd2a73ec","en":"Valladolid","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[32/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1ec","jah":"73f7cc9a10fbca305efecaa9f17d63cb","en":"Zagreb","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[33/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1f4","jah":"3f4cf801d947388bbd8f133faee2955f","en":"Prague","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[34/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f1fc","jah":"16941d1e6b2004fe58e0d3cc07bc0a6c","en":"Belgrade","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[35/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f208","jah":"b175303deafa9fca31abf11811db98ca","en":"OSL","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[36/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f20c","jah":"304825f620557707f6d0456d68b9d7f9","en":"Buch.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[37/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f214","jah":"def0396e20ed95fd35e80f3ea1e7fa45","en":"Copenhagen","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[38/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f220","jah":"8b464e1f62484c24fe004445bf6dcd7a","en":"Moscow","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[39/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f228","jah":"dbc3edefade52605271b756913c615a4","en":"Stockh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[40/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f230","jah":"73df72ee4f632365d2ff13a5267acc09","en":"Bruss.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[41/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f238","jah":"a67f2d19a00352a13aff9eed3edefd34","en":"Sofia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[42/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f240","jah":"d20b1b4a1235f05ed0405f158ad3ba6a","en":"Glasgow","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[43/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f248","jah":"4f000f049a2c48424b2dbbc5af638e66","en":"Porto","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[44/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f250","jah":"bb8641a2a8503e601cc086307b7987ed","en":"Lisbon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[45/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f258","jah":"721e717d69955ce0925eaebb4386f3a7","en":"Coimbra","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[46/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f260","jah":"d261d2ada10f63318fa8b1741f92ae88","en":"Vienna","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[47/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f268","jah":"7a821f0b418a7e6dbbbdcd16bb72b906","en":"Bratislava","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f41c[48/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f274","jah":"aaa409feb1bce475d14d0267c0142204","en":"Warsaw","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[49/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f27c","jah":"08af84e259430dd3807a024edf2f0190","en":"ATH","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f41c[50/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f280","jah":"c1c380a369f5c642a3bf0c1fbac0c272","en":"Bern","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f41c[51/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f288","jah":"2cf50a50309d3c520b966e2fd4cf058f","en":"Dublin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[0/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f290","jah":"3cd7e0c874167e0e9ef8054b80920ace","en":"Ankara","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[1/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f298","jah":"f5e7974d2a824679ea6909b03693320c","en":"B'pest","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[2/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2a0","jah":"6b8f7c12c59ebc6da18eb9d1d4010398","en":"H'sinki","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[3/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2a8","jah":"58904eed58446f175464b2c87657c54c","en":"Kyv","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f4f0[4/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2ac","jah":"12bfd954337920c2692f70be3d2073af","en":"S.Paulo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[5/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2b4","jah":"e8c7510f793b01f193673a95d860276a","en":"Rio de Jan.","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[6/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2c0","jah":"8ffdc25171d17a5e3407350753833b47","en":"B.Horizonte","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[7/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2cc","jah":"e816808e83bf49e8b65b668c7f487914","en":"P. Alegre","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[8/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2d8","jah":"e21d3b18b6bc752d41769572b02169f0","en":"Santos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[9/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2e0","jah":"574c3b227090a2034cc18002ceec6954","en":"B. Aires","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[10/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2ec","jah":"de94077eba2fa32a91052f54afd94c4b","en":"Boc","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f4f0[11/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2f0","jah":"4a4ca05db3c30ee1579a92fc0b94559d","en":"Stgo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[12/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f2f8","jah":"4724f752d3aafbd0b2b096085b897e80","en":"Medelin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[13/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f300","jah":"135e99d78056b3b8806fe452c967a4f1","en":"Bogota","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[14/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f308","jah":"a695c1e01075137c870128bf9e69d76e","en":"Asunc.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[15/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f310","jah":"bce3a8cbf4427e422127ff1b0a6f6826","en":"Montevideo","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[16/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f31c","jah":"3320a5e2ce6f2c4cd28375e7911b02c5","en":"Lim","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f4f0[17/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f320","jah":"000bf6aa6880d65b73444411a5d740e9","en":"La Paz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[18/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f328","jah":"355aed18e4f9728f59c5d72891bc15e3","en":"Caracas","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[19/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f330","jah":"3741117514e2314c6e7d99d23481ff84","en":"Qto","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f4f0[20/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f334","jah":"72e42c91da99dca750f06eec2f903f8f","en":"Acapulc","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[21/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f33c","jah":"54c2540ed03d9742bbb7630dddcb2c27","en":"Mexico","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[22/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f344","jah":"9083d043d3a100da28bf9197b7c66d7b","en":"N.York","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[23/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f34c","jah":"71f294df3709ecc32ff918f027752341","en":"L.A.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[24/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f354","jah":"a4ff87e843ed5a0ced9656d08cdcb5c0","en":"Wash.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[25/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f35c","jah":"5566723fb4f77fe560cf284c605e2fec","en":"Kingstn","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[26/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f364","jah":"db3e21cadbcc56900abf850cc59cc81b","en":"Sanjose","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[27/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f36c","jah":"d7d59bb1f77dc8957f035c20e4b82f9d","en":"S.Salvador","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[28/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f378","jah":"3c884ce4961f1c3f28878e0f71deda06","en":"Ott","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f4f0[29/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f37c","jah":"42d4a62b8a833f8b119097e6c86742d5","en":"Dummy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[30/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f384","jah":"7c36aa34adaf9603c4110fd8e5cdb2b1","en":"Tempest","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[31/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f38c","jah":"99f168e8a75e3fcc33f4c62471c33e56","en":"Vullcan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[32/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f394","jah":"17e54583e2a69829ad775e02188e1539","en":"Avalanc","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[33/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f39c","jah":"3ce2c2e7dbc0784fe799d1ff878525c3","en":"Sting","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[34/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3a4","jah":"b6ba59e4f78d39317a0373eb5b401c17","en":"Monolit","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[35/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3ac","jah":"42268bc9ec685739b17e001610d10559","en":"Bandits","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[36/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3b8","jah":"4e7bd3a5dcd327355e39be7c0bb89d68","en":"Blitz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[37/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3c0","jah":"4d8f9cdce5cf23209b352e0354b3445e","en":"Schwarz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[38/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3c8","jah":"0aed1f8653962e81deeae40eaba386d2","en":"Blaze","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[39/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3d0","jah":"37f8c41063ab81c1d6ede830b000e0c2","en":"Blues","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[40/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3d8","jah":"200f92fa84745cf685dbdc4796b66912","en":"Shadows","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[41/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3e0","jah":"e3740e59272e0e4b093816be0c335a5b","en":"Mantis","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[42/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3e8","jah":"24e47478266df656815439e08b17e54c","en":"Geist","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[43/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3f0","jah":"b6c3c255e54de02b70fe80fe3cd4507c","en":"Topolin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[44/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f3f8","jah":"4998a349b16dc3b5fba13f6bc9646836","en":"Ape","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[45/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f400","jah":"fbd9287458cb7984ac6a4578fec6ff3e","en":"Ballena","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[46/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f408","jah":"ccc1bcea3f20dd2720bcfe0d41cce1da","en":"Blau Wiese","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[47/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f414","jah":"bdc9917f0a7c5377f92ff048659c62a6","en":"Cie","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f4f0[48/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f418","jah":"34b974fd24c8ea4ec22bb9b394ba9289","en":"Colmill","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[49/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f420","jah":"acb6c6a41d658dbed82b75e7461fe1da","en":"Corrien","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[50/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f428","jah":"6af01442797a69254d1d4f3adb25aefd","en":"Elf Schritt","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[51/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f434","jah":"6991b51db448f5cf028173ad3918f706","en":"Espada","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[52/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f43c","jah":"edd2cbe5d8ea533f697334d4bfcda091","en":"Gluck","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[53/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f444","jah":"4d269fac5204297c307f41a69eef1fa7","en":"Herenci","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[54/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f44c","jah":"0d673fd57d928d90c730d3a764b90eca","en":"Infini","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[55/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f454","jah":"7c18fe910ab07da7cff3756267d5fd18","en":"Lampo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[56/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f45c","jah":"8636b000cfb3c493019065ea1279f42d","en":"Leone","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[57/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f464","jah":"122b4e440abc982d8a1edd08c544dfde","en":"Lynx","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[58/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f46c","jah":"111cf4c3f637a0f6ddaa0734c119abff","en":"Megere","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[59/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f474","jah":"e3d1777bfd33a431ae9cffa9a9b466cb","en":"Mistral","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[60/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f47c","jah":"5897a76d6e3c61a34ee83078b425cfc2","en":"Panther","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[61/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f484","jah":"c37d089e49ad46a7ea9105d69d161f19","en":"Riccio","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[62/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f48c","jah":"667878cc77fd5fa53cdd7d60fe0eb0da","en":"Ros","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@4f4f0[63/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f490","jah":"07c2f9fb3cd09bbe6886651c45774eee","en":"Unicorn","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[64/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f498","jah":"47e2004a9c718be6f63a026dd8344a75","en":"Aurora","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[65/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4a0","jah":"51c75b6602bb03dfb32d90c5a304f1e9","en":"Avanzare","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[66/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4ac","jah":"aeda2e80eb09d9b25c4aa1345ccdfa2a","en":"El Toro","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[67/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4b4","jah":"7bf6b50cb83bcd6bd0f13b04bc93a38c","en":"Estella","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[68/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4bc","jah":"5df6c9a994dca9fb09d5ff8335b562d6","en":"Feliz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[69/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4c4","jah":"d4032608fafba1194be1f6034e35755c","en":"Forte","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[70/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4cc","jah":"3c7251711cd3a6040c0803039834920e","en":"Gabe","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[71/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4d4","jah":"797e20a76dea721f7ec44a64ea40bb7a","en":"Galeos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[72/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4dc","jah":"eccb52e2613d460d4176a0d9f7fc09dd","en":"Giurare","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[73/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4e4","jah":"54f4d68bcf67ac1d1d167c4121c1b582","en":"Iris","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[74/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4ec","jah":"6d257daca2bd284685a0a012128db1d1","en":"Lumiere","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[75/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4f4","jah":"8c33b277ad611e86071be006cebae3cc","en":"Mythos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[76/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f4fc","jah":"794de2e76256500fe1a62d80f722e254","en":"Plaisir","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[77/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f504","jah":"691316822615ec06cbebc4f361033330","en":"Rafale","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[78/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f50c","jah":"d3af5a8b80b7ac9e989004e36fa37950","en":"Rendir","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[79/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f514","jah":"f05c58a1f2f48272fa8bd4275bddd264","en":"Salire","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[80/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f51c","jah":"b3e71cf5e24b9c45fb81727b7ec3edc4","en":"Sfida","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[81/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f524","jah":"1ff1d63274f30ce85ee9441d561863a7","en":"Stolz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[82/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f52c","jah":"428734f7879447dcbad6a1c3e51f28ba","en":"Tigre","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@4f4f0[83/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f534","jah":"3feb8cb4efb0ccec1e74b9a3e2901476","en":"Valentia","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@4f4f0[84/85] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5f5e4","jah":"6a3f57a5c0c5365736bfaf97450e2fa5","en":"Called outside league. Tournament:%d","max_bytes":48,"refs":1,"ctx":"ptr@8bcc"}
+{"id":"5f614","jah":"4aa3fe1a3329b2ee2d3eacfa1fb509cf","en":"Too many rounds. Given:%d  Max:%d","max_bytes":44,"refs":1,"ctx":"ptr@8bd0"}
+{"id":"5f640","jah":"c67ab5ac0853ca1aa4dafbbec4d1dd6a","en":"Max rounds differ. plib:%d  kklib:%d","max_bytes":48,"refs":1,"ctx":"ptr@8bd8"}
+{"id":"5f6c0","jah":"57061aaeb5837ad41d2cc620dcf02a60","en":"My Left:%d Opp:%d\n","max_bytes":19,"refs":1,"ctx":"ptr@95cc"}
+{"id":"5f8d0","jah":"d71a125425056c9226afd722db57f3c4","max_bytes":32,"refs":1,"ctx":"ptr@4f818"}
+{"id":"5f970","jah":"01b370c29570b2568a78d2882ff90162","max_bytes":64,"refs":1,"ctx":"ptr@4f828"}
+{"id":"5f9b0","jah":"8b0958c4fc797d7915cc26feb508d9b6","max_bytes":36,"refs":1,"ctx":"ptr@4f82c"}
+{"id":"5fa00","jah":"758e0e907ec275f84365f5f79e2ff862","max_bytes":44,"refs":1,"ctx":"ptr@4f834"}
+{"id":"5fa2c","jah":"e305373236d9284788e8e30e3989b431","max_bytes":32,"refs":1,"ctx":"ptr@4f838"}
+{"id":"5fab0","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@b0d0","skip":true}
+{"id":"5fab4","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@b0d8[0/3]","skip":true}
+{"id":"5fabc","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@b0d8[1/3]","skip":true}
+{"id":"5fac0","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@b0d8[2/3]","skip":true}
+{"id":"5fac4","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[0/11]"}
+{"id":"5fac8","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[1/11]"}
+{"id":"5facc","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[2/11]"}
+{"id":"5fad0","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[3/11]"}
+{"id":"5fad4","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[4/11]"}
+{"id":"5fad8","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[5/11]"}
+{"id":"5fadc","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[6/11]"}
+{"id":"5fae0","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[7/11]"}
+{"id":"5fae4","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[8/11]"}
+{"id":"5fae8","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[9/11]"}
+{"id":"5faec","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@5fa80[10/11]"}
+{"id":"63544","jah":"d9cd2c213be758fa0b8e565660703ce8","max_bytes":48,"refs":1,"ctx":"ptr@f120"}
+{"id":"63994","jah":"62e61410905e24e66450d54ed05654d5","en":"Intl Return Growth: Player %d","max_bytes":36,"refs":1,"ctx":"ptr@138c4"}
+{"id":"639b8","jah":"b8eaff67cbe96edbb865475ddaff3098","en":"Plr %d stat %d: %d to %d, skipped","max_bytes":48,"refs":1,"ctx":"ptr@138cc"}
+{"id":"639e8","jah":"00253978a6e91d74c5a0543385d825ea","en":"Plr %d stat %d: %d to %d, added","max_bytes":40,"refs":2,"ctx":"ptr@138d4 xrefs=2"}
+{"id":"63a10","jah":"c30485ae19816d8c67a38555ee9036b6","en":"Limit %d, so set to %d","max_bytes":28,"refs":1,"ctx":"ptr@13b60"}
+{"id":"8a954","jah":"f0847493799cf583db2c77df3ea0deb8","en":"GC Last Champ: %s","max_bytes":16,"refs":1,"ctx":"ptr@19b08"}
+{"id":"8a964","jah":"5a53898f97089dfe6c5ed7f9b6225a6b","en":"Own Club Last Champs, Sub %d","max_bytes":32,"refs":1,"ctx":"ptr@19b10"}
+{"id":"8a9cc","jah":"da7492360882edfd0dbade9dcf8bb6d8","en":"Last Champs","max_bytes":12,"refs":1,"ctx":"ptr@1a780"}
+{"id":"8aa24","jah":"40179db1e4be5a31d9b69aeb108f65f4","en":"Holders: %s","max_bytes":12,"refs":1,"ctx":"ptr@1b1f8"}
+{"id":"8b5f8","jah":"235d85e1affb47886e15b40caf5fe23d","en":"Re-entry Ban List: %d now","max_bytes":28,"refs":1,"ctx":"ptr@20554"}
+{"id":"8b8d4","jah":"d423f010369051ed62d46f858f626c6d","en":"Nuchitos","max_bytes":40,"slot":9,"refs":1,"ctx":"hwptr ptr@1ebfc stride-table(in-place only)","fmt":"hwptr"}
+{"id":"8bff3","jah":"a8f22613ca9dcbbd002d967d3a061ef9","max_bytes":9,"ctx":0,"orphan":true,"skip":true}
+{"id":"8c4cc","jah":"34b5abab823fbecf854c8e85db442817","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"8c767","jah":"ce88f0569aea0b59d806962fc5e38412","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"8c76e","jah":"ce88f0569aea0b59d806962fc5e38412","max_bytes":7,"ctx":0,"orphan":true,"skip":true}

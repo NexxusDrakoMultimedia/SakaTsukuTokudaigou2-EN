@@ -1,0 +1,27 @@
+507s
+files with textures                                            572
+loader walk of whole file OK zs-pvr                            39
+loader walk of whole file OK zs-tbd                            595
+modified, exact length, only slot changed pvr-file             24
+modified, exact length, only slot changed tbd-embedded         113
+modified, exact length, only slot changed tbd-file             504
+modified, exact length, only slot changed tbd-tail             83
+modified, exact length, only slot changed zs-pvr               39
+modified, exact length, only slot changed zs-tbd               595
+no test edit fits (zero-slack slot) tbd-file                   2
+no test edit fits (zero-slack slot) tbd-tail                   1
+no test edit fits (zero-slack slot) zs-tbd                     5
+no-op byte-identical pvr-file                                  24
+no-op byte-identical tbd-embedded                              113
+no-op byte-identical tbd-file                                  506
+no-op byte-identical tbd-tail                                  84
+no-op byte-identical zs-pvr                                    39
+no-op byte-identical zs-tbd                                    600
+skipped big file                                               1
+tried pvr-file                                                 24
+tried tbd-embedded                                             113
+tried tbd-file                                                 506
+tried tbd-tail                                                 84
+tried zs-pvr                                                   39
+tried zs-tbd                                                   600
+FAILURES: 0

@@ -1,0 +1,321 @@
+
+//////// FUN_8c0111b4 @ 8c0111b4 body 8c0111b4-8c0111f3
+
+/* WARNING: Removing unreachable block (ram,0x8c0111d2) */
+
+void FUN_8c0111b4(undefined4 param_1,undefined1 param_2)
+
+{
+  if ((*PTR_DAT_8c0112ac != '\0') && (*PTR_DAT_8c0112b0 != '\0')) {
+    FUN_8c011084(1,param_1,&param_2,&param_2);
+  }
+  return;
+}
+
+
+-- callers:
+   8c0110d0
+   8c15a67e
+   8c15a692
+   8c15a69e
+   8c15a6a8
+   8c16040c
+   8c16045a
+   8c1604f8
+   8c1604d6
+   8c1639f2
+   8c162828
+   8c15c47e
+   8c15c5ce
+   8c1634c6
+   8c15a6e0
+   8c15c568
+   8c15c624
+   8c160498
+   8c162974
+   8c163644
+   8c163a48
+   8c15f2c8
+   8c15f90e
+   8c15f97e
+   8c15f9e0
+   8c15fa3e
+   8c15faa0
+   8c15fb06
+   8c15f886
+   8c15fc8c
+   8c15fcec
+   8c15fbb8
+   8c15f1e0
+   8c163418
+   8c163278
+   8c16359e
+   8c1635a6
+   8c1635c6
+   8c1635fa
+   8c1635e8
+   8c15fc42
+   8c15f34c
+   8c16325e
+   8c163580
+   8c159bd4
+   8c15f0f8
+   8c15f204
+   8c15f33c
+   8c15f7cc
+   8c15fbec
+   8c15fd44
+   8c163314
+   8c16347c
+   8c15fe62
+   8c1600e6
+   8c15bd7c
+   8c15bf08
+   8c15bee6
+   8c15bdc4
+   8c15be18
+   8c15be44
+   8c15beb4
+   8c15bec0
+   8c15beda
+   8c15e78e
+   8c15e2dc
+   8c15e532
+   8c15e412
+   8c15ef40
+   8c15f014
+   8c15f06e
+   8c15f098
+   8c164856
+   8c1644f6
+   8c1625ec
+   8c162736
+   8c15c224
+   8c15c23a
+   8c1650d2
+   8c1646e6
+   8c164744
+   8c15be74
+   8c15c3cc
+   8c15e390
+   8c15e4b4
+   8c15e604
+   8c15e85c
+   8c15ef9c
+   8c1601e8
+   8c162784
+   8c164520
+   8c1647cc
+   8c1648e8
+   8c165198
+   8c15b926
+   8c15ba32
+   8c15deea
+   8c15ddbe
+   8c15ddee
+   8c15dd06
+   8c15dc5a
+   8c15db56
+   8c15db78
+   8c15db9a
+   8c15dbee
+   8c15d994
+   8c165368
+   8c15d8a0
+   8c15d81e
+   8c15d53a
+   8c15d48a
+   8c15d4f4
+   8c15d51a
+   8c15d440
+   8c15d3dc
+   8c15d402
+   8c15d340
+   8c15d282
+   8c15d130
+   8c16300e
+   8c165e5a
+   8c165e84
+   8c165eae
+   8c165ed8
+   8c15bf3e
+   8c15bf6a
+   8c15bf76
+   8c15c166
+   8c15c01e
+   8c16310c
+   8c15c13c
+   8c15c0d8
+   8c15c0a4
+   8c15c070
+   8c15bf88
+   8c1655e6
+   8c15f4cc
+   8c15f4e4
+   8c1653be
+   8c16547a
+   8c16546c
+   8c165536
+   8c165710
+   8c165736
+   8c16579e
+   8c16580a
+   8c165b10
+   8c165b34
+   8c165b62
+   8c162948
+   8c165b7c
+   8c165bb8
+   8c162a6e
+   8c165bdc
+   8c162f48
+   8c162f6c
+   8c165896
+   8c1658bc
+   8c1658e0
+   8c165912
+   8c165932
+   8c165956
+   8c16598a
+   8c165cc8
+   8c165da2
+   8c165dd6
+   8c16492a
+   8c16494c
+   8c16496e
+   8c164990
+   8c1649de
+   8c164fba
+   8c15cef4
+   8c15cebe
+   8c15ce56
+   8c15cc4c
+   8c15cb8a
+   8c15cbaa
+   8c15cbca
+   8c15cc08
+   8c15cb18
+   8c15ca20
+   8c15c890
+   8c15c786
+   8c15c7aa
+   8c15b950
+   8c15ba94
+   8c15bfc4
+   8c15c108
+   8c15c678
+   8c15d090
+   8c15df44
+   8c15f570
+   8c162c58
+   8c16311c
+   8c164a10
+   8c16502c
+   8c165438
+   8c165680
+   8c165830
+   8c165a74
+   8c165cd8
+   8c165f58
+   8c159a2a
+   8c159a1a
+   8c162d32
+   8c162b5c
+   8c15fb64
+   8c159afc
+   8c162ea8
+   8c15df96
+   8c15e074
+   8c166f9c
+   8c15f696
+   8c15f6cc
+   8c166fbc
+   8c166fc4
+   8c167016
+   8c16701e
+   8c16703a
+   8c16704e
+   8c167062
+   8c167080
+   8c165c28
+   8c165c42
+   8c165c64
+   8c15982c
+   8c159840
+   8c15987a
+   8c15991c
+   8c15ad28
+   8c15ae24
+   8c164c50
+   8c165fd0
+   8c1661fa
+   8c1662ee
+   8c1660d4
+   8c1661ba
+   8c16638e
+   8c1662ae
+   8c166090
+   8c16616c
+   8c164bbe
+   8c164bfa
+   8c15ad3c
+   8c15ac42
+   8c15acb4
+
+//////// FUN_8c011234 @ 8c011234 body 8c011234-8c01127b
+
+void FUN_8c011234(void)
+
+{
+  int iVar1;
+  
+  if (*PTR_DAT_8c0112ac != '\0') {
+    if (*PTR_DAT_8c0112b0 == '\x01') {
+      (*(code *)PTR_FUN_8c0112b4)(0xd);
+      (*(code *)PTR_FUN_8c0112b4)(10);
+      return;
+    }
+    if (*PTR_DAT_8c0112b0 == '\x02') {
+      iVar1 = (*(code *)PTR_FUN_8c0112bc)(0,PTR_s_Debug_Window_8c0112b8);
+      *(int *)PTR_DAT_8c0112c0 = iVar1;
+      if (iVar1 != 0) {
+        (*(code *)PTR_FUN_8c0112c8)(PTR_DAT_8c0112c4);
+        return;
+      }
+    }
+  }
+  return;
+}
+
+
+-- callers:
+   8c0110fe
+
+//////// FUN_8c011118 @ 8c011118 body 8c011118-8c011173
+
+void FUN_8c011118(undefined4 param_1,int param_2)
+
+{
+  undefined *puVar1;
+  int iVar2;
+  
+  puVar1 = PTR_DAT_8c0111a0;
+  if (*PTR_DAT_8c011190 == '\x01') {
+    (*(code *)PTR_FUN_8c01119c)(param_1,param_2);
+    return;
+  }
+  if (*PTR_DAT_8c011190 == '\x02') {
+    iVar2 = (*(code *)PTR_FUN_8c0111a8)(0,PTR_s_Debug_Window_8c0111a4);
+    *(int *)puVar1 = iVar2;
+    if ((iVar2 != 0) && ((*(code *)PTR_FUN_8c0111ac)(param_1), param_2 != 0)) {
+      (*(code *)PTR_FUN_8c0111ac)(*(undefined4 *)puVar1,PTR_DAT_8c0111b0);
+      return;
+    }
+  }
+  return;
+}
+
+
+-- callers:
+   8c0110de
+   8c0110e8

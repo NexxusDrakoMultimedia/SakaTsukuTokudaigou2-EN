@@ -1,0 +1,155 @@
+{
+ "texture": "37293",
+ "supersample": 4,
+ "quantize": "argb4444",
+ "regions": [
+  {
+   "id": "r0",
+   "ja": "選手配置",
+   "text": "Positions",
+   "x": 6,
+   "y": 4,
+   "w": 168,
+   "h": 26,
+   "erase": {
+    "mode": "plate",
+    "path": "plate_menu.png",
+    "replace": true
+   },
+   "erase_rect": [
+    0,
+    0,
+    256,
+    32
+   ]
+  },
+  {
+   "id": "r1",
+   "ja": "システム",
+   "text": "Formation",
+   "x": 6,
+   "y": 36,
+   "w": 168,
+   "h": 26,
+   "erase": {
+    "mode": "plate",
+    "path": "plate_menu.png",
+    "replace": true
+   },
+   "erase_rect": [
+    0,
+    32,
+    256,
+    32
+   ]
+  },
+  {
+   "id": "r2",
+   "ja": "戦術",
+   "text": "Tactics",
+   "x": 6,
+   "y": 68,
+   "w": 168,
+   "h": 26,
+   "erase": {
+    "mode": "plate",
+    "path": "plate_menu.png",
+    "replace": true
+   },
+   "erase_rect": [
+    0,
+    64,
+    256,
+    32
+   ]
+  },
+  {
+   "id": "r3",
+   "ja": "中盤守備",
+   "text": "Midfield Defence",
+   "x": 6,
+   "y": 100,
+   "w": 168,
+   "h": 26,
+   "erase": {
+    "mode": "plate",
+    "path": "plate_menu.png",
+    "replace": true
+   },
+   "erase_rect": [
+    0,
+    96,
+    256,
+    32
+   ]
+  },
+  {
+   "id": "r4",
+   "ja": "DFタイプ",
+   "text": "DF Type",
+   "x": 6,
+   "y": 132,
+   "w": 168,
+   "h": 26,
+   "erase": {
+    "mode": "plate",
+    "path": "plate_menu.png",
+    "replace": true
+   },
+   "erase_rect": [
+    0,
+    128,
+    256,
+    32
+   ]
+  },
+  {
+   "id": "r5",
+   "ja": "キッカー指定",
+   "text": "Set Takers",
+   "x": 6,
+   "y": 164,
+   "w": 168,
+   "h": 26,
+   "erase": {
+    "mode": "plate",
+    "path": "plate_menu.png",
+    "replace": true
+   },
+   "erase_rect": [
+    0,
+    160,
+    256,
+    32
+   ]
+  }
+ ],
+ "defaults": {
+  "style": "m",
+  "align": "right",
+  "size": "auto",
+  "max_size": 21,
+  "min_sx": 0.72
+ },
+ "styles": {
+  "m": {
+   "font": [
+    "arial-bold-italic"
+   ],
+   "shear": 0.05,
+   "outline": {
+    "color": "#06143a",
+    "width": 0.0
+   },
+   "shadow": {
+    "color": "#000010",
+    "dx": 2,
+    "dy": 2,
+    "steps": 2,
+    "alpha": 1.0
+   },
+   "aa": false,
+   "fill": "#d4fcfc"
+  }
+ }
+}

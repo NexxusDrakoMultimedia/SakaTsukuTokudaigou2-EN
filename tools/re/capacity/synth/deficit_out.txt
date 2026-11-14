@@ -1,0 +1,10 @@
+scale 1.00 share=none: sum of pool deficits   316638 B | not covered by per-overlay append_cons:   18533 B (GAME 10358/0, ESTABLIS 6312/0, HELP 5335/4096, PL_CON 104/0, PASS_PL 104/0, NF_CON 104/0) -> bank 259,771 B COVERS it
+scale 1.00 share=dup : sum of pool deficits   225853 B | not covered by per-overlay append_cons:   16136 B (GAME 10338/0, ESTABLIS 4781/0, HELP 4489/4096, PL_CON 104/0, PASS_PL 104/0, NF_CON 104/0) -> bank 259,771 B COVERS it
+scale 0.95 share=none: sum of pool deficits   196146 B | not covered by per-overlay append_cons:   11908 B (GAME 7309/0, ESTABLIS 4335/0, PL_CON 44/0, PASS_PL 44/0, NF_CON 44/0, J1_REP 44/0) -> bank 259,771 B COVERS it
+scale 0.95 share=dup : sum of pool deficits   144595 B | not covered by per-overlay append_cons:   10442 B (GAME 7297/0, ESTABLIS 2881/0, PL_CON 44/0, PASS_PL 44/0, NF_CON 44/0, J1_REP 44/0) -> bank 259,771 B COVERS it
+scale 0.90 share=none: sum of pool deficits    91981 B | not covered by per-overlay append_cons:    6328 B (GAME 4305/0, ESTABLIS 1993/0, PL_CON 5/0, PASS_PL 5/0, NF_CON 5/0, J1_REP 5/0) -> bank 259,771 B COVERS it
+scale 0.90 share=dup : sum of pool deficits    67752 B | not covered by per-overlay append_cons:    4948 B (GAME 4301/0, ESTABLIS 617/0, PL_CON 5/0, PASS_PL 5/0, NF_CON 5/0, J1_REP 5/0) -> bank 259,771 B COVERS it
+scale 0.85 share=none: sum of pool deficits    24398 B | not covered by per-overlay append_cons:    1983 B (GAME 1550/0, ESTABLIS 421/0, PL_CON 2/0, PASS_PL 2/0, NF_CON 2/0, J1_REP 2/0) -> bank 259,771 B COVERS it
+scale 0.85 share=dup : sum of pool deficits    21874 B | not covered by per-overlay append_cons:    1643 B (GAME 1550/0, ESTABLIS 81/0, PL_CON 2/0, PASS_PL 2/0, NF_CON 2/0, J1_REP 2/0) -> bank 259,771 B COVERS it
+scale 0.80 share=none: sum of pool deficits     3156 B | not covered by per-overlay append_cons:     261 B (GAME 223/0, ESTABLIS 38/0) -> bank 259,771 B COVERS it
+scale 0.80 share=dup : sum of pool deficits     3156 B | not covered by per-overlay append_cons:     261 B (GAME 223/0, ESTABLIS 38/0) -> bank 259,771 B COVERS it

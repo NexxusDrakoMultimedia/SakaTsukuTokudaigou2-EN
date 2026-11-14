@@ -1,0 +1,16 @@
+
+//////// FUN_8c015c14 @ 8c015c14 body 8c015c14-8c015c2b
+
+uint FUN_8c015c14(uint param_1)
+
+{
+  if ((PTR_DAT_8c015c2c[param_1 & 0xff] & 2) == 0) {
+    return param_1;
+  }
+  return param_1 - 0x20;
+}
+
+
+-- callers:
+   8c0cd8e4
+   8c0cd900

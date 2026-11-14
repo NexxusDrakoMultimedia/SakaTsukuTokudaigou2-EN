@@ -1,0 +1,126 @@
+{
+ "texture": "10474 FLOW_PRG/YOUTH.ZAR youth.tbd#4",
+ "size": [
+  512,
+  256
+ ],
+ "supersample": 4,
+ "quantize": "argb4444",
+ "styles": {
+  "t": {
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#eeffff"
+    ],
+    [
+     1,
+     "#bfe4ee"
+    ]
+   ],
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   },
+   "outline": {
+    "color": "#102020",
+    "width": 1
+   }
+  }
+ },
+ "defaults": {
+  "style": "t",
+  "align": "left",
+  "valign": "middle",
+  "min_sx": 0.8,
+  "erase": {
+   "mode": "mask",
+   "ink": [
+    {
+     "luma_gt": 175
+    },
+    {
+     "luma_lt": 70,
+     "sat_lt": 0.45
+    }
+   ],
+   "dilate": 1,
+   "fill": "hfill"
+  }
+ },
+ "regions": [
+  {
+   "id": "yr",
+   "ja": "年目",
+   "text": "Yr",
+   "x": 80,
+   "y": 54,
+   "w": 42,
+   "h": 36,
+   "size": 18,
+   "align": "center",
+   "hsmooth": 4,
+   "erase_rect": [
+    78,
+    54,
+    46,
+    36
+   ]
+  },
+  {
+   "id": "mo",
+   "ja": "月",
+   "text": "Mo",
+   "x": 150,
+   "y": 54,
+   "w": 16,
+   "h": 36,
+   "size": 16,
+   "hsmooth": 4,
+   "erase_rect": [
+    144,
+    54,
+    26,
+    36
+   ],
+   "align": "left",
+   "font": [
+    "arial-narrow-bold",
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "min_sx": 0.5
+  },
+  {
+   "id": "wk",
+   "ja": "週",
+   "text": "Wk",
+   "x": 192,
+   "y": 54,
+   "w": 24,
+   "h": 36,
+   "size": 17,
+   "hsmooth": 4,
+   "erase_rect": [
+    186,
+    54,
+    32,
+    36
+   ],
+   "align": "left",
+   "font": [
+    "arial-narrow-bold",
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "min_sx": 0.6
+  }
+ ]
+}

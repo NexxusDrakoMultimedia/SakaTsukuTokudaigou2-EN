@@ -1,0 +1,252 @@
+{
+ "texture": "00167",
+ "supersample": 4,
+ "quantize": "argb4444",
+ "regions": [
+  {
+   "id": "ovs",
+   "ja": "海外クラブ",
+   "text": "Overseas Clubs",
+   "x": 2,
+   "y": 20,
+   "w": 133,
+   "h": 34,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 24,
+   "min_sx": 0.7,
+   "erase_rect": [
+    1,
+    18,
+    135,
+    38
+   ]
+  },
+  {
+   "id": "jl",
+   "ja": "Jリーグ",
+   "text": "J.League",
+   "x": 2,
+   "y": 98,
+   "w": 133,
+   "h": 36,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 26,
+   "min_sx": 0.7,
+   "erase_rect": [
+    1,
+    96,
+    135,
+    40
+   ]
+  },
+  {
+   "id": "nat",
+   "ja": "国代表",
+   "text": "National Teams",
+   "x": 2,
+   "y": 178,
+   "w": 133,
+   "h": 36,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 24,
+   "min_sx": 0.7,
+   "erase_rect": [
+    1,
+    176,
+    135,
+    40
+   ]
+  },
+  {
+   "id": "auto",
+   "ja": "自動選択",
+   "text": "Auto",
+   "x": 146,
+   "y": 23,
+   "w": 132,
+   "h": 36,
+   "style": "wht",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 160
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 28,
+   "min_sx": 0.7,
+   "erase_rect": [
+    145,
+    21,
+    134,
+    40
+   ]
+  },
+  {
+   "id": "man",
+   "ja": "手動選択",
+   "text": "Manual",
+   "x": 146,
+   "y": 110,
+   "w": 132,
+   "h": 38,
+   "style": "wht",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 160
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 28,
+   "min_sx": 0.7,
+   "erase_rect": [
+    145,
+    108,
+    134,
+    42
+   ]
+  }
+ ],
+ "styles": {
+  "yel": {
+   "bold": 0.6,
+   "font": [
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffff70"
+    ],
+    [
+     0.55,
+     "#ffee10"
+    ],
+    [
+     1,
+     "#e8c800"
+    ]
+   ],
+   "outline": {
+    "color": "#201000",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 2,
+    "dy": 2,
+    "alpha": 1.0
+   },
+   "aa": false
+  },
+  "wht": {
+   "bold": 0.6,
+   "font": [
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffffff"
+    ],
+    [
+     0.5,
+     "#e8e8ec"
+    ],
+    [
+     1,
+     "#9c9ca8"
+    ]
+   ],
+   "outline": {
+    "color": "#101018",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 2,
+    "dy": 2,
+    "alpha": 1.0
+   },
+   "aa": false
+  },
+  "btn": {
+   "font": [
+    "arial-bold"
+   ],
+   "fill": "#f4f4ff",
+   "outline": {
+    "color": "#10104a",
+    "width": 0.8
+   },
+   "shadow": {
+    "color": "#10104a",
+    "dx": 1,
+    "dy": 1,
+    "alpha": 1.0
+   }
+  }
+ }
+}

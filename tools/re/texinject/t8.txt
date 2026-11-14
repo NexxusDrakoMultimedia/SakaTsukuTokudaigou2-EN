@@ -1,0 +1,149 @@
+
+//////// FUN_8c01cb18 @ 8c01cb18 body 8c01cb18-8c01cb31
+
+undefined4 FUN_8c01cb18(int param_1,undefined4 *param_2)
+
+{
+  if ((param_1 == 0) || (*(short *)(param_1 + 0x4c) == 0)) {
+    return 0;
+  }
+  *param_2 = *(undefined4 *)(param_1 + 0xc);
+  return 1;
+}
+
+
+-- callers:
+   8c0a6716
+   8c0a67e8
+   8c15fc24
+   8c15fcaa
+   8c15fd24
+   8c15ef5c
+   8c15efc8
+   8c1617ec
+
+//////// FUN_8c01d3c2 @ 8c01d3c2 body 8c01d3c2-8c01d3d7
+
+undefined4 FUN_8c01d3c2(void)
+
+{
+  undefined4 uVar1;
+  
+  if (*(int *)PTR_DAT_8c01d504 == 0) {
+    return 0;
+  }
+                    /* WARNING: Could not recover jumptable at 0x8c01d3ce. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  uVar1 = (**(code **)(*(int *)PTR_DAT_8c01d504 + 0x3c))();
+  return uVar1;
+}
+
+
+-- callers:
+   8c0a6704
+   8c012b00
+   8c012b6c
+   8c0a67dc
+   8c15fc5e
+   8c15fb82
+   8c15fbf0
+   8c15fd30
+   8c15ef18
+   8c15efac
+   8c028070
+   8c08ef9c
+   8c1617d4
+   8c08ee02
+   8c027ff8
+
+//////// FUN_8c01cc0a @ 8c01cc0a body 8c01cc0a-8c01cc97
+
+int FUN_8c01cc0a(int param_1,int param_2,uint param_3)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  int iVar4;
+  int iVar5;
+  undefined1 *puVar6;
+  
+  iVar1 = DAT_8c01ccec;
+  puVar6 = &DAT_8c230954;
+  iVar2 = 0;
+  iVar4 = (int)DAT_8c01ccea;
+  for (iVar5 = 0; iVar5 < iVar4; iVar5 = iVar5 + 1) {
+    if ((param_3 & 0x1f) == 0) {
+      iVar2 = FUN_8c01cd70(param_1,param_2,param_3);
+    }
+    else {
+      iVar2 = FUN_8c01cc98(param_1,param_2,param_3,puVar6);
+    }
+    if (((iVar2 != 0) || (param_2 == 0)) || (*(int *)(param_1 + 0x10) <= *(int *)(param_1 + 0x14)))
+    break;
+    for (iVar3 = iVar1; iVar3 != 0; iVar3 = iVar3 + -1) {
+    }
+  }
+  if (iVar5 == iVar4) {
+    iVar2 = -0x15;
+  }
+  else if (-1 < iVar2) {
+    iVar2 = FUN_8c01c9dc(param_1);
+  }
+  return iVar2;
+}
+
+
+-- callers:
+   8c01b992
+   8c0a682a
+   8c0a68de
+   8c0a692a
+   8c012b18
+   8c012b74
+   8c01b9d0
+   8c0a6a44
+   8c15f030
+   8c15f0d0
+   8c08efa8
+   8c0a6bb0
+   8c0a6c6c
+   8c1617f8
+   8c08ee32
+
+//////// FUN_8c01ea12 @ 8c01ea12 body 8c01ea12-8c01ea1b
+
+void FUN_8c01ea12(void)
+
+{
+                    /* WARNING: Could not recover jumptable at 0x8c01ea18. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)**(undefined4 **)PTR_DAT_8c01ea80)();
+  return;
+}
+
+
+-- callers:
+   8c160062
+   8c15bd38
+   8c15bd40
+   8c15bd48
+   8c15bd50
+   8c024c32
+   8c15e2c4
+   8c15e51c
+   8c15e3fa
+   8c15ef86
+   8c024cb8
+   8c15be54
+   8c15e388
+   8c15e4ac
+   8c15e5fc
+   8c15efd0
+   8c16018c
+   8c15d66c
+   8c15d77c
+   8c08efa4
+   8c1617a4
+   8c08ee22
+   8c08ef42

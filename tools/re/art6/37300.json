@@ -1,0 +1,287 @@
+{
+ "texture": "37300",
+ "supersample": 4,
+ "quantize": "rgb565",
+ "regions": [
+  {
+   "id": "off",
+   "ja": "攻撃力",
+   "text": "Offence",
+   "x": 368,
+   "y": 30,
+   "w": 120,
+   "h": 20,
+   "size": 17,
+   "align": "left",
+   "style": "white",
+   "erase": {
+    "mode": "plate",
+    "path": "p37300a.png",
+    "replace": true
+   },
+   "erase_rect": [
+    364,
+    20,
+    125,
+    86
+   ]
+  },
+  {
+   "id": "def",
+   "ja": "守備力",
+   "text": "Defence",
+   "x": 368,
+   "y": 54,
+   "w": 120,
+   "h": 20,
+   "size": 17,
+   "align": "left",
+   "style": "white",
+   "erase": null
+  },
+  {
+   "id": "tir",
+   "ja": "疲れ",
+   "text": "Tired",
+   "x": 368,
+   "y": 78,
+   "w": 120,
+   "h": 20,
+   "size": 17,
+   "align": "left",
+   "style": "white",
+   "erase": null
+  },
+  {
+   "id": "sta",
+   "ja": "スタミナ",
+   "text": "Stamina",
+   "x": 234,
+   "y": 156,
+   "w": 250,
+   "h": 40,
+   "size": 30,
+   "align": "left",
+   "style": "big",
+   "erase": {
+    "mode": "plate",
+    "path": "p37300b.png",
+    "replace": true
+   },
+   "erase_rect": [
+    228,
+    138,
+    261,
+    62
+   ]
+  },
+  {
+   "id": "rate",
+   "ja": "チーム総合力",
+   "text": "Team Rating",
+   "x": 26,
+   "y": 16,
+   "w": 68,
+   "h": 11,
+   "size": 9,
+   "style": "gold",
+   "align": "center",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 38
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "erase_rect": [
+    26,
+    16,
+    68,
+    11
+   ]
+  },
+  {
+   "id": "c_off",
+   "ja": "オフェンス",
+   "text": "Offence",
+   "x": 44,
+   "y": 29,
+   "w": 34,
+   "h": 7,
+   "size": 6,
+   "style": "gold",
+   "align": "center",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 38
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "erase_rect": [
+    44,
+    29,
+    34,
+    7
+   ]
+  },
+  {
+   "id": "c_tac",
+   "ja": "タクティクス",
+   "text": "Tactics",
+   "x": 14,
+   "y": 45,
+   "w": 29,
+   "h": 8,
+   "size": 6,
+   "style": "gold",
+   "align": "left",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 38
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "erase_rect": [
+    14,
+    45,
+    29,
+    8
+   ]
+  },
+  {
+   "id": "c_def",
+   "ja": "ディフェンス",
+   "text": "Defence",
+   "x": 78,
+   "y": 45,
+   "w": 27,
+   "h": 8,
+   "size": 6,
+   "style": "gold",
+   "align": "right",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 38
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "erase_rect": [
+    78,
+    45,
+    27,
+    8
+   ]
+  },
+  {
+   "id": "c_for",
+   "ja": "システム",
+   "text": "Formation",
+   "x": 14,
+   "y": 96,
+   "w": 38,
+   "h": 8,
+   "size": 6,
+   "style": "gold",
+   "align": "left",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 38
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "erase_rect": [
+    14,
+    96,
+    38,
+    8
+   ]
+  },
+  {
+   "id": "c_sta",
+   "ja": "スタミナ",
+   "text": "Stamina",
+   "x": 62,
+   "y": 96,
+   "w": 41,
+   "h": 8,
+   "size": 6,
+   "style": "gold",
+   "align": "right",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 38
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "erase_rect": [
+    62,
+    96,
+    41,
+    8
+   ]
+  }
+ ],
+ "styles": {
+  "white": {
+   "font": [
+    "segoe-ui-semibold",
+    "arial-bold"
+   ],
+   "fill": "#f4f8ff",
+   "shadow": {
+    "color": "#163a8a",
+    "dx": 1.2,
+    "dy": 1.5,
+    "alpha": 1.0
+   }
+  },
+  "gold": {
+   "font": [
+    "arial-narrow-bold",
+    "arial-bold"
+   ],
+   "fill": "#e0bc30",
+   "aa": true
+  },
+  "big": {
+   "font": [
+    "segoe-ui-semibold",
+    "arial-bold"
+   ],
+   "fill": "#f4f8ff",
+   "shadow": {
+    "color": "#163a8a",
+    "dx": 2,
+    "dy": 2,
+    "alpha": 1.0
+   },
+   "letter_spacing": 1
+  }
+ },
+ "defaults": {
+  "min_sx": 0.7
+ }
+}

@@ -1,0 +1,68 @@
+rows 119
+overlays with decoded stub 116 Counter({'hook': 113, 'direct': 3})
+FLOW_PRG 113 ATFIRST 3
+not overlay rows [('FLOW_PRG', 'SECBND.BIN', 'not an SH-4 overlay (data, no stub)'), ('ATFIRST', 'BPINFO.BIN', 'not an overlay (data file)'), ('ATFIRST', 'FONT.BIN', 'not an overlay (data file)')]
+with slot span 109  without [('COMM.BIN', '0x8c2e0000'), ('CON_REP.BIN', '0x8c2e0000'), ('J1_REP.BIN', '0x8c4e0000'), ('LOADBAR.BIN', '0x8c800000'), ('NF_CON.BIN', '0x8c2e0000'), ('PASS_PL.BIN', '0x8c2e0000'), ('PL_CON.BIN', '0x8c4e0000')]
+slot-aligned 109 not ['COMM.BIN', 'CON_REP.BIN', 'J1_REP.BIN', 'LOADBAR.BIN', 'NF_CON.BIN', 'PASS_PL.BIN', 'PL_CON.BIN']
+desc_count distribution [(1, 19), (2, 65), (3, 7), (4, 11), (5, 1), (6, 3), (9, 1), (10, 2)]
+heap bytes min/median/max 58784 1784768 8570976
+heap < 1 MiB: [(58784, 'HELP.BIN'), (58784, 'HELP.BIN'), (246592, 'FLOW10.BIN'), (574272, 'FLOW9.BIN'), (607232, 'WEEKLY.BIN'), (956672, 'TOWNDATA.BIN'), (972576, 'MEETING.BIN'), (977312, 'N_ENTRY.BIN'), (1008448, 'OPTION.BIN'), (1033024, 'FLOW1.BIN'), (1033024, 'FLOW2.BIN'), (1033024, 'FLOW3.BIN'), (1033024, 'FLOW4.BIN'), (1033024, 'FLOW5.BIN'), (1033024, 'FLOW6.BIN'), (1033024, 'FLOW7.BIN'), (1033024, 'FLOW8.BIN')]
+has_bss 73 no bss 36 bss bytes total 8920859 max (1286758, 'NEWS.BIN')
+no-bss list ['CE_VS.BIN', 'CHALDANI.BIN', 'CHALMODE.BIN', 'CLUBEDIT.BIN', 'DATAROOM.BIN', 'DRSBEST.BIN', 'DRSDENDO.BIN', 'DRSGP.BIN', 'DRSGRF.BIN', 'DRSGRFJ.BIN', 'DRSHRANK.BIN', 'DRSISEKI.BIN', 'DRSJAPAN.BIN', 'DRSKIYA.BIN', 'DRSLIST.BIN', 'DRSOLIST.BIN', 'DRSRANK.BIN', 'DRSSRANK.BIN', 'ESTABLIS.BIN', 'GAME.BIN', 'GETREP.BIN', 'INVEST.BIN', 'JSCEVENT.BIN', 'MON_INST.BIN', 'MOVIE.BIN', 'MOVIE_BG.BIN', 'NENREP.BIN', 'NEWMONTH.BIN', 'NEWUNIF.BIN', 'NEW_YEAR.BIN', 'PL_EDIT.BIN', 'SELNAT.BIN', 'SPT_CLUB.BIN', 'SS_EDIT.BIN', 'S_SELECT.BIN', 'TV_EVENT.BIN']
+negative bss (_end before file end) [('MOVIE.BIN', '-96'), ('MOVIE_BG.BIN', '-96')]
+end_rounded far past file end (custom stub) [('ESTABLIS.BIN', '0x8c30b16c', '0x8c4d0020', '0x8c30b16c'), ('NEWS.BIN', '0x8c55f150', '0x8c55f160', '0x8c424eea')]
+sum bss pad if every BSS overlay were padded 8920859
+append_cons min/median/max 4096 221184.0 1855488 sum 29921280
+append_hard min/median/max 0 1715168.0 8505440
+text ja bytes total (overlay rows) 2895830
+cons < 2 x text: [('DRAFT.BIN', 'FLOW_PRG', '192512', '120588'), ('HELP.BIN', 'FLOW_PRG', '20480', '110032'), ('MEETING.BIN', 'FLOW_PRG', '118784', '376951'), ('NEWS.BIN', 'FLOW_PRG', '450560', '303165'), ('TRAINING.BIN', 'FLOW_PRG', '151552', '254598'), ('HELP.BIN', 'ATFIRST', '4096', '110036')]
+cons < 64 KiB: [(4096, 'HELP.BIN', 'ATFIRST'), (20480, 'HELP.BIN', 'FLOW_PRG'), (28672, 'FLOW10.BIN', 'FLOW_PRG'), (53248, 'FACEMDUL.BIN', 'ATFIRST'), (53248, 'FACEMDUL.BIN', 'FLOW_PRG')]
+measured overlays:
+  CLUBEDIT.BIN  FLOW_PRG heap  5021024 used  3745440 free  1275584 dirty_free   889708 zero_run   211744 img_match  99.9% tail_nz  1293 bss_len      0 bss_nz      0 cons   634880  live3_ram
+  FACEMDUL.BIN  FLOW_PRG heap  1050880 used   943488 free   107392 dirty_free        0 zero_run   107360 img_match 100.0% tail_nz     0 bss_len  57056 bss_nz   2047 cons    53248  live1_ram,live3_ram,ram_2400,ram_5400
+  HELP.BIN      FLOW_PRG heap    58784 used    10464 free    48320 dirty_free     2665 zero_run    41856 img_match 100.0% tail_nz   357 bss_len   6720 bss_nz    237 cons    20480  live1_ram,live3_ram,ram_2400,ram_5400
+  MOVIE_BG.BIN  FLOW_PRG heap  3718496 used      192 free  3718304 dirty_free   152129 zero_run  1048352 img_match  99.8% tail_nz     0 bss_len    640 bss_nz    592 cons  1855488  ram_2400,ram_5400
+  N_ENTRY.BIN   FLOW_PRG heap   977312 used   233632 free   743680 dirty_free   397161 zero_run    32736 img_match  98.5% tail_nz    38 bss_len   3648 bss_nz   3506 cons   368640  live1_ram
+  S_SELECT.BIN  FLOW_PRG heap  3831200 used  2134208 free  1696992 dirty_free   756877 zero_run   431488 img_match 100.0% tail_nz  1414 bss_len      0 bss_nz      0 cons   847872  live1_ram
+  TITLE.BIN     FLOW_PRG heap  3941408 used  1796256 free  2145152 dirty_free   395438 zero_run  1022432 img_match  99.8% tail_nz    39 bss_len  11200 bss_nz    253 cons  1069056  ram_2400,ram_5400
+  FACEMDUL.BIN  ATFIRST  heap  1050880 used   943488 free   107392 dirty_free        0 zero_run   107360 img_match 100.0% tail_nz     0 bss_len  57056 bss_nz   2047 cons    53248  live1_ram,live3_ram,ram_2400,ram_5400
+  HELP.BIN      ATFIRST  heap    58784 used    10464 free    48320 dirty_free     2665 zero_run    41856 img_match  44.0% tail_nz   357 bss_len   6720 bss_nz    237 cons     4096  live1_ram,live3_ram,ram_2400,ram_5400
+boot-loaded resources (dest, size, end, next fixed address, spare):
+  FONT.BIN(root, loaded copy)              dest 8cd5c000 size  663324 end 8cdfdf1c next 8ce02000 spare   16612 (sector-rounded end 8cdfe000)
+  ATFIRST/FONT.BIN (not the loaded copy)   dest 8cd5c000 size  663096 end 8cdfde38 next 8ce02000 spare   16840 (sector-rounded end 8cdfe000)
+  SHTEX0.ZAR                               dest 8ce02000 size  155798 end 8ce28096 next 8ce2c000 spare   16234 (sector-rounded end 8ce28800)
+  BAR.TBD                                  dest 8ce2c000 size  122584 end 8ce49ed8 next 8ce4c000 spare    8488 (sector-rounded end 8ce4a000)
+  SECFTEX0.ZAR                             dest 8ce5c000 size   46638 end 8ce6762e next 8ce80000 spare  100818 (sector-rounded end 8ce67800)
+slot table [('0x8c2b0000', '0x20000'), ('0x8c2d0000', '0x100000'), ('0x8c3d0000', '0x100000'), ('0x8c4d0000', '0x100000'), ('0x8c5d0000', '0x100000'), ('0x8c6d0000', '0x100000'), ('0x8c7d0000', '0x100000'), ('0x8c8d0000', '0x100000'), ('0x8c9d0000', '0x100000'), ('0x8cad0000', '0x90000'), ('0x8cb60000', '0x40000'), ('0x8cba0000', '0x1bc000')]
+disc: N_ENTRY sector tail after EOF 264 bytes, non-zero 0
+disc: HELP sector tail after EOF 1227 bytes, non-zero 0
+N_ENTRY sector tail 8c8e06f8..8c8e0800 len 264: non-zero in title dump 264, in live1 38, identical 0
+N_ENTRY BSS beyond the last sector 8c8e0800..8c8e1654 len 3668: non-zero in title dump 3610, in live1 3526, byte-identical to title dump 3341
+1ST_READ tail 8c2a0000..8c2b0000: file nonzero bytes 65536 of 65536; dumps (of 4) where RAM == file: 4
+1ST_READ tail 8c2b0000..8c2d0000: file nonzero bytes 131072 of 131072; dumps (of 4) where RAM == file: 0
+1ST_READ tail 8c2d0000..8c2e0000: file nonzero bytes 65536 of 65536; dumps (of 4) where RAM == file: 0
+1ST_READ.BIN size 2949120 end 0x8c2e0000
+highest non-zero RAM byte in title dump 0x8cfffffb  last 16 bytes 08000000e4ffff8c40d8008c00000000
+top 20 overlays by JA text bytes (sum of max_bytes): name, text, records, has_bss, bss_pad, append_cons, append_hard, heap
+  MEETING.BIN   text   376951 recs  7548 bss       1 pad   250262 cons   118784 hard   907040 heap   972576 
+  NEWS.BIN      text   303165 recs  3702 bss       1 pad  1286758 cons   450560 hard  3542688 heap  3608224 
+  TRAINING.BIN  text   254598 recs  2791 bss       1 pad    91150 cons   151552 hard  1170240 heap  1235776 
+  DRAFT.BIN     text   120588 recs  1563 bss       1 pad    49542 cons   192512 hard  1501600 heap  1567136 
+  HELP.BIN      text   110032 recs   700 bss       1 pad     7947 cons    20480 hard        0 heap    58784 
+  EVENT.BIN     text    76173 recs  2606 bss       1 pad   154366 cons   925696 hard  7369120 heap  7434656 
+  SCDRF.BIN     text    73307 recs   861 bss       1 pad    46071 cons   204800 hard  1575392 heap  1640928 
+  HOMETOWN.BIN  text    69438 recs  3189 bss       1 pad    21187 cons   466944 hard  3693184 heap  3758720 
+  NEWS_ED.BIN   text    62456 recs  2047 bss       1 pad   107114 cons   241664 hard  1877440 heap  1942976 
+  GAME.BIN      text    58322 recs  1137 bss       0 pad        0 cons   856064 hard  6785504 heap  6851040 
+  SPF_READ.BIN  text    53085 recs  3987 bss       1 pad   311399 cons   393216 hard  3105024 heap  3170560 
+  BPMATCH.BIN   text    47311 recs  3569 bss       1 pad   678538 cons   614400 hard  4861248 heap  4926784 
+  CHALMODE.BIN  text    46765 recs  3650 bss       0 pad        0 cons   405504 hard  3184192 heap  3249728 
+  ENDOPT.BIN    text    44997 recs  3512 bss       1 pad   385132 cons   200704 hard  1550816 heap  1616352 
+  DMCLBEDT.BIN  text    44675 recs  3498 bss       1 pad   342378 cons   651264 hard  5147264 heap  5212800 
+  BACKUP.BIN    text    43326 recs  3487 bss       1 pad   310911 cons   147456 hard  1121984 heap  1187520 
+  EXTRADE.BIN   text    43181 recs  3480 bss       1 pad   317187 cons   147456 hard  1117472 heap  1183008 
+  LOAD.BIN      text    42873 recs  3478 bss       1 pad   317187 cons   147456 hard  1117856 heap  1183392 
+  CSAVE4.BIN    text    42745 recs  3470 bss       1 pad   312491 cons   147456 hard  1118336 heap  1183872 
+  SONGSAVE.BIN  text    42299 recs  3461 bss       1 pad   310911 cons   221184 hard  1719232 heap  1784768 
+overlays whose text exceeds append_cons: [('HELP.BIN', '110032', '20480'), ('MEETING.BIN', '376951', '118784'), ('TRAINING.BIN', '254598', '151552')]
+total JA text bytes in FLOW_PRG overlays 2895830  sum append_cons over FLOW_PRG overlays 29372416

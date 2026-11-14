@@ -1,0 +1,57 @@
+== refs to 8c012b8c
+  from 8c012b58 READ
+
+//////// FUN_8c012ae8 @ 8c012ae8 body 8c012ae8-8c012b57
+
+undefined4 FUN_8c012ae8(undefined4 param_1,code *param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  undefined4 local_18;
+  code *local_14;
+  undefined4 local_10;
+  
+  iVar3 = 0;
+  local_14 = param_2;
+  local_10 = param_1;
+  (*(code *)PTR_FUN_8c012b68)(PTR_DAT_8c012b64);
+  iVar1 = (*(code *)PTR_FUN_8c012b6c)(local_10,0);
+  if (iVar1 == 0) {
+    iVar3 = -1;
+  }
+  else {
+    (*(code *)PTR_FUN_8c012b70)(iVar1,&local_18);
+    iVar2 = (*(code *)PTR_FUN_8c012b74)(iVar1,local_18,local_14);
+    if (iVar2 != 0) {
+      iVar3 = -1;
+    }
+    (*(code *)PTR_FUN_8c012b78)(iVar1);
+  }
+  (*(code *)PTR_FUN_8c012b7c)();
+  if (iVar3 != 0) {
+    (*(code *)PTR_FUN_8c012b80)();
+  }
+  *DAT_8c012b84 = (int)DAT_8c012b60;
+  (*local_14)();
+  return 1;
+}
+
+
+-- callers:
+   8c012b5c
+
+//////// FUN_8c012b58 @ 8c012b58 body 8c012b58-8c012b5f
+
+void FUN_8c012b58(void)
+
+{
+  FUN_8c012ae8(PTR_s_sg_dpldr_bin_8c012b8c,DAT_8c012b88,1);
+  return;
+}
+
+
+-- callers:
+   8c1639c6
+   8c163a3c

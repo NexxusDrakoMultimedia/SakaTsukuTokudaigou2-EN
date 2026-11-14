@@ -1,0 +1,45 @@
+
+//////// FUN_8c2e04f0 @ 8c2e04f0 body 8c2e04f0-8c2e0519
+
+undefined4 FUN_8c2e04f0(short param_1)
+
+{
+  char *pcVar1;
+  
+  pcVar1 = PTR_DAT_8c2e05b8;
+  while( true ) {
+    if (*pcVar1 == '\0') {
+      return 0;
+    }
+    if (param_1 == CONCAT11(*pcVar1,pcVar1[1])) break;
+    pcVar1 = pcVar1 + 2;
+  }
+  return 1;
+}
+
+
+-- callers:
+   8c2e06c0
+
+//////// FUN_8c2e051a @ 8c2e051a body 8c2e051a-8c2e0539
+
+undefined4 FUN_8c2e051a(char param_1)
+
+{
+  char cVar1;
+  char *pcVar2;
+  
+  pcVar2 = PTR_DAT_8c2e05bc;
+  do {
+    cVar1 = *pcVar2;
+    pcVar2 = pcVar2 + 1;
+    if (cVar1 == '\0') {
+      return 0;
+    }
+  } while (cVar1 != param_1);
+  return 1;
+}
+
+
+-- callers:
+   8c2e06d8

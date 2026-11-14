@@ -1,0 +1,8 @@
+step 6, plain <= 140000 bytes, 334s
+kind                            n  greedy fits optimal fits mean o/orig     worst
+tbd-embedded record           295    260   88%    295  100%    0.9771    1.0000
+tbd-file record               343    268   78%    343  100%    0.9696    1.0000
+tbd-tail record               148    113   76%    148  100%    0.9772    1.0000
+zs-pvr member -bz--           713    351   49%    713  100%    0.9803    0.9973
+zs-pvr member -bzw-            15      6   40%     15  100%    0.9949    1.0000
+zs-tbd record                 788    640   81%    788  100%    0.9805    1.0000

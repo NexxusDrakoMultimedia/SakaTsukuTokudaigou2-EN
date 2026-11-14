@@ -1,0 +1,29 @@
+{
+  "texture": "SAMPLE (screenshot crop of build/emu/live1.png, 240x420; stands in for a decoded texture until tools/pvr.py exists)",
+  "size": [240, 420],
+  "supersample": 4,
+  "quantize": "argb4444",
+  "defaults": {
+    "style": "menu_label",
+    "x": 64, "w": 148, "erase_grow": [0, 0, 7, 0],
+    "align": "left", "valign": "middle",
+    "min_sx": 0.7,
+    "erase": {
+      "mode": "mask",
+      "ink": [
+        { "color": [180, 240, 240], "tol": 60 },
+        { "luma_lt": 22 }
+      ],
+      "dilate": 3,
+      "fill": "hfill"
+    }
+  },
+  "regions": [
+    { "id": "tab_kanji",    "ja": "漢字",     "text": "Kanji",     "y": 8,   "h": 50, "dx": 6 },
+    { "id": "tab_hiragana", "ja": "ひらがな", "text": "Hiragana",  "y": 76,  "h": 48, "dx": 6 },
+    { "id": "tab_katakana", "ja": "カタカナ", "text": "Katakana",  "y": 134, "h": 50, "dx": 6 },
+    { "id": "tab_alnum",    "ja": "英数字",   "text": "ABC/123",   "y": 196, "h": 54, "dx": 6 },
+    { "id": "tab_symbols",  "ja": "記号",     "text": "Symbols",   "y": 258, "h": 54, "dx": 6 },
+    { "id": "tab_confirm",  "ja": "決定",     "text": "Confirm",   "y": 350, "h": 54, "dx": 6 }
+  ]
+}

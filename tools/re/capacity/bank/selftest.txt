@@ -1,0 +1,8 @@
+selftest entries (overflow @1.5x): 3543 non-relocatable rejected: 46
+resolved 3497 unique 3400 suffix aliases 12 stored bytes 231075 raw bytes if no dedupe 233313 unplaced 46
+per region used/size: {'tail': (93184, 93184), 'gap1': (119929, 119936), 'gap2': (13398, 13402), 'gap3': (4564, 16637), 'font': (0, 16612)}
+pointer patches 3814 wipes 3497
+strings verified by reading the patched RAM view: ok 3497, bad 0; pointer words patched 3814
+1ST_READ bytes changed 227960 (<= bank bytes in 1ST_READ regions 231075), size unchanged
+FLOW_PRG/CHALDANI.BIN: entries 178 stored 7494 B; old file 55392, old _end 0x8c4dd860 (bss 0) -> new file 62888, new _end 0x8c4df5a8 (ENDVAR word at +0xcb68); strings read back 178; pointer patches 192
+FLOW_PRG/MEETING.BIN: entries 7495 stored 131072 B; old file 874298, old _end 0x8c3e28d0 (bss 250262) -> new file 1255632, new _end 0x8c4028d0 (ENDVAR word at +0x3def8); strings read back 1753; pointer patches 1753

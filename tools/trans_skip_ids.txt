@@ -1,0 +1,40 @@
+# Known extraction false positives: record ids whose "ja" is NOT text (pointer tables, code or binary data that the
+# extractor read as Japanese).  tools/transwork.py gives a distinct text a skip hint from this list only when EVERY
+# record of the text is listed here; a text that also occurs somewhere as real text is never hidden by it.
+#
+# Format: one record id per line (as in translation/*.jsonl), '#' starts a comment, blank lines are ignored.
+# Add an id only when you are sure it is junk: a skip hint tells translators to leave the text alone, so a
+# wrongly listed id ships Japanese.  A missing entry only costs one pointless translation.
+# After editing: python -I -X utf8 tools/transwork.py plan   (it prints how many listed ids are not in the database).
+
+# NEWS_OP.BIN: 0x8C0xxxxx pointer words in front of / inside the text pool (bytes 8C xx read as kanji 喧 / 誌 ...)
+FLOW_PRG/NEWS_OP.BIN#28f00    #  ' 縁限誌呉誌交誌兄'
+FLOW_PRG/NEWS_OP.BIN#28f21    #  '緒喧' (orphan, 7 bytes)
+FLOW_PRG/NEWS_OP.BIN#39764    #  'D乱喧'
+FLOW_PRG/NEWS_OP.BIN#39b74    #  'd寳喧'
+FLOW_PRG/NEWS_OP.BIN#39d64    #  'T攝喧'
+FLOW_PRG/NEWS_OP.BIN#4e3b4    #  hw-kana + kanji + 喧
+FLOW_PRG/NEWS_OP.BIN#4e4c4    #  hw-kana + kanji + 喧
+FLOW_PRG/NEWS_OP.BIN#4e5d4    #  hw-kana + kanji + 喧
+FLOW_PRG/NEWS_OP.BIN#4e854    #  'D闡喧'
+
+# NEWS_ED.BIN
+FLOW_PRG/NEWS_ED.BIN#963cc    #  ',d膜'
+
+# other overlays: short pointer fragments (… 敬 = 8C B4: the high byte 0x8C of an 0x8Cxxxxxx pointer)
+FLOW_PRG/LOAD.BIN#292b0       #  'X前敬' (x4: a text is hinted only if all its records are listed)
+FLOW_PRG/LOAD.BIN#292e0
+FLOW_PRG/LOAD.BIN#29310
+FLOW_PRG/LOAD.BIN#29340
+FLOW_PRG/BACKUP.BIN#1ae0      #  'E整'
+FLOW_PRG/BACKUP.BIN#294a4     #  'L徹敬' (x4)
+FLOW_PRG/BACKUP.BIN#294d4
+FLOW_PRG/BACKUP.BIN#29504
+FLOW_PRG/BACKUP.BIN#29534
+FLOW_PRG/EXTRADE.BIN#28cbc    #  'd軌敬' (x4)
+FLOW_PRG/EXTRADE.BIN#28cec
+FLOW_PRG/EXTRADE.BIN#28d1c
+FLOW_PRG/EXTRADE.BIN#28d4c
+FLOW_PRG/GAME.BIN#d756c       #  code bytes: 炬:群Y' (x2)
+FLOW_PRG/GAME.BIN#d75bc
+FLOW_PRG/NENREP.BIN#1d7c      #  orphan: '薮-絹ﾘ-敬川'

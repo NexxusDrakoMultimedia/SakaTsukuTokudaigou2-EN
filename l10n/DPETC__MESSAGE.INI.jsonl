@@ -1,0 +1,850 @@
+{"l10n":1,"kind":"main","style":"spaced","n":849,"final_newline":true,"src":"DPETC/MESSAGE.INI"}
+{"id":"22","jah":"4c6ec96ecd318564075d20952e81657d","en":"Connecting to host...","max_bytes":null,"ctx":"key 0"}
+{"id":"3c","jah":"f84755f314eff4e58a100a0705e3c950","en":"Connecting to host... Connected","max_bytes":null,"ctx":"key 1"}
+{"id":"5e","jah":"2a5af803bb0151ab1d4caadbc5670000","en":"Loading page","max_bytes":null,"ctx":"key 2"}
+{"id":"70","jah":"8ffab0df4b6369f9c38aad580a223353","en":"Loading images","max_bytes":null,"ctx":"key 3"}
+{"id":"84","jah":"c34606a18320e3c742283a8e98962686","en":"(left:","max_bytes":null,"ctx":"key 4"}
+{"id":"90","jah":"f0168c325418f90fd61b26f525f98957","en":")","max_bytes":null,"ctx":"key 5"}
+{"id":"9a","jah":"96c7ee1a4f79f772929cdf47e1402960","en":"pct done","max_bytes":null,"ctx":"key 6"}
+{"id":"a6","jah":"b7addf1f61e359bd8d4388a6d66f58f0","en":"K done","max_bytes":null,"ctx":"key 7"}
+{"id":"b2","jah":"7f96993396016c4661c11d3ffa7eb0a8","en":"bytes done","max_bytes":null,"ctx":"key 8"}
+{"id":"c2","jah":"e4d14cda05114991869b0f393b4cf15b","en":"No login ID has been set","max_bytes":null,"ctx":"key 9"}
+{"id":"e9","jah":"c508188cbb5ed963c80a60d4447cc4ee","en":"No phone number has been set","max_bytes":null,"ctx":"key 10"}
+{"id":"10c","jah":"aaf06ffc687209fef3a3084899357b2d","en":"Connecting to provider AP...<br>Dialling %s","max_bytes":null,"ctx":"key 11"}
+{"id":"14b","jah":"929ff1a8234297adadc5688fd343a84a","en":"Connecting to provider AP...<br>Sending user name and password","max_bytes":null,"ctx":"key 12"}
+{"id":"192","jah":"211211bd0dc657b448496d294b67b48a","en":"Incorrect password","max_bytes":null,"ctx":"key 13"}
+{"id":"1ad","jah":"bd2bd22a55a305c3290daa278014fb4d","en":"The line is busy<br>Please wait a little while<br><br>Redial?","max_bytes":null,"ctx":"key 14"}
+{"id":"1fa","jah":"a6b211744d44b8a6f3cd67c1a08b7320","en":"<font color=\"#CC0000\">Could not dial</font><br><br>Check that the phone line is connected to the modem<br>and that the modem settings are correct","max_bytes":null,"ctx":"key 15"}
+{"id":"2b2","jah":"25fb50d3aea0c25286eb7b928ee70e76","en":"The page could not be displayed","max_bytes":null,"ctx":"key 17"}
+{"id":"2d5","jah":"6996d0c25c6a9970e2f6548b0b84431c","en":"Connecting to host... Failed","max_bytes":null,"ctx":"key 18"}
+{"id":"2fc","jah":"c569a164497de04f7fd7351c4a8a4bc9","en":"Host not found<br><br>There may be a network problem<br>or the URL is wrong","max_bytes":null,"ctx":"key 19"}
+{"id":"351","jah":"435310ac381656a09c0163d935f17e01","en":"The URL is incorrect","max_bytes":null,"ctx":"key 20"}
+{"id":"370","jah":"e8046da37aca268fa9ced6f2b42e7b15","en":"This will connect to the network<br>using the modem.<br>Is that okay?<br><font color=\"#CC0000\">For numbers starting with 0990,<br>Dial Q2 charges will apply</FONT>","max_bytes":null,"ctx":"key 21"}
+{"id":"413","jah":"369c86426b1adf956db07a0b538409e0","en":"Save this image?","max_bytes":null,"ctx":"key 700"}
+{"id":"433","jah":"d00ed112a00788d7ddacfb733ee3b647","en":"None","max_bytes":null,"ctx":"key 701"}
+{"id":"43f","jah":"ad616e66971ab54a67366be0dac10b1c","en":"Resubmit the form?<br>[Title] %s<br>[URL] %s","max_bytes":null,"ctx":"key 702"}
+{"id":"47e","jah":"30349c9ec1c0545d287524e5f6bc3f27","en":"Untitled","max_bytes":null,"ctx":"key 703"}
+{"id":"492","jah":"7e1b65cd2aeb93dca539c72100929e06","en":"This will connect to the user information<br>page using the modem.<br>Is that okay?<br><font color=\"#CC0000\">For numbers starting with 0990,<br>Dial Q2 charges will apply</FONT>","max_bytes":null,"ctx":"key 704"}
+{"id":"53b","jah":"6545aad0c9f6e2337447ce85d8eea1b7","en":"This will connect to the connection fee information<br>page using the modem.<br>Your current connection will be closed. Is that okay?","max_bytes":null,"ctx":"key 705"}
+{"id":"5a1","jah":"19dd669e7aa1acb23fe4fec12f9691c2","en":"This will connect to the connection fee information page<br>using the modem.<br>Is that okay?","max_bytes":null,"ctx":"key 706"}
+{"id":"5ef","jah":"45fbb8411f79af7c7a3de7152dddac09","en":"Returning to the game.<br>Is that okay?","max_bytes":null,"ctx":"key 707"}
+{"id":"61b","jah":"41592ebd1368517ca527c23d3a5f9d4b","en":"Server<br>  ","max_bytes":null,"ctx":"key 708"}
+{"id":"631","jah":"ad24427f5a2d8ceaab88d5806a99c1fa","en":"<br>wants to send you cookies. Accept them?","max_bytes":null,"ctx":"key 709"}
+{"id":"663","jah":"524506bbd43cef32361d69577b368fd9","en":"Freephone","max_bytes":null,"ctx":"key 710"}
+{"id":"679","jah":"cd2e0fd56750a169c19767e4ac84494e","en":"Connection successful","max_bytes":null,"ctx":"key 711"}
+{"id":"693","jah":"2ac005a40eda974b431602c694b86b30","en":"Connection failed","max_bytes":null,"ctx":"key 712"}
+{"id":"6ad","jah":"8f636e27e14ebeeeb8557b37132965a8","en":"The line is busy<br>Dialling the next number","max_bytes":null,"ctx":"key 713"}
+{"id":"6db","jah":"c259e48cf7ad51cd28fb8ab5201d760c","en":"The line was disconnected","max_bytes":null,"ctx":"key 714"}
+{"id":"6f7","jah":"c3d6837ff7b32f9ab45abd2c32651d34","en":"Automatically disconnected<br><br>You can change the auto-disconnect setting<br>under Timer in the Options","max_bytes":null,"ctx":"key 715"}
+{"id":"753","jah":"61e1394bb2e07177ee0f624d73c37d61","en":"Connect","max_bytes":null,"ctx":"key 716"}
+{"id":"75f","jah":"94eaa65302e784dc5a57362a90dd3b4c","en":"URL:","max_bytes":null,"ctx":"key 717"}
+{"id":"76f","jah":"c90315b93dc10cb0144a3248782e5e0d","en":"Status:","max_bytes":null,"ctx":"key 718"}
+{"id":"77d","jah":"c0cdfd7e086571ac634b6a07e1c68f91","max_bytes":null,"ctx":"key 719"}
+{"id":"79d","jah":"64a0f75ae425d2fa5747d9b1f1e09c9d","en":" Disconnect","max_bytes":null,"ctx":"key 720"}
+{"id":"7aa","jah":"7879981d4f226a8f0191d36730c07205","max_bytes":null,"ctx":"key 721"}
+{"id":"7b7","jah":"b9c57f4afcb434ad99765f4bf7b90f76","en":"Downloading %s...","max_bytes":null,"ctx":"key 722"}
+{"id":"7dd","jah":"f5b15d1080479829d80cc674cfbd901f","en":"<font color=\"#6E9959\">Dream Passport 3</font> will now close.<br>Is that okay?","max_bytes":null,"ctx":"key 723"}
+{"id":"836","jah":"5f41ebab97e009a39d02070a3baf0035","en":"AM","max_bytes":null,"ctx":"key 724"}
+{"id":"842","jah":"fc626db9c9ee6fa41fa98c43e99390f7","en":"PM","max_bytes":null,"ctx":"key 725"}
+{"id":"84e","jah":"bfb468ff919077b344420653189d3405","en":"Too large to download","max_bytes":null,"ctx":"key 726"}
+{"id":"876","jah":"c100e55f1f5e302a0d6a72d8d569116a","en":"<font color=\"#CC0000\">Could not display</font><br>The data is corrupted or too large","max_bytes":null,"ctx":"key 727"}
+{"id":"8d5","jah":"5938a9a2c504a3cbea86086143a8a3a9","en":"<font color=\"#CC0000\">Could not play</font><br>The data is corrupted or too large","max_bytes":null,"ctx":"key 728"}
+{"id":"934","jah":"a0179003b8a1c909a87043a2f31ad72e","en":"JavaScript prompt:","max_bytes":null,"ctx":"key 729"}
+{"id":"999","jah":"0464e8b70f876052115c1d9d2767e654","en":"Welcome to \"<font color=\"#6E9959\">Dream Passport 3</font>\"<br><br>Let's get your <font color=\"#EE3000\">Dreamcast</font> ready to connect to the network<br>","max_bytes":null,"ctx":"key 22"}
+{"id":"a59","jah":"af5b7986479493382c4af27f1acf80ad","en":"Let's set up the modem<br>","max_bytes":null,"ctx":"key 23"}
+{"id":"a93","jah":"b0ed948c9e4ac6b8ceb33f8908ed4c5e","en":"Setting the outside line number to \"Yes\"<br><br>Press the A Button to enter the number<br>","max_bytes":null,"ctx":"key 29"}
+{"id":"b11","jah":"04e5f8a18faa8076ce253061edc1f271","en":"Finishing \"Modem Setup\" and moving to the next screen<br>","max_bytes":null,"ctx":"key 35"}
+{"id":"b8d","jah":"b6fcdc7ad6ed631062fb4ddf01ec00ef","en":"<font color=\"#CC0000\">Erasing all network information from the console</font><br><br>Please wait...","max_bytes":null,"ctx":"key 45"}
+{"id":"c1e","jah":"f247569e251a1289212bfa7d115325af","en":"<font color=\"#CC0000\">All network information has been erased from the console</font><br><br>Please turn off your <font color=\"#EE3000\">Dreamcast</font>","max_bytes":null,"ctx":"key 46"}
+{"id":"cd8","jah":"29955e8c753cb40bdc97eb57066b64d1","en":"<font color=\"#CC0000\">Could not erase the network information from the console</font><br><br>Please try again","max_bytes":null,"ctx":"key 47"}
+{"id":"d6b","jah":"54dd35c0e52687e97146433af1a34178","en":"<font color=\"#CC0000\">Before you use the service...</font><br>We need you to read the \"<font color=\"#EE3000\">Dreamcast</font> Network Terms\".<br>Please follow the<br>on-screen instructions.<br>These Terms of Use are printed in the instruction manual,<br>but they may have been updated.<br><br>Note: any updates also form part of the Terms,<br> so please read them carefully.","max_bytes":null,"ctx":"key 48"}
+{"id":"eff","jah":"012c6eccf4930c8484631389443e37cf","en":"Please choose how to check the \"<font color=\"#EE3000\">Dreamcast</font> Network Terms\"<br>Select one option<br>","max_bytes":null,"ctx":"key 49"}
+{"id":"f8e","jah":"e09cd117bb544df716b4adb1170362b6","en":"Connect to the network to check the latest \"<font color=\"#EE3000\">Dreamcast</font> Network Terms of Use\"<br>                <font color=\"#CC0000\">[Recommended!]</font><br>","max_bytes":null,"ctx":"key 50"}
+{"id":"107a","jah":"46ee3dede96c7423b4171ec798ff4c9f","en":"Open the \"Terms of Use\" page of the instruction manual and read it","max_bytes":null,"ctx":"key 51"}
+{"id":"10ec","jah":"f39188e17b6f6e67a09ea7b49e64c539","en":"Connect to the network and check the latest \"Terms of Use\"","max_bytes":null,"ctx":"key 52"}
+{"id":"1162","jah":"7ea7d4c485f844975d7d6656231e7da4","en":"Did you find the \"Terms of Use\" page?<br><br>Please read it carefully and make sure you understand it","max_bytes":null,"ctx":"key 53"}
+{"id":"11e8","jah":"6a860b8aaf6cf260cff5d46a5aa66ff1","en":"Preparing to display the latest \"Terms of Use\"<br><br>Please wait...<br>","max_bytes":null,"ctx":"key 54"}
+{"id":"1266","jah":"ceac4a706e96c788ce559b0058abd7f5","en":"Displaying the latest \"Terms of Use\"<br><br><font color=\"#CC0000\">[Scroll the screen to read it all]</font><br>","max_bytes":null,"ctx":"key 55"}
+{"id":"130b","jah":"4e6def6844cd8a94a30be013f7e8d00a","en":"Have you read the \"<font color=\"#EE3000\">Dreamcast</font> Network Terms of Use\"?<br><br><br>Do you agree to these Terms of Use?<br>","max_bytes":null,"ctx":"key 56"}
+{"id":"13bc","jah":"3cb5c7639d4774242c1907bcfdfad32a","en":"I agree to the Terms of Use (including updates)<br><br><font color=\"#CC0000\">[Registration will now begin]</font><br>","max_bytes":null,"ctx":"key 57"}
+{"id":"145d","jah":"915f2b98400a2b36d5c159f8b31d7550","en":"I do not agree to the Terms of Use (including updates)<br><br><font color=\"#CC0000\">[Registration will be cancelled]</font><br>","max_bytes":null,"ctx":"key 58"}
+{"id":"1506","jah":"8e38497247829e909917bdccc9015317","en":"Until you agree to the Terms of Use (including updates),<br><font color=\"#EE3000\">Dreamcast</font> Internet features cannot be used.<br>Is that okay?<br>","max_bytes":null,"ctx":"key 59"}
+{"id":"15cd","jah":"2f2b0c829b20ccd50aeba279a3552bcc","en":"<font color=\"#EE3000\">Dreamcast</font><font color=\"#CC0000\"> Internet setup has been cancelled<br></font><br><br>We look forward to seeing you again","max_bytes":null,"ctx":"key 60"}
+{"id":"168f","jah":"9266e802b8e97e9df4995fb7ba657d40","en":"Enter the information needed to register<br><br><font color=\"#CC0000\">[Take care to avoid mistakes and omissions]</font><br>","max_bytes":null,"ctx":"key 61"}
+{"id":"1722","jah":"87bb558fbd36f15ff5ed3708b2a37cd2","en":"Enter your name in kanji, family name first,<br>then given name<br>","max_bytes":null,"ctx":"key 62"}
+{"id":"178e","jah":"a46d33f0fbe261faa69dddf56d92f7b3","en":"Enter your family name in kanji<br>","max_bytes":null,"ctx":"key 63"}
+{"id":"17d6","jah":"7eb494a3674634faf2474c3bd2d0d92a","en":"Enter your given name in kanji<br>","max_bytes":null,"ctx":"key 64"}
+{"id":"181e","jah":"ee7b7bda66ae87cb9e2713371a6bec85","en":"Enter the reading of your name in katakana, family name first,<br>then given name<br>","max_bytes":null,"ctx":"key 65"}
+{"id":"1890","jah":"81659830b27b673470e71c8137f83f2c","en":"Enter your family name in katakana<br>","max_bytes":null,"ctx":"key 66"}
+{"id":"18e0","jah":"135ffc5554f3f3baf251709eb7501663","en":"Enter your given name in katakana<br>","max_bytes":null,"ctx":"key 67"}
+{"id":"1930","jah":"ff72d0cf64bdb0ec26f1171136b18cf5","en":"Select your 7-digit postcode with the cursor<br>and confirm with the A Button<br>","max_bytes":null,"ctx":"key 68"}
+{"id":"1990","jah":"a14047af5b35a2c50d3293a7ca01f244","en":"Enter the detailed district name and street number of your address in kanji and numbers<br>","max_bytes":null,"ctx":"key 69"}
+{"id":"19e8","jah":"0f3b9f87515b5220d9a972342ec3b1eb","en":"Enter the building, block and room number of your address<br>in kanji and numbers<br><br><font color=\"#CC0000\">[Only if applicable]</font>","max_bytes":null,"ctx":"key 70"}
+{"id":"1a95","jah":"b246c1c665b7c65ba8a0829cd0436561","en":"Enter your home phone number<br><br><font color=\"#CC0000\">[Do not enter a mobile or PHS number]</font>","max_bytes":null,"ctx":"key 71"}
+{"id":"1b2c","jah":"bdd31597003aa66d18107957c839f992","en":"Enter the area code part of your phone number<br><br><font color=\"#CC0000\">[Do not enter a mobile or PHS number]</font>","max_bytes":null,"ctx":"key 72"}
+{"id":"1bcd","jah":"5bc9052ef272df3c38f125097c1affb6","en":"Enter the exchange part of your phone number<br><br><font color=\"#CC0000\">[Do not enter a mobile or PHS number]</font>","max_bytes":null,"ctx":"key 73"}
+{"id":"1c6e","jah":"262392c92d44fb6027298ba35f06c4c5","en":"<font color=\"#CC0000\">The AP cannot be registered correctly<br>with a mobile or PHS number</font>","max_bytes":null,"ctx":"key 74"}
+{"id":"1d15","jah":"611e75e9fae3a13c096e9a526f836d0a","en":"Select your gender with the cursor and confirm with the A Button<br>","max_bytes":null,"ctx":"key 75"}
+{"id":"1d65","jah":"17a6f92c92f530c7d5e3b45a9efa116a","en":"Select your date of birth with the cursor and confirm with the A Button<br>","max_bytes":null,"ctx":"key 76"}
+{"id":"1dbd","jah":"33fa5ab1d057549e4d7e829e0565a861","en":"Some items have not been filled in<br>Please check again<br>","max_bytes":null,"ctx":"key 77"}
+{"id":"1e2d","jah":"e065e3ff8897386655591d28725ae997","en":"Enter up to 3 account names (login<br>IDs) you would like to register with Sega Provider, using single-byte letters and numbers<br>Note: once registered, an account cannot be changed<br><font color=\"#CC0000\">[6 to 8 characters; the first must not be a number]</font>","max_bytes":null,"ctx":"key 78"}
+{"id":"1f4c","jah":"2d4bf371f705cc343080f97ab5c254c3","en":"The account name (login ID) you want<br>must be between 6 and 8 characters<br>long<br>","max_bytes":null,"ctx":"key 79"}
+{"id":"1fe0","jah":"9d1e234dada6e78b291d3d02ea364481","en":"The first character of the account name<br>(login ID) you want<br>cannot be a number","max_bytes":null,"ctx":"key 80"}
+{"id":"206e","jah":"95b5cb2d82747580432fb6affeb9f011","en":"The \"user information\" you entered will now be sent to the server and registered<br>Is that okay?<br>[Scroll the screen to check]","max_bytes":null,"ctx":"key 81"}
+{"id":"210a","jah":"baa4ff9f05ce8f8e09c1f06cd6081b96","en":"The account name (login ID) you want is already registered<br><font color=\"#CC0000\">[Another user has registered it and is using it]</font><br><br>Please enter a different account name","max_bytes":null,"ctx":"key 82"}
+{"id":"21d1","jah":"7b7ed3408e308b130cc5dd142e705bab","en":"This <font color=\"#EE3000\">Dreamcast</font> <font color=\"#CC0000\">has already been registered</font><br>and cannot use Internet features as it is</font><br>Please contact the Network Support Centre<br>for advice","max_bytes":null,"ctx":"key 83"}
+{"id":"22d2","jah":"607fcf01f7bf007cc2942b4f3803b53d","en":"The \"user information\" you entered could not be registered<br><br><font color=\"#CC0000\">Check the error details and enter it again</font>","max_bytes":null,"ctx":"key 84"}
+{"id":"237a","jah":"9770f87a2a52c8b2459b04ed0eec6357","en":"Please check your Sega Provider AP number<br>At first sign-up, your connection plan is one of the following<br>Metered: Dial Q2 number 0990 / 10 yen per 3 min (call charges extra)<br>KIDS: no connection fee, restricted hours (call charges extra)","max_bytes":null,"ctx":"key 85"}
+{"id":"246c","jah":"e0da5899b56a0fbb5cedbdbbbe66e31f","en":"You have been registered with the server<br>Your Sega Provider network information is as follows<br><br><font color=\"#CC0000\">[Be sure to make a note of it and keep it safe]</font><br>","max_bytes":null,"ctx":"key 86"}
+{"id":"2543","jah":"645645b2a337ed0d303a8eedda62f6ab","en":"The information for connecting to the network will be saved to the console<br>","max_bytes":null,"ctx":"key 87"}
+{"id":"259d","jah":"8383e53eccdde1a1f2fb00d05b10d4df","en":"The information for connecting to the network will be saved to the console<br><br><font color=\"#CC0000\">[You will enter the password by hand]</font>","max_bytes":null,"ctx":"key 88"}
+{"id":"2652","jah":"fd789fda9813bd80662bc2beea84a0b7","en":"The information for connecting to the network will be saved to the console<br><br><font color=\"#CC0000\">[The password will be entered automatically]</font>","max_bytes":null,"ctx":"key 89"}
+{"id":"2707","jah":"22050398e2b42c86dba0b87cf0ba3b22","en":"Saving information to the console<br>Please wait...<br>","max_bytes":null,"ctx":"key 90"}
+{"id":"2765","jah":"cb52efa0c609e170cbbae34fd14e69f8","en":"The information for connecting to the network has been saved to the console<br><br><font color=\"#CC0000\">[The password was saved too]</font>","max_bytes":null,"ctx":"key 91"}
+{"id":"281a","jah":"b3407963b1491aacdc6773b45f476d6a","en":"The information for connecting to the network has been saved to the console<br><br><font color=\"#CC0000\">[The password was not saved]</font>","max_bytes":null,"ctx":"key 92"}
+{"id":"28cb","jah":"25a27c6cc75e3a2712e34e343be7c8c9","en":"The information could not be saved to the console<br><br>Please try again<br>","max_bytes":null,"ctx":"key 93"}
+{"id":"293f","jah":"0d436dfe655d489e9a65cbb5d1259d7e","en":"Cancelling the save to the console<br><font color=\"#CC0000\">[Setup cancelled]</font><br>","max_bytes":null,"ctx":"key 94"}
+{"id":"29b8","jah":"f7b3026a9ff108ac893ac119a32c252e","en":"The save to the console was cancelled<br>","max_bytes":null,"ctx":"key 95"}
+{"id":"29fe","jah":"da5050165d863a0696d33b4ee41b3f13","en":"Choose the provider to use<br><br><font color=\"#CC0000\">[Normally, leaving it as Sega Provider is fine]</font>","max_bytes":null,"ctx":"key 96"}
+{"id":"2aa5","jah":"6816a47c5d258d0680eb2b47bd6e4ef0","en":"Set up the network connection to use Sega Provider<br>                  <font color=\"#CC0000\">[Recommended]</font>","max_bytes":null,"ctx":"key 97"}
+{"id":"2b64","jah":"42b7ab295647e64e6f4baa4a9a295211","en":"Set up the network connection to use<br>a provider of your own choosing<br>","max_bytes":null,"ctx":"key 98"}
+{"id":"2be6","jah":"36508be33b96d62de1d5aa4a92707fa6","en":"The network connection is now set up<br>to use Sega Provider","max_bytes":null,"ctx":"key 99"}
+{"id":"2c5b","jah":"05ee74afd3bdfbcc9ab36a19781c31a7","en":"Let's set up your own provider","max_bytes":null,"ctx":"key 100"}
+{"id":"2cbe","jah":"3cc8526fe92ff9bebcbf94696c10cd7d","en":"Enter the provider's access point number<br>(phone number)","max_bytes":null,"ctx":"key 101"}
+{"id":"2d3b","jah":"b923314403cb28c9286d3204c7cc67d9","en":"Enter your \"login ID\"<br>","max_bytes":null,"ctx":"key 102"}
+{"id":"2d96","jah":"9e6ebbdf1958f98632dca09c2dc21de0","en":"Enter your \"login password\"<br>","max_bytes":null,"ctx":"key 103"}
+{"id":"2dfd","jah":"ccb5584987c080f241bcd017201d0544","en":"Enter the \"primary DNS\"<br><br>If your provider has no setting, enter (0.0.0.0)<br><font color=\"#CC0000\">[It will be set automatically]</font>","max_bytes":null,"ctx":"key 104"}
+{"id":"2ed6","jah":"0c25e668d0dabb4195063062c2277a16","en":"Enter the \"secondary DNS\"<br><br>If your provider has no setting, enter (0.0.0.0)<br><font color=\"#CC0000\">[It will be set automatically]</font>","max_bytes":null,"ctx":"key 105"}
+{"id":"2faf","jah":"970d7cd691c1983fb9569c8de7db6d94","en":"Enter the \"proxy server\"  [server:port number]<br>(Example: proxy.dricas.com:8080)<br><font color=\"#CC0000\">If your provider has no setting, you need not enter anything</font>","max_bytes":null,"ctx":"key 106"}
+{"id":"30a3","jah":"d26986ec677f6f4947a5660fab182bb8","en":"Enter your \"email address\"<br>","max_bytes":null,"ctx":"key 107"}
+{"id":"3102","jah":"f55544829fed862b65d3a2e4ca6054ec","en":"Enter your \"email account\"<br>","max_bytes":null,"ctx":"key 108"}
+{"id":"3165","jah":"e3a30667c593cc070f53386419f645c5","en":"Enter your \"email password\"<br>","max_bytes":null,"ctx":"key 109"}
+{"id":"31c8","jah":"7495caacccdd2ab1ea7390799657ed82","en":"Enter the \"mail server (SMTP server)\"<br><br><font color=\"#CC0000\">If your provider has no setting, you need not enter anything</font><br>","max_bytes":null,"ctx":"key 110"}
+{"id":"32a2","jah":"911f6467dafafafdc3d654492da93ee6","en":"Enter the \"POP3 server\"<br><br><font color=\"#CC0000\">If your provider has no setting, you need not enter anything</font>","max_bytes":null,"ctx":"key 111"}
+{"id":"3377","jah":"00cdf7221bda28ccb4dd3c78c0e64b80","en":"Going to the \"Home\" screen","max_bytes":null,"ctx":"key 112"}
+{"id":"33ba","jah":"d592a0dd5ba507fb4084059a784addba","en":"Going to the \"Bookmarks\" screen","max_bytes":null,"ctx":"key 113"}
+{"id":"33fd","jah":"cd39e1b29f5a864616edae0371b0d819","en":"Going to the \"Mail\" screen","max_bytes":null,"ctx":"key 114"}
+{"id":"3440","jah":"5419c783cae2d1310a2c9ece360e0ed6","en":"Going to the \"Jump\" screen","max_bytes":null,"ctx":"key 115"}
+{"id":"3487","jah":"e33917cb3bf2336db404c42be66321cf","en":"Going to the \"Chat\" screen","max_bytes":null,"ctx":"key 116"}
+{"id":"34ce","jah":"f313b698dccff383e744a395452ce34a","en":"Starting the connection to the network<br>[Dialling]<br>","max_bytes":null,"ctx":"key 117"}
+{"id":"352f","jah":"10f3366caf30716809865e54e9e42b79","en":"Ending the network connection<br>[Hanging up the phone]<br>","max_bytes":null,"ctx":"key 118"}
+{"id":"358e","jah":"47e48ecdf484c77c8e5cf2759e8465ba","en":"Exiting Dream Passport 3<br>","max_bytes":null,"ctx":"key 119"}
+{"id":"35ea","jah":"d1a993fd211e3d59c027ec09be49443e","en":"Please select a chat server to connect to","max_bytes":null,"ctx":"key 120"}
+{"id":"363d","jah":"334f6b993245e16917bdc3ddfc4114e2","en":"Connect to a Dricas chat server","max_bytes":null,"ctx":"key 121"}
+{"id":"36a2","jah":"493b6ae0e5190238cbb872338a2eb5a0","en":"Connect to a general IRC chat server","max_bytes":null,"ctx":"key 122"}
+{"id":"3705","jah":"c7898357a828a1b720793f2b02f78bd8","en":"Load chat server files from the Memory Card","max_bytes":null,"ctx":"key 123"}
+{"id":"376a","jah":"088146113b871f474d122d7ad52633fe","en":"Save chat server files to the Memory Card","max_bytes":null,"ctx":"key 124"}
+{"id":"37cd","jah":"00828c26dae076fcfa0d9f8c469123d5","en":"Please select a chat server to save to the Memory Card","max_bytes":null,"ctx":"key 125"}
+{"id":"383c","jah":"25e9f8481843f47ebfd15cd3b7c1ad99","en":"Please enter a server name and comment","max_bytes":null,"ctx":"key 126"}
+{"id":"3881","jah":"92befc03ef5c0c6c921bc8463034343a","en":"Enter the [IRC server name:port number] to connect to<br><br>(Example: irc.sega.co.jp:8080)","max_bytes":null,"ctx":"key 127"}
+{"id":"38ff","jah":"0797a4f86d43cf247ae7fdf20f6d59c3","en":"Enter a comment for the server","max_bytes":null,"ctx":"key 128"}
+{"id":"3946","jah":"284557074ed540cb833538dc2af8da78","en":"Please enter a nickname and a room key<br>","max_bytes":null,"ctx":"key 129"}
+{"id":"3993","jah":"4ade6e0314b6a94b31f4c0318f8df6a9","en":"Enter the nickname you will use in chat<br>","max_bytes":null,"ctx":"key 130"}
+{"id":"39e2","jah":"fda3438fc45a133732807110da6fe92f","en":"A nickname cannot start with a digit<br>Please enter it again","max_bytes":null,"ctx":"key 131"}
+{"id":"3a5d","jah":"c034e40c8cb490a4db17ff1bd88718ff","en":"Enter the room key for the chat room<br><br><font color=\"#CC0000\">[Note: only enter one if it is needed]</font>","max_bytes":null,"ctx":"key 132"}
+{"id":"3ae9","jah":"5b86f7ed4e58ef8d7b9d9e30e4ff66cd","en":"Fetching the server list...<br>Please wait","max_bytes":null,"ctx":"key 133"}
+{"id":"3b5c","jah":"3ed4250d22cf6cdb034df462903af9ad","en":"Please select a chat server to connect to","max_bytes":null,"ctx":"key 134"}
+{"id":"3bb9","jah":"ca2cbef60b8b2a66a6c6cfbe103acb7b","en":"Connecting to the server...<br>Please wait","max_bytes":null,"ctx":"key 135"}
+{"id":"3c12","jah":"e4ce6b10e5cb43d108d888972c5aa4c8","en":"Sending the information needed to enter...<br>Please wait","max_bytes":null,"ctx":"key 136"}
+{"id":"3c6d","jah":"a7b9304823cf2093366f80ef69d604db","en":"Could not connect to the server<br>Reconnect automatically?","max_bytes":null,"ctx":"key 137"}
+{"id":"3ce4","jah":"43fb7c39da825d16a9fa8084639b42a0","en":"The server could not be found<br>","max_bytes":null,"ctx":"key 138"}
+{"id":"3d35","jah":"7682e666d6dfab16d98946ac242bbb0c","en":"Please enter the name of the chat room to join","max_bytes":null,"ctx":"key 139"}
+{"id":"3d7a","jah":"58da9441590b9fccf6a633d322a7402e","en":"This chat room name cannot be used<br>Please enter it again","max_bytes":null,"ctx":"key 140"}
+{"id":"3ddd","jah":"cb29424e5469809a4c56488cd694f8a5","en":"A comma (,) cannot be used in a room name<br>Please enter it again","max_bytes":null,"ctx":"key 141"}
+{"id":"3e4d","jah":"8e8b0cf2b728e788b483ce079ca349c3","en":"Depending on the server or line, you may<br>be disconnected while the list is loading<br>","max_bytes":null,"ctx":"key 142"}
+{"id":"3ecc","jah":"80cef20a317fb87e3ba6465a9ee20f9e","en":"Fetching the chat room list...<br>Please wait","max_bytes":null,"ctx":"key 143"}
+{"id":"3f37","jah":"05505a6ea282657f26de4bae8bebee1d","en":"Could not fetch<br>the chat room list","max_bytes":null,"ctx":"key 144"}
+{"id":"3f90","jah":"16df0ff9d907453657ba3835797981a9","en":"Fetching the chat room list<br>was cancelled","max_bytes":null,"ctx":"key 145"}
+{"id":"3fe7","jah":"7f78580a755536c311daeb67008fb6f9","en":"Please select a chat room to join","max_bytes":null,"ctx":"key 146"}
+{"id":"4034","jah":"ea16ff4da6acbb58a68755346e6fe659","en":"Joining the chat room<br>Please wait...","max_bytes":null,"ctx":"key 147"}
+{"id":"4099","jah":"dc63616ac4dc8e39f681ce3d6dab8ebb","en":"A member with the same nickname is<br>already in the room<br>Please choose another nickname and try<br>joining again","max_bytes":null,"ctx":"key 148"}
+{"id":"4128","jah":"711bb23506b7400101fad7458f47dd01","en":"The room key is wrong<br>Please try joining again with<br>the correct room key","max_bytes":null,"ctx":"key 149"}
+{"id":"4193","jah":"57805b29700c8bed6d21891cd92f3b6a","en":"Could not join the chat room<br>Please try again","max_bytes":null,"ctx":"key 150"}
+{"id":"41f0","jah":"c4fd9e7d5ac730f00dbce6a443ccd944","en":"Fetching information on the members in the chat room<br>","max_bytes":null,"ctx":"key 151"}
+{"id":"4255","jah":"595ef131f2d5c543ec88a6a88287d30f","en":"Checking the members in the room...<br>Please wait","max_bytes":null,"ctx":"key 152"}
+{"id":"42c2","jah":"4287093d128807321aa058bdcfd62e7f","en":"Could not fetch information on<br>the members in the room<br>","max_bytes":null,"ctx":"key 153"}
+{"id":"4335","jah":"b4322623e1c798688e25cb03e6d88a22","en":"Showing the members currently in the room<br><br><font color=\"#CC0000\">[Select OK on the R Menu or press the B Button to go back]</font>","max_bytes":null,"ctx":"key 154"}
+{"id":"43d3","jah":"fad8cbc4f3ad0990fc100af4e5f99c49","en":"Enter an IRC server name","max_bytes":null,"ctx":"key 155"}
+{"id":"43f7","jah":"8d1228323e194ff10486bfb88da8caa3","en":"Select an IRC server","max_bytes":null,"ctx":"key 156"}
+{"id":"4419","jah":"974ac8f5adbf46aadb0d2434005dbda3","en":"Add an IRC server","max_bytes":null,"ctx":"key 157"}
+{"id":"443b","jah":"2c85d6b11ad03374ec8d93f847d93e59","en":"Return to the \"Server List\" screen","max_bytes":null,"ctx":"key 158"}
+{"id":"4463","jah":"711c02dd230f9fe85072d9bbf33d78d2","en":"Select a chat room to join","max_bytes":null,"ctx":"key 159"}
+{"id":"4485","jah":"bcdefa9e4c331df56beb969e463d84ca","en":"Go to the room name entry screen","max_bytes":null,"ctx":"key 270"}
+{"id":"44a9","jah":"79d434a4f7b1be76fca23ea0e8bf7d71","en":"Refresh the chat room list","max_bytes":null,"ctx":"key 271"}
+{"id":"44c9","jah":"81ccd579899793bd670ab40ee4dd9976","en":"Enter a chat room name","max_bytes":null,"ctx":"key 272"}
+{"id":"44e5","jah":"77eb6a64b6a39972eb2d419121e55d1e","en":"Leave the chat room","max_bytes":null,"ctx":"key 273"}
+{"id":"4501","jah":"660d3de84329d94b1389c63e0d68cd8b","en":"Start chatting","max_bytes":null,"ctx":"key 274"}
+{"id":"451d","jah":"0aada692a4b4358f4325a48788011265","en":"Connecting to the server was cancelled","max_bytes":null,"ctx":"key 275"}
+{"id":"4543","jah":"486db1222906230b09571e4846432f83","en":"Fetching the server list was cancelled","max_bytes":null,"ctx":"key 276"}
+{"id":"456d","jah":"ac762a24a5cc49e12de9404b5f41e6d4","en":"Could not fetch the server list","max_bytes":null,"ctx":"key 277"}
+{"id":"4599","jah":"60273251c1b1593639d5b9fc269eb2d6","en":"Joining the chat room was cancelled","max_bytes":null,"ctx":"key 278"}
+{"id":"45bd","jah":"6615627b9cfb81b1a9f6f59200251a29","en":"Fetching the member list was cancelled","max_bytes":null,"ctx":"key 279"}
+{"id":"45e7","jah":"58e3e9a148153c8de22c6b4412aa2f13","en":"You cannot connect from an IRC server","max_bytes":null,"ctx":"key 280"}
+{"id":"4611","jah":"f5e5585b8f44e0816d56ccee0887abb2","en":"Connect to the IRC server","max_bytes":null,"ctx":"key 281"}
+{"id":"4633","jah":"11f3417b601c0ca166409ffd49c0a6ed","en":"Return to the chat server selection screen","max_bytes":null,"ctx":"key 282"}
+{"id":"465f","jah":"094f0bcff5323763b69985db51dc42bd","en":"Could not fetch the chat room list","max_bytes":null,"ctx":"key 283"}
+{"id":"4689","jah":"e3b0c44298fc1c149afbf4c8996fb924","max_bytes":null,"ctx":"key 284"}
+{"id":"4691","jah":"e3b0c44298fc1c149afbf4c8996fb924","max_bytes":null,"ctx":"key 285"}
+{"id":"4699","jah":"e3b0c44298fc1c149afbf4c8996fb924","max_bytes":null,"ctx":"key 286"}
+{"id":"46a1","jah":"e3b0c44298fc1c149afbf4c8996fb924","max_bytes":null,"ctx":"key 287"}
+{"id":"46a9","jah":"e3b0c44298fc1c149afbf4c8996fb924","max_bytes":null,"ctx":"key 288"}
+{"id":"46b1","jah":"e3b0c44298fc1c149afbf4c8996fb924","max_bytes":null,"ctx":"key 289"}
+{"id":"4721","jah":"e46fc903a0eb856221c72755a4a9ac65","en":"Change the various settings for <font color=\"#6E9959\">Dream Passport 3</font>","max_bytes":null,"ctx":"key 550"}
+{"id":"478d","jah":"726161624bb621e207091580707a9f0e","en":"Go to the sound settings screen","max_bytes":null,"ctx":"key 551"}
+{"id":"47ca","jah":"b6f222b2774da0d0d8504d24345b308d","en":"Go to the input and controls settings screen","max_bytes":null,"ctx":"key 165"}
+{"id":"480b","jah":"eba94a72b5ce604981938eed24bda32d","en":"Go to the modem settings screen","max_bytes":null,"ctx":"key 184"}
+{"id":"4844","jah":"1b8e2dce0220012a5edc1cc87b051fea","en":"Go to the browser display settings screen","max_bytes":null,"ctx":"key 166"}
+{"id":"488c","jah":"51bce525c5f4423c9be2cc631e71d2c0","en":"Go to the settings screen for browser<br>plug-ins that add features","max_bytes":null,"ctx":"key 552"}
+{"id":"48eb","jah":"904518633a2c0c50c4fc44c09381d221","en":"Go to the clock and time settings screen","max_bytes":null,"ctx":"key 553"}
+{"id":"492e","jah":"8485a15f07b0d7e2bca326e4c38780b3","en":"Go to the mail settings screen","max_bytes":null,"ctx":"key 554"}
+{"id":"496b","jah":"543b7167449c042786fe3f6cb6d2e96b","en":"This feature is not available","max_bytes":null,"ctx":"key 556"}
+{"id":"49ae","jah":"6858563b77c5b4f5ba95d749bcd73b1c","en":"Go to the screen for switching providers or<br>changing the details used to connect to the network<br><font color=\"#CC0000\">[Check Sega Provider connection fees here]</font>","max_bytes":null,"ctx":"key 557"}
+{"id":"4a7c","jah":"15253a571c0f8f42d8431659ddb4f8df","en":"Save your option settings to the Memory Card<br><font color=\"#CC0000\">[If you cancel saving on the next File screen,<br>your changes only apply for now]</font>","max_bytes":null,"ctx":"key 229"}
+{"id":"4b4c","jah":"6e8031828ad68667b5b004729a46f72f","en":"Cancel the option settings<br><font color=\"#CC0000\">[All changes made so far will be lost]</font>","max_bytes":null,"ctx":"key 230"}
+{"id":"4c03","jah":"136e8e16717f6a8614a2a1312ccbe01e","en":"Change the audio settings","max_bytes":null,"ctx":"key 160"}
+{"id":"4c25","jah":"803a31f7c1e71dc70919d92848ccc658","en":"Set the audio to \"Mono\"","max_bytes":null,"ctx":"key 161"}
+{"id":"4c53","jah":"7054887092e009d7c53192f3a2a370c4","en":"The audio has been set to \"Mono\"","max_bytes":null,"ctx":"key 162"}
+{"id":"4c83","jah":"45c86074a33d7d1b0165836fa41751db","en":"Set the audio to \"Stereo\"","max_bytes":null,"ctx":"key 163"}
+{"id":"4cb1","jah":"bd634b3ff108995ece8f65e492186380","en":"The audio has been set to \"Stereo\"","max_bytes":null,"ctx":"key 164"}
+{"id":"4ce1","jah":"543b7167449c042786fe3f6cb6d2e96b","en":"This feature is not available","max_bytes":null,"ctx":"key 217"}
+{"id":"4d12","jah":"543b7167449c042786fe3f6cb6d2e96b","en":"This feature is not available","max_bytes":null,"ctx":"key 218"}
+{"id":"4d4b","jah":"543b7167449c042786fe3f6cb6d2e96b","en":"This feature is not available","max_bytes":null,"ctx":"key 219"}
+{"id":"4d84","jah":"543b7167449c042786fe3f6cb6d2e96b","en":"This feature is not available","max_bytes":null,"ctx":"key 220"}
+{"id":"4dbf","jah":"543b7167449c042786fe3f6cb6d2e96b","en":"This feature is not available","max_bytes":null,"ctx":"key 221"}
+{"id":"4dfe","jah":"223d581d96bda4db37fad033cbee59e6","en":"Change the sound effects settings","max_bytes":null,"ctx":"key 558"}
+{"id":"4e27","jah":"1bcd74624a70fec5ca81fd73ddcb0fc1","en":"Set sound effects to \"ON\"<br>Sound effects play as you operate the controls","max_bytes":null,"ctx":"key 559"}
+{"id":"4e84","jah":"1e4a9ad6a888628266d4a2abf6ecaefc","en":"Sound effects have been set to \"ON\"<br>Sound effects play as you operate the controls","max_bytes":null,"ctx":"key 560"}
+{"id":"4ee3","jah":"8190fb33dbcac997fb59a7ed6ea32389","en":"Set sound effects to \"OFF\"","max_bytes":null,"ctx":"key 561"}
+{"id":"4f22","jah":"68846b0d2386b021dad0027a68fbe9fc","en":"Sound effects have been set to \"OFF\"","max_bytes":null,"ctx":"key 562"}
+{"id":"4f80","jah":"c5e7e3c509bb079df1c91d452d105d32","en":"Apply these settings and go back to the previous screen","max_bytes":null,"ctx":"key 563"}
+{"id":"4fde","jah":"9851df2e44ec8fb071c0b715d7d19f09","en":"Choose the type of software keyboard to use","max_bytes":null,"ctx":"key 185"}
+{"id":"5029","jah":"1db8a3ea0fb3b83d60075119b4f26309","en":"Set the software keyboard to the \"DreamPassport1\" layout<br>","max_bytes":null,"ctx":"key 186"}
+{"id":"508a","jah":"4701756a17d30b3b63d412ed4374f47f","en":"The software keyboard has been set to the \"DreamPassport1\" layout<br>","max_bytes":null,"ctx":"key 187"}
+{"id":"50ed","jah":"a4374a846a3e019ea1a9011d39da1531","en":"Set the software keyboard to the \"DreamPassport2\" layout<br>","max_bytes":null,"ctx":"key 188"}
+{"id":"514e","jah":"57baa0dc262bfadc33067d5470562c05","en":"The software keyboard has been set to the \"DreamPassport2\" layout<br>","max_bytes":null,"ctx":"key 189"}
+{"id":"51b1","jah":"e71602014e28f864f392a4a4e34c8e3d","en":"Set the software keyboard to the \"JIS\" layout","max_bytes":null,"ctx":"key 190"}
+{"id":"5205","jah":"50e6f3ca92f4de68ea850a4b327471f1","en":"The software keyboard has been set to the \"JIS\" layout","max_bytes":null,"ctx":"key 191"}
+{"id":"525b","jah":"a695af47cf82f2bf5f8edcb097ac3679","en":"Set the software keyboard to the \"DreamPassport3\" layout<br>","max_bytes":null,"ctx":"key 564"}
+{"id":"52ca","jah":"79fa40ba7db2dbd09f847a3fdc2803cc","en":"The software keyboard has been set to the \"DreamPassport3\" layout<br>","max_bytes":null,"ctx":"key 565"}
+{"id":"533b","jah":"27b3df76475d30be57695286d492df7c","en":"Set the text for the function keys","max_bytes":null,"ctx":"key 192"}
+{"id":"537e","jah":"1325a9227f9f53b2fcdf0190878756fe","en":"Go to the text registration screen for keys F1 to F6","max_bytes":null,"ctx":"key 566"}
+{"id":"53df","jah":"6d7b184e714e290e5ac76352d4772a6d","en":"Go to the text registration screen for keys F7 to F12","max_bytes":null,"ctx":"key 567"}
+{"id":"5446","jah":"0e8f6a573bcb27c6d689b8c21306e14e","en":"Set the text string for the F1 key","max_bytes":null,"ctx":"key 568"}
+{"id":"5483","jah":"6f442ab8d782192cebc8a2bb8e4dbfd8","en":"Enter the text string to register to the F1 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 569"}
+{"id":"5522","jah":"d9b009dbbfcb3f992378f59e5addc9e2","en":"Register and set the text string for the F1 key","max_bytes":null,"ctx":"key 570"}
+{"id":"556b","jah":"f63655631f593ec7f7a145698de736cd","en":"Cancel registering a text string to the F1 key","max_bytes":null,"ctx":"key 571"}
+{"id":"55b8","jah":"af96ecdc4188276d342b631890860e27","en":"Set the text string for the F2 key","max_bytes":null,"ctx":"key 572"}
+{"id":"55f5","jah":"49a89bd7a8d695a66817711e4ee7c079","en":"Enter the text string to register to the F2 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 573"}
+{"id":"5694","jah":"e954a547775d77d108aa45921bfee0a6","en":"Register and set the text string for the F2 key","max_bytes":null,"ctx":"key 574"}
+{"id":"56dd","jah":"601b2d963e16044d099ad204703d0cd6","en":"Cancel registering a text string to the F2 key","max_bytes":null,"ctx":"key 575"}
+{"id":"572a","jah":"143cd963fdecec709c133260998b816f","en":"Set the text string for the F3 key","max_bytes":null,"ctx":"key 576"}
+{"id":"5767","jah":"cbe8dbf085fc625c130a063ee6d67cf7","en":"Enter the text string to register to the F3 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 577"}
+{"id":"5806","jah":"bcd9b8f1f147fffd57eaadb1f05f3960","en":"Register and set the text string for the F3 key","max_bytes":null,"ctx":"key 578"}
+{"id":"584f","jah":"f803a803c20ae2d2a660dc74f1c7a3ed","en":"Cancel registering a text string to the F3 key","max_bytes":null,"ctx":"key 579"}
+{"id":"589c","jah":"0f138e5588fb7ffd546acbb4a30d9232","en":"Set the text string for the F4 key","max_bytes":null,"ctx":"key 580"}
+{"id":"58d9","jah":"afb84dd3fd225e488e9dc1a48aed8aae","en":"Enter the text string to register to the F4 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 581"}
+{"id":"5978","jah":"7d4deed0cf2b2760ff4e46b2059efea3","en":"Register and set the text string for the F4 key","max_bytes":null,"ctx":"key 582"}
+{"id":"59c1","jah":"2bb37ab3a924de980a2eeedb616adea2","en":"Cancel registering a text string to the F4 key","max_bytes":null,"ctx":"key 583"}
+{"id":"5a0e","jah":"0b5f887e3bec714f994ab3019856520d","en":"Set the text string for the F5 key","max_bytes":null,"ctx":"key 584"}
+{"id":"5a4b","jah":"d198a2054f310544af6d488b9a6e3030","en":"Enter the text string to register to the F5 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 585"}
+{"id":"5aea","jah":"1318f4d94a28954f1b8fa9b20b323909","en":"Register and set the text string for the F5 key","max_bytes":null,"ctx":"key 586"}
+{"id":"5b33","jah":"cbcd1b4ff3c476ce91c8de06a83fceff","en":"Cancel registering a text string to the F5 key","max_bytes":null,"ctx":"key 587"}
+{"id":"5b80","jah":"328212a523774fda48fdf4f3ed33bda2","en":"Set the text string for the F6 key","max_bytes":null,"ctx":"key 588"}
+{"id":"5bbd","jah":"fc18c79d30b4e4917d0c3306a347cd37","en":"Enter the text string to register to the F6 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 589"}
+{"id":"5c5c","jah":"ed65201057dfa5eb5d4bac2ac9d54e29","en":"Register and set the text string for the F6 key","max_bytes":null,"ctx":"key 590"}
+{"id":"5ca5","jah":"7d567d8bc93e7ed1eea3ddc18d2fb31d","en":"Cancel registering a text string to the F6 key","max_bytes":null,"ctx":"key 591"}
+{"id":"5cf2","jah":"d04d6a023c04887bc21a82d298e528a0","en":"Set the text string for the F7 key","max_bytes":null,"ctx":"key 592"}
+{"id":"5d2f","jah":"c429117e6830fc747d81a70e68521e00","en":"Enter the text string to register to the F7 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 593"}
+{"id":"5dce","jah":"a86c1cfb1dc50abd9e8e6c359350d298","en":"Register and set the text string for the F7 key","max_bytes":null,"ctx":"key 594"}
+{"id":"5e17","jah":"6f16bfdedce435c8e9642a490682b812","en":"Cancel registering a text string to the F7 key","max_bytes":null,"ctx":"key 595"}
+{"id":"5e64","jah":"be4d1e0db7a2f0c44653dbc558736b8b","en":"Set the text string for the F8 key","max_bytes":null,"ctx":"key 596"}
+{"id":"5ea1","jah":"79c2f94227555ad1040e31a8739c86c5","en":"Enter the text string to register to the F8 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 597"}
+{"id":"5f40","jah":"4dd96344cfcdc75c3c8a271c1313b8f7","en":"Register and set the text string for the F8 key","max_bytes":null,"ctx":"key 598"}
+{"id":"5f89","jah":"92cd472970f58f7927d9791c569c6764","en":"Cancel registering a text string to the F8 key","max_bytes":null,"ctx":"key 599"}
+{"id":"5fd6","jah":"5e655bb5a4acd637f12b422802584ecd","en":"Set the text string for the F9 key","max_bytes":null,"ctx":"key 600"}
+{"id":"6013","jah":"d56a8165ce1949a566bb72ee2b1437b8","en":"Enter the text string to register to the F9 key<br>Press the A Button to enter text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 601"}
+{"id":"60b2","jah":"52f56ac04b285ee25021cb49fe859e51","en":"Register and set a text string for the F9 key","max_bytes":null,"ctx":"key 602"}
+{"id":"60fb","jah":"8c7114fabd39327ffbb4997dae81b4fd","en":"Cancel registering a text string for the F9 key","max_bytes":null,"ctx":"key 603"}
+{"id":"6148","jah":"d622ad0e35df158f75b7d385644a3814","en":"Set the text string to register for the F10 key","max_bytes":null,"ctx":"key 604"}
+{"id":"6185","jah":"23a9ec8181fe87f090ed4b567969a729","en":"Enter the text string to register for the F10 key<br>Press the A Button to start entering text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 605"}
+{"id":"6224","jah":"a60a7a8cf0a49053417642147a5f4f43","en":"Register and set a text string for the F10 key","max_bytes":null,"ctx":"key 606"}
+{"id":"626d","jah":"7d69126365341f3f593f84e1d8a7fe70","en":"Cancel registering a text string for the F10 key","max_bytes":null,"ctx":"key 607"}
+{"id":"62bc","jah":"a2636c8e936647c6380a2cf93f204adf","en":"Set the text string to register for the F11 key","max_bytes":null,"ctx":"key 608"}
+{"id":"62f9","jah":"d4826d5c99a2a76000c4a6e2b8bfb11e","en":"Enter the text string to register for the F11 key<br>Press the A Button to start entering text<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 609"}
+{"id":"6398","jah":"98db4a361ba62e3e1a09fb1b58f48c85","en":"Register and set a text string for the F11 key","max_bytes":null,"ctx":"key 610"}
+{"id":"63e1","jah":"20e51bd6a5e2417d80a8d1f51e41eafc","en":"Cancel registering a text string for the F11 key","max_bytes":null,"ctx":"key 611"}
+{"id":"642e","jah":"328fec19ebc2993b9d79e8aa126ecd4e","en":"<font color=\"#CC0000\">A text string cannot be registered to the F12 key</font><br>Your provider's email address is registered<br>to it automatically","max_bytes":null,"ctx":"key 612"}
+{"id":"64d8","jah":"f86897f5c31a1195ec0f16d0fb201ed0","en":"Set how the page scrolls<br><br><font color=\"#CC0000\">Changing the scroll control also changes the cursor control</font>","max_bytes":null,"ctx":"key 193"}
+{"id":"657c","jah":"bf65a32b9716741204efe7222ee8425a","en":"Set scrolling to the \"Analog Stick\"<br>and the cursor to the \"D-Pad\"","max_bytes":null,"ctx":"key 194"}
+{"id":"65f3","jah":"8a71f03a070bfc0f86e65d4612f194fe","en":"Scrolling is now set to the \"Analog Stick\"<br>and the cursor to the \"D-Pad\"","max_bytes":null,"ctx":"key 195"}
+{"id":"666c","jah":"a2d0b56a79adf906a1cf13ae83eb43c4","en":"Set scrolling to the \"D-Pad\"<br>and the cursor to the \"Analog Stick\"","max_bytes":null,"ctx":"key 196"}
+{"id":"66e3","jah":"4adefc08526df4680cb20561ce75cfcc","en":"Scrolling is now set to the \"D-Pad\"<br>and the cursor to the \"Analog Stick\"","max_bytes":null,"ctx":"key 197"}
+{"id":"675e","jah":"03afbcad08988ac311e155951e6fd4f8","en":"Go to the mouse settings screen<br><br><font color=\"#CC0000\">These settings only apply when you use a mouse</font>","max_bytes":null,"ctx":"key 613"}
+{"id":"6809","jah":"b8e87a1f4523d0f525b4861fcefd4993","en":"Set the mouse button layout","max_bytes":null,"ctx":"key 614"}
+{"id":"684c","jah":"d5fc2bf8ac39e0b442a5d89ac55d08b3","en":"Set the button layout for right-handed use<br><font color=\"#CC0000\">From the left: \"Confirm\", \"Extend\", \"Cancel\"</font>","max_bytes":null,"ctx":"key 615"}
+{"id":"68e2","jah":"2a86777a4f218ad83134378feb0fd1f7","en":"Button layout set for right-handed use","max_bytes":null,"ctx":"key 616"}
+{"id":"6927","jah":"faa8d31da0d5e4d9876d895f6e6b7250","en":"Set the button layout for left-handed use<br><font color=\"#CC0000\">From the right: \"Confirm\", \"Extend\", \"Cancel\"</font>","max_bytes":null,"ctx":"key 617"}
+{"id":"69bd","jah":"aa0e1e9c265df89f1165efabb79c761d","en":"Button layout set for left-handed use","max_bytes":null,"ctx":"key 618"}
+{"id":"6a04","jah":"793aa201888c09a3b96ca4422089cd1a","en":"Set the speed the cursor moves at","max_bytes":null,"ctx":"key 619"}
+{"id":"6a51","jah":"b28658ea4131ccbce9cc9ba758c87d5c","en":"Set the cursor speed to \"Slow\"","max_bytes":null,"ctx":"key 620"}
+{"id":"6aaa","jah":"9e5ee20600b1b9dedf1858f369d5f147","en":"Cursor speed set to \"Slow\"","max_bytes":null,"ctx":"key 621"}
+{"id":"6b05","jah":"3face5f30b4aeb1637750fbacc464475","en":"Set the cursor speed to \"Normal\"","max_bytes":null,"ctx":"key 622"}
+{"id":"6b5e","jah":"5dafe98fa28ae56160df31fefc47f9aa","en":"Cursor speed set to \"Normal\"","max_bytes":null,"ctx":"key 623"}
+{"id":"6bb9","jah":"2ba486bc99b04f14a462b5d441501fa2","en":"Set the cursor speed to \"Fast\"","max_bytes":null,"ctx":"key 624"}
+{"id":"6c12","jah":"dd2c25a71190a16a8a44d33843bfa246","en":"Cursor speed set to \"Fast\"","max_bytes":null,"ctx":"key 625"}
+{"id":"6c6f","jah":"fdd34df4483c3400a56311154a7b455f","en":"Set the double-click speed of the<br>mouse \"Confirm\" button","max_bytes":null,"ctx":"key 626"}
+{"id":"6cd6","jah":"0f6a17e56cccc06d27702844aa4919b5","en":"Set the double-click speed<br>to \"Slow\"","max_bytes":null,"ctx":"key 627"}
+{"id":"6d33","jah":"d57c301116bd0b37344196909e2a5d9b","en":"Double-click speed<br>set to \"Slow\"","max_bytes":null,"ctx":"key 628"}
+{"id":"6d92","jah":"a82cd2b17db58f84e0881f80990fc689","en":"Set the double-click speed<br>to \"Normal\"","max_bytes":null,"ctx":"key 629"}
+{"id":"6def","jah":"0232fb040fc11658da9b3b09ea3a4d52","en":"Double-click speed<br>set to \"Normal\"","max_bytes":null,"ctx":"key 630"}
+{"id":"6e4e","jah":"3ef3a9692f71ef4964d60f46eb580a77","en":"Set the double-click speed<br>to \"Fast\"","max_bytes":null,"ctx":"key 631"}
+{"id":"6eab","jah":"73fe8600145e3f8fc59fe0a22f62d2fc","en":"Double-click speed<br>set to \"Fast\"","max_bytes":null,"ctx":"key 632"}
+{"id":"6f0c","jah":"f59f6dfba5d4e52e36d9f3ef97493d72","en":"Set the scroll direction for the mouse wheel","max_bytes":null,"ctx":"key 633"}
+{"id":"6f67","jah":"c146a3e46ec542f3de10b9111199b4e3","en":"Set the screen to scroll in the same direction<br>as the wheel","max_bytes":null,"ctx":"key 634"}
+{"id":"6fce","jah":"f121202c923a2bd0907c08875f0dcd15","en":"The screen will now scroll in the same direction<br>as the wheel","max_bytes":null,"ctx":"key 635"}
+{"id":"7037","jah":"cdaf74b8945bfd48688db23f41d42b49","en":"Set the screen to scroll in the opposite direction<br>to the wheel","max_bytes":null,"ctx":"key 636"}
+{"id":"709e","jah":"2e922c41d54a5a2b99fd85a0f67a9031","en":"The screen will now scroll in the opposite direction<br>to the wheel","max_bytes":null,"ctx":"key 637"}
+{"id":"7125","jah":"f9f20c95ebed8428715b3f50fa9bd6f8","en":"Set the type of telephone you use<br><br><font color=\"#CC0000\">[Note] No need to change this<br>unless you use a modem</font>","max_bytes":null,"ctx":"key 24"}
+{"id":"71d2","jah":"761d877375a1bec84f7f73c081091172","en":"Set the telephone type to tone<br><br><font color=\"#CC0000\">Choose this if your phone beeps when dialling<br>(beep-boop tones)</font>","max_bytes":null,"ctx":"key 25"}
+{"id":"728d","jah":"9554fddb2e0d2ec0165ee5521037d5c4","en":"Set the telephone type to pulse<br><br><font color=\"#CC0000\">Choose this if your phone clicks when dialling<br>(click-click sounds)</font>","max_bytes":null,"ctx":"key 26"}
+{"id":"734a","jah":"84c93e04cf8132a41ef176f149ec563f","en":"Set the outside line dialling number<br><br><font color=\"#CC0000\">[Note] No need to change this<br>unless you use a modem</font>","max_bytes":null,"ctx":"key 27"}
+{"id":"73f1","jah":"a0cd62144896d77755914bf82e40fa31","en":"Set the outside line number to \"None\"<br>","max_bytes":null,"ctx":"key 28"}
+{"id":"7444","jah":"83ad3e5c5d5e19e239e25d4c9b42bade","en":"Set the outside line number to \"Yes\"<br><br>Press the A Button to go to the number entry screen<br>","max_bytes":null,"ctx":"key 638"}
+{"id":"74c9","jah":"70c58ba6ae46feb36171510439d84167","en":"Enter the number to use as the outside line number<br>Press the A Button to start entering digits<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 639"}
+{"id":"756e","jah":"e83d3f36ebeab860e9b9af0b819b29a4","en":"Apply the outside line number you entered","max_bytes":null,"ctx":"key 640"}
+{"id":"75b9","jah":"7debe97aecab8fb30792617de10654bb","en":"Cancel the outside line number setting","max_bytes":null,"ctx":"key 641"}
+{"id":"7601","jah":"75678d6a5493ad3ff273dcffcfb2071c","en":"Set the local/long-distance discount number<br><br><font color=\"#CC0000\">[Note] No need to change this<br>unless you use a modem</font>","max_bytes":null,"ctx":"key 30"}
+{"id":"76ac","jah":"e798d30536351366bcc3929d2c8aecb4","en":"Set the discount number to \"None\"<br>","max_bytes":null,"ctx":"key 31"}
+{"id":"7702","jah":"0ff5b9eafed53e184ec272de11ff5f6e","en":"Set the discount number to \"Yes\"<br><font color=\"#CC0000\">[Note] It may cost more depending on the access point's location</font><br>Press the A Button to go to the number entry screen<br>","max_bytes":null,"ctx":"key 32"}
+{"id":"77d6","jah":"4c90ff5b6fff10156083b96cac4b1827","en":"Enter the number to use as the discount number<br>Press the A Button to start entering digits<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 642"}
+{"id":"787d","jah":"2ec73bffd6e9833347b576f1a29053fe","en":"Apply the discount number you entered","max_bytes":null,"ctx":"key 643"}
+{"id":"78ca","jah":"67c0900a9028471412d193c2798b2e3d","en":"Cancel the discount number setting","max_bytes":null,"ctx":"key 644"}
+{"id":"7914","jah":"96d754b2832b3579cb0cdc3fe5a15e89","en":"Open the \"Advanced Settings\"<br><br><font color=\"#CC0000\">[No need to change these except in special cases]</font><br>","max_bytes":null,"ctx":"key 33"}
+{"id":"79a3","jah":"1c3c6f5a0212fc736bb1f4ecb3ea7112","en":"Open the \"Advanced Settings\"<br><br>Are you sure?<br>","max_bytes":null,"ctx":"key 34"}
+{"id":"7a19","jah":"4ed3a63e09fc747dd6bd1bee89a06b99","en":"Open the \"Advanced Settings\"<br><br><font color=\"#CC0000\">[Note] No need to change these except in special cases</font><br>","max_bytes":null,"ctx":"key 36"}
+{"id":"7ab0","jah":"9103a75bceb17a4b87a845127f8b0d76","en":"Cancel and return to the \"Modem Settings\" screen<br>","max_bytes":null,"ctx":"key 37"}
+{"id":"7b16","jah":"6e5780e5c93c45bbb024d4e33ff0b870","en":"Apply the settings and return to the \"Modem Settings\" screen<br>Press the B Button to cancel","max_bytes":null,"ctx":"key 38"}
+{"id":"7b9a","jah":"0592d4218a86f6a01e581e4bb4b21ef5","en":"Set the \"AT Command\"<br><br><font color=\"#CC0000\">[Note] No need to change this except in special cases</font><br>","max_bytes":null,"ctx":"key 39"}
+{"id":"7c2f","jah":"54bbe49aa0b477a945a82092fedfceb4","en":"Set the \"AT Command\" to \"Yes\"<br><br>Press the A Button to go to the AT command entry screen<br>","max_bytes":null,"ctx":"key 40"}
+{"id":"7cbd","jah":"c6afee9c19ea266f876e61112e7bbd87","en":"Set the \"AT Command\" to \"None\"<br>","max_bytes":null,"ctx":"key 41"}
+{"id":"7d14","jah":"8959406a269aed1b36fcd7ae28e0e883","en":"Enter the AT command to use<br>Press the A Button to start entering the command<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 645"}
+{"id":"7db7","jah":"872f4c4feb2f31be56d15f61bd94dfa2","en":"Apply the AT command you entered","max_bytes":null,"ctx":"key 646"}
+{"id":"7e02","jah":"034830dbdfe68f02816674187b6530c6","en":"Cancel the AT command setting","max_bytes":null,"ctx":"key 647"}
+{"id":"7e4d","jah":"8edd134d66f8a6611db4e05cdd5e74c2","en":"Set the serial port<br>If you use a network device connected to the serial<br>port, set it to \"ON\"","max_bytes":null,"ctx":"key 648"}
+{"id":"7ee0","jah":"439dcee920c0753e7f1e08ed0758a4f6","en":"Set the serial port to \"OFF\"<br>If you use the <font color=\"#EE3000\">Dreamcast</font> console's own modem,<br>leave it set to \"OFF\"","max_bytes":null,"ctx":"key 649"}
+{"id":"7fa2","jah":"f5be9f756370a2e861e4bdc3d94899d5","en":"Set the serial port to \"ON\" and go to its settings screen<br><font color=\"#CC0000\">[Note] Read the manual of the connected device<br>carefully before changing the settings</font>","max_bytes":null,"ctx":"key 650"}
+{"id":"8068","jah":"8cf84f3859daaa613d620aa8857fbf50","en":"Set the baud rate<br><br>Press the A Button to go to the value setting screen<br>","max_bytes":null,"ctx":"key 651"}
+{"id":"80e1","jah":"12c8c0b083f90f82a1a6149c5c8f0e33","en":"Select the baud rate value to use<br>Press the A Button, then Up/Down to choose a value","max_bytes":null,"ctx":"key 652"}
+{"id":"815e","jah":"55753713894ffac1b07cd60573a05bd4","en":"Set the baud rate to this value","max_bytes":null,"ctx":"key 653"}
+{"id":"81a5","jah":"825a493db25dc01c35c8d30a9c6cd171","en":"Cancel the baud rate setting","max_bytes":null,"ctx":"key 654"}
+{"id":"81ec","jah":"c6d7e90e8b3d5c8e24e3ccbade6dba78","en":"Set the character length<br><br>Press the A Button to go to the value setting screen<br>","max_bytes":null,"ctx":"key 655"}
+{"id":"826b","jah":"f70b6ae906188badcd1c085bdd196649","en":"Select the character length value to use<br>Press the A Button, then Up/Down to choose a value","max_bytes":null,"ctx":"key 656"}
+{"id":"82ee","jah":"49fc3f7a9ab5421e5755fe58487250f7","en":"Set the character length to this value","max_bytes":null,"ctx":"key 657"}
+{"id":"833d","jah":"d27324f801fd802006cac4eb6f05b2b0","en":"Cancel the character length setting","max_bytes":null,"ctx":"key 658"}
+{"id":"838c","jah":"63546f5c3e119e98a81ae483f25c02f3","en":"Set the parity","max_bytes":null,"ctx":"key 659"}
+{"id":"83cd","jah":"47101e665de364673427fdf8be1aeca8","en":"Set the parity to \"None\"","max_bytes":null,"ctx":"key 660"}
+{"id":"840c","jah":"fe97bc77409229bdcf964b1f894823a6","en":"Set the parity to \"Odd\"","max_bytes":null,"ctx":"key 661"}
+{"id":"844b","jah":"db96d914ff1f923aee485c552e9bf98f","en":"Set the parity to \"Even\"","max_bytes":null,"ctx":"key 662"}
+{"id":"848c","jah":"16ea0d6a5d8b651bab22f30a113c7ee4","en":"Set the stop bits<br><br>Press the A Button to go to the value setting screen<br>","max_bytes":null,"ctx":"key 663"}
+{"id":"850d","jah":"bc1034eb84e5adedbefa44e4c07e3366","en":"Select the stop bits value to use<br>Press the A Button, then Up/Down to choose a value","max_bytes":null,"ctx":"key 664"}
+{"id":"8590","jah":"d6f9a84d406fc2a28275e89a4fef8298","en":"Set the stop bits to this value","max_bytes":null,"ctx":"key 665"}
+{"id":"85db","jah":"0cc1cd116425c6ef531af6c106df98c4","en":"Cancel the stop bits setting","max_bytes":null,"ctx":"key 666"}
+{"id":"8626","jah":"60a442bcafce4c4a3899c7e6f697cc46","en":"Set the flow control","max_bytes":null,"ctx":"key 667"}
+{"id":"866b","jah":"ee18201369a85545da38b17ad5d89fe4","en":"Set the flow control to \"None\"","max_bytes":null,"ctx":"key 668"}
+{"id":"86ae","jah":"801cfff88fc04038d624a963015d8917","en":"Set the flow control to \"Hardware\"","max_bytes":null,"ctx":"key 669"}
+{"id":"86f5","jah":"79ef6f6659a089fdbfd6c8b08b2af4f2","en":"Set the flow control to \"Software\"","max_bytes":null,"ctx":"key 670"}
+{"id":"873c","jah":"8155e4fd1b8b1c5a2d1f756a0dea1551","en":"Apply the settings and return to the \"Advanced Settings\" screen<br>Press the B Button to cancel","max_bytes":null,"ctx":"key 671"}
+{"id":"87c0","jah":"5fed460d7774a715be8c3b58701a37ce","en":"Erase all network information from the console<br><br><font color=\"#CC0000\">[Note] Always erase it before you sell or give<br>away the console</font><br>","max_bytes":null,"ctx":"key 42"}
+{"id":"8883","jah":"a962e33907b0f5e81b7ab5210011c46d","en":"<font color=\"#CC0000\">Erase all network information</font><br><br>Are you sure you want to erase it?<br>","max_bytes":null,"ctx":"key 43"}
+{"id":"8924","jah":"fdd3cd1387760534d4ad0b232d82f116","en":"Be sure to make a note of the following<br>Login ID: %s<br>Login password: %s<br>Have you written them down?","max_bytes":null,"ctx":"key 44"}
+{"id":"89c1","jah":"3b7471bf33cc9dd3b159ad4d372a66d9","en":"This erases all network information stored on the console.<br>Have you noted down your Sega provider login ID and<br>password? You will need them under \"Troubleshooting\",<br>so please be sure to write them down","max_bytes":null,"ctx":"key 231"}
+{"id":"8a87","jah":"0c5ab2d001588a9d9c7174b806e2b09c","en":"Network information erased","max_bytes":null,"ctx":"key 232"}
+{"id":"8acf","jah":"6af295a3e8344f52f33ef369dccb90b6","en":"Set how page loading is displayed","max_bytes":null,"ctx":"key 200"}
+{"id":"8b03","jah":"772b4d875f981d2fce8fdb9c79d93647","en":"Show loading progress with a \"Gauge\"","max_bytes":null,"ctx":"key 201"}
+{"id":"8b2f","jah":"f708b0b80192efc8670d0d4091ecbe56","en":"Loading display set to \"Gauge\"","max_bytes":null,"ctx":"key 202"}
+{"id":"8b63","jah":"dc0d489357d055548163a18ef339b351","en":"Show loading progress with an \"Icon\"","max_bytes":null,"ctx":"key 203"}
+{"id":"8b91","jah":"38aebf0cc4b5a6d690a64e9931c8f808","en":"Loading display set to \"Icon\"","max_bytes":null,"ctx":"key 204"}
+{"id":"8bc7","jah":"3a6dfa08301117c213bf1e2d51f16990","en":"Set the display size of web pages","max_bytes":null,"ctx":"key 205"}
+{"id":"8bfc","jah":"f0e053df6b807755d23f8487403aa341","en":"Set the web page display size to \"Mini\"","max_bytes":null,"ctx":"key 206"}
+{"id":"8c38","jah":"60c945d589d99ac15901329b04da54e3","en":"Web page display size set to \"Mini\"","max_bytes":null,"ctx":"key 207"}
+{"id":"8c76","jah":"c7be8a1fdae2d967a47637b7f7e29635","en":"Set the web page display size to \"Medium\"","max_bytes":null,"ctx":"key 208"}
+{"id":"8cb4","jah":"8cc2d2b281e119ecb823bd1dbc26d724","en":"Web page display size set to \"Medium\"","max_bytes":null,"ctx":"key 209"}
+{"id":"8cf4","jah":"27b35692e0d054013f8df1923b72a7f8","en":"Set the web page display size to \"Full\"","max_bytes":null,"ctx":"key 210"}
+{"id":"8d30","jah":"e4848e232e602d63349176e095538b49","en":"Web page display size set to \"Full\"","max_bytes":null,"ctx":"key 211"}
+{"id":"8d70","jah":"53167102399d5821360ee02da9c995af","en":"Set the browser scroll unit<br>Press the A Button to go to the value setting screen","max_bytes":null,"ctx":"key 467"}
+{"id":"8de1","jah":"573cfd7598c018e6731109a9b7da853f","en":"Set the scroll unit value<br>Press the A Button, then Up/Down to choose a value","max_bytes":null,"ctx":"key 672"}
+{"id":"8e5e","jah":"166f8187548ee1ac4416e263ee32b4c7","en":"Set the scroll unit to this value","max_bytes":null,"ctx":"key 673"}
+{"id":"8ead","jah":"8409c8114a9fbce88e9e02c6dfe679da","en":"Cancel the scroll unit setting","max_bytes":null,"ctx":"key 674"}
+{"id":"8efc","jah":"aba53cfd35afec16dee2ad7715d1e6ed","en":"Set the text font size","max_bytes":null,"ctx":"key 212"}
+{"id":"8f26","jah":"8191cafa6aa567aa89d130802240cf2a","en":"Set the font size to \"Large\"","max_bytes":null,"ctx":"key 213"}
+{"id":"8f5c","jah":"3a637322ef61642207fbad6bfd67e7e2","en":"Font size set to \"Large\"","max_bytes":null,"ctx":"key 214"}
+{"id":"8f94","jah":"642dde9f6d671499e9e9568eb9b23277","en":"Set the font size to \"Small\"","max_bytes":null,"ctx":"key 215"}
+{"id":"8fca","jah":"60ef5776de40c796d29e059a915168fb","en":"Font size set to \"Small\"","max_bytes":null,"ctx":"key 216"}
+{"id":"9025","jah":"a0ad9dc626de22875bc03cc9d4135f26","en":"Set up JavaScript","max_bytes":null,"ctx":"key 222"}
+{"id":"9047","jah":"759b7e1dd8640f459f4b3d2d758dbe1a","en":"Set JavaScript to \"On\"","max_bytes":null,"ctx":"key 223"}
+{"id":"9071","jah":"ceeda409099d6f80d3cc764ae34f1750","en":"JavaScript set to \"On\"","max_bytes":null,"ctx":"key 224"}
+{"id":"909d","jah":"c9b001002bf5df148efe50eb9aace13a","en":"Set JavaScript to \"Off\"","max_bytes":null,"ctx":"key 225"}
+{"id":"90c7","jah":"1b38726b269fe7fd28727c27c0e067d4","en":"JavaScript set to \"Off\"","max_bytes":null,"ctx":"key 226"}
+{"id":"90f3","jah":"a8c990afb4f8e366521537968b61343a","en":"Set up cookies","max_bytes":null,"ctx":"key 172"}
+{"id":"9113","jah":"de2629d027851aa893c69f89d8270ad6","en":"Show a \"warning\" when a cookie is received","max_bytes":null,"ctx":"key 173"}
+{"id":"9141","jah":"c57ed02ad195d63dce5ace7d0311530f","en":"Set to \"Warn\"","max_bytes":null,"ctx":"key 174"}
+{"id":"9165","jah":"3f9837328aa4ba2434c10f35b8c7b791","en":"Cookies will not be accepted","max_bytes":null,"ctx":"key 175"}
+{"id":"9187","jah":"953b7d8fa7339b618397d70941e1ca0a","en":"Set to \"Do not accept\"","max_bytes":null,"ctx":"key 176"}
+{"id":"91ad","jah":"d2a760d4f70ea66557b16f131db40728","en":"All cookies will be accepted","max_bytes":null,"ctx":"key 177"}
+{"id":"91d1","jah":"6b0327f352ae5e7f9aed41ddda5b1340","en":"Set to \"Accept all\"","max_bytes":null,"ctx":"key 178"}
+{"id":"91f7","jah":"6943331bba0b4095443d9778e0b33843","en":"Set image display for Web pages","max_bytes":null,"ctx":"key 675"}
+{"id":"9226","jah":"bd5b3321a658e320e656044c7c463efe","en":"Web page images will be set to \"ON\"<br><font color=\"#CC0000\">[Both text and images are displayed]</font>","max_bytes":null,"ctx":"key 676"}
+{"id":"92a2","jah":"dbe0d2156a399b098016900eac160d05","en":"Web page images have been set to \"ON\"<br><font color=\"#CC0000\">[Both text and images are displayed]</font>","max_bytes":null,"ctx":"key 678"}
+{"id":"9320","jah":"94f9b29e4aad25b0145476e534d2a5f5","en":"Web page images will be set to \"OFF\"<br><font color=\"#CC0000\">[Only text is displayed]</font>","max_bytes":null,"ctx":"key 679"}
+{"id":"9396","jah":"780380f8556cf343c2d9ef5a4f7a7ada","en":"Web page images have been set to \"OFF\"<br><font color=\"#CC0000\">[Only text is displayed]</font>","max_bytes":null,"ctx":"key 680"}
+{"id":"940e","jah":"7e36ad9a6a118fab408ad18ef697ff86","en":"Set the URL server notification feature<br><font color=\"#CC0000\">[If set to \"OFF\", some chab talk services<br>will be unavailable]</font>","max_bytes":null,"ctx":"key 681"}
+{"id":"949d","jah":"04edc5b455646802b9fe6fa8390ade1e","en":"URL server notification will be set to \"ON\"<br><font color=\"#CC0000\">[All chab talk services are available]</font>","max_bytes":null,"ctx":"key 682"}
+{"id":"951b","jah":"830af5f0858b121dbf8387e8d3848115","en":"URL server notification has been set to \"ON\"<br><font color=\"#CC0000\">[All chab talk services are available]</font>","max_bytes":null,"ctx":"key 683"}
+{"id":"9599","jah":"46d6ea3f3067e9042ddf1c325b1812fe","en":"URL server notification will be set to \"OFF\"<br><font color=\"#CC0000\">[Some chab talk services are unavailable]</font>","max_bytes":null,"ctx":"key 684"}
+{"id":"961d","jah":"0f8bc4288fb84a873a010f05db0878fe","en":"URL server notification has been set to \"OFF\"<br><font color=\"#CC0000\">[Some chab talk services are unavailable]</font>","max_bytes":null,"ctx":"key 685"}
+{"id":"96c2","jah":"41457680dad9b0986ab58c8e4d6c1935","en":"Set automatic disconnection of the network after a period<br>of inactivity","max_bytes":null,"ctx":"key 167"}
+{"id":"970c","jah":"890f31255b49e08dac4843ba84fa2f60","en":"Auto-disconnect will be set to \"ON\"<br>Press the A Button to go to the time setting screen","max_bytes":null,"ctx":"key 168"}
+{"id":"9762","jah":"5ca99d73037663533fea8551c66d6fbe","en":"Set the auto-disconnect time<br>Press the A Button, then use Up/Down to choose a time","max_bytes":null,"ctx":"key 169"}
+{"id":"97b6","jah":"e286c26863dda919c944aff7a9c55eec","en":"Set the auto-disconnect time to this value","max_bytes":null,"ctx":"key 686"}
+{"id":"97e4","jah":"6f66599fafbf4ddf69f82930f48908cd","en":"Cancel setting the auto-disconnect time","max_bytes":null,"ctx":"key 687"}
+{"id":"980e","jah":"2a4fb234241ced632c012ef00b849184","en":"Auto-disconnect will not be set","max_bytes":null,"ctx":"key 170"}
+{"id":"982e","jah":"86724c8124c78aa852a1ba5d83bfac63","en":"Auto-disconnect has been set to \"OFF\"","max_bytes":null,"ctx":"key 171"}
+{"id":"985e","jah":"2f2929a8abec1104ee8441ccbaf3ca7c","en":"Disconnect from the network automatically at a set time<br><br><font color=\"#CC0000\">With Sega Provider's \"KIDS Course\", you may be<br>disconnected regardless of this setting</font>","max_bytes":null,"ctx":"key 688"}
+{"id":"9924","jah":"f22ab619cf909584f9d6c66574add806","en":"Timed disconnection will be set to \"ON\"<br>Press the A Button to go to the time setting screen<br><font color=\"#CC0000\">With Sega Provider's \"KIDS Course\", you may be<br>disconnected regardless of this setting</font>","max_bytes":null,"ctx":"key 689"}
+{"id":"99f9","jah":"db660ea503ad31ab7acc433bced64a73","en":"Set the disconnection time<br>Press the A Button, then use Up/Down to choose a value","max_bytes":null,"ctx":"key 690"}
+{"id":"9a49","jah":"7094f272c91a3c6d083e36e71d4263d1","en":"Schedule disconnection for this time<br><font color=\"#CC0000\">With Sega Provider's \"KIDS Course\", you may be<br>disconnected regardless of this setting</font>","max_bytes":null,"ctx":"key 691"}
+{"id":"9af0","jah":"7d3e32f06733eaa334ae35e99f1fbb5f","en":"Cancel scheduling the disconnection time","max_bytes":null,"ctx":"key 692"}
+{"id":"9b18","jah":"b6c17486b64eec07d994e921a4b1982a","en":"Timed disconnection will not be set","max_bytes":null,"ctx":"key 693"}
+{"id":"9b3c","jah":"2234f86a8a746004486f87eaf03088a7","en":"Timed disconnection has been set to \"OFF\"","max_bytes":null,"ctx":"key 694"}
+{"id":"9b70","jah":"e8c4f21526364a26d5c1539b758fe5c6","en":"Set the NTP server used by the clock sync feature<br><font color=\"#CC0000\">[Note: \"Auto\" is fine except in special cases]</font>","max_bytes":null,"ctx":"key 695"}
+{"id":"9c00","jah":"df55b3486960253fca4d76bfc9b0a2ee","en":"Use the [Auto-configured NTP server]<br><font color=\"#CC0000\">[Note: \"Auto\" is fine except in special cases]</font>","max_bytes":null,"ctx":"key 696"}
+{"id":"9c90","jah":"bb75e0c32e5c96bb8c33380fa585e1b1","en":"Now set to use the [Auto-configured NTP server]<br>","max_bytes":null,"ctx":"key 697"}
+{"id":"9cdd","jah":"afb3ecdc5bfe18dbf9dcf85370c0f593","en":"Use a [Manually configured NTP server]<br><br>Press the A Button to go to the server address entry screen","max_bytes":null,"ctx":"key 698"}
+{"id":"9d62","jah":"4683e9215c76630dfff43799266f68d5","en":"Enter the address of the NTP server to use<br>Press the A Button to enter the address<br>Press the Y Button to finish entering","max_bytes":null,"ctx":"key 699"}
+{"id":"9df1","jah":"c1d78f9a2a1c578ce93657db1ef3ae5e","en":"Use the NTP server at the address entered<br>","max_bytes":null,"ctx":"key 950"}
+{"id":"9e4e","jah":"61db896d021da1a7ffaf456a98b437c9","en":"Now set to access the [Manually configured NTP server]<br>","max_bytes":null,"ctx":"key 951"}
+{"id":"9ea7","jah":"de4e55e02ec4e9b785512eb01321efd7","en":"Cancel entering the NTP server address","max_bytes":null,"ctx":"key 952"}
+{"id":"9ee8","jah":"0bf4b3c2fb0497430f93bf70fd4a7d89","en":"Entering the NTP server address was cancelled","max_bytes":null,"ctx":"key 953"}
+{"id":"9f4d","jah":"2d619f458db92074ea9c344d3f01a98c","en":"This is the e-mail address of the account chosen in<br>\"Select Mail Account\"<br><font color=\"#CC0000\">[Note: To change it, go to Network Information<br>Settings in Options]</font>","max_bytes":null,"ctx":"key 959"}
+{"id":"a019","jah":"adfeaf5452c1d9480c13e4c2236328f9","en":"Set POP authentication when sending mail","max_bytes":null,"ctx":"key 960"}
+{"id":"a04a","jah":"de8eb0fc0d15215c60ab95e04c6bea78","en":"Use POP authentication when sending mail","max_bytes":null,"ctx":"key 961"}
+{"id":"a083","jah":"2e1880b7a6b6f709ba510c22d2c8f151","en":"POP authentication when sending mail is now on","max_bytes":null,"ctx":"key 962"}
+{"id":"a0bc","jah":"55a5de5ec257c486695ba1d413d58197","en":"Do not use POP authentication when sending mail","max_bytes":null,"ctx":"key 963"}
+{"id":"a0f3","jah":"4c67992173c7e509a38331b525cf638e","en":"POP authentication when sending mail is now off","max_bytes":null,"ctx":"key 964"}
+{"id":"a12c","jah":"39d866857f4aeb5716269295503b736e","en":"Enter the signature added to the end of your mail<br>Press the A Button to enter text, the Y Button to finish<br><font color=\"#CC0000\">[Note: User Provider and BbA Provider<br>share the same signature]</font>","max_bytes":null,"ctx":"key 965"}
+{"id":"a24d","jah":"735689eef80ae540eda468af23580e4a","en":"<font color=\"#CC0000\">You have no Communication ID</font><br>Press \"Set/Change\" below to get an ID","max_bytes":null,"ctx":"key 966"}
+{"id":"a2e5","jah":"859b2971282ea5c66c8680e51aa5e735","en":"This is your Communication ID number<br>Press \"Set/Change\" below to change your details<br>or cancel your registration","max_bytes":null,"ctx":"key 967"}
+{"id":"a386","jah":"6a28e54ef20216e57d83799c59704797","en":"Connect to the network and jump to the page for<br>registering or changing your Communication ID","max_bytes":null,"ctx":"key 968"}
+{"id":"a411","jah":"65ce3295a6acf64b7bfdfe8773c5ec5c","en":"Jump to the Communication ID page<br><br><font color=\"#CC0000\">Your option settings so far will be lost</font><br><br>Is that OK?","max_bytes":null,"ctx":"key 969"}
+{"id":"a4f9","jah":"041f61cd928b778fe5875e28c44f3f03","en":"Configure \"chab talk\"","max_bytes":null,"ctx":"key 970"}
+{"id":"a548","jah":"128a19b99ca42988082fdf39e8ede818","en":"Enable \"chab talk\"<br><font color=\"#CC0000\">[URL server notification will also be ON]</font>","max_bytes":null,"ctx":"key 971"}
+{"id":"a5da","jah":"7aeb3a9203032456de961db522541878","en":"\"chab talk\" has been enabled<br><font color=\"#CC0000\">[URL server notification will also be ON]</font>","max_bytes":null,"ctx":"key 972"}
+{"id":"a66e","jah":"064ac2e7621419f72fbc47b777e7d48b","en":"Disable \"chab talk\"","max_bytes":null,"ctx":"key 973"}
+{"id":"a6b7","jah":"48f4afe8e981ac723775ed9baa2c3dde","en":"\"chab talk\" has been disabled","max_bytes":null,"ctx":"key 974"}
+{"id":"a729","jah":"fbc041a8756d0eb4cb2e6153233017d0","en":"Choose the provider used for network connections","max_bytes":null,"ctx":"key 179"}
+{"id":"a790","jah":"f51956f04c3eed0ccc3096e5f3cb6868","en":"Use \"Sega Provider\" as the provider<br>for network connections","max_bytes":null,"ctx":"key 180"}
+{"id":"a803","jah":"d40cb5bc27b42e096eb904c4b2a94311","en":"\"Sega Provider\" is now the provider<br>for network connections","max_bytes":null,"ctx":"key 181"}
+{"id":"a878","jah":"c820ad14768744337a74255ad8b1a37a","en":"Use \"User Provider\" as the provider<br>for network connections","max_bytes":null,"ctx":"key 182"}
+{"id":"a8f3","jah":"0b97823aa656cc788b9707b38ae6d1be","en":"\"User Provider\" is now the provider<br>for network connections","max_bytes":null,"ctx":"key 183"}
+{"id":"a972","jah":"f0e6f0d99f57fe8fe905fe3c55171b27","en":"Enter and set your provider details","max_bytes":null,"ctx":"key 975"}
+{"id":"a9c7","jah":"cdb2552581d1ce183e2dfd5e2fb34956","en":"Set up your \"Sega Provider\" details<br><font color=\"#CC0000\">[Jumps to the user information page]</font>","max_bytes":null,"ctx":"key 976"}
+{"id":"aa5f","jah":"7f883cb826df3ef5d6bdeca33243a78f","en":"Set up your \"User Provider\" details","max_bytes":null,"ctx":"key 977"}
+{"id":"aaf9","jah":"20c1fdb8a1c2edb0a014652c01144732","en":"Jump to the \"Sega Provider\" user information page<br> <br><font color=\"#CC0000\">[Your option settings so far will be lost]</font><br>Is that OK?<br>Note: If you choose \"No\", your current<br> settings will be shown","max_bytes":null,"ctx":"key 978"}
+{"id":"ac5f","jah":"29f07717705af91bbcb4265e30c210ab","en":"Jump to the \"Sega Provider\" connection fee page<br>","max_bytes":null,"ctx":"key 979"}
+{"id":"acc2","jah":"773c83d9b92a83a430012f1fc505fef6","en":"Jump to the \"Sega Provider\" connection fee page<br><br><font color=\"#CC0000\">[Your option settings so far will be lost]</font><br>Is that OK?","max_bytes":null,"ctx":"key 980"}
+{"id":"ae1e","jah":"f2bcfc82bcbd8b68cca1953746c7713f","en":"Cancel and return to the \"Options\" screen","max_bytes":null,"ctx":"key 198"}
+{"id":"ae54","jah":"c3a2a525fb49b07355cb0b4c9bddd1ff","en":"Apply and return to the \"Options\" screen","max_bytes":null,"ctx":"key 199"}
+{"id":"ae8c","jah":"f2bcfc82bcbd8b68cca1953746c7713f","en":"Cancel and return to the \"Options\" screen","max_bytes":null,"ctx":"key 227"}
+{"id":"aec2","jah":"c3a2a525fb49b07355cb0b4c9bddd1ff","en":"Apply and return to the \"Options\" screen","max_bytes":null,"ctx":"key 228"}
+{"id":"af0e","jah":"d861bc155eceb9093667ef65db2edff0","en":"Check whether you have new mail<br>Is that OK?","max_bytes":null,"ctx":"key 233"}
+{"id":"af86","jah":"9ed09a53b03e6b0ba17bc60c05c38919","en":"Checking the mail server...<br>Please wait<br>","max_bytes":null,"ctx":"key 234"}
+{"id":"aff9","jah":"a78438cf22780a8d01f69defafcc045c","en":"<font color=\"#CC0000\">Incorrect \"User name\"<br>or \"Password\"!</font><br>","max_bytes":null,"ctx":"key 235"}
+{"id":"b08d","jah":"3ecb23726247642e43914a1a5916481a","en":"Loading the mail list...<br>Please wait<br>","max_bytes":null,"ctx":"key 236"}
+{"id":"b100","jah":"841829859dbfa4edfaf07598ba8c89e6","en":"No mail settings found<br>Please set them up in Options<br>and try again<br>","max_bytes":null,"ctx":"key 237"}
+{"id":"b17f","jah":"d342bcbfb05df6a68d04ee9143aa4b09","en":"<font color=\"#CC0000\">The mail server could not be found</font><br>","max_bytes":null,"ctx":"key 238"}
+{"id":"b1fb","jah":"518fdee00d5877a40677d8aaa31d52db","en":"<font color=\"#CC0000\">The mail server did not respond</font><br>","max_bytes":null,"ctx":"key 239"}
+{"id":"b27d","jah":"939c82d54d5539de51109396df357a6a","en":"Loading the message...<br>Please wait<br>","max_bytes":null,"ctx":"key 240"}
+{"id":"b2ec","jah":"91f6ab3a01b4ccffb4f08eabc6d648f1","en":"Loading of the message<br>was cancelled","max_bytes":null,"ctx":"key 241"}
+{"id":"b355","jah":"749841aaa86af27e85e217803ce51277","en":"You have %d new mail","max_bytes":null,"ctx":"key 242"}
+{"id":"b3ae","jah":"aa552626c515b58ca0fb8b443ef46e6f","en":"There was no mail on the server","max_bytes":null,"ctx":"key 243"}
+{"id":"b40f","jah":"e62bf88b83a83c8d715de04d058ecb55","en":"Delete the selected mail from the server<br>Is that OK?","max_bytes":null,"ctx":"key 244"}
+{"id":"b486","jah":"53184d418b5ae8fc49bea99fb1b6eb3d","en":"Cancel deletion and load it instead?","max_bytes":null,"ctx":"key 245"}
+{"id":"b4f1","jah":"38eaffe8718fbd08c991aff43d116f11","en":"This mail was loaded from a memory card<br>Delete it on the \"File\" screen<br>","max_bytes":null,"ctx":"key 246"}
+{"id":"b59c","jah":"2d6baedf4197bbedf75860c058b2785b","en":"Deleting mail from the server...<br>Please wait<br>","max_bytes":null,"ctx":"key 247"}
+{"id":"b60f","jah":"6c5765d6abca3c045566d31c121473e3","en":"Mail deletion was cancelled","max_bytes":null,"ctx":"key 248"}
+{"id":"b670","jah":"191fcf6546add1329b0dbdff0888e4af","en":"Attach a file to this mail<br>Is that OK?<br><font color=\"#CC0000\">[1 mail = 1 attached file]</font><br>","max_bytes":null,"ctx":"key 249"}
+{"id":"b738","jah":"2e48dbc94507f6ef506a4b8bd30ff683","en":"Cancel attaching the file<br>Is that OK?","max_bytes":null,"ctx":"key 250"}
+{"id":"b7a5","jah":"42c064c86de35c1191f15585073c21f8","en":"This mail has a file<br>attached<br>Save it to the memory card<br>Is that OK?","max_bytes":null,"ctx":"key 251"}
+{"id":"b852","jah":"efbd9199b8ccb53d6fa99f37b835ca11","en":"<font color=\"#CC0000\">The file attached to this mail<br>was corrupted</font><br>","max_bytes":null,"ctx":"key 252"}
+{"id":"b8ec","jah":"9a2949ed8b0256606fb134dfefef1626","en":"This file cannot be used by<br><font color=\"#EE3000\">Dreamcast</font> software<br><br>Save it to the memory card anyway?","max_bytes":null,"ctx":"key 253"}
+{"id":"b9d2","jah":"517ef2bed7c167e55114050ffdf1ca5a","en":"Save this mail to the memory card<br>Is that OK?<br>","max_bytes":null,"ctx":"key 254"}
+{"id":"ba57","jah":"9c37ed5d4011d36da70d63362ee79b8f","en":"<font color=\"#CC0000\">This mail is too large to be<br>saved to the memory card</font>","max_bytes":null,"ctx":"key 255"}
+{"id":"bb11","jah":"8d472e0618a0b93f45025e89aa48db0c","en":"<font color=\"#CC0000\">This mail is too long<br>for Dream Passport 3<br>to load</font><br>","max_bytes":null,"ctx":"key 256"}
+{"id":"bbd5","jah":"14d7b615f188638f0dd9e720e1e9088d","en":"<font color=\"#CC0000\">Discard this unfinished mail</font><br>Is that OK?","max_bytes":null,"ctx":"key 257"}
+{"id":"bc7b","jah":"d43e7c29498263aeb92c4e008ea7f4f0","en":"Sending mail...<br>Please wait","max_bytes":null,"ctx":"key 258"}
+{"id":"bcda","jah":"a7129be3f849d112aadb8bfe2da85c30","en":"Sending of mail was cancelled<br>","max_bytes":null,"ctx":"key 259"}
+{"id":"bd3b","jah":"e22c888a645f68c2ce4d97163899c4b9","en":"Please enter a recipient for the mail","max_bytes":null,"ctx":"key 260"}
+{"id":"bd92","jah":"5f024408aeae3805836af5a8880658c4","en":"Mail sent<br>Return to the mail list<br>Is that OK?","max_bytes":null,"ctx":"key 261"}
+{"id":"be13","jah":"8d136311f6acdee8a3e6862b97062875","en":"<font color=\"#CC0000\">Failed to send the mail</font><br>Please try again<br>","max_bytes":null,"ctx":"key 262"}
+{"id":"be9b","jah":"3c5c78fb621056c8c2aac46b17c779db","en":"Show the Dream Flyer mail picture<br>Is that OK?","max_bytes":null,"ctx":"key 263"}
+{"id":"befa","jah":"05cf0432fb83f2dc04ce68c4de7a10b6","en":"Exit mail<br>Is that OK?","max_bytes":null,"ctx":"key 264"}
+{"id":"bf45","jah":"1dac2199c2fabd479fcc35b32e8d37e5","en":"Too much mail!<br><font color=\"#CC0000\">[Not all mail can be received]</font><br>Receiving %d of %d messages","max_bytes":null,"ctx":"key 265"}
+{"id":"bfe4","jah":"16313b122163b74b94e7efff411c8b2c","en":"Show the video file picture<br>Is that OK?","max_bytes":null,"ctx":"key 266"}
+{"id":"c03b","jah":"c8faa7742be22f2e4911d36fc028c139","en":"<font color=\"#CC0000\">Delete all mail on the mail server</font><br>Is that OK?","max_bytes":null,"ctx":"key 267"}
+{"id":"c0c5","jah":"5ad385ce35bc8bc14a4ca664bf086588","en":"A file playable with the Dreameye mail software or Dream Passport 3 is attached","max_bytes":null,"ctx":"key 299"}
+{"id":"c141","jah":"65d4a214a9bf2588a375c646d9012a10","en":"Normal","max_bytes":null,"ctx":"key 300"}
+{"id":"c151","jah":"b9bca92b4719a5a1eb96203fa2a3a72f","en":"The memory card is busy","max_bytes":null,"ctx":"key 301"}
+{"id":"c173","jah":"72cdce3e0c5682451a79ad8720c33856","en":"There is an invalid parameter","max_bytes":null,"ctx":"key 302"}
+{"id":"c197","jah":"2fe26f53a3aac7c436705ecfcee2777e","en":"This memory card cannot be used","max_bytes":null,"ctx":"key 303"}
+{"id":"c1c1","jah":"5d8b39b3c7bd6bf9db824f120489fe7c","en":"Removing or inserting the memory card<br>will prevent correct operation","max_bytes":null,"ctx":"key 304"}
+{"id":"c201","jah":"c93edcddbb35d931b5c71cc4514e3cae","en":"Not enough free blocks<br>%3d blocks are required","max_bytes":null,"ctx":"key 305"}
+{"id":"c23a","jah":"429e51b4fce5cff13bccbbffcd9a9d36","en":"File not found","max_bytes":null,"ctx":"key 306"}
+{"id":"c25a","jah":"4537840cda4a81101accbf2f772707f0","en":"The file already exists","max_bytes":null,"ctx":"key 307"}
+{"id":"c276","jah":"d6a7d2ec57f7e543d18c2a3e9b906b9e","en":"The file cannot be opened","max_bytes":null,"ctx":"key 308"}
+{"id":"c292","jah":"68d5f9f00c54ef163366f5d13b74eec4","en":"The file cannot be created","max_bytes":null,"ctx":"key 309"}
+{"id":"c2ae","jah":"3d5d87c9496e7d601381003f8afb89fa","en":"A VM-only executable file exists","max_bytes":null,"ctx":"key 310"}
+{"id":"c2d6","jah":"45a8b10ea33018339752bcd9434a46f8","en":"The file cannot be deleted","max_bytes":null,"ctx":"key 311"}
+{"id":"c2f6","jah":"7d116012ac21fadae4d9d4edd41d868f","en":"Failed to write the file","max_bytes":null,"ctx":"key 312"}
+{"id":"c31e","jah":"441612a72a9a1b4ef53c4ca865121f19","en":"The file is corrupted","max_bytes":null,"ctx":"key 313"}
+{"id":"c33c","jah":"52934384aeda1442822146a617b619bb","en":"An unknown problem has occurred","max_bytes":null,"ctx":"key 314"}
+{"id":"c360","jah":"423cef3ece06d77817481bd1303fbb21","en":"Saving file...<br><font color=\"#CC0000\">Do not remove the memory card</font>","max_bytes":null,"ctx":"key 315"}
+{"id":"c3c5","jah":"cc325ca175369bd7f24e6cd0472dad0d","en":"Loading file...<br><font color=\"#CC0000\">Do not remove the memory card</font>","max_bytes":null,"ctx":"key 316"}
+{"id":"c42a","jah":"be60a82e6febc317f0c5e903d428d2a1","en":"Copying file...<br><font color=\"#CC0000\">Do not remove the memory card</font>","max_bytes":null,"ctx":"key 317"}
+{"id":"c48f","jah":"ad7f7df684b0fc7343251e0f5b5eca0f","en":"Deleting file...<br><font color=\"#CC0000\">Do not remove the memory card</font>","max_bytes":null,"ctx":"key 318"}
+{"id":"c4f2","jah":"fedfb5e6aaf02db53f54c0d3da644780","en":"Copy all files?","max_bytes":null,"ctx":"key 319"}
+{"id":"c51c","jah":"3d7340a4ade6c96a4bb317aca2dde09a","en":"Not enough free blocks<br>to copy everything<br>Copy as many as possible?","max_bytes":null,"ctx":"key 320"}
+{"id":"c580","jah":"db9ee64c06e663b732c0e042aa01670c","en":"Files marked as non-copyable cannot be copied","max_bytes":null,"ctx":"key 321"}
+{"id":"c5ac","jah":"2d1987b61745ba717e7d162a282f3bf6","en":"All files have been copied","max_bytes":null,"ctx":"key 322"}
+{"id":"c5d4","jah":"b7b7ab6e0c429053e00c3687cdd4ad9d","en":"<font color=\"#CC0000\">Could not copy<br>all the files.</font>","max_bytes":null,"ctx":"key 323"}
+{"id":"c627","jah":"34b63fd961ef07949f3ba0795e660e50","en":"Copy complete.","max_bytes":null,"ctx":"key 324"}
+{"id":"c643","jah":"db64284fcbab10ec19054bc4d1961623","en":"<font color=\"#CC0000\">Not enough free blocks.</font>","max_bytes":null,"ctx":"key 325"}
+{"id":"c682","jah":"5447955aab4868650819905dde1d950c","en":"Delete all files?","max_bytes":null,"ctx":"key 326"}
+{"id":"c6aa","jah":"fbbc7dc949524e304a4bb0c6ce20f0c9","en":"All files deleted.","max_bytes":null,"ctx":"key 327"}
+{"id":"c6d0","jah":"1fcd3874442b6c54eb4c963466a009b6","en":"<font color=\"#CC0000\">Could not delete all the files.</font>","max_bytes":null,"ctx":"key 328"}
+{"id":"c71d","jah":"adc2dda0fc1b561bdef2df1860f1280d","en":"Deleted.","max_bytes":null,"ctx":"key 329"}
+{"id":"c731","jah":"179d7f6e53fa22209c94481629822b30","en":"Could not delete.","max_bytes":null,"ctx":"key 330"}
+{"id":"c74d","jah":"59d457320660d1339ed02102f2a42fae","en":"No free blocks.","max_bytes":null,"ctx":"key 331"}
+{"id":"c76d","jah":"bc1be7b31b03a210351a56791207121e","en":"Load all files?","max_bytes":null,"ctx":"key 332"}
+{"id":"c797","jah":"8c0bac5f102cd598e17d5268f4da193a","en":"No more files can be created.","max_bytes":null,"ctx":"key 333"}
+{"id":"c7bb","jah":"c6b4b5d5b7f495bd481e64fa3300d7fd","en":"Are you sure you want to save again?","max_bytes":null,"ctx":"key 334"}
+{"id":"c7e1","jah":"d245317aa58dce81b44d225d4aef218d","en":"The files will be renumbered.<br>Are you sure?","max_bytes":null,"ctx":"key 335"}
+{"id":"c817","jah":"afae51a5e4b542a1e31e3e5e2cc7136a","en":"A game file already exists.<br>Replace it?","max_bytes":null,"ctx":"key 336"}
+{"id":"c851","jah":"68309c36533a5f26311282f1257469f2","en":"<font color=\"#CC0000\">The memory card is damaged.<br>Could not replace the file.</font>","max_bytes":null,"ctx":"key 337"}
+{"id":"c8ae","jah":"e28833b975842d1dc421d44d20710d2b","en":"Could not replace the file.","max_bytes":null,"ctx":"key 338"}
+{"id":"c8ce","jah":"43c9ffc1059887e5aef2a0174ac7165a","en":"<font color=\"#CC0000\">Could not tidy up the memory card.</font>","max_bytes":null,"ctx":"key 339"}
+{"id":"c919","jah":"6a4eebf9fc10ad8a63bcb3c01a8c61bf","en":"Memory card save complete.","max_bytes":null,"ctx":"key 340"}
+{"id":"c945","jah":"c63b4f0ae562c2a87aa54f5411c48797","en":"Memory card save cancelled.","max_bytes":null,"ctx":"key 341"}
+{"id":"c971","jah":"adefacc58004c9c900f29c61f6a529e1","en":"Replace the memory card icon with<br>the Dream Passport 3 icon.<br>Is that OK?","max_bytes":null,"ctx":"key 342"}
+{"id":"c9d1","jah":"25792316125373d9ee853d2e70c85cb1","en":"Memory card load complete.","max_bytes":null,"ctx":"key 343"}
+{"id":"c9fd","jah":"185c9e5aa8d3ffd8d65fadfd4650ae3f","en":"Memory card icon updated.","max_bytes":null,"ctx":"key 344"}
+{"id":"ca2d","jah":"063bc70114082f6464b82f83466c03c3","en":"All files will be deleted.<br>Are you really sure?<br><font color=\"#CC0000\">Files that do not belong to<br>Dream Passport will be erased too.</font>","max_bytes":null,"ctx":"key 345"}
+{"id":"cac2","jah":"e2f18f7fbab157c44f247fbe9c9951f6","en":"Load the file?","max_bytes":null,"ctx":"key 346"}
+{"id":"cae4","jah":"0af1e80d6a50374ce1046f84b3aeaee9","en":"Copy the file?","max_bytes":null,"ctx":"key 347"}
+{"id":"cb06","jah":"3094fe4ab6f2bd74f495b3ad079f6359","en":"Are you sure you want to delete it?<br>","max_bytes":null,"ctx":"key 348"}
+{"id":"cb30","jah":"af2f4b7ece942380980a6b9ba1ce3eec","en":"Save another file?","max_bytes":null,"ctx":"key 349"}
+{"id":"cb58","jah":"7a06a40189ae63bf63b638e0ce16d651","en":"Load another file?","max_bytes":null,"ctx":"key 350"}
+{"id":"cb80","jah":"f660ce83be35521204547647e625815f","en":"Continue working?","max_bytes":null,"ctx":"key 351"}
+{"id":"cb9a","jah":"f4907dc5bd9e8fdf759846d3038f30d6","en":"Are you sure?","max_bytes":null,"ctx":"key 352"}
+{"id":"cbb8","jah":"3df4d3814a4f4f42c77924d295a3aa6d","en":"File load<br>interrupted.","max_bytes":null,"ctx":"key 353"}
+{"id":"cbe2","jah":"5176a0d38bb85a848a2219be5fa9ad2c","en":"File load cancelled.","max_bytes":null,"ctx":"key 354"}
+{"id":"cc08","jah":"b964bd228afb46f82e2cde855227df6c","en":"<font color=\"#CC0000\">The destination already holds a file<br>saved on a different Dreamcast.<br>It cannot be overwritten.</font>","max_bytes":null,"ctx":"key 355"}
+{"id":"cc8f","jah":"ff0cddf4f758714811492b06debfbe11","en":"<font color=\"#CC0000\">This file was saved on a<br>different Dreamcast.<br>It cannot be loaded.</font>","max_bytes":null,"ctx":"key 356"}
+{"id":"cd08","jah":"6458d74cd03ffef4b92cf63272eec1e1","en":"Please wait...","max_bytes":null,"ctx":"key 357"}
+{"id":"cd2a","jah":"0e67994922a60945e6c2b45e8b0c64f0","en":"Exiting memory card operations.","max_bytes":null,"ctx":"key 358"}
+{"id":"cd52","jah":"53cca7f8cf82aba6bc115b1644d96f45","en":"Cancelling selection of the<br>destination memory card.","max_bytes":null,"ctx":"key 359"}
+{"id":"cd86","jah":"7d04066cfe9a5a3735cff16dd24e2418","en":"Cancelling file selection.","max_bytes":null,"ctx":"key 360"}
+{"id":"cda8","jah":"bd642868c6f83cef0676ced9423242d2","en":"Selecting all files.","max_bytes":null,"ctx":"key 361"}
+{"id":"cdcc","jah":"2e3094ef4118bddd753c7bdca2b53e01","en":"Please select a file.","max_bytes":null,"ctx":"key 362"}
+{"id":"cdee","jah":"e3b0c44298fc1c149afbf4c8996fb924","max_bytes":null,"ctx":"key 363"}
+{"id":"cdf6","jah":"25ab3ace8091500c16418a5f6b16f3f9","en":"Deleting files...","max_bytes":null,"ctx":"key 364"}
+{"id":"ce14","jah":"5d9bcf4f7385dd2011bbb5bd55823292","en":"Copying files...","max_bytes":null,"ctx":"key 365"}
+{"id":"ce36","jah":"9fe694f68bc4e5e31cecc9d66b0d66db","en":"Processing files...","max_bytes":null,"ctx":"key 366"}
+{"id":"ce56","jah":"fe9c98365e204756c5006dc97cf4ee16","en":"Saving VM icon...","max_bytes":null,"ctx":"key 367"}
+{"id":"ce7c","jah":"9c980cd832df241752d9a7249d61a205","en":"You can carry on working.","max_bytes":null,"ctx":"key 368"}
+{"id":"cea2","jah":"6c844f43324ebe189221dd35466b0d2f","en":"Please select a memory card.","max_bytes":null,"ctx":"key 369"}
+{"id":"cec8","jah":"e006c77b4ab68a03e8a1436bfaf193b0","en":"Please select the destination<br>memory card.","max_bytes":null,"ctx":"key 370"}
+{"id":"cefc","jah":"9a11be2bf83e559b118ab13437dae8f4","en":"Save Option Settings","max_bytes":null,"ctx":"key 371"}
+{"id":"cf1a","jah":"71fc75a69629945a65471666c6025dfb","en":"Save Mail [Received]","max_bytes":null,"ctx":"key 372"}
+{"id":"cf38","jah":"c5cd5cc3ecd34968cde2ace8773a125d","en":"Save Mail [Sent]","max_bytes":null,"ctx":"key 373"}
+{"id":"cf56","jah":"563ad91f4542b56d2c329850c880c292","en":"Save Email Addresses","max_bytes":null,"ctx":"key 374"}
+{"id":"cf74","jah":"0f819ab1b85a70b00c5bf41e530a7ca9","en":"Save Bookmarks","max_bytes":null,"ctx":"key 375"}
+{"id":"cf8a","jah":"148336ecad0846fbb5b419619ede429a","en":"Save Chat Servers","max_bytes":null,"ctx":"key 376"}
+{"id":"cfaa","jah":"2dd53c85d5e0ee867bbc1ae7df597646","en":"Save HTML File","max_bytes":null,"ctx":"key 377"}
+{"id":"cfc6","jah":"007bff71d3c8c1cd2ca7b9c8c7a36277","en":"Save Image File","max_bytes":null,"ctx":"key 378"}
+{"id":"cfe2","jah":"ba243d0de731fc9f32e5ebe8f421fb9d","en":"Save Audio File","max_bytes":null,"ctx":"key 379"}
+{"id":"cffe","jah":"a940e37f6de5402f68b814efe8f0c989","en":"Save Unknown File","max_bytes":null,"ctx":"key 380"}
+{"id":"d01a","jah":"e132370805a909130ccc7ead3d3031b0","en":"Load Option Settings File","max_bytes":null,"ctx":"key 381"}
+{"id":"d040","jah":"526cded94e1471ba1d66f48d90a9d551","en":"Load Mail File [Received]","max_bytes":null,"ctx":"key 382"}
+{"id":"d066","jah":"cf5014025e2ce96fbb27857814073511","en":"Load Mail File [Sent]","max_bytes":null,"ctx":"key 383"}
+{"id":"d08c","jah":"7025e90685b2ba7bf7513fe39e4e8b77","en":"Load Email Address File","max_bytes":null,"ctx":"key 384"}
+{"id":"d0b2","jah":"5e414405269b3db19f9a8c4d590ef8e9","en":"Load Bookmarks File","max_bytes":null,"ctx":"key 385"}
+{"id":"d0d0","jah":"e55cf6bb498fbb334bc5f8164470dc33","en":"Load Chat Servers","max_bytes":null,"ctx":"key 386"}
+{"id":"d0f0","jah":"b8f725288ec04415020a6265896a5990","en":"Load HTML File","max_bytes":null,"ctx":"key 387"}
+{"id":"d10c","jah":"f2aab62508d833b3120dd85bf5b96395","en":"Load Image File","max_bytes":null,"ctx":"key 388"}
+{"id":"d128","jah":"a6ad3f1b0351c514ed18ede7ccbb8b34","en":"Load Audio File","max_bytes":null,"ctx":"key 389"}
+{"id":"d144","jah":"aa33b0e72fa56dede3faa5392b45a563","en":"Load Unknown File","max_bytes":null,"ctx":"key 390"}
+{"id":"d160","jah":"d86baad24e0fb35ef0906de9f1e4b466","en":"Save File","max_bytes":null,"ctx":"key 391"}
+{"id":"d178","jah":"5bdb56d0bca0b53d054ff940cb211232","en":"Load File","max_bytes":null,"ctx":"key 392"}
+{"id":"d190","jah":"6e651c0d744710d5c96b029781b8261c","en":"Load Attachment","max_bytes":null,"ctx":"key 393"}
+{"id":"d1ac","jah":"88af40c78fe9c6d7ed4e9ca829afb2c4","en":"File Utility","max_bytes":null,"ctx":"key 394"}
+{"id":"d1cb","jah":"fec6817400e38d4899b2da97c3968a96","en":"Load Upload File","max_bytes":null,"ctx":"key 395"}
+{"id":"d1ef","jah":"7cd788050ef3c13da8d7caef7c98409f","en":"Save Video File","max_bytes":null,"ctx":"key 396"}
+{"id":"d20d","jah":"94dcd099d9a4bbb5cc76bbb80131b6c5","en":"Load Video File","max_bytes":null,"ctx":"key 397"}
+{"id":"d22d","jah":"6e95874c27fb49fc6fbb5e3a06531f7b","en":"Children, please ask a grown-up to read this with you!","max_bytes":null,"ctx":"key 400"}
+{"id":"d2a4","jah":"8aafe2eae25c3caed51356f93da25677","en":"Displaying the latest \"Terms of Use\"<br><br><font color=\"#CC0000\">Press Up/Down to scroll and read it all</font><br>","max_bytes":null,"ctx":"key 450"}
+{"id":"d354","jah":"97ddb347db83ccb996bcd4ded57c66be","en":"Go to the next screen.","max_bytes":null,"ctx":"key 451"}
+{"id":"d385","jah":"62a29c97c589ae2a27a4eb789a8fbb23","en":"Go to the previous screen.","max_bytes":null,"ctx":"key 452"}
+{"id":"d3b6","jah":"4979e655a57ce86e97ee3b856e1386db","en":"Thanks for stopping by!<br>Enjoy your trip around the Internet<br>with \"<font color=\"#6E9959\">Dream Passport 3</font>\".","max_bytes":null,"ctx":"key 453"}
+{"id":"d48e","jah":"fc38a95371f69dbb69bb3cbe47ea9453","en":" Did you enjoy it?<br> Dream Passport 3 will now close.<br> <br><font color=\"#CC0000\">      [Please turn off the power]</font>","max_bytes":null,"ctx":"key 454"}
+{"id":"d544","jah":"70c728424360f99d8db79e25ae7be294","en":"<font color=#CC0000>The server may be<br>busy or down.</font><br>Sega provider users: check your plan<br>under \"Connection Fee Information\".","max_bytes":null,"ctx":"key 455"}
+{"id":"d61c","jah":"910e7a7fb069f8b843c5a76143ee087d","en":"Go to the browser screen.","max_bytes":null,"ctx":"key 456"}
+{"id":"d661","jah":"15ff77da824dc38333507cacf7750138","en":"Add the URL of the current page to your bookmarks.","max_bytes":null,"ctx":"key 457"}
+{"id":"d6bc","jah":"279305353878f3db78dd4da1bd2f3e3a","en":"Go to the options screen.","max_bytes":null,"ctx":"key 458"}
+{"id":"d701","jah":"7d47bb0a32dc05e0c5837502a0fbcf2c","en":"Go back to the previous page.","max_bytes":null,"ctx":"key 459"}
+{"id":"d74a","jah":"888092444c533fead7b623cb8746a55e","en":"Go forward to the next page.","max_bytes":null,"ctx":"key 460"}
+{"id":"d793","jah":"346c2c42f660ed74490a417621250414","en":"Reload the current page.","max_bytes":null,"ctx":"key 461"}
+{"id":"d7e4","jah":"512e5a8591fa6a73ed02e762666b173b","en":"Stop loading the page.","max_bytes":null,"ctx":"key 462"}
+{"id":"d82d","jah":"d76845ed220ace70cfdd5d385938b07c","en":"Zoom in on the current page.","max_bytes":null,"ctx":"key 463"}
+{"id":"d880","jah":"1fef4883fc28cbf8d427e08e3086d781","en":"Go to the memory card screen.","max_bytes":null,"ctx":"key 464"}
+{"id":"d8d7","jah":"50376a13ab0e4a811b58a440f853b855","en":"Edit the IRC server details.","max_bytes":null,"ctx":"key 468"}
+{"id":"d924","jah":"be1e02f03182f1e7e0665fa4f31fb0dc","en":"Confirm your changes to the IRC server.","max_bytes":null,"ctx":"key 469"}
+{"id":"d979","jah":"4dbc3d221cf690e754d1496ec7bc3ea6","en":"Cancel editing the IRC server.","max_bytes":null,"ctx":"key 470"}
+{"id":"d9c6","jah":"bf44537f8441c4221feeed40f546ff25","en":"Get the list of servers.","max_bytes":null,"ctx":"key 471"}
+{"id":"da15","jah":"407da707c2b56457c7bd6e25dd8bb37a","en":"Get the list of chat rooms.","max_bytes":null,"ctx":"key 472"}
+{"id":"da5e","jah":"ce6d6a5806c8699254cb6522d96690e0","en":"Get the list of chat room members.","max_bytes":null,"ctx":"key 473"}
+{"id":"dab7","jah":"ba6e6f2c6d5401493fa1615fbaec68b8","en":"Cancel entering a nickname.","max_bytes":null,"ctx":"key 474"}
+{"id":"dafa","jah":"9cb983a2950f826451179bf601958e18","en":"Cancel entering the room key.","max_bytes":null,"ctx":"key 475"}
+{"id":"db37","jah":"fa24e6fa4e37cd1022e5559dd922d63e","en":"Enter a chat room name.","max_bytes":null,"ctx":"key 476"}
+{"id":"db66","jah":"9a3b23beeb0f696068ac47b2240a39c4","en":"Check the server for new mail.","max_bytes":null,"ctx":"key 477"}
+{"id":"dbad","jah":"a98b67fea1a41c8b08eb39f1f1545506","en":"Read the mail.","max_bytes":null,"ctx":"key 478"}
+{"id":"dbe8","jah":"62c85b3dd5c02c21bb5bade8e1cfd5dd","en":"Forward this mail to someone else.","max_bytes":null,"ctx":"key 479"}
+{"id":"dc2d","jah":"7a6c37b45a025c2ab5796c6759489894","en":"Write a reply to this mail.","max_bytes":null,"ctx":"key 480"}
+{"id":"dc6e","jah":"e41a0e58ea31fda945848db86b381388","en":"Write a new mail.","max_bytes":null,"ctx":"key 481"}
+{"id":"dcaf","jah":"06a0ce2e6ecd4d833964ead7bf3c6c1c","en":"Delete the mail from the server.","max_bytes":null,"ctx":"key 482"}
+{"id":"dcf6","jah":"bc005c3f113145d3a06050488c1a8bcd","en":"Load mail from the memory card.","max_bytes":null,"ctx":"key 483"}
+{"id":"dd66","jah":"d84ced1f4645ce6cba2547283ab4fc88","en":"Send the mail.","max_bytes":null,"ctx":"key 484"}
+{"id":"dd9f","jah":"ee123634446b1a53bbb6a1722841f5a4","en":"Add a recipient to the mail.","max_bytes":null,"ctx":"key 485"}
+{"id":"dde4","jah":"15425eee435d74843661cea097fac0b9","en":"Save the unfinished mail to the memory card.","max_bytes":null,"ctx":"key 486"}
+{"id":"de5d","jah":"2538199ad6d88f04897afc4519cb2fab","en":"Load an unfinished mail from the memory card.","max_bytes":null,"ctx":"key 487"}
+{"id":"ded8","jah":"3f005fe731b5bbbc398eaf7eddb44449","en":"Add a recipient to the address book.","max_bytes":null,"ctx":"key 488"}
+{"id":"df25","jah":"8004c87bb7b0c9a076bed85f7aefb250","en":"Attach a file to the mail.","max_bytes":null,"ctx":"key 489"}
+{"id":"df6c","jah":"6c4cbe7d3abbc6e4f1acf10a9801d5ef","en":"Cancel attaching a file to the mail.","max_bytes":null,"ctx":"key 490"}
+{"id":"dfc1","jah":"759eab2ce2d5ed879befb179e7efc555","en":"Add the selected address to the mail.","max_bytes":null,"ctx":"key 491"}
+{"id":"e014","jah":"5b10f30b2e51607482d9e2e6ec9c56d7","en":"Create a new address entry.","max_bytes":null,"ctx":"key 492"}
+{"id":"e063","jah":"7185c15e159191a36ffdf0d837e8b2d5","en":"Edit the selected address.","max_bytes":null,"ctx":"key 493"}
+{"id":"e0b4","jah":"b71b701ac796bee25455d53d8ddb9797","en":"Change the order of the addresses.","max_bytes":null,"ctx":"key 494"}
+{"id":"e101","jah":"01fbf1cf5a94ebf2623bed00e66de5fe","en":"Save the addresses to the memory card.","max_bytes":null,"ctx":"key 495"}
+{"id":"e15a","jah":"33ce82226c0b39193feac7605516a9e6","en":"Load addresses from the memory card.","max_bytes":null,"ctx":"key 496"}
+{"id":"e1b5","jah":"69a39b3d9875929b5a36a0ca7392da7a","en":"Close the address book.","max_bytes":null,"ctx":"key 497"}
+{"id":"e1f8","jah":"395a63cf8a9ca0f934f259ee41140053","en":"Confirm your changes to the address.","max_bytes":null,"ctx":"key 498"}
+{"id":"e24b","jah":"34ab2129b78af30ae7c13481644b53f9","en":"Cancel editing the address.","max_bytes":null,"ctx":"key 499"}
+{"id":"e29a","jah":"c095352724dc0635e9867cfcfd420ac7","en":"Jump to the bookmarked URL.","max_bytes":null,"ctx":"key 500"}
+{"id":"e2e9","jah":"bbc839a24b06c3e4311a69a4270f90f8","en":"Create a new bookmark.","max_bytes":null,"ctx":"key 501"}
+{"id":"e332","jah":"3d8881ea4ab2b9d0283486404c6080aa","en":"Edit the bookmark.","max_bytes":null,"ctx":"key 502"}
+{"id":"e377","jah":"84e561c9a0b2e32e0d8eaf93cf47374d","en":"Rearrange your bookmarks","max_bytes":null,"ctx":"key 503"}
+{"id":"e3be","jah":"c1d72cf7a597622344d547ab07644353","en":"Save your bookmarks to the memory card","max_bytes":null,"ctx":"key 504"}
+{"id":"e411","jah":"4ef0c965b924be779f97de6cc3de714d","en":"Cancel these settings","max_bytes":null,"ctx":"key 505"}
+{"id":"e43a","jah":"59c36faee69c7bea3f0eeaa1eefd0800","en":"Cancel","max_bytes":null,"ctx":"key 506"}
+{"id":"e46f","jah":"3a71ae6dad62f56051e2f93cca69be43","en":"Confirm these settings","max_bytes":null,"ctx":"key 507"}
+{"id":"e498","jah":"c2d417244b5eef1eae708d69b7a52eaa","en":"Confirm","max_bytes":null,"ctx":"key 508"}
+{"id":"e4cd","jah":"d9c09cee2b4936b46d2ad30a7e545561","en":"Load a file from the memory card","max_bytes":null,"ctx":"key 509"}
+{"id":"e526","jah":"de07525f64c25917d49062d2dbdf9d90","en":"Save a file to the memory card","max_bytes":null,"ctx":"key 510"}
+{"id":"e57d","jah":"e0164465d2de2c43f18f26a29fbcc56e","en":"Connect to the Dricas chat server<br><br><font color=\"#CC0000\">- Please be considerate to others -</font>","max_bytes":null,"ctx":"key 511"}
+{"id":"e636","jah":"7793ea91c82f060a5432a566ce4b12cb","en":"Connect to a general IRC chat server<br><br><font color=\"#CC0000\">- Please be considerate to others -</font>","max_bytes":null,"ctx":"key 512"}
+{"id":"e6eb","jah":"1d383678e29ef288763faa3e4f86c8c2","en":"Load your bookmarks from the memory card","max_bytes":null,"ctx":"key 513"}
+{"id":"e740","jah":"901fe3ee5e2fc4e73c9c5f5d2b89825b","en":"Close bookmarks","max_bytes":null,"ctx":"key 514"}
+{"id":"e77b","jah":"1bf59d7f4b7632fbcda5d3bdfba69a46","en":"Confirm your bookmark edits","max_bytes":null,"ctx":"key 515"}
+{"id":"e7c4","jah":"7fb86bed6549e1fedae2317a42073529","en":"Cancel your bookmark edits","max_bytes":null,"ctx":"key 516"}
+{"id":"e809","jah":"9e8cd9e985be1a0d7a0d40016557f26a","en":"You can change your connection course<br>When first signing up, the course is one of the following<br><font color=\"#CC0000\">Pay-per-use: Dial Q2 number 0990 / Y10 per 3 min (call charges extra)<br>KIDS: No connection fee, time restrictions apply (call charges extra)</font>","max_bytes":null,"ctx":"key 517"}
+{"id":"e958","jah":"edd1ee26fd914d72b5c57e8b8bd447c3","en":"Sega Provider network information is as follows<br><font color=\"#CC0000\">[Please make a note of this and keep it safe]</font><br>","max_bytes":null,"ctx":"key 518"}
+{"id":"ea18","jah":"18c4080e625cbccb07b5d294bb145a34","en":"Register text strings for keys F1 to F6","max_bytes":null,"ctx":"key 519"}
+{"id":"ea6f","jah":"7c06303c227d84dfb3cd26b24fea79d8","en":"Register text strings for keys F7 to F12","max_bytes":null,"ctx":"key 520"}
+{"id":"eac8","jah":"0283db93c27edbf65e6ef2cebaf22d3e","en":"Please enter your chat nickname<br>using half-width characters","max_bytes":null,"ctx":"key 521"}
+{"id":"eb27","jah":"ec2e2c211ec7e289c6d33d81855e147c","en":"This address<br>already exists","max_bytes":null,"ctx":"key 522"}
+{"id":"eb6e","jah":"da89f18233a1fb7e25e393867557879b","en":"This URL<br>already exists","max_bytes":null,"ctx":"key 523"}
+{"id":"ebaf","jah":"342d1d1330ff4483baee9743affed5c2","en":"This chat server name<br>already exists","max_bytes":null,"ctx":"key 524"}
+{"id":"ebfe","jah":"660095112cf145965155a4ecedb3caae","en":"This will be deleted from the list<br>Are you sure?","max_bytes":null,"ctx":"key 525"}
+{"id":"ec73","jah":"8b6a76b9777ef6286de716f440516697","en":"You were forcibly<br>disconnected by the server","max_bytes":null,"ctx":"key 526"}
+{"id":"ecdc","jah":"7a6980296fa36adbaff7ec38682de0c4","en":"Your nickname contains<br>symbols that cannot be used<br>Please enter it again","max_bytes":null,"ctx":"key 527"}
+{"id":"ed5d","jah":"ad53f2ec2e08011a02818042b2c478fa","en":"Could not connect<br>to the chat server","max_bytes":null,"ctx":"key 528"}
+{"id":"edb8","jah":"2206e48b939c5cabe7c3e95d2b5086a8","en":"Could not enter<br>the chat room","max_bytes":null,"ctx":"key 529"}
+{"id":"ee13","jah":"7a431a3dde93f052d9f27d4a55691d68","en":"<font color=\"#CC0000\">Could not display the<br>DreamFlyer mail picture</font><br>The data is invalid or too large","max_bytes":null,"ctx":"key 530"}
+{"id":"eea9","jah":"05ab4d83676da24e6269a028fcac378a","en":"<font color=\"#CC0000\">No more items can be added to the list</font><br>[Press X + A to tidy up the list]<br>","max_bytes":null,"ctx":"key 531"}
+{"id":"ef49","jah":"eb02226329f2d4fea9406bc2eda1b57c","en":"<font color=#CC0000>The password may be wrong, or the server may be<br>busy or down<br>If you use Sega Provider, check your course<br>under Connection Fee Information</font>","max_bytes":null,"ctx":"key 532"}
+{"id":"f085","jah":"f16984f2230900af90c2273a9763ecc8","en":"Preparing a chat room<br>Please wait a moment","max_bytes":null,"ctx":"key 750"}
+{"id":"f0ce","jah":"86ba7d33181444e184dcc9b46e45d923","en":"The Anywhere Chat server is<br>under maintenance<br>Please try again after maintenance ends","max_bytes":null,"ctx":"key 751"}
+{"id":"f145","jah":"da02ebf38f99a1bafbf53300a162a2c1","en":"The chat room is full<br>Please wait a moment","max_bytes":null,"ctx":"key 752"}
+{"id":"f18c","jah":"1974863675557b52d9873286ec173ac4","en":"Could not log in to the<br>Anywhere Chat server<br>Some services may<br>be unavailable","max_bytes":null,"ctx":"key 753"}
+{"id":"f235","jah":"c9157024a8b639481cde8ad0a24bf739","en":"The Anywhere Chat server is under maintenance<br>Please try again in a little while","max_bytes":null,"ctx":"key 754"}
+{"id":"f2a6","jah":"4f97dc741b38624246e83f68cf848f87","en":"Logging in to the<br>Anywhere Chat server again<br>Please wait a moment","max_bytes":null,"ctx":"key 755"}
+{"id":"f35c","jah":"480bf5156532a71f046536f499f0deb0","en":"The Anywhere Chat server<br>is busy<br>Try again?","max_bytes":null,"ctx":"key 756"}
+{"id":"f3d0","jah":"e7ebe0ef7dc71c1216cf1ab438b3f87c","en":"Logging in to the<br>Anywhere Chat server<br>Please wait a moment","max_bytes":null,"ctx":"key 757"}
+{"id":"f435","jah":"70c927408083e25c6d6a5c45d6000050","en":"Logging out of the<br>Anywhere Chat server<br>Please wait a moment","max_bytes":null,"ctx":"key 758"}
+{"id":"f4a0","jah":"cbfa36b9021e7ec4cf454fe807ff5eee","en":"You cancelled entering the<br>Anywhere Chat room","max_bytes":null,"ctx":"key 759"}
+{"id":"f50d","jah":"cb4e2ab391e683bb0570b064da863dfe","en":"The Dricas chat server service<br>has ended. Please use the<br>Anywhere Chat service","max_bytes":null,"ctx":"key 760"}
+{"id":"f59a","jah":"09b37fbe331b554e2a63c40a8ad4bd2e","en":"Use the Anywhere Chat service","max_bytes":null,"ctx":"key 761"}
+{"id":"f61d","jah":"9055f627fc65dfd252d4a09ab5811522","en":"You will enter the chat room<br>discussing this page<br>Is that okay?","max_bytes":null,"ctx":"key 762"}
+{"id":"f6c5","jah":"023fa22bdfbf556fdfc855bbe5a5d021","en":"Enter the nickname to use in this<br>Anywhere Chat room<br>","max_bytes":null,"ctx":"key 763"}
+{"id":"f73c","jah":"0eacfea6b18a3cae7fa11c0cdfd5831a","en":"Enter your nickname<br>Press the A Button to start typing<br>Press the Y Button to finish typing","max_bytes":null,"ctx":"key 764"}
+{"id":"f7bb","jah":"27b97f5cced45ec57cc1db0abdee249b","en":"Use the entered nickname in this chat room","max_bytes":null,"ctx":"key 765"}
+{"id":"f80c","jah":"7d69a9894ae8d663266b56ceafef8df5","en":"The entered nickname has been set for this chat room","max_bytes":null,"ctx":"key 766"}
+{"id":"f85f","jah":"ba6e6f2c6d5401493fa1615fbaec68b8","en":"Cancel entering a nickname.","max_bytes":null,"ctx":"key 767"}
+{"id":"f896","jah":"f500e93fc9add08e28c1f8a73471cbd5","en":"Nickname entry cancelled","max_bytes":null,"ctx":"key 768"}
+{"id":"f8d1","jah":"01492e29a3c9237957799cbdf800f44b","en":"Anywhere Chat does not need an entry key","max_bytes":null,"ctx":"key 769"}
+{"id":"f953","jah":"13630b3c3adba2c8f5058505f234739e","en":"<font color=\"#CC0000\">Please enter a nickname</font><br>You cannot enter this Anywhere Chat<br>room without a nickname","max_bytes":null,"ctx":"key 770"}
+{"id":"fa1d","jah":"8c6b404691e98d2b5c21014077873485","en":"Enter this Anywhere Chat room","max_bytes":null,"ctx":"key 771"}
+{"id":"fa8c","jah":"7d69a9894ae8d663266b56ceafef8df5","en":"The entered nickname has been set for this chat room","max_bytes":null,"ctx":"key 772"}
+{"id":"fb2a","jah":"9eeba8d2c15e4429c56c5546bf2bd562","en":"Communicating with the server<br>Please wait a moment","max_bytes":null,"ctx":"key 800"}
+{"id":"fb77","jah":"35306428bb98ccf548f10ee8f099fcc7","en":"Could not log in to the server<br>Some services may<br>be unavailable","max_bytes":null,"ctx":"key 801"}
+{"id":"fbfa","jah":"1c46d29a93b32e95c25de8bf27c79330","en":"The server is busy<br>Try again?","max_bytes":null,"ctx":"key 802"}
+{"id":"fc47","jah":"826c2e6213e848ae7d7ff9453dc62dcf","en":"The server is under maintenance<br>Please try again after maintenance ends","max_bytes":null,"ctx":"key 803"}
+{"id":"fca8","jah":"8747e8ba46cb10a36fab864fe7ea77b2","en":"<font color=\"#CC0000\">The service is unavailable<br>Please call the Network Support Centre</font>","max_bytes":null,"ctx":"key 804"}
+{"id":"fd5e","jah":"3e43b28cdae3486564f80a95f94aa14a","en":"Connecting to the NTP server<br>Please wait a moment","max_bytes":null,"ctx":"key 850"}
+{"id":"fda4","jah":"daf596ec2be0b9607c9e411909c09fa6","en":"Connection to the NTP server<br>was cancelled","max_bytes":null,"ctx":"key 851"}
+{"id":"fdde","jah":"0452a78f50b7d83a60fe6e35d9d3b93a","en":"Could not connect to<br>the NTP server<br>Reconnect?","max_bytes":null,"ctx":"key 852"}
+{"id":"fe2e","jah":"36134f762ac7c45e538b03d328f676e7","en":"Could not connect<br>to the NTP server","max_bytes":null,"ctx":"key 853"}
+{"id":"fe72","jah":"b1dd30ff89f0d01f2579a44833cc8ed9","en":"Fetching the time data<br>Please wait a moment","max_bytes":null,"ctx":"key 854"}
+{"id":"febc","jah":"6108d58219e9bff89e10348488972470","en":"Fetching the time data<br>was cancelled","max_bytes":null,"ctx":"key 855"}
+{"id":"fef5","jah":"4dc420bd707aecee87803586be64c07f","en":"No response from the server<br>Try again?","max_bytes":null,"ctx":"key 856"}
+{"id":"ff3c","jah":"3436e382419f46bf6d6eb17a09aaa2d1","en":"The clock-setting data<br>is not valid<br>Try again?","max_bytes":null,"ctx":"key 857"}
+{"id":"ff95","jah":"7ea2c000d7c1d5f31c6d8d03a7ed2579","en":"Could not set the clock","max_bytes":null,"ctx":"key 858"}
+{"id":"ffdc","jah":"b4ec93e13926c2c213c84b3be934f332","en":"Clock-setting data received<br>Save it to the console?","max_bytes":null,"ctx":"key 859"}
+{"id":"10031","jah":"f1b75dd9d926593bf6b27fe9d3195345","en":"Could not save the<br>clock-setting data","max_bytes":null,"ctx":"key 860"}
+{"id":"100a4","jah":"cdc54c2b62d882f1d93ce67854b4e7d8","en":"The recipient's message box is full<br>Please try again in a little while","max_bytes":null,"ctx":"key 900"}
+{"id":"10110","jah":"ffb732599691a294dc69b9a1e5d1f797","en":"The recipient<br>refused your message","max_bytes":null,"ctx":"key 901"}
+{"id":"10159","jah":"7843ca976ceed0d0907003d535a4a1e8","en":"The Chab Talk server is<br>under maintenance<br>Please try again after maintenance ends","max_bytes":null,"ctx":"key 902"}
+{"id":"10224","jah":"f4b7f3c763e85701a973947a04df7afd","en":"The message recipient was not found<br>Please check their user information","max_bytes":null,"ctx":"key 903"}
+{"id":"10289","jah":"6c2559cd3437359c99b11a3e11d10370","en":"An error occurred<br>Try again?","max_bytes":null,"ctx":"key 904"}
+{"id":"102da","jah":"b0092916d5d917105acb6c862d321c04","en":"Timed out<br>Try again?","max_bytes":null,"ctx":"key 905"}
+{"id":"10329","jah":"ec77062b69bc934735417db20acdf8e6","en":"Logging in to the Communication Server<br>Please wait a moment","max_bytes":null,"ctx":"key 906"}
+{"id":"10390","jah":"e1f4565cf50bdf3e9653f924ac0c2b47","en":"Please wait a moment","max_bytes":null,"ctx":"key 907"}
+{"id":"103d4","jah":"13e9caf6a5c073ab370dfa318ed0d736","en":"Please disconnect the line<br>and connect to the<br>network again","max_bytes":null,"ctx":"key 908"}
+{"id":"1043e","jah":"517acf268dbbee9a6c473b88a6057bda","en":"Received corrupted data<br>Try again?","max_bytes":null,"ctx":"key 909"}
+{"id":"104a5","jah":"f912e261b031b94715bef042d7f378ce","en":"Could not log in to the<br>Chab Talk server<br>Some services may<br>be unavailable","max_bytes":null,"ctx":"key 910"}
+{"id":"10534","jah":"d0686ab1c1926570b16ef471660e95a2","en":"The Chab Talk server<br>is busy<br>Try again?","max_bytes":null,"ctx":"key 911"}
+{"id":"105aa","jah":"6538680c1084c963f72bfbaafbb1e2b8","en":"Logging in to the<br>Chab Talk server<br>Please wait a moment","max_bytes":null,"ctx":"key 912"}
+{"id":"10611","jah":"f720e3192a0db04a36193c8a68b2a57b","en":"Logging in to the<br>Chab Talk server again<br>Please wait a moment","max_bytes":null,"ctx":"key 913"}
+{"id":"1067e","jah":"77dfcbd7b88332f69fc532e7af3469a7","en":"Logging out of the<br>Chab Talk server<br>Please wait a moment","max_bytes":null,"ctx":"key 914"}
+{"id":"106eb","jah":"bbcd459292759764a5adb621b792d043","en":"Communicating with the Chab Talk server<br>Please wait a moment","max_bytes":null,"ctx":"key 915"}
+{"id":"10744","jah":"d743018cf3591e0e6802a95ccb7809a6","en":"Log in to the<br>Chab Talk server again?","max_bytes":null,"ctx":"key 920"}
+{"id":"1079f","jah":"9ad0dcefe1c1fa0704f6ce49e668a797","en":"The operation may not have completed correctly","max_bytes":null,"ctx":"key 921"}
+{"id":"1082f","jah":"3496d0e52c0e7c24bdf4210ba256cb27","en":"The server SSL certificate may have expired<br>or the Dreamcast clock<br>may be wrong<br><font color=\"#CC0000\">[Only applies to VeriSign keys]</font>","max_bytes":null,"ctx":"key 401"}
+{"id":"108e9","jah":"0ded0fef3bb8d1b2effa1927995bfc30","en":"You cancelled entering the chat room","max_bytes":null,"ctx":"key 402"}
+{"id":"10915","jah":"73483a15be669a1a11382553fb88d327","en":"Go to the IR Chat screen","max_bytes":null,"ctx":"key 403"}
+{"id":"10939","jah":"f4d39d37d8fe1662cb9c5427181913b8","en":"Show Help","max_bytes":null,"ctx":"key 404"}
+{"id":"10953","jah":"279305353878f3db78dd4da1bd2f3e3a","en":"Go to the options screen.","max_bytes":null,"ctx":"key 405"}
+{"id":"10977","jah":"7f5eb50b66ac8fa320b20607ec11113a","en":"Go to the game's home page screen","max_bytes":null,"ctx":"key 406"}
+{"id":"109a3","jah":"3cff58d5d1c56d800949bef06e4e0210","en":"Return to the game","max_bytes":null,"ctx":"key 407"}
+{"id":"109bd","jah":"a3b1d6cc4e8b196e31cd609a579f6771","en":"Add this page's URL to your bookmarks","max_bytes":null,"ctx":"key 408"}
+{"id":"109e8","jah":"be49af26547773756ac7051eaaae5693","en":"Send a message with Chab Talk","max_bytes":null,"ctx":"key 409"}
+{"id":"10a0f","jah":"6b79d0d7a3c128055824850511226d79","en":"Go to the Anywhere Chat screen","max_bytes":null,"ctx":"key 410"}
+{"id":"10a3b","jah":"d446a2c84cc22473927c92b953e6ce25","en":"Show the history of pages you have visited","max_bytes":null,"ctx":"key 411"}
+{"id":"10a67","jah":"bb10d5603718851cdb76a3c6f92c6c72","en":"Set the Dreamcast clock","max_bytes":null,"ctx":"key 412"}
+{"id":"10a99","jah":"9165defd5f0d1f6db2593de42a78d36a","en":"Return to the browser screen","max_bytes":null,"ctx":"key 413"}
+{"id":"10abb","jah":"88c717feb3a19f9d5a85b16bf39bae6c","en":"Confirm your bookmark edits and exit","max_bytes":null,"ctx":"key 414"}
+{"id":"10aeb","jah":"ca6d827b2ab2488bd7d97a03b1f0fa0c","en":"Rearrange your received mail","max_bytes":null,"ctx":"key 415"}
+{"id":"10b15","jah":"71913be4ea1584d3bb63fcb54308779e","en":"Cancel writing this mail","max_bytes":null,"ctx":"key 416"}
+{"id":"10b35","jah":"b17002f7ea6a28ce4994da4fc16d5f0b","en":"Return to the mail writing screen","max_bytes":null,"ctx":"key 417"}
+{"id":"10b57","jah":"f92587edc632533a0b330fbf8bcbb483","en":"Add new IRC server information","max_bytes":null,"ctx":"key 418"}
+{"id":"10b82","jah":"234633ba33eb3628a0bc81b82cb3e47e","en":"Load IRC server information from the memory card","max_bytes":null,"ctx":"key 419"}
+{"id":"10bbb","jah":"b3f43950c60c8a675d79b72166d3a4e9","en":"Connect to this chat server","max_bytes":null,"ctx":"key 420"}
+{"id":"10be3","jah":"ed669cbdc8571605e750e573e5cdb2db","en":"Save IRC server information to the memory card","max_bytes":null,"ctx":"key 421"}
+{"id":"10c1a","jah":"7a36502ba5094f5485c30cdacd182f64","en":"Enter the IRC server details","max_bytes":null,"ctx":"key 422"}
+{"id":"10c41","jah":"ed48a0207bf086d616f189cafdf1a18f","en":"Confirm the IRC server details you entered and exit","max_bytes":null,"ctx":"key 423"}
+{"id":"10c7c","jah":"e1f9538cc25150d2793ef5a72eb38ec6","en":"Cancel entering IRC server details","max_bytes":null,"ctx":"key 424"}
+{"id":"10ca7","jah":"6e580548e49024a970283e658aba00ed","en":"Start connecting to the IRC server","max_bytes":null,"ctx":"key 425"}
+{"id":"10cca","jah":"27d8eaef89e7d737adc4a06d17562388","en":"Return to the server list screen","max_bytes":null,"ctx":"key 426"}
+{"id":"10cee","jah":"711c02dd230f9fe85072d9bbf33d78d2","en":"Select a chat room to join","max_bytes":null,"ctx":"key 427"}
+{"id":"10d0e","jah":"a0c6c1fa778e91a2946c580b8e505a76","en":"Enter the name of the chat room to join","max_bytes":null,"ctx":"key 428"}
+{"id":"10d32","jah":"79d434a4f7b1be76fca23ea0e8bf7d71","en":"Refresh the chat room list","max_bytes":null,"ctx":"key 429"}
+{"id":"10d52","jah":"e027c1e3b94288fa0ea6f0140e0ecd6e","en":"Join the chat and speak","max_bytes":null,"ctx":"key 430"}
+{"id":"10d76","jah":"9734808d0ccae2af463ed1dd4e45cb82","en":"Leave this chat room","max_bytes":null,"ctx":"key 431"}
+{"id":"10d96","jah":"77d8beff08dba4e95cbb048cb57500f4","en":"Show a list of members in this chat room","max_bytes":null,"ctx":"key 432"}
+{"id":"10dcc","jah":"24b715e52fdc0156a47541db7777e710","en":"Refresh the member list","max_bytes":null,"ctx":"key 433"}
+{"id":"10dee","jah":"136115531e9983462f0c1a1e09726b35","en":"Return to the chat screen","max_bytes":null,"ctx":"key 434"}
+{"id":"10e0c","jah":"369b96acf4d2300fe4fee4a026f6a720","en":"Could not log in to the Communication Server. Some services may be unavailable","max_bytes":null,"ctx":"key 435"}
+{"id":"10e7c","jah":"34eb041d9692d84f7b9a288f5bdd7025","en":"The Communication Server is busy. Try again?","max_bytes":null,"ctx":"key 436"}
+{"id":"10ec6","jah":"cf454264d1c845e0c721c32c8bf116a3","en":"The Communication Server is under maintenance. Please try again after maintenance ends","max_bytes":null,"ctx":"key 437"}
+{"id":"10f22","jah":"7f35c97d7736714832ccb7ab8b8bf7c9","en":"Logging in to the Communication Server again. Please wait a moment","max_bytes":null,"ctx":"key 438"}
+{"id":"10f70","jah":"d8d433d486cd98bcbbdd4f5bfeaf4384","en":"Logging out of the Communication Server. Please wait a moment","max_bytes":null,"ctx":"key 439"}
+{"id":"10fbe","jah":"fb3e8d3b0e95817f3fb53ae8785f6b0f","en":"Communicating with the Communication Server. Please wait a moment","max_bytes":null,"ctx":"key 440"}
+{"id":"11000","jah":"f65ee5fb961db034666db20af4b08937","en":"Communicating with the Anywhere Chat server. Please wait a moment","max_bytes":null,"ctx":"key 441"}
+{"id":"11040","jah":"5422a131ec24f153bf61defb01e5d172","en":"Logging in to the server. Please wait a moment","max_bytes":null,"ctx":"key 442"}
+{"id":"11078","jah":"ac6a17eda72c7c73ec67f6be3e70fda7","en":"Logging in to the server again. Please wait a moment","max_bytes":null,"ctx":"key 443"}
+{"id":"110b4","jah":"af54b6804460d1338df7caf3148d9254","en":"Logging out of the server, please wait","max_bytes":null,"ctx":"key 444"}
+{"id":"110f0","jah":"565339bc4d33d72817b583024112eb7f","max_bytes":null,"ctx":"key 446"}
+{"id":"110fa","jah":"1b31ab3c34e702f94cf0784708cb453f","en":"Retry","max_bytes":null,"ctx":"key 447"}
+{"id":"1110a","jah":"edd01815cce0596c33cb33fc50f11cfb","en":"Cancel","max_bytes":null,"ctx":"key 448"}
+{"id":"11116","jah":"115b6ae7cfc38b94e793e838dcf55244","en":"Good work today. That's all for now.<font color=\"#CC0000\">          [Please turn off the power]</font>","max_bytes":null,"ctx":"key 449"}
+{"id":"111a6","jah":"61e5bd07c70030c7658d76a51a7f5b31","en":"Anywhere Chat is not available<br>on this page","max_bytes":null,"ctx":"key 773"}
+{"id":"1122d","jah":"6625a0a95209d4d73a00453c169a507d","en":"Successfully registered with the server<br>The Sega Provider network information is as follows<br>You have no Communication ID","max_bytes":null,"ctx":"key 896"}
+{"id":"112ce","jah":"fc469e5b59b99bc24152e14c607320de","en":"You have no Communication ID","max_bytes":null,"ctx":"key 897"}
+{"id":"11315","jah":"d8481ffc13054bee12026cef9a2c2be1","en":"Successfully registered with the server<br>The Sega Provider network information is as follows<br>This is your Communication ID number","max_bytes":null,"ctx":"key 898"}
+{"id":"113ba","jah":"4dc0dc272616b96ee6eb93478259a2e0","en":"This is your Communication ID number","max_bytes":null,"ctx":"key 899"}
+{"id":"11442","jah":"8fa0bf553fd3e10d9996c763bb7b9355","en":"Clear the memory cache?","max_bytes":null,"ctx":"key 533"}
+{"id":"1146a","jah":"5d56667b25e780031753bcc8533de094","en":"Download failed","max_bytes":null,"ctx":"key 398"}
+{"id":"1148e","jah":"49a3f38a075b5f38f34edf2c9b735741","en":"Current time","max_bytes":null,"ctx":"key 861"}
+{"id":"114a0","jah":"61ac3a47b2b64b353eada7ba3e17b91d","en":"Time connected","max_bytes":null,"ctx":"key 862"}
+{"id":"114b6","jah":"c8d5114b106b5ca4ed02133e5dc98f63","en":"[Contains voice data]","max_bytes":null,"ctx":"key 916"}
+{"id":"114d6","jah":"f20061f75cf49afece17863ffab62e1b","en":"[Voice data only]","max_bytes":null,"ctx":"key 917"}
+{"id":"114f0","jah":"a4f651cb8548dc0977522da9aad868af","en":"No Chat Buddies are %sregistered","max_bytes":null,"ctx":"key 918"}
+{"id":"11517","jah":"51dc605127391165f420521611a65bf6","en":"No one is %sviewing this page right now","max_bytes":null,"ctx":"key 919"}
+{"id":"11547","jah":"8813414c0eee49ec6e08a4bed2a0eb91","en":"        Chat Buddies","max_bytes":null,"ctx":"key 922"}
+{"id":"11560","jah":"3252f34c42b69bb5427209f30cde5c2b","en":"  People viewing the same page","max_bytes":null,"ctx":"key 923"}
+{"id":"11580","jah":"a09ea25a859c80cdfcea94ccc8d58e7b","en":"   Go to user search page","max_bytes":null,"ctx":"key 924"}
+{"id":"1159f","jah":"f2d3e9e20bbf69ffc2cf3127139216cc","en":"%s<br>(ID %s)<br>has read your message","max_bytes":null,"ctx":"key 925"}
+{"id":"115d4","jah":"59086f1cdb883bd152c80e187bbe2023","max_bytes":null,"ctx":"key 926"}
+{"id":"115e5","jah":"5b7a2c7432d1dd76abe0d6c0cd4e1fd5","max_bytes":null,"ctx":"key 927"}
+{"id":"116c6","jah":"641ef941a6e11af903d89aca4c7b0331","en":"Not set","max_bytes":null,"ctx":"key 995"}
+{"id":"116e4","jah":"e798ae5749e4b4588e67166f8c4b896a","en":"Connect to the user information page<br>using the modem. Is that OK?<br><font color=\"#CC0000\">You will be connected to Dial Q2 (pay screen)!</font><br>The following information fee and call charges will apply.<br>This programme uses NTT East / NTT West's<br>Dial Q2 service.<br>Programme name: Isao Internet Pay-per-Use Connection Service<br>Programme No. 1: %s<br>Programme No. 2: %s<br>Programme No. 3: %s<br>Provider: Isao Co., Ltd.<br>Contact number: 0570-057-100<BR>Information fee: approx. 10 yen per 3 minutes<br>Call charges: cost of the call to the access point<br>Access point: varies by programme number. See the<br>  enclosed Q2 phone number list.","max_bytes":null,"ctx":"key 537"}
+{"id":"11960","jah":"cd997f9ac633676581304983f1cd1df8","en":"Connect to the user information page<br>using the modem.<br>Is that OK?","max_bytes":null,"ctx":"key 538"}
+{"id":"119f2","jah":"a7414488bf209b1d8837ffd388767bab","en":"Connect to the user information page<br>via the serial port. Is that OK?<br><font color=\"#CC0000\">You will be connected to Dial Q2 (pay screen)!</font><br>The following information fee and call charges will apply.<br>This programme uses NTT East / NTT West's<br>Dial Q2 service.<br>Programme name: Isao Internet Pay-per-Use Connection Service<br>Programme No. 1: %s<br>Programme No. 2: %s<br>Programme No. 3: %s<br>Provider: Isao Co., Ltd.<br>Contact number: 0570-057-100<br>Information fee: approx. 10 yen per 3 minutes<br>Call charges: cost of the call to the access point<br>Access point: varies by programme number. See the<br>  enclosed Q2 phone number list.","max_bytes":null,"ctx":"key 539"}
+{"id":"11c72","jah":"8922d65e71ec23998bfc1a49a0edcbc2","en":"Connect to the user information page<br>via the serial port.<br>Is that OK?<br><br>If you are using a mobile phone or PHS, check<br>the signal strength before connecting.<br><font color=\"#CC0000\">You may not be able to connect to the<br>network, depending on signal strength</font>","max_bytes":null,"ctx":"key 540"}
+{"id":"11db9","jah":"cbf0d8812388978e63aa2b2dba0de117","en":"Connect to the user information page<br>using ****Comm Device 01****.<br>Is that OK?<br><br>Check the signal strength before connecting.<br><font color=\"#CC0000\">You may not be able to connect to the<br>network, depending on signal strength<br><br>For numbers starting 0990, read the manual<br>and change your connection plan</font>","max_bytes":null,"ctx":"key 541"}
+{"id":"11f28","jah":"41ad53a98f188c6f8dcc7b44313225ed","en":"Connect to the user information page<br>using the Broadband Adapter (BBA).<br>Is that OK?","max_bytes":null,"ctx":"key 542"}
+{"id":"11fbd","jah":"de6f549aab4db98240bbfc90a1fb498e","en":"Connect to the user information page<br>via the serial port.<br>Is that OK?<br><br>If you are using a mobile phone or PHS, check<br>the signal strength before connecting.<br><font color=\"#CC0000\">You may not be able to connect to the<br>network, depending on signal strength<br><br>Numbers starting 0990 are charged<br>as Dial Q2</font>","max_bytes":null,"ctx":"key 543"}
+{"id":"12134","jah":"bc83b645829139fe21784fbaeb8fd213","en":"Connect to the connection charges page<br>using ****Comm Device 01****.<br>Is that OK?<br><br>Check the signal strength before connecting.<br><font color=\"#CC0000\">You may not be able to connect to the<br>network, depending on signal strength</font>","max_bytes":null,"ctx":"key 544"}
+{"id":"1224b","jah":"90b2cbc31eb692defe29974107a7091e","en":"Connect to the connection charges page<br>using the Broadband Adapter (BBA).<br>Is that OK?","max_bytes":null,"ctx":"key 545"}
+{"id":"122de","jah":"97d3a1135e7c98e2dc8fbf421915c9e0","en":"Connect to the connection charges page<br>via the serial port.<br>Is that OK?<br><br>If you are using a mobile phone or PHS, check<br>the signal strength before connecting.<br><font color=\"#CC0000\">You may not be able to connect to the<br>network, depending on signal strength</font>","max_bytes":null,"ctx":"key 546"}
+{"id":"12411","jah":"9e08acf4a02d36eb0443defa2ebec4d7","en":"Connect to the connection charges page<br>using ****Comm Device 01****.<br>The current connection will be closed. Is that OK?","max_bytes":null,"ctx":"key 547"}
+{"id":"124b7","jah":"5accc717f20f512d6508d6d35309db6f","en":"Connect to the connection charges page<br>using the Broadband Adapter (BBA).<br>The current connection will be closed. Is that OK?","max_bytes":null,"ctx":"key 548"}
+{"id":"12564","jah":"983e09aeb0b7e85d61ee179034a7bc32","en":"Connect to the connection charges page<br>via the serial port.<br>The current connection will be closed. Is that OK?","max_bytes":null,"ctx":"key 549"}
+{"id":"12604","jah":"d0114c115c17a53f1ae859339dde3f3e","en":"<font color=\"#CC0000\">No network device connected</font><br><br>Check that the network device is<br>connected correctly.<br>Turn off the Dreamcast before<br>connecting a network device.<br><br>To use a network device on the serial port,<br>set the serial port to \"ON\"<br>in Option Settings","max_bytes":null,"ctx":"key 730"}
+{"id":"12799","jah":"2ff27076436b0fd7e289c674c60a434f","en":"Connect to the network using<br>****Comm Device 01****.<br>Is that OK?<br><br>Check the signal strength before connecting.<br><font color=\"#CC0000\">You may not be able to connect to the<br>network, depending on signal strength<br><br>For numbers starting 0990, read the manual<br>and change your connection plan</font>","max_bytes":null,"ctx":"key 731"}
+{"id":"128f8","jah":"438586b83340f3ac8f49f176c9c33724","en":"Connect to the network using the<br>Broadband Adapter (BBA).<br>Is that OK?","max_bytes":null,"ctx":"key 732"}
+{"id":"1297b","jah":"a90a348fd0aa2f4a872b3374102096c2","en":"Connect to the network via the serial port.<br>Is that OK?<br><br>If you are using a mobile phone or PHS, check<br>the signal strength before connecting.<br><font color=\"#CC0000\">You may not be able to connect to the<BR>network, depending on signal strength<br><br>Numbers starting 0990 are charged<br>as Dial Q2</font>","max_bytes":null,"ctx":"key 733"}
+{"id":"12adc","jah":"59312fe79362dbd51653022bd4fe2f18","en":"<font color=\"#CC0000\">Could not dial</font><br><br>Check the signal strength.<br>If it is poor, move the console somewhere<br>with better reception","max_bytes":null,"ctx":"key 734"}
+{"id":"12bad","jah":"fec950eee06de5a6c148b05320c27763","en":"<font color=\"#CC0000\">Could not dial</font><br><br>Check that the network device is<br>connected correctly.<br>Also check the modem and<br>serial port settings in Option Settings","max_bytes":null,"ctx":"key 735"}
+{"id":"12cae","jah":"f034bd195277098b13d6e286531ae75a","en":"<font color=\"#CC0000\">The Ethernet cable is not connected<BR>correctly</font>","max_bytes":null,"ctx":"key 736"}
+{"id":"12d26","jah":"22117dfad8aacc3ab60b71bc0f446ec9","en":"Could not obtain an IP address<br>from DHCP.<br><br>Please wait a moment and<br>try again.<br>If you still cannot connect,<br>contact your provider","max_bytes":null,"ctx":"key 737"}
+{"id":"12e0b","jah":"b7a28022ac3c7f2abb73bde6beba059c","en":"The IP address obtained from DHCP<br>is invalid.<br><br>Please wait a moment and<br>try again.<br>If you still cannot connect,<br>contact your provider","max_bytes":null,"ctx":"key 738"}
+{"id":"12eef","jah":"a2a5af9e46714b0484fe953973572c7e","en":"Querying DHCP<br>Please wait","max_bytes":null,"ctx":"key 739"}
+{"id":"12f45","jah":"7ae4d272737861ade925d19403b16ada","en":"Network information is invalid","max_bytes":null,"ctx":"key 740"}
+{"id":"12f9b","jah":"b538e33b80ff02548f5a8ce1f2be33de","en":"The Broadband Adapter (BBA)<br>is not working properly","max_bytes":null,"ctx":"key 741"}
+{"id":"13012","jah":"9dfb280c7b39f620cefb318defa27588","en":"The DHCP library is not working properly","max_bytes":null,"ctx":"key 742"}
+{"id":"13064","jah":"c9cc679c80b0752b0f7d5e676dbec157","en":"The disconnect time has been reached,<br>so you were disconnected automatically.<br><br>You can change the disconnect time in the<br>Timer Settings under Options","max_bytes":null,"ctx":"key 743"}
+{"id":"13113","jah":"29a70ccede2d244878bb10db14a85dd5","en":"The lease on the IP address assigned by<br>DHCP could not be extended.<br><br>Please reconnect to the network.<br>If you cannot connect, contact your<br>provider","max_bytes":null,"ctx":"key 744"}
+{"id":"131f9","jah":"b404fed77e1d92947b4aa9d7ccf9cae6","en":"<font color=\"#CC0000\">BBA provider network information<br>has not been set</font><br><br>Set it in Network Information Settings<br>under Options","max_bytes":null,"ctx":"key 745"}
+{"id":"132ce","jah":"e8c7d82592fe5510a912cbde0a070ef8","en":"Connect to the network using the modem.<br>Is that OK?<br><font color=\"#CC0000\">You will be connected to Dial Q2 (pay screen)!</font><br>The following information fee and call charges will apply.<BR>This programme uses NTT East / NTT West's<BR>Dial Q2 service.<BR>Programme name: Isao Internet Pay-per-Use Connection Service<BR>Programme No. 1: %s<BR>Programme No. 2: %s<BR>Programme No. 3: %s<BR>Provider: Isao Co., Ltd.<BR>Contact number: 0570-057-100<BR>Information fee: approx. 10 yen per 3 minutes<BR>Call charges: cost of the call to the access point<BR>Access point: varies by programme number. See the<BR>  enclosed Q2 phone number list.","max_bytes":null,"ctx":"key 746"}
+{"id":"1352a","jah":"aef8b4b8f48c14a58774c48af08c46b4","en":"Connect to the network via the serial port.<br>Is that OK?<br><font color=\"#CC0000\">You will be connected to Dial Q2 (pay screen)!</font><br>The following information fee and call charges will apply.<BR>This programme uses NTT East / NTT West's<BR>Dial Q2 service.<BR>Programme name: Isao Internet Pay-per-Use Connection Service<BR>Programme No. 1: %s<BR>Programme No. 2: %s<BR>Programme No. 3: %s<BR>Provider: Isao Co., Ltd.<BR>Contact number: 0570-057-100<BR>Information fee: approx. 10 yen per 3 minutes<BR>Call charges: cost of the call to the access point<BR>Access point: varies by programme number. See the<BR>  enclosed Q2 phone number list.","max_bytes":null,"ctx":"key 747"}
+{"id":"1378a","jah":"f410bf28025884ce0f823d6ba43aee90","en":"Connect to the network using<br>the modem.<br>Is that OK?","max_bytes":null,"ctx":"key 748"}
+{"id":"137fe","jah":"86f2b45f3ecec00f5b1998e3bf446799","en":"Connect to the network via<br>the serial port.<br>Is that OK?<br><br>If you are using a mobile phone or PHS, check<br>the signal strength before connecting.<br><font color=\"#CC0000\">You may not be able to connect to the<br>network, depending on signal strength</font>","max_bytes":null,"ctx":"key 749"}
+{"id":"13927","jah":"c930145774ca1526fc09ae283551264a","en":"Configure the \"Broadband Adapter (BBA)<br>Provider\" settings","max_bytes":null,"ctx":"key 981"}
+{"id":"1399a","jah":"91d2ed0e07b425ba6c252422fb334dd5","en":"This is the phone number of ****Comm Device 01****<br><br><font color=\"#CC0000\">[Note] Not shown unless you are using<br>****Comm Device 01****</font>","max_bytes":null,"ctx":"key 982"}
+{"id":"13a4d","jah":"e266408a940db1288fa0e3119632f54e","en":"Set the mail account to use.<br>Selecting \"Auto Setup\" will use the mail account of<br>the provider currently in use","max_bytes":null,"ctx":"key 983"}
+{"id":"13b08","jah":"edfe426c4615e1a8d44c8b866740b024","en":"The mail account will be set automatically<br>to that of the provider currently in use","max_bytes":null,"ctx":"key 984"}
+{"id":"13ba9","jah":"5aca39a4bb818e9c5c525987dad5fe24","en":"Use the Sega Provider<br>mail account","max_bytes":null,"ctx":"key 985"}
+{"id":"13c1f","jah":"389c890a64d670ce3133941ec402fdb5","en":"Use the user provider's<br>mail account<br><br><font color=\"#CC0000\">[Note] Cannot be selected if mail is not set up</font>","max_bytes":null,"ctx":"key 986"}
+{"id":"13cf8","jah":"fcf7e1962e41ed3016fbc920c82902ec","en":"Use the BBA provider's<br>mail account<br><br><font color=\"#CC0000\">[Note] Cannot be selected if mail is not set up</font>","max_bytes":null,"ctx":"key 987"}
+{"id":"13dd1","jah":"4c443837d95e90fb52164b889d8b8b92","en":"<font color=\"#CC0000\">Mail account information not set<br>Please select again</font>","max_bytes":null,"ctx":"key 988"}
+{"id":"13e6c","jah":"ee1367c19b51aaa4c08166776d5692f1","en":"<font color=\"#CC0000\">Mail account information not set<br>Cannot select</font>","max_bytes":null,"ctx":"key 989"}
+{"id":"13efe","jah":"6cea7d2f0446d5f6f5ea0806f9ae2328","en":"Set the \"IP Address\"<br><br>If your provider gives no setting, select<br>\"Auto Setup\"","max_bytes":null,"ctx":"key 1000"}
+{"id":"13f89","jah":"fd46755043277c37fa699575d36421f1","en":"Set the \"IP Address\" automatically","max_bytes":null,"ctx":"key 1001"}
+{"id":"13fea","jah":"0cb03127f533c2d8d17dd43b9d1e7dfa","en":"Set the provider's IP address manually<br>Press the A Button to go to the IP Address screen<br><font color=\"#CC0000\">[Note] You cannot proceed until you set the IP address<br>and other details on that screen</font>","max_bytes":null,"ctx":"key 1002"}
+{"id":"140f6","jah":"a1807dd326e495e4568481b20aeabef7","en":"Enter the \"Computer Name\"<br><br><font color=\"#CC0000\">Not required if your provider has no setting</font>","max_bytes":null,"ctx":"key 1003"}
+{"id":"1419c","jah":"8aff9e9d365a08ec9dddb7cd20e53c87","en":"Enter the \"IP Address\"<br><br>Press the X Button to enter \".\"<br>(Y Button on the DP1 software keyboard)","max_bytes":null,"ctx":"key 1004"}
+{"id":"14245","jah":"c14afe3c8f26dbf8b0de52da3fe7c09d","en":"Enter the \"Subnet Mask\"<br><br>Press the X Button to enter \".\"<br>(Y Button on the DP1 software keyboard)","max_bytes":null,"ctx":"key 1005"}
+{"id":"142f6","jah":"bae90dbc360407c4bf6325b9109aca65","en":"Enter the \"Default Gateway\"<br><br>Press the X Button to enter \".\"<br>(Y Button on the DP1 software keyboard)","max_bytes":null,"ctx":"key 1006"}
+{"id":"143b3","jah":"d7adf5a7f6b7fc5380f9e341f10c786a","en":"Enter the \"Primary DNS\"","max_bytes":null,"ctx":"key 1007"}
+{"id":"1440a","jah":"ef452413ddbc958c50a8e066adee8f69","en":"Enter the \"Secondary DNS\"","max_bytes":null,"ctx":"key 1008"}
+{"id":"14486","jah":"bcdea0dba62b37b7983e656eee2d270e","en":"Data downloaded<br>Select \"<font color=\"#0000CC\">Return to Game</FONT>\" from the L Menu<br>to return to the game","max_bytes":null,"ctx":"key 1010"}

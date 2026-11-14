@@ -1,0 +1,82 @@
+---- 8c162ac0-8c162b60
+8c162ac0: mov.l r14,@-r15
+8c162ac2: mov r4,r14
+8c162ac4: mov.l r13,@-r15
+8c162ac6: mov.l r12,@-r15
+8c162ac8: mov #0x0,r12
+8c162aca: mov.l r11,@-r15
+8c162acc: mov.l r10,@-r15
+8c162ace: mov r12,r10
+8c162ad0: mov.l r9,@-r15
+8c162ad2: mov.l r8,@-r15
+8c162ad4: sts.l PR,@-r15
+8c162ad6: mov.l @(0x20,r14),r0
+8c162ad8: mov.l 0x8c162c64,r9
+8c162ada: mov.l 0x8c162c60,r8
+8c162adc: cmp/eq #0x0,r0
+8c162ade: bt/s 0x8c162b0e
+8c162ae0: _mov #0x7f,r11
+8c162ae2: cmp/eq #0x1,r0
+8c162ae4: bf 0x8c162aea
+8c162ae6: bra 0x8c162dd8
+8c162ae8: _nop
+8c162aea: cmp/eq #0x2,r0
+8c162aec: bf 0x8c162af2
+8c162aee: bra 0x8c162cba
+8c162af0: _nop
+8c162af2: cmp/eq #0x3,r0
+8c162af4: bf 0x8c162afa
+8c162af6: bra 0x8c162cf4
+8c162af8: _nop
+8c162afa: cmp/eq #0x4,r0
+8c162afc: bf 0x8c162b02
+8c162afe: bra 0x8c162d7e
+8c162b00: _nop
+8c162b02: cmp/eq #0x5,r0
+8c162b04: bf 0x8c162b0a
+8c162b06: bra 0x8c162da4
+8c162b08: _nop
+8c162b0a: bra 0x8c162dd8
+8c162b0c: _nop
+8c162b0e: mov.l 0x8c162c68,r3
+8c162b10: jsr @r3
+8c162b12: _mov.l @(0x28,r14),r4
+8c162b14: cmp/eq #0x1,r0
+8c162b16: bt 0x8c162b1c
+8c162b18: bra 0x8c162dd8
+8c162b1a: _nop
+8c162b1c: mov.l 0x8c162c6c,r3
+8c162b1e: jsr @r3
+8c162b20: _mov.l @(0x28,r14),r4
+8c162b22: mov.l 0x8c162c74,r2
+8c162b24: mov.l 0x8c162c70,r3
+8c162b26: or r3,r2
+8c162b28: jsr @r2
+8c162b2a: _mov r0,r9
+8c162b2c: jsr @r9
+8c162b2e: _mov.l @(0x2c,r14),r4
+8c162b30: mov r0,r13
+8c162b32: bsr 0x8c1631be
+8c162b34: _mov r9,r4
+8c162b36: mov.b @r13,r2
+8c162b38: extu.b r0,r0
+8c162b3a: extu.b r2,r2
+8c162b3c: cmp/eq r2,r0
+8c162b3e: bt 0x8c162b62
+8c162b40: mov.l 0x8c162c7c,r2
+8c162b42: mov r8,r7
+8c162b44: mov.l 0x8c162c78,r6
+8c162b46: mov #-0x1,r5
+8c162b48: jsr @r2
+8c162b4a: _mov #0x0,r4
+8c162b4c: mov.l r9,@-r15
+8c162b4e: mov.l r13,@-r15
+8c162b50: mov.b @r13,r3
+8c162b52: mov.l 0x8c162c80,r2
+8c162b54: extu.b r3,r3
+8c162b56: mov.l r3,@-r15
+8c162b58: mov.l 0x8c162c58,r3
+8c162b5a: mov.l r2,@-r15
+8c162b5c: jsr @r3
+8c162b5e: _mov #0x0,r4
+8c162b60: add #0x10,r15

@@ -1,0 +1,376 @@
+refit overlays: 38391 records in 76 files
+  A   city     hwpool         1
+  A   city     hwptr       3152
+  A   club     hwptr        368
+  A   jclub    hwptr        622
+  A   nation   hwptr       1566
+  A   nation   ptr            2
+  A   other    hwpool         2
+  A   other    hwptr         17
+  A   other    ptr           47
+  A   person   hwptr         46
+  A   person   orphan         1
+  B   person   hwptr      28524
+  B   person   recarr      4043
+not refit (candidates that could not be placed): 1186
+  by kind hwpool       125
+  by kind hwptr        694
+  by kind interior       2
+  by kind orphan       218
+  by kind ptr          147
+  by reason px                                                              549
+  by reason no room in the pool of its overlay (real build, lowest prior    286
+  by reason no pointer                                                      218
+  by reason cap                                                              77
+  by reason hw pool addressed by index                                       48
+  by reason cannot be relocated                                               6
+  by reason another pointer targets the middle of the string                  2
+
+unfit records (one line per distinct ja / new form / reason; names that only lacked pool room are counted above, not listed):
+  FLOW_PRG/GETREP.BIN#27ad0	J2ﾘｰｸﾞ	'J2' -> 'J2 League'	cap: 10 bytes exceed the field cap 8
+  ATFIRST/TITLE.BIN#34e80	横浜FC	'Yoko.FC' -> 'Yokohama FC'	px: 136 px wide, the widest Japanese string of its table is 72 px (+1 cell allowed)
+  FLOW_PRG/NENREP.BIN#29f44	ﾁｪｺ	'CZE' -> 'Czech Republic'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#29f6c	ﾛｼｱ	'RUS' -> 'Russia'	cap: 7 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#29fd0	ﾄﾙｺ	'TUR' -> 'Turkey'	cap: 7 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#29e34	ｲﾗｸ	'IRQ' -> 'Iraq'	cap: 5 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#29ea0	ﾏｶｵ	'MAC' -> 'Macau'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#29e5c	ｲﾝﾄﾞﾈｼｱ	'Indon.' -> 'Indonesia'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a000	ｱﾙｾﾞﾝﾁﾝ	'Arg.' -> 'Argentina'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a00c	ｺﾛﾝﾋﾞｱ	'Col.' -> 'Colombia'	cap: 9 bytes exceed the field cap 8
+  ATFIRST/TITLE.BIN#350e8	ﾊﾟﾗｸﾞｱｲ	'Parag.' -> 'Paraguay'	px: 98 px wide, the widest Japanese string of its table is 84 px (+1 cell allowed)
+  FLOW_PRG/NENREP.BIN#2a014	ﾊﾟﾗｸﾞｱｲ	'Parag.' -> 'Paraguay'	cap: 9 bytes exceed the field cap 8
+  ATFIRST/TITLE.BIN#35108	ﾍﾞﾈｽﾞｴﾗ	'Venez.' -> 'Venezuela'	px: 106 px wide, the widest Japanese string of its table is 84 px (+1 cell allowed)
+  FLOW_PRG/NENREP.BIN#2a034	ﾍﾞﾈｽﾞｴﾗ	'Venez.' -> 'Venezuela'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29fa4	ｽﾛﾊﾞｷｱ	'Slovak.' -> 'Slovakia'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29f80	ﾌﾞﾙｶﾞﾘｱ	'Bulg.' -> 'Bulgaria'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29f94	ﾎﾟﾙﾄｶﾞﾙ	'Port.' -> 'Portugal'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29e70	ﾏﾚｰｼｱ	'Malay.' -> 'Malaysia'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29e80	ﾀｼﾞｷｽﾀﾝ	'Tajik.' -> 'Tajikistan'	cap: 11 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29e38	ｶｻﾞﾌｽﾀﾝ	'Kazakh.' -> 'Kazakhstan'	cap: 11 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29e40	ﾄﾙｸﾒﾆｽﾀﾝ	'Turkmen' -> 'Turkmenistan'	cap: 13 bytes exceed the field cap 12
+  ATFIRST/TITLE.BIN#34f64	ｷﾙｷﾞｽﾀﾝ	'Kyrgyz' -> 'Kyrgyzstan'	px: 117 px wide, the widest Japanese string of its table is 84 px (+1 cell allowed)
+  FLOW_PRG/NENREP.BIN#29e90	ｷﾙｷﾞｽﾀﾝ	'Kyrgyz' -> 'Kyrgyzstan'	cap: 11 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29ec4	ｶﾒﾙｰﾝ	'Camern.' -> 'Cameroon'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#29eac	ｵｰｽﾄﾗﾘｱ	'Austral' -> 'Australia'	cap: 10 bytes exceed the field cap 8
+  ATFIRST/TITLE.BIN#34fa8	南ｱﾌﾘｶ	'S.Afr.' -> 'South Africa'	px: 92 px wide, the widest Japanese string of its table is 72 px (+1 cell allowed)
+  FLOW_PRG/GAME.BIN#194358	南米	'S.Amer.' -> 'South America'	px: 108 px wide, the widest Japanese string of its table is 48 px (+1 cell allowed)
+  FLOW_PRG/DATAROOM.BIN#5b7c0	南ｱﾒﾘｶｶｯﾌﾟ	'Copa Amer.' -> 'Copa America'	px: 140 px wide, the widest Japanese string of its table is 120 px (+1 cell allowed)
+  FLOW_PRG/NENREP.BIN#2a19c	ｶｲﾛ	'CAI' -> 'Cairo'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a1a4	ｱｸﾗ	'ACC' -> 'Accra'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a1bc	ﾊﾟﾘ	'PAR' -> 'Paris'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a1c0	ﾓﾅｺ	'MON' -> 'Monaco'	cap: 7 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a20c	ﾛｰﾏ	'ROM' -> 'Rome'	cap: 5 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a204	ﾄﾘﾉ	'TRN' -> 'Turin'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a208	ﾐﾗﾉ	'MIL' -> 'Milan'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a2f0	ｱﾃﾈ	'ATH' -> 'Athens'	cap: 7 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a27c	ｵｽﾛ	'OSL' -> 'Oslo'	cap: 5 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a090	ｿｳﾙ	'SEO' -> 'Seoul'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a1a0	ﾙｻｶ	'Lus' -> 'Lusaka'	cap: 7 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a3ec	ｵﾀﾜ	'Ott' -> 'Ottawa'	cap: 7 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a31c	ｷｴﾌ	'Kyv' -> 'Kiev'	cap: 5 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a364	ｻﾝﾁｬｺﾞ	'Stgo' -> 'Santiago'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a360	ﾎﾞｶ	'Boc' -> 'Boca'	cap: 5 bytes exceed the field cap 4
+  FLOW_PRG/NENREP.BIN#2a228	ﾘﾊﾞﾌﾟｰﾙ	"L'pool" -> 'Liverpool'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a1fc	ﾛｯﾃﾙﾀﾞﾑ	"R'dam" -> 'Rotterdam'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a190	ﾖﾊﾈｽﾊﾞｰｸﾞ	'Joburg' -> 'Johannesburg'	cap: 13 bytes exceed the field cap 12
+  FLOW_PRG/NENREP.BIN#2a320	ｻﾝﾊﾟｳﾛ	'S.Paulo' -> 'Sao Paulo'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a354	ﾌﾞｴﾉｽｱｲﾚｽ	'B. Aires' -> 'Buenos Aires'	cap: 13 bytes exceed the field cap 12
+  FLOW_PRG/NENREP.BIN#2a3b8	ﾆｭｰﾖｰｸ	'N.York' -> 'New York'	cap: 9 bytes exceed the field cap 8
+  ATFIRST/TITLE.BIN#353fc	ﾘｵﾃﾞｼﾞｬﾈｲﾛ	'Rio de Jan.' -> 'Rio de Janeiro'	px: 153 px wide, the widest Japanese string of its table is 132 px (+1 cell allowed)
+  FLOW_PRG/NENREP.BIN#2a328	ﾘｵﾃﾞｼﾞｬﾈｲﾛ	'Rio de Jan.' -> 'Rio de Janeiro'	cap: 15 bytes exceed the field cap 12
+  ATFIRST/TITLE.BIN#35408	ﾍﾞﾛｵﾘｿﾞﾝﾃ	'B.Horizonte' -> 'Belo Horizonte'	px: 150 px wide, the widest Japanese string of its table is 132 px (+1 cell allowed)
+  FLOW_PRG/NENREP.BIN#2a334	ﾍﾞﾛｵﾘｿﾞﾝﾃ	'B.Horizonte' -> 'Belo Horizonte'	cap: 15 bytes exceed the field cap 12
+  FLOW_PRG/NENREP.BIN#2a340	ﾎﾟﾙﾄｱﾚｸﾞﾚ	'P. Alegre' -> 'Porto Alegre'	cap: 13 bytes exceed the field cap 12
+  FLOW_PRG/NENREP.BIN#2a3c0	ﾛｻﾝｾﾞﾙｽ	'L.A.' -> 'Los Angeles'	cap: 12 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a3e0	ｻﾝｻﾙﾊﾞﾄﾞﾙ	'S.Salvador' -> 'San Salvador'	cap: 13 bytes exceed the field cap 12
+  FLOW_PRG/NENREP.BIN#2a3d8	ｻﾝﾎｾ	'Sanjose' -> 'San Jose'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a24c	ﾊﾞﾚﾝｼｱ	'Valenci' -> 'Valencia'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a23c	ﾊﾞﾙｾﾛﾅ	'Barca' -> 'Barcelona'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a218	ﾏﾝﾁｪｽﾀｰ	'Manch.' -> 'Manchester'	cap: 11 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a1c4	ﾏﾙｾｲﾕ	'Mars.' -> 'Marseille'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a1cc	ﾄﾞﾙﾄﾑﾝﾄ	'Dortm.' -> 'Dortmund'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a2a4	ﾌﾞﾘｭｯｾﾙ	'Bruss.' -> 'Brussels'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a29c	ｽﾄｯｸﾎﾙﾑ	'Stockh.' -> 'Stockholm'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a280	ﾌﾞｶﾚｽﾄ	'Buch.' -> 'Bucharest'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a178	ｶｻﾌﾞﾗﾝｶ	'Casab.' -> 'Casablanca'	cap: 11 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a168	ｷｬﾝﾍﾞﾗ	'Canb.' -> 'Canberra'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a160	ｶﾄﾏﾝｽﾞ	'Kathm.' -> 'Kathmandu'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a1a8	ﾓﾝﾛﾋﾞｱ	'Monrov.' -> 'Monrovia'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a140	ﾄﾞｼｬﾝﾍﾞ	'Dush.' -> 'Dushanbe'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a12c	ｸｱﾗﾙﾝﾌﾟｰﾙ	'K. Lumpur' -> 'Kuala Lumpur'	cap: 13 bytes exceed the field cap 12
+  FLOW_PRG/NENREP.BIN#2a0e4	ｱﾌﾞﾀﾞﾋﾞ	'A.Dhabi' -> 'Abu Dhabi'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a0cc	ｼｬﾝﾊｲ	'Shangh.' -> 'Shanghai'	cap: 9 bytes exceed the field cap 8
+  ATFIRST/TITLE.BIN#3522c	ｶｵｼｭﾝ	'Kaoh.' -> 'Kaohsiung'	px: 103 px wide, the widest Japanese string of its table is 84 px (+1 cell allowed)
+  FLOW_PRG/NENREP.BIN#2a158	ｶｵｼｭﾝ	'Kaoh.' -> 'Kaohsiung'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a114	ﾋﾟｮﾝﾔﾝ	'Pyong.' -> 'Pyongyang'	cap: 10 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a36c	ﾒﾃﾞｼﾞﾝ	'Medelin' -> 'Medellin'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a3a8	ｱｶﾌﾟﾙｺ	'Acapulc' -> 'Acapulco'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a37c	ｱｽﾝｼｵﾝ	'Asunc.' -> 'Asuncion'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a30c	ﾌﾞﾀﾍﾟｽﾄ	"B'pest" -> 'Budapest'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a314	ﾍﾙｼﾝｷ	"H'sinki" -> 'Helsinki'	cap: 9 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a3c8	ﾜｼﾝﾄﾝ	'Wash.' -> 'Washington'	cap: 11 bytes exceed the field cap 8
+  FLOW_PRG/NENREP.BIN#2a488	ｼｴﾛ	'Cie' -> 'Cielo'	cap: 6 bytes exceed the field cap 4
+  FLOW_PRG/DMCLBEDT.BIN#ae4c4	ﾊﾞﾗｯｷ	'Baracci' -> 'Baracchi'	cannot be relocated: another pointer target (+4) lies inside the slot of 8 bytes
+  FLOW_PRG/DMCLBEDT.BIN#b00b8	ﾑﾜｶﾘﾝﾊﾞ	'Mwakamb' -> 'Mwakalimba'	cannot be relocated: another pointer target (+7) lies inside the slot of 8 bytes
+  FLOW_PRG/FREELOAD.BIN#6b28c	ﾍﾙﾅﾝﾃﾞｽ	'Hernanz' -> 'Hernandez'	cannot be relocated: another pointer target (+1) lies inside the slot of 8 bytes
+  FLOW_PRG/FREELOAD.BIN#6bc90	ﾑﾜﾌﾘﾙﾜ	'Mwafrwa' -> 'Mwafirwa'	cannot be relocated: 1 pointer word(s) found, record says 2
+  FLOW_PRG/SONGSAVE.BIN#6a188	ﾊﾞｽｱﾙﾄﾞ	'Basuldo' -> 'Basualdo'	cannot be relocated: another pointer target (+5) lies inside the slot of 8 bytes
+  FLOW_PRG/SONGSAVE.BIN#6c984	ﾘｷｼｮﾝ	'K. Lee' -> 'Kishon Lee'	cannot be relocated: another pointer target (+4) lies inside the slot of 8 bytes
+  ATFIRST/TITLE.BIN#35450	ｱｽﾝｼｵﾝ	'Asunc.' -> 'Asuncion'	no room in the pool of its overlay (real build, lowest priority first)
+  ATFIRST/TITLE.BIN#353e0	ﾌﾞﾀﾍﾟｽﾄ	"B'pest" -> 'Budapest'	no room in the pool of its overlay (real build, lowest priority first)
+  ATFIRST/TITLE.BIN#353e8	ﾍﾙｼﾝｷ	"H'sinki" -> 'Helsinki'	no room in the pool of its overlay (real build, lowest priority first)
+  ATFIRST/TITLE.BIN#3549c	ﾜｼﾝﾄﾝ	'Wash.' -> 'Washington'	no room in the pool of its overlay (real build, lowest priority first)
+  ETC_DATA/BPINFO.BIN#2946c	ﾎｧﾝ ﾁｩｼｪﾝ 	'Huang Z.' -> 'Chiushen Hoan'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#29a2c	ﾘｬｵ ｼｬﾝﾀｵ	'Liao X.' -> 'Shantao Ryao'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#3972c	ﾚｲﾓﾝﾄﾞｳｫﾝ R	'Raymond Won' -> 'Raymond Wong'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#43380	ﾊﾟｸ ﾁｬﾝｿｸ	'Park C.' -> 'Chansoku Pak'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#43494	ｲ ｶﾞﾝﾁｮﾝ	'Lee G.' -> 'Ganchon I'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#43c7c	ﾁｬﾝ ﾖﾝｷｭﾝ	'Jang Y.' -> 'Yonkyun Chan'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#43d34	ﾑﾝ ｽﾝｳｸ	'Moon S.' -> 'Sunuku Mun'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#443ac	ｲ ﾁｬﾝﾄﾞﾝ	'Lee C.' -> 'Chandon I'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#44b94	ﾁｬﾝ ﾄﾞﾝｺﾞﾝ	'Chang D.' -> 'Dongon Chan'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#44f88	ﾁｮﾝ ﾁｬﾝﾌｧ	'Jeong C.' -> 'Chanfa Chon'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#4bc10	ﾋﾟｭﾝ ｼﾞｽｸ	'Jisuk Byun' -> 'Jisuku Pyun'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#4c060	ｼﾑ ｻﾝﾋﾟﾙ	'Sanpil Shim' -> 'Sanpiru Shimu'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#4c0bc	ｲﾑ ﾁｬﾝﾋｰ	'Chanhi Im' -> 'Chanhi Imu'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#4c118	ﾊﾞﾝ ｽｸﾎｰ	'Sukho Ban' -> 'Sukuho Ban'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#59d08	ﾁｪﾝ ｿﾝﾖﾝ	'Chen S.' -> 'Sonyon Chen'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#5a494	ﾁﾝ ｼｬｵﾛﾝ	'Chin S.' -> 'Shaoron Chin'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  ETC_DATA/BPINFO.BIN#5a4f0	ﾔﾝ ﾎｪｲｼｬﾝ	'Yang H.' -> 'Hoeishan Yan'	no pointer: addressed by index / computed offset (stride table), slot 14 bytes
+  FLOW_PRG/AUTOSAVE.BIN#6a18c	八戸市	'Hachin.' -> 'Hachinohe'	another pointer targets the middle of the string: it cannot move, slot 8 bytes
+  FLOW_PRG/EVENT.BIN#e0ffc	奥尻郡	'Okushi.' -> 'Okushiri'	another pointer targets the middle of the string: it cannot move, slot 8 bytes
+  FLOW_PRG/EVENT.BIN#e75c8	Jﾘｰｸﾞﾃﾞｨﾋﾞｼﾞｮﾝ2	'J.Lge Div. 2' -> 'J.League Division 2'	hw pool addressed by index: in place only, slot 16 bytes
+  FLOW_PRG/EVENT.BIN#e75e4	Jﾘｰｸﾞﾁｬﾝﾋﾟｵﾝｼｯﾌﾟ	'J.League Champ.' -> 'J.League Championship'	hw pool addressed by index: in place only, slot 20 bytes
+  FLOW_PRG/EVENT.BIN#e7604	Jﾘｰｸﾞｵｰﾙｽﾀｰ	'J.League XI' -> 'J.League All-Stars'	hw pool addressed by index: in place only, slot 12 bytes
+  FLOW_PRG/NENREP.BIN#24454	ﾆｭｰｲﾔｰｶｯﾌﾟ	'New Yr Cup' -> 'New Year Cup'	hw pool addressed by index: in place only, slot 12 bytes
+  FLOW_PRG/NENREP.BIN#2449c	ﾌﾟﾗﾁﾅﾘｰｸﾞ	'Platinum Lg' -> 'Platinum League'	hw pool addressed by index: in place only, slot 12 bytes
+  FLOW_PRG/NENREP.BIN#244a8	ｸﾞﾚｰﾄｸﾗﾌﾞｶｯﾌﾟ予選	'Gr. Club Cup Qual.' -> 'Great Club Cup Qualifiers'	hw pool addressed by index: in place only, slot 20 bytes
+  FLOW_PRG/NENREP.BIN#244cc	ｱｼﾞｱﾄｰﾅﾒﾝﾄ	'Asia Tourn.' -> 'Asia Tournament'	hw pool addressed by index: in place only, slot 12 bytes
+  FLOW_PRG/NENREP.BIN#244d8	世界ｸﾗﾌﾞﾄｰﾅﾒﾝﾄ	'World Club Cup' -> 'World Club Tournament'	hw pool addressed by index: in place only, slot 16 bytes
+  FLOW_PRG/NENREP.BIN#24500	ﾜｰﾙﾄﾞﾁｬﾚﾝｼﾞｶｯﾌﾟ	'World Chal. Cup' -> 'World Challenge Cup'	hw pool addressed by index: in place only, slot 16 bytes
+  FLOW_PRG/NENREP.BIN#24510	ﾜｰﾙﾄﾞﾁｬﾝﾋﾟｵﾝｽﾞﾘｰｸﾞ	'World Champs League' -> 'World Champions League'	hw pool addressed by index: in place only, slot 20 bytes
+  FLOW_PRG/NENREP.BIN#2453c	ﾌﾚﾝﾄﾞﾘｰﾏｯﾁ	'Friendly' -> 'Friendly Match'	hw pool addressed by index: in place only, slot 12 bytes
+  FLOW_PRG/NENREP.BIN#24548	ｱｼﾞｱﾁｬﾚﾝｼﾞｶｯﾌﾟ	'Asia Chal. Cup' -> 'Asia Challenge Cup'	hw pool addressed by index: in place only, slot 16 bytes
+  FLOW_PRG/NENREP.BIN#24558	ｲﾝﾀｰﾅｼｮﾅﾙｶｯﾌﾟ予選	'Intl Cup Qualifiers' -> 'International Cup Qualifiers'	hw pool addressed by index: in place only, slot 20 bytes
+  FLOW_PRG/NENREP.BIN#2457c	欧州ﾁｬﾚﾝｼﾞﾘｰｸﾞ	'Euro Challenge' -> 'Europe Challenge League'	hw pool addressed by index: in place only, slot 16 bytes
+  FLOW_PRG/NENREP.BIN#24604	ﾌﾟﾚｼｰｽﾞﾝﾏｯﾁ	'Preseason' -> 'Preseason Match'	hw pool addressed by index: in place only, slot 12 bytes
+  FLOW_PRG/NENREP.BIN#29ccc	ﾚｯｽﾞ	'Reds' -> 'Red Diamonds'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29cd4	ｼﾞｪﾌ	'JEF' -> 'JEF United'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29cf4	ﾍﾞﾙﾏｰﾚ	'Belmare' -> 'Bellmare'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29d30	ｳﾞｨｯｾﾙ	'Vissel' -> 'Vissel Kobe'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29d38	ｻﾝﾌﾚｯﾁｪ	'Sanfrec' -> 'Sanfrecce'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29d48	ｺﾝｻﾄﾞｰﾚ	'Consado' -> 'Consadole'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29d58	ﾓﾝﾃﾃﾞｨｵ	'Montedo' -> 'Montedio'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29d74	ﾌﾛﾝﾀｰﾚ	'Frontal' -> 'Frontale'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29d94	ｻｶﾞﾝ	'Sagan' -> 'Sagan Tosu'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29da4	ﾎｰﾘｰﾎｯｸ	'Holyhok' -> 'Hollyhock'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#29ed4	南ｱﾌﾘｶ	'S.Afr.' -> 'South Africa'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a408	ｱｳﾞｧﾗﾝﾁ	'Avalanc' -> 'Avalanche'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a418	ﾓﾉﾘｽ	'Monolit' -> 'Monolith'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a464	ﾄｯﾎﾟﾘｰﾉ	'Topolin' -> 'Topolino'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a48c	ｺﾙﾐｰｼﾞｮ	'Colmill' -> 'Colmillo'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a494	ｺﾘｴﾝﾃ	'Corrien' -> 'Corriente'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a4b8	ｴﾚﾝｼｱ	'Herenci' -> 'Herencia'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a4f0	ﾊﾟﾝﾃｰﾗ	'Panther' -> 'Panthera'	hw pool addressed by index: in place only, slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a500	ﾛｯｻ	'Ros' -> 'Rosa'	hw pool addressed by index: in place only, slot 4 bytes
+  FLOW_PRG/NENREP.BIN#2a5dc	旭川市	'Asahik.' -> 'Asahikawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a5e4	芦別市	'Ashibe.' -> 'Ashibetsu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a5fc	網走市	'Abashi.' -> 'Abashiri'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a61c	石狩市	'Ishika.' -> 'Ishikari'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a638	歌志内	'Utashi.' -> 'Utashinai'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a648	浦河郡	'Uraka.' -> 'Urakawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a668	奥尻郡	'Okushi.' -> 'Okushiri'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a6a8	川上郡	'Kawaka.' -> 'Kawakami'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a6b0	上川郡	'Kamika.' -> 'Kamikawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a6c8	北広島市	'Kitahiro.' -> 'N. Hiroshima'	no pointer: addressed by index / computed offset (stride table), slot 12 bytes
+  FLOW_PRG/NENREP.BIN#2a6fc	静内郡	'Shizun.' -> 'Shizunai'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a704	士別市	'Shibet.' -> 'Shibetsu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a724	白糠郡	'Shiran.' -> 'Shiranuka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a72c	砂川市	'Sunaga.' -> 'Sunagawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a744	滝川市	'Takika.' -> 'Takikawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a790	中川郡	'Nakaga.' -> 'Nakagawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a798	新冠郡	'Niikap.' -> 'Niikappu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a7b8	登別市	'Nobori.' -> 'Noboribetsu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a7c0	函館市	'Hakoda.' -> 'Hakodate'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a7e0	深川市	'Fukaga.' -> 'Fukagawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a7f4	松前郡	'Matsum.' -> 'Matsumae'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a80c	紋別市	'Monbet.' -> 'Monbetsu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a81c	山越郡	'Yamako.' -> 'Yamakoshi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a854	稚内市	'Wakkan.' -> 'Wakkanai'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a864	上北郡	'Kami-K.' -> 'Kamikita'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a878	黒石市	'Kuroi.' -> 'Kuroishi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a894	下北郡	'Shimok.' -> 'Shimokita'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a8c0	八戸市	'Hachin.' -> 'Hachinohe'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a8d4	弘前市	'Hirosa.' -> 'Hirosaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a900	一関市	'Ichino.' -> 'Ichinoseki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a924	釜石市	'Kamais.' -> 'Kamaishi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a938	北上市	'Kitaka.' -> 'Kitakami'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a990	花巻市	'Hanama.' -> 'Hanamaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a9ac	水沢市	'Mizusa.' -> 'Mizusawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2a9e0	石巻市	'Ishino.' -> 'Ishinomaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aa10	栗原郡	'Kuriha.' -> 'Kurihara'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aa18	黒川郡	'Kuroka.' -> 'Kurokawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aa2c	塩釜市	'Shioga.' -> 'Shiogama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aa44	白石市	'Shiroi.' -> 'Shiroishi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aa60	玉造郡	'Tamats.' -> 'Tamatsukuri'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aa80	古川市	'Furuka.' -> 'Furukawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aa90	本吉郡	'Motoyo.' -> 'Motoyoshi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ab18	山本郡	'Yamamo.' -> 'Yamamoto'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ab4c	上山市	'Kamino.' -> 'Kaminoyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ab7c	鶴岡市	'Tsuruo.' -> 'Tsuruoka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2abd8	東根市	'Higash.' -> 'Higashine'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2abec	村山市	'Muraya.' -> 'Murayama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2abfc	山形市	'Yamaga.' -> 'Yamagata'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ac04	米沢市	'Yoneza.' -> 'Yonezawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ac44	河沼郡	'Kawanu.' -> 'Kawanuma'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ac64	郡山市	'Koriya.' -> 'Koriyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ac6c	白河市	'Shirak.' -> 'Shirakawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2acb8	原町市	'Harama.' -> 'Haramachi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2accc	福島市	'Fukush.' -> 'Fukushima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ad00	稲敷郡	'Inashi.' -> 'Inashiki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ad60	下館市	'Shimod.' -> 'Shimodate'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ad68	下妻市	'Shimot.' -> 'Shimotsuma'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ad78	高萩市	'Takaha.' -> 'Takahagi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ad94	土浦市	'Tsuchi.' -> 'Tsuchiura'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2adac	行方郡	'Namek.' -> 'Namegata'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ae30	足利市	'Ashika.' -> 'Ashikaga'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aed8	吾妻郡	'Agatsu.' -> 'Agatsuma'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2af38	渋川市	'Shibuk.' -> 'Shibukawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2af48	高崎市	'Takasa.' -> 'Takasaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2af50	館林市	'Tateba.' -> 'Tatebayashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2af88	前橋市	'Maebas.' -> 'Maebashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2afb8	岩槻市	'Iwatsu.' -> 'Iwatsuki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2aff0	川口市	'Kawagu.' -> 'Kawaguchi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b024	北本市	'Kitamo.' -> 'Kitamoto'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b03c	熊谷市	'Kumaga.' -> 'Kumagaya'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b04c	越谷市	'Koshig.' -> 'Koshigaya'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b090	秩父市	'Chichi.' -> 'Chichibu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b0a0	鶴ヶ島市	'Tsurugasima' -> 'Tsurugashima'	no pointer: addressed by index / computed offset (stride table), slot 12 bytes
+  FLOW_PRG/NENREP.BIN#2b0ac	所沢市	'Tokoro.' -> 'Tokorozawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b13c	吉川市	'Yoshik.' -> 'Yoshikawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b178	市川市	'Ichika.' -> 'Ichikawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b180	市原市	'Ichiha.' -> 'Ichihara'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b1b0	勝浦市	'Katsur.' -> 'Katsuura'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b1cc	鴨川市	'Kamoga.' -> 'Kamogawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b21c	館山市	'Tateya.' -> 'Tateyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b244	流山市	'Nagare.' -> 'Nagareyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b27c	船橋市	'Funaba.' -> 'Funabashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b294	八街市	'Yachim.' -> 'Yachimata'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b2c0	昭島市	'Akishi.' -> 'Akishima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b2e4	板橋区	'Itabas.' -> 'Itabashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b310	葛飾区	'Katsus.' -> 'Katsushika'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b328	国立市	'Kunita.' -> 'Kunitachi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b360	品川区	'Shinag.' -> 'Shinagawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b370	新宿区	'Shinju.' -> 'Shinjuku'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b378	杉並区	'Sugina.' -> 'Suginami'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b39c	立川市	'Tachik.' -> 'Tachikawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b4dc	鎌倉市	'Kamaku.' -> 'Kamakura'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b4e4	川崎市	'Kawasa.' -> 'Kawasaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b538	平塚市	'Hirats.' -> 'Hiratsuka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b540	藤沢市	'Fujisa.' -> 'Fujisawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b578	横浜市	'Yokoha.' -> 'Yokohama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b690	豊栄市	'Toysaka' -> 'Toyosaka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b724	村上市	'Murkami' -> 'Murakami'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b79c	滑川市	'Namrkwa' -> 'Namerikawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b7dc	金沢市	'Kanzawa' -> 'Kanazawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b874	勝山市	'Katsyma' -> 'Katsuyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b914	韮崎市	'Nirsaki' -> 'Nirasaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2b934	富士吉田市	'Fujiyshida' -> 'Fujiyoshida'	no pointer: addressed by index / computed offset (stride table), slot 12 bytes
+  FLOW_PRG/NENREP.BIN#2b9f8	更級郡	'Sarshna' -> 'Sarashina'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ba44	小県郡	'Chiisa.' -> 'Chiisagata'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ba64	埴科郡	'Hanish.' -> 'Hanishina'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ba78	松本市	'Matsum.' -> 'Matsumoto'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bac8	各務原市	'Kakamig.' -> 'Kagamigahara'	no pointer: addressed by index / computed offset (stride table), slot 12 bytes
+  FLOW_PRG/NENREP.BIN#2bb04	高山市	'Takaya.' -> 'Takayama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bb54	瑞浪市	'Mizun.' -> 'Mizunami'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bbf8	掛川市	'Kakega.' -> 'Kakegawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bc10	菊川町	'Kikuga.' -> 'Kikugawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bc2c	静岡市	'Shizuo.' -> 'Shizuoka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bc7c	長泉町	'Nagaiz.' -> 'Nagaizumi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bc9c	浜北市	'Hamaki.' -> 'Hamakita'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bca4	浜松市	'Hamama.' -> 'Hamamatsu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bd40	一宮市	'Ichino.' -> 'Ichinomiya'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bd7c	蒲郡市	'Gamago.' -> 'Gamagori'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bdb4	新城市	'Shinsh.' -> 'Shinshiro'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bdc4	高浜市	'Takaha.' -> 'Takahama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bde4	津島市	'Tsushi.' -> 'Tsushima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bdf4	常滑市	'Tokona.' -> 'Tokoname'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2be04	豊川市	'Toyoka.' -> 'Toyokawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2be14	豊橋市	'Toyoha.' -> 'Toyohashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2be1c	中島郡	'Nakaji.' -> 'Nakashima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bef0	亀山市	'Kameya.' -> 'Kameyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bf64	松阪市	'Matsus.' -> 'Matsusaka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bff0	高島郡	'Takash.' -> 'Takashima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2bff8	長浜市	'Nagaha.' -> 'Nagahama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c014	守山市	'Moriya.' -> 'Moriyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c14c	柏原市	'Kashiw.' -> 'Kashiwara'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c1b0	高石市	'Takais.' -> 'Takaishi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c1c0	高槻市	'Takats.' -> 'Takatsuki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c1c8	豊中市	'Toyona.' -> 'Toyonaka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c1d8	富田林市	'Tondabay.' -> 'Tondabayashi'	no pointer: addressed by index / computed offset (stride table), slot 12 bytes
+  FLOW_PRG/NENREP.BIN#2c210	枚方市	'Hiraka.' -> 'Hirakata'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c224	松原市	'Matsub.' -> 'Matsubara'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c240	守口市	'Morigu.' -> 'Moriguchi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c280	尼崎市	'Amagas.' -> 'Amagasaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c2cc	川西市	'Kawani.' -> 'Kawanishi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c2dc	城崎郡	'Kinosa.' -> 'Kinosaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c2ec	篠山市	'Sasaya.' -> 'Sasayama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c324	高砂市	'Takasa.' -> 'Takasago'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c32c	宝塚市	'Takara.' -> 'Takarazuka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c354	西宮市	'Nishin.' -> 'Nishinomiya'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c35c	西脇市	'Nishiw.' -> 'Nishiwaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c3bc	橿原市	'Kashih.' -> 'Kashihara'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c3f8	高市郡	'Takaic.' -> 'Takaichi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c48c	橋本市	'Hashim.' -> 'Hashimoto'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c4bc	倉吉市	'Kurayo.' -> 'Kurayoshi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c4c4	気高郡	'Keta' -> 'Ketaka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c4d4	境港市	'Sakaim.' -> 'Sakaiminato'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c534	鹿足郡	'Kanoas.' -> 'Kanoashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c5ac	浅口郡	'Asakuc.' -> 'Asakuchi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c5fc	倉敷市	'Kurash.' -> 'Kurashiki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c60c	後月郡	'Shitsu.' -> 'Shitsuki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c624	高梁市	'Takaha.' -> 'Takahashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c67c	因島市	'Innosh.' -> 'Innoshima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c68c	尾道市	'Onomic.' -> 'Onomichi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c6c4	竹原市	'Takeha.' -> 'Takehara'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c6dc	沼隈郡	'Numaku.' -> 'Numakuma'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c6fc	広島市	'Hirosh.' -> 'Hiroshima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c714	深安郡	'Fukaya.' -> 'Fukayasu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c71c	福山市	'Fukuya.' -> 'Fukuyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c780	下松市	'Kudama.' -> 'Kudamatsu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c790	下関市	'Shimon.' -> 'Shimonoseki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c7ac	徳山市	'Tokuya.' -> 'Tokuyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c7f4	山口市	'Yamagu.' -> 'Yamaguchi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c82c	小松島市	'Komatsush.' -> 'Komatsushima'	no pointer: addressed by index / computed offset (stride table), slot 12 bytes
+  FLOW_PRG/NENREP.BIN#2c838	徳島市	'Tokush.' -> 'Tokushima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c8b0	高松市	'Takama.' -> 'Takamatsu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c8c4	丸亀市	'Maruga.' -> 'Marugame'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2c994	松山市	'Matsuy.' -> 'Matsuyama'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ca08	中村市	'Nakamu.' -> 'Nakamura'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ca48	糸島郡	'Itoshi.' -> 'Itoshima'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2caec	筑紫郡	'Chikus.' -> 'Chikushi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cb50	宗像市	'Munaka.' -> 'Munakata'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cb60	柳川市	'Yanaga.' -> 'Yanagawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cb88	行橋市	'Yukuha.' -> 'Yukuhashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cc5c	島原市	'Shimab.' -> 'Shimabara'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cc6c	長崎市	'Nagasa.' -> 'Nagasaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cc9c	松浦市	'Matsur.' -> 'Matsuura'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ccbc	葦北郡	'Ashiki.' -> 'Ashikita'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ccdc	牛深市	'Ushibu.' -> 'Ushibuka'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cd20	熊本市	'Kumamo.' -> 'Kumamoto'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cd44	人吉市	'Hitoyo.' -> 'Hitoyoshi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cd54	水俣市	'Minama.' -> 'Minamata'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cd5c	八代市	'Yatsus.' -> 'Yatsushiro'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ce64	小林市	'Kobaya.' -> 'Kobayashi'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ce8c	日南市	'Nichin.' -> 'Nichinan'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cec8	都城市	'Miyak-j' -> 'Miyakonojo'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2ced0	宮崎市	'Miyaza.' -> 'Miyazaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cf50	肝属郡	'Kimots.' -> 'Kimotsuki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cf84	垂水市	'Tarum.' -> 'Tarumizu'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cf94	西之表市	'Nishinomote' -> 'Nishinoomote'	no pointer: addressed by index / computed offset (stride table), slot 12 bytes
+  FLOW_PRG/NENREP.BIN#2cfa8	枕崎市	'Makura.' -> 'Makurazaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cfc0	石垣市	'Ishiga.' -> 'Ishigaki'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2cfc8	石川市	'Ishika.' -> 'Ishikawa'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2d00c	国頭郡	'Kunig.' -> 'Kunigami'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2d01c	中頭郡	'Nakag.' -> 'Nakagami'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes
+  FLOW_PRG/NENREP.BIN#2d0c0	和泊町	'Wadoma.' -> 'Wadomari'	no pointer: addressed by index / computed offset (stride table), slot 8 bytes

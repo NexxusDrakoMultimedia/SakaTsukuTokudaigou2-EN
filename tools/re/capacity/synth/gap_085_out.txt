@@ -1,0 +1,2 @@
+scale 0.85: pipeline failed 7410, planner (same English) 7409
+  differs: FLOW_PRG/NEWS_OP.BIN pipeline 21 planner 20 (of 319 strings)

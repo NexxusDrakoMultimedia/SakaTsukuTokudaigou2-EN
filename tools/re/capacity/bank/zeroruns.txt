@@ -1,0 +1,19 @@
+zero run 8c1196a0-8c11cb3a len  13466 | zero bytes in dumps [13466, 13466, 13466, 13466] | literal refs 1 from 1 sources ['1ST_READ.BIN']
+zero run 8c1289e8-8c12cb25 len  16701 | zero bytes in dumps [16701, 16701, 16701, 16701] | literal refs 2 from 2 sources ['1ST_READ.BIN', 'FLOW_PRG/SECBND.BIN']
+zero run 8c13bae0-8c159000 len 120096 | zero bytes in dumps [120096, 120096, 120096, 120096] | literal refs 11 from 5 sources ['1ST_READ.BIN', 'FLOW_PRG/ABROAD.BIN', 'FLOW_PRG/EVENT.BIN']
+zero run 8c16eebb-8c2a0000 len 1249605 | zero bytes in dumps [1215091, 1215022, 1195548, 1186712] | literal refs 10882 from 93 sources ['1ST_READ.BIN', 'ATFIRST/HELP.BIN', 'ATFIRST/TITLE.BIN']
+
+8c1196a0-8c11cb3a: word 8c11cb04 in 1ST_READ.BIN @0x92f40
+8c1289e8-8c12cb25: word 8c12cb24 in 1ST_READ.BIN @0x92f2c
+8c1289e8-8c12cb25: word 8c128cf1 in FLOW_PRG/SECBND.BIN @0x12df64
+8c13bae0-8c159000: word 8c13bae0 in 1ST_READ.BIN @0xfdbf4
+8c13bae0-8c159000: word 8c13bae0 in 1ST_READ.BIN @0xfdbf8
+8c13bae0-8c159000: word 8c13bae0 in 1ST_READ.BIN @0xfdbfc
+8c13bae0-8c159000: word 8c13bae0 in 1ST_READ.BIN @0xfdc00
+8c13bae0-8c159000: word 8c15016e in FLOW_PRG/ABROAD.BIN @0x3cc90
+8c13bae0-8c159000: word 8c15016e in FLOW_PRG/EVENT.BIN @0xf82bc
+8c13bae0-8c159000: word 8c146330 in FLOW_PRG/GAME.BIN @0x172db4
+8c13bae0-8c159000: word 8c156350 in FLOW_PRG/GAME.BIN @0x172db8
+8c13bae0-8c159000: word 8c1520f0 in FLOW_PRG/GAME.BIN @0x1971a0
+8c13bae0-8c159000: word 8c14c76f in FLOW_PRG/SEARCH.BIN @0x2db54
+8c13bae0-8c159000: word 8c15016e in FLOW_PRG/SEARCH.BIN @0x42238

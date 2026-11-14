@@ -1,0 +1,128 @@
+{
+ "texture": "07308 FLOW_PRG/ESTABLIS.BIN @1ee08#0",
+ "size": [
+  256,
+  64
+ ],
+ "supersample": 4,
+ "quantize": "argb4444",
+ "styles": {
+  "y": {
+   "font": [
+    "arial-narrow-bold",
+    "bahnschrift",
+    "arial-bold"
+   ],
+   "fill": "#efff42",
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  }
+ },
+ "regions": [
+  {
+   "id": "oku",
+   "ja": "億",
+   "text": "oku",
+   "style": "y",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 30,
+   "size": 18,
+   "min_sx": 0.4,
+   "align": "center",
+   "erase": {
+    "mode": "clear"
+   }
+  },
+  {
+   "id": "man",
+   "ja": "万円",
+   "text": "man",
+   "style": "y",
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "x": 168,
+   "y": 3,
+   "w": 70,
+   "h": 29,
+   "size": "auto",
+   "max_size": 20,
+   "align": "right",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "color": [
+       238,
+       255,
+       68
+      ],
+      "tol": 70
+     },
+     {
+      "luma_lt": 105,
+      "sat_gt": 0.3
+     }
+    ],
+    "dilate": 1,
+    "fill": "hfill"
+   }
+  }
+ ],
+ "post": {
+  "clear": [
+   [
+    160,
+    0,
+    90,
+    8
+   ]
+  ],
+  "edge": [
+   160,
+   8,
+   23,
+   185,
+   170,
+   190
+  ]
+ },
+ "polyfill": {
+  "y0": 8,
+  "y1": 23,
+  "e0": 185,
+  "e1": 170,
+  "xstart": 185,
+  "xend": 237,
+  "body": [
+   102,
+   119,
+   187
+  ],
+  "edge": [
+   [
+    204,
+    204,
+    238
+   ],
+   [
+    170,
+    187,
+    221
+   ]
+  ],
+  "top": [
+   136,
+   136,
+   204
+  ]
+ }
+}

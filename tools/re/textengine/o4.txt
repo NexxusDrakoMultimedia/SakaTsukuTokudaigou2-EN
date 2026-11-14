@@ -1,0 +1,82 @@
+---- 8c2de294-8c2de334
+8c2de294: mov.l r14,@-r15
+8c2de296: mov.l r13,@-r15
+8c2de298: mov.l r12,@-r15
+8c2de29a: mov.l r11,@-r15
+8c2de29c: mov.l r10,@-r15
+8c2de29e: mov.l r9,@-r15
+8c2de2a0: mov.l r8,@-r15
+8c2de2a2: fmov.s fr15,@-r15
+8c2de2a4: sts.l PR,@-r15
+8c2de2a6: add #-0x40,r15
+8c2de2a8: mov #0x30,r0
+8c2de2aa: fldi1 fr3
+8c2de2ac: mov r4,r3
+8c2de2ae: mov r4,r14
+8c2de2b0: add #0x54,r3
+8c2de2b2: mov r14,r4
+8c2de2b4: mov.l r3,@(0x38,r15)
+8c2de2b6: mov #0x0,r13
+8c2de2b8: fmov fr3,@(r0,r15)
+8c2de2ba: mov #0x2c,r0
+8c2de2bc: fmov fr3,@(r0,r15)
+8c2de2be: mov #0x4a,r0
+8c2de2c0: mov.w @(r0,r14),r10
+8c2de2c2: mov #0x4c,r0
+8c2de2c4: mov.l 0x8c2de328,r3
+8c2de2c6: mov r13,r11
+8c2de2c8: mov.w @(r0,r14),r8
+8c2de2ca: jsr @r3
+8c2de2cc: _add #0x54,r4
+8c2de2ce: mov.l 0x8c2de32c,r9
+8c2de2d0: mova 0x8c2de330,r0
+8c2de2d2: mov.l r13,@r15
+8c2de2d4: mov.l r13,@(0x4,r15)
+8c2de2d6: bra 0x8c2de4b0
+8c2de2d8: _fmov.s @r0,fr15
+8c2de2da: mov.l @(0x4,r15),r12
+8c2de2dc: mov.l @(0x30,r14),r0
+8c2de2de: shll r12
+8c2de2e0: mov.w 0x8c2de30e,r2
+8c2de2e2: mov.w @(r0,r12),r12
+8c2de2e4: extu.w r12,r3
+8c2de2e6: tst r2,r3
+8c2de2e8: bt 0x8c2de334
+8c2de2ea: mov.w 0x8c2de310,r3
+8c2de2ec: extu.w r12,r0
+8c2de2ee: cmp/eq r3,r0
+8c2de2f0: bt 0x8c2de334
+8c2de2f2: mov.w 0x8c2de312,r1
+8c2de2f4: extu.w r12,r12
+8c2de2f6: cmp/eq r1,r12
+8c2de2f8: bt 0x8c2de2fe
+8c2de2fa: bra 0x8c2de4aa
+8c2de2fc: _nop
+8c2de2fe: mov #0x4a,r0
+8c2de300: mov.w @(r0,r14),r10
+8c2de302: mov #0x3f,r0
+8c2de304: mov.b @(r0,r14),r3
+8c2de306: add r3,r8
+8c2de308: bra 0x8c2de4aa
+8c2de30a: _mov r13,r11
+8c2de30c: .data undefined2 023Ch
+8c2de30e: .data undefined2 2000h
+8c2de310: .data undefined2 2020h
+8c2de312: .data undefined2 200Ah
+8c2de314: .data undefined4 8C3DEADCh
+8c2de316: .data ?
+8c2de318: .data undefined4 8C3DEEDCh
+8c2de31a: .data ?
+8c2de31c: .data undefined4 8C159000h
+8c2de31e: .data ?
+8c2de320: .data addr 8c374a68
+8c2de322: .data ?
+8c2de324: .data undefined4 8C0111B4h
+8c2de326: .data ?
+8c2de328: .data undefined4 8C029FF8h
+8c2de32a: .data ?
+8c2de32c: .data undefined4 00008000h
+8c2de32e: .data ?
+8c2de330: .data undefined4 437F0000h
+8c2de332: .data ?
+8c2de334: mov r11,r4

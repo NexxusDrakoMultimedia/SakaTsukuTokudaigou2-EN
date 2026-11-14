@@ -1,0 +1,76 @@
+{"l10n":1,"kind":"main","style":"compact","n":75,"final_newline":true,"src":"FLOW_PRG/FLOW6.BIN"}
+{"id":"29dc","jah":"5ef0ec4e3f10eeee3e12fbdc87a77000","max_bytes":12,"refs":1,"ctx":"ptr@2684"}
+{"id":"29e8","jah":"82ed7612f1d12bc73c04a0520c78ea91","max_bytes":12,"refs":1,"ctx":"ptr@268c"}
+{"id":"29f4","jah":"1478acae68e5d45a6fbbf20fe60e0ad5","max_bytes":12,"refs":1,"ctx":"ptr@2694"}
+{"id":"2a00","jah":"2d01f1ae3d6087525711cf35d9a2eca7","max_bytes":12,"refs":1,"ctx":"ptr@269c"}
+{"id":"2a0c","jah":"83f6d663d2ecd648f5c1ea26ed0412d7","max_bytes":12,"refs":1,"ctx":"ptr@26a4"}
+{"id":"2a18","jah":"9eb894e8a3c67ca3f158664dac942d8c","max_bytes":12,"refs":1,"ctx":"ptr@26ac"}
+{"id":"2a24","jah":"27a3512b4058f8ba4f8ef0ec34d56c40","max_bytes":12,"refs":1,"ctx":"ptr@26b4"}
+{"id":"2a30","jah":"156fccb40eddf6b0904500e44595b050","max_bytes":12,"refs":1,"ctx":"ptr@26bc"}
+{"id":"2a3c","jah":"f564de9d3eeab116e6ae42c62275b229","max_bytes":12,"refs":1,"ctx":"ptr@26c4"}
+{"id":"2a48","jah":"3a131e3dc4441c5da07066b4894f4c10","max_bytes":12,"refs":1,"ctx":"ptr@26cc"}
+{"id":"2a54","jah":"32b9af2631efe984ab5aa3df0e3d7b75","max_bytes":12,"refs":1,"ctx":"ptr@26d4"}
+{"id":"2a60","jah":"7fd3de47d44c0c7a698e0efc8a21eccf","en":"Licence Screen","max_bytes":20,"refs":1,"ctx":"ptr@26dc"}
+{"id":"2a74","jah":"4c62e25ffc6966220ce215ccd8cb7522","en":"Main Title Screen","max_bytes":20,"refs":1,"ctx":"ptr@26e4"}
+{"id":"2a88","jah":"41b161a82ce5645134d7203f7d3c5663","en":"Demo Movie Screen","max_bytes":20,"refs":1,"ctx":"ptr@26ec"}
+{"id":"2a9c","jah":"6a9c99714b53833aa5a74476f35badfd","en":"Owner Name Screen","max_bytes":20,"refs":1,"ctx":"ptr@26f4"}
+{"id":"2ab0","jah":"97367135c6f0ee35210da527037d5aec","en":"Secretary","max_bytes":16,"refs":1,"ctx":"ptr@26fc"}
+{"id":"2ac0","jah":"bd44008a58e49c31fb70b0e987bfaf4b","en":"Home Town","max_bytes":16,"refs":1,"ctx":"ptr@2704"}
+{"id":"2ad0","jah":"f263f2339723306e17bb4bf6fb332afe","en":"Club Edit Screen","max_bytes":24,"refs":1,"ctx":"ptr@270c"}
+{"id":"2ae8","jah":"e1ae65e04e52867a9778fcb0cec36310","en":"Start-Up","max_bytes":12,"refs":1,"ctx":"ptr@2714"}
+{"id":"2af4","jah":"e635c1c2c5bbd74c479e975903e0f834","en":"Event Screen","max_bytes":16,"refs":1,"ctx":"ptr@271c"}
+{"id":"2b04","jah":"713342ede73d4b65655f0e0579ab598f","en":"Game Over Screen","max_bytes":20,"refs":1,"ctx":"ptr@2724"}
+{"id":"2b18","jah":"b940063ad962424a5ab323daa5387cd2","en":"Year-End Report","max_bytes":16,"refs":1,"ctx":"ptr@272c"}
+{"id":"2b28","jah":"3c540c018b81f5bc4956647e6eacd5d7","en":"Sponsorship Deal","max_bytes":20,"refs":1,"ctx":"ptr@2734"}
+{"id":"2b3c","jah":"66f6d33bca0566f60bdd07e85256672b","en":"Contract Renewal","max_bytes":20,"refs":1,"ctx":"ptr@273c"}
+{"id":"2b50","jah":"427e646120b7bafe38620a95a8146675","en":"Rookie Signing","max_bytes":16,"refs":1,"ctx":"ptr@2744"}
+{"id":"2b60","jah":"046d7d23af57c3440e1de730e95a2c30","en":"Youth/Supporters' Club Funds Screen","max_bytes":40,"refs":1,"ctx":"ptr@274c"}
+{"id":"2b88","jah":"58ad38ec5cd36a946da7df2c6c1c1174","en":"Monthly Report","max_bytes":16,"refs":1,"ctx":"ptr@2754"}
+{"id":"2b98","jah":"ef802edd5861463d7732422e6a3fe3cc","en":"Monthly Orders","max_bytes":20,"refs":1,"ctx":"ptr@275c"}
+{"id":"2bac","jah":"fb81f8be2bd4fde8b5e6f5d143d1cfbd","en":"Match","max_bytes":12,"refs":1,"ctx":"ptr@2764"}
+{"id":"2bb8","jah":"908451f476dfb9b67cf6d40d8f8b3750","en":"News Screen","max_bytes":16,"refs":1,"ctx":"ptr@276c"}
+{"id":"2bc8","jah":"68e4b4397999ad46d2979c3a0dd140e7","en":"Options Screen","max_bytes":16,"refs":1,"ctx":"ptr@2774"}
+{"id":"2bd8","jah":"987737bf3bbe99b1085219c10298bff3","en":"Office Main Screen","max_bytes":20,"refs":1,"ctx":"ptr@277c"}
+{"id":"2bec","jah":"abe859cc0ae3e717c0f2690fab07f363","en":"Clubhouse Main Screen","max_bytes":24,"refs":1,"ctx":"ptr@2784"}
+{"id":"2c04","jah":"b2d3924f1d0e591d8e4e1d9a5aeb50b6","en":"Player Signing","max_bytes":16,"refs":1,"ctx":"ptr@278c"}
+{"id":"2c14","jah":"7d50242ae859c5f5535fa94ed50e6c98","en":"Password Player Signing","max_bytes":24,"refs":1,"ctx":"ptr@2794"}
+{"id":"2c2c","jah":"be823790620931c22543628004d7b0ef","en":"Scout by Name","max_bytes":20,"refs":1,"ctx":"ptr@279c"}
+{"id":"2c40","jah":"932bfe246ab64eb6ef58540d9131d797","en":"Transfer","max_bytes":12,"refs":1,"ctx":"ptr@27a4"}
+{"id":"2c4c","jah":"6cf04b515e65a74bc163d71bfd636056","en":"Abroad","max_bytes":12,"refs":1,"ctx":"ptr@27ac"}
+{"id":"2c58","jah":"0a3134e6398e480986b28e4511148d1a","en":"Manager/Scout Change","max_bytes":24,"refs":1,"ctx":"ptr@27b4"}
+{"id":"2c70","jah":"141ba3903339cf192faf13504b6e3345","en":"Facilities","max_bytes":12,"refs":1,"ctx":"ptr@27bc"}
+{"id":"2c7c","jah":"a1e4115407b57a9320f8c9b413031d81","en":"Data Room","max_bytes":16,"refs":1,"ctx":"ptr@27c4"}
+{"id":"2c8c","jah":"6353c0add6048892d5a8a7c92553e8ba","en":"Training","max_bytes":12,"refs":1,"ctx":"ptr@27cc"}
+{"id":"2c98","jah":"28f34d7481d5793c86062ba1456effac","en":"Meeting Room Screen","max_bytes":24,"refs":1,"ctx":"ptr@27d4"}
+{"id":"2cb0","jah":"1fc02f05ab44a07ee9446c857420e390","en":"Supporters' Club Screen","max_bytes":24,"refs":1,"ctx":"ptr@27dc"}
+{"id":"2cc8","jah":"2445f77efc949cef5b17537398a0c691","en":"Local Groups","max_bytes":16,"refs":1,"ctx":"ptr@27e4"}
+{"id":"2cd8","jah":"0b0983da81fb3105692dd415182a7016","en":"Schedule Screen","max_bytes":20,"refs":2,"ctx":"ptr@27ec xrefs=2"}
+{"id":"2cec","jah":"f56f1536273bfba49a07c4ab31778d7d","en":"Player Edit Screen","max_bytes":20,"refs":1,"ctx":"ptr@27fc"}
+{"id":"2d00","jah":"f8777427766d341034f2ede7eeb8f5fc","en":"Comms","max_bytes":12,"refs":1,"ctx":"ptr@2804"}
+{"id":"2d0c","jah":"a1c4580a05d43f5aa3dcf0adc7164649","en":"Save/Load Screen","max_bytes":20,"refs":1,"ctx":"ptr@280c"}
+{"id":"2d20","jah":"92c793c9f9b4702a336983061bdfc34a","en":"Player Bust-Up Module","max_bytes":28,"refs":1,"ctx":"ptr@2814"}
+{"id":"2d3c","jah":"86b4fa80dabfd7822dec6e705aa1a182","en":"Online Help Module","max_bytes":28,"refs":1,"ctx":"ptr@281c"}
+{"id":"2d58","jah":"a6173fe81f0150ba98f4bfe4a5e029b2","en":"Movie BG","max_bytes":16,"refs":1,"ctx":"ptr@2824"}
+{"id":"2d68","jah":"b31a5e49e6fb04d71ac48990f6e0c15b","en":"Match Finances","max_bytes":16,"refs":1,"ctx":"ptr@282c"}
+{"id":"2d78","jah":"f8c9effb9641d1678c8befbf988c5dc3","en":"Match Results","max_bytes":16,"refs":1,"ctx":"ptr@2834"}
+{"id":"2d88","jah":"f851be9dfdfc8c596931d50691948bcd","en":"Quit/Options","max_bytes":20,"refs":1,"ctx":"ptr@283c"}
+{"id":"2d9c","jah":"19799cbbe0a92cf4cfba7b4fe86252f4","en":"Backup Utility","max_bytes":32,"refs":1,"ctx":"ptr@2844"}
+{"id":"2dbc","jah":"851cd40e405ecb7b9eafd85191007f8e","en":"Weekly Update","max_bytes":20,"refs":1,"ctx":"ptr@284c"}
+{"id":"2dd0","jah":"a7be65cc0232131d2d735576174a696b","en":"New Month Screen","max_bytes":20,"refs":1,"ctx":"ptr@2854"}
+{"id":"2e5c","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@5ec"}
+{"id":"2f40","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@19bc"}
+{"id":"2f74","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@2488","skip":true}
+{"id":"2f78","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@2490[0/3]","skip":true}
+{"id":"2f80","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@2490[1/3]","skip":true}
+{"id":"2f84","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@2490[2/3]","skip":true}
+{"id":"2f88","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@2f44[0/11]"}
+{"id":"2f8c","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@2f44[1/11]"}
+{"id":"2f90","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@2f44[2/11]"}
+{"id":"2f94","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@2f44[3/11]"}
+{"id":"2f98","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@2f44[4/11]"}
+{"id":"2f9c","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@2f44[5/11]"}
+{"id":"2fa0","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@2f44[6/11]"}
+{"id":"2fa4","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@2f44[7/11]"}
+{"id":"2fa8","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@2f44[8/11]"}
+{"id":"2fac","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@2f44[9/11]"}
+{"id":"2fb0","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":3,"refs":1,"ctx":"tbl@2f44[10/11]"}

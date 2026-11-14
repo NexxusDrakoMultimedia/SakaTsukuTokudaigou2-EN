@@ -1,0 +1,130 @@
+ABROAD.BIN       size=  527546 base=8c2d0000 entry=8c2d0000 ptrs=  2072 strptrs=  278 TEXT-PROVEN
+AUTOSAVE.BIN     size=  575218 base=8c8d0000 entry=8c8d0000 ptrs=  8936 strptrs= 1441 TEXT-PROVEN
+BACKUP.BIN       size=  598690 base=8c4d0000 entry=8c4d0000 ptrs=  9151 strptrs= 1471 TEXT-PROVEN
+BPMATCH.BIN      size=  686106 base=8c2d0000 entry=8c2d0000 ptrs=  9871 strptrs= 1573 TEXT-PROVEN
+BPMWEEK.BIN      size=  133922 base=8c2d0000 entry=8c2d0000 ptrs=  1422 strptrs=   49 TEXT-PROVEN
+CAP_SLCT.BIN     size=  273682 base=8c2d0000 entry=8c2d0000 ptrs=  1826 strptrs=  199 TEXT-PROVEN
+CE_VS.BIN        size=  461769 base=8c2d0000 entry=8c2d0000 ptrs=  2122 strptrs=  137 TEXT-PROVEN
+CHALDANI.BIN     size=   55392 base=8c4d0000 entry=8c4d0000 ptrs=   862 strptrs=  199 TEXT-PROVEN
+CHALMODE.BIN     size=  944573 base=8c4d0000 entry=8c4d0000 ptrs= 10247 strptrs= 1640 TEXT-PROVEN
+CLUBEDIT.BIN     size=  221853 base=8c2d0000 entry=8c2d0000 ptrs=  2140 strptrs=   89 TEXT-PROVEN
+COMM.BIN         size=   10929 base=8c2e0000 entry=8c2e0000 ptrs=   125 strptrs=   80 TEXT-PROVEN
+CON_REP.BIN      size=   10929 base=8c2e0000 entry=8c2e0000 ptrs=   125 strptrs=   80 TEXT-PROVEN
+CSAVE.BIN        size=  591474 base=8c4d0000 entry=8c4d0000 ptrs=  9039 strptrs= 1457 TEXT-PROVEN
+CSAVE3.BIN       size=  543272 base=8c4d0000 entry=8c4d0000 ptrs=  8242 strptrs= 1464 TEXT-PROVEN
+CSAVE4.BIN       size=  600770 base=8c4d0000 entry=8c4d0000 ptrs=  9140 strptrs= 1475 TEXT-PROVEN
+DATAROOM.BIN     size=  387036 base=8c2d0000 entry=8c2d0000 ptrs=  3285 strptrs=  345 TEXT-PROVEN
+DMCLBEDT.BIN     size=  736270 base=8c2d0000 entry=8c2d0000 ptrs=  9666 strptrs= 1527 TEXT-PROVEN
+DRAFT.BIN        size=  480458 base=8c2d0000 entry=8c2d0000 ptrs=  3500 strptrs= 1625 TEXT-PROVEN
+DRSBEST.BIN      size=  153705 base=8c4d0000 entry=8c4d0000 ptrs=  1654 strptrs=  195 TEXT-PROVEN
+DRSDENDO.BIN     size=  430684 base=8c4d0000 entry=8c4d0000 ptrs=  2217 strptrs=  244 TEXT-PROVEN
+DRSGP.BIN        size=   75740 base=8c4d0000 entry=8c4d0000 ptrs=  1062 strptrs=  205 TEXT-PROVEN
+DRSGRF.BIN       size=  141788 base=8c4d0000 entry=8c4d0000 ptrs=  1468 strptrs=  134 TEXT-PROVEN
+DRSGRFJ.BIN      size=   64564 base=8c4d0000 entry=8c4d0000 ptrs=   828 strptrs=  117 TEXT-PROVEN
+DRSHRANK.BIN     size=  126940 base=8c4d0000 entry=8c4d0000 ptrs=  3708 strptrs= 2798 TEXT-PROVEN
+DRSISEKI.BIN     size=  142389 base=8c4d0000 entry=8c4d0000 ptrs=  1547 strptrs=  163 TEXT-PROVEN
+DRSJAPAN.BIN     size=   48608 base=8c4d0000 entry=8c4d0000 ptrs=   360 strptrs=  110 TEXT-PROVEN
+DRSKIYA.BIN      size=   45832 base=8c4d0000 entry=8c4d0000 ptrs=   321 strptrs=  113 TEXT-PROVEN
+DRSLIST.BIN      size=  342256 base=8c4d0000 entry=8c4d0000 ptrs=  2561 strptrs=  616 TEXT-PROVEN
+DRSOLIST.BIN     size=  349156 base=8c4d0000 entry=8c4d0000 ptrs=  2549 strptrs=  612 TEXT-PROVEN
+DRSRANK.BIN      size=  151393 base=8c4d0000 entry=8c4d0000 ptrs=  1550 strptrs=   95 TEXT-PROVEN
+DRSSRANK.BIN     size=   70212 base=8c4d0000 entry=8c4d0000 ptrs=   631 strptrs=  115 TEXT-PROVEN
+ENDING.BIN       size=  601078 base=8c2d0000 entry=8c2d0000 ptrs=  5780 strptrs=  295 TEXT-PROVEN
+ENDOPT.BIN       size=  685460 base=8c8d0000 entry=8c8d0000 ptrs=  9920 strptrs= 1566 TEXT-PROVEN
+ESTABLIS.BIN     size=  242028 base=8c2d0000 entry=8c2d0000 ptrs=  5428 strptrs= 3225 TEXT-PROVEN
+EVENT.BIN        size= 1389382 base=8c2d0000 entry=8c2d0000 ptrs= 13192 strptrs= 3989 TEXT-PROVEN
+EXFLAG.BIN       size=  592974 base=8c4d0000 entry=8c4d0000 ptrs=  9047 strptrs= 1457 TEXT-PROVEN
+EXTRADE.BIN      size=  596938 base=8c4d0000 entry=8c4d0000 ptrs=  9125 strptrs= 1459 TEXT-PROVEN
+FACEMDUL.BIN     size=  710656 base=8cba0000 entry=8cba0000 ptrs=  4421 strptrs=  107 TEXT-PROVEN
+FIRE.BIN         size=  274518 base=8c2d0000 entry=8c2d0000 ptrs=  1907 strptrs=  386 TEXT-PROVEN
+FLOW1.BIN        size=   12211 base=8c2d0000 entry=8c2d0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW10.BIN       size=   12211 base=8cb60000 entry=8cb60000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW11.BIN       size=   12211 base=8cba0000 entry=8cba0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW2.BIN        size=   12211 base=8c3d0000 entry=8c3d0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW3.BIN        size=   12211 base=8c4d0000 entry=8c4d0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW4.BIN        size=   12211 base=8c5d0000 entry=8c5d0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW5.BIN        size=   12211 base=8c6d0000 entry=8c6d0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW6.BIN        size=   12211 base=8c7d0000 entry=8c7d0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW7.BIN        size=   12211 base=8c8d0000 entry=8c8d0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW8.BIN        size=   12211 base=8c9d0000 entry=8c9d0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FLOW9.BIN        size=   12211 base=8cad0000 entry=8cad0000 ptrs=   129 strptrs=   78 TEXT-PROVEN
+FREELOAD.BIN     size=  590146 base=8c8d0000 entry=8c8d0000 ptrs=  9058 strptrs= 1456 TEXT-PROVEN
+GAME.BIN         size= 2389512 base=8c2d0000 entry=8c2d0000 ptrs= 39474 strptrs= 1371 TEXT-PROVEN
+GAMEOVER.BIN     size=  673990 base=8c4d0000 entry=8c4d0000 ptrs=  2948 strptrs=  111 TEXT-PROVEN
+GETREP.BIN       size=  210468 base=8c2f0000 entry=8c2f0000 ptrs=  1961 strptrs=    4 stub-only
+GMSHOW00.BIN     size=   19263 base=8c2d0000 entry=8c2d0000 ptrs=   100 strptrs=   20 TEXT-PROVEN
+GMSHOW01.BIN     size=   19635 base=8c2d0000 entry=8c2d0000 ptrs=   107 strptrs=   20 TEXT-PROVEN
+GMSHOW02.BIN     size=   19271 base=8c2d0000 entry=8c2d0000 ptrs=   100 strptrs=   19 TEXT-PROVEN
+G_INCOME.BIN     size=  217829 base=8c4d0000 entry=8c4d0000 ptrs=  4680 strptrs= 2800 TEXT-PROVEN
+G_RESULT.BIN     size=  213459 base=8c6d0000 entry=8c6d0000 ptrs=  1606 strptrs=  148 TEXT-PROVEN
+HELP.BIN         size=  195381 base=8cb60000 entry=8cb60000 ptrs=   945 strptrs=   52 TEXT-PROVEN
+HEREWEGO.BIN     size=  485318 base=8c2d0000 entry=8c2d0000 ptrs=  2308 strptrs=  128 TEXT-PROVEN
+HOMETOWN.BIN     size=  414385 base=8c2d0000 entry=8c2d0000 ptrs=  4206 strptrs= 2881 TEXT-PROVEN
+INITCON.BIN      size=   72848 base=8c6d0000 entry=8c6d0000 ptrs=   147 strptrs=   36 TEXT-PROVEN
+INVEST.BIN       size=   97236 base=8c4d0000 entry=8c4d0000 ptrs=  3442 strptrs= 2742 TEXT-PROVEN
+J1_REP.BIN       size=   10929 base=8c4e0000 entry=8c4e0000 ptrs=   125 strptrs=   80 TEXT-PROVEN
+JSCEVENT.BIN     size=   64464 base=8c2d0000 entry=8c2d0000 ptrs=   590 strptrs=  122 TEXT-PROVEN
+LOAD.BIN         size=  596554 base=8c4d0000 entry=8c4d0000 ptrs=  9130 strptrs= 1453 TEXT-PROVEN
+LOADBAR.BIN      size=  122196 base=8c800000 entry=8c800000 ptrs=    17 strptrs=    0 stub-only
+LOCAL.BIN        size=  143011 base=8c2d0000 entry=8c2d0000 ptrs=  3449 strptrs= 2910 TEXT-PROVEN
+LOGO.BIN         size=    7855 base=8c2d0000 entry=8c2d0000 ptrs=    60 strptrs=   16 TEXT-PROVEN
+MEETING.BIN      size=  874298 base=8c2d0000 entry=8c2d0000 ptrs= 10673 strptrs= 7548 TEXT-PROVEN
+MON_INST.BIN     size=  195656 base=8c4d0000 entry=8c4d0000 ptrs=  2052 strptrs=  152 TEXT-PROVEN
+MOVIE.BIN        size=  474480 base=8c2d0000 entry=8c2d0000 ptrs=  2418 strptrs=  118 TEXT-PROVEN
+MOVIE_BG.BIN     size=  474876 base=8c2d0000 entry=8c2d0000 ptrs=  2440 strptrs=  119 TEXT-PROVEN
+NENREP.BIN       size=  225796 base=8c2e0000 entry=8c2e0000 ptrs=  3272 strptrs=   20 TEXT-PROVEN
+NEWCON.BIN       size=  329462 base=8c6d0000 entry=8c6d0000 ptrs=  2332 strptrs=  448 TEXT-PROVEN
+NEWMONTH.BIN     size=  641092 base=8c2d0000 entry=8c2d0000 ptrs=  2520 strptrs=   83 TEXT-PROVEN
+NEWS.BIN         size= 1396458 base=8c2d0000 entry=8c2d0000 ptrs= 17482 strptrs= 5308 TEXT-PROVEN
+NEWS_ED.BIN      size=  636862 base=8c8d0000 entry=8c8d0000 ptrs=  7408 strptrs= 3233 TEXT-PROVEN
+NEWS_OP.BIN      size=  578463 base=8c8d0000 entry=8c8d0000 ptrs=  4256 strptrs=  342 TEXT-PROVEN
+NEWUNIF.BIN      size=  195309 base=8c2d0000 entry=8c2d0000 ptrs=  1632 strptrs=   87 TEXT-PROVEN
+NEW_YEAR.BIN     size=   26348 base=8c4d0000 entry=8c4d0000 ptrs=   179 strptrs=   33 TEXT-PROVEN
+NF_CON.BIN       size=   10929 base=8c2e0000 entry=8c2e0000 ptrs=   125 strptrs=   80 TEXT-PROVEN
+N_ENTRY.BIN      size=   67320 base=8c8d0000 entry=8c8d0000 ptrs=   582 strptrs=   99 TEXT-PROVEN
+OFFICE.BIN       size=  668231 base=8c6d0000 entry=8c6d0000 ptrs=  5775 strptrs= 2804 TEXT-PROVEN
+OPTION.BIN       size=   36515 base=8c8d0000 entry=8c8d0000 ptrs=   313 strptrs=  109 TEXT-PROVEN
+PASS_PL.BIN      size=   10929 base=8c2e0000 entry=8c2e0000 ptrs=   125 strptrs=   80 TEXT-PROVEN
+PLNUMSET.BIN     size=  357810 base=8c2d0000 entry=8c2d0000 ptrs=  7152 strptrs= 1547 TEXT-PROVEN
+PL_CON.BIN       size=   10929 base=8c4e0000 entry=8c4e0000 ptrs=   125 strptrs=   80 TEXT-PROVEN
+PL_EDIT.BIN      size=  390505 base=8c4d0000 entry=8c4d0000 ptrs=  8309 strptrs= 1955 TEXT-PROVEN
+PWK_EDIT.BIN     size=  395425 base=8c2d0000 entry=8c2d0000 ptrs=  4736 strptrs=  206 TEXT-PROVEN
+RECON.BIN        size=  339854 base=8c4d0000 entry=8c4d0000 ptrs=  2033 strptrs=  391 TEXT-PROVEN
+SCDRF.BIN        size=  410142 base=8c2d0000 entry=8c2d0000 ptrs=  2592 strptrs=  887 TEXT-PROVEN
+SCHE0.BIN        size=  390724 base=8c4d0000 entry=8c4d0000 ptrs=  5963 strptrs= 3021 TEXT-PROVEN
+SCHE1.BIN        size=  390724 base=8c4d0000 entry=8c4d0000 ptrs=  5963 strptrs= 3021 TEXT-PROVEN
+SEARCH.BIN       size=  603106 base=8c4d0000 entry=8c4d0000 ptrs=  2738 strptrs=  564 TEXT-PROVEN
+SECBND.BIN       size= 1497088  NOT-OVERLAY (not a flat SH-4 overlay (no entry stub))
+SELNAT.BIN       size=  188020 base=8c2d0000 entry=8c2d0000 ptrs=  1910 strptrs=  163 TEXT-PROVEN
+SONGSAVE.BIN     size=  591286 base=8c8d0000 entry=8c8d0000 ptrs=  9079 strptrs= 1465 TEXT-PROVEN
+SPF_READ.BIN     size=  712317 base=8c2d0000 entry=8c2d0000 ptrs= 10365 strptrs= 1870 TEXT-PROVEN
+SPONSOR.BIN      size=  256094 base=8c6d0000 entry=8c6d0000 ptrs=  5034 strptrs= 2929 TEXT-PROVEN
+SPONSOR2.BIN     size=  256162 base=8c4d0000 entry=8c4d0000 ptrs=  5036 strptrs= 2935 TEXT-PROVEN
+SPT_CLUB.BIN     size=   58800 base=8c2d0000 entry=8c2d0000 ptrs=   523 strptrs=   81 TEXT-PROVEN
+SS_EDIT.BIN      size=  102044 base=8c4d0000 entry=8c4d0000 ptrs=   825 strptrs=  129 TEXT-PROVEN
+SUPPORT.BIN      size=  139206 base=8c2d0000 entry=8c2d0000 ptrs=  1405 strptrs=  129 TEXT-PROVEN
+S_SELECT.BIN     size=  363080 base=8c2d0000 entry=8c2d0000 ptrs=   771 strptrs=  112 TEXT-PROVEN
+TITLE.BIN        size=  241138 base=8c6d0000 entry=8c6d0000 ptrs=  2598 strptrs=  437 TEXT-PROVEN
+TOWN.BIN         size=  433459 base=8c4d0000 entry=8c4d0000 ptrs=  5508 strptrs= 2812 TEXT-PROVEN
+TOWNDATA.BIN     size=   83746 base=8c4d0000 entry=8c4d0000 ptrs=  3250 strptrs= 2697 TEXT-PROVEN
+TRAINING.BIN     size=  770218 base=8c2d0000 entry=8c2d0000 ptrs=  4971 strptrs=  579 TEXT-PROVEN
+TV_EVENT.BIN     size=   52616 base=8c2d0000 entry=8c2d0000 ptrs=   436 strptrs=  149 TEXT-PROVEN
+VTRLOAD.BIN      size=  590706 base=8c2d0000 entry=8c2d0000 ptrs=  9036 strptrs= 1456 TEXT-PROVEN
+WEEKLY.BIN       size=  369256 base=8c2d0000 entry=8c2d0000 ptrs=  5506 strptrs= 2816 TEXT-PROVEN
+YOUTH.BIN        size=  478398 base=8c2d0000 entry=8c2d0000 ptrs=  2718 strptrs=  795 TEXT-PROVEN
+114 files; overlays parsed: 113  base proven via SJIS string pointers: 111  not overlays: ['SECBND.BIN']
+0x8c2d0000 42
+0x8c2e0000 5
+0x8c2f0000 1
+0x8c3d0000 1
+0x8c4d0000 37
+0x8c4e0000 2
+0x8c5d0000 1
+0x8c6d0000 7
+0x8c7d0000 1
+0x8c800000 1
+0x8c8d0000 9
+0x8c9d0000 1
+0x8cad0000 1
+0x8cb60000 2
+0x8cba0000 2

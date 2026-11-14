@@ -1,0 +1,50 @@
+{"l10n":1,"kind":"refit","style":"spaced","n":49,"final_newline":true,"src":"FLOW_PRG/DRSGP.BIN"}
+{"id":"10cf4","jah":"e7116e53b1dd357df15f71a9dcac61d4","en":"Paraguay","why":"'Parag.' (was 'Parag.')","cls":"nation"}
+{"id":"10d10","jah":"f6416ff3b1cd11f8ce992980315f7fde","en":"Russia","why":"'RUS' (was 'RUS')","cls":"nation"}
+{"id":"10d34","jah":"8c14f3320fc7dc72b2679ee3a62a0a73","en":"Argentina","why":"'Arg.' (was 'Arg.')","cls":"nation"}
+{"id":"10d4c","jah":"d3b8ec46e7e353f572fe424782d2855d","en":"Portugal","why":"'Port.' (was 'Port.')","cls":"nation"}
+{"id":"10d5c","jah":"45f8eeb909c0ecd8e44aa970a52f47ab","en":"Bulgaria","why":"'Bulg.' (was 'Bulg.')","cls":"nation"}
+{"id":"10d78","jah":"9884080639d0896b906348b0cb8db6b7","en":"Cameroon","why":"'Camern.' (was 'Camern.')","cls":"nation"}
+{"id":"10d90","jah":"69021cd8c4dddb2c5822bad252f75995","en":"Chilavert","why":"name from the BPINFO player record (was 'Chilvrt')","cls":"person"}
+{"id":"10da4","jah":"294d57c08c0ca0473b271c7e8efa67c9","en":"Yaron","why":"name from the BPINFO player record (was 'Yar')","cls":"person"}
+{"id":"10e18","jah":"fd3554fb5efd33db93982a669131d60f","en":"Cope","why":"name from the BPINFO player record (was 'Cop')","cls":"person"}
+{"id":"10e34","jah":"e17b5072de38b7224b6ff0c204c85732","en":"Simon","why":"name from the BPINFO player record (was 'Sim')","cls":"person"}
+{"id":"10e6c","jah":"f61a4f7c9d29e3602f99c0154c70b096","en":"Francisco","why":"name from the BPINFO player record (was 'Frncsco')","cls":"person"}
+{"id":"10ef0","jah":"073b1add1e5be9b1fd736c2172f4985f","en":"Christian","why":"name from the BPINFO player record (was 'Chrstan')","cls":"person"}
+{"id":"10f08","jah":"95f664adbfef333f312697488f275ebd","en":"Schindler","why":"name from the BPINFO player record (was 'Schndlr')","cls":"person"}
+{"id":"10f10","jah":"8e459daaf3f639f5c8ec997df3d25611","en":"Stonikov","why":"name from the BPINFO player record (was 'Stonikv')","cls":"person"}
+{"id":"10f20","jah":"3457b5920f413323b56316b84a35f2de","en":"Destefan","why":"name from the BPINFO player record (was 'Destefn')","cls":"person"}
+{"id":"10f60","jah":"0da63822d4aa6733e535138053bd2eba","en":"Fontaine","why":"name from the BPINFO player record (was 'Fontain')","cls":"person"}
+{"id":"10f94","jah":"0edcfbb831ce09b97512bb06323292b8","en":"Mela","why":"name from the BPINFO player record (was 'Mel')","cls":"person"}
+{"id":"10f98","jah":"e13db9b96a2cfed99d45e7872a47072b","en":"Morena","why":"name from the BPINFO player record (was 'Mre')","cls":"person"}
+{"id":"10f9c","jah":"2894bd01beab6585e82a879eedd1eff2","en":"Rauf","why":"name from the BPINFO player record (was 'Rau')","cls":"person"}
+{"id":"11010","jah":"aab79c214bb26c1693c3f98e6a47ae2b","en":"Australia","why":"'Austral' (was 'Austral')","cls":"nation"}
+{"id":"11028","jah":"2774c595b23be0695cfafdf997c244b8","en":"Czechia","why":"'CZE' (was 'CZE')","cls":"nation"}
+{"id":"1102c","jah":"eb099d1078323ea83011052e66e34b76","en":"Colombia","why":"'Col.' (was 'Col.')","cls":"nation"}
+{"id":"1108c","jah":"fb1b2141193c7ab76acf5693c0d1412b","en":"Schumeisen","why":"name from the BPINFO player record (was 'Schmesn')","cls":"person"}
+{"id":"110b4","jah":"9a6c763ecccdc44bbd8375cfa4a28d5f","en":"Pierluca","why":"name from the BPINFO player record (was 'Pierluc')","cls":"person"}
+{"id":"110bc","jah":"cf1572782e9dbffe66caf8d6ef7d007d","en":"Van Saal","why":"name from the BPINFO player record (was 'VanSaal')","cls":"person"}
+{"id":"110c4","jah":"b84825887fd7ae57db59af0a0915b46a","en":"Fron","why":"name from the BPINFO player record (was 'Fro')","cls":"person"}
+{"id":"110c8","jah":"fa907c3b46572d76c1c6a6fa9cde1362","en":"Poff","why":"name from the BPINFO player record (was 'Pof')","cls":"person"}
+{"id":"11108","jah":"a67fbcd29d81fc86f7798d247b9da99c","en":"Schringer","why":"name from the BPINFO player record (was 'Schrngr')","cls":"person"}
+{"id":"11118","jah":"e54deaf37278e9b161f5d8ddeabb57c9","en":"Sireo","why":"name from the BPINFO player record (was 'Sir')","cls":"person"}
+{"id":"11134","jah":"b71c032c6e7c33700f0e45829f959e66","en":"Desailly","why":"name from the BPINFO player record (was 'Desaily')","cls":"person"}
+{"id":"11150","jah":"c4e58e8a050f28ec46ccc2bc35ad69fe","en":"Facchetto","why":"name from the BPINFO player record (was 'Facchto')","cls":"person"}
+{"id":"11178","jah":"ce71274e9cf552ffeb7d86f0a4bc8b5f","en":"Matthias","why":"name from the BPINFO player record (was 'Mathias')","cls":"person"}
+{"id":"11188","jah":"cb4d1ee7fa2c16c33b0d631e4d8efa4f","en":"Moore","why":"name from the BPINFO player record (was 'Moo')","cls":"person"}
+{"id":"111a4","jah":"de254d077d59003aea04214aa21c03a5","en":"Resta","why":"name from the BPINFO player record (was 'Res')","cls":"person"}
+{"id":"11224","jah":"3954a587a2fdcc924019b180b26d2e94","en":"Antoniolo","why":"name from the BPINFO player record (was 'Antonlo')","cls":"person"}
+{"id":"11238","jah":"a80138fa667725aa5fc3cbd32b79e19f","en":"Enrique L","why":"name from the BPINFO player record (was 'Enrique')","cls":"person"}
+{"id":"11258","jah":"4bb6c04a0d9daa97fd2500ee8b107c87","en":"Keeskens","why":"name from the BPINFO player record (was 'Keskens')","cls":"person"}
+{"id":"1129c","jah":"6894be53bef7d3420e05952c194c249c","en":"Taji","why":"name from the BPINFO player record (was 'Taj')","cls":"person"}
+{"id":"112a0","jah":"d4a4a769323be3e44d4006900f084215","en":"Taradari","why":"name from the BPINFO player record (was 'Taradri')","cls":"person"}
+{"id":"112f8","jah":"fc98db12ed7d15c1214b8bacc4bb6676","en":"Brominer","why":"name from the BPINFO player record (was 'Bromner')","cls":"person"}
+{"id":"11408","jah":"a0746815e674837e366bf150164aac51","en":"Carlmans","why":"name from the BPINFO player record (was 'Carlmns')","cls":"person"}
+{"id":"11418","jah":"57c24af395a2167699cee36ba8d70064","en":"Kramfert","why":"name from the BPINFO player record (was 'Kramfet')","cls":"person"}
+{"id":"11438","jah":"a674a8a19ecbe2378184c685a2d37d3f","en":"Sierra","why":"name from the BPINFO player record (was 'Sie')","cls":"person"}
+{"id":"1143c","jah":"749e8abdadb95fb356bc8915b643656d","en":"Shafchenko","why":"name from the BPINFO player record (was 'Shafnko')","cls":"person"}
+{"id":"11458","jah":"b64a5f827eb8de3a57813252b88d9dd1","en":"Skar","why":"name from the BPINFO player record (was 'Ska')","cls":"person"}
+{"id":"1145c","jah":"23b3eddb28c6cdc5c8bd717d7d6210e5","en":"Skilecci","why":"name from the BPINFO player record (was 'Skilcci')","cls":"person"}
+{"id":"11488","jah":"ca9e9e581c423a34c73c834b7043a326","en":"Van Horst","why":"name from the BPINFO player record (was 'VanHrst')","cls":"person"}
+{"id":"114e4","jah":"919c7bfeec1df3703849e06d8fe77a83","en":"Reinders","why":"name from the BPINFO player record (was 'Reindrs')","cls":"person"}
+{"id":"11508","jah":"d61bb1b4c200e061d39c2407212dc25d","en":"Robres C","why":"name from the BPINFO player record (was 'Robres')","cls":"person"}

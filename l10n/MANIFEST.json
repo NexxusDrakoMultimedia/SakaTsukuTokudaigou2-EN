@@ -1,0 +1,841 @@
+{
+ "disc": {
+  "track1": {
+   "crc32": "1703a248",
+   "md5": "9cc52765bbbdce41e4c4f32dcc46f692",
+   "sha1": "ec178640c03ab98de4d07b76fd5555417137def1",
+   "sha256": "599e3ed5afc723835f33f258c6dc16d38722ff7066bc5eeaf9aac1c2b3d4897c",
+   "size": 5597760
+  },
+  "track2": {
+   "crc32": "1859ea65",
+   "md5": "652a31166a58b8f933e8a924e7c88780",
+   "sha1": "0ecd537e42946f3e74c80c9fcb8d0bccccfc96f1",
+   "sha256": "e6c6f921666e7d50c4f943f6ab0f0545732d0534903fc6e5c4b0181ed352dc85",
+   "size": 2088576
+  },
+  "track3": {
+   "crc32": "33ea62d0",
+   "md5": "1d6a02990ebbb522851c6a2e3ca4f973",
+   "sha1": "8a7c7484489d42896e3b73a8b2d4588720a3936d",
+   "sha256": "6a24b63b8a2b2b6e75219dbc6915b434a8c911d6d4563f1e58285cc0f29706cc",
+   "size": 14916384
+  },
+  "track4": {
+   "crc32": "d3caaa47",
+   "md5": "716b732bb8861b012ab5f157fa6aba88",
+   "sha1": "fbdd698c67ee95d4223f9c873bb3697ee8447132",
+   "sha256": "06a0e7c5af4415c991f1a4c120f1d0b7a330bd6a22b5b6c063edb52674b9b4bc",
+   "size": 12519696
+  },
+  "track5": {
+   "crc32": "e5bc326c",
+   "md5": "f364436ea0f054ea3a6558ab4aec69ff",
+   "sha1": "753b66f8a2a5553cce8abe804fa68145cf3522e4",
+   "sha256": "9c9078ec96db45a3cb8531957ebd1e60833a1532a9673db25d26da9e6a779d01",
+   "size": 1158324720
+  },
+  "volume_iso": {
+   "crc32": "395d0590",
+   "md5": "1b836a438f963af1bba2cf41551bc0ef",
+   "sha1": "62a9ccfd3a965328861e5b46fa71e5686642e5e1",
+   "sha256": "88ae8a9df5736e4dfdd5a6102922e85c8a325dd17cbc60ab8c1c51f33016ff8b",
+   "size": 1032499200
+  }
+ },
+ "disc_files": "disc-files.tsv",
+ "disc_files_sha256": "dcfc6909f3cba75f3195475acd78b02af881090992cf981aa6a93c611c6b5240",
+ "files": {
+  "ATFIRST__HELP.BIN.jsonl": {
+   "records": 1462,
+   "sha256": "655cdb2e59a4152b365ebd2279441e3f2e8c2365557d7714c20c0a556f0f94e4"
+  },
+  "ATFIRST__TITLE.BIN.jsonl": {
+   "records": 1984,
+   "sha256": "7156ff76e63f434b525e345eed42c05b625f04caade9875ebad836988799f424"
+  },
+  "BCAST__BCAST.BIN.jsonl": {
+   "records": 30083,
+   "sha256": "bcf0b1f62cc5423cf228a5293b794fd22f13bae4d14798848f2ce08925885cca"
+  },
+  "DPETC__MESSAGE.INI.jsonl": {
+   "records": 849,
+   "sha256": "040bce1679e245b2843c40db67a081101e7498b5f05cbbde780aed1a126a6268"
+  },
+  "ETC_DATA__BPINFO.BIN.jsonl": {
+   "records": 5321,
+   "sha256": "63a941d056a616c1b5432841b4d3ef0bee207949d4dbfeb97573bdae1f12b1bf"
+  },
+  "FLOW_PRG__ABROAD.BIN.jsonl": {
+   "records": 495,
+   "sha256": "130248a286598bd28f66f2a1f305812f75a62f036c857c2fc9c1cb4f44238b5a"
+  },
+  "FLOW_PRG__AUTOSAVE.BIN.jsonl": {
+   "records": 17665,
+   "sha256": "a845a640a25dab77a2131e47203fc56e1bc79b705e58c7d6e87a72550a58b97e"
+  },
+  "FLOW_PRG__BACKUP.BIN.jsonl": {
+   "records": 16227,
+   "sha256": "28db73e7fc1a293ff7cddd7bf48373989feff144378f328a18ea44af7723fbb7"
+  },
+  "FLOW_PRG__BPMATCH.BIN.jsonl": {
+   "records": 17787,
+   "sha256": "4674fc7ba09216de8f811eb44528d7c5fa7ea48e68717fc5a4ace984f1bcab81"
+  },
+  "FLOW_PRG__BPMWEEK.BIN.jsonl": {
+   "records": 241,
+   "sha256": "a92aa9fa7d02b5dcbc3d240b24adc9317da3768e23f13c6d95ed5b399766ed3b"
+  },
+  "FLOW_PRG__CAP_SLCT.BIN.jsonl": {
+   "records": 417,
+   "sha256": "a80d4a56004b802569a88dc1cf32f639fb85788033f7c1d655021cde66b744ef"
+  },
+  "FLOW_PRG__CE_VS.BIN.jsonl": {
+   "records": 315,
+   "sha256": "1455fcfaed367a860ca0151a5003940b760fbe939736755fa642f73664712a95"
+  },
+  "FLOW_PRG__CHALDANI.BIN.jsonl": {
+   "records": 455,
+   "sha256": "41e261b80001549ed0999900f29c81eb60b2b6ec42261944c173b4d81c9256e6"
+  },
+  "FLOW_PRG__CHALMODE.BIN.jsonl": {
+   "records": 13827,
+   "sha256": "f43872227f4ee3d9b158c705881b52b8f79146b448ff2f4110d8e7d15342f040"
+  },
+  "FLOW_PRG__CLUBEDIT.BIN.jsonl": {
+   "records": 316,
+   "sha256": "b80c9be83a72f90b1fdbde69954127aed08aec7b7aa5e7e93e59d79ebdb67fef"
+  },
+  "FLOW_PRG__COMM.BIN.jsonl": {
+   "records": 76,
+   "sha256": "97f9177d8f4e3869c2282db67443fac848c06d604e716cb0cb62f7bb98e4b1d2"
+  },
+  "FLOW_PRG__CON_REP.BIN.jsonl": {
+   "records": 76,
+   "sha256": "25cef940ffb2d18420b14edfdb58c8bdc3c7ccebd350a8a89490f41fde3ed96c"
+  },
+  "FLOW_PRG__CSAVE.BIN.jsonl": {
+   "records": 17672,
+   "sha256": "a4d2ae3cd06ffea0852eebe9ebf2345b7580921b02914e26fee3cbab409988ab"
+  },
+  "FLOW_PRG__CSAVE3.BIN.jsonl": {
+   "records": 15337,
+   "sha256": "a87284fa1750764ca4f2a5cba936c04d0d8ae4b88e0f2949065f7be26113dd0a"
+  },
+  "FLOW_PRG__CSAVE4.BIN.jsonl": {
+   "records": 17680,
+   "sha256": "7a850929f05913e0ecde71c144aaa46245b204feb6bc30c816f4fa6ea39ff25a"
+  },
+  "FLOW_PRG__DATAROOM.BIN.jsonl": {
+   "records": 495,
+   "sha256": "68e2c83aeadcbbeb2ef6617c3efcebb6eeba9bf49f57ca343dfc36c581fe4f00"
+  },
+  "FLOW_PRG__DMCLBEDT.BIN.jsonl": {
+   "records": 17703,
+   "sha256": "12ef460cbb64171781d23e0cb55384e4d82d9a965698d8aeff9ea172e072c791"
+  },
+  "FLOW_PRG__DRAFT.BIN.jsonl": {
+   "records": 1831,
+   "sha256": "273d4f96f4e13d12b7d89fe90ed7d927fe8072db7ef7443d237fc59889d1309c"
+  },
+  "FLOW_PRG__DRSBEST.BIN.jsonl": {
+   "records": 450,
+   "sha256": "05948673669e168bd07d3eaedbe3d4816556f9fa7b9f9016b2d366ba7d3c017d"
+  },
+  "FLOW_PRG__DRSDENDO.BIN.jsonl": {
+   "records": 409,
+   "sha256": "49b5f5e703506908b3b8344ea39fa12ae544b5a46ac39774b34615b575895e32"
+  },
+  "FLOW_PRG__DRSGP.BIN.jsonl": {
+   "records": 358,
+   "sha256": "313d0b44adf20acfdef202c131beabe1ac89327824479f15b37b1699249edbed"
+  },
+  "FLOW_PRG__DRSGRF.BIN.jsonl": {
+   "records": 400,
+   "sha256": "9fafc53e924bca9eed466190d752b7c71f22ead47f4879501b5e4b70f976a573"
+  },
+  "FLOW_PRG__DRSGRFJ.BIN.jsonl": {
+   "records": 392,
+   "sha256": "d368723e44af02aa6453b53089cbfe8ac0126e8fcfea4cb8c4adc3f6d2df2e50"
+  },
+  "FLOW_PRG__DRSHRANK.BIN.jsonl": {
+   "records": 1918,
+   "sha256": "46f84f3003a6ea0a55f20e2fdc582364aa7a8c7be61df405fc2a6caa08608155"
+  },
+  "FLOW_PRG__DRSISEKI.BIN.jsonl": {
+   "records": 438,
+   "sha256": "b65d4cf9ccf0fcbe5c79a5b4a997a32cd34bf56c94aaaf96cf3dd73cdc605b52"
+  },
+  "FLOW_PRG__DRSJAPAN.BIN.jsonl": {
+   "records": 123,
+   "sha256": "493fb749e6996f15291acba538b5232c1c46796617fb00bcb960271400ae453c"
+  },
+  "FLOW_PRG__DRSKIYA.BIN.jsonl": {
+   "records": 110,
+   "sha256": "53ae3d276197928bbcd8a7a04a4825e4f6f1cecd675f4f4c40e8f44c354a50ce"
+  },
+  "FLOW_PRG__DRSLIST.BIN.jsonl": {
+   "records": 799,
+   "sha256": "1974ff5d05c068cb3b64c07f8bef4721b4d1e9abf713c1d01cd74b656d77374c"
+  },
+  "FLOW_PRG__DRSOLIST.BIN.jsonl": {
+   "records": 836,
+   "sha256": "597e759911a79747957acdec6187ee579278f8a25e972c55bc8c53bd00fd9f93"
+  },
+  "FLOW_PRG__DRSRANK.BIN.jsonl": {
+   "records": 356,
+   "sha256": "0c64abf72a7b9279df7b63c55e0138d8fd91bc0bf86b7bfb8dce627547a7c922"
+  },
+  "FLOW_PRG__DRSSRANK.BIN.jsonl": {
+   "records": 135,
+   "sha256": "41258784db5c82d788f8789a9aa248871de8e4c89f20358a6d353a6d6842ddf2"
+  },
+  "FLOW_PRG__ENDING.BIN.jsonl": {
+   "records": 1100,
+   "sha256": "8b2731ad965b941c3d9018d1ca04123df6a7ea99663d463b8acc15c39195ba33"
+  },
+  "FLOW_PRG__ENDOPT.BIN.jsonl": {
+   "records": 17730,
+   "sha256": "dbff9f2a1b56b0e90d1eb123f20bc8c66aaaa6262d587ef937390ac42385ccd2"
+  },
+  "FLOW_PRG__ESTABLIS.BIN.jsonl": {
+   "records": 1840,
+   "sha256": "e6ec950010b99c6505ecd332f8cc28e7ba223ef374debf0230e516721d3c5a26"
+  },
+  "FLOW_PRG__EVENT.BIN.jsonl": {
+   "records": 3922,
+   "sha256": "78b4d1a1c837823b8ffaac97e2309c171f8f2d8b58e4d4b2672331af305d8761"
+  },
+  "FLOW_PRG__EXFLAG.BIN.jsonl": {
+   "records": 17674,
+   "sha256": "d69f52311caf602e73621b72bac553962e325ddbd180595c46eef9f110113367"
+  },
+  "FLOW_PRG__EXTRADE.BIN.jsonl": {
+   "records": 17690,
+   "sha256": "b2f1ce92ac946581abc20ae547c9f2e741b17c8c6debdd3cc7ed9ea9a422552b"
+  },
+  "FLOW_PRG__FIRE.BIN.jsonl": {
+   "records": 539,
+   "sha256": "cb253e50ad0a1e1acaed685ec693fa893720b6ccfe7e11d679119c77548fc5ce"
+  },
+  "FLOW_PRG__FLOW1.BIN.jsonl": {
+   "records": 75,
+   "sha256": "f217960fbe1698699ad4181879eb666c708f0cafe09948b6ba2019e2616ab84e"
+  },
+  "FLOW_PRG__FLOW10.BIN.jsonl": {
+   "records": 75,
+   "sha256": "634a3de419c9f8cea149901f1df9d02cab3e43ae96a9e26fcc366f54afaaf55e"
+  },
+  "FLOW_PRG__FLOW11.BIN.jsonl": {
+   "records": 75,
+   "sha256": "3f93cdf7d04eb5bcc483304c76f256569e8650ab1d736bfeda879ed04ebf6df1"
+  },
+  "FLOW_PRG__FLOW2.BIN.jsonl": {
+   "records": 75,
+   "sha256": "eb1b19feb8015f77a88fbbc806717a1a4bf5c078886e2522f7d76c6365258a26"
+  },
+  "FLOW_PRG__FLOW3.BIN.jsonl": {
+   "records": 75,
+   "sha256": "c84ef95635a7aba0f33f015f211c996bc0dda48acbd109f075c858a432d5d05d"
+  },
+  "FLOW_PRG__FLOW4.BIN.jsonl": {
+   "records": 75,
+   "sha256": "a236202987ac773b824f547c87925a3ee0f1081194eb6b153c2ade633e7244f0"
+  },
+  "FLOW_PRG__FLOW5.BIN.jsonl": {
+   "records": 75,
+   "sha256": "5072ca26c9aad62e0189c126a51d8246f1a4c6b1e278de03302e91e5133a3e7c"
+  },
+  "FLOW_PRG__FLOW6.BIN.jsonl": {
+   "records": 75,
+   "sha256": "b7a6cebeec7a86f4a568133f96d13e7c46415c4be1baf0ceff7c359561cdd052"
+  },
+  "FLOW_PRG__FLOW7.BIN.jsonl": {
+   "records": 75,
+   "sha256": "0f846608c20fa1da05281545dbf10f1b610b6fed7ccbd961477a9a580fd74f9c"
+  },
+  "FLOW_PRG__FLOW8.BIN.jsonl": {
+   "records": 75,
+   "sha256": "02d33fcff0b7b2cbe89b1d26f0988af9d209c40e91b2431fb38cc3ebecd314e7"
+  },
+  "FLOW_PRG__FLOW9.BIN.jsonl": {
+   "records": 75,
+   "sha256": "208d0efbc4e33ba94677c2ad8198241d3fc5598aaca2769d4d4bb5c26357e2c8"
+  },
+  "FLOW_PRG__FREELOAD.BIN.jsonl": {
+   "records": 13387,
+   "sha256": "df8f24af54a1a287df899b52f8901eadf7bcf3ca073ddb8edb96a4669547eb65"
+  },
+  "FLOW_PRG__GAME.BIN.jsonl": {
+   "records": 1440,
+   "sha256": "f0f6a60ea7f9c175e5c3f7f6afaa553d654f9dd45e9b810436c79ac764d973ec"
+  },
+  "FLOW_PRG__GAMEOVER.BIN.jsonl": {
+   "records": 265,
+   "sha256": "443a86a14cb0951c0e8da448338d851e1a90a1a779c5a885630e4fa898b7af41"
+  },
+  "FLOW_PRG__GETREP.BIN.jsonl": {
+   "records": 653,
+   "sha256": "09df5a565ceefd30de69162a285696abbbbf7913ec6856abe8dccf9c1a3a4715"
+  },
+  "FLOW_PRG__GMSHOW00.BIN.jsonl": {
+   "records": 18,
+   "sha256": "d069c97992a1a8100e9bfdf951739a40daf07e73a95ba678d2ab68fcf86eb511"
+  },
+  "FLOW_PRG__GMSHOW01.BIN.jsonl": {
+   "records": 18,
+   "sha256": "6bdb8d88158e44e43e476dd6c250dac46f0bfc758172d17ac2444916f1ae1c32"
+  },
+  "FLOW_PRG__GMSHOW02.BIN.jsonl": {
+   "records": 18,
+   "sha256": "9b315ff5cd0b7aa78a5c98ec96eef8a96c13adc0410cf77ae978ba6701ba7119"
+  },
+  "FLOW_PRG__G_INCOME.BIN.jsonl": {
+   "records": 1927,
+   "sha256": "9e48858ffacff6e7b7235c305fbb50f81cf167f7a28f587bf81fefa463b98ddd"
+  },
+  "FLOW_PRG__G_RESULT.BIN.jsonl": {
+   "records": 377,
+   "sha256": "7e513fd0d934dc3ab4326b86d9d3435a79b766a9ce453d78a1981d942571626c"
+  },
+  "FLOW_PRG__HELP.BIN.jsonl": {
+   "records": 1462,
+   "sha256": "469ad1accbaa6fc3c560ecbc709443eb9cb67ca89e58de05698438fc20bcedfe"
+  },
+  "FLOW_PRG__HEREWEGO.BIN.jsonl": {
+   "records": 265,
+   "sha256": "38b4e0e810771dcb8759c29eaf522e28a5eaf5473802f09e6208947da98ba728"
+  },
+  "FLOW_PRG__HOMETOWN.BIN.jsonl": {
+   "records": 4301,
+   "sha256": "96c13cbb45d3ce25cf1f1d5935466642dc8183d325730e1e6a43d54cb01415eb"
+  },
+  "FLOW_PRG__INITCON.BIN.jsonl": {
+   "records": 23,
+   "sha256": "5a89b255f94e7ce5dd7280ca74d0c5dd0e0e9b85bfbe3b9405d539890e6f6e0b"
+  },
+  "FLOW_PRG__INVEST.BIN.jsonl": {
+   "records": 1575,
+   "sha256": "d475674b0c97e86c8dc903858cec9ca051fb48647e4af4e00b3b1ccdd9b046d9"
+  },
+  "FLOW_PRG__J1_REP.BIN.jsonl": {
+   "records": 76,
+   "sha256": "90b7875c4602384abb8d7c4b40abc9cb2410a9a808b7cc32a59b6053f781bf79"
+  },
+  "FLOW_PRG__JSCEVENT.BIN.jsonl": {
+   "records": 93,
+   "sha256": "54299d8c535988c50d7a13fdaec0dea8d5e7ca0061608e6f89a9e86a24087e8e"
+  },
+  "FLOW_PRG__LOAD.BIN.jsonl": {
+   "records": 17688,
+   "sha256": "ffe9cfa2741a7de25377dafd70fb3a5d6c38f01fe0178889827977600f9b9c46"
+  },
+  "FLOW_PRG__LOADBAR.BIN.jsonl": {
+   "records": 1,
+   "sha256": "2fe3b6d86e0c1fb1aa82047277280a96b47b7123aabeef890fd5465d744c1cc1"
+  },
+  "FLOW_PRG__LOCAL.BIN.jsonl": {
+   "records": 2572,
+   "sha256": "ff0b5932dc2b35d928bfb0c2a058eb3d736fe421e801879d552d528c583d9169"
+  },
+  "FLOW_PRG__LOGO.BIN.jsonl": {
+   "records": 15,
+   "sha256": "cd07a2c1a9252cafda3bfd09378bcbc67a42d93b24e8a38b233d565a9fcb2fe0"
+  },
+  "FLOW_PRG__MEETING.BIN.jsonl": {
+   "records": 8521,
+   "sha256": "96229842b8d0f55ccd06c2b53bc1ccddbc6dcbd91e926e949b03fb676b571a8a"
+  },
+  "FLOW_PRG__MON_INST.BIN.jsonl": {
+   "records": 314,
+   "sha256": "03bfdf7e07df647b1b588e954867c22cfdba63ed65e7672dce61a4fbceb390d3"
+  },
+  "FLOW_PRG__MOVIE.BIN.jsonl": {
+   "records": 1,
+   "sha256": "b64fbc2c031c33ad1c38133844e8bfcbd1a3c4a3aea10c2f257a1b0a1955eda6"
+  },
+  "FLOW_PRG__MOVIE_BG.BIN.jsonl": {
+   "records": 1,
+   "sha256": "6f56fb4df1e597b38fedde6b63b7abcb602385089f71369d1380ec13961b4bb6"
+  },
+  "FLOW_PRG__NENREP.BIN.jsonl": {
+   "records": 2052,
+   "sha256": "1601293502cd0497c392329c1ef790096d5e1c7c2fdab5430aca4fd791cd5a3c"
+  },
+  "FLOW_PRG__NEWCON.BIN.jsonl": {
+   "records": 660,
+   "sha256": "cd59f849ae42db7d770a79f7aa498ee5f7ccbe409d496539da3109d4d6125e8d"
+  },
+  "FLOW_PRG__NEWMONTH.BIN.jsonl": {
+   "records": 19,
+   "sha256": "74f5d2e938d9522e4f89e62b9d3cfbb000d939aa4471aa50a42355f583d41ff3"
+  },
+  "FLOW_PRG__NEWS.BIN.jsonl": {
+   "records": 3995,
+   "sha256": "b7af150a166b04d87c2678389a93408583b7bd59d35198c0fd13ad1476c1d10f"
+  },
+  "FLOW_PRG__NEWS_ED.BIN.jsonl": {
+   "records": 2359,
+   "sha256": "4410e87a7655d3a5cfb0a9ef53c47344fe3efca2c5ad85110f4329c860a476ab"
+  },
+  "FLOW_PRG__NEWS_OP.BIN.jsonl": {
+   "records": 589,
+   "sha256": "ed69eecb8937f35980faaca80fe1caaec9df259a337a9fb66d35faab204ecef2"
+  },
+  "FLOW_PRG__NEWUNIF.BIN.jsonl": {
+   "records": 261,
+   "sha256": "a6d581b363de5f3d25465da778870262cebea534524c816296daaada40c044e1"
+  },
+  "FLOW_PRG__NEW_YEAR.BIN.jsonl": {
+   "records": 26,
+   "sha256": "29441a1cfd7966eb996f3553ccbc5300f400e9576efd636d62e6c7b1fe31443d"
+  },
+  "FLOW_PRG__NF_CON.BIN.jsonl": {
+   "records": 76,
+   "sha256": "65c6a762a3fee76d317e842963459207e42f81590f6592b273561894acffb053"
+  },
+  "FLOW_PRG__N_ENTRY.BIN.jsonl": {
+   "records": 76,
+   "sha256": "6ef4ca77797d7272bd4c065d4c2624c443cd6462e7d1bc0aacc504bc8b178583"
+  },
+  "FLOW_PRG__OFFICE.BIN.jsonl": {
+   "records": 1898,
+   "sha256": "1a002bc81069d9de6a344ef8eadb8fbb805306c8f3b9ed01c5bfe9bfd0d2511f"
+  },
+  "FLOW_PRG__OPTION.BIN.jsonl": {
+   "records": 124,
+   "sha256": "a818fef8218d0ef0191668e691c41ae6b209d573af32617f33cff1c81f015341"
+  },
+  "FLOW_PRG__PASS_PL.BIN.jsonl": {
+   "records": 76,
+   "sha256": "909f4188b2ce5ad011d1c0033e33bf8c8d2f46dad06fe348ac74a0e6675851a3"
+  },
+  "FLOW_PRG__PLNUMSET.BIN.jsonl": {
+   "records": 5636,
+   "sha256": "79d1c40a43878213bc2465bd52e7af74c4c035e1a4a74f45259dafa52cbb3b50"
+  },
+  "FLOW_PRG__PL_CON.BIN.jsonl": {
+   "records": 76,
+   "sha256": "ebf828185e5a081f2822f2606c567ea4da4d5d74b637dfb92a8ed6cbbe0e6f47"
+  },
+  "FLOW_PRG__PL_EDIT.BIN.jsonl": {
+   "records": 6074,
+   "sha256": "6ac9a6a7588162f306772dba6e7690042a0f2bdbf87e70101f32e6ba63e47aaf"
+  },
+  "FLOW_PRG__PWK_EDIT.BIN.jsonl": {
+   "records": 534,
+   "sha256": "83e51923ff4156428d00d2603fde56b8477bd395a1b68d75d98f4bb473f93ddc"
+  },
+  "FLOW_PRG__RECON.BIN.jsonl": {
+   "records": 559,
+   "sha256": "45727c47010e3af1247ba8ee206f5157e0fed7365cbd606d4738b9a528b2b19a"
+  },
+  "FLOW_PRG__SCDRF.BIN.jsonl": {
+   "records": 1834,
+   "sha256": "13877b63357c2a19cbc2b679db17bc2e925516530d0fe89578f7763bf5906ac8"
+  },
+  "FLOW_PRG__SCHE0.BIN.jsonl": {
+   "records": 2157,
+   "sha256": "75fc64b31f26c8a469bb2679a8fcf8971c7913ee44bfd1125f91272589c9a792"
+  },
+  "FLOW_PRG__SCHE1.BIN.jsonl": {
+   "records": 2157,
+   "sha256": "a4158efbec20259c73e7d2d9aec7c0a201deb70fa63c420054699372e5f86abc"
+  },
+  "FLOW_PRG__SEARCH.BIN.jsonl": {
+   "records": 2099,
+   "sha256": "7ed0b1ad2f9bac26cb53964a8a647176fe05112cb864407d90e4cd3912873478"
+  },
+  "FLOW_PRG__SELNAT.BIN.jsonl": {
+   "records": 389,
+   "sha256": "790548ed0ec3c3952bc045ee6f932719caf4c1b14343c36945cbd84db7d03352"
+  },
+  "FLOW_PRG__SONGSAVE.BIN.jsonl": {
+   "records": 13395,
+   "sha256": "67ba2e9e7c6a7a69c856b7301dbcee7e380dd017e270cd63536fa044ac4b8f26"
+  },
+  "FLOW_PRG__SPF_READ.BIN.jsonl": {
+   "records": 19447,
+   "sha256": "28c4fe219d437f06497132f6f9ce6eeff4b11e3ec5f124e405bf820d9bb2481a"
+  },
+  "FLOW_PRG__SPONSOR.BIN.jsonl": {
+   "records": 2017,
+   "sha256": "0a68169d26e55a81a33b85185b052717226aea7deb02d9d5c6aba77d601a310b"
+  },
+  "FLOW_PRG__SPONSOR2.BIN.jsonl": {
+   "records": 2017,
+   "sha256": "e24e6782cc1b5d7e14d737bdf4c012232677ab1f5e103277dc7044b253c63413"
+  },
+  "FLOW_PRG__SPT_CLUB.BIN.jsonl": {
+   "records": 43,
+   "sha256": "e42457012b09a43677cf62a7f1d12cfbdd66c17d050ae5c645ece8c1fd338e38"
+  },
+  "FLOW_PRG__SS_EDIT.BIN.jsonl": {
+   "records": 119,
+   "sha256": "d7874c6296a850594b4799c7a7eaf9562ce56c693b0fd57993ffe9d59b04a63b"
+  },
+  "FLOW_PRG__SUPPORT.BIN.jsonl": {
+   "records": 308,
+   "sha256": "7127423b55f54d9c40c427e8f6a29b5805ddcad0816ec99eb9d0aa3a495b95ee"
+  },
+  "FLOW_PRG__S_SELECT.BIN.jsonl": {
+   "records": 49,
+   "sha256": "8fd2463363d36cb9056e136c8663d2670db9e9f992555126985184688b0ce714"
+  },
+  "FLOW_PRG__TITLE.BIN.jsonl": {
+   "records": 1984,
+   "sha256": "cc52e58f90e82b1a4c17be1b2969dc5ecd01513e8385a9241041d3498fd1d757"
+  },
+  "FLOW_PRG__TOWN.BIN.jsonl": {
+   "records": 1916,
+   "sha256": "d155136a40b5b7a34bcae808608307027c5935a4bccca563cde0740e9555c07d"
+  },
+  "FLOW_PRG__TOWNDATA.BIN.jsonl": {
+   "records": 1570,
+   "sha256": "73622e321950c064cf7316d5b57854b9121a156cf16f82d1ecb2b708cedb6b72"
+  },
+  "FLOW_PRG__TRAINING.BIN.jsonl": {
+   "records": 3076,
+   "sha256": "e99917641c5a21e1a9408080e03bdef4d065d703829a96bda828d00200c34d34"
+  },
+  "FLOW_PRG__TV_EVENT.BIN.jsonl": {
+   "records": 114,
+   "sha256": "11809257df17aa0b1bac319fb7f3be76a2f3e5a3cef2f91e128cc9e07f15b08a"
+  },
+  "FLOW_PRG__VTRLOAD.BIN.jsonl": {
+   "records": 13393,
+   "sha256": "95b26b56eee699bf08ea1acc96e24122c8bf5dd934bcc03993b431a5cffdaca3"
+  },
+  "FLOW_PRG__WEEKLY.BIN.jsonl": {
+   "records": 2680,
+   "sha256": "22bbaf3a7344610abeba1c08992255364a9636c6ec3afcc27ea0bd07daa8dda4"
+  },
+  "FLOW_PRG__YOUTH.BIN.jsonl": {
+   "records": 1020,
+   "sha256": "75edf2c86ebfecc35445ebf5adfca5c8220a4c77e3140fde1549d88a8be0c45c"
+  },
+  "ROOT__1ST_READ.BIN.jsonl": {
+   "records": 204,
+   "sha256": "a3cca4906191c962ae3f3432361d87d9bce2dabdf49eb4d1e9f01042d50cbb14"
+  },
+  "ROOT__2_DP.BIN.jsonl": {
+   "records": 157,
+   "sha256": "96eb7daab9b17d2e6000d508fd38f4a4712a6025d5f33eb4ee4305273d6ad4cd"
+  },
+  "refit/ATFIRST__HELP.BIN.jsonl": {
+   "records": 4,
+   "sha256": "08d5cb47a44154a6271dad200fec3cdd27023776ca5a4f56577d51b22f74fd19"
+  },
+  "refit/ATFIRST__TITLE.BIN.jsonl": {
+   "records": 92,
+   "sha256": "117005ed021c7052daba32486a76395d15031ee28367dbcde0203bd47d6dceaa"
+  },
+  "refit/ETC_DATA__BPINFO.BIN.jsonl": {
+   "records": 1,
+   "sha256": "d72b9397a8abfacd87ecd96736f876df4fc8e82e1cfa74677ef6c7c621b80643"
+  },
+  "refit/FLOW_PRG__ABROAD.BIN.jsonl": {
+   "records": 87,
+   "sha256": "e941bf5aa05c31fbf8fcffc259357ef5098bfe293dec03fb9b264127dee91938"
+  },
+  "refit/FLOW_PRG__AUTOSAVE.BIN.jsonl": {
+   "records": 2059,
+   "sha256": "2c201c0dc1e5d1249a9857efa125e2ee356c5c828ee385035afd76acc0fd67f0"
+  },
+  "refit/FLOW_PRG__BACKUP.BIN.jsonl": {
+   "records": 2022,
+   "sha256": "7139762a735db690276ee667d178913b1fabe0d3b300730bef7cf16ee100b919"
+  },
+  "refit/FLOW_PRG__BPMATCH.BIN.jsonl": {
+   "records": 2059,
+   "sha256": "416c8447aecd956fa246f4401b56b4c102e38f50c2d2dbebce7c802f12bcad19"
+  },
+  "refit/FLOW_PRG__BPMWEEK.BIN.jsonl": {
+   "records": 79,
+   "sha256": "6b34a8fcaa6ba26d391f43c9d41eb2dd108fbc33cda8ffe24dd46eb1205d6062"
+  },
+  "refit/FLOW_PRG__CAP_SLCT.BIN.jsonl": {
+   "records": 88,
+   "sha256": "dd644f84832a64fa1dec7a238e6d8b85ae46aef85d8f331fc4d48a26e89e4633"
+  },
+  "refit/FLOW_PRG__CE_VS.BIN.jsonl": {
+   "records": 88,
+   "sha256": "5c727892340fc89b2114034cd5f980bd262475412df6a36550a8b793212b0a1b"
+  },
+  "refit/FLOW_PRG__CHALDANI.BIN.jsonl": {
+   "records": 73,
+   "sha256": "360b85f40a7908a551dded99650b576631f3a45e93b089f975c5d0a9c2209cb5"
+  },
+  "refit/FLOW_PRG__CHALMODE.BIN.jsonl": {
+   "records": 1988,
+   "sha256": "253ef19ae77c003bec3d77a6df678e4ec49f2f7b72e730cf091fb4f49bc11046"
+  },
+  "refit/FLOW_PRG__CLUBEDIT.BIN.jsonl": {
+   "records": 79,
+   "sha256": "08fc5cd23af1da97e3caab1d5c538914dbb2a9a68078bbccab08a51c668f3a5b"
+  },
+  "refit/FLOW_PRG__CSAVE.BIN.jsonl": {
+   "records": 2059,
+   "sha256": "1b4b57d18879b7dc4846a8c314b9b3a2ffdfb3c2248b472dbdcd3a0b2c330017"
+  },
+  "refit/FLOW_PRG__CSAVE3.BIN.jsonl": {
+   "records": 1712,
+   "sha256": "67dee28e90596adeaa7276bd819120180f4e8abdb8d42e8ed843fe25757caa69"
+  },
+  "refit/FLOW_PRG__CSAVE4.BIN.jsonl": {
+   "records": 2059,
+   "sha256": "658d13145eb62463870774ad2ad68936287a96a58ea42336bbdff4e66f46fb50"
+  },
+  "refit/FLOW_PRG__DATAROOM.BIN.jsonl": {
+   "records": 92,
+   "sha256": "17e21ce04fa5b8a159b5f36ae90fd6a6c0702bda8bc7f39fc357f896c5156182"
+  },
+  "refit/FLOW_PRG__DMCLBEDT.BIN.jsonl": {
+   "records": 2057,
+   "sha256": "cc343951cbe5e39057ae9f52eb7522bfc05d91189cb75600f89a4c81c4319306"
+  },
+  "refit/FLOW_PRG__DRAFT.BIN.jsonl": {
+   "records": 88,
+   "sha256": "7352e2e29bd1eec026604fc52272230db5668804856cbec628c9e5e230debb6f"
+  },
+  "refit/FLOW_PRG__DRSBEST.BIN.jsonl": {
+   "records": 88,
+   "sha256": "5c235bff6edb25127e40c69b61d1197231de9a63238c9e326d03145dc12c8006"
+  },
+  "refit/FLOW_PRG__DRSDENDO.BIN.jsonl": {
+   "records": 79,
+   "sha256": "302433d682388462347388b22cc3637a2dbc56e1a0208efaa1c52c9c07810d89"
+  },
+  "refit/FLOW_PRG__DRSGP.BIN.jsonl": {
+   "records": 49,
+   "sha256": "248d5713a5d66416aa8973ede8aa33f7131f8a36b2c15d6493d65dd92b02f8ba"
+  },
+  "refit/FLOW_PRG__DRSGRF.BIN.jsonl": {
+   "records": 88,
+   "sha256": "3f45c5d5bc25f070da7223d1ec1ce602babd9cdcfd3a05da8d8dfdf96c287fe6"
+  },
+  "refit/FLOW_PRG__DRSGRFJ.BIN.jsonl": {
+   "records": 88,
+   "sha256": "478ca15cb0e08d81b9aba5293828719e6fafd85f5f690457c705f999286a6136"
+  },
+  "refit/FLOW_PRG__DRSHRANK.BIN.jsonl": {
+   "records": 79,
+   "sha256": "1a4955ab5ae7c4150314e3995145434ee6631ed763cc28f4ba43555b33fdceeb"
+  },
+  "refit/FLOW_PRG__DRSISEKI.BIN.jsonl": {
+   "records": 88,
+   "sha256": "6a2ccd980675cdee7cc53cdf37a28a87f6ad8204ed16c9de92926cd45b485ee1"
+  },
+  "refit/FLOW_PRG__DRSLIST.BIN.jsonl": {
+   "records": 79,
+   "sha256": "9c15473f04d1cd63460c5b49d99d3a2172ccc8f0cd1892def33ff096da1f6049"
+  },
+  "refit/FLOW_PRG__DRSOLIST.BIN.jsonl": {
+   "records": 88,
+   "sha256": "109a29ecb3e7cab41580a70173efa8beab6e7e4456252707380b4f8535ed552f"
+  },
+  "refit/FLOW_PRG__DRSRANK.BIN.jsonl": {
+   "records": 88,
+   "sha256": "10d1b477d33927554ec699c7e689497b89e1223d5e1d18b23318912bba796345"
+  },
+  "refit/FLOW_PRG__ENDING.BIN.jsonl": {
+   "records": 93,
+   "sha256": "4a6095bfad3106c9d3a4a3d980271e2bb055ce192e42741bc97f8102b0db7333"
+  },
+  "refit/FLOW_PRG__ENDOPT.BIN.jsonl": {
+   "records": 2059,
+   "sha256": "e09a3acac4136a03afc9a5f7af5e4d67730ad37262a469600f031ad2fbbe38ca"
+  },
+  "refit/FLOW_PRG__EVENT.BIN.jsonl": {
+   "records": 148,
+   "sha256": "93374675cf0e7e04e6fd07f42b325f6badcc2dd22e94577ba10260e9a862c809"
+  },
+  "refit/FLOW_PRG__EXFLAG.BIN.jsonl": {
+   "records": 2059,
+   "sha256": "a3c7243826f0fd0ffdb763f3a23559d2455e97d056673215e94094c10be736b2"
+  },
+  "refit/FLOW_PRG__EXTRADE.BIN.jsonl": {
+   "records": 2059,
+   "sha256": "f035c1707122c2f1c431837f0d03a0742c76af7b556b27f4010f2e0cfe56bae3"
+  },
+  "refit/FLOW_PRG__FIRE.BIN.jsonl": {
+   "records": 79,
+   "sha256": "7a9178575ada0d9f24c98b7d44a63bff6ced5c7701f02dfecf3e1ad1876cc9b9"
+  },
+  "refit/FLOW_PRG__FREELOAD.BIN.jsonl": {
+   "records": 1913,
+   "sha256": "f1a0b81cdf2f75bd07cf8dcfe33ad32feb82275da87eb421b77d03860d485905"
+  },
+  "refit/FLOW_PRG__GAME.BIN.jsonl": {
+   "records": 90,
+   "sha256": "14c777f7e26171827ff63308dd29aae8e791eb80c8eab94ca4e73a1560618426"
+  },
+  "refit/FLOW_PRG__GAMEOVER.BIN.jsonl": {
+   "records": 79,
+   "sha256": "3241be0e699ed61ca342db0520a7bb2fb8c8fe5c0b57f530360d571b51ee5d0c"
+  },
+  "refit/FLOW_PRG__GETREP.BIN.jsonl": {
+   "records": 93,
+   "sha256": "097cc4f1f1579040b05277882dbfa676b9aaa93e2fdb4a129361a8eb13ce294d"
+  },
+  "refit/FLOW_PRG__G_INCOME.BIN.jsonl": {
+   "records": 88,
+   "sha256": "3f71402ab00e69c0606de7f5a34eb1c08638df87ee414126be9d5e52ce213376"
+  },
+  "refit/FLOW_PRG__G_RESULT.BIN.jsonl": {
+   "records": 88,
+   "sha256": "364c3bc4fd97d11dc285deb12a921d292d6bc02e413c13bcf136309afc02d087"
+  },
+  "refit/FLOW_PRG__HELP.BIN.jsonl": {
+   "records": 4,
+   "sha256": "911e98e7f3a4ea41ce208dcca761bd2dd5a7cad1b470ff4c14868775b2f5590c"
+  },
+  "refit/FLOW_PRG__HEREWEGO.BIN.jsonl": {
+   "records": 79,
+   "sha256": "2a3ef5f38061715fec05be86587a61f85ac399612c6d92ed02bd08e9e8f58b48"
+  },
+  "refit/FLOW_PRG__HOMETOWN.BIN.jsonl": {
+   "records": 9,
+   "sha256": "c24715617a25bdecfd865c4914b1724a3a9630aa970af68b449e8495f72bfeda"
+  },
+  "refit/FLOW_PRG__LOAD.BIN.jsonl": {
+   "records": 2059,
+   "sha256": "3be99130277f5f5353de1752ab7e9961b32f3871fd0422f1dc13a34a1d0cd519"
+  },
+  "refit/FLOW_PRG__LOCAL.BIN.jsonl": {
+   "records": 4,
+   "sha256": "70cc835e175ba193d470331d86a004c61d7d1d40d548d7a79573ac8ae073909f"
+  },
+  "refit/FLOW_PRG__MEETING.BIN.jsonl": {
+   "records": 83,
+   "sha256": "6851a790bbc9826944d539d68d595254a7ecf8b389bdb83a5d3799ea8ff03ec7"
+  },
+  "refit/FLOW_PRG__MON_INST.BIN.jsonl": {
+   "records": 79,
+   "sha256": "f109288676d5c4f42efb5bbddc7f28e41bc5266170bc4f8b5cd96ac00a2c3824"
+  },
+  "refit/FLOW_PRG__NENREP.BIN.jsonl": {
+   "records": 7,
+   "sha256": "4a91d022b944d50c0889c03ee1acd46d7dbbf26d8885e62469255ded3aeec811"
+  },
+  "refit/FLOW_PRG__NEWCON.BIN.jsonl": {
+   "records": 88,
+   "sha256": "ce8c53f4cf7eb82a1a5e4700400e44ac08d66844480e64f848386e71fffc2ce1"
+  },
+  "refit/FLOW_PRG__NEWS.BIN.jsonl": {
+   "records": 93,
+   "sha256": "0c3296f6c8c16b9c14c5b7d6083b6649858ef2fbf592323d19863d4c5947b1f0"
+  },
+  "refit/FLOW_PRG__NEWS_ED.BIN.jsonl": {
+   "records": 88,
+   "sha256": "850b0648d7c6bb4342c3092fb15e2a31faf5c36e6b8caeca0c55ac2bae3c56d6"
+  },
+  "refit/FLOW_PRG__NEWS_OP.BIN.jsonl": {
+   "records": 88,
+   "sha256": "5c63162a3522b3b4db230c7d8c5e64c776e6c0ab46db2fc19fd101b19eb2102e"
+  },
+  "refit/FLOW_PRG__NEWUNIF.BIN.jsonl": {
+   "records": 79,
+   "sha256": "851b5b6af24b7ca1027d16a487b15402cc1e512c4c782ac263452acba9384361"
+  },
+  "refit/FLOW_PRG__OFFICE.BIN.jsonl": {
+   "records": 88,
+   "sha256": "5229c0f1a4b84b2e760b925c1aed968fbf5514d42810cbeab2a387dc1242e936"
+  },
+  "refit/FLOW_PRG__PLNUMSET.BIN.jsonl": {
+   "records": 951,
+   "sha256": "7cb4ffc492b97ba70954ffffda9c8e3b1d6068e026f3556b677e13dc96e5363c"
+  },
+  "refit/FLOW_PRG__PL_EDIT.BIN.jsonl": {
+   "records": 952,
+   "sha256": "3bf46fbb726d51f03158b1c2e2295334481693b3048526b9692ee2fa8323a1cf"
+  },
+  "refit/FLOW_PRG__PWK_EDIT.BIN.jsonl": {
+   "records": 79,
+   "sha256": "47c1b53f53f8f28dd9fdac574bf9401f42bcb010cfa9d3fa34fb2eeaafdbbc71"
+  },
+  "refit/FLOW_PRG__RECON.BIN.jsonl": {
+   "records": 79,
+   "sha256": "0906dd19bbd0e8535d6cc16ad0ce8f22ee8fe7e9fb17b9c0306d6d147888f91f"
+  },
+  "refit/FLOW_PRG__SCDRF.BIN.jsonl": {
+   "records": 83,
+   "sha256": "6ba5ef8801fba04d3e2321032e379cb3efee34bc20a35f310daa6497e7be86f0"
+  },
+  "refit/FLOW_PRG__SCHE0.BIN.jsonl": {
+   "records": 95,
+   "sha256": "057fbbf3be6bded585d4b90cb625b7074743d67782ecdb53201165c9d5d4d785"
+  },
+  "refit/FLOW_PRG__SCHE1.BIN.jsonl": {
+   "records": 95,
+   "sha256": "1c1244a563e1b0c6b73b786714dc7f4ba1fd69c9fddd1f4a48c0cd2c0674a712"
+  },
+  "refit/FLOW_PRG__SEARCH.BIN.jsonl": {
+   "records": 93,
+   "sha256": "553fe8f2e83376c770d37d4c921488c48b9dd44b56bbc90a8742781f10def3f8"
+  },
+  "refit/FLOW_PRG__SELNAT.BIN.jsonl": {
+   "records": 84,
+   "sha256": "cac7db4c1461e3d54599a5c21d792e5e932c980511c75caa671924471af9b870"
+  },
+  "refit/FLOW_PRG__SONGSAVE.BIN.jsonl": {
+   "records": 1913,
+   "sha256": "069bc7e16e81fdeda4406579368030f6e150ff4b9ce1099845d4a5c6129a4fb1"
+  },
+  "refit/FLOW_PRG__SPF_READ.BIN.jsonl": {
+   "records": 2072,
+   "sha256": "7d40d727665a094e665b57ef70bc52569113402fee9b5d2099e429d5453cce61"
+  },
+  "refit/FLOW_PRG__SPONSOR.BIN.jsonl": {
+   "records": 79,
+   "sha256": "67756dc4df8e5235508d670290417385a1f8c72311e084507f73fadedd7edc3a"
+  },
+  "refit/FLOW_PRG__SPONSOR2.BIN.jsonl": {
+   "records": 79,
+   "sha256": "2efa4c5c33ec08f703b0391d28168ac9961b47a9676c79b88e73a292be8b9f7b"
+  },
+  "refit/FLOW_PRG__SUPPORT.BIN.jsonl": {
+   "records": 79,
+   "sha256": "626054522122753e5ce4cd65b6e61ea09a813540b0c03b186ed31a27d0fd19e8"
+  },
+  "refit/FLOW_PRG__TITLE.BIN.jsonl": {
+   "records": 92,
+   "sha256": "4ff8bb16b634f71f98c88c88aace0def884dfa7c2e7ad3cd328edce43a3385fd"
+  },
+  "refit/FLOW_PRG__TOWN.BIN.jsonl": {
+   "records": 88,
+   "sha256": "dd614d49863b1d36d7af06b077657ee0e8a79eb66fc648552e3abee30eb1d942"
+  },
+  "refit/FLOW_PRG__TRAINING.BIN.jsonl": {
+   "records": 88,
+   "sha256": "7844a71229a11c4fa04dca0d6c6276555930e442fb92ba29b4555a3feda77449"
+  },
+  "refit/FLOW_PRG__VTRLOAD.BIN.jsonl": {
+   "records": 1915,
+   "sha256": "64033685389df2c14a0af8669bd75e86f4b30281fb5ad23d7baaf2181e16e26a"
+  },
+  "refit/FLOW_PRG__WEEKLY.BIN.jsonl": {
+   "records": 90,
+   "sha256": "71dea23b5437bdf9d4226b5c1a2f2a7c285298629eaa5793360fa6403d3fc6e3"
+  },
+  "refit/FLOW_PRG__YOUTH.BIN.jsonl": {
+   "records": 88,
+   "sha256": "99518506133bc63b445114cc25d3f2093448be045db20ae588966b4074cc0d20"
+  }
+ },
+ "game": {
+  "product": "HDR-0183",
+  "title": "Sakatsuku Tokudaigou 2 - J.League Pro Soccer Club o Tsukurou! (Japan)"
+ },
+ "hash": {
+  "algorithm": "sha256",
+  "encoding": "hex",
+  "input": "raw cp932 bytes of the string as stored on the disc, without the terminator",
+  "truncate_bytes": 16
+ },
+ "l10n_format": 1,
+ "totals": {
+  "files": 194,
+  "records": 436994
+ }
+}

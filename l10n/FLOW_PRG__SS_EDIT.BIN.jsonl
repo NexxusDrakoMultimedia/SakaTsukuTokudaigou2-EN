@@ -1,0 +1,120 @@
+{"l10n":1,"kind":"main","style":"compact","n":119,"final_newline":true,"src":"FLOW_PRG/SS_EDIT.BIN"}
+{"id":"1058c","jah":"fd9e3dc01cfee8c4ad7d909e16545d56","en":"Set up and assign chants for our club.\nChoose the chant you want to set.","max_bytes":91,"refs":1,"ctx":"tbl@df50[0/15]"}
+{"id":"105e7","jah":"745999c50fa9c9712fa2e3c8fe2b51c4","en":"Set up and assign chants for the\nJapan National Team.\nChoose the chant you want to set.","max_bytes":85,"refs":1,"ctx":"tbl@df50[1/15]"}
+{"id":"1063c","jah":"440ea012ffba290ca0ad8e50693fd097","en":"Which situation is the chant for?\nChoose from four situations.","max_bytes":81,"refs":1,"ctx":"tbl@df50[2/15]"}
+{"id":"1068d","jah":"258e9392244f4e3ab1788b833085e958","en":"Supporters sing this freely, whatever\nthe state of the match. A tune with\nbroad appeal would work best.","max_bytes":107,"refs":1,"ctx":"tbl@df50[3/15]"}
+{"id":"106f8","jah":"3e7798ff54ff1527d2488f0b21733c4f","en":"Sung when the match is going badly, to\nencourage the players. A stirring tune\nwould suit it well.","max_bytes":87,"refs":1,"ctx":"tbl@df50[4/15]"}
+{"id":"1074f","jah":"677224d45dfde56c0ff9f815bf01ed84","en":"Sung during matches to lift spirits.\nUsed when you want to turn the tide, so\nthe club's main theme would be ideal.","max_bytes":111,"refs":1,"ctx":"tbl@df50[5/15]"}
+{"id":"107be","jah":"73ec823a918cffed90038d920c45feaa","en":"Sung when you hold the momentum.\nA cheerful tune to keep up the pressure\nwould be a good choice, I think.","max_bytes":101,"refs":1,"ctx":"tbl@df50[6/15]"}
+{"id":"10823","jah":"42a62800018f3f46151dcdf478f15bac","en":"Choose which chant to sing. Pick from\nthe built-in tunes or your save data.","max_bytes":91,"refs":1,"ctx":"tbl@df50[7/15]"}
+{"id":"1087e","jah":"92ca2d1f5d1575a263f4d04b26b442af","en":"Choose from the built-in\ntunes or the tunes in\na save file?","max_bytes":67,"refs":1,"ctx":"tbl@df50[8/15]"}
+{"id":"108c1","jah":"4f4aa9a3ebce719415be5f81cb9ef960","en":"Pick a tune from the list. Load it in\nthe Chant Editor to preview it.","max_bytes":87,"refs":1,"ctx":"tbl@df50[9/15]"}
+{"id":"10918","jah":"a3d853438b6df104e1aa0c581f5d5dca","en":"Select the VMU holding the chant\nyou want to assign.","max_bytes":52,"refs":1,"ctx":"tbl@df50[10/15]"}
+{"id":"1094c","jah":"ef3b37e2a6ce62103231e4288f312479","en":"Which chant should be assigned?\nPlease select a file.","max_bytes":56,"refs":1,"ctx":"tbl@df50[11/15]"}
+{"id":"10984","jah":"33dcd72d986064c6401075d3b50c8914","en":"No chant save file\nwas found.","max_bytes":42,"refs":1,"ctx":"tbl@df50[12/15]"}
+{"id":"109ae","jah":"3b6db36b0a910dd93c65c0de13b4484c","en":"Chant loaded successfully.\nThis tune will be assigned.","max_bytes":54,"refs":1,"ctx":"tbl@df50[13/15]"}
+{"id":"109e4","jah":"9d506f34509197be48588240b13b5a8c","en":"Failed to load the chant.","max_bytes":32,"refs":1,"ctx":"tbl@df50[14/15]"}
+{"id":"10b8c","jah":"bee11fb3cf4bf4164fc176cebbb169cb","en":"Returned from the load screen.","max_bytes":32,"refs":1,"ctx":"ptr@5830"}
+{"id":"10bac","jah":"14538cb9674d3295e5b2287e3917819b","en":"Let's give the chant you're\nmaking a title.","max_bytes":48,"refs":1,"ctx":"tbl@f12c[0/76]"}
+{"id":"10bdc","jah":"dcd77a361460df97b12463fee34ea0c5","en":"Go to the score to compose a tune.\nPress @Y/X Button@ to play, again to stop.\nPick vowels on screen with @R/a@@Y/i@@G/u@@O/e@@B/o@.","max_bytes":143,"refs":1,"ctx":"tbl@f12c[1/76]"}
+{"id":"10c6b","jah":"30ba1a19a4374856993f96f108189bcf","en":"Let's change the score layout.\nPick 3 or 4 beats per section,\nwhichever is easier to read.","max_bytes":89,"refs":1,"ctx":"tbl@f12c[2/76]"}
+{"id":"10cc4","jah":"fbc7654ef35a4242afa11340568b9646","en":"You can change the tune's speed.\nIt's usually set to speed \"5\".","max_bytes":68,"refs":1,"ctx":"tbl@f12c[3/76]"}
+{"id":"10d08","jah":"c2c49a0af6c0806a6865d67093cf0149","en":"I'll load tunes I've prepared and chant\ndata saved on the VMU. You can listen\nto them and edit them, too.","max_bytes":95,"refs":1,"ctx":"tbl@f12c[4/76]"}
+{"id":"10d67","jah":"b45a203e3ddac5c183d5da9cf85b4ffc","en":"Save your current chant to the VMU.\nSaving is needed once before it can be\nassigned to a chant in a match.","max_bytes":103,"refs":1,"ctx":"tbl@f12c[5/76]"}
+{"id":"10dce","jah":"f3833db2d19017f78babe8d32d4a570b","en":"Quit making chants and go back to the\nSupporters' Club. Anything unsaved will\nbe lost, so take care.","max_bytes":101,"refs":1,"ctx":"tbl@f12c[6/76]"}
+{"id":"10e33","jah":"c491b9ace6635553d43c7ce78ab09797","en":"Press @P/A Button@ where you want a note.\nHold @P/A Button@ + right to extend it.\nPress @B/B Button@ to finish composing.","max_bytes":127,"refs":1,"ctx":"tbl@f12c[7/76]"}
+{"id":"10eb2","jah":"72f12b9a6096e92e76eabbd1a25bc41a","en":"On a note, like now, you can also\nerase it with @B/B Button@.","max_bytes":66,"refs":1,"ctx":"tbl@f12c[8/76]"}
+{"id":"10ef4","jah":"0627515c511db37d491b9fdbed06f69f","en":"Let's place the rhythm sounds.\nAt the same spot, hold @R/A Button@ to\nchange the instrument.","max_bytes":93,"refs":1,"ctx":"tbl@f12c[9/76]"}
+{"id":"10f51","jah":"11853ff70be1ab159be0755b8cd2df5c","en":"Of the vowels @R/a@@Y/i@@G/u@@O/e@@B/o@,\nI'm picking \"@R/a@\".","max_bytes":66,"refs":1,"ctx":"tbl@f12c[10/76]"}
+{"id":"10f93","jah":"594f30863be5958881dd5c1f9f521796","en":"Of the vowels @R/a@@Y/i@@G/u@@O/e@@B/o@,\nI'm picking \"@Y/i@\".","max_bytes":66,"refs":1,"ctx":"tbl@f12c[11/76]"}
+{"id":"10fd5","jah":"a5bc1052e199d51853fbc0b472cddfb0","en":"Of the vowels @R/a@@Y/i@@G/u@@O/e@@B/o@,\nI'm picking \"@G/u@\".","max_bytes":66,"refs":1,"ctx":"tbl@f12c[12/76]"}
+{"id":"11017","jah":"ecf2b03af5fc108b3b2cbba5950d7f93","en":"Of the vowels @R/a@@Y/i@@G/u@@O/e@@B/o@,\nI'm picking \"@O/e@\".","max_bytes":66,"refs":1,"ctx":"tbl@f12c[13/76]"}
+{"id":"11059","jah":"50c1ac6a1e7f680fc87d67f2b78f3d62","en":"Of the vowels @R/a@@Y/i@@G/u@@O/e@@B/o@,\nI'm picking \"@B/o@\".","max_bytes":66,"refs":1,"ctx":"tbl@f12c[14/76]"}
+{"id":"1109b","jah":"ba2cd37849c231dceedd2fcce658172f","en":"Triplets for advanced users.\nAfter choosing this, select part of the\nscore to use triplets. Press @B/B@ to end.","max_bytes":121,"refs":1,"ctx":"tbl@f12c[15/76]"}
+{"id":"11114","jah":"2d5951c6f864bc33534ac49f3d597c99","en":"Choose this to copy a selected section\nand paste it. Handy when you want to\nrepeat something.","max_bytes":99,"refs":1,"ctx":"tbl@f12c[16/76]"}
+{"id":"11177","jah":"68714f7ac2d1d54416a81626045a2973","en":"Now hold @R/A Button@ and press the D-pad\nleft or right to widen the section you\nwant to copy.","max_bytes":97,"refs":1,"ctx":"tbl@f12c[17/76]"}
+{"id":"111d8","jah":"934a56f3b9a9bf207c754b8a0bb3c43e","en":"Here, move left or right to grab the\n@B/\"REPEAT\"@ and @O/\"END\"@ markers.","max_bytes":79,"refs":1,"ctx":"tbl@f12c[18/76]"}
+{"id":"11227","jah":"2ef850fa62b0d3e395ea71798ff6092b","en":"You can set where the tune returns to\nafter one loop. Grab it with @R/A Button@,\nthen move it with the left/right keys.","max_bytes":105,"refs":1,"ctx":"tbl@f12c[19/76]"}
+{"id":"11290","jah":"ead8087b727d333b7ab2078714b1f124","en":"You can change the end of the tune.\nGrab it with @R/A Button@ and\nmove it left or right.","max_bytes":81,"refs":1,"ctx":"tbl@f12c[20/76]"}
+{"id":"112e1","jah":"efb3d2868173f32c19dc4ef8ea47e27c","en":"Pick from the tunes I made,\nor from a save file?","max_bytes":61,"refs":1,"ctx":"tbl@f12c[21/76]"}
+{"id":"1131e","jah":"6e2793ee9080018b6b153d26ef465033","en":"Choose a tune from the list. You can\nuse it as a base to change and fix up.","max_bytes":77,"refs":1,"ctx":"tbl@f12c[22/76]"}
+{"id":"1136b","jah":"d00b28b108c8db8b5d96de414be75df1","en":"Pick the VMU with the chant you\nwant to load.","max_bytes":46,"refs":1,"ctx":"tbl@f12c[23/76]"}
+{"id":"11399","jah":"756793d6ba75fe193ced4fe50879cfbb","en":"Which chant do you want to load?\nPick a file.","max_bytes":46,"refs":1,"ctx":"tbl@f12c[24/76]"}
+{"id":"113c7","jah":"4d14e6e0a919181d7d5b6ab00214d1d1","en":"I couldn't find a chant\nsave file.","max_bytes":46,"refs":1,"ctx":"tbl@f12c[25/76]"}
+{"id":"113f5","jah":"16016fed4f5363295e5445a5aa06f6a5","en":"The chant loaded fine.\nI'll show it on the score.","max_bytes":54,"refs":1,"ctx":"tbl@f12c[26/76]"}
+{"id":"1142b","jah":"2df133b1eb00d10c02f5dc27f8ceda7d","en":"Oops, the chant failed to load.","max_bytes":35,"refs":1,"ctx":"tbl@f12c[27/76]"}
+{"id":"1144e","jah":"7470612c8374563662c33c1256305386","en":"I'll mark off part of the score for\ntriplets. It's for music buffs.\nPress @B/B Button@ to finish this.","max_bytes":97,"refs":1,"ctx":"tbl@f12c[28/76]"}
+{"id":"114af","jah":"7d403cbb078001e6f2deccadeee658b8","en":"Decide where the tune restarts from\nafter it loops round.\nSet it with @R/A Button@.","max_bytes":87,"refs":1,"ctx":"tbl@f12c[29/76]"}
+{"id":"11506","jah":"9ce88ea66f52c0d410e24a34fbea46a6","en":"Decide where the tune ends.\nSet it with @R/A Button@.","max_bytes":60,"refs":1,"ctx":"tbl@f12c[30/76]"}
+{"id":"11542","jah":"a46b0b52229beca6439c2c535734170c","en":"Often used in Japanese support:\n\"@R/Taiko@1\".","max_bytes":45,"refs":1,"ctx":"tbl@f12c[31/76]"}
+{"id":"1156f","jah":"372148350d61c03d3d83717fb74af55e","en":"Often used in Japanese support:\n\"@G/Taiko@2\".","max_bytes":45,"refs":1,"ctx":"tbl@f12c[32/76]"}
+{"id":"1159c","jah":"3c67ad482d072ed2b136718e2639d704","en":"Often used in Japanese support:\n\"@B/Taiko@3\".","max_bytes":45,"refs":1,"ctx":"tbl@f12c[33/76]"}
+{"id":"115c9","jah":"6acc1f57651bf82ade651431c44749a9","en":"\"@Y/Cymbal@\" it is.\nA familiar instrument.","max_bytes":44,"refs":1,"ctx":"tbl@f12c[34/76]"}
+{"id":"115f5","jah":"21ef56c1c033bbb5c475aa61fc9d4665","en":"A drum used in Africa.\nIt's called \"@Y/Djembe@1\".","max_bytes":65,"refs":1,"ctx":"tbl@f12c[35/76]"}
+{"id":"11636","jah":"e85cda606d024ca733ceea522c2b8ecc","en":"A drum used in Africa.\nIt's called \"@Y/Djembe@2\".","max_bytes":65,"refs":1,"ctx":"tbl@f12c[36/76]"}
+{"id":"11677","jah":"c921095b3e399a8c1ed24864b6bfd323","en":"An instrument used in Asia.\nIt's called \"@Y/Daira@\".\nIt's a type of gong.","max_bytes":93,"refs":1,"ctx":"tbl@f12c[37/76]"}
+{"id":"116d4","jah":"2bde881387d0d5ae7b816e949074f2df","en":"An instrument used in Asia.\nIt's called \"@Y/Shura@\".\nIt's a type of gong.","max_bytes":93,"refs":1,"ctx":"tbl@f12c[38/76]"}
+{"id":"11731","jah":"1a4667e057e81738d8cb69cb24ba598c","en":"A drum used in South America, such as\nBrazil. It's called \"@Y/Frame Drum@1\".","max_bytes":77,"refs":1,"ctx":"tbl@f12c[39/76]"}
+{"id":"1177e","jah":"342c05699dd22bbc3e2aff212e5af758","en":"A drum used in South America, such as\nBrazil. It's called \"@Y/Frame Drum@2\".","max_bytes":77,"refs":1,"ctx":"tbl@f12c[40/76]"}
+{"id":"117cb","jah":"79e6d6cc239df5aecbc719475452c4e4","en":"\"@Y/Clapping@\" it is.\nAlso known as a hand clap.","max_bytes":52,"refs":1,"ctx":"tbl@f12c[41/76]"}
+{"id":"117ff","jah":"7561c24dff594edbbd77db5d802e4173","en":"It's a shout of \"@Y/Hey@\".\nA short one.","max_bytes":46,"refs":1,"ctx":"tbl@f12c[42/76]"}
+{"id":"1182d","jah":"93d63cfd29fb9ff89eec3aeda60d9489","en":"It's a shout of \"@Y/Hey@\".\nA medium-length one.","max_bytes":48,"refs":1,"ctx":"tbl@f12c[43/76]"}
+{"id":"1185d","jah":"f86a70ad64af5f8cd2c469d16039225c","en":"It's a shout of \"@Y/Hey@\".\nA long one.","max_bytes":46,"refs":1,"ctx":"tbl@f12c[44/76]"}
+{"id":"1188b","jah":"4532c2b7aaadd737ac0da95516ad6f9b","en":"The \"@Y/Hey!@\" part of the shout\n\"Hey, Goal!\"","max_bytes":66,"refs":1,"ctx":"tbl@f12c[45/76]"}
+{"id":"118cd","jah":"6c3ba2897036e0c90a38c9c79d87bef1","en":"The \"@Y/Goal!@\" part of the shout\n\"Hey, Goal!\"","max_bytes":68,"refs":1,"ctx":"tbl@f12c[46/76]"}
+{"id":"11911","jah":"ebf63ca700416590158cf409cb8a8d16","en":"You're choosing the @Y/\"Nip\"@ part of\nthe \"Nippon\" shout.","max_bytes":64,"refs":1,"ctx":"tbl@f12c[47/76]"}
+{"id":"11951","jah":"3e4eb0db244b90c1fa02e50feb342ae9","en":"You're choosing the @Y/\"pon\"@ part of\nthe \"Nippon\" shout.","max_bytes":64,"refs":1,"ctx":"tbl@f12c[48/76]"}
+{"id":"11991","jah":"a6aefdc00b3e6466a82ea6d35796eb51","en":"The voice for the letter \"@Y/A@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[49/76]"}
+{"id":"119d0","jah":"07d4675d3e404755855a8af6ffca8638","en":"The voice for the letter \"@Y/B@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[50/76]"}
+{"id":"11a0f","jah":"5ad049d5d1b7d450daa7f411cfdfc2b1","en":"The voice for the letter \"@Y/C@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[51/76]"}
+{"id":"11a4e","jah":"f3e07bc1bf1533b59f484070bfdcf643","en":"The voice for the letter \"@Y/D@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[52/76]"}
+{"id":"11a8d","jah":"4d71b185eed4d92ad3f5030f2b223afc","en":"The voice for the letter \"@Y/E@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[53/76]"}
+{"id":"11acc","jah":"75a8e053a7fe8a5e88d4f8f10d0301bb","en":"The voice for the letter \"@Y/F@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[54/76]"}
+{"id":"11b0b","jah":"a6311ea49cd965704d580aac725171fb","en":"The voice for the letter \"@Y/G@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[55/76]"}
+{"id":"11b4a","jah":"5187b943f8cf5ab57e04ed1f52fa4382","en":"The voice for the letter \"@Y/H@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[56/76]"}
+{"id":"11b89","jah":"b396c49085c33d6f415b66fa91ea5da9","en":"The voice for the letter \"@Y/I@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[57/76]"}
+{"id":"11bc8","jah":"b2bdae0145deb58485b0c2e9c18f39b1","en":"The voice for the letter \"@Y/J@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[58/76]"}
+{"id":"11c07","jah":"443f58e460aee54085030a73d7e1f57a","en":"The voice for the letter \"@Y/K@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[59/76]"}
+{"id":"11c46","jah":"330c0c8f9ffb9a653f1d6e8e624ce06f","en":"The voice for the letter \"@Y/L@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[60/76]"}
+{"id":"11c85","jah":"855dda4f8fb2c9e0b0473840c8cc10b8","en":"The voice for the letter \"@Y/M@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[61/76]"}
+{"id":"11cc4","jah":"a14a3962d7e5011c5f839a3b371b9632","en":"The voice for the letter \"@Y/N@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[62/76]"}
+{"id":"11d03","jah":"461932f9e8071f0f37686ae0eaa7edb7","en":"The voice for the letter \"@Y/O@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[63/76]"}
+{"id":"11d42","jah":"7b00e06aaac21dd81883c29fb30bd97a","en":"The voice for the letter \"@Y/P@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[64/76]"}
+{"id":"11d81","jah":"2af35c70e74e931785621237483d72e9","en":"The voice for the letter \"@Y/Q@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[65/76]"}
+{"id":"11dc0","jah":"759b9155f451f13ad167b62d788a1c80","en":"The voice for the letter \"@Y/R@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[66/76]"}
+{"id":"11dff","jah":"49b6ecca45b4011a507d6549f0c63b75","en":"The voice for the letter \"@Y/S@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[67/76]"}
+{"id":"11e3e","jah":"b2e9690c4a3c82d7ab3b9a08c53f114e","en":"The voice for the letter \"@Y/T@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[68/76]"}
+{"id":"11e7d","jah":"5d4389f6f04eb0241197cc1d9e9df268","en":"The voice for the letter \"@Y/U@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[69/76]"}
+{"id":"11ebc","jah":"8ae5e64bb7d2d41df34eafd21e0b4a94","en":"The voice for the letter \"@Y/V@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[70/76]"}
+{"id":"11efb","jah":"02011a140f06ddda67c96956e1a48c91","en":"The voice for the letter \"@Y/W@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[71/76]"}
+{"id":"11f3a","jah":"c13662ca2e305ccb7022e3f969cfa57c","en":"The voice for the letter \"@Y/X@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[72/76]"}
+{"id":"11f79","jah":"5ba8e97b74bdadbd6b78e9acb1350978","en":"The voice for the letter \"@Y/Y@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[73/76]"}
+{"id":"11fb8","jah":"48a82a187aa6b066428b048c08e7680c","en":"The voice for the letter \"@Y/Z@\".\nUseful for initials.","max_bytes":63,"refs":1,"ctx":"tbl@f12c[74/76]"}
+{"id":"11ff7","jah":"c38400133a70fab0f0fa8e96e1d747b7","en":"Huh?\nIs it OK to quit without saving?","max_bytes":45,"refs":1,"ctx":"tbl@f12c[75/76]"}
+{"id":"12030","jah":"6099ca0a5a9e8de206147d881a25defb","en":"Title TBA","max_bytes":16,"refs":1,"ctx":"ptr@5cec"}
+{"id":"12130","jah":"42dbdd09c2ca43be014ed3c6feca1e69","en":"AWW Panzerlied","max_bytes":24,"refs":1,"ctx":"tbl@f3f4[0/5]"}
+{"id":"12148","jah":"2dc493fd1b383baf0b884ad656d5524c","en":"PS Dungeon","max_bytes":16,"refs":1,"ctx":"tbl@f3f4[1/5]"}
+{"id":"12158","jah":"34e9c367a435a5f01741a60fc6979b94","en":"PS Motavia","max_bytes":16,"refs":1,"ctx":"tbl@f3f4[2/5]"}
+{"id":"12168","jah":"afd75becb2dcc9d54902cb8ee8c59076","en":"PS Palma","max_bytes":12,"refs":1,"ctx":"tbl@f3f4[3/5]"}
+{"id":"12174","jah":"b3d7bb7b0655f40893d6f39dd0f63df8","en":"V-Goal","max_bytes":12,"refs":1,"ctx":"tbl@f3f4[4/5]"}
+{"id":"12228","jah":"3a542eece2dd10cfd3e5c09cc3d9bff2","en":"Sega Anthem","max_bytes":12,"refs":1,"ctx":"ptr@f434"}
+{"id":"12234","jah":"151756485c840e2a111667ec1cf8268a","en":"Std. Chant","max_bytes":12,"refs":1,"ctx":"ptr@f438"}
+{"id":"122cc","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@8a58","skip":true}
+{"id":"122d0","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@8a60[0/3]","skip":true}
+{"id":"122d8","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@8a60[1/3]","skip":true}
+{"id":"122dc","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@8a60[2/3]","skip":true}
+{"id":"122e0","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@1229c[0/11]"}
+{"id":"122e4","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@1229c[1/11]"}
+{"id":"122e8","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@1229c[2/11]"}
+{"id":"122ec","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@1229c[3/11]"}
+{"id":"122f0","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@1229c[4/11]"}
+{"id":"122f4","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@1229c[5/11]"}
+{"id":"122f8","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@1229c[6/11]"}
+{"id":"122fc","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@1229c[7/11]"}
+{"id":"12300","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@1229c[8/11]"}
+{"id":"12304","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@1229c[9/11]"}
+{"id":"12308","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@1229c[10/11]"}
+{"id":"12384","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@8c94"}
+{"id":"12468","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@a064"}
+{"id":"12aa4","jah":"51a0d723363108c021cafa9f360b309f","en":"ktmascot.c Invalid team number:%d","max_bytes":36,"refs":1,"ctx":"ptr@a5d0"}
+{"id":"12dcc","jah":"6099ca0a5a9e8de206147d881a25defb","en":"Title TBA","max_bytes":16,"refs":1,"ctx":"ptr@ac64"}

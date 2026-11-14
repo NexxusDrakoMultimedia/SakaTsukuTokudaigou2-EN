@@ -1,0 +1,94 @@
+{"l10n":1,"kind":"refit","style":"spaced","n":93,"final_newline":true,"src":"FLOW_PRG/NEWS.BIN"}
+{"id":"bf700","jah":"928cde062b96cbda315229c72f34b80b","en":"Asia Winners Cup","why":"banner ASIA WINNERS CUP (BINDMTCH 13913) (was 'Asia Champ Cup')","cls":"other"}
+{"id":"bf710","jah":"8569d131212b18307e7fc870d5bc1090","en":"World Winners Cup","why":"banner WORLD WINNERS CUP (BINDMTCH 13914) (was 'World Champ Cup')","cls":"other"}
+{"id":"bf7a8","jah":"78e6c4fdfb74d2cbfd06a484a2b444a7","en":"Thanksgiving","why":"banner THANKSGIVING MATCH (BINDMTCH 13924), plate THANKS GIVING (was 'Fan Thanks')","cls":"other"}
+{"id":"bf830","jah":"234335af4ed86e244d86678a686e531d","en":"Sports Fest. Qual.","why":"banner WORLD SPORTS FESTIVAL QUALIFY (13933) (was 'World Games Qual.')","cls":"other"}
+{"id":"bf844","jah":"a394234b2b56a751b289c5be384b0251","en":"Sports Festival","why":"banner WORLD SPORTS FESTIVAL (BINDMTCH 13933 / 13934) (was 'World Games')","cls":"other"}
+{"id":"d2314","jah":"17e54583e2a69829ad775e02188e1539","en":"Avalanche","why":"logo Avalanche (English); 'Avalanc' is the 8-byte slot cut (was 'Avalanc')","cls":"club"}
+{"id":"d2324","jah":"b6ba59e4f78d39317a0373eb5b401c17","en":"Monolith","why":"logo MONOLITH (English); 'Monolit' is the 8-byte slot cut (was 'Monolit')","cls":"club"}
+{"id":"d2370","jah":"b6c3c255e54de02b70fe80fe3cd4507c","en":"Topolino","why":"logo Topolino (Italian 'little mouse'); 'Topolin' is the 8-byte slot cut (was 'Topolin')","cls":"club"}
+{"id":"d2394","jah":"bdc9917f0a7c5377f92ff048659c62a6","en":"Cielo","why":"logo CIELO (Spanish 'sky'); 'Cie' is the 4-byte slot cut (was 'Cie')","cls":"club"}
+{"id":"d2398","jah":"34b974fd24c8ea4ec22bb9b394ba9289","en":"Colmillo","why":"logo COLMILLO (Spanish 'fang'); 'Colmill' is the 8-byte slot cut (was 'Colmill')","cls":"club"}
+{"id":"d23a0","jah":"acb6c6a41d658dbed82b75e7461fe1da","en":"Corriente","why":"logo Corriente (Spanish 'current'); 'Corrien' is the 8-byte slot cut (was 'Corrien')","cls":"club"}
+{"id":"d23c4","jah":"4d269fac5204297c307f41a69eef1fa7","en":"Herencia","why":"logo HERENCIA (Spanish 'legacy'); 'Herenci' is the 8-byte slot cut (was 'Herenci')","cls":"club"}
+{"id":"d23fc","jah":"5897a76d6e3c61a34ee83078b425cfc2","en":"Panthera","why":"logo Panthera (Latin 'panther'); 'Panther' is the 8-byte slot cut (was 'Panther')","cls":"club"}
+{"id":"d240c","jah":"667878cc77fd5fa53cdd7d60fe0eb0da","en":"Rosa","why":"logo ROSA (Spanish 'rose'); 'Ros' is the 4-byte slot cut (was 'Ros')","cls":"club"}
+{"id":"128218","jah":"0af80e82f62cb52f602f775cc918f9d9","en":"JEF United","why":"logo art JEF UNITED (F03); JEF is the slot cut (was 'JEF')","cls":"jclub"}
+{"id":"128238","jah":"aaf12fb2bdb6267b3db0c8facc4cf5ce","en":"Bellmare","why":"Shonan Bellmare (style guide 8.1) (was 'Belmare')","cls":"jclub"}
+{"id":"128258","jah":"5257001f2713f636d511f6957d6f611a","en":"Purple Sanga","why":"Kyoto Purple Sanga (was 'PurpleSanga')","cls":"jclub"}
+{"id":"128274","jah":"a2255446499c05d2fe56ae4c2c057317","en":"Vissel Kobe","why":"logo art VISSEL KOBE (F14) (was 'Vissel')","cls":"jclub"}
+{"id":"12827c","jah":"a10fb15f4877cea2c4a7bbee1e64c57f","en":"Sanfrecce","why":"Sanfrecce Hiroshima (was 'Sanfrec')","cls":"jclub"}
+{"id":"12828c","jah":"98aef041effa5675c2e0aa59902748e1","en":"Consadole","why":"Consadole Sapporo (was 'Consado')","cls":"jclub"}
+{"id":"12829c","jah":"ed7454c7a16670804c09b3c445007b99","en":"Montedio","why":"Montedio Yamagata (was 'Montedo')","cls":"jclub"}
+{"id":"1282b8","jah":"be605122902addb49be4b17b89ee626e","en":"Frontale","why":"Kawasaki Frontale (was 'Frontal')","cls":"jclub"}
+{"id":"1282e8","jah":"dcb3be575c5c4d6e3a13c834d70ec1f4","en":"Hollyhock","why":"logo art HOLLYHOCK (clubwords_art F27); Mito Hollyhock (was 'Holyhok')","cls":"jclub"}
+{"id":"128344","jah":"8e90a9f7e065518f069f6fde4fb8ea3c","en":"Saudi Arabia","why":"'Saudi Arab.' (was 'Saudi Arab.')","cls":"nation"}
+{"id":"128350","jah":"6e4278ee4049a946cc6d5222ce2f278a","en":"Iran","why":"'IRN' (was 'IRN')","cls":"nation"}
+{"id":"128354","jah":"688a9dcc1f1fe35203303edf13cbc56d","en":"Thailand","why":"'THA' (was 'THA')","cls":"nation"}
+{"id":"128378","jah":"804dedc7d3faa54212f098fb674dd1fb","en":"Iraq","why":"'IRQ' (was 'IRQ')","cls":"nation"}
+{"id":"12837c","jah":"04560fe5e37872e5bdb05b1a9dbc6f9a","en":"Kazakhstan","why":"'Kazakh.' (was 'Kazakh.')","cls":"nation"}
+{"id":"128384","jah":"3887573b4f64bf221411d3d33e06d663","en":"Turkmenistan","why":"'Turkmen' (was 'Turkmen')","cls":"nation"}
+{"id":"1283a0","jah":"e3a4853a4a850e88d91015a7778dbb5b","en":"Indonesia","why":"'Indon.' (was 'Indon.')","cls":"nation"}
+{"id":"1283b4","jah":"3981f879dd27ff5b6b80382b9f0aca9e","en":"Malaysia","why":"'Malay.' (was 'Malay.')","cls":"nation"}
+{"id":"1283c4","jah":"b539093f790ca3783d8431d04eb78bec","en":"Tajikistan","why":"'Tajik.' (was 'Tajik.')","cls":"nation"}
+{"id":"1283e4","jah":"2fd67d8551393c8a5e800125c9f9812b","en":"Macau","why":"'MAC' (was 'MAC')","cls":"nation"}
+{"id":"1283f0","jah":"aab79c214bb26c1693c3f98e6a47ae2b","en":"Australia","why":"'Austral' (was 'Austral')","cls":"nation"}
+{"id":"128408","jah":"9884080639d0896b906348b0cb8db6b7","en":"Cameroon","why":"'Camern.' (was 'Camern.')","cls":"nation"}
+{"id":"128488","jah":"2774c595b23be0695cfafdf997c244b8","en":"Czech Rep.","why":"'CZE' (was 'CZE')","cls":"nation"}
+{"id":"1284b0","jah":"f6416ff3b1cd11f8ce992980315f7fde","en":"Russia","why":"'RUS' (was 'RUS')","cls":"nation"}
+{"id":"1284c4","jah":"45f8eeb909c0ecd8e44aa970a52f47ab","en":"Bulgaria","why":"'Bulg.' (was 'Bulg.')","cls":"nation"}
+{"id":"1284d8","jah":"d3b8ec46e7e353f572fe424782d2855d","en":"Portugal","why":"'Port.' (was 'Port.')","cls":"nation"}
+{"id":"1284e8","jah":"54ca015f29ba77afc7897d72235f4744","en":"Slovakia","why":"'Slovak.' (was 'Slovak.')","cls":"nation"}
+{"id":"128500","jah":"35b506bfa0e22daa41ef168e619a1a27","en":"Switzerland","why":"'SUI' (was 'SUI')","cls":"nation"}
+{"id":"128514","jah":"4b64792aba2b0a0d91b9ebd9da0e535b","en":"Turkey","why":"'TUR' (was 'TUR')","cls":"nation"}
+{"id":"128544","jah":"8c14f3320fc7dc72b2679ee3a62a0a73","en":"Argentina","why":"'Arg.' (was 'Arg.')","cls":"nation"}
+{"id":"128550","jah":"eb099d1078323ea83011052e66e34b76","en":"Colombia","why":"'Col.' (was 'Col.')","cls":"nation"}
+{"id":"12859c","jah":"d7099aa59801f49eeb3ec293e6d27576","en":"Costa Rica","why":"'C. Rica' (was 'C. Rica')","cls":"nation"}
+{"id":"1285b8","jah":"45af52067f918268d9c66d16a7e32d80","en":"Slovenia","why":"'Sloven.' (was 'Sloven.')","cls":"nation"}
+{"id":"1285d4","jah":"c3b6356c7180f72ada626830bd1eff82","en":"Seoul","why":"'SEO' (was 'SEO')","cls":"city"}
+{"id":"128610","jah":"00a4832aa3b818490b99ca766e4567ac","en":"Shanghai","why":"'Shangh.' (was 'Shangh.')","cls":"city"}
+{"id":"128628","jah":"7f6fcda6ed9bb8221d33700cc05d1dff","en":"Abu Dhabi","why":"'A.Dhabi' (was 'A.Dhabi')","cls":"city"}
+{"id":"128658","jah":"4d7785f7ae3b8798db7478c30547f6bb","en":"Pyongyang","why":"'Pyong.' (was 'Pyong.')","cls":"city"}
+{"id":"128670","jah":"e2e986cb86254872a08bbcc941e63246","en":"Kuala Lumpur","why":"'K. Lumpur' (was 'K. Lumpur')","cls":"city"}
+{"id":"128684","jah":"752e711046029429c7e810604cf41e7f","en":"Dushanbe","why":"'Dush.' (was 'Dush.')","cls":"city"}
+{"id":"1286a4","jah":"3a8dc1b4a67f8c284efd1c32aa8c0d7b","en":"Kathmandu","why":"'Kathm.' (was 'Kathm.')","cls":"city"}
+{"id":"1286ac","jah":"94b612d76e5118ee262e18830f290c7b","en":"Canberra","why":"'Canb.' (was 'Canb.')","cls":"city"}
+{"id":"1286bc","jah":"465ecc24b896aaeef5e39448b0e74f7e","en":"Casablanca","why":"'Casab.' (was 'Casab.')","cls":"city"}
+{"id":"1286cc","jah":"fe98241b5ef93e9fe056fa38b2d69e4a","en":"Cartago","why":"'Carth.' (was 'Carth.')","cls":"city"}
+{"id":"1286d4","jah":"9020386cb9e01d9821cf60dc4f2c2bb7","en":"Johannesburg","why":"'Joburg' (was 'Joburg')","cls":"city"}
+{"id":"1286e0","jah":"cb44ffdda18d9f308556fb25dfd6598b","en":"Cairo","why":"'CAI' (was 'CAI')","cls":"city"}
+{"id":"1286e4","jah":"7f435ee38cd550bdcc217c5dd92c2c2e","en":"Lusaka","why":"'Lus' (was 'Lus')","cls":"city"}
+{"id":"1286e8","jah":"dfb3e7d6847528e2dde3ff161f11d57f","en":"Accra","why":"'ACC' (was 'ACC')","cls":"city"}
+{"id":"1286ec","jah":"dd4c01c6434245ef18748cb91dad4737","en":"Monrovia","why":"'Monrov.' (was 'Monrov.')","cls":"city"}
+{"id":"128700","jah":"5137db63ffca1c614d120695fdab38e9","en":"Paris","why":"'PAR' (was 'PAR')","cls":"city"}
+{"id":"128704","jah":"24e2d63920017f04cd87d951b5affd9f","en":"Monaco","why":"'MON' (was 'MON')","cls":"city"}
+{"id":"128708","jah":"7cc32824575bd8e49def424a7ff694cb","en":"Marseille","why":"'Mars.' (was 'Mars.')","cls":"city"}
+{"id":"128710","jah":"dfe2beadbd15f07347b6dc05671221da","en":"Dortmund","why":"'Dortm.' (was 'Dortm.')","cls":"city"}
+{"id":"128740","jah":"f0d6b52e4e8d3ada52dea80ca38632cc","en":"Rotterdam","why":"\"R'dam\" (was \"R'dam\")","cls":"city"}
+{"id":"128748","jah":"0b16729a314328161cc1ea2fff0ca633","en":"Turin","why":"'TRN' (was 'TRN')","cls":"city"}
+{"id":"12874c","jah":"49c11c76c969d5caca63a50893c41613","en":"Milan","why":"'MIL' (was 'MIL')","cls":"city"}
+{"id":"128750","jah":"eecdace6497c30f49aab8030b0b7daeb","en":"Rome","why":"'ROM' (was 'ROM')","cls":"city"}
+{"id":"12875c","jah":"b53ac44136640d9344a12c495328d787","en":"Manchester","why":"'Manch.' (was 'Manch.')","cls":"city"}
+{"id":"12876c","jah":"062bc304f3fd93d090898765504e8cd0","en":"Liverpool","why":"\"L'pool\" (was \"L'pool\")","cls":"city"}
+{"id":"128780","jah":"51dea70b94441933b002b669c05374bc","en":"Barcelona","why":"'Barca' (was 'Barca')","cls":"city"}
+{"id":"128790","jah":"82d1e465b11f51bda1a2f225bf24cb0a","en":"Valencia","why":"'Valenci' (was 'Valenci')","cls":"city"}
+{"id":"1287c0","jah":"b175303deafa9fca31abf11811db98ca","en":"Oslo","why":"'OSL' (was 'OSL')","cls":"city"}
+{"id":"1287c4","jah":"304825f620557707f6d0456d68b9d7f9","en":"Bucharest","why":"'Buch.' (was 'Buch.')","cls":"city"}
+{"id":"1287e0","jah":"dbc3edefade52605271b756913c615a4","en":"Stockholm","why":"'Stockh.' (was 'Stockh.')","cls":"city"}
+{"id":"1287e8","jah":"73df72ee4f632365d2ff13a5267acc09","en":"Brussels","why":"'Bruss.' (was 'Bruss.')","cls":"city"}
+{"id":"128834","jah":"08af84e259430dd3807a024edf2f0190","en":"Athens","why":"'ATH' (was 'ATH')","cls":"city"}
+{"id":"128860","jah":"58904eed58446f175464b2c87657c54c","en":"Kiev","why":"'Kyv' (era-correct spelling) (was 'Kyv')","cls":"city"}
+{"id":"128864","jah":"12bfd954337920c2692f70be3d2073af","en":"Sao Paulo","why":"'S.Paulo' (was 'S.Paulo')","cls":"city"}
+{"id":"128884","jah":"e816808e83bf49e8b65b668c7f487914","en":"Porto Alegre","why":"'P. Alegre' (was 'P. Alegre')","cls":"city"}
+{"id":"128898","jah":"574c3b227090a2034cc18002ceec6954","en":"Buenos Aires","why":"'B. Aires' (was 'B. Aires')","cls":"city"}
+{"id":"1288a4","jah":"de94077eba2fa32a91052f54afd94c4b","en":"Boca","why":"'Boc' (was 'Boc')","cls":"city"}
+{"id":"1288a8","jah":"4a4ca05db3c30ee1579a92fc0b94559d","en":"Santiago","why":"'Stgo' (was 'Stgo')","cls":"city"}
+{"id":"1288b0","jah":"4724f752d3aafbd0b2b096085b897e80","en":"Medellin","why":"'Medelin' (was 'Medelin')","cls":"city"}
+{"id":"1288d4","jah":"3320a5e2ce6f2c4cd28375e7911b02c5","en":"Lima","why":"'Lim' (was 'Lim')","cls":"city"}
+{"id":"1288e8","jah":"3741117514e2314c6e7d99d23481ff84","en":"Quito","why":"'Qto' (was 'Qto')","cls":"city"}
+{"id":"1288ec","jah":"72e42c91da99dca750f06eec2f903f8f","en":"Acapulco","why":"'Acapulc' (was 'Acapulc')","cls":"city"}
+{"id":"1288fc","jah":"9083d043d3a100da28bf9197b7c66d7b","en":"New York","why":"'N.York' (was 'N.York')","cls":"city"}
+{"id":"128904","jah":"71f294df3709ecc32ff918f027752341","en":"Los Angeles","why":"'L.A.' (was 'L.A.')","cls":"city"}
+{"id":"12891c","jah":"db3e21cadbcc56900abf850cc59cc81b","en":"San Jose","why":"'Sanjose' (was 'Sanjose')","cls":"city"}
+{"id":"128924","jah":"d7d59bb1f77dc8957f035c20e4b82f9d","en":"San Salvador","why":"'S.Salvador' (was 'S.Salvador')","cls":"city"}
+{"id":"128930","jah":"3c884ce4961f1c3f28878e0f71deda06","en":"Ottawa","why":"'Ott' (was 'Ott')","cls":"city"}

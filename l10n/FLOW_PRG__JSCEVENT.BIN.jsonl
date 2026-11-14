@@ -1,0 +1,94 @@
+{"l10n":1,"kind":"main","style":"compact","n":93,"final_newline":true,"src":"FLOW_PRG/JSCEVENT.BIN"}
+{"id":"d644","jah":"58226d224d020ff9a220ec08c8e86432","en":"@Y/#sname#@, there's a local football\ntournament, and we've been asked to\ninvest in it as a sponsor.","max_bytes":104,"refs":2,"ctx":"ptr@1118 xrefs=2"}
+{"id":"d6ac","jah":"b58ac0708c5153309ce40102fd9d4f9f","en":"Invest in the #tk00# football\ntournament?","max_bytes":36,"refs":2,"ctx":"ptr@110c xrefs=2"}
+{"id":"d6d0","jah":"a86b78743cbf10e07a712aefb4ec3ec5","en":"Set the amount to invest.","max_bytes":31,"refs":3,"ctx":"tbl@34c[2/3] xrefs=3"}
+{"id":"d6ef","jah":"21d3f873dc017206497b5850ab3f7a73","en":"I don't think this amount is\nworth investing...","max_bytes":48,"refs":2,"ctx":"tbl@26c[1/3] xrefs=2"}
+{"id":"d71f","jah":"176dacbc0bb97a14d4283f03f6a273da","en":"Are you happy with this amount?","max_bytes":25,"refs":2,"ctx":"tbl@34c[1/3] xrefs=2"}
+{"id":"d738","jah":"f7e62fe8222dd641be6e505403c512da","en":"That's an amount worthy of a main\nsponsor.\nAre you happy with this amount?","max_bytes":75,"refs":2,"ctx":"tbl@34c[0/3] xrefs=2"}
+{"id":"d783","jah":"33c83048c44ce69394d0fcc0aa173029","en":"The most you can invest as a sponsor\nin this tournament is 1 oku.","max_bytes":62,"refs":2,"ctx":"tbl@26c[2/3] xrefs=2"}
+{"id":"d7c1","jah":"9b28507c7517a286b86831bf20d43ca4","en":"We invested in the local tournament.\nIt'll help sport in #tk00#.\nOur club's reputation is great, too.","max_bytes":111,"refs":2,"ctx":"ptr@e58 xrefs=2"}
+{"id":"d830","jah":"13bbacba1114156ef6fbfcc4e8a4e4e3","en":"We'll pass on investing this time.\nI'd like to invest all I can for sport\nin #tk00#, but...","max_bytes":101,"refs":2,"ctx":"ptr@fcc xrefs=2"}
+{"id":"d895","jah":"ea61a7de1beddb62f2a4d20e3676de00","en":"The club would run out of funds.\nPlease reconsider the amount.","max_bytes":67,"refs":2,"ctx":"tbl@26c[0/3] xrefs=2"}
+{"id":"d8d8","jah":"6db4bb2b337ffdacf3cfb296f8f4128f","en":"Club Pop.:%d -> %d","max_bytes":20,"refs":1,"ctx":"ptr@250"}
+{"id":"d8ec","jah":"b7e908f61d5813cc8d29c509e57f6c4f","en":"Sports Lv.:%d -> %d","max_bytes":20,"refs":0,"ctx":"hwpool run=12 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"daa4","jah":"9e7d7f5a91c0ed851ada6f3a7fde11ed","en":"Expression %d","max_bytes":16,"refs":1,"ctx":"ptr@280c"}
+{"id":"dab4","jah":"bf901b65b51e0860dba2b43242bbd483","en":"Expression textures not loaded","max_bytes":36,"refs":1,"ctx":"ptr@2a98"}
+{"id":"db58","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@3124"}
+{"id":"dc3c","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@44f4"}
+{"id":"dcb8","jah":"61b099639951c0eed71c801e92fb1d2b","en":"Hokkaido","max_bytes":8,"refs":2,"ctx":"tbl@c940[0/50] xrefs=2"}
+{"id":"dcc0","jah":"0950ce65062fc481cfa5c2944c2dfaf2","en":"Aomori","max_bytes":8,"refs":1,"ctx":"tbl@c940[1/50]"}
+{"id":"dcc8","jah":"32186134057cf4589e3caea5a11c4586","en":"Iwate","max_bytes":8,"refs":1,"ctx":"tbl@c940[2/50]"}
+{"id":"dcd0","jah":"f70d77a25b18b715b79f5162a11c8fa8","en":"Miyagi","max_bytes":8,"refs":1,"ctx":"tbl@c940[3/50]"}
+{"id":"dcd8","jah":"7ce1343175ff9759814cfe8edee29b76","en":"Akita","max_bytes":8,"refs":1,"ctx":"tbl@c940[4/50]"}
+{"id":"dce0","jah":"a0d677442a9ffd6422390a6b84e14edd","en":"Yamagata","max_bytes":8,"refs":1,"ctx":"tbl@c940[5/50]"}
+{"id":"dce8","jah":"e7019e6ac833a7f27a8a0a89a0c462dc","en":"Fukushima","max_bytes":8,"refs":1,"ctx":"tbl@c940[6/50]"}
+{"id":"dcf0","jah":"da430224a97b29cf5818b2996fdf8fd5","en":"Ibaraki","max_bytes":8,"refs":1,"ctx":"tbl@c940[7/50]"}
+{"id":"dcf8","jah":"1c022a1079888739d6e2df9b7898abf9","en":"Tochigi","max_bytes":8,"refs":1,"ctx":"tbl@c940[8/50]"}
+{"id":"dd00","jah":"49dc031cbe6dac88a61e993983d962dd","en":"Gunma","max_bytes":8,"refs":1,"ctx":"tbl@c940[9/50]"}
+{"id":"dd08","jah":"ba13885bedbfeb9b76b92c1846d9fcca","en":"Saitama","max_bytes":8,"refs":1,"ctx":"tbl@c940[10/50]"}
+{"id":"dd10","jah":"6f2e379e9ccd1665664820638a125292","en":"Chiba","max_bytes":8,"refs":1,"ctx":"tbl@c940[11/50]"}
+{"id":"dd18","jah":"df2b6cd8c01ab9ca005e2495e88d28ff","en":"Tokyo","max_bytes":8,"refs":1,"ctx":"tbl@c940[12/50]"}
+{"id":"dd20","jah":"e13bc05ffd4990f97ab48ab5b63cd1a8","en":"Kanagawa","max_bytes":12,"refs":1,"ctx":"tbl@c940[13/50]"}
+{"id":"dd2c","jah":"08741ada186bb6c3e1bd391532e9fa7c","en":"Izu Is.","max_bytes":12,"refs":1,"ctx":"tbl@c940[14/50]"}
+{"id":"dd38","jah":"aee4b6c5fa941290cdf7f424bf8b7ebf","en":"Niigata","max_bytes":8,"refs":1,"ctx":"tbl@c940[15/50]"}
+{"id":"dd40","jah":"6deaaa980ec93a13c8264a0d4c611af8","en":"Toyama","max_bytes":8,"refs":1,"ctx":"tbl@c940[16/50]"}
+{"id":"dd48","jah":"22953f7192e2e3bc92cd3ef6c73d0f91","en":"Ishikawa","max_bytes":8,"refs":1,"ctx":"tbl@c940[17/50]"}
+{"id":"dd50","jah":"69177459eb934894308db74dfdc8f609","en":"Fukui","max_bytes":8,"refs":1,"ctx":"tbl@c940[18/50]"}
+{"id":"dd58","jah":"60ce9867a7b4d2da078d58ba319755ca","en":"Yamanashi","max_bytes":8,"refs":1,"ctx":"tbl@c940[19/50]"}
+{"id":"dd60","jah":"9d4e863411127e736586677cefdecb9f","en":"Nagano","max_bytes":8,"refs":1,"ctx":"tbl@c940[20/50]"}
+{"id":"dd68","jah":"ef16c40bcad72c1044202d3ee00100f9","en":"Gifu","max_bytes":8,"refs":1,"ctx":"tbl@c940[21/50]"}
+{"id":"dd70","jah":"8fb432c804baad654128001ee10e5d80","en":"Shizuoka","max_bytes":8,"refs":1,"ctx":"tbl@c940[22/50]"}
+{"id":"dd78","jah":"dcd3f9e6d14157976d3a6a5f2d219a2f","en":"Aichi","max_bytes":8,"refs":1,"ctx":"tbl@c940[23/50]"}
+{"id":"dd80","jah":"3e1dbdeaaf4b0609906ef4746f3c0284","en":"Mie","max_bytes":8,"refs":1,"ctx":"tbl@c940[24/50]"}
+{"id":"dd88","jah":"315fcefc075cecc7b4ac0850350ab5b4","en":"Shiga","max_bytes":8,"refs":1,"ctx":"tbl@c940[25/50]"}
+{"id":"dd90","jah":"13cccabec1a08efafac6756799267a75","en":"Kyoto","max_bytes":8,"refs":1,"ctx":"tbl@c940[26/50]"}
+{"id":"dd98","jah":"aa37d4e965dd3deae882256a6d7790cf","en":"Osaka","max_bytes":8,"refs":1,"ctx":"tbl@c940[27/50]"}
+{"id":"dda0","jah":"4eb741e6df7bf78f70bba9d5cab9397c","en":"Hyogo","max_bytes":8,"refs":1,"ctx":"tbl@c940[28/50]"}
+{"id":"dda8","jah":"376399ac99c313bb191625a66e65d0eb","en":"Nara","max_bytes":8,"refs":1,"ctx":"tbl@c940[29/50]"}
+{"id":"ddb0","jah":"0f6b810dac67f2087d170435893c7935","en":"Wakayama","max_bytes":12,"refs":1,"ctx":"tbl@c940[30/50]"}
+{"id":"ddbc","jah":"22e83f0c634130a6ba4b4b6978619b97","en":"Tottori","max_bytes":8,"refs":1,"ctx":"tbl@c940[31/50]"}
+{"id":"ddc4","jah":"3feee89720d12720d2b11d661ea121ca","en":"Shimane","max_bytes":8,"refs":1,"ctx":"tbl@c940[32/50]"}
+{"id":"ddcc","jah":"a538f5f4dc79d02edaabc86d12562123","en":"Okayama","max_bytes":8,"refs":1,"ctx":"tbl@c940[33/50]"}
+{"id":"ddd4","jah":"104563674c0bda23166a599b37e8b7ef","en":"Hiroshima","max_bytes":8,"refs":1,"ctx":"tbl@c940[34/50]"}
+{"id":"dddc","jah":"056662dc4e521f27501b40b9f5f594d8","en":"Yamaguchi","max_bytes":8,"refs":1,"ctx":"tbl@c940[35/50]"}
+{"id":"dde4","jah":"9d9ca7d1ea06031563b5da6f349b5d9d","en":"Tokushima","max_bytes":8,"refs":1,"ctx":"tbl@c940[36/50]"}
+{"id":"ddec","jah":"f7025d4d53c9439299c2205ace61d008","en":"Kagawa","max_bytes":8,"refs":1,"ctx":"tbl@c940[37/50]"}
+{"id":"ddf4","jah":"02206bdc175a0e9bf64d733fc2b63310","en":"Ehime","max_bytes":8,"refs":1,"ctx":"tbl@c940[38/50]"}
+{"id":"ddfc","jah":"ce5b730bc781510a1445956d3248023e","en":"Kochi","max_bytes":8,"refs":1,"ctx":"tbl@c940[39/50]"}
+{"id":"de04","jah":"f65c2e7a703c5fd314c04ad1ae1c1c3a","en":"Fukuoka","max_bytes":8,"refs":1,"ctx":"tbl@c940[40/50]"}
+{"id":"de0c","jah":"8acfe3cdbaa98889daf6475770b04f14","en":"Saga","max_bytes":8,"refs":1,"ctx":"tbl@c940[41/50]"}
+{"id":"de14","jah":"ae2d03630cb6e86a5406099c10f30577","en":"Nagasaki","max_bytes":8,"refs":1,"ctx":"tbl@c940[42/50]"}
+{"id":"de1c","jah":"202325fa92f6f733a0e6bf18ba4ac3d9","en":"Kumamoto","max_bytes":8,"refs":1,"ctx":"tbl@c940[43/50]"}
+{"id":"de24","jah":"d1ed0a10156799e3f7be83d578cec2bd","en":"Oita","max_bytes":8,"refs":1,"ctx":"tbl@c940[44/50]"}
+{"id":"de2c","jah":"fc325a44655c668ae4718777ae4ff4bb","en":"Miyazaki","max_bytes":8,"refs":1,"ctx":"tbl@c940[45/50]"}
+{"id":"de34","jah":"5817083102e930c02c3b851d384e8435","en":"Kagoshima","max_bytes":12,"refs":1,"ctx":"tbl@c940[46/50]"}
+{"id":"de40","jah":"513a56d4f41797e49db990e6e4ffb25d","en":"Okinawa","max_bytes":8,"refs":1,"ctx":"tbl@c940[47/50]"}
+{"id":"de48","jah":"da41939d534805cae36ad491be6c8a3d","en":"Amami Is.","max_bytes":12,"refs":1,"ctx":"tbl@c940[48/50]"}
+{"id":"de54","jah":"d298eea0ec1f04db1fb83882f018ae51","en":"Japan","max_bytes":8,"refs":1,"ctx":"tbl@c940[49/50]"}
+{"id":"de5c","jah":"345c9fa96eaaf3ad9e74bf5f60403784","en":"Tohoku","max_bytes":8,"refs":1,"ctx":"ptr@dc60"}
+{"id":"de64","jah":"0a3f267b0fd53ea86fed299839cb73da","en":"Kanto","max_bytes":8,"refs":1,"ctx":"ptr@dc68"}
+{"id":"de6c","jah":"e0a49126ab120bd4b4dc7797f2c0036b","en":"Izu","max_bytes":8,"refs":1,"ctx":"ptr@dc70"}
+{"id":"de74","jah":"2f94f4f9eac3301cca126353622472e3","en":"Chubu","max_bytes":8,"refs":1,"ctx":"ptr@dc78"}
+{"id":"de7c","jah":"4cdae619ef309e9ba80bf9e461b32dc5","en":"Tokai","max_bytes":8,"refs":1,"ctx":"ptr@dc80"}
+{"id":"de84","jah":"851e047322b0b2adfbe43a1c1da98259","en":"Kansai","max_bytes":8,"refs":1,"ctx":"ptr@dc88"}
+{"id":"de8c","jah":"f2a9cf3006c70c99d645d1354bef85b9","en":"China","max_bytes":8,"refs":1,"ctx":"ptr@dc90"}
+{"id":"de94","jah":"211f43b037863cb5344115ae0be29af2","en":"Shikoku","max_bytes":8,"refs":1,"ctx":"ptr@dc98"}
+{"id":"de9c","jah":"ae2b1d04d39913f690739d11d1ec9626","en":"Kyushu","max_bytes":8,"refs":1,"ctx":"ptr@dca0"}
+{"id":"dea4","jah":"985f59f6c281dffb7205b98d16b44edf","en":"Amami","max_bytes":8,"refs":1,"ctx":"ptr@dca8"}
+{"id":"deac","jah":"16fe2a9502cdd455dff1c23c62601518","en":"Okinawa","max_bytes":8,"refs":1,"ctx":"ptr@dcb0"}
+{"id":"e4cc","jah":"51a0d723363108c021cafa9f360b309f","en":"ktmascot.c Invalid team number:%d","max_bytes":36,"refs":1,"ctx":"ptr@7f74"}
+{"id":"e7b8","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@9cdc","skip":true}
+{"id":"e7bc","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@9ce4[0/3]","skip":true}
+{"id":"e7c4","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@9ce4[1/3]","skip":true}
+{"id":"e7c8","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@9ce4[2/3]","skip":true}
+{"id":"e7cc","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@e788[0/11]"}
+{"id":"e7d0","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@e788[1/11]"}
+{"id":"e7d4","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@e788[2/11]"}
+{"id":"e7d8","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@e788[3/11]"}
+{"id":"e7dc","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@e788[4/11]"}
+{"id":"e7e0","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@e788[5/11]"}
+{"id":"e7e4","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@e788[6/11]"}
+{"id":"e7e8","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@e788[7/11]"}
+{"id":"e7ec","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@e788[8/11]"}
+{"id":"e7f0","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@e788[9/11]"}
+{"id":"e7f4","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@e788[10/11]"}

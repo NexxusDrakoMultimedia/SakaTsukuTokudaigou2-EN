@@ -1,0 +1,112 @@
+246|Construction will cost @P/$1@. How about building it as a monument? It will take @O/2 weeks@ to complete. Shall we build it?
+247|=w/Good news, #sname#. Your skill in running the club has been recognised, and you have been honoured as an outstanding club owner.=
+248|Thanks to the sponsor's cooperation, you get a discount. Construction will cost @P/$1@. Shall we build it?
+249|=w/Congratulations! It has been decided that our home town, $1, will host the @P/International Cup@.=
+250|@Y/$1@ is being transferred. A transfer fee of @P/$2@ has been paid in.
+251|#sname#, big news. In recognition of your achievements, #sname# has been honoured as an honorary citizen.
+252|Player %d: ability %d changed from %d to %d
+253|Transport Lv :%d Club Pop. :%d Football Pop. :%d
+254|=w/Congratulations. It is an honour to work for a wonderful person like #sname#.=
+255|Your final position was @Y/$4@. Position prize money of @P/$3@ has been paid in.
+256|=w/So close - you were @Y/runners-up@. Position prize money of @P/$3@ has been paid in.=
+257|Thanks to the sponsor's cooperation, you get a discount. The expansion costs @P/$1@, with monthly upkeep of @P/$2@. Shall we expand?
+258|I have a @Y/heavy firearms set@ from my hobby, a real bargain. Won't you buy it?
+259|Football school ready in %d
+260|Let's arrange a replacement right away. We will find someone wonderful.
+261|Also, as the host nation, the Japan national team can enter the finals without qualifying.
+262|Our club's history has now passed 10 years. And the Data Room no longer has space for all the records.
+263|I'll arrange a replacement right away. I'll find someone every bit as good as me.
+264|People all over the world are watching. I believe the national team can show its full strength.=
+265|Recovery from fatigue is being badly affected. The drink has been disposed of, but some effects seem likely to linger.
+266|This is the national team training ground.
+267|Capacity 145,000
+268|International Cup Qualifiers
+269|Capacity 88,000
+270|Sponsor Terms Warning [2]
+271|We need to start keeping an eye on young players from now on, don't we?|
+272|This is Stadium Level 1.
+273|Repair bldg (0Cl,1St)
+274|=k/Relegation to J2 is confirmed, but let's work hard to get promoted again. It's a fresh start from today.=
+275|Player job change[10](0None,1Mgr,2Scout)
+276|Test message (Secretary 2).
+277|We have decided to hold off this time. I thought that if we could train at night, the players could get through a fuller schedule.
+278|Message branch (0-3)|World XI vs European XI uses its own message
+279|Depending on the number of Supporters' Club members, the plan seems to be to keep increasing the number of chants. The targets are said to be 30,000 and 50,000 members.
+280|This is Clubhouse Level 5.
+281|So, if it's all right with you, could you let me resign?
+282|You can have up to 6 players. Together with the top team, that secures 22 players, which will greatly widen your options for development.
+283|I'm sorry for the trouble. I think I need to take a hard look at my life.
+284|=w/It seems it sold well in a trial run and has gone on official sale. Sales at the shop are growing.=
+285|You need me, don't you? I'm delighted.
+286|Current Mgr Scout[%d]:[%s]|
+287|A @Y/#tk01#@ player seems to have the potential to handle #tk00#.
+288|Positioning at #tk00# should stay at a high level.
+289|#sname#, a decision is needed from you. Please think carefully before deciding.
+290|A @Y/#tk01#@ player should be reasonably useful at #tk00#.
+291|Please act on this soon.
+292|About my salary... don't you think it's low?
+293|Thank you for sitting through such a long talk.
+294|Do you remember what I said I'd been living for?
+295|I can't stand being on the same team as that guy any longer!
+296|It'll probably take a while, but bear with me.
+297|Being captain would be easy. Leading the players is a piece of cake.
+298|I've been saying it for ages, so it's got through to you by now, hasn't it?
+299|I can't take losing any more.
+300|I think I'm strong in the air. I won't lose a challenge.
+301|I feel my lack of pace is ruining my strengths.
+302|Of course, it'll be about us players too.
+303|Being treated like this, what did I say I was?
+304|There's no clear reason I've come to dislike it this much.
+305|Ha ha, so you'd stoop to this too. You're the worst.
+306|It wasn't simply a desire for fame - I wanted to serve the club.
+307|In any situation, I'm confident I won't lose mentally.
+308|What I'm saying isn't wrong, is it?
+309|I've been avoided until now. Let's take our time today.
+310|Contract or not, you'd think the pay would reflect how well I play, right?
+311|I want to do something for the club. That's why.
+312|Thank you. You picked up on my worries.
+313|Intercepting passes is one of my proud points.
+314|The ball just won't go straight. Why is that?
+315|You're waiting for better players to be listed, aren't you?
+316|That guy is the worst, honestly! I can't keep doing this!
+317|I have no stage to show what I can do.
+318|I'd call this the right response. It doesn't feel bad.
+319|I can't show results, so nobody even knows what I'm worth as a player.
+320|Do you remember what I said when I blamed you?
+321|Nice, this is the response I was waiting for. Thanks!
+322|Your instructions, your thinking, your tactics - all of it is wrong for me.
+323|I don't want to leave either. I like the club itself.
+324|A manager's main job is to bring the players together, isn't it?
+325|It's about how I'm being treated. It's close to a complaint.
+326|In that respect, um, isn't it that you're not trying hard enough?
+327|It's slight, but I feel a lack of acceleration. It should improve with training.
+328|If a manager like that is going to run things, we're better off with none.
+329|I'm not very confident in my goalkeeping skills overall.
+330|Hey, do you even want to do this? This isn't a game, you know!
+331|My judgement is always right. You can trust it completely.
+332|You understand what this is about, right? It's about the manager.
+333|So I said to them one time: why are you laughing?
+334|Or else... you transfer me to another club.
+335|I wonder why you employ me. Probably as a tool.
+336|I feel I lack kicking power. I want to train more.
+337|Well, I've been saying it for a while, so you probably know already.
+338|On the players' side too, dissatisfaction seems to have built up considerably. Unless some action is taken, it will be hard to settle things here.
+339|But look at things now. I'm on the verge of leaving the club.
+340|That's right. It's about how players are picked for matches.
+341|Is that all I'm worth?
+342|With this manager, I can't go on.
+343|I think my kicking accuracy is fairly high.
+344|If I have a complaint, there's only one.
+345|Raise my salary, would you?
+346|Honestly, there isn't any particular cause.
+347|Even so, the evaluation doesn't change. As if my way of life was being denied.
+348|With that one around, the team could fall apart from now on.
+349|But when I point it out, they get really angry.
+350|I'm confident my ball retention is the best in the club.
+351|There's a player I just can't seem to get along with.
+352|Right? You don't want things to come to that, do you?
+353|I'm disappointed. That's enough. Excuse me.
+354|I'm not saying it has to be right now.
+355|The timing may be difficult. There's time until renewal, after all.
+356|Rushing out aggressively is my ideal style.
+357|I am prepared to leave the club.

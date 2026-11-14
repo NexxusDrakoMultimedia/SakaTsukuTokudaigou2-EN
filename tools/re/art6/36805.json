@@ -1,0 +1,227 @@
+{
+ "texture": "36805",
+ "supersample": 4,
+ "quantize": "rgb565",
+ "regions": [
+  {
+   "id": "c1",
+   "ja": "応援歌1",
+   "text": "Cheer Song 1",
+   "x": 4,
+   "y": 4,
+   "w": 86,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 30
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.65
+  },
+  {
+   "id": "c2",
+   "ja": "応援歌2",
+   "text": "Cheer Song 2",
+   "x": 4,
+   "y": 36,
+   "w": 86,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 30
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.65
+  },
+  {
+   "id": "c3",
+   "ja": "応援歌3",
+   "text": "Cheer Song 3",
+   "x": 4,
+   "y": 68,
+   "w": 86,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 30
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.65
+  },
+  {
+   "id": "pinch",
+   "ja": "ピンチ",
+   "text": "Pinch",
+   "x": 100,
+   "y": 4,
+   "w": 86,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 30
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.65
+  },
+  {
+   "id": "rand",
+   "ja": "ランダム",
+   "text": "Random",
+   "x": 100,
+   "y": 36,
+   "w": 86,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 30
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.65
+  },
+  {
+   "id": "norm",
+   "ja": "ノーマル",
+   "text": "Normal",
+   "x": 100,
+   "y": 68,
+   "w": 86,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 30
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.65
+  },
+  {
+   "id": "good",
+   "ja": "好調",
+   "text": "Good",
+   "x": 100,
+   "y": 100,
+   "w": 86,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 30
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.65
+  }
+ ],
+ "styles": {
+  "wh": {
+   "font": [
+    "arial-bold-italic"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffffff"
+    ],
+    [
+     0.55,
+     "#e4e4f0"
+    ],
+    [
+     1,
+     "#9c9cb8"
+    ]
+   ],
+   "outline": {
+    "color": "#10102c",
+    "width": 0.8
+   },
+   "shadow": {
+    "color": "#0c0c28",
+    "dx": 1.5,
+    "dy": 1.5,
+    "alpha": 1.0
+   }
+  }
+ }
+}

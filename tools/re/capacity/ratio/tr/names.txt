@@ -1,0 +1,124 @@
+82|Naoto Osumi
+83|Kosuke Suzuki
+84|Natsuo Ozawa
+85|Yoji Ueda
+86|Sakuo Nishizawa
+87|Hikaru Asano
+88|Hiromasa Azuma
+89|Shinsuke Murasaki
+90|Hiroyuki Dobashi
+91|Teruki Mikura
+92|Hiroyasu Tanada
+93|Kazuyoshi Iio
+94|Kazuya Uchida
+95|Satoshi Kiba
+96|Tadaaki Ikehata
+97|Koji Asahinata
+98|Masato Yamazaki
+99|Takeshi Uragami
+100|Takuo Mukoyama
+101|Makoto Shiraishi
+102|Tsutomu Hida
+103|Eiji Kawaguchi
+104|Kyoji Oshiro
+105|Takahei Yamamichi
+106|Norihiro Nishi
+107|Tomoaki Seino
+108|Shigeo Fuji
+109|Shinya Kato
+110|Makoto Oki
+111|Koji Kumagai
+112|Shigeharu Morishita
+113|Masataka Sakamoto
+114|Yusuke Mori
+115|Hidenori Irie
+116|Kazushi Isoyama
+117|Genta Takahashi
+118|Motokuni Hiyama
+119|Makoto Tamata
+120|Shohei Seta
+121|Naohiko Kobayashi
+122|Masanobu Matsunami
+123|Heiryo Wakui
+124|Ryo Kushino
+125|Kazuki Tejima
+126|Osamu Nakai
+127|Yohei Tsukigata
+128|Kenichi Tanase
+129|Masaharu Uehara
+130|Hideto Otake
+131|Nobuyuki Kojima
+132|Tomoyuki Miguriya
+133|Hayato Masakage
+134|Taichi Hasegawa
+135|Kunihiko Murata
+136|Keisuke Yabe
+137|Ryo Sakamoto
+138|Kazuyuki Uehara
+139|Seiji Honda
+140|Shinya Hoshido
+141|Tadaaki Ishikawa
+142|Masayuki Ota
+143|Hitoshi Morishita
+144|Yuji Kodama
+145|Shinji Hasegawa
+146|Yuji Kanda
+147|Tetsuo Toita
+148|Yataro Toya
+149|Shuichi Morinaga
+190|Yubari
+191|Toshima-mura
+192|Takikawa
+193|Hamura
+194|Ikeda
+195|Arita-gun
+196|Kashima-gun
+197|Kumejima
+198|Tokunoshima-cho
+199|Shobara
+200|Usa
+201|Yamaguchi
+202|Kawachinagano
+203|Sannohe-gun
+204|Hachijo-cho
+205|Shitsuki-gun
+206|Nagaoka
+207|Higashitonami-gun
+208|Shingu
+209|Komatsu
+210|Tagawa
+211|Wakkanai
+212|Yonezawa
+213|Kamo
+214|Onuma-gun
+215|Ishioka
+216|Takahagi
+217|Innoshima
+218|Toyosaka
+219|Kamiminochi-gun
+220|Mogami-gun
+221|Sanjo
+222|Kitakuwada-gun
+223|Aioi
+224|Hasuda
+225|Fukushima
+226|Sapporo
+227|Tokushima
+228|Masuda
+229|Shinagawa
+230|Kodama-gun
+231|Kani
+232|Kanzaki-gun
+233|Nakatsugaru-gun
+234|Akabira
+235|Osaka
+236|Ishikawa
+237|Moriyama
+238|Higashiyatsushiro-gun
+239|Shimoge-gun
+240|Ito
+241|Higashiazai-gun
+242|Akishima
+243|Susono
+244|Chikugo
+245|Saitama

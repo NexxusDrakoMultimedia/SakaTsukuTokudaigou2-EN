@@ -1,0 +1,1101 @@
+{"l10n":1,"kind":"main","style":"compact","n":1100,"final_newline":true,"src":"FLOW_PRG/ENDING.BIN","ctx":["recarray S=112 n=227 W=14 modeshare=1.00 stride-table(in-place only)","recarray S=112 n=226 W=14 modeshare=1.00 stride-table(in-place only)","recarray S=112 n=164 W=14 modeshare=1.00 stride-table(in-place only)","recarray S=112 n=161 W=14 modeshare=1.00 stride-table(in-place only)","orphan (no pointer)","orphan (no pointer) stride-table(in-place only)"]}
+{"id":"29fb9","jah":"2ad2ee9372e4ff515d1b70d46e0082ef","max_bytes":5,"ctx":4,"orphan":true,"skip":true}
+{"id":"6c790","jah":"440492aa14cf9c7c369d82ab528aed2e","en":"LookAtBall : scene not yet set, or scene error.","max_bytes":64,"refs":1,"ctx":"ptr@17e8"}
+{"id":"6c960","jah":"489c960e6886865a379b84d302977bb1","en":"OPTIONS","max_bytes":16,"refs":1,"ctx":"ptr@2bf70"}
+{"id":"6c970","jah":"e703451659e0fc8ffaf65c64328e1fc0","en":"  Resume Match","max_bytes":16,"refs":1,"ctx":"ptr@2bf78"}
+{"id":"6c980","jah":"89168517f0fc9377a16f67403ac3749d","en":"  Commentary    ","max_bytes":20,"refs":1,"ctx":"tbl@2bf80[0/10]"}
+{"id":"6c994","jah":"d63834229514420c579fee424e38f00b","en":"  ON/OFF","max_bytes":16,"refs":3,"ctx":"tbl@2bf80[1/10] xrefs=3"}
+{"id":"6c9a4","jah":"fc0cb5d8f15d643a5fb728defd4c604a","en":"  Subtitles","max_bytes":20,"refs":1,"ctx":"tbl@2bf80[2/10]"}
+{"id":"6c9b8","jah":"59a3ecc14f2b69beb3c37422dce78a31","en":"  Player Names    ","max_bytes":20,"refs":1,"ctx":"tbl@2bf80[4/10]"}
+{"id":"6c9cc","jah":"4e54278d6b345ffb4816731cfc5449ff","en":"  Name Format","max_bytes":20,"refs":1,"ctx":"tbl@2bf80[6/10]"}
+{"id":"6c9e0","jah":"acb51b37409c60c7f481df2e8fbe5ac9","en":"        A/B","max_bytes":16,"refs":1,"ctx":"tbl@2bf80[7/10]"}
+{"id":"6c9f0","jah":"4ec246858b61532bc15220e6c344e619","en":"  Camera Type  ","max_bytes":20,"refs":1,"ctx":"tbl@2bf80[8/10]"}
+{"id":"6ca04","jah":"78bade5e8b6bac6d0fb88b099793d381","en":"  Near/Mid/Far","max_bytes":16,"refs":1,"ctx":"tbl@2bf80[9/10]"}
+{"id":"6ca34","jah":"47242de5eab6052da76c7cd1773d5bf3","en":"[Ref %d:%d]","max_bytes":12,"refs":1,"ctx":"ptr@5efc"}
+{"id":"6ca40","jah":"a8b944f2681646c67e857d562bdc71d4","en":"(w) Player kit data loaded twice","max_bytes":36,"refs":1,"ctx":"ptr@64b4"}
+{"id":"6cf3c","jah":"47e8e6089df6c7aeb9712eb01156fc21","en":"Has Zoo","max_bytes":12,"refs":1,"ctx":"ptr@8808"}
+{"id":"6cf48","jah":"c81e1138b5a25ff057fc97acf746bea5","en":"Has Funfair","max_bytes":12,"refs":1,"ctx":"ptr@8810"}
+{"id":"6cf54","jah":"798d4bad90664cc6a5744808d125a3bb","en":"Has Stn Mall","max_bytes":12,"refs":1,"ctx":"ptr@8814"}
+{"id":"6cf60","jah":"122328f28e33697f1ee70c45fa0823cf","en":"Has Bus Route","max_bytes":16,"refs":1,"ctx":"ptr@881c"}
+{"id":"6cf70","jah":"2c74a0c5cb4a38cc6f973cf81c6359b3","en":"Parking lot (Level:%d)","max_bytes":24,"refs":1,"ctx":"ptr@8828"}
+{"id":"6cf88","jah":"286556dae2b0ce0690134aa7ead00e82","en":"Observatory (Level:%d)","max_bytes":24,"refs":1,"ctx":"ptr@899c"}
+{"id":"6cfa0","jah":"c9f64af2fdd12981e61ab3f51d973e52","en":"Supporters :%d","max_bytes":20,"refs":1,"ctx":"tbl@89d0[0/9]"}
+{"id":"6cfb4","jah":"dc0bbc426a8ac82a6d2bf6e5140d857f","en":"Tickets :%d","max_bytes":16,"refs":1,"ctx":"tbl@89d0[1/9]"}
+{"id":"6cfc4","jah":"17e6fb15a06e4c8325e196fc21751f1e","en":"Ad Spend :%d","max_bytes":12,"refs":1,"ctx":"tbl@89d0[2/9]"}
+{"id":"6cfd0","jah":"eadc98a03b4edab760602ef3797b79d9","en":"Cup Grade Factor  :%f","max_bytes":24,"refs":1,"ctx":"tbl@89d0[3/9]"}
+{"id":"6cfe8","jah":"09c297cbd28ab794c2de471315aab2e7","en":"Club Pop. :%d","max_bytes":16,"refs":1,"ctx":"tbl@89d0[4/9]"}
+{"id":"6cff8","jah":"3e89e6a939570f8c277a77909921d2c3","en":"Football Pop. :%d","max_bytes":20,"refs":1,"ctx":"tbl@89d0[5/9]"}
+{"id":"6d00c","jah":"3a7b50f845eefd6d91f97fa4651b4261","en":"Transport Lv :%d","max_bytes":16,"refs":1,"ctx":"tbl@89d0[6/9]"}
+{"id":"6d01c","jah":"f8604913d6968733a6a39779358db716","en":"Pop. :%d","max_bytes":12,"refs":1,"ctx":"tbl@89d0[7/9]"}
+{"id":"6d028","jah":"d782a18dfee4080f4d960c31f54f16f4","en":"Weather :%d","max_bytes":12,"refs":1,"ctx":"tbl@89d0[8/9]"}
+{"id":"6d034","jah":"104e5f94fda1ff592d9381fde1b0b0a7","en":"Roof :%d","max_bytes":12,"refs":1,"ctx":"tbl@8ac0[0/3]"}
+{"id":"6d040","jah":"3057939a8c2e8126a7ec054cbbd77423","en":"Discontent  :%f","max_bytes":12,"refs":1,"ctx":"tbl@8ac0[1/3]"}
+{"id":"6d04c","jah":"741fd79a656382cae8a559af65b6abd0","en":"Facility Adj.  :%f","max_bytes":16,"refs":1,"ctx":"tbl@8ac0[2/3]"}
+{"id":"6d4d8","jah":"c05cfac0b44f4f54ee09d2bc8c9ed85b","en":"warning vqstring:%d %d(use even coordinates)\n","max_bytes":48,"refs":2,"ctx":"ptr@be18 xrefs=2"}
+{"id":"6de04","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@18a40"}
+{"id":"6dee8","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@19e10"}
+{"id":"70b20","jah":"8ec31a2e0312246b9a5ae981f2730979","en":"Rem","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70b58","jah":"abc5b1f4baa3f757caa4c32f606876a7","en":"H. Sueyoshi","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70b90","jah":"5ac5edc3b10c111faa070258261e22e8","en":"M. Taguri","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"70bc8","jah":"89f12335f7a5d0a73e8d7d988dec93a4","en":"K. Taijin","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"70c00","jah":"323867bf02d9edb8ad0e9591c4e841d5","en":"T. Okumura","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70c38","jah":"b8664749b9072647f4f7b99fc9712e12","en":"M. Nagaoka","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70c70","jah":"dd20e2e8c0e896c2a12a718ea3ae6631","en":"O. Kawamoto","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70ca8","jah":"3f925ac8f952ec028c34ed7369ccc13a","en":"Shuichi Kano","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70ce0","jah":"9d3ec578c2a5607fb401b6e73f9393de","en":"R. Kawamoto","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70d18","jah":"691f877b46f5989472e547aedcc38c02","en":"Y. Kishii","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70d50","jah":"65a0a57c71ea00288042c209d18e76a5","en":"Bunta Muraki","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70d88","jah":"7dfb82ef3aed44b5e761f8fd1cb4bb8d","en":"Eiji Aokumo","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"70dc0","jah":"b469636e5c64228b0a3072f0b01af4b6","en":"T. Kuwata","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70df8","jah":"bf975c01ec9f502c523996f48a90b776","en":"M. Maeda","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70e30","jah":"15fd6c10cc9e816731e7ee044a8712ee","en":"Haruki Gunji","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70e68","jah":"82b617ab6306ae3e379da03394b72483","en":"Hideo Semizu","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70ea0","jah":"ad58c691bf6cec409b3a8eb67bae644d","en":"Ryuji Sekine","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70ed8","jah":"3fd88b754818da7278be94c3363772bc","en":"Y. Hidaka","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70f10","jah":"a25d2e797527d210637178f087c538e5","en":"R. Hayashi","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70f48","jah":"af3476f1c1571cde9854e17abf16d42d","en":"A. Nishimura","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70f80","jah":"ec9053d782c50a8f316526d74e2b6057","en":"Hiroki Osono","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"70fb8","jah":"ff560b39eed0fe259df590352681ecea","en":"H. Harada","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"70ff0","jah":"2245c9f5fe8effa8f834a5343167df9b","en":"Kaoru Aoki","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71028","jah":"97906a3b282abd5ed2241047afe5d770","en":"T. Matsumoto","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71060","jah":"8bc6d2c16a4def07c5695593bc611f79","en":"T. Mifune","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71098","jah":"b779b8df713616f7a3b5a40be1d53147","en":"M. Miyata","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"710d0","jah":"84c214791015893b7ed743561673ceac","en":"Koji Morino","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71108","jah":"986c2a8cf32b5d31352690dbc6c22952","en":"Ken Yokoike","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71140","jah":"5cc9b699d4cbce1f4f96624c0ad38f69","en":"T. Okamoto","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71178","jah":"cf23270d1d20c3d111503789f9c61f41","en":"T. Okamoto","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"711b0","jah":"d2131d7151fc4455447837e9f02c874e","en":"Keiji Ueda","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"711e8","jah":"5dd6a765afb8e3d67c2a527d73492d83","en":"K. Nishimoto","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71220","jah":"56612d4d2d10ceef9b7fbd6227522e62","en":"Y. Kikuchi","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71258","jah":"739e7949ebbb61438274dcec104b132b","en":"Koji Iki","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71290","jah":"57ec21ca2a8ec5b3b3e5c3b34f146239","en":"Seiya Okuma","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"712c8","jah":"fa1b62a2820de5c78addbd827ed27be8","en":"Y. Tsukamoto","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71300","jah":"8da38897a14b3a51b79770e6e3dbdad4","en":"N. Ishii","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71338","jah":"e1d89e68f7c44244287236c2e469e919","en":"K. Nakanuma","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71370","jah":"c1180cac7bfa5969fbb235af809d023e","en":"K. Yokomura","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"713a8","jah":"8c8e9f447952fb9a6bef3e36c9502285","en":"Y. Ishida","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"713e0","jah":"ede8707854e263d5ea1a4ff98906435d","en":"K. Morinaga","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71418","jah":"1894680d48d565202d2f72832018bbd4","en":"S. Kawamuchi","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71450","jah":"20dfbb04abf9ebd3a500493e15af0e41","en":"E. Kamiki","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71488","jah":"98b7e364e11e192a4e1145588ad9201a","en":"H. Yoshida","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"714c0","jah":"d870a72bf2b2b60d389e87a9aafa78a9","en":"H. Kariya","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"714f8","jah":"21515fdc503f1cdf275791823030def5","en":"T. Mioka","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71530","jah":"f01be5db95c51ec25dd7bd7c3834e5a0","en":"Tetta Shiki","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71568","jah":"6d6df76f9064661dad6c9e223989613d","en":"N. Yamamoto","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"715a0","jah":"59a0ea9923c70745ee0b8485d71b954a","en":"Michizo Oda","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"715d8","jah":"57e183e218e06b2832d64e6b3179539e","en":"K. Motomura","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71610","jah":"deaa6009e645a5b63fc0653ebe35e491","en":"Lagos Bui","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71648","jah":"3307a5bbf936c7326b0a9cdc9e3b80b2","en":"T. Kazama","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71680","jah":"40dd9d11129cec07345ee784824dbbe5","en":"Li Koshun","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"716b8","jah":"c9679bf747438f31aae552ede23df2c1","en":"Ju Bokun","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"716f0","jah":"5808b0ff1fe6f3963a07faa202a39455","en":"Muhammad","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71728","jah":"9907f35e9b5808f9a0c80c6d152f544a","en":"Hassan","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71760","jah":"8c401bbc59090fbcbdafabfe72b8eed9","en":"Kelcha","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71798","jah":"1eec28075e2d253218f924040f8ae374","en":"Chang Yaosun","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"717d0","jah":"a8f4ee6e10934c560ce18056185d28cf","en":"Sergei","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71808","jah":"87762ff03cfa1092eb62e4d5aafbe661","en":"Saladin","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71840","jah":"2ed7d229d3c47824f6220ed8873c00aa","en":"Ivashnikov","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71878","jah":"16948b5854300d3e7a5b4bd6ce5cea58","en":"Richard","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"718b0","jah":"623403716b47968702f38cbfd71d0da0","en":"Haraminov","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"718e8","jah":"e0162ae67c3d9df7802091ff2cf7c314","en":"Uranovsky","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71920","jah":"bb14cabf7ed2664efeb8b65690fc0f92","en":"Kim Yunsak","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71958","jah":"8b7f10380f562e37a4d10d353b2713c7","en":"Mate","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71990","jah":"5302d5e5c6fc89cd2d2d00eeb91eb59c","en":"Sadu","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"719c8","jah":"0278742a39a38db5bcb3eeb0b4aac817","en":"Scott","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71a00","jah":"e446298ca2fc8eded6ad6142d6224710","en":"Everton","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71a38","jah":"0df3671f07d121ffcd4c72015b3a67ba","en":"Georgia","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71a70","jah":"7cf88f992f754335ae12a2ecfc17a650","en":"Aslam","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71aa8","jah":"a0c5e522a10e46c702fee7c305e5c3ec","en":"George Han","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71ae0","jah":"d73d1f4a3ecb602132061095f823b7df","en":"Salmund","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71b18","jah":"12551d15c996be633c726af994bd0c22","en":"Hasek","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71b50","jah":"888128e91a372c32e7fc39a940f38dde","en":"Demsuri","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71b88","jah":"f3b46cb439d73766c1b31c8cede80be4","en":"Seleska","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71bc0","jah":"8bfc223d75e33d6c570e07631f96272e","en":"Lombardi","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71bf8","jah":"116e60e690f63e1c2b49c2263c897400","en":"Udoba","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71c30","jah":"8decfcc9c0768b22cd78149f5dec798a","en":"Musaka","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71c68","jah":"4a109460fb45801a8ae5fd2c84c6aada","en":"Elietti","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71ca0","jah":"cccab8f8badb74d0d113d977f8873c65","en":"Sandoma","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71cd8","jah":"840186639c7db0219c641787b1351f5d","en":"Siriska","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71d10","jah":"47175339c4676d0c94471d760c474dc0","en":"Kakaska","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71d48","jah":"5178f50e96b8cc3ca526d84f08d9ec7e","en":"Bodanga","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71d80","jah":"863ec82fdab05cda643653fd4df11d87","en":"Trand","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71db8","jah":"ce0c9289eab515895b2c8f1fa9179c15","en":"Melisood","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71df0","jah":"1afab349cc73484bea8d4819a8894166","en":"Makula","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71e28","jah":"2d9343f85cfdef4c4a1fea6afb5f300c","en":"Mauries","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71e60","jah":"a7e82ad17082de6a0ceec17b351e10ed","en":"Marl","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71e98","jah":"b4efdb95e270684e279a91f4d5010abf","en":"Kalunga","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71ed0","jah":"7efee31570a9c9d5c95519645c719e0e","en":"Bangle","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71f08","jah":"a8e5b7e370af7c6231297ca455b28b02","en":"Antonio","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71f40","jah":"d8eb4606767c85347a2117633fd057e5","en":"Dujardin","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71f78","jah":"8b7163892d4db5cc90dc3daa0c90ab1c","en":"Michel","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"71fb0","jah":"da807df4f2cf9e4e7a5fe420ee2c30e4","en":"Manos","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"71fe8","jah":"4004ce7a7c97fab0002a3c3e02e2442e","en":"Marcus","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72020","jah":"f080dcabce7518da98cbfdacce10c1be","en":"Kocher","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72058","jah":"e76c5c5c456878d56384208c0f342d53","en":"Kehrhart","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72090","jah":"70cf7b2058d8e0c16be3bffbe9de20d9","en":"Grieves","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"720c8","jah":"2a6749dcb74327051ed6b64413170a02","en":"Jaeger","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72100","jah":"b3493db547076a32fceae0d314f01dc4","en":"Kenischer","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72138","jah":"68cae62fd8b4ca6c158e87481e4ded3c","en":"Lindberg","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72170","jah":"ddc16817616499af181773f6e2c74f13","en":"Bittenhardt","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"721a8","jah":"e2be2a465ef71e2ae4935fa39fea2bfa","en":"Felsner","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"721e0","jah":"371525a819fefe0b770027ac18ae02b7","en":"Kelscher","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72218","jah":"9a5c64843aef8b32011d4250cdf48545","en":"Holchis","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72250","jah":"e0c61f919bb7090df1730e51bd82ea74","en":"Bauer","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72288","jah":"e991c5f7b6ed84596f289b6ae28504ec","en":"Marius","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"722c0","jah":"426b0d287eb81e885b8976abed4e3857","en":"Kruman","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"722f8","jah":"6bf206360b834ec2cf4edd5a76c269ed","en":"Oftas","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72330","jah":"4bb6c04a0d9daa97fd2500ee8b107c87","en":"Keskens","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72368","jah":"ed6ad2c703cd043ea292c97da4b31261","en":"Follit","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"723a0","jah":"ec23d0df7cc6f7d16d166b44b21f6dd0","en":"Graaf","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"723d8","jah":"7cf2b6bbf5d979bc461d080809c54406","en":"Rickart","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72410","jah":"0de155cff3463ce498ffbbe9c80078ea","en":"Mar","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72448","jah":"5c6dbf7c55d12a9967fa5e4fcd5d5444","en":"Martini","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72480","jah":"d881e2231c0e7ec96f9444f6f1312bf4","en":"Dercio","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"724b8","jah":"4a598f2ed7a8ad54a1059a4567dec991","en":"Bellini","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"724f0","jah":"5a2116329a785e83e8f098018fd2a7e8","en":"Pierluigi","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72528","jah":"9c91aab0825d8967a32bc365823fc958","en":"Franco","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72560","jah":"56890545f66698d09f0d31c535db05d3","en":"Dof","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72598","jah":"23e20a9d4cd49f3f531a4edcfb99b3ce","en":"Patriez","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"725d0","jah":"4634fb6d95ec5507b9f968be8eaa11d7","en":"Rinetti","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72608","jah":"eb053e97a8064ac0028ff4efabfe11b8","en":"Bianeri","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72640","jah":"403db2f8f05e51ed97d9586c942c4782","en":"Mantili","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72678","jah":"bc7ce47ad558e3b7159ced0751077cf1","en":"Modiliani","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"726b0","jah":"138a5f723fcacee889814c187168fddc","en":"Trattini","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"726e8","jah":"60cb22b3b1a9f33a4bdd62619ff0ff4a","en":"Dimota","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72720","jah":"3b1360541e9f92d75c988a45e7638c46","en":"Marun","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72758","jah":"b0e80c64edd48f71ed78fa7bca546222","en":"Begaster","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72790","jah":"fe1e7b34354e058d0e4618fc7f7fc694","en":"Harman","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"727c8","jah":"7529e863429f7845d388748aab3e984e","en":"Seelans","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72800","jah":"5e0307bbc2b57f2324da72c6f4d5b57a","en":"Armstrong","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72838","jah":"9a1229a6d2050576e272c7bab3d58960","en":"Hewitt","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72870","jah":"7da7f4056a90b45f2bdd96c0b16f1b1e","en":"Twining","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"728a8","jah":"8af22de1829ecb24e27d823d815370af","en":"Escher","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"728e0","jah":"c7a42cf24a8868ff7ba3a45ebc7478d1","en":"Cohens","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72918","jah":"4e6bab8a45d9d753cc627f940f3f53d6","en":"Barton","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72950","jah":"e830e912a5ee9390495690ed5b9890c9","en":"Green","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72988","jah":"1656d85e24d1b844e61bb010fec46e59","en":"Browning","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"729c0","jah":"8383d940c8c8cdb57a1340648fbce344","en":"Sackel","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"729f8","jah":"e0955145b3f297ff44686d6a206c7e73","en":"Lancel","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72a30","jah":"baa306b5a115475c2f66b1569038a274","en":"Albert","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72a68","jah":"fd83098f55adb5021d18a8068eb1e715","en":"Ascari","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72aa0","jah":"8217ad07be458669a42a10f35967365a","en":"Delaxes","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72ad8","jah":"5ddde50ed2540af52fe1556396aacce5","en":"Ferina","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72b10","jah":"7f435ee38cd550bdcc217c5dd92c2c2e","en":"Lus","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72b48","jah":"bdc9917f0a7c5377f92ff048659c62a6","en":"Sie","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72b80","jah":"9432a56513fc8d2fdfb2bdda5eb79d3d","en":"Carlos","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72bb8","jah":"1ab298ce3a9d4afa371638b8a77ccc9d","en":"Calossi","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72bf0","jah":"5b548d533a7ec1c6815a5f88b369b944","en":"Diagino","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72c28","jah":"364b250c611de0a8cfd8f7ee51d3d18a","en":"Kesse","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72c60","jah":"55bc112193c05a31d763a1800b5759fc","en":"Emmerich","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72c98","jah":"21b941d1f18258038c8ac44c5cc3bdbc","en":"Bedeloni","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72cd0","jah":"6da09c1820f057ec239fff26714af167","en":"Muldinich","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72d08","jah":"f6926d6c933b07db6c5acd9d1b4e1ac4","en":"Sachsen","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72d40","jah":"b557b667e0b02708c9bdb102f0433e7e","en":"Pedrovic","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72d78","jah":"07175bb272b7cd4212915926924c8efe","en":"Gregg","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72db0","jah":"4a3014136f0ca20b115fda00bbf57dcd","en":"Elensky","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72de8","jah":"c582607dab7622ecd771c2ea892df289","en":"Herich","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72e20","jah":"adda1df4b2177a0f709785b295ee82e8","en":"Hanson","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72e58","jah":"cbc1fa9dd2c09978487ebc396ffc06b6","en":"Disario","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72e90","jah":"81a61462ce7cb0e5dd8f93ef13e0ad8c","en":"Balden","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72ec8","jah":"fed90ea779946a25483c127102d4b96b","en":"Townsend","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72f00","jah":"3ff1a806dab244e570fd379ae8c38e3e","en":"Dugrim","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72f38","jah":"cce97aed7761d79bce9f7a9f85001e45","en":"Watson","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72f70","jah":"1dfa8a8a3b2c53b20b5f745d696b8613","en":"Arden","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"72fa8","jah":"51b7ce25197c8faf80fd10ee43f8eac0","en":"Sturm","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"72fe0","jah":"94668409cf91af401a81b2eea4cdb97f","en":"Keidalos","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73018","jah":"c058c7b20da934a7040337033ff0f27a","en":"Ferreira","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73050","jah":"6ae8b959cb4abaf8e2647a18c29106dc","en":"Argusta","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73088","jah":"d8bf06c8e4946a234456a5a4c25af8f0","en":"Kikero","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"730c0","jah":"e80670966cbffc4a8a4d2f2aa3d5e88c","en":"Geldan","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"730f8","jah":"d35b6b238fb9bf6b87d8e422ef939ccc","en":"Antonov","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73130","jah":"cd69a5819a212ffddfc4b30be16b96d3","en":"Ebernen","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73168","jah":"96ea5bfc534e4a02391cc16b6db9d580","en":"Vincent","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"731a0","jah":"61a85b7bc0b2d48c481d7d928c23b456","en":"Uranikov","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"731d8","jah":"2940dfec35697d042a2db5024576e227","en":"Vladimir","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73210","jah":"d3367ed06c89827cdbe56951c0f2dbea","en":"Terenkov","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73248","jah":"e155225c6bee27d395f4eb10bb6cf2de","en":"Sutton","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73280","jah":"aa562becbbab94e12a130a85d7e931ff","en":"Lemandes","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"732b8","jah":"c9be52506a80410f067ea3bedb116a1c","en":"Fuhrich","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"732f0","jah":"0f6e4854a0790b26a1a6e681950b9436","en":"Vilacas","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73328","jah":"98b3d47f02832f801738d65128099ea0","en":"Edward","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73360","jah":"6681b42e07ffa4acc83de08bed35c4f9","en":"Jester","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73398","jah":"62f10300b67e6997d2df3d4807f6da24","en":"Ferminas","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"733d0","jah":"2a816d13a2da7b4cc6577257ae2b6e97","en":"Alcal","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73408","jah":"deeb652379025562f3bffd460472a07c","en":"Azares","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73440","jah":"8fa92635436f30d51e64d089a689735a","en":"Ketsnen","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73478","jah":"58ad4ed2985808424b30a87968b46a32","en":"Sergevich","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"734b0","jah":"7ea4d6a0ea11559dfe8ffa8d16165106","en":"Antario","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"734e8","jah":"d6cd5db1ceecf579be4a93fcba17b874","en":"Espia","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73520","jah":"ade6bd5eae114d3d28012d57f62edd8b","en":"Kulpau","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73558","jah":"020c3a437b1fb8e257c92143be6685fa","en":"Nikariol","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73590","jah":"fcee90d0fa8d18d16ba37a6f3615e452","en":"Nersinov","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"735c8","jah":"8636b000cfb3c493019065ea1279f42d","en":"Leone","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73600","jah":"0df4cc92768dde4feab6100ad1e88692","en":"Ducca","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73638","jah":"4784c791f194b5f296e595efae6bdf6f","en":"Parmides","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73670","jah":"6a0d8167dd60ffd91747e711ed91d177","en":"Ere","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"736a8","jah":"35048ecbfe907ee432468652cdb53845","en":"Simores","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"736e0","jah":"462e00347bb060043bd60d2d6c6351a1","en":"Bauter","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73718","jah":"c7cb5605b40225e3bbfb58a3141367b5","en":"Jose","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73750","jah":"9d08275769b2dbaaf5adcf10a0ebc11b","en":"Falk","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73788","jah":"a329e6b1ac992325af4cc2c2c1ed450c","en":"Zagario","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"737c0","jah":"86cf6483c8904d39eff385ceb190aed4","en":"Santini","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"737f8","jah":"675c33d4da0789f9271f920b4ad2c101","en":"Riverda","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73830","jah":"2ab4a7696b7d26fa8791c4993564cc25","en":"Arabilese","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73868","jah":"5b410251d6574b17f3648a9ea215f01d","en":"Solars","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"738a0","jah":"3716faf879f6177aadea00cdf6d0de04","en":"Bachamante","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"738d8","jah":"f93bf41d75e551b7feec0cbf155b8bb0","en":"Martinos","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73910","jah":"4db6b37b85906e5ae9bae56c6c51eac4","en":"Castellina","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73948","jah":"1027e90353034c20da66e6b508fa9acd","en":"Sabas","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73980","jah":"bb56a2253b10f4085fa8738c4d85d219","en":"Menility","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"739b8","jah":"4c8a767e9e6f1ce2299196a6624a701b","en":"Pasarya","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"739f0","jah":"b1e5a771cf2ed88507b495fac8e88dab","en":"Dinas","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73a28","jah":"ce13916515cc01a1dbcf728c2718ef99","en":"Mardrad D","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73a60","jah":"1b922c25a060d7af5b6569ee2659521a","en":"Ferdinand","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73a98","jah":"376ec8e50c1ed609dd3fb1ba5fa9fed2","en":"Baldani","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73ad0","jah":"69021cd8c4dddb2c5822bad252f75995","en":"Chilavert","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73b08","jah":"8e71b9acd15429ed26f75a85a60e82b6","en":"Gonzalos","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73b40","jah":"23de389575caf86ffda393a4d123e2af","en":"Elaonos","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73b78","jah":"a78eff324f0e64cdc83859e28a2421ec","en":"Carlois","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73bb0","jah":"289c43d30db88c9c83492aa30be7c865","en":"Enrico","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73be8","jah":"db3e21cadbcc56900abf850cc59cc81b","en":"Sanjose","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73c20","jah":"ad5165097d4cb75272e144ee0e05bb8d","en":"Jafar","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73c58","jah":"022d2362afcf6f2300d7c0f9a06a437a","en":"Ermides","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73c90","jah":"a0268ead4e794d6b56cdf6064cf21bdf","en":"Garcia","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73cc8","jah":"cf850f9311be471baca6fa838e160071","en":"Anderson","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73d00","jah":"b7ba9f600b030d1ebe15fa14717dc7bc","en":"Elbert","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73d38","jah":"70833aaf41609aa8e2ca9fff374c85ad","en":"Zaive","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73d70","jah":"0aa564f39f69f155e282be67d66a0ab7","en":"Harisco","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73da8","jah":"707a9973f78245ee596e398050455e56","en":"Brian","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73de0","jah":"6fb83690617c6997cbe0c594c2b6d1b3","en":"Zelberger","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73e18","jah":"bd6d00021e0c3e8aa0d4dba4b8097d15","en":"Henebeiler","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73e50","jah":"532c9a2632f2e7c494645ca679f049e1","en":"Doim","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73e88","jah":"ed2fad5c1cf9c24b2bb01b3010d39245","en":"Kitzbert","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73ec0","jah":"11af778a8c0183d660d5a8d3259f2332","en":"Shael","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73ef8","jah":"83598495ff082c1f16bff1eb8e885907","en":"Gebel","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73f30","jah":"a93edeb6fb325d342979f1a25732e639","en":"Rotak","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73f68","jah":"09c26df7f9a2554c1e2258f3e6c13608","en":"Reihergle","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"73fa0","jah":"63940211bba4832033564967accb3fc6","en":"Haakens","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"73fd8","jah":"f04eb23a67ac3db1b1bf44615e07dc7a","en":"Rabeck","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74010","jah":"a2a63a2f9d64021d8318ba58a391e6e9","en":"Slammer","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74048","jah":"ce71274e9cf552ffeb7d86f0a4bc8b5f","en":"Matthias","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74080","jah":"f9cb132d0b92342eaf3e7b5a848c885e","en":"Kravis","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"740b8","jah":"ba986b09b2cd2663e041b85fc531e583","en":"Brugger","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"740f0","jah":"d1f5dae14c02531052718aa618041179","en":"Gardano","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74128","jah":"fdff8dfcb3c9f915c7ecef111e7ab9c6","en":"Girald","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74160","jah":"90ffc3d256431fb891a5f2480a727b8f","en":"Kepel","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74198","jah":"f9754b82c2de6eba9acbefcef27eb3dd","en":"Gassire","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"741d0","jah":"b6f935596231c0845c1b3bf87bc3bb6d","en":"Shibore","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74208","jah":"d5516964add5e89deb0cba9ffa3c3813","en":"Gianchi","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74240","jah":"c5514b5a783ab4456271483787e930d4","en":"Giersa","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74278","jah":"bcc1911b81aa37500e0be75f6b095c47","en":"Jerry","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"742b0","jah":"1a5546e4a8bbdc6c1b75e8f0e7d28a2d","en":"Bergoske","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"742e8","jah":"e77d38edc75f21933e6a518e64313b70","en":"Clemente","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74320","jah":"7ccbea23cf660350c962d26d0267f1ff","en":"Camacho","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74358","jah":"72ae79a668903c3b540711765f1afcf9","en":"Bosbee","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74390","jah":"b5762a61a7c39f278de4f5ab3984fadb","en":"Gnabrus","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"743c8","jah":"fc3eb4aa535c57bec6a166eb87e40cf1","en":"Hadol","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74400","jah":"2fba231d1ee3f5af3845e6d5550e401f","en":"Kelgan","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74438","jah":"eeb5a2a27b4f235ab06bbdc2f40a9ec2","en":"Ferguson","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74470","jah":"de4145fd7161db1ca264157eee957239","en":"Robsen","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"744a8","jah":"0fde29e3897de836c838c636e89b0339","en":"Rudknapp","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"744e0","jah":"63dcadbfddf96c58d17b95f2a8289da3","en":"Graeme","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74518","jah":"0056399064ef13b8b2670f2de024f5fa","en":"Greengate","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74550","jah":"8713d8919c89bfd441ba5208a1be07d8","en":"Hegson","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74588","jah":"d81761ac30cb3cf4c11b55ec996bd007","en":"Tashock","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"745c0","jah":"82f974c752c44ccd724812064a3a35a8","en":"O'Reilly","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"745f8","jah":"760fabddecca243e393650a4a43bbdab","en":"Fuding","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74630","jah":"43c111b85fe696bf221a25cebfa1f5c2","en":"Burn","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74668","jah":"6baf9d51b5099995af26c524848f2623","en":"Beenbacker","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"746a0","jah":"9cd48eccdc876bea8ce8b82d7748a082","en":"Mickles","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"746d8","jah":"123f9e7df6b9069c0f777209d7f4ce02","en":"Abofcart","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74710","jah":"74a5994529b43f0f6cbffe2bcf2850e9","en":"Bowyers","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74748","jah":"0b2599e8688a36d7928eefebe7849da0","en":"Anphar","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74780","jah":"b4d0685c325132bc2a389c328494ee00","en":"Skera","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"747b8","jah":"b98759bf8f38e297246dc7095540ae2f","en":"Battuni","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"747f0","jah":"e2a0ff1412873421ce4a4543bb0d5712","en":"Capel","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74828","jah":"5625f31a717d797f85039b80ba4d9bc7","en":"Zaccarini","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74860","jah":"f61df719783ee7d64a1017b68e07bf45","en":"Anclatti","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74898","jah":"3b56d2451ed84e5a79b468c6d10a58ca","en":"Reppi","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"748d0","jah":"355a015387ea462bb3dc976da1939baa","en":"Boanki","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74908","jah":"aa5f71c794a7927dfe37e1023c931438","en":"Viarzat","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74940","jah":"c4e9ebb3750a4d4b149c8521db6a1e2a","en":"Sparotti","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74978","jah":"bfb3408a5f8240a8e9003d83a52c06ec","en":"Simoni","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"749b0","jah":"ba82368d4cf4f78462650582bb75ac6e","en":"Maleani","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"749e8","jah":"230c1a4cc65c5a25dd0f9c1056e171d4","en":"Matterne","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74a20","jah":"8e18662bc47fab7e4cf14e8a896344bf","en":"Louise","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74a90","jah":"b08564907d7905dd4c520935721e3d9f","en":"Dukanan","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74ac8","jah":"0c3ad8510e427bb8848f811326f46720","en":"Mittel","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74b00","jah":"f3687ee5c57edd2e46d2e927ccb1dfc3","en":"Idarego","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74b38","jah":"0f742373b8ee803ea444c70a3e94694b","en":"Julias","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74b70","jah":"baa2b9bcdba144bdefc6c27fc607f43b","en":"Riclerk","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74ba8","jah":"d4b5662e332f22cecea93ea81ad81208","en":"Ramail","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74be0","jah":"323e571687da26a082388dd7554fedac","en":"Vier","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74c18","jah":"b1bd4f0853914be7c73c37145185576e","en":"Joke","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74c50","jah":"b705f4be575f21713b5b1a4fa0b0e26a","en":"Quelyo","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74c88","jah":"1edc26363741db45219893d9b5a9668d","en":"Oliveil","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74cc0","jah":"bd841b5ac4576b9205545687987395a2","en":"Robinovsky","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74cf8","jah":"68b3943204eaafe93e24ce285e81cb01","en":"Pienicak","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74d30","jah":"17c50716ac3eadb46779cf15c24ce4a8","en":"Hericson","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74d68","jah":"f615f0eb56783ec63b5db3b2b59ae27a","en":"Tebares","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74da0","jah":"66c5e626f7f4b79943a9c5a39b2eec5d","en":"Morsen","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74e10","jah":"854d3a4647da909dafe4b5bdcdfe4a81","en":"Boulan","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74e48","jah":"f5df7d1e2be3f6a81104f19110688dd9","en":"Delgrish","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74e80","jah":"c96c87593b5a4b8addb9e8493b5628c9","en":"Baskoff","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74eb8","jah":"7b5dd979072fa3340b12af308f105c1c","en":"Rochesk","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74ef0","jah":"b2b6124233e2314d231998ac414f34fa","en":"Yaldusk","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74f28","jah":"69126f6489b00f3ad603c78cd8b7ba44","en":"Yenoi","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74f60","jah":"7d30ef3c32c10a06d8809df388f8582f","en":"Ponef","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"74f98","jah":"8806a157c0ca0dafa213c0121ef7e1ea","en":"Ramanchev","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"74fd0","jah":"e2b2a35fc98b88ab3ef32d532173e45c","en":"Dezuniri","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"75008","jah":"8925838065acf0de9257e008ea891ab9","en":"Habanets","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"75040","jah":"eff92fc331fa68c6ef33c71215b18aba","en":"Motrana","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"75078","jah":"fd36d857a3531f3867ec4b53351e5850","en":"Rachenbigo","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"750b0","jah":"65d7523590e9a15f3173275a30844a7c","en":"Pereira","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"750e8","jah":"d687891bd56543356827c076d1648720","en":"Sergio Eda","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"75120","jah":"15f8b6f998849c370c3be1fa35090d9d","en":"Arganes","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"75158","jah":"3fbe071ed77466c5c9e8f7b18ec4b33e","en":"Bates","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"75190","jah":"d37da4c5663364d1796142dd6e89062c","en":"Acosta","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"751c8","jah":"26fad6891c7aa6d1e987b22756714baa","en":"Zorman","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"75200","jah":"b6a3c073d5deeb474ee395def470655a","en":"Hashock","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"75238","jah":"8774bb8b0ce6c6e7200c9507a90860a4","en":"Tomcie","max_bytes":14,"ctx":3,"fmt":"recarr"}
+{"id":"75270","jah":"8f916aa377dfedd8f094605700f1d10a","en":"Julio Reno","max_bytes":14,"ctx":2,"fmt":"recarr"}
+{"id":"752ac","jah":"235d85e1affb47886e15b40caf5fe23d","en":"Re-entry Ban List: %d now","max_bytes":28,"refs":1,"ctx":"ptr@1e770"}
+{"id":"7532c","jah":"8f418a4b38c51cb001ac24ee26fe4129","en":"Damui","max_bytes":40,"slot":14,"refs":1,"ctx":"hwptr ptr@ae78 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"75364","jah":"4ce6bffee69f167e8031e7dfa98b2981","en":"N. Ochi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7539c","jah":"3c7521fb567b071cdb65bd47442a2eb3","en":"T. Miyamoto","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"753d4","jah":"fb47b43253c6fa3fede02cd7d96ffc3b","en":"Takeshi Koba","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7540c","jah":"960538cf744b0c3bd569bf7d8802bcfe","en":"H. Yoshino","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75444","jah":"6ed72692924998c2d54e7abe5315b35f","en":"Shuzo Soda","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7547c","jah":"948c700fa8ddd37f72461dd259f00724","en":"T. Uemura","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"754b4","jah":"345022277843359a5f86f50d6de18134","en":"Taiyo Oki","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"754ec","jah":"072c8b67bb6cbce0db82fe46008beb60","en":"T. Takenaka","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75524","jah":"053518918c3894c3ea35849260b1aa8d","en":"M. Kimura","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7555c","jah":"ec498f60115d5f3b64252073878a8953","en":"K. Morita","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75594","jah":"07b5d5f8d842ab960f283c16ee2206a3","en":"Arata Hata","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"755cc","jah":"b931e8004a753b2622c9155662f38fc9","en":"A. Noguchi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75604","jah":"f6184709fb941b9fbdd340e113aad64f","en":"T. Asai","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7563c","jah":"c8790010be192f64cdae2cb3c12d8203","en":"M. Yoshioka","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75674","jah":"226fc1bcd7b23eb16fd363be01c03cd3","en":"H. Shimoda","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"756ac","jah":"ce51c587c14359ac790a540775caefdb","en":"A. Koizumi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"756e4","jah":"b76f084fcc8c2b610244c29caa83f92c","en":"K. Matsuo","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7571c","jah":"d18e61204ffa4f838ccb42397059f0de","en":"S. Kizawa","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75754","jah":"27722bebf3d08287f178716454ddd6df","en":"S. Seta","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7578c","jah":"fcdf8a828269cd4c70691aac2693d670","en":"Goro Koda","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"757c4","jah":"d24a9b33bf54849a7970ecaf81297d6e","en":"K. Nishitani","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"757fc","jah":"4bd20e5f89dca357d8398a96d92e82e5","en":"T. Haruna","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75834","jah":"f3ecd701dbbb323c694d9cc4166c8d40","en":"M. Ibata","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"7586c","jah":"c51f8da528a80cff613fd6b14b0774ce","en":"T. Kanbe","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"758a4","jah":"08dd7f420000a712eb71643b4e67b82e","en":"Shogo Okai","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"758dc","jah":"32f0f14cc2245e82344a7c6770a41685","en":"Y. Nishimi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75914","jah":"5a75e179578a7af9879f91ca6c4fa8ce","en":"Y. Shiiki","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7594c","jah":"aa4b88bedb2d66061ac12c645aa0fab9","en":"K. Kumazawa","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75984","jah":"1b2d1d2d95e275a654cdc7d9ba2cc640","en":"Yasuhito Oda","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"759bc","jah":"7e4e0645b9c62f075440dbaee908d436","en":"Kenji Fukura","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"759f4","jah":"753e4e9be9693acb9f8556bed2be2d5b","en":"Ken Nobuhara","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75a2c","jah":"af3a4d9f2ea887e9e6bab9be28f969ec","en":"T. Ikejima","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75a64","jah":"b975545082e434ffe0da93f282fd14c0","en":"K. Higashise","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75a9c","jah":"3b41ef4403cc016f17ced575f7a10826","en":"Y. Yokoya","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75ad4","jah":"26fe6222970fe85232e582d44f56895e","en":"M. Fushima","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75b0c","jah":"5de9247a921891e7cbfa03c3a0fa8343","en":"S. Tsuchie","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75b44","jah":"ca9395fef52afa7c72cf8a98839cdf1b","en":"T. Tabuki","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75b7c","jah":"bee10f01e02febc9e9d06e69f4b6a9cb","en":"T. Katsuzaki","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75bb4","jah":"31a3e5bfd189942965670f4494646f93","en":"H. Kodachi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75bec","jah":"01c2bce660da98677c437df7896fbc87","en":"T. Konnai","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75c24","jah":"4d7dd4335f215c4e15c06e0a84b36a0e","en":"N. Shinada","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75c5c","jah":"178019f33c802800b3950a91d247ac9d","en":"T. Tanoue","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75c94","jah":"81d53359ee7073e1c8ef1091db275208","en":"Dai Nitami","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75ccc","jah":"4ebb7bb146b174ac569c844e179dbf1a","en":"S. Yoshitake","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75d04","jah":"7669adfad29851eb1d2f7d13b343c2a4","en":"I. Hoshiba","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"75d3c","jah":"8e0946cf3ff72bccffb26b228b5e501f","en":"T. Shimano","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75d74","jah":"e620a041919b3c42848398c32daf57df","en":"K. Fukumori","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75dac","jah":"9786fee4e3290baa7357425bf8e5a53a","en":"T. Funayama","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75de4","jah":"9b9968f673f2b72565de7352c34cac64","en":"H. Koishizawa","max_bytes":14,"ctx":5,"orphan":true}
+{"id":"75e1c","jah":"be24a2d5db842180e45fdb054401bcce","en":"A. Manaka","max_bytes":14,"ctx":5,"orphan":true}
+{"id":"75e54","jah":"77c227a005a83ef14b6739c57b66e627","en":"Y. Watarai","max_bytes":14,"ctx":5,"orphan":true}
+{"id":"75e8c","jah":"d8391d4a67de4ecb98c8b9de612ccdad","en":"T. Nakashige","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75ec4","jah":"5c94ae312506adc4406234a24d52a02b","en":"T. Bonishi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75efc","jah":"d5da606390fc182164fa3de9bd942a3b","en":"K. Morikasa","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75f34","jah":"2350eee0f82bea914f4ce1699ff4dfd4","en":"M. Miyade","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"75f6c","jah":"3eeb568ab80a55afad2b470df02344f1","en":"M. Makitani","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"75fa4","jah":"85371ace62d3ded381b898164a4a17cb","en":"Masashi Oto","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"75fdc","jah":"44e1fcaaf3a7fd39e801853db3daac62","en":"Kentaro Itoi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76014","jah":"9776fdbf577b38014165e03d8b83b3f2","en":"S. Kazaoka","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7604c","jah":"dabc7bb20e6417cfb65f1167d536bc57","en":"Itaru Suzue","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76084","jah":"8f97fb6d449981007263ca5410e2ba74","en":"Y. Hatada","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"760bc","jah":"44004a7e02b030b0bb169c76343a86fb","en":"Y. Hamuro","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"760f4","jah":"edbe307404f1901d1a15d256d5c9d471","en":"Y. Nobayashi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7612c","jah":"9468b0decb178c083a2d0b30cf325e1d","en":"T. Aramaki","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76164","jah":"fc16678f6db5c49759cae3f5df65a679","en":"K. Hikasa","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7619c","jah":"c83311b463808710ae1a6edce7201ca4","en":"Kosei Obo","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"761d4","jah":"a49ec4ce97a374d5f8060af038ef63d0","en":"K. Nonogaki","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7620c","jah":"8ee588aadca6583d1ff0baea2ac6da8d","en":"S. Kodama","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76244","jah":"d078620ea32c6f235456e45ae76a7f18","en":"S. Yukizawa","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7627c","jah":"a695d1065cadb34a915972ff71c4ad4a","en":"Shun Yogoda","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"762b4","jah":"c3a2a90842b220cadb6b27285fd72a5b","en":"Naoki Abu","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"762ec","jah":"926920b6bfe04c7dfc7be4548f85081e","en":"M. Asayama","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76324","jah":"e8defd630856987d90db023bdf7a7a4d","en":"O. Hibisaka","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7635c","jah":"b25210b42549f093eac325636b1b99f2","en":"H. Motoike","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76394","jah":"ef603dce267c7d7f725f90b5e2a940c2","en":"J. Naruba","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"763cc","jah":"94c1603e42daa3e7614f294eaac88998","en":"Dohwan Yun","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76404","jah":"afa0a6fc13792b2e74860f04ed0239e0","en":"Soo Dongyu","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7643c","jah":"79c5bc4e7d3ce6027c6cbbd75abfba93","en":"Salata","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76474","jah":"cf536b106513375bdcdf54e70dce18fb","en":"Moldani","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"764ac","jah":"385213bda2707dd4a59885865b775270","en":"Champut","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"764e4","jah":"9cd86406baa0620647565da8884a78c6","en":"Kei Lin","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7651c","jah":"e6702260fe4e2d2124c75a196f32d934","en":"Jalaber","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76554","jah":"c97f8be53eed426cfae6c04e86b41cd8","en":"Abtalyani","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7658c","jah":"85de24a7376d91cec03b68c3746e11ec","en":"Bagdazalev","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"765c4","jah":"98b484bc22cd5890518131b54ae996dd","en":"Aljiji","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"765fc","jah":"489509309f76c21c69fd51996ac0d856","en":"Mamilev","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76634","jah":"e62c1507829d28d25a0ee9d3f0a84267","en":"Surshani","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7666c","jah":"69399b642dee106e09ef14c912fd8140","en":"Cholho Ke","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"766a4","jah":"1600934d79f685db01d722d1dfad6546","en":"Amshauni","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"766dc","jah":"09f7a27f18834884c2412dcab32b6175","en":"Malian","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76714","jah":"913a541a940026a0071467c374adff7a","en":"Won Natani","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7674c","jah":"acdb57e7e58df32415386db7385b2fef","en":"Sunnapon","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76784","jah":"2fc396aa58d9f19e7f9ee9f9542103e2","en":"Sharbal","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"767bc","jah":"5abc00fdbdb232f54df135530073587a","en":"Bedief","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"767f4","jah":"3a4b30b8a6aa277bfccb71b0cc2aeac8","en":"Alon Lin","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7682c","jah":"03a67f4ccebc92456b9c2fe9314767a1","en":"Fupati","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76864","jah":"6820184ac6bb5d8ff32de91bc7e3b469","en":"Chanmin","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7689c","jah":"149025251b81d15fcde49b4597ae64f4","en":"Ren Tsen","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"768d4","jah":"b6869f16363783a9a4914ebfe484d707","en":"Chiron","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7690c","jah":"189016fdc881d256fb0d195f9e13819d","en":"Bodev","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76944","jah":"59227fe2ca2e98be6fd560e0629f0a65","en":"Gunkoya","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7697c","jah":"1eed78325d9b6704a08cf7682c83b23c","en":"Sartani","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"769b4","jah":"3dd02f863be0884b067f53bc795bc0d7","en":"Kanyari","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"769ec","jah":"5bbec1a84e015c4bf4684adc72354416","en":"Juini","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76a24","jah":"e0521bc64c230240c198ac27f20c0d63","en":"Murereka","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76a5c","jah":"cb29a0ef15640a724ceedc8f478d4250","en":"Sertika","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76a94","jah":"7eb3ce02be4eb95f1817a8bc94a6b6a3","en":"Banubize","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76acc","jah":"31f8499f38c4662a226ed3c25a3c18c4","en":"Shanames","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76b04","jah":"443bee022ec98bb38a73ad07e1cfa2e2","en":"Burnapo","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76b3c","jah":"3343f41db46c8c6c275738b98a850a11","en":"Bahamesh","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76b74","jah":"0f87b9bead5efcc1c3425c5264c81149","en":"Stange","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76bac","jah":"51b0ca36883e38be44ded15190f99192","en":"Balange","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76be4","jah":"97c6291402cd9814e537c4a6a4374833","en":"Rufion","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76c1c","jah":"35143193944041a316f18d87fc1e7857","en":"Palek","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76c54","jah":"358fd81857b804dc3d44b7af1f828493","en":"Prunel","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76c8c","jah":"8b37517aae5bb0e68669c7083a92c30b","en":"Dumas","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76cc4","jah":"72cfafaf3dd37f1fde98ed1878ea9b5a","en":"Fuster","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76cfc","jah":"40055b78924ac5a056cff197484633a3","en":"Hornever","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76d34","jah":"23c340fa01cf371a94cadcb5d6bcd933","en":"Bert","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76d6c","jah":"414a7c6263f89e16b905fcd4c06e0484","en":"Varnecke","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76da4","jah":"0e233c6c1e23f2a8d3eeab761ee0e40d","en":"Fix","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76ddc","jah":"6fb65b82a5c458b4e258faf5ba6252b4","en":"Kirchhof","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76e14","jah":"473dbfd7064e82e3e9b40bad1d705fff","en":"Carso","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76e4c","jah":"1829d74743b62c59ed210257b7fad4ba","en":"Reichardt","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76e84","jah":"337431ff975fd555af9f4b1ace9a8f5f","en":"Pragge","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76ebc","jah":"bae243b6ac1d9eb620c5efeb52ff19cf","en":"Martise","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76ef4","jah":"5a76091fee2d39616fbd6d2fce3061ec","en":"Vongran","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76f2c","jah":"db2f65a98ad4458a8c8707523cfca16c","en":"Hoijin","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76f64","jah":"90a55a7bf470f00eb3c5f2071841ea1d","en":"Frioiss","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"76f9c","jah":"9074094fbb6d281bd15aab45318b47fe","en":"Harin","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"76fd4","jah":"aa1b6d0696edf4abd7204e4b1b81be32","en":"Rosabelher","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7700c","jah":"92a73c5c1fbc55ff02c6f0791a583cc8","en":"Nylen","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77044","jah":"58321fb57e45aef6af584003871fa95d","en":"Pezzo","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7707c","jah":"1122f1c4af8b1ff8868dfd222289f995","en":"Martinello","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"770b4","jah":"4f3b61f86dbbc7c96811cbf9aa2e5681","en":"Idem","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"770ec","jah":"a4a2b05c59b02536b80384096ed08742","en":"Meriji","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77124","jah":"7e8fdbebe5fb927220d6e51c2907b59c","en":"Bezari","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7715c","jah":"917d4a15608664d63228c43b705cddd4","en":"Trillini","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77194","jah":"2330eabb18363d0e7854c99d96f62ac7","en":"Belucci","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"771cc","jah":"5efa46f7db8e5118604f393dfdffec94","en":"Bonomi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77204","jah":"c7e3322330644016752d63599e2a760c","en":"Tsene","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7723c","jah":"0a64a2a60a872efcf7aa998ce8ee5868","en":"Silvio","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77274","jah":"0a4c5a1c0c7c5d123864835258c24b76","en":"Massimo","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"772ac","jah":"379eb2353ee16d48c594cdc7bfae742d","en":"Palmer","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"772e4","jah":"103ef06dcf2d00afc94f38dd6e80eb7c","en":"Ainsley","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7731c","jah":"e8b30c8795238fe12b1c5d5c178d5b66","en":"Tovill","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77354","jah":"23c395323684500cc16be6388e5b1324","en":"Kazun","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7738c","jah":"525ed08fed08d20394658d422fe2f1ff","en":"Buckley","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"773c4","jah":"345a660980c3a1d8a15f0a8ef8c4e4c8","en":"Saundry","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"773fc","jah":"a866839859f6819b6a558a1f531a0afe","en":"Gillingham","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77434","jah":"9646183bdf83795af6a465384db4c2c1","en":"Pinnock","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7746c","jah":"6e692c9d0c5bd4d4d69c945e5a2d584c","en":"Arcoda","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"774a4","jah":"2f2482b48d039ef67ba609bf8c713b8c","en":"Ufalta","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"774dc","jah":"fd53a4e3375520eb63baa2d3ce8c7680","en":"Samoraga","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77514","jah":"56168456fffe0cd802c2fc835f7783f0","en":"Anhel","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7754c","jah":"bd7358abeb22913169377bc7a0513e9c","en":"Induran","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77584","jah":"bf049bd8559c71a6ed0388f31eaae3c4","en":"Uralgo","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"775bc","jah":"32532262338a29ef6576c1f5241a5a1d","en":"Tendinyo","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"775f4","jah":"70c177f1c2e5d5e37b4ca033c17bb271","en":"Coronado","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7762c","jah":"07d434a1d6eadedff06d9a4cdb2ae27b","en":"Soldanovich","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77664","jah":"c41a7553f22ac25ef10a972d3ae66530","en":"Yanus","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7769c","jah":"beedf1001f91496a5299518e601403a0","en":"Lekonovich","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"776d4","jah":"4e0dffb2bf64bd6172c812bd290646a7","en":"Recland","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7770c","jah":"0a459f5f68e628caf683e390c6baf445","en":"Brunika","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77744","jah":"cad2c3689f66cdfbb6e124137920c03b","en":"Helmorner","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7777c","jah":"4597e363a462f7bbf50611578a2134a6","en":"Saitov","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"777b4","jah":"346e77e691d398a5b37215945b33d7a1","en":"Lungberry","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"777ec","jah":"fc13841a31b9dd0fe5adb61ac7a41819","en":"Bandekaie","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77824","jah":"fa66b347ddef16a620f704c67bdf23c8","en":"Todorov","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7785c","jah":"f2315b9c48186b2dc74cfe5a6266e551","en":"Boidry","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77894","jah":"fb44c90efd50342458175368172cb614","en":"Estimas","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"778cc","jah":"d65e798a48076a326f3719615d8c5817","en":"Da Basco","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77904","jah":"2faf3b0c78ff4954384ab5feb34206b8","en":"Bermenta","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7793c","jah":"f6309b81fc97755bb516cc7041ddbb53","en":"Baibel","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77974","jah":"8b7c4ed87817e5e511a8ba594188c103","en":"Behobar","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"779ac","jah":"8072b182c3596d5f82af3a9025a74ed9","en":"Tratch","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"779e4","jah":"322871044e90f8b9b2fb1b8d3caa9f26","en":"Kokas","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77a1c","jah":"3e925855f70f67460aea350dd1d7891a","en":"Mergar","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77a54","jah":"c782e2584fbaf6bed1c0c6facdce43b5","en":"Friedman","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77a8c","jah":"22feec6c123a7eda9c327f529459d50f","en":"Braston","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77ac4","jah":"e34c0b7a20269508ba995c6ad8a90c85","en":"Slaymagle","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77afc","jah":"7105f22df6e56e5c8a7f4a08031c35fd","en":"Gyutur","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77b34","jah":"743cbaeffdf75645d15524c099e3d83f","en":"Sibanen","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77b6c","jah":"263ffd1344f0af86227faeae502cf580","en":"Tedeff","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77ba4","jah":"a15573f6af2e78b4cc8139ade2faf638","en":"Quarry","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77bdc","jah":"f3023e03f19d9d540c60d8ee3e360653","en":"Derinyo","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77c14","jah":"e31e25c1e44a8023c866d6c6c34fd540","en":"Dilzero","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77c4c","jah":"c39ead0235bd4f6ab86a8746799fe95e","en":"Borges","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77c84","jah":"5582fddb932e09cd7a8a2fe42d0cd5bb","en":"Jidro","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77cbc","jah":"49d94322163eedddf3a6d900896a8f9e","en":"Jade","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77cf4","jah":"e488897f5ecf8c7d8f271655fb268ed7","en":"Gimaranes","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77d2c","jah":"d70e21d69b6c64498042089af2915b96","en":"Brava","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77d64","jah":"af884895bae1f09e369f1a3bf2823af5","en":"Alsaud","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77d9c","jah":"404b0f58abac2d323c9a36a8ae6e953e","en":"Edgar","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77dd4","jah":"d1fdde3176cde21d1c9f0500aaa77042","en":"Lawrence","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77e0c","jah":"87ae361935bef16fd5d026bd15162c15","en":"Coppoleo","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77e44","jah":"1bedd3334a3865eefc2f86ead69cbf6c","en":"Borelini","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77e7c","jah":"14e78b764e9560cbe7cac4a6d1160227","en":"Amelio","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77eb4","jah":"8cc0adcaa362959994cc0d9e5d49f744","en":"Abarea","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77eec","jah":"31c1143913b77e4f6cea172c85a124ab","en":"Bareini","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77f24","jah":"c58e3b9448cc0ce02b75937feb3321ac","en":"Giusto","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77f5c","jah":"504a14e0c3fd5a62acd5db969fd016b7","en":"Victor","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"77f94","jah":"9bd27d0b6f890dca31f856ae86b9c3cc","en":"Muskuli","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"77fcc","jah":"3ecb8b6dc24c3a52df959bd9a78856e6","en":"Raydeen","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78004","jah":"aa99deab0dc23326c3481c865a319fe6","en":"Perean","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7803c","jah":"3ad4c53e2da590a0db063e6b8ed81e20","en":"Fardosa","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78074","jah":"90a489bb04e354d440793dbf97b8d3f3","en":"Baranta","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"780ac","jah":"2f5bcbae85cb12333493d9c1b665d0fe","en":"Barueso","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"780e4","jah":"6720d0359190de0afefa83759e1e27ef","en":"Etruway","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7811c","jah":"4f3f14f41223b17f2faeec5c20533f99","en":"Cabrelaro","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78154","jah":"a8b6366e033b5ea6191b568cf74f540a","en":"Gastero","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7818c","jah":"79341c6c94878917e95e0d050486d847","en":"Pinenya","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"781c4","jah":"9c983f89b6b37c2b5228d4ad70f3a542","en":"Asqui","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"781fc","jah":"3a8430d0b955f29acb61c4716a6c40e2","en":"Nazar","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78234","jah":"8b70588a2d029afa646443d1c7e39957","en":"Luis","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7826c","jah":"a584373c04ea6765881f149655bf1b69","en":"Segara","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"782a4","jah":"4ae97aff0ba3c879ae3d89e705a0b63e","en":"Sapari","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"782dc","jah":"ffdde597ca87aea82f2b98ca2205a10d","en":"Beckader","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78314","jah":"f16ce6a44846102f11ab85c6208ca2f9","en":"Demati","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7834c","jah":"e3acc985c70222edf1e4af739c4ec857","en":"Kozen","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78384","jah":"74ff72b59191ad8bc84db52c942dd173","en":"McDaniel","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"783bc","jah":"d852fc042e03921ed9a53375c8ac2230","en":"Goodies","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"783f4","jah":"f456d1ce9c5252ed1420a765809b1143","en":"Ragasuna","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7842c","jah":"29c8cfba180d33554869f59fa9558160","en":"Resias","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78464","jah":"994b4ab84decdcb9142e1a6eb7c58cf5","en":"Oian","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7849c","jah":"bfa9e65577a40cac21a3121aa0fa03ce","en":"T. Kawagoe","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"784d4","jah":"136b5f2906ed9f7b641db1b4a2c5c111","en":"K. Miyakuni","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7850c","jah":"a2f5a6b641b38f88c63e5e9fa3926d97","en":"Jiro Saiki","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78544","jah":"77ff0e33e8e1a1f86a2cd5e5119361e4","en":"M. Kimiya","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7857c","jah":"a9e6390dc5aee003ab30b2218d21a0dc","en":"K. Arashige","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"785b4","jah":"ff07f7c2f0db7849bdebe1b311a6bba7","en":"T. Minamoto","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"785ec","jah":"cba0c744aa6c91601c39ac5b8a5d2788","en":"K. Ayukawa","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78624","jah":"1e41880c7f486a9433eea95aaf5f6531","en":"A. Yuki","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7865c","jah":"289ef4dd9bf547c1a78f1f025b5e9a12","en":"T. Itani","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78694","jah":"90c75a373b94b33dbb0be4bb6b581951","en":"Yuzo Tsubota","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"786cc","jah":"9b70480e783dacea88b179cc1bcfa2fe","en":"Shizuo Enami","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78704","jah":"cbfcc08548c08499e79ee47df92a92c8","en":"Y. Tomiki","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7873c","jah":"e8b108aa92d753c726220923c2fc8f32","en":"Kento Hamada","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78774","jah":"495107f4e6fce195f2891f36842b5528","en":"K. Takaishi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"787ac","jah":"54315059aed1b48f793a643d2069d374","en":"T. Bono","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"787e4","jah":"668a877c961365b08a2d2c7bfe31cad8","en":"Junya Akii","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7881c","jah":"cd7cc2b24b22559833404c66d1607a4f","en":"Ryoichi Taki","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78854","jah":"292293a9399d44250fa7c145b20823ab","en":"S. Kawasaki","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7888c","jah":"f339cdb36badaa35559d6e3f59e4bc54","en":"T. Uenuma","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"788c4","jah":"33283d46897ef560af11d822f1195334","en":"Yoshikoshi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"788fc","jah":"28c3cd567f6eb7feeceed14bc83015fb","en":"Higashijima","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78934","jah":"a552773f0b2b776837993feed038458f","en":"H. Masubuchi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7896c","jah":"4c589056956f615fd7ce86ba4eaf99ba","en":"M. Nishide","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"789a4","jah":"6e6f5d4ef09e427459bc63960cb65868","en":"H. Omae","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"789dc","jah":"cb86b83210af19bfc2f5e83c3f44cc39","en":"H. Ikoma","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"78a14","jah":"d23c4fd7d948e8f0c12edff57733d511","en":"J. Yashiro","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78a4c","jah":"9dc8ee9b8877770013a4f1ceec2edf99","en":"M. Iwaya","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78a84","jah":"6e50a8a63a6510717d97c2d7665e6f1c","en":"K. Shido","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78abc","jah":"b18b0d9a12cb4d178c04c6a07b516b7e","en":"M. Yonemura","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78af4","jah":"40419ff29134fb811de8cf4384b4c8fa","en":"K. Kuramata","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78b2c","jah":"d4310f1c39589cfe1f6d92c8874009c9","en":"Y. Ozono","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78b64","jah":"9c42bdfa847dd60dea7c5981dedbeb1a","en":"H. Kitami","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78b9c","jah":"ff06c3236657f47c5163f8ffa5d6c4fb","en":"S. Horikawa","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78bd4","jah":"39e521e1da0bff51b80f8bd67ece44fd","en":"Kazuki Kishi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78c0c","jah":"7c55bb67353dd2a08ae93e887d59b21a","en":"K. Mochimaru","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78c44","jah":"0176e4c7cb031da19ed894c415bb9fe0","en":"M. Suwabe","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78c7c","jah":"a9acaf4cacebbbcc58301e0b2b3ce1ed","en":"T. Okutomo","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78cb4","jah":"ba5d3ae4df1ac5f0a97ffb5eef915fd3","en":"S. Machiya","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78cec","jah":"c4381826fd40f1ddca7590bdcef5c226","en":"E. Satonaka","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78d24","jah":"d505bb8d4a79fad9b8e8246998e23c0a","en":"K. Kamikawa","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78d5c","jah":"8cead8de28d243ea9309188cddbde665","en":"Masaaki Yato","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78d94","jah":"738055f58c9640c32fbe6d568f9f1ea6","en":"Y. Nakakatsu","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78dcc","jah":"7484b945b87a2d26dd08300f9451dc53","en":"Toshio Dazai","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78e04","jah":"2fda5e52320d1e20a0742c4e932220b2","en":"K. Fukumoto","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78e3c","jah":"b145e03f191a38106416f8aec4ba38d9","en":"M. Shimotsuma","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78e74","jah":"5032de672e39d52ee10b465e91e0e4bc","en":"K. Aizawa","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"78eac","jah":"08306d4347e4ec2393197bf4f6fc8c3f","en":"K. Mizushima","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78ee4","jah":"6928954f2f528ce065dedd71e370248c","en":"M. Negishi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"78f1c","jah":"8b0ceeb657e6176c17fb91fb3ca9ea4f","en":"S. Yamagishi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"78f54","jah":"3d8b2c0be075e427cb9552144ac69175","en":"A. Nishiki","max_bytes":14,"ctx":5,"orphan":true}
+{"id":"78f8c","jah":"51bdc4b7074b4b9d0492ca71b2c99328","en":"M. Haccho","max_bytes":14,"ctx":5,"orphan":true}
+{"id":"78fc4","jah":"a8a605fdb3eba0295b8ce8e05ea6a7e9","en":"Y. Hashizume","max_bytes":14,"ctx":5,"orphan":true}
+{"id":"78ffc","jah":"c9fd7282e26095ff1dc60a5e7da52ca8","en":"N. Kashiwada","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79034","jah":"1cfb87f19d6ea8f869c5c7ed8141b5d6","en":"Y. Takatoki","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7906c","jah":"5e76e84804076597f39291cf402bcf93","en":"Y. Aki","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"790a4","jah":"cad398835a233ee528a31cc070980caf","en":"Yu Koike","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"790dc","jah":"23ab5aadd74b8c9dc54cce160385ecc7","en":"T. Kawauchi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79114","jah":"4a3862e61f7f463625254bb5f063bddf","en":"Toru Shimizu","max_bytes":14,"ctx":4,"orphan":true}
+{"id":"7914c","jah":"7fbc3c8c8a05723c49ca241d9a1f7497","en":"K. Omuro","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79184","jah":"ac3e06d1e3451ebf27f346f1435dbf00","en":"K. Asaoka","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"791bc","jah":"aea539d4cf5f4984436367f29085e117","en":"K. Nakao","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"791f4","jah":"e977fff602fa6cc4b5aa1692bf4c161c","en":"Sadao Shiji","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7922c","jah":"c965635e40b8f8cc57f14930c58bcf53","en":"Y. Kagawa","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79264","jah":"4402c064209de9934590d3ff297a8976","en":"Shu Masu","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7929c","jah":"c4b5246bbcca06d4dda92a448fad94b7","en":"T. Kishioku","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"792d4","jah":"7d0639e6046120107d195acf29c307f8","en":"Akira Kogake","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7930c","jah":"d2fd07c8ef0aae6fd08947d7e70ab6e8","en":"T. Yoshimi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79344","jah":"e814fa28fd6fec3b77fe8ff71e9bfb68","en":"T. Okakado","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7937c","jah":"2b3eefca2bfb1c21a6524fab395f2ae2","en":"T. Itako","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"793b4","jah":"7c0d066324f497989f5a93ae4bab9f80","en":"S. Okatsu","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"793ec","jah":"bec9a204dc00f8dc292c341f1b608a7d","en":"Y. Arita","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79424","jah":"2a032b4960605d50f521e964487c7a82","en":"S. Nishiko","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7945c","jah":"f778faab2d15d32cb828f71a60a4c148","en":"K. Fujishima","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79494","jah":"3ec3060f7c0c82751c408d886db1b097","en":"K. Funamoto","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"794cc","jah":"209f38f226547ba66cb842d64850acd4","en":"S. Saido","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79504","jah":"ea0a6bce47ad8e891175db3e8706e57b","en":"S. Minami","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7953c","jah":"78e533869219b685192e24d8476598b5","en":"Yi Zengwu","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79574","jah":"7e346dedd8dda1d045011126967b050c","en":"Li Lantai","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"795ac","jah":"5d5007452540986808cb78447c4823fb","en":"Fahab","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"795e4","jah":"8874f4b0ae01c3e80243d30954b0296d","en":"Akyahani","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7961c","jah":"a9a0a61d2d9dcb8bc646e98c0e594d24","en":"Chantaina","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79654","jah":"3c578b54f750973e04a89f2a65c13212","en":"Yang Shenlan","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7968c","jah":"6f218f754d3fb9636dd9b36250eb66ef","en":"Azam","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"796c4","jah":"8a7dd2109933ca3a40d4a6e90173dfd6","en":"Emitemar","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"796fc","jah":"835f01d78c51f55c2f81772631ceaf55","en":"Chernikov","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79734","jah":"94c072b543a6664042523e3ea89f5a6e","en":"Mahaji","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7976c","jah":"8a526246c3b3801e1c0c7ba255eb899d","en":"Yagudin","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"797a4","jah":"833df3ef0fe7bcf2f53e6e0754f9141d","en":"Valerov","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"797dc","jah":"f616a0f0acd1d38ec8c1b8ee43973cea","en":"Sun Liangho","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79814","jah":"91bd805c25c76e7b1423bc51bf7e61a1","en":"Amadou","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7984c","jah":"d49d855630376498476ed2b581db3f19","en":"Sarina","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79884","jah":"1f0189f0afd152be987607af46c6d855","en":"Wu Meiwei","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"798bc","jah":"f209b1e4456f6512d5b8e77a4fddb4c9","en":"Roman","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"798f4","jah":"9b42ccaefc2417e3769b113665ed6714","en":"Ruche","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7992c","jah":"2d4fdfe7e011e4f526d2c701044c58df","en":"Penesh","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79964","jah":"911861d59a79909b538118aa57d2fb72","en":"Tony Law","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7999c","jah":"75b70ba2f164027cf3038f5602344b9a","en":"Yahoboi","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"799d4","jah":"f3158db6a1f2985d894d0f0d7a21d549","en":"Wanchark","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79a0c","jah":"13302aeab9b2e5261863046bc3f8d991","en":"Lee Leon","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79a44","jah":"6af56725e9784a176396472765e0ca6b","en":"Tuenma","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79a7c","jah":"be09cba7b66a4423104345726f277c10","en":"Lanskat","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79ab4","jah":"a9089c548cdf0ae9498476bc4cb4132c","en":"Deera","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79aec","jah":"c1f7057b6c88f05fb637d2d4aee7f644","en":"Latham","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79b24","jah":"8d4d3e56cbecf533424bc17ef9a2b1c1","en":"Gabrage","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79b5c","jah":"eddf6f38fecc034defe643f7668af03a","en":"Chiki","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79b94","jah":"e6d1a7fa1c9e16ec41f1ed2b374285be","en":"Kwamp","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79bcc","jah":"3430d6ce356b52408a4851b721b85739","en":"Shurivan","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79c04","jah":"720d95eea77722efd8ae2ff29d1c67c3","en":"Kinmel","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79c3c","jah":"1052bb4ee8107e36df9642eeb105a9d9","en":"Zaryu","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79c74","jah":"325965fc190783f712752b766df52978","en":"Rimda","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79cac","jah":"68312a493524983f44af7c9b59dffe5e","en":"Mwarsha","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79ce4","jah":"edfe3199e56f6a2de99897b06bfb11c0","en":"Dural","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79d1c","jah":"74f679661db9129aeb6338408beb1d95","en":"Metri","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79d54","jah":"93575394f51462cc88c5491393cad3c7","en":"Kruhl","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79d8c","jah":"e144a2620088a357a0e852d4c0270454","en":"Domiteri","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79dc4","jah":"31fd685abe66fa66ea15c12044d0dcbe","en":"Richelieu","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79dfc","jah":"6a12e5ece529add171eb6e0ed39d2f81","en":"Mato","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79e34","jah":"1ea87a8ed87453c4a6e467d9eb28b133","en":"Raindolf","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79e6c","jah":"6e01d1aa4abb385f18162f315d118059","en":"Henken","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79ea4","jah":"6cae7186999729af81d458393635d72e","en":"Boltra","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79edc","jah":"df6db9efdb9bf49db5168054787b2b7d","en":"Klaut","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79f14","jah":"f4ca35d6aa211af7ab20da30439d3f08","en":"Zelder","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79f4c","jah":"f97393f6092a5440587cc09541578f1d","en":"Giel","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79f84","jah":"262d44690823a0fa9878435833e25f57","en":"Belmeyer","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"79fbc","jah":"19d608bc1491f5cebf24192dc8b9b1c1","en":"Bermelz","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"79ff4","jah":"91509b5136930a4f2ad5382a36682bc6","en":"Hagel","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a02c","jah":"1078690115ea6e02ac4a1f259f6f26cb","en":"Borman","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a064","jah":"30bd1338d963a2866563b88507c54b03","en":"Barter","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a09c","jah":"232e6ce8c4a828de9ad097a40a7ad007","en":"Donnen","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a0d4","jah":"16273a2c60a2a5fd1a32e8094456c2d4","en":"Pratt","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a10c","jah":"39370b8294bf4d154c2c0b0a419cee2a","en":"Van Hart","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a144","jah":"fc963b6e74819406678a6db2a2df15a3","en":"Foukas","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a17c","jah":"c6911a719e44c314ce442a2a0029a6c6","en":"Quiltra","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a1b4","jah":"cb22339edd3da1bb82765599577dce0a","en":"Mondinio","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a1ec","jah":"3fabe41b76619abfd4ec29578192140d","en":"Biano","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a224","jah":"54e06f39f6e0ebfd6b4932a05a887eed","en":"Parna","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a25c","jah":"abf6e393bd87f2ac23a91124d413288f","en":"Zioneri","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a294","jah":"05c6b5c58c1a02362ef116852e57383f","en":"Romanini","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a2cc","jah":"1df18c2cf8edae4d174ab6f32fc643ce","en":"Malperino","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a304","jah":"713f03d6104208cc04982b414c7012fe","en":"Carnitelli","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a33c","jah":"e6da00e1c799e84b319e8dc090f33e6f","en":"Guarini","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a374","jah":"c31cb966551ae9f91e6de59a2b9c67c0","en":"Zenino","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a3ac","jah":"72904e7f4f3afa4cefa794fd68133e7e","en":"Cricaro","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a3e4","jah":"bc0223e2e61dfc4d676384fab4c0da9b","en":"Rizzoreli","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a41c","jah":"ac84fc573b3fb52c787cea33947bd56d","en":"Tyler","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a454","jah":"a534c157ab51baecea30842706858597","en":"Forton","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a48c","jah":"bf3ad768c28b990dce7aa40053c44900","en":"Robin","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a4c4","jah":"282d015fd1ce9f35b5f4d497b2a0f72b","en":"Arles","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a4fc","jah":"9f120a4198399c881fd3e5a1252345df","en":"Troop","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a534","jah":"1e76d9015b8a0e9cc03ec4e34852bc3b","en":"Aivan","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a56c","jah":"1a80483223053f2a15f6039fd9d94845","en":"Pinchcliff","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a5a4","jah":"7b682615155a0c29808b90148bea0807","en":"Glatt","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a5dc","jah":"786667efc25e5b7b9ff4d01b2ff37bd6","en":"Marges","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a614","jah":"c204abaa6128abba01505cca9019c333","en":"Alfan","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a64c","jah":"3d5afbc29a0d732051483b5b1c276368","en":"Bongo","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a684","jah":"c2ae6d4ff1f48791bbe98f2d8597578e","en":"Manija","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a6bc","jah":"9c97b007327aee8f4707cef4c63afb0c","en":"Raffin","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a6f4","jah":"577c482c07a76c65ed1a544ebf9a62f9","en":"Kno","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a72c","jah":"28363e872d5d4cfb6190dec27483ab17","en":"Vegaro","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a764","jah":"b9bef097c9b58105dd04cfe3006780de","en":"Elcres","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a79c","jah":"a0a47856c12dc70fcc6d32435ba3d5c2","en":"Bilini","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a7d4","jah":"bd847917d305f0a4cc15da276fd32c4c","en":"Kozulnik","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a80c","jah":"dcdda2311cec10234bd01a6415ff2ab0","en":"Kordovich","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a844","jah":"956219b39599890a15c110975dba867a","en":"Claesen","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a87c","jah":"f0630081ce1b19bf2158f304145ec32a","en":"Nemec","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a8b4","jah":"1964a3c233b69277339708b83db8d2d2","en":"Sagsrik","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a8ec","jah":"9c7468c489079dff965a4ad32c568e55","en":"Ermilenko","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a924","jah":"d83a13c6a18839d840fd450c0841e24e","en":"Schoberi","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a95c","jah":"aa15ab078d1824ff4d5b3c530e2fef06","en":"Calesen","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7a994","jah":"be26c7a84ce0df6b6ec4d3253847cb67","en":"Menedev","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7a9cc","jah":"ce713dae3dc03332c52fbbec056edfc8","en":"Daleywood","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7aa04","jah":"9f9bdb99f5d8a4f3fd48b6d04e02434c","en":"Servetes","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7aa3c","jah":"ccd8332c08bc412cfcb14fb797987a43","en":"Regeiro","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7aa74","jah":"09bf3eb2e46be4fbab10ff9c9a80a3ae","en":"Esmera","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7aaac","jah":"3498f4c0090f3a798c6bcadd067317f2","en":"Shelberg","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7aae4","jah":"b32680db93a6aeb8d5c9cfea3dec6328","en":"Znek","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7ab1c","jah":"a2e68b890d04e9d9ccd01cf46493ebc0","en":"Bonoret","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7ab54","jah":"a1ede5f2eefd67dd7feb768285f7baae","en":"Gelniktos","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7ab8c","jah":"1beb455c2d06b417a29eab9616f8a36f","en":"Embner","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7abc4","jah":"4933d679f4ec4a35f68b48fd4030502c","en":"Yarlin","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7abfc","jah":"96f4a3ec76ed8a40c8ef74f35c405fe5","en":"Sealan","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7ac34","jah":"077fa3b7e47b37399f74e880267e0d45","en":"Sabara","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7ac6c","jah":"e11ceb8a709cb6028325d5d9af7ee8ac","en":"Istal","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7aca4","jah":"aba5f5dffe2e5a6eb5d56686ce167396","en":"Olrainen","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7acdc","jah":"63b5be7bff5f526fe3f1caaa60734f7d","en":"Ulnitsef","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7ad14","jah":"4ea4cda139996d5e8a632789a6f94aa3","en":"McArick","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7ad4c","jah":"67a3d07dfef696f422ba90c75d7be3a0","en":"Bashenko","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7ad84","jah":"2bd71d1efb1b8cf1ac3c9f237b557a2a","en":"Elandes","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7adbc","jah":"bb72136b479da6535037bc2c0fc20db1","en":"Adesta","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7adf4","jah":"f29ca7201820417df2cd565766ce6983","en":"Pirey","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7ae2c","jah":"c51baea77edd7d3dfd7e33262d8367cf","en":"Zena","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7ae64","jah":"aa44963ab37826497b8e08b3a2d9c3ad","en":"Marsais","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7ae9c","jah":"3f0dd6bb1f728df44a3238343ec49334","en":"Delarusho","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7aed4","jah":"56dfcb935885e7b25fdfd0b988bf20fe","en":"Tessio","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7af0c","jah":"b10ea8adc62388bc1ddf6f8e87516b54","en":"Chitata","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7af44","jah":"1497b7f0436eb559e8599c77456c0ae9","en":"Peronio","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7af7c","jah":"1b4d8c331d9427f6fec45c8c3065a8b4","en":"Fabriani","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7afb4","jah":"851266453b5970a81567182692f5aa42","en":"Monsini","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7afec","jah":"374d8e6608440f373b7f5b928cabb2f5","en":"Protsine","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b024","jah":"73a9461837240688cbeeaf421c420f8b","en":"Balpai","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b05c","jah":"0ea0833e76069878d63e875a1abb4cec","en":"Joltas","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b094","jah":"630eb3b904eb9492f992d8320a2fee9d","en":"Beltron","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b0cc","jah":"e67b8fa6f21ddac9e96a64637e7521c1","en":"Samrera","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b104","jah":"4e9ecba9632fd42d50b3da351b277c89","en":"Chacon","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b13c","jah":"0fc9a804572235e09bdceb6807a64aaf","en":"Rashida","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b174","jah":"39663e96207857aba8c918ef05ea1816","en":"Abulo","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b1ac","jah":"e50dacef15b52b1cf129d06b78a3cfe6","en":"Fregiani","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b1e4","jah":"5ffab8ebe85c32247aac82bfa6d8baa9","en":"Condilea","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b21c","jah":"694ae9084af51cf98f338351f7cb7649","en":"Covila","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b254","jah":"30b65c6e04da6d03881a245b8d915cec","en":"Rivase","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b28c","jah":"b5f40845151dd68e2bc5ff6b4a447dbf","en":"Empinazo","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b2c4","jah":"9e8b42ad87d7e17650fe4777f73ea97e","en":"Seoro","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b2fc","jah":"5ea28f00aa56d6aeb791f5d2edae5986","en":"Clavas","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b334","jah":"f9648434d2816bbccbe0c03bf2796aea","en":"Belha","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b36c","jah":"39569d425657605a469fe688270718bd","en":"Dodrero","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b3a4","jah":"c9b54c258c39c24b595ce98c6550cdfc","en":"Lavalte","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b3dc","jah":"84fa73a376f144121c986d8b9fbd47bb","en":"Servenas","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b414","jah":"0345a57af9c686ae09017033dc14ba96","en":"Chanape","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b44c","jah":"fd922db78cf569f6409657d8d8ae8e35","en":"Guchilmo","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b484","jah":"6301bc09da8919926def3b5c4f5cf154","en":"McLooney","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b4bc","jah":"0c23c7b4b36761bac6b1c8436724c59e","en":"Somers","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b4f4","jah":"f434f3a52a254ef1a1f887de14e72c29","en":"Austin","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b52c","jah":"856b70e690541fda4e6dce79d675a937","en":"Young","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b564","jah":"024a69435ff1559b51d7e98cc8410672","en":"Mervins","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b59c","jah":"a845cc041a54f89ec43ae7e5385592f4","en":"Subata","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b5d4","jah":"492d68ba34d9674ac1db1a3b9ebfd630","en":"Gamelena","max_bytes":14,"ctx":1,"fmt":"recarr"}
+{"id":"7b60c","jah":"ccc469a815b615d8372177515dbc6264","en":"Underhill","max_bytes":14,"ctx":0,"fmt":"recarr"}
+{"id":"7b820","jah":"f18a3c3a264d68dc075306c5f8d5a01f","en":"Antlers","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[0/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b828","jah":"19fcd082afd0e183ee5d1e97b1d3bcb2","en":"Reds","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[1/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b830","jah":"0af80e82f62cb52f602f775cc918f9d9","en":"JEF","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[2/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b838","jah":"1b62551679ac2281c383c93a794ea295","en":"Reysol","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[3/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b840","jah":"82c121fda3b602102cc34f37366c4a16","en":"Verdy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[4/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b848","jah":"c9ad3e607f2f160446a0b3857bc35419","en":"Marinos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[5/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b850","jah":"aaf12fb2bdb6267b3db0c8facc4cf5ce","en":"Belmare","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[6/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b858","jah":"b7bb52311ecd0cd69c0c4b748686e16e","en":"S-Pulse","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[7/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b860","jah":"20b901f043f9a4b0d4e17eadd89a3293","en":"Jubilo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[8/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b868","jah":"0310a14bf66e2c05692fafa06692c3c5","en":"Grampus","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[9/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b870","jah":"5257001f2713f636d511f6957d6f611a","en":"PurpleSanga","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@69ae0[10/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b87c","jah":"b4b6bc550a07ea3c755cc5feb9e6ca05","en":"Gamba","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[11/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b884","jah":"320fa46c8fa320ff787add95815c0119","en":"Cerezo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[12/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b88c","jah":"a2255446499c05d2fe56ae4c2c057317","en":"Vissel","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[13/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b894","jah":"a10fb15f4877cea2c4a7bbee1e64c57f","en":"Sanfrec","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[14/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b89c","jah":"1ac1ff36eb4d66a052c30459b23c0cbe","en":"Avispa","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[15/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8a4","jah":"98aef041effa5675c2e0aa59902748e1","en":"Consado","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[16/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8ac","jah":"ebb14dee04c47449660d3fa412b67587","en":"Vegalta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[17/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8b4","jah":"ed7454c7a16670804c09b3c445007b99","en":"Montedo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69ae0[18/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8bc","jah":"c41b357d8d0ae2d3eb043c2e2e950715","en":"Ardija","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@69ae0[19/20] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8c8","jah":"9bbd678e223e2c7ad64e2ae0a922769f","en":"FCTokyo","max_bytes":8,"refs":1,"ctx":"ptr@69b30"}
+{"id":"7b8d0","jah":"be605122902addb49be4b17b89ee626e","en":"Frontal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69b34[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8d8","jah":"0ce43c4429469f58828e96c4ff959051","en":"Ventforet","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@69b34[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8e4","jah":"572f9b1f761932650540ce57f491e111","en":"Albirex","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@69b34[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8f0","jah":"41530ec4602f673444ab7770b6397cb3","en":"Sagan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69b34[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b8f8","jah":"f0858223bd8b84ce4582febafe6e911a","en":"Trinita","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69b34[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7b900","jah":"dcb3be575c5c4d6e3a13c834d70ec1f4","en":"Holyhok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@69b34[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"7bce0","jah":"4a45b9482aaa306a53f021d7e58d5130","en":"Qingdao FC","max_bytes":8,"refs":1,"ctx":"tbl@69cb0[0/4]"}
+{"id":"7bce8","jah":"9929ea87952c7ed3ce1f11d22eeb671f","en":"Shanghai FC","max_bytes":8,"refs":1,"ctx":"tbl@69cb0[1/4]"}
+{"id":"7bcf0","jah":"26445d3a61ad05628044154461627ea9","en":"Dalian FC","max_bytes":8,"refs":1,"ctx":"tbl@69cb0[2/4]"}
+{"id":"7bcf8","jah":"3624f1a8929a3622e82224556a58953f","en":"Beijing FC","max_bytes":8,"refs":1,"ctx":"tbl@69cb0[3/4]"}
+{"id":"7bd4c","jah":"5c0b74150b1f4b6db34921c40f1b1a11","en":"Pyongyang FC","max_bytes":8,"refs":1,"ctx":"ptr@69cd8"}
+{"id":"7bda0","jah":"988c4a479ab273fb406bf81a00f70534","en":"Hong Kong FC","max_bytes":8,"refs":1,"ctx":"ptr@69cf4"}
+{"id":"7bdb4","jah":"5cf4e85fc843b1d5484a52c248d2376c","en":"Taipei FC","max_bytes":8,"refs":1,"ctx":"ptr@69cfc"}
+{"id":"7bdbc","jah":"be0ed2b83acb096de589f23b092473e7","en":"Kaohsiung FC","max_bytes":8,"refs":1,"ctx":"ptr@69d00"}
+{"id":"8cc8c","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@218b4","skip":true}
+{"id":"8cc90","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@218bc[0/3]","skip":true}
+{"id":"8cc98","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@218bc[1/3]","skip":true}
+{"id":"8cc9c","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@218bc[2/3]","skip":true}
+{"id":"8cca0","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[0/11]"}
+{"id":"8cca4","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[1/11]"}
+{"id":"8cca8","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[2/11]"}
+{"id":"8ccac","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[3/11]"}
+{"id":"8ccb0","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[4/11]"}
+{"id":"8ccb4","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[5/11]"}
+{"id":"8ccb8","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[6/11]"}
+{"id":"8ccbc","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[7/11]"}
+{"id":"8ccc0","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[8/11]"}
+{"id":"8ccc4","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[9/11]"}
+{"id":"8ccc8","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@8cc5c[10/11]"}
+{"id":"8cccc","jah":"d423f010369051ed62d46f858f626c6d","en":"Nuchitos","max_bytes":40,"slot":9,"refs":1,"ctx":"hwptr ptr@1adb4 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"8d3eb","jah":"a8f22613ca9dcbbd002d967d3a061ef9","max_bytes":9,"ctx":4,"orphan":true,"skip":true}
+{"id":"8d885","jah":"ebd866269f029c42ff2cbc3eaf4368b6","max_bytes":17,"ctx":4,"orphan":true,"skip":true}
+{"id":"8d8aa","jah":"2d00ae3344cbc8439cf4185dcc44ef86","max_bytes":7,"ctx":4,"orphan":true,"skip":true}
+{"id":"8d8c4","jah":"34b5abab823fbecf854c8e85db442817","max_bytes":7,"ctx":4,"orphan":true,"skip":true}
+{"id":"8db5f","jah":"ce88f0569aea0b59d806962fc5e38412","max_bytes":7,"ctx":4,"orphan":true,"skip":true}
+{"id":"8db66","jah":"ce88f0569aea0b59d806962fc5e38412","max_bytes":7,"ctx":4,"orphan":true,"skip":true}
+{"id":"91b90","jah":"a28b21d35df1c21ef71553fe300e300b","en":"No Team","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf70[0/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91b98","jah":"51b3ee0ee947569705dc0c4405d57c16","en":"My Team","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf70[1/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ba0","jah":"5f9ae182679fa38b3d4a4a286aaa7c76","en":"Rival Team","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6bf70[2/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bac","jah":"f18a3c3a264d68dc075306c5f8d5a01f","en":"Antlers","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf70[3/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bb4","jah":"19fcd082afd0e183ee5d1e97b1d3bcb2","en":"Reds","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf70[4/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bbc","jah":"0af80e82f62cb52f602f775cc918f9d9","en":"JEF","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf70[5/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bc4","jah":"1b62551679ac2281c383c93a794ea295","en":"Reysol","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf70[6/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bcc","jah":"82c121fda3b602102cc34f37366c4a16","en":"Verdy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf70[7/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bd4","jah":"10c1d794ee6ce3d0ec8b1b345700d6a4","en":"Marinos","max_bytes":8,"refs":0,"ctx":"hwpool run=36 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bdc","jah":"aaf12fb2bdb6267b3db0c8facc4cf5ce","en":"Belmare","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[0/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91be4","jah":"b7bb52311ecd0cd69c0c4b748686e16e","en":"S-Pulse","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[1/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bec","jah":"20b901f043f9a4b0d4e17eadd89a3293","en":"Jubilo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[2/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bf4","jah":"0310a14bf66e2c05692fafa06692c3c5","en":"Grampus","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[3/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91bfc","jah":"5257001f2713f636d511f6957d6f611a","en":"PurpleSanga","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6bf94[4/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c08","jah":"b4b6bc550a07ea3c755cc5feb9e6ca05","en":"Gamba","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[5/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c10","jah":"320fa46c8fa320ff787add95815c0119","en":"Cerezo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[6/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c18","jah":"a2255446499c05d2fe56ae4c2c057317","en":"Vissel","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[7/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c20","jah":"a10fb15f4877cea2c4a7bbee1e64c57f","en":"Sanfrec","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[8/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c28","jah":"1ac1ff36eb4d66a052c30459b23c0cbe","en":"Avispa","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[9/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c30","jah":"98aef041effa5675c2e0aa59902748e1","en":"Consado","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[10/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c38","jah":"ebb14dee04c47449660d3fa412b67587","en":"Vegalta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[11/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c40","jah":"ed7454c7a16670804c09b3c445007b99","en":"Montedo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bf94[12/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c48","jah":"c41b357d8d0ae2d3eb043c2e2e950715","en":"Ardija","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6bf94[13/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c54","jah":"9bbd678e223e2c7ad64e2ae0a922769f","en":"FCTokyo","max_bytes":8,"refs":1,"ctx":"ptr@6bfcc"}
+{"id":"91c5c","jah":"be605122902addb49be4b17b89ee626e","en":"Frontal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bfd0[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c64","jah":"0ce43c4429469f58828e96c4ff959051","en":"Ventforet","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6bfd0[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c70","jah":"572f9b1f761932650540ce57f491e111","en":"Albirex","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6bfd0[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c7c","jah":"41530ec4602f673444ab7770b6397cb3","en":"Sagan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bfd0[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c84","jah":"f0858223bd8b84ce4582febafe6e911a","en":"Trinita","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bfd0[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c8c","jah":"dcb3be575c5c4d6e3a13c834d70ec1f4","en":"Holyhok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bfd0[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91c94","jah":"8ae10017e8eb311254732c6dc8be7199","en":"Yoko.FC","max_bytes":8,"refs":1,"ctx":"ptr@6bfe8"}
+{"id":"91c9c","jah":"93912bb0b16dcf81a16f2e22338e740b","en":"East","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bfec[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ca4","jah":"e0174adbca8a7146b241315ca06fa353","en":"West","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6bfec[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91cac","jah":"a3c1faae1d6b5be7d6521ea591e1709f","en":"Dream","max_bytes":40,"slot":12,"refs":2,"ctx":"hwptr tbl@6bfec[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91cb8","jah":"8af8e3662e9f2e334bf05b82ee8d9fd8","en":"Euro","max_bytes":12,"refs":1,"ctx":"ptr@6bffc"}
+{"id":"91cc4","jah":"fbc6c63107460e861b77440d4a571c20","en":"World","max_bytes":12,"refs":1,"ctx":"ptr@6c000"}
+{"id":"91cd8","jah":"d298eea0ec1f04db1fb83882f018ae51","en":"Japan","max_bytes":8,"refs":1,"ctx":"ptr@6c038"}
+{"id":"91ce0","jah":"43de6e90dcda5594949f6278d57a7071","en":"S.Korea","max_bytes":8,"refs":1,"ctx":"ptr@6c03c"}
+{"id":"91ce8","jah":"8e90a9f7e065518f069f6fde4fb8ea3c","en":"Saudi Arab.","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c040[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91cf4","jah":"6e4278ee4049a946cc6d5222ce2f278a","en":"IRN","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c040[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91cf8","jah":"688a9dcc1f1fe35203303edf13cbc56d","en":"THA","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c040[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91cfc","jah":"f2a9cf3006c70c99d645d1354bef85b9","en":"China","max_bytes":8,"refs":1,"ctx":"ptr@6c04c"}
+{"id":"91d04","jah":"9673ca66abf53ca9d9317d090cbb2e77","en":"Kuwait","max_bytes":40,"slot":8,"refs":2,"ctx":"hwptr ptr@6c050 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d10","jah":"eb84ad62590e6e1c190c403ae35273f4","en":"Uzbekistan","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c058[0/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d1c","jah":"804dedc7d3faa54212f098fb674dd1fb","en":"IRQ","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c058[1/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d20","jah":"04560fe5e37872e5bdb05b1a9dbc6f9a","en":"Kazakh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c058[2/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d28","jah":"3887573b4f64bf221411d3d33e06d663","en":"Turkmen","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c058[3/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d34","jah":"803dc7aa2aff7bf6c2cdba4e16bb4641","en":"N.Korea","max_bytes":8,"refs":1,"ctx":"ptr@6c068"}
+{"id":"91d3c","jah":"1f33ea08babf05b439a180fd2f87338c","en":"Qatar","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c06c[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d44","jah":"e3a4853a4a850e88d91015a7778dbb5b","en":"Indon.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c06c[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d4c","jah":"d6a25a0402a11f58d6b39487b8dad607","en":"Singapore","max_bytes":40,"slot":12,"refs":2,"ctx":"hwptr tbl@6c06c[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d58","jah":"3981f879dd27ff5b6b80382b9f0aca9e","en":"Malay.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c06c[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d60","jah":"90283fd65975e62fc42fc89e09ad4c0e","en":"Oman","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c06c[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d68","jah":"b539093f790ca3783d8431d04eb78bec","en":"Tajik.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c06c[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d70","jah":"e9dae6f899a91f24b9acd5deac416c92","en":"HK","max_bytes":8,"refs":2,"ctx":"ptr@6c084 xrefs=2"}
+{"id":"91d78","jah":"da357531cf1c922653c841d3e971b736","en":"Kyrgyz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr ptr@6c088 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d80","jah":"4b94bdfdc19883198bff9ca3fe51afaf","en":"Taiwan","max_bytes":8,"refs":1,"ctx":"ptr@6c08c"}
+{"id":"91d88","jah":"2fd67d8551393c8a5e800125c9f9812b","en":"MAC","max_bytes":40,"slot":4,"refs":2,"ctx":"hwptr tbl@6c090[0/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d8c","jah":"8462fc14f940f055841b4ae0499c436d","en":"Nepal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c090[1/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d94","jah":"aab79c214bb26c1693c3f98e6a47ae2b","en":"Austral","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c090[2/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91d9c","jah":"9a172eb61032f4719320148103e084e2","en":"Nigeria","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c090[3/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91da4","jah":"ead600c5eb5af4685ab68dc9bd508453","en":"Morocco","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c090[4/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91dac","jah":"9884080639d0896b906348b0cb8db6b7","en":"Camern.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c090[5/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91db4","jah":"779fafd51f839e81877a4952531dc0e1","en":"Tunisia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c090[6/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91dbc","jah":"64212fd24932bb326aa9dcd8d29091fb","en":"S.Afr.","max_bytes":8,"refs":1,"ctx":"ptr@6c0ac"}
+{"id":"91dc4","jah":"acaa076bdfc31f5715316e73d96d5bc7","en":"Egypt","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[0/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91dcc","jah":"ff2369c3b50273e6c02fe7bb343cb881","en":"Zambia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[1/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91dd4","jah":"c64d83e82ff2ee0023550491d943f0b3","en":"Ghana","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[2/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ddc","jah":"5754a4d850b5400feec507a396dbe496","en":"Liberia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[3/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91de4","jah":"2fd5bdcd632e7d2c490a890ed1916019","en":"Zimbabwe","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c0b0[4/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91df0","jah":"200d8b6acdf9af3f0308043ce413a0fe","en":"France","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[5/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91df8","jah":"2a26773c68a6ae65ede64c72c1cbaeac","en":"Germany","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[6/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e00","jah":"fea12737a943cbd27e15d1cea70b36a3","en":"Holland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[7/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e08","jah":"51cfdd9cd3a951bc283953102f9609c2","en":"Italy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[8/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e10","jah":"c3bc56ef5c67cc047123cb903b5af0a5","en":"England","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c0b0[9/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e1c","jah":"7908a4439dbf7a02b8cd52116c8216ff","en":"Spain","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[10/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e24","jah":"076b67b017eb2ce2f4264845268581a6","en":"Croatia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[11/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e2c","jah":"2774c595b23be0695cfafdf997c244b8","en":"CZE","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c0b0[12/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e30","jah":"4dbb8420cb61edc8d015e5bf6f0ac1cb","en":"Yugoslavia","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c0b0[13/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e3c","jah":"1c6f5bbf7667e9484c56604e11dd55ee","en":"Norway","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[14/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e44","jah":"6ae6c347fe5f3fd47ebee459fdea7905","en":"Romania","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[15/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e4c","jah":"b0c886f269fcb2bfd3d9cb04982b7719","en":"Denmark","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[16/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e54","jah":"f6416ff3b1cd11f8ce992980315f7fde","en":"RUS","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c0b0[17/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e58","jah":"1652c7f1a2f43303916ae7c5c0b821c4","en":"Sweden","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[18/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e60","jah":"0f06150e06c618c5e0119e9b7d309fec","en":"Belgium","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[19/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e68","jah":"45f8eeb909c0ecd8e44aa970a52f47ab","en":"Bulg.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[20/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e70","jah":"5c35b24229b137a07b3f070b4abafcfa","en":"Scotland","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c0b0[21/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e7c","jah":"d3b8ec46e7e353f572fe424782d2855d","en":"Port.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[22/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e84","jah":"a8c2673ea2f385bad95ce4ab029d2b44","en":"Austria","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[23/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e8c","jah":"54ca015f29ba77afc7897d72235f4744","en":"Slovak.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[24/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e94","jah":"776268b45d49b6e1520db5595633785a","en":"Poland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[25/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91e9c","jah":"d20cdff23622e9b3e0f52f7d8c874d6e","en":"Greece","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[26/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ea4","jah":"35b506bfa0e22daa41ef168e619a1a27","en":"SUI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c0b0[27/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ea8","jah":"b85e4acbaeca9134c048f166ec35820f","en":"Israel","max_bytes":40,"slot":8,"refs":2,"ctx":"hwptr tbl@6c0b0[28/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91eb0","jah":"1ab80c616bc38d1fbe34fa918d222438","en":"Ireland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[29/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91eb8","jah":"4b64792aba2b0a0d91b9ebd9da0e535b","en":"TUR","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c0b0[30/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ebc","jah":"179b2731784c1e517b6664cccecf1908","en":"Hungary","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[31/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ec4","jah":"ab1679e3916081d85ae924d2125cd4c6","en":"Finland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[32/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ecc","jah":"49f04d27d69344146b29b805197c302b","en":"Ukraine","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c0b0[33/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ed4","jah":"79f5cf0156b31b21c8271d233ba22595","en":"N.Ireland","max_bytes":12,"refs":1,"ctx":"ptr@6c138"}
+{"id":"91ee0","jah":"32ebd76a2e68126f9773e4ed2650caaf","en":"Brazil","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[0/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ee8","jah":"8c14f3320fc7dc72b2679ee3a62a0a73","en":"Arg.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[1/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ef0","jah":"01f43676e9acf85dd2b1fc562c7d2704","en":"CHI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c13c[2/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ef4","jah":"eb099d1078323ea83011052e66e34b76","en":"Col.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[3/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91efc","jah":"e7116e53b1dd357df15f71a9dcac61d4","en":"Parag.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[4/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f04","jah":"050a9f19cad9640d2a8f0aa40f4d8e20","en":"Uruguay","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[5/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f0c","jah":"7b2f4b1dfd931442a017a870a373f06c","en":"Peru","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[6/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f14","jah":"8c777ca5ca6142e9cd55d972273e28d7","en":"Bolivia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[7/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f1c","jah":"24298350279c9a712003c3a9e87b6de1","en":"Venez.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[8/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f24","jah":"a22665b0ba244787ab0db4effe4aff65","en":"Ecuador","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[9/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f2c","jah":"aa622ebb6cc65f6e8c8af0fb0245feb3","en":"Mexico","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c13c[10/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f38","jah":"7e1e15c453e4b60e0bab0facd82fe33e","en":"Jamaica","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c16c[0/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f40","jah":"d7099aa59801f49eeb3ec293e6d27576","en":"C. Rica","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c16c[1/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f48","jah":"4270949e2f10cc9365e5e5c5b99fff47","en":"El Salvador","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c16c[2/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f54","jah":"9fb212d87725cf4f7801e72092c6898f","en":"Canada","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c16c[3/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f5c","jah":"45af52067f918268d9c66d16a7e32d80","en":"Sloven.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c16c[4/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f68","jah":"11e09c982b019e8ef65a85617e819cb4","en":"Not set","max_bytes":8,"refs":1,"ctx":"ptr@6c184"}
+{"id":"91f70","jah":"67df2a8cc517ef009498a6c1dd1daa88","en":"Incheon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[0/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f78","jah":"c3b6356c7180f72ada626830bd1eff82","en":"SEO","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c1a0[1/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f7c","jah":"6105807a173a0a198e7d9336fb31529e","en":"Daegu","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[2/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f84","jah":"cd0fdb6b0ba34b5466558ff3c5e1c800","en":"Daejeon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[3/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f8c","jah":"a23847fc6bea512e2138e89feaef28d6","en":"Busan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[4/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f94","jah":"de09326329ad6ada6b4e4831ff84626b","en":"Riyadh","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[5/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91f9c","jah":"4ad04ec03af370ad241805dbce549545","en":"Tehran","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[6/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fa4","jah":"a1ebfd8e3c62fd5f5564b5f9b100cd8e","en":"Bangkok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[7/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fac","jah":"f4c94aa612bafa9ddb9dbb0ddd45250b","en":"Qingdao","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[8/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fb4","jah":"00a4832aa3b818490b99ca766e4567ac","en":"Shangh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[9/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fbc","jah":"6365c0f8daa1e3d36fbc777b20b45621","en":"Dalian","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[10/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fc4","jah":"f3db83aa82970343dfcd1fadbf2a71ba","en":"Beijing","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1a0[11/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fcc","jah":"7f6fcda6ed9bb8221d33700cc05d1dff","en":"A.Dhabi","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1d4[0/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fd4","jah":"c1cae71d35ae14f3b838adf06f2d5937","en":"Bukhara","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1d4[1/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fdc","jah":"0d9dd31a2b34c9cfb24c02f03ff597f0","en":"Baghdad","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c1d4[2/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91fe8","jah":"910d5d329ad3432e09289c369df598fd","en":"Astana","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1d4[3/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ff0","jah":"4aa7a736b30a2044eee85b7a1242852b","en":"Krasnovodsk","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c1d4[4/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"91ffc","jah":"4d7785f7ae3b8798db7478c30547f6bb","en":"Pyong.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1d4[5/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92004","jah":"35878447e662db2ba363f8d03ac06af8","en":"Doha","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1d4[6/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9200c","jah":"20dadcf56d711de097c24a62176b3630","en":"Jakarta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1d4[7/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92014","jah":"e2e986cb86254872a08bbcc941e63246","en":"K. Lumpur","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c1f8[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92020","jah":"bcf9a57166e58627a17fb3fde711c570","en":"Muscat","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1f8[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92028","jah":"752e711046029429c7e810604cf41e7f","en":"Dush.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c1f8[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92030","jah":"e112c21e57247cc34b092e791eae3965","en":"Frunze","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c208[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92038","jah":"c23eb43bfff024e07b354068b289dac2","en":"Taipei","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c208[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92040","jah":"a11a6bf383760711098b757a51392dc7","en":"Kaoh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c208[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92048","jah":"3a8dc1b4a67f8c284efd1c32aa8c0d7b","en":"Kathm.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[0/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92050","jah":"94b612d76e5118ee262e18830f290c7b","en":"Canb.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[1/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92058","jah":"a2cb44996043d02cd94995c0e2cc0100","en":"Lagos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[2/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92060","jah":"465ecc24b896aaeef5e39448b0e74f7e","en":"Casab.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[3/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92068","jah":"fa18ab05c1a811c330d73d17f8331fc7","en":"Yaounde","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[4/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92070","jah":"fe98241b5ef93e9fe056fa38b2d69e4a","en":"Carth.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[5/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92078","jah":"9020386cb9e01d9821cf60dc4f2c2bb7","en":"Joburg","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[6/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92084","jah":"cb44ffdda18d9f308556fb25dfd6598b","en":"CAI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[7/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92088","jah":"7f435ee38cd550bdcc217c5dd92c2c2e","en":"Lus","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[8/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9208c","jah":"dfb3e7d6847528e2dde3ff161f11d57f","en":"ACC","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[9/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92090","jah":"dd4c01c6434245ef18748cb91dad4737","en":"Monrov.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[10/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92098","jah":"70885bdd6cd0c42495a035546a336f20","en":"Salisbury","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[11/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920a4","jah":"5137db63ffca1c614d120695fdab38e9","en":"PAR","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[12/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920a8","jah":"24e2d63920017f04cd87d951b5affd9f","en":"MON","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[13/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920ac","jah":"7cc32824575bd8e49def424a7ff694cb","en":"Mars.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[14/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920b4","jah":"dfe2beadbd15f07347b6dc05671221da","en":"Dortm.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[15/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920bc","jah":"591e534829fa621ead462f7e312b92f8","en":"Munich","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[16/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920c4","jah":"e982ea729b517f3be8aac146ea099c2a","en":"Bremen","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[17/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920cc","jah":"1800dc3b3716c4346565c177f0f8d043","en":"Amsterdam","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[18/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920d8","jah":"d2853b2ef0e15d00f26eaca785b82672","en":"Eindhoven","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[19/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920e4","jah":"f0d6b52e4e8d3ada52dea80ca38632cc","en":"R'dam","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[20/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920ec","jah":"0b16729a314328161cc1ea2fff0ca633","en":"TRN","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[21/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920f0","jah":"49c11c76c969d5caca63a50893c41613","en":"MIL","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[22/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920f4","jah":"eecdace6497c30f49aab8030b0b7daeb","en":"ROM","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[23/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"920f8","jah":"491f8a3029c0e3f8df362cb034d245d8","en":"Lazio","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[24/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92100","jah":"b53ac44136640d9344a12c495328d787","en":"Manch.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[25/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92108","jah":"3b4e7128152b8fcd9b46a9272840ead5","en":"London","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[26/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92110","jah":"062bc304f3fd93d090898765504e8cd0","en":"L'pool","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[27/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92118","jah":"21ba9c1500fdc6df3a2da15e51bc7ede","en":"Stamford","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[28/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92124","jah":"51dea70b94441933b002b669c05374bc","en":"Barca","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[29/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9212c","jah":"5f0d36ad1fe3d2246660d3a0d814414e","en":"Madrid","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[30/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92134","jah":"82d1e465b11f51bda1a2f225bf24cb0a","en":"Valenci","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[31/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9213c","jah":"3a1c91e0facadbd7dddfd4c2bd2a73ec","en":"Valladolid","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[32/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92148","jah":"73f7cc9a10fbca305efecaa9f17d63cb","en":"Zagreb","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[33/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92150","jah":"3f4cf801d947388bbd8f133faee2955f","en":"Prague","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[34/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92158","jah":"16941d1e6b2004fe58e0d3cc07bc0a6c","en":"Belgrade","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[35/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92164","jah":"b175303deafa9fca31abf11811db98ca","en":"OSL","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[36/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92168","jah":"304825f620557707f6d0456d68b9d7f9","en":"Buch.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[37/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92170","jah":"def0396e20ed95fd35e80f3ea1e7fa45","en":"Copenhagen","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[38/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9217c","jah":"8b464e1f62484c24fe004445bf6dcd7a","en":"Moscow","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[39/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92184","jah":"dbc3edefade52605271b756913c615a4","en":"Stockh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[40/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9218c","jah":"73df72ee4f632365d2ff13a5267acc09","en":"Bruss.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[41/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92194","jah":"a67f2d19a00352a13aff9eed3edefd34","en":"Sofia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[42/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9219c","jah":"d20b1b4a1235f05ed0405f158ad3ba6a","en":"Glasgow","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[43/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921a4","jah":"4f000f049a2c48424b2dbbc5af638e66","en":"Porto","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[44/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921ac","jah":"bb8641a2a8503e601cc086307b7987ed","en":"Lisbon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[45/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921b4","jah":"721e717d69955ce0925eaebb4386f3a7","en":"Coimbra","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[46/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921bc","jah":"d261d2ada10f63318fa8b1741f92ae88","en":"Vienna","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[47/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921c4","jah":"7a821f0b418a7e6dbbbdcd16bb72b906","en":"Bratislava","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c218[48/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921d0","jah":"aaa409feb1bce475d14d0267c0142204","en":"Warsaw","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[49/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921d8","jah":"08af84e259430dd3807a024edf2f0190","en":"ATH","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c218[50/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921dc","jah":"c1c380a369f5c642a3bf0c1fbac0c272","en":"Bern","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c218[51/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921e4","jah":"2cf50a50309d3c520b966e2fd4cf058f","en":"Dublin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[0/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921ec","jah":"3cd7e0c874167e0e9ef8054b80920ace","en":"Ankara","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[1/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921f4","jah":"f5e7974d2a824679ea6909b03693320c","en":"B'pest","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[2/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"921fc","jah":"6b8f7c12c59ebc6da18eb9d1d4010398","en":"H'sinki","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[3/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92204","jah":"58904eed58446f175464b2c87657c54c","en":"Kyv","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c2ec[4/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92208","jah":"12bfd954337920c2692f70be3d2073af","en":"S.Paulo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[5/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92210","jah":"e8c7510f793b01f193673a95d860276a","en":"Rio de Jan.","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c2ec[6/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9221c","jah":"8ffdc25171d17a5e3407350753833b47","en":"B.Horizonte","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c2ec[7/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92228","jah":"e816808e83bf49e8b65b668c7f487914","en":"P. Alegre","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c2ec[8/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92234","jah":"e21d3b18b6bc752d41769572b02169f0","en":"Santos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[9/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9223c","jah":"574c3b227090a2034cc18002ceec6954","en":"B. Aires","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c2ec[10/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92248","jah":"de94077eba2fa32a91052f54afd94c4b","en":"Boc","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c2ec[11/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9224c","jah":"4a4ca05db3c30ee1579a92fc0b94559d","en":"Stgo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[12/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92254","jah":"4724f752d3aafbd0b2b096085b897e80","en":"Medelin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[13/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9225c","jah":"135e99d78056b3b8806fe452c967a4f1","en":"Bogota","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[14/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92264","jah":"a695c1e01075137c870128bf9e69d76e","en":"Asunc.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[15/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9226c","jah":"bce3a8cbf4427e422127ff1b0a6f6826","en":"Montevideo","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c2ec[16/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92278","jah":"3320a5e2ce6f2c4cd28375e7911b02c5","en":"Lim","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c2ec[17/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9227c","jah":"000bf6aa6880d65b73444411a5d740e9","en":"La Paz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[18/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92284","jah":"355aed18e4f9728f59c5d72891bc15e3","en":"Caracas","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[19/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"9228c","jah":"3741117514e2314c6e7d99d23481ff84","en":"Qto","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c2ec[20/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92290","jah":"72e42c91da99dca750f06eec2f903f8f","en":"Acapulc","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[21/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92298","jah":"54c2540ed03d9742bbb7630dddcb2c27","en":"Mexico","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[22/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"922a0","jah":"9083d043d3a100da28bf9197b7c66d7b","en":"N.York","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[23/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"922a8","jah":"71f294df3709ecc32ff918f027752341","en":"L.A.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[24/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"922b0","jah":"a4ff87e843ed5a0ced9656d08cdcb5c0","en":"Wash.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[25/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"922b8","jah":"5566723fb4f77fe560cf284c605e2fec","en":"Kingstn","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[26/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"922c0","jah":"db3e21cadbcc56900abf850cc59cc81b","en":"Sanjose","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@6c2ec[27/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"922c8","jah":"d7d59bb1f77dc8957f035c20e4b82f9d","en":"S.Salvador","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@6c2ec[28/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"922d4","jah":"3c884ce4961f1c3f28878e0f71deda06","en":"Ott","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@6c2ec[29/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"92404","jah":"62e61410905e24e66450d54ed05654d5","en":"Intl Return Growth: Player %d","max_bytes":36,"refs":1,"ctx":"ptr@262f8"}
+{"id":"92428","jah":"b8eaff67cbe96edbb865475ddaff3098","en":"Plr %d stat %d: %d to %d, skipped","max_bytes":48,"refs":1,"ctx":"ptr@26300"}
+{"id":"92458","jah":"00253978a6e91d74c5a0543385d825ea","en":"Plr %d stat %d: %d to %d, added","max_bytes":40,"refs":2,"ctx":"ptr@26308 xrefs=2"}
+{"id":"92480","jah":"c30485ae19816d8c67a38555ee9036b6","en":"Limit %d, so set to %d","max_bytes":28,"refs":1,"ctx":"ptr@26594"}

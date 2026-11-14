@@ -1,0 +1,103 @@
+{
+ "texture": "ETC_DATA/N_ENTRY.DAT pvr.tbd#0 (03541) Name Entry tabs, confirm, delete, space",
+ "size": [
+  512,
+  512
+ ],
+ "supersample": 4,
+ "quantize": "argb4444",
+ "defaults": {
+  "erase": {
+   "mode": "clear"
+  },
+  "style": "menu_label",
+  "align": "left",
+  "valign": "middle",
+  "min_sx": 0.7,
+  "size": 22
+ },
+ "regions": [
+  {
+   "id": "confirm",
+   "ja": "決定",
+   "text": "Confirm",
+   "x": 4,
+   "y": 389,
+   "w": 52,
+   "h": 33,
+   "size": "auto",
+   "min_sx": 0.55,
+   "font": "arial-narrow-bold"
+  },
+  {
+   "id": "symbols",
+   "ja": "記号",
+   "text": "Symbols",
+   "x": 70,
+   "y": 390,
+   "w": 52,
+   "h": 32,
+   "size": "auto",
+   "min_sx": 0.55,
+   "font": "arial-narrow-bold"
+  },
+  {
+   "id": "abc",
+   "ja": "英数字",
+   "text": "ABC/123",
+   "x": 6,
+   "y": 430,
+   "w": 71,
+   "h": 32,
+   "size": "auto",
+   "min_sx": 0.55
+  },
+  {
+   "id": "katakana",
+   "ja": "カタカナ",
+   "text": "Katakana",
+   "x": 86,
+   "y": 430,
+   "w": 98,
+   "h": 32
+  },
+  {
+   "id": "hiragana",
+   "ja": "ひらがな",
+   "text": "Hiragana",
+   "x": 5,
+   "y": 470,
+   "w": 104,
+   "h": 32
+  },
+  {
+   "id": "kanji",
+   "ja": "漢字",
+   "text": "Kanji",
+   "x": 110,
+   "y": 470,
+   "w": 56,
+   "h": 32
+  },
+  {
+   "id": "delete",
+   "ja": "一文字削除",
+   "text": "Delete",
+   "x": 196,
+   "y": 382,
+   "w": 104,
+   "h": 25,
+   "align": "center"
+  },
+  {
+   "id": "space",
+   "ja": "スペース",
+   "text": "Space",
+   "x": 196,
+   "y": 431,
+   "w": 106,
+   "h": 28,
+   "align": "center"
+  }
+ ]
+}

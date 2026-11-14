@@ -1,0 +1,16 @@
+dump slot overlay | heap | used_sum | largest USED | largest free | append_cons | heap-append_cons | verdict (used_sum<=heap-cons ; largest_used<=largest_free_after_cons?)
+('ram_2400', 1) MOVIE_BG 3718496 192 96 3718304 1855488 1863008 OK-sum OK-frag
+('ram_2400', 5) TITLE 3941408 1800000 696352 2132672 491520 3449888 OK-sum OK-frag
+('live1_ram', 1) S_SELECT 3831200 2134208 473120 1696992 847872 2983328 OK-sum OK-frag
+('live1_ram', 7) N_ENTRY 977312 233632 225312 743328 368640 608672 OK-sum OK-frag
+('live3_ram', 1) CLUBEDIT 5021024 3745440 524320 1275584 634880 4386144 OK-sum OK-frag
+('ram_2400', 10) HELP 58784 10464 10272 48320 4096 54688 OK-sum OK-frag
+('ram_2400', 11) FACEMDUL 1050880 943488 360480 107392 53248 997632 OK-sum OK-frag
+== hard-coded heap addresses: literal words of the overlay image that equal (block+0x20) of a malloc block in the dump (any state)
+('ram_2400', 1) MOVIE_BG blocks 3 literal words inside heap range 0 == block address: 0 []
+('ram_2400', 5) TITLE blocks 40 literal words inside heap range 12 == block address: 0 []
+('live1_ram', 1) S_SELECT blocks 7 literal words inside heap range 0 == block address: 0 []
+('live1_ram', 7) N_ENTRY blocks 48 literal words inside heap range 7 == block address: 0 []
+('live3_ram', 1) CLUBEDIT blocks 165 literal words inside heap range 11 == block address: 0 []
+('ram_2400', 10) HELP blocks 4 literal words inside heap range 0 == block address: 0 []
+('ram_2400', 11) FACEMDUL blocks 11 literal words inside heap range 0 == block address: 0 []

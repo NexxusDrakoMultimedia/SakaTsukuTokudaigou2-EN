@@ -1,0 +1,157 @@
+
+# ------------------------------------------------------------------------------------------------ the numeric formats (mn6)
+# The other western money formats print integers through libc `sprintf` (0x8c014d80, dst in r4, format and arguments on the stack) or, in G_INCOME, through
+# the text-object printf of the library; their English formats keep the Japanese `%d` tokens and name the unit after each one:
+#       ABROAD FIRE PLNUMSET SELNAT  `%2d oku %02d00m` (oku, hundreds of man)  `%6d00 man` (hundreds of man), fields of 12 characters in a 13 byte stride
+#       INVEST                      `%d cho%04d oku%02d00m`  `    %4d oku %02d00m`  `          %4d man`  (right aligned in 18 characters)
+#       G_INCOME                    `%d Yen` (an amount in plain yen, right aligned by the code from a digit count)
+# `libn` (cave `money.libn`) reads that format like a tiny grammar (n_core): every `%` must be `%[0-9]*d`, followed by zeros ("00" = x100), spaces and a unit letter
+# c / o / m / y; the value in man is sum(arg * 10^zeros * unit) (cho 10^8, oku 10^4, man 1, yen 1/10^4), anything else is passed through to the real function with the
+# stack untouched.  The text is the jp money text (the compact form "13 oku 1500m" when the full form is wider than the field W), right aligned in W, or, for a yen
+# amount below one man, "N Yen".  Entries: n_sp (libc sprintf, W from the stub), n_al (the library printf of G_INCOME), n_gd (G_INCOME's digit counter: returns the
+# number of characters of the text), n_gm (GAME's own money text function `FUN(dst, V)`: money + NUL).
+LIBN_PLACEMENT = 'tail'
+if 'money.libn' not in PE.REGISTRY.caves:
+    PE.REGISTRY.claim('money.libn', 0x8C299600, 0x200, 'money', LIBN_PLACEMENT,
+                      note='numeric-format wrapper (mn6): free zero run below the font cave, 0x8c299600..0x8c299800 (docs/number-formats.md s5)')
+LIBN_ADDR = PE.REGISTRY.addr('money.libn')
+LIBN_RESERVE = PE.REGISTRY.size('money.libn')
+LIBN_STUB_REL = 32                                   # the libn stub lives at money function + 32 (behind the 12 byte hook and the 16 byte lib stub), 24 bytes
+DIV_ADDR = 0x8C012BF8                                # 1ST_READ helper: r0 = r1 / r0 (signed), clobbers r0, r1 only
+LIBN_SRC = """
+@SRC@
+"""
+LIBN_ENTRIES = ('n_sp', 'n_al', 'n_gd', 'n_gm')
+
+
+def libn_assembly(addr=LIBN_ADDR, money_addr=CAVE_ADDR, style='jp'):
+    sym = cave_symbols(money_addr, style)
+    return assemble(LIBN_SRC, addr, {'MONEY': money_addr, 'MDEC': sym['m_dec'], 'DIV': DIV_ADDR})
+
+
+def libn_bytes(addr=LIBN_ADDR, money_addr=CAVE_ADDR):
+    b, _, _ = libn_assembly(addr, money_addr)
+    if len(b) > LIBN_RESERVE:
+        raise MoneyPatchError('numeric wrapper is %d bytes, reserve is %d' % (len(b), LIBN_RESERVE))
+    return b
+
+
+def libn_stub(real, width, entry):
+    """24 bytes at (money function + 32): mov.l @(2,pc),r1 / mov.l @(3,pc),r2 / mov.l @(3,pc),r0 / jmp @r0 / nop / nop / .long real / .long W / .long entry"""
+    return struct.pack('<HHHHHHIII', 0xD102, 0xD203, 0xD003, 0x402B, 0x0009, 0x0009, real, width, entry)
+
+
+def libn_reference(fmt, args, width=0):
+    """what n_core makes of fmt + integer arguments: the text, or None = pass through.  Mirrors the assembly (grammar above)."""
+    i, n, narg, v, yen_seen, rem = 0, len(fmt), 0, 0, False, 0
+    # phase 1: validate
+    j = 0
+    count = 0
+    while j < n:
+        if fmt[j] != '%':
+            j += 1
+            continue
+        j += 1
+        while j < n and fmt[j].isdigit():
+            j += 1
+        if j >= n or fmt[j] != 'd':
+            return None
+        j += 1
+        count += 1
+        while j < n and fmt[j] == '0':
+            j += 1
+        while j < n and fmt[j] == ' ':
+            j += 1
+        if j >= n or fmt[j] not in 'comyY':
+            return None
+    if not count:
+        return None
+    # phase 2: value in man
+    j = 0
+    while j < n:
+        if fmt[j] != '%':
+            j += 1
+            continue
+        while fmt[j] != 'd':
+            j += 1
+        j += 1
+        a = args[narg]
+        narg += 1
+        mult = 1
+        while fmt[j] == '0':
+            mult *= 10
+            j += 1
+        while fmt[j] == ' ':
+            j += 1
+        a *= mult
+        u = fmt[j]
+        if u in 'yY':
+            q = abs(a) // 10000 * (-1 if a < 0 else 1)
+            rem = a - q * 10000
+            a, yen_seen = q, True
+        elif u == 'c':
+            a *= 100000000
+        elif u == 'o':
+            a *= 10000
+        v += a
+    v &= 0xFFFFFFFF
+    sv = v - (1 << 32) if v >= (1 << 31) else v
+    if yen_seen and sv == 0:
+        return '%d Yen' % rem
+    t = reference(sv, 0, 'jp')
+    if width and len(t) > width:
+        t = reference(sv, COMPACT_FLAG, 'jp')
+    return t
+
+
+def libn_apply(fmt, args, width=0):
+    """n_sp's result: the right aligned text, or None"""
+    t = libn_reference(fmt, args, width)
+    return None if t is None else t.rjust(width)
+
+
+# the numeric sites: file -> dict(pools=[(file offset of the literal-pool word, its value)], width, entry)
+LIBN_SITES = {
+    'FLOW_PRG/ABROAD.BIN': dict(pools=[(0x7E4C, 0x8C014D80)], width=12, entry='n_sp'),
+    'FLOW_PRG/FIRE.BIN': dict(pools=[(0x6BE0, 0x8C014D80)], width=12, entry='n_sp'),
+    'FLOW_PRG/PLNUMSET.BIN': dict(pools=[(0x9874, 0x8C014D80)], width=12, entry='n_sp'),
+    'FLOW_PRG/SELNAT.BIN': dict(pools=[(0xDDFC, 0x8C014D80)], width=12, entry='n_sp'),
+    'FLOW_PRG/INVEST.BIN': dict(pools=[(0x1CE0, 0x8C014D80)], width=18, entry='n_sp'),
+    'FLOW_PRG/G_INCOME.BIN': dict(pools=[(0x1A54, 0x8C4D43DC)], width=0, entry='n_al', counter=(0x1A58, 0x8C4D0152)),
+}
+# GAME.BIN: its own money text function  FUN(dst, V)  (0x8c3c7b74): the 12 byte hook jumps to n_gm
+LIBN_GAME = {'FLOW_PRG/GAME.BIN': dict(off=0xF7B74, head=bytes.fromhex('224f'), sig='')}
+
+
+def libn_edits(es, d, name, sites, addr=LIBN_ADDR, money_addr=CAVE_ADDR):
+    """stub + pool words (+ G_INCOME digit counter) / GAME hook for one overlay"""
+    sym = libn_assembly(addr, money_addr)[2]
+    if name in LIBN_SITES:
+        spec = LIBN_SITES[name]
+        if not sites:
+            raise MoneyPatchError('%s: numeric formats: no money function to host the stub' % name)
+        x = sites[0]
+        if x.get('base') is None:
+            raise MoneyPatchError('%s: numeric formats: no load address' % name)
+        stub_va = x['base'] + x['off'] + LIBN_STUB_REL
+        lo = x['off'] + LIBN_STUB_REL
+        real = spec['pools'][0][1]
+        es.add('money.libnstub', name, lo, libn_stub(real, spec['width'], sym[spec['entry']]), expect=d[lo:lo + 24])
+        for off, val in spec['pools']:
+            cur = struct.unpack_from('<I', d, off)[0]
+            if cur != val:
+                raise MoneyPatchError('%s: numeric pool word at %#x is %#x, expected %#x' % (name, off, cur, val))
+            es.add('money.libn', name, off, struct.pack('<I', stub_va), expect=struct.pack('<I', val))
+        if 'counter' in spec:
+            off, val = spec['counter']
+            cur = struct.unpack_from('<I', d, off)[0]
+            if cur != val:
+                raise MoneyPatchError('%s: digit-counter pool word at %#x is %#x, expected %#x' % (name, off, cur, val))
+            es.add('money.libn', name, off, struct.pack('<I', sym['n_gd']), expect=struct.pack('<I', val))
+    if name in LIBN_GAME:
+        spec = LIBN_GAME[name]
+        off = spec['off']
+        if d[off:off + 2] != spec['head'] or off % 4:
+            raise MoneyPatchError('%s: GAME money text function not at %#x' % (name, off))
+        es.add('money.libngame', name, off, hook_bytes(sym['n_gm']), expect=d[off:off + HOOK_LEN])
+

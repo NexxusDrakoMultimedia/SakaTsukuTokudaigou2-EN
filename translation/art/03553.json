@@ -1,0 +1,33 @@
+{
+  "texture": "ETC_DATA/PASSWD.TBD #0 (03553) Password utility labels",
+  "size": [512, 512],
+  "supersample": 4,
+  "quantize": "argb4444",
+  "styles": {
+    "pw_big": {
+      "font": ["arial-black", "arial-bold"],
+      "gradient": [[0, "#f4f4f8"], [0.55, "#dcdce8"], [1, "#b8b8cc"]],
+      "outline": {"color": "#000000", "width": 1.6},
+      "shadow": {"color": "#000000", "dx": 2, "dy": 2, "steps": 2, "alpha": 1.0}
+    },
+    "pw_yellow": {
+      "font": ["arial-black", "arial-bold"],
+      "gradient": [[0, "#f0f800"], [1, "#d8e800"]],
+      "outline": {"color": "#000000", "width": 1.2},
+      "shadow": {"color": "#000000", "dx": 1, "dy": 1, "alpha": 1.0}
+    }
+  },
+  "defaults": {"erase": {"mode": "clear"}, "align": "right", "valign": "middle", "min_sx": 0.7, "pad": 0},
+  "regions": [
+    {"id": "register", "ja": "パスワード登録", "text": "Register Password", "style": "pw_big", "size": 21, "x": 38, "y": 66, "w": 216, "h": 38},
+    {"id": "delete",   "ja": "パスワード削除", "text": "Delete Password",   "style": "pw_big", "size": 22, "x": 46, "y": 106, "w": 208, "h": 38},
+    {"id": "view",     "ja": "パスワードを見る", "text": "View Password",    "style": "pw_big", "size": 22, "x": 26, "y": 146, "w": 228, "h": 38},
+    {"id": "copy",     "ja": "パスワードをコピー", "text": "Copy Password",  "style": "pw_big", "size": 22, "x": 2,  "y": 186, "w": 252, "h": 38},
+    {"id": "exit",     "ja": "終了", "text": "Exit", "style": "pw_big", "size": 22, "x": 188, "y": 226, "w": 66, "h": 38},
+    {"id": "next",   "ja": "進む", "text": "Next",   "style": "pw_yellow", "size": 16, "align": "center", "x": 331, "y": 70, "w": 52, "h": 28},
+    {"id": "back",   "ja": "戻る", "text": "Back",   "style": "pw_yellow", "size": 16, "align": "center", "x": 331, "y": 100, "w": 52, "h": 28},
+    {"id": "cancel", "ja": "取消", "text": "Cancel", "style": "pw_yellow", "size": 15, "align": "center", "x": 327, "y": 128, "w": 60, "h": 28},
+    {"id": "ok",     "ja": "決定", "text": "OK",     "style": "pw_yellow", "size": 16, "align": "center", "x": 331, "y": 156, "w": 52, "h": 28},
+    {"id": "stop",   "ja": "中止", "text": "Stop",   "style": "pw_yellow", "size": 16, "align": "center", "x": 331, "y": 184, "w": 52, "h": 28}
+  ]
+}

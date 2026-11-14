@@ -1,0 +1,136 @@
+{"l10n":1,"kind":"main","style":"compact","n":135,"final_newline":true,"src":"FLOW_PRG/DRSSRANK.BIN"}
+{"id":"d9f0","jah":"7467e65c616d11d85d3bf39a0271886c","en":"Welcome to the Data Room.\nHere you can check our club's results\nand other information.","max_bytes":77,"refs":1,"ctx":"tbl@d4b4[0/87]"}
+{"id":"da3d","jah":"8b5c00819e933c7d78d4cfdd59bdddfc","en":"Check our club's match schedule.","max_bytes":48,"refs":1,"ctx":"tbl@d4b4[1/87]"}
+{"id":"da6d","jah":"b6fe3c7bc70e527673efb1a886362074","en":"Check information on our club's\nplayers and on other clubs.","max_bytes":69,"refs":1,"ctx":"tbl@d4b4[2/87]"}
+{"id":"dab2","jah":"25115108a73eba7f81c12b91e72e41cc","en":"View the records of the J.League\nand the Japan National Team.","max_bytes":52,"refs":1,"ctx":"tbl@d4b4[3/87]"}
+{"id":"dae6","jah":"4992cc0b6308251dc70904f7c603d226","en":"See rankings of top players in the\nJ.League and around the world.","max_bytes":69,"refs":1,"ctx":"tbl@d4b4[4/87]"}
+{"id":"db2b","jah":"4a8e7eba479882c9455095603e78ca0a","en":"Check every J.League club's results\nthis year, and the year-by-year trend\nin final standings.","max_bytes":81,"refs":1,"ctx":"tbl@d4b4[5/87]"}
+{"id":"db7c","jah":"7f0e6a73f745eb3760f05b1076b027a9","en":"Check the current rankings of nations\nworldwide and Japan's year-by-year\nranking trend.","max_bytes":93,"refs":1,"ctx":"tbl@d4b4[6/87]"}
+{"id":"dbd9","jah":"0e5d53e43548ebb97c2a156b5fc94908","en":"See how our club ranks against clubs\naround the world, and the rankings\nof the world's clubs.","max_bytes":89,"refs":1,"ctx":"tbl@d4b4[7/87]"}
+{"id":"dc32","jah":"8320cac792fb9b0651d08074650589b5","en":"Check our results in the tournaments\nwe have entered. If we have won one,\nyou can admire the trophy here.","max_bytes":111,"refs":1,"ctx":"tbl@d4b4[8/87]"}
+{"id":"dca1","jah":"a4bdfcfe5cc561ef3f56a1f011d86dc6","en":"The greatest records set in J1 so far.","max_bytes":39,"refs":1,"ctx":"tbl@d4b4[9/87]"}
+{"id":"dcc8","jah":"8be599ced4ea93bd8962f016eef96116","en":"Check the current results of all J1\nand J2 clubs this year, and how they\nhave changed.","max_bytes":67,"refs":1,"ctx":"tbl@d4b4[10/87]"}
+{"id":"dd0b","jah":"c7e2ab8e280124f90ccd01c68c6e3575","en":"Check the trend in final results for\nall J1 and J2 clubs.","max_bytes":62,"refs":1,"ctx":"tbl@d4b4[11/87]"}
+{"id":"dd49","jah":"8856a415ba85c18df07e95eab1ce5af3","en":"Check the glorious, unbroken records\nset by J1 clubs.","max_bytes":93,"refs":1,"ctx":"tbl@d4b4[12/87]"}
+{"id":"dda6","jah":"7111edbf5f2fca6afaad67a2e1ce9e1a","en":"Check the unbroken, dishonourable\nrecords set by J1 clubs.","max_bytes":91,"refs":1,"ctx":"tbl@d4b4[13/87]"}
+{"id":"de01","jah":"139e82792d5b18ee3fc3a863ff3a5392","en":"Check the glorious, unbroken records\nset by J1 players.","max_bytes":95,"refs":1,"ctx":"tbl@d4b4[14/87]"}
+{"id":"de60","jah":"b98e700932e220b55184070b5ff0b0c2","en":"Our J.League results by year since\njoining will appear here. Please wait\nuntil this year's league has finished.","max_bytes":111,"refs":1,"ctx":"tbl@d4b4[15/87]"}
+{"id":"decf","jah":"92c958d8749fc3e64b387dcfa24a6174","en":"This year's J2 and J1 results will\nappear here. Please wait until the\nfirst J2 match of the year is over.","max_bytes":115,"refs":1,"ctx":"tbl@d4b4[16/87]"}
+{"id":"df42","jah":"99c097827b5bb45fbb6dc473a19eceeb","en":"Check the yearly J1 goalscoring\nrankings.","max_bytes":58,"refs":1,"ctx":"tbl@d4b4[17/87]"}
+{"id":"df7c","jah":"1291b270f0b103ed9a5f7ef58fd3af6b","en":"Check the yearly J2 goalscoring\nrankings.","max_bytes":58,"refs":1,"ctx":"tbl@d4b4[18/87]"}
+{"id":"dfb6","jah":"6e153c9f1d865f8ec86642eb4b05a89d","en":"Rankings by position, covering\nplayers all over the world.","max_bytes":71,"refs":1,"ctx":"tbl@d4b4[19/87]"}
+{"id":"dffd","jah":"c879344417dbf6314c4b5199a4bcea9d","en":"Check the goalkeeper rankings for\nplayers worldwide.","max_bytes":58,"refs":1,"ctx":"tbl@d4b4[20/87]"}
+{"id":"e037","jah":"7e34f5ce99db4de55dad176b3fc9a61b","en":"Check the defender rankings for\nplayers worldwide.","max_bytes":58,"refs":1,"ctx":"tbl@d4b4[21/87]"}
+{"id":"e071","jah":"1307dd1cd4186277c0d0de36b2698576","en":"Check the midfielder rankings for\nplayers worldwide.","max_bytes":58,"refs":1,"ctx":"tbl@d4b4[22/87]"}
+{"id":"e0ab","jah":"fcd3b94e47f9f192a5cac2347602e0d7","en":"Check the forward rankings for\nplayers worldwide.","max_bytes":58,"refs":1,"ctx":"tbl@d4b4[23/87]"}
+{"id":"e0e5","jah":"d2c4d6d9bda9b29085e69e04caf95ad3","en":"There is no J1 goalscoring data yet.\nPlease check back after this year's\nJ1 opening match.","max_bytes":103,"refs":1,"ctx":"tbl@d4b4[24/87]"}
+{"id":"e14c","jah":"ef295eed20fa869ad2f1067fda8cdadf","en":"There is no J2 goalscoring data yet.\nPlease check back after this year's\nJ2 opening match.","max_bytes":103,"refs":1,"ctx":"tbl@d4b4[25/87]"}
+{"id":"e1b3","jah":"ecbe25c0ac39f5e7b0c64253ec0d632f","en":"Information about our club's players\nand the club rules.","max_bytes":81,"refs":1,"ctx":"tbl@d4b4[26/87]"}
+{"id":"e204","jah":"a5d56e70b01326704ad32d94d6c0d9a5","en":"Information on the other clubs in\nthe J.League.","max_bytes":73,"refs":1,"ctx":"tbl@d4b4[27/87]"}
+{"id":"e24d","jah":"9289c48602631819c29e5f0c4f79d8b7","en":"Information on the current\nnational teams.","max_bytes":48,"refs":1,"ctx":"tbl@d4b4[28/87]"}
+{"id":"e27d","jah":"8c1842e54458b4fddafacac69af58933","en":"Check player transfer details.","max_bytes":42,"refs":1,"ctx":"tbl@d4b4[29/87]"}
+{"id":"e2a7","jah":"f098e9946785ce0c71365870bc2dfa7d","en":"Great players our club signed.","max_bytes":44,"refs":1,"ctx":"tbl@d4b4[30/87]"}
+{"id":"e2d3","jah":"8db49d0779d94f8f962d83f0929f476f","en":"Players currently at our club.","max_bytes":56,"refs":1,"ctx":"tbl@d4b4[31/87]"}
+{"id":"e30b","jah":"a0864e4260287ce2977121ff87b7646f","en":"Players who contributed greatly to\nour club and the J.League and have\nbeen inducted into the Hall of Fame.","max_bytes":75,"refs":1,"ctx":"tbl@d4b4[32/87]"}
+{"id":"e356","jah":"90dedd562cd616dd90b14d3ecf9c5314","en":"#sname#, these are the rules for\nrunning this club as its\nrepresentative.","max_bytes":62,"refs":1,"ctx":"tbl@d4b4[33/87]"}
+{"id":"e394","jah":"ee55935f4e5a47a68c3729897bf9ae1c","en":"Check the players selected for\nnational teams.","max_bytes":54,"refs":1,"ctx":"tbl@d4b4[34/87]"}
+{"id":"e3ca","jah":"98d8d28ba9d36205c627cd0d10e0b086","en":"Check your goals as manager of\nthe Japan National Team.","max_bytes":50,"refs":1,"ctx":"tbl@d4b4[35/87]"}
+{"id":"e3fc","jah":"e77f85048a9909846765536c477b1c22","en":"When a national tournament is on, you\ncan see the squads of each nation.\nThere's no tournament now, so no data.","max_bytes":115,"refs":1,"ctx":"tbl@d4b4[36/87]"}
+{"id":"e46f","jah":"1d0d19a351d0995beafa6d3f040f9177","en":"Our club is 1st with @Y/#tk00# wins@\nin a row. Well played, but this streak\nwon't stand forever.","max_bytes":99,"refs":1,"ctx":"tbl@d4b4[37/87]"}
+{"id":"e4d2","jah":"12fe10284041fc5344ab6bc7c07c5727","en":"Our club leads with @Y/#tk01# titles@.\nBut bask in the glory and a club on a\nroll will overtake us.","max_bytes":109,"refs":1,"ctx":"tbl@d4b4[38/87]"}
+{"id":"e53f","jah":"6d8456d358b00e373829b1db8ef28676","en":"Our club leads with @Y/#tk02# times@.\nBut a club with a fine defence will\nbeat that figure sooner or later.","max_bytes":103,"refs":1,"ctx":"tbl@d4b4[39/87]"}
+{"id":"e5a6","jah":"b620beba45f40f5a18ca5ad8f2629043","en":"Our club is 1st with\n@Y/#tk03# goals conceded@. We can cut\nthat number further. Aim even higher.","max_bytes":99,"refs":1,"ctx":"tbl@d4b4[40/87]"}
+{"id":"e609","jah":"17a6510d371d5e8e6b7dc8dc1e80bbbe","en":"Our club is 1st with @Y/#tk04# goals@.\nBut a total like this is bound to be\nbeaten before long.","max_bytes":99,"refs":1,"ctx":"tbl@d4b4[41/87]"}
+{"id":"e66c","jah":"a10836d7da961de56b62ad95f4bf2036","en":"Our club is last on @M/#tk05# goals@.\nLet's use this as motivation to boost\nour scoring power.","max_bytes":103,"refs":1,"ctx":"tbl@d4b4[42/87]"}
+{"id":"e6d3","jah":"5451649cbceb1a8cce1d2f5e55e5d144","en":"Our club is last with @M/#tk06# goals\nconceded@. Let's use that to tighten up\nat the back.","max_bytes":103,"refs":1,"ctx":"tbl@d4b4[43/87]"}
+{"id":"e73a","jah":"9eb3c009f420148f976c1ec7be4117f3","en":"We have @M/#tk07# losses@, the worst.\nLet's take this disappointment and\nvow to come back stronger.","max_bytes":97,"refs":1,"ctx":"tbl@d4b4[44/87]"}
+{"id":"e79b","jah":"0984506ca5cdfe25ceddedc0f9d4cb79","en":"@Y/#tk08#@ is in first place.\nI'd like them to bring even more\nconcentration to every match.","max_bytes":97,"refs":1,"ctx":"tbl@d4b4[45/87]"}
+{"id":"e7fc","jah":"84c7405d9b01411173bfecc817781792","en":"@Y/#tk09#@ is in first place.\nI hope this brings even steadier\nscoring from them.","max_bytes":107,"refs":1,"ctx":"tbl@d4b4[46/87]"}
+{"id":"e867","jah":"4703fa2f6c12bce2fedf03545fc920a1","en":"@Y/#tk10#@ is in first place.\nI'd like them to aim even higher and\nkeep going for goal.","max_bytes":101,"refs":1,"ctx":"tbl@d4b4[47/87]"}
+{"id":"e8cc","jah":"8a7f00a977adf8d99a05f1aa10485c82","en":"That year's top two were both our\nplayers. Their scoring power was\ngreatly feared by other clubs.","max_bytes":111,"refs":1,"ctx":"tbl@d4b4[48/87]"}
+{"id":"e93b","jah":"82fa3f9c425e2a7f0154976885787b86","en":"The current top two are both our\nplayers. Having J1's two best scorers\nat our club is reassuring.","max_bytes":103,"refs":1,"ctx":"tbl@d4b4[49/87]"}
+{"id":"e9a2","jah":"f68375e163afe80b8e79b0a7a4117d65","en":"That year's top two were both our\nplayers. Their scoring power was\nfamous throughout J1.","max_bytes":109,"refs":1,"ctx":"tbl@d4b4[50/87]"}
+{"id":"ea0f","jah":"40d51487894b40b545e9a806b81c96a6","en":"The current top two are both our\nplayers. Having J2's two best scorers\nat our club is reassuring.","max_bytes":103,"refs":1,"ctx":"tbl@d4b4[51/87]"}
+{"id":"ea76","jah":"3173b2e67d61dcf7c86193f00b85b7a1","en":"What a year! Our @Y/%s@ was named\nthe world's number one \"Iron Wall\".\nA memorable year indeed.","max_bytes":89,"refs":1,"ctx":"tbl@d4b4[52/87]"}
+{"id":"eacf","jah":"0f829f82694f605de472a3733b52cac5","en":"Right now @Y/%s@ is in first place.\nI'd love to see how many goals they\ncan keep out against the world's best.","max_bytes":95,"refs":1,"ctx":"tbl@d4b4[53/87]"}
+{"id":"eb2e","jah":"ffc0efb8eb625adc04955ae1a45fae8b","en":"That year's top two were both our\nplayers. Even the world's best would\nhave struggled to score against them.","max_bytes":113,"refs":1,"ctx":"tbl@d4b4[54/87]"}
+{"id":"eb9f","jah":"db5a01968b481f73201f624a70271960","en":"The current top two are both our\nplayers. Even world-class clubs would\nfind it hard to score against them.","max_bytes":101,"refs":1,"ctx":"tbl@d4b4[55/87]"}
+{"id":"ec04","jah":"4b8fceaf04b04d4b6a56f9a169470210","en":"That year's top two were both our\nplayers. Their control of matches was\npraised around the world.","max_bytes":115,"refs":1,"ctx":"tbl@d4b4[56/87]"}
+{"id":"ec77","jah":"046333d57cc198fa055f654e55ad328e","en":"The current top two are both our\nplayers. Even world-class clubs will\nstruggle to dictate matches.","max_bytes":101,"refs":1,"ctx":"tbl@d4b4[57/87]"}
+{"id":"ecdc","jah":"0bca439fba15273b5356d988047eb314","en":"That year's top two were both our\nplayers. Their scoring power could\nthreaten any defence in the world.","max_bytes":109,"refs":1,"ctx":"tbl@d4b4[58/87]"}
+{"id":"ed49","jah":"2e51337f593eef46a1b35f93149b46e5","en":"The current top two are both our\nplayers. They look set to bag plenty\nof goals against the world's best.","max_bytes":93,"refs":1,"ctx":"tbl@d4b4[59/87]"}
+{"id":"eda6","jah":"f84870747a8f7a09281e3f646c38061b","en":"A list of the players at our club.\nUp/Down: select a player.\nA Button: view their details.","max_bytes":109,"refs":1,"ctx":"tbl@d4b4[60/87]"}
+{"id":"ee13","jah":"4477ff700841876a01a8f1e59cf243ad","en":"A player at our club.\nPress the A Button to see this\nplayer's evaluation.","max_bytes":89,"refs":1,"ctx":"tbl@d4b4[61/87]"}
+{"id":"ee6c","jah":"675677028c211b7a7d3f032572bc0a89","en":"View Hall of Fame players by position.\nLeft/Right: select. A Button: confirm.","max_bytes":87,"refs":1,"ctx":"tbl@d4b4[62/87]"}
+{"id":"eec3","jah":"bc9195d15f6bc3380fb6b4169e500224","en":"This is @Y/%s@.\nA GK who was a wall for our club and\nearned a place in the Hall of Fame.","max_bytes":90,"refs":1,"ctx":"tbl@d4b4[63/87]"}
+{"id":"ef1d","jah":"27265cbae18b3d2080e0dd15078fc903","en":"This is @Y/%s@.\nA defender who kept opponents out and\nearned a place in the Hall of Fame.","max_bytes":83,"refs":1,"ctx":"tbl@d4b4[64/87]"}
+{"id":"ef70","jah":"b5e82fd5537349bd2b7c56438e6bf801","en":"This is @Y/%s@.\nA midfielder who shaped matches in our\nfavour, earning a Hall of Fame place.","max_bytes":93,"refs":1,"ctx":"tbl@d4b4[65/87]"}
+{"id":"efcd","jah":"409441b2105359a1ccbedd691b9e45d4","en":"This is @Y/%s@.\nA forward who scored freely against\nrivals, earning a Hall of Fame place.","max_bytes":87,"refs":1,"ctx":"tbl@d4b4[66/87]"}
+{"id":"f024","jah":"d1a52c6174738df0bbee7acf96c44580","en":"No GK from our club is in the Hall of\nFame yet. I hope one comes along soon\nwho can keep out any shot.","max_bytes":117,"refs":1,"ctx":"tbl@d4b4[67/87]"}
+{"id":"f099","jah":"dd9577eca889951c412197fb8d926457","en":"No defender from our club is in the\nHall of Fame yet. We need one soon who\ncan reliably stop opposing attacks.","max_bytes":115,"refs":1,"ctx":"tbl@d4b4[68/87]"}
+{"id":"f10c","jah":"b8489090f251f2fa20f1fc1f0ee85383","en":"No midfielder from our club is in the\nHall of Fame yet. We need a star of\nthe midfield battle to emerge soon.","max_bytes":105,"refs":1,"ctx":"tbl@d4b4[69/87]"}
+{"id":"f175","jah":"e5bd9c04113810564020816f94798046","en":"No forward from our club is in the\nHall of Fame yet. I hope a prolific\nscorer emerges soon.","max_bytes":105,"refs":1,"ctx":"tbl@d4b4[70/87]"}
+{"id":"f1de","jah":"59d47025d03bbf99fade57fb803eb16a","en":"These are the minimum rules you must\nkeep. If you break any of the three\nitems above, you can't run the club.","max_bytes":97,"refs":1,"ctx":"tbl@d4b4[71/87]"}
+{"id":"f23f","jah":"faa1b77758caf0f8e5db804900e30c1d","en":"Our club has only @M/%D players@ who\ncan play. Be careful, or we could be\nunable to play in official matches.","max_bytes":113,"refs":1,"ctx":"tbl@d4b4[72/87]"}
+{"id":"f2b0","jah":"81c4a09643f6e952b41ab41c636461c6","en":"Our funds currently stand at only\n@M/%m@. At this rate we'll go\nbankrupt.","max_bytes":83,"refs":1,"ctx":"tbl@d4b4[73/87]"}
+{"id":"f303","jah":"ee7361a5a023a84998e69b273f605c6d","en":"After @Y/%d matchdays@, our club is in\n@M/position %d@. At this rate we won't\nbe able to keep running the club.","max_bytes":107,"refs":1,"ctx":"tbl@d4b4[74/87]"}
+{"id":"f36e","jah":"b15f10320efc6f924662c04c02f15334","en":"Club management is in a very tough\nsituation. If we don't improve soon,\nthings will get serious.","max_bytes":87,"refs":1,"ctx":"tbl@d4b4[75/87]"}
+{"id":"f3c5","jah":"386c6604027c9f907f18a7d454dcabc7","en":"Here are your targets as Japan\nManager. If you miss them, #sname#,\nyou will be forced to resign.","max_bytes":92,"refs":1,"ctx":"tbl@d4b4[76/87]"}
+{"id":"f421","jah":"ae242447f4cbbb910e0cba9fe198c76a","en":"Choose the club you want to view.\nSelect its flag and press the A Button\nto see its information.","max_bytes":95,"refs":1,"ctx":"tbl@d4b4[77/87]"}
+{"id":"f480","jah":"80fc20f7bfe3765b56e0759d54f00064","en":"Information on this club's players.\nUp/Down: switch to another player.\nLeft/Right: switch to another club.","max_bytes":101,"refs":1,"ctx":"tbl@d4b4[78/87]"}
+{"id":"f4e5","jah":"af1ed95b871ef68571034ce8f398e718","en":"Choose the national team to view.\nSelect a flag and press the A Button\nto switch to that nation's squad.","max_bytes":95,"refs":1,"ctx":"tbl@d4b4[79/87]"}
+{"id":"f544","jah":"19af82f049055ec23cd7f28b061fe219","en":"Information on this team's players.\nUp/Down: switch to another player.\nLeft/Right: switch to another team.","max_bytes":95,"refs":1,"ctx":"tbl@d4b4[80/87]"}
+{"id":"f5a3","jah":"aaaddaf779ec1c7f9c0ad211b49eb98b","en":"The latest transfers of players\naround the world.","max_bytes":42,"refs":1,"ctx":"tbl@d4b4[81/87]"}
+{"id":"f5cd","jah":"988850a9e6ed3a33e1367bc66a9e71a9","en":"Recent transfers around the world,\nbut none have been especially notable.","max_bytes":76,"refs":1,"ctx":"tbl@d4b4[82/87]"}
+{"id":"f619","jah":"ecaae2bfa5e4d5436a17cd29c97b89eb","en":"Our club's schedule this year.","max_bytes":50,"refs":1,"ctx":"tbl@d4b4[83/87]"}
+{"id":"f64b","jah":"d14064ebd9746b8bb664395d9c3d5533","en":"Check our results in every tournament\nwe have entered. Use the D-pad to\nselect a cup and press the A Button.","max_bytes":116,"refs":1,"ctx":"tbl@d4b4[84/87]"}
+{"id":"f6bf","jah":"d917197baf54bd422983fc1bc862d196","en":"The #tk11# trophy. Seeing it again\nreally brings home the win.","max_bytes":64,"refs":1,"ctx":"tbl@d4b4[85/87]"}
+{"id":"f6ff","jah":"ee44e26362628812df286038ab6127be","en":"The trophies from each tournament are\nlined up here. Let's work hard to\ncollect them all.","max_bytes":97,"refs":1,"ctx":"tbl@d4b4[86/87]"}
+{"id":"f820","jah":"ca1d5806831c75823f9a541710c9c20a","en":"@Y/Finances@","max_bytes":16,"refs":1,"ctx":"ptr@276c"}
+{"id":"f830","jah":"cdc464621efd7c26235473f8e883bc05","en":"Finances","max_bytes":12,"refs":1,"ctx":"ptr@277c"}
+{"id":"f83c","jah":"293fd929744c1ad58317028eca18ca24","en":"@Y/Total@","max_bytes":12,"refs":1,"ctx":"ptr@2918"}
+{"id":"f848","jah":"4573aa0cf359479fff0c349088f7b4d2","en":"@B/Income@","max_bytes":12,"refs":1,"ctx":"ptr@2930"}
+{"id":"f854","jah":"47ae1a0f51a28555abe2199218ddd316","en":"Income","max_bytes":8,"refs":1,"ctx":"ptr@2938"}
+{"id":"f85c","jah":"3bfbf3b414894499f39c41859be9e85f","en":"@Y/Costs@","max_bytes":12,"refs":1,"ctx":"ptr@2940"}
+{"id":"f868","jah":"3bcf35556f0a268d751e3f8fa0e2a77f","en":"Costs","max_bytes":8,"refs":1,"ctx":"ptr@2948"}
+{"id":"f870","jah":"2c32fd7dbf698976ec14c987d19e5e31","en":"Sponsor Fees","max_bytes":16,"refs":1,"ctx":"tbl@f7fc[0/9]"}
+{"id":"f880","jah":"16f33321dcab14582a4dc85ddbd7dd5c","en":"Gate Total","max_bytes":12,"refs":1,"ctx":"tbl@f7fc[1/9]"}
+{"id":"f88c","jah":"a6f823557b217ab69ffd20c4fbc195ba","en":"Prize Total","max_bytes":12,"refs":1,"ctx":"tbl@f7fc[2/9]"}
+{"id":"f898","jah":"f6144811275aab31408a121fa04fd7e4","en":"Other","max_bytes":8,"refs":2,"ctx":"tbl@f7fc[3/9] xrefs=2"}
+{"id":"f8a0","jah":"6d77c8941856feea132bd7e2ed31ffc7","en":"Facilities","max_bytes":12,"refs":1,"ctx":"tbl@f7fc[4/9]"}
+{"id":"f8ac","jah":"d0cf129d4340c6816035dbe4a9cdf4ff","en":"Wages","max_bytes":8,"refs":1,"ctx":"tbl@f7fc[5/9]"}
+{"id":"f8b4","jah":"b44821eacaff2902c72a9b71d3d8906a","en":"Advertising","max_bytes":12,"refs":1,"ctx":"tbl@f7fc[6/9]"}
+{"id":"f8c0","jah":"143aabeb8fd0913abf9183aa12e0d617","en":"Invest","max_bytes":8,"refs":1,"ctx":"tbl@f7fc[7/9]"}
+{"id":"f8c8","jah":"10aa184400d2603540318c81eee967cb","en":"Yr %s Income","max_bytes":12,"refs":2,"ctx":"tbl@2fb8[0/3] xrefs=2"}
+{"id":"f8d4","jah":"b4c4e3950078b5f528404b5709ec0334","en":"Yr %s Spend","max_bytes":12,"refs":1,"ctx":"tbl@2fb8[1/3]"}
+{"id":"f8e0","jah":"8dd974ed61e6415469a6d229ced10815","en":"Yr %s Attendance","max_bytes":20,"refs":1,"ctx":"tbl@2fb8[2/3]"}
+{"id":"f928","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@669c","skip":true}
+{"id":"f92c","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@66a4[0/3]","skip":true}
+{"id":"f934","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@66a4[1/3]","skip":true}
+{"id":"f938","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@66a4[2/3]","skip":true}
+{"id":"f93c","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[0/11]"}
+{"id":"f940","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[1/11]"}
+{"id":"f944","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[2/11]"}
+{"id":"f948","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[3/11]"}
+{"id":"f94c","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[4/11]"}
+{"id":"f950","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[5/11]"}
+{"id":"f954","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[6/11]"}
+{"id":"f958","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[7/11]"}
+{"id":"f95c","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[8/11]"}
+{"id":"f960","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[9/11]"}
+{"id":"f964","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@f8f8[10/11]"}
+{"id":"f9e0","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@68d8"}
+{"id":"fac4","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@7ca8"}
+{"id":"fac8","jah":"af10a988ca354489394f36c6acf7f81c","en":"@R/%s %s man@","max_bytes":16,"refs":1,"ctx":"ptr@9c9c"}
+{"id":"fad8","jah":"e4926a637a7b7cbcbc21660c024b1fbb","en":"%s %s man","max_bytes":12,"refs":1,"ctx":"ptr@9da8"}
+{"id":"fae4","jah":"ed78bd629cadbab61fde83450643fba6","en":"@R/%s man@","max_bytes":12,"refs":1,"ctx":"tbl@9db0[0/3]"}
+{"id":"faf0","jah":"712da175543bd1858eb7005f5be8d36d","en":"%s man","max_bytes":8,"refs":1,"ctx":"tbl@9db0[1/3]"}
+{"id":"faf8","jah":"9826107d9ac30a5ea35ad419455ef5cd","en":"%s Yen","max_bytes":8,"refs":1,"ctx":"tbl@9db0[2/3]"}
+{"id":"fb00","jah":"ceb400799345acb13fd96fcfc25b66cb","en":"@R/%s%s@","max_bytes":16,"refs":2,"ctx":"ptr@9ed8 xrefs=2"}
+{"id":"fb10","jah":"47bd32ed131fcfbbd5520b31c0d97725","en":"-%s%s@","max_bytes":12,"refs":1,"ctx":"tbl@9ee0[0/3]"}
+{"id":"fb1c","jah":"278ab324890f28ed1bd5ea1d47c6ab00","en":"%s%s","max_bytes":12,"refs":2,"ctx":"tbl@9ee0[1/3] xrefs=2"}
+{"id":"fb28","jah":"7500b6fe5993ad1746778a9261a7e584","en":"%s%s@","max_bytes":12,"refs":1,"ctx":"tbl@9ee0[2/3]"}
+{"id":"fb34","jah":"4daaee11393bcad98cb5b659298c240d","en":"@R/%s@","max_bytes":12,"refs":2,"ctx":"ptr@9ff8 xrefs=2"}
+{"id":"fb40","jah":"b6bb1dc86195b3e77072a39e52e3fe10","en":"-%s@","max_bytes":8,"refs":1,"ctx":"tbl@a000[0/3]"}
+{"id":"fb48","jah":"68812168801396a192af3b5b9cb01a89","en":"%s","max_bytes":8,"refs":2,"ctx":"tbl@a000[1/3] xrefs=2"}
+{"id":"fb50","jah":"33efd05935976528edcb69b7d34dc97b","en":"%s@","max_bytes":8,"refs":1,"ctx":"tbl@a000[2/3]"}

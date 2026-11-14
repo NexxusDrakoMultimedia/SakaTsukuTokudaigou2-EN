@@ -1,0 +1,12 @@
+tail 0x8c299400 0x8c2b0000 93184 nonzero-in-file=65536 ram_2400:diff=0 ram_5400:diff=0 live1_ram:diff=0 live3_ram:diff=0
+gap1 0x8c13bb80 0x8c159000 119936 nonzero-in-file=0 ram_2400:diff=0 ram_5400:diff=0 live1_ram:diff=0 live3_ram:diff=0
+gap2 0x8c1196a0 0x8c11cafa 13402 nonzero-in-file=0 ram_2400:diff=0 ram_5400:diff=0 live1_ram:diff=0 live3_ram:diff=0
+gap3 0x8c1289e8 0x8c12cae5 16637 nonzero-in-file=0 ram_2400:diff=0 ram_5400:diff=0 live1_ram:diff=0 live3_ram:diff=0
+fontTail 0x8cdfdf1c 0x8ce02000 16612 nonzero-in-file=0 ram_2400:diff=0 ram_5400:diff=0 live1_ram:diff=0 live3_ram:diff=0
+matrix(0x8c299000-400) 0x8c299000 0x8c299400 1024 nonzero-in-file=0 ram_2400:diff=8 ram_5400:diff=8 live1_ram:diff=115 live3_ram:diff=452
+tail overlap with crt0/boot zero-fill: []
+gap1 overlap with crt0/boot zero-fill: []
+gap2 overlap with crt0/boot zero-fill: []
+gap3 overlap with crt0/boot zero-fill: []
+fontTail overlap with crt0/boot zero-fill: []
+matrix(0x8c299000-400) overlap with crt0/boot zero-fill: [('0x8c299000', '0x8c299400')]

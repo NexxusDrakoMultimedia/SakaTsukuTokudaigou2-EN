@@ -1,0 +1,364 @@
+{
+ "texture": "ETC_DATA/PL_EDIT.ZAR PL_PT3.TBD#0 (03584) Player Edit labels (traits, scout notes, ability headings)",
+ "size": [
+  512,
+  512
+ ],
+ "supersample": 4,
+ "quantize": "argb4444",
+ "styles": {
+  "pl_white": {
+   "font": [
+    "arial-narrow-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffffff"
+    ],
+    [
+     1,
+     "#c4c4cc"
+    ]
+   ],
+   "outline": {
+    "color": "#000000",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  },
+  "pl_yellow": {
+   "font": [
+    "arial-narrow-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffff60"
+    ],
+    [
+     1,
+     "#f0e020"
+    ]
+   ],
+   "outline": {
+    "color": "#000000",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  },
+  "sn_green": {
+   "fill": "#ccffff",
+   "outline": {
+    "color": "#000000",
+    "width": 0.9
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1,
+    "dy": 1,
+    "alpha": 1.0
+   }
+  },
+  "sn_blue": {
+   "fill": "#ccccff",
+   "outline": {
+    "color": "#000000",
+    "width": 0.9
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1,
+    "dy": 1,
+    "alpha": 1.0
+   }
+  },
+  "sn_red": {
+   "fill": "#ffcccc",
+   "outline": {
+    "color": "#000000",
+    "width": 0.9
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1,
+    "dy": 1,
+    "alpha": 1.0
+   }
+  },
+  "sn_purple": {
+   "fill": "#ffddff",
+   "outline": {
+    "color": "#000000",
+    "width": 0.9
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1,
+    "dy": 1,
+    "alpha": 1.0
+   }
+  },
+  "sn_olive": {
+   "fill": "#ffffdd",
+   "outline": {
+    "color": "#000000",
+    "width": 0.9
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1,
+    "dy": 1,
+    "alpha": 1.0
+   }
+  }
+ },
+ "defaults": {
+  "erase": {
+   "mode": "clear"
+  },
+  "align": "left",
+  "valign": "middle",
+  "min_sx": 0.62,
+  "style": "pl_white",
+  "size": 19
+ },
+ "regions": [
+  {
+   "id": "traits",
+   "ja": "特徴",
+   "text": "Traits",
+   "style": "pl_yellow",
+   "align": "center",
+   "x": 360,
+   "y": 41,
+   "w": 54,
+   "h": 29,
+   "erase": {
+    "mode": "auto",
+    "tol": 30
+   }
+  },
+  {
+   "id": "scout_notes",
+   "ja": "スカウト寸評",
+   "text": "Scout Notes",
+   "style": "pl_yellow",
+   "align": "center",
+   "size": 22,
+   "x": 217,
+   "y": 175,
+   "w": 140,
+   "h": 25,
+   "erase": {
+    "mode": "copy",
+    "src": [
+     217,
+     212
+    ]
+   }
+  },
+  {
+   "id": "position",
+   "ja": "ポジション",
+   "text": "Position",
+   "x": 1,
+   "y": 276,
+   "w": 84,
+   "h": 29
+  },
+  {
+   "id": "strengths",
+   "ja": "長所",
+   "text": "Strengths",
+   "x": 17,
+   "y": 342,
+   "w": 58,
+   "h": 28
+  },
+  {
+   "id": "character",
+   "ja": "性格",
+   "text": "Character",
+   "x": 16,
+   "y": 374,
+   "w": 58,
+   "h": 28
+  },
+  {
+   "id": "skill",
+   "ja": "特技",
+   "text": "Skill",
+   "x": 17,
+   "y": 405,
+   "w": 58,
+   "h": 28
+  },
+  {
+   "id": "flair",
+   "ja": "センス",
+   "text": "Flair",
+   "style": "sn_green",
+   "size": 17,
+   "align": "center",
+   "x": 127,
+   "y": 270,
+   "w": 61,
+   "h": 24,
+   "erase_rect": [
+    127,
+    270,
+    61,
+    18
+   ],
+   "valign": "top",
+   "dy": 1
+  },
+  {
+   "id": "technique",
+   "ja": "技術",
+   "text": "Technique",
+   "style": "sn_blue",
+   "size": 17,
+   "align": "center",
+   "x": 191,
+   "y": 270,
+   "w": 50,
+   "h": 24,
+   "erase_rect": [
+    191,
+    270,
+    50,
+    18
+   ],
+   "valign": "top",
+   "dy": 1
+  },
+  {
+   "id": "intel",
+   "ja": "知力",
+   "text": "Intel",
+   "style": "sn_red",
+   "size": 17,
+   "align": "center",
+   "x": 247,
+   "y": 270,
+   "w": 46,
+   "h": 24,
+   "erase_rect": [
+    247,
+    270,
+    46,
+    18
+   ],
+   "valign": "top",
+   "dy": 1
+  },
+  {
+   "id": "physical",
+   "ja": "フィジカル",
+   "text": "Physical",
+   "style": "sn_purple",
+   "size": 17,
+   "align": "center",
+   "x": 296,
+   "y": 270,
+   "w": 83,
+   "h": 24,
+   "erase_rect": [
+    296,
+    270,
+    83,
+    18
+   ],
+   "valign": "top",
+   "dy": 1
+  },
+  {
+   "id": "mental",
+   "ja": "メンタル",
+   "text": "Mental",
+   "style": "sn_olive",
+   "size": 17,
+   "align": "center",
+   "x": 384,
+   "y": 270,
+   "w": 75,
+   "h": 24,
+   "erase_rect": [
+    384,
+    270,
+    75,
+    18
+   ],
+   "valign": "top",
+   "dy": 1
+  }
+ ],
+ "art3_row_mode": [
+  {
+   "x": [
+    127,
+    188
+   ],
+   "y": [
+    288,
+    299
+   ]
+  },
+  {
+   "x": [
+    191,
+    241
+   ],
+   "y": [
+    288,
+    299
+   ]
+  },
+  {
+   "x": [
+    247,
+    294
+   ],
+   "y": [
+    288,
+    299
+   ]
+  },
+  {
+   "x": [
+    296,
+    379
+   ],
+   "y": [
+    288,
+    299
+   ]
+  },
+  {
+   "x": [
+    384,
+    459
+   ],
+   "y": [
+    288,
+    299
+   ]
+  }
+ ]
+}

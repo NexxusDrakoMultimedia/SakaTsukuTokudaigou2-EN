@@ -1,0 +1,117 @@
+source	window_lib	font_slots	bubble_17x2	msg_20x3	other_cells	bubble_ctor_sites
+ATFIRST/FACEMDUL.BIN	no	no	no	no		
+ATFIRST/HELP.BIN	yes	yes	no	yes		
+ATFIRST/TITLE.BIN	no	no	no	no		
+FLOW_PRG/ABROAD.BIN	yes	yes	yes	yes		8c2d5758
+FLOW_PRG/AUTOSAVE.BIN	yes	yes	no	yes		
+FLOW_PRG/BACKUP.BIN	yes	yes	yes	yes		8c4e1c4c
+FLOW_PRG/BPMATCH.BIN	yes	yes	yes	yes		8c2dadd4
+FLOW_PRG/BPMWEEK.BIN	no	no	no	no		
+FLOW_PRG/CAP_SLCT.BIN	yes	yes	yes	yes		8c2d43a8
+FLOW_PRG/CE_VS.BIN	yes	yes	yes	yes		8c2d1b20
+FLOW_PRG/CHALDANI.BIN	yes	yes	yes	yes		8c4d1984
+FLOW_PRG/CHALMODE.BIN	yes	yes	yes	yes		8c4d2e48
+FLOW_PRG/CLUBEDIT.BIN	yes	yes	yes	yes		8c2d58f8
+FLOW_PRG/COMM.BIN	no	yes	no	no		
+FLOW_PRG/CON_REP.BIN	no	yes	no	no		
+FLOW_PRG/CSAVE.BIN	yes	yes	yes	yes		8c4daa3c
+FLOW_PRG/CSAVE3.BIN	no	yes	yes	yes		8c4dc108
+FLOW_PRG/CSAVE4.BIN	yes	yes	yes	yes		8c4dc4b0
+FLOW_PRG/DATAROOM.BIN	yes	yes	yes	yes		8c2d9510
+FLOW_PRG/DMCLBEDT.BIN	yes	yes	yes	yes		8c2dd67c
+FLOW_PRG/DRAFT.BIN	yes	yes	yes	yes	8	8c2d6d24
+FLOW_PRG/DRSBEST.BIN	yes	yes	yes	yes		8c4d365c
+FLOW_PRG/DRSDENDO.BIN	yes	yes	yes	yes		8c4d5570
+FLOW_PRG/DRSGP.BIN	yes	yes	yes	yes		8c4d43f0
+FLOW_PRG/DRSGRF.BIN	yes	yes	no	yes		
+FLOW_PRG/DRSGRFJ.BIN	yes	yes	no	yes		
+FLOW_PRG/DRSHRANK.BIN	yes	yes	no	yes		
+FLOW_PRG/DRSISEKI.BIN	yes	yes	yes	yes		8c4d2a14
+FLOW_PRG/DRSJAPAN.BIN	yes	yes	yes	yes		8c4d1ea4
+FLOW_PRG/DRSKIYA.BIN	yes	yes	yes	yes		8c4d20d4
+FLOW_PRG/DRSLIST.BIN	yes	yes	yes	yes		8c4d7634
+FLOW_PRG/DRSOLIST.BIN	yes	yes	yes	yes		8c4d64ac
+FLOW_PRG/DRSRANK.BIN	yes	yes	yes	yes		8c4d50c0
+FLOW_PRG/DRSSRANK.BIN	yes	yes	no	yes		
+FLOW_PRG/ENDING.BIN	yes	yes	no	yes		
+FLOW_PRG/ENDOPT.BIN	yes	yes	yes	yes	0 1	8c8f1968
+FLOW_PRG/ESTABLIS.BIN	yes	yes	yes	yes		8c2de248
+FLOW_PRG/EVENT.BIN	yes	yes	yes	yes	1	8c2e8ac0
+FLOW_PRG/EXFLAG.BIN	yes	yes	yes	yes		8c4db0a0
+FLOW_PRG/EXTRADE.BIN	yes	yes	yes	yes		8c4e2464
+FLOW_PRG/FACEMDUL.BIN	no	no	no	no		
+FLOW_PRG/FIRE.BIN	yes	yes	yes	yes		8c2d4004
+FLOW_PRG/FLOW1.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW10.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW11.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW2.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW3.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW4.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW5.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW6.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW7.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW8.BIN	yes	yes	no	yes		
+FLOW_PRG/FLOW9.BIN	yes	yes	no	yes		
+FLOW_PRG/FREELOAD.BIN	yes	yes	yes	yes		8c8daf60
+FLOW_PRG/GAME.BIN	yes	yes	yes	yes	2 10	8c2ec9bc
+FLOW_PRG/GAMEOVER.BIN	yes	yes	yes	yes		8c4d2000
+FLOW_PRG/GETREP.BIN	yes	yes	yes	yes		8c2df1d0
+FLOW_PRG/GMSHOW00.BIN	yes	yes	no	yes		
+FLOW_PRG/GMSHOW01.BIN	yes	yes	no	yes		
+FLOW_PRG/GMSHOW02.BIN	yes	yes	no	yes		
+FLOW_PRG/G_INCOME.BIN	yes	yes	no	yes		
+FLOW_PRG/G_RESULT.BIN	yes	yes	no	yes		
+FLOW_PRG/HELP.BIN	yes	yes	no	yes		
+FLOW_PRG/HEREWEGO.BIN	yes	yes	yes	yes		8c2d8614
+FLOW_PRG/HOMETOWN.BIN	yes	yes	yes	yes		8c2e3b18
+FLOW_PRG/INITCON.BIN	yes	yes	yes	yes		8c6d1490
+FLOW_PRG/INVEST.BIN	yes	yes	yes	yes		8c4d6720
+FLOW_PRG/J1_REP.BIN	no	yes	no	no		
+FLOW_PRG/JSCEVENT.BIN	yes	yes	yes	yes		8c2d2e84
+FLOW_PRG/LOAD.BIN	yes	yes	yes	yes		8c4df5f4
+FLOW_PRG/LOADBAR.BIN	no	no	no	no		
+FLOW_PRG/LOCAL.BIN	yes	yes	yes	yes		8c2d397c
+FLOW_PRG/LOGO.BIN	no	no	no	no		
+FLOW_PRG/MEETING.BIN	yes	yes	yes	yes		8c2dd078
+FLOW_PRG/MON_INST.BIN	yes	yes	yes	yes		8c4d348c
+FLOW_PRG/MOVIE.BIN	no	yes	no	no		
+FLOW_PRG/MOVIE_BG.BIN	no	yes	no	no		
+FLOW_PRG/NENREP.BIN	yes	yes	yes	yes		8c2da140
+FLOW_PRG/NEWCON.BIN	yes	yes	yes	yes		8c6d6c58
+FLOW_PRG/NEWMONTH.BIN	yes	yes	no	yes		
+FLOW_PRG/NEWS.BIN	yes	yes	yes	yes	2	8c328080
+FLOW_PRG/NEWS_ED.BIN	yes	yes	yes	yes		8c8d5578
+FLOW_PRG/NEWS_OP.BIN	yes	yes	yes	yes		8c8d2574
+FLOW_PRG/NEWUNIF.BIN	yes	yes	yes	yes		8c2d3114
+FLOW_PRG/NEW_YEAR.BIN	yes	yes	yes	yes		8c4d0e10
+FLOW_PRG/NF_CON.BIN	no	yes	no	no		
+FLOW_PRG/N_ENTRY.BIN	yes	yes	yes	yes		8c8d53e0
+FLOW_PRG/OFFICE.BIN	no	no	no	no		
+FLOW_PRG/OPTION.BIN	yes	yes	no	yes		
+FLOW_PRG/PASS_PL.BIN	no	yes	no	no		
+FLOW_PRG/PLNUMSET.BIN	yes	yes	yes	yes		8c2d6594
+FLOW_PRG/PL_CON.BIN	no	yes	no	no		
+FLOW_PRG/PL_EDIT.BIN	yes	yes	yes	yes		8c4dc9ac
+FLOW_PRG/PWK_EDIT.BIN	yes	yes	no	yes		
+FLOW_PRG/RECON.BIN	yes	yes	yes	yes		8c4d749c
+FLOW_PRG/SCDRF.BIN	yes	yes	yes	yes		8c2d4a48
+FLOW_PRG/SCHE0.BIN	yes	yes	yes	yes		8c4e8fac
+FLOW_PRG/SCHE1.BIN	yes	yes	yes	yes		8c4e8fa4
+FLOW_PRG/SEARCH.BIN	yes	yes	yes	yes		8c4d55f4
+FLOW_PRG/SELNAT.BIN	yes	yes	yes	yes		8c2d79f8
+FLOW_PRG/SONGSAVE.BIN	yes	yes	yes	yes		8c8db208
+FLOW_PRG/SPF_READ.BIN	yes	yes	no	yes	21	
+FLOW_PRG/SPONSOR.BIN	yes	yes	yes	yes		8c6daaf8
+FLOW_PRG/SPONSOR2.BIN	yes	yes	yes	yes		8c4de144
+FLOW_PRG/SPT_CLUB.BIN	yes	yes	yes	yes		8c2d2fdc
+FLOW_PRG/SS_EDIT.BIN	yes	yes	yes	yes		8c4d7f68
+FLOW_PRG/SUPPORT.BIN	yes	yes	yes	yes		8c2d6cc8
+FLOW_PRG/S_SELECT.BIN	yes	yes	yes	yes		8c2d4900
+FLOW_PRG/TITLE.BIN	no	no	no	no		
+FLOW_PRG/TOWN.BIN	yes	yes	no	yes		
+FLOW_PRG/TOWNDATA.BIN	yes	yes	yes	yes		8c4d66e4
+FLOW_PRG/TRAINING.BIN	yes	yes	yes	yes	2	8c2f0754
+FLOW_PRG/TV_EVENT.BIN	yes	yes	yes	yes	-100 0 5	8c2d29d0
+FLOW_PRG/VTRLOAD.BIN	yes	yes	yes	yes		8c2db304
+FLOW_PRG/WEEKLY.BIN	no	no	no	no	1	
+FLOW_PRG/YOUTH.BIN	yes	yes	yes	yes	9	8c2daed8

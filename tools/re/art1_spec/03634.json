@@ -1,0 +1,50 @@
+{
+ "texture": "03634 ETC_DATA/SHTEX.ZAR frame.tbd#3",
+ "size": [
+  64,
+  64
+ ],
+ "supersample": 4,
+ "quantize": "argb4444",
+ "styles": {
+  "g": {
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "fill": "#c4c4cc"
+  }
+ },
+ "regions": [
+  {
+   "id": "yes",
+   "ja": "はい",
+   "text": "Yes",
+   "style": "g",
+   "x": 0,
+   "y": 0,
+   "w": 64,
+   "h": 26,
+   "size": 22,
+   "align": "center",
+   "erase": {
+    "mode": "clear"
+   }
+  },
+  {
+   "id": "no",
+   "ja": "いいえ",
+   "text": "No",
+   "style": "g",
+   "x": 0,
+   "y": 38,
+   "w": 64,
+   "h": 26,
+   "size": 22,
+   "align": "center",
+   "erase": {
+    "mode": "clear"
+   }
+  }
+ ]
+}

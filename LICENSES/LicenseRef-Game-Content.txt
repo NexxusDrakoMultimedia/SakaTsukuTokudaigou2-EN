@@ -1,0 +1,7 @@
+Original game material (not licensed by this project)
+
+Files marked with this identifier show or contain material from the original game (Sakatsuku Tokudaigou 2 -
+J.League Pro Soccer Club o Tsukurou!, Sega Dreamcast): its pictures, text, music or code.  That material belongs
+to its rights holders.  SakaTsuku2-EN grants no licence to it and claims no rights in it; the files are present only
+as research or documentation material.  Nothing in LICENSES/CC-BY-SA-4.0.txt or LICENSES/GPL-3.0-or-later.txt applies
+to them.

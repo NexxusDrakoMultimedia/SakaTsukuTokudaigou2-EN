@@ -1,0 +1,282 @@
+ja	en	short	notes
+ＧＫ / ゴールキーパー	Goalkeeper	GK	
+ＤＦ / ディフェンダー	Defender	DF	
+ＭＦ / ミッドフィルダー	Midfielder	MF	
+ＦＷ / フォワード	Forward	FW	
+攻撃的ＭＦ	Attacking Midfielder	AM / Att. MF	
+守備的ＭＦ	Defensive Midfielder	DM / Def. MF	
+ボランチ	Holding Midfielder	Holding Mid	Do not write "Volante"
+トップ下	Playmaker (No. 10)	Support FW	"behind the strikers" in help text
+サイドＤＦ / サイドバック	Full-back	FB	
+センターＤＦ / センターバック	Centre-back	CB	
+ウイングバック	Wing-back	WB	
+ストッパー	Stopper		
+リベロ	Libero		
+スイーパー	Sweeper		
+ストライカー	Striker		
+ポストプレイヤー	Target Man		
+ゲームメーカー	Playmaker		
+アタッカー	Attacker		
+ユース	Youth (team)		"Youth Team" in full
+シュート	Shooting / Shot		skill = "Shooting"; the act = "shot"
+ヘディング	Heading		the act = "header"
+オーバーヘッドキック	Overhead Kick		use "Bicycle Kick" only if the label has room to spare
+ジャンピングボレーシュート	Jumping Volley		
+ダイビングヘッド	Diving Header		
+トゥリベーラ	Trivela		outside-of-the-boot strike
+ドライブシュート	Drive Shot		keep: series staple
+バナナシュート	Banana Shot		
+ループシュート	Lob Shot		
+ボレー	Volley		
+セットプレイ	Set Piece		
+アシスト	Assist		
+アーリークロス	Early Cross		
+センタリング	Cross		"centring" is Japanese-English; always "cross"
+壁パス	Wall Pass		one-two
+キープ	Ball Retention		short: "Keep Ball"
+キラーパス	Killer Pass		
+くさびのパス	Wedge Pass		pass into the striker's feet
+クライフターン	Cruyff Turn		
+グラウンダー	Ground Pass		
+サイドチェンジ	Switch of Play		short: "Switch"
+スルーパス	Through Ball		
+縦パス	Forward Pass		
+ダイレクト	One-Touch		
+トライアングル	Passing Triangle		
+トラップ	Ball Control		
+ドリブル	Dribbling		
+ノールックパス	No-Look Pass		
+フェイント	Feint		
+パス	Passing		
+タックル	Tackling		
+ポジショニング	Positioning		
+ロングキック	Long Ball		
+決定力	Finishing		
+空中戦	Aerial Duels		
+ナツメグ	Nutmeg		
+ハイボール	High Ball		
+パスアンドゴー	Pass and Go		
+デッドスペース	Dead Space		
+ジンガ	Ginga		keep; explain in help text
+ルックアップ	Heads-Up Play		
+キャッチング	Catching		GK
+コーチング	Organising		GK shouting instructions; "Coaching" is wrong here
+スローイング	Throwing		GK
+セービング	Shot-Stopping		short: "Saving"
+ディフィレクティング	Deflecting		source spelling (typo for ディフレクティング)
+飛び出し	Rushing Out		GK
+ドロップキック	Drop Kick		
+パンチ	Punching		
+パントキック	Punt		
+ラインディフェンス	Defensive Line		
+カバーリング	Covering		
+オーバーラップ	Overlap		
+マンツーマン	Man-to-Man Marking		short: "Man Marking"
+ゾーンディフェンス	Zonal Marking		
+ゾーンプレス	Zonal Press		
+カウンター	Counter-Attack		short: "Counter"
+ポストプレイ	Hold-up Play		short: "Post Play"
+オフサイドトラップ	Offside Trap		
+システム / フォーメーション	Formation		never "System"
+３－５－２ etc.	3-5-2		hyphens, ASCII; not found in corpus yet
+試合	Match		not "game"
+前半 / 後半 (in a match)	First Half / Second Half		short: 1st Half / 2nd Half
+前半 / 後半 (in `1週前半`)	Early / Late		weeks are not halves: `1週前半` -> `Wk1 Early
+延長	Extra Time		
+ＰＫ	Penalty Kick / Pens		延長PKあり` -> "Extra Time + Pens"
+ペナルティーエリア	Penalty Area		
+引き分け / 勝ち / 負け	Draw / Win / Loss		
+勝点	Points		
+得失点差	Goal Difference		GD; not found in corpus yet
+得点 / 失点	Goals For / Goals Against		
+順位	Position (league table) / Ranking		
+昇格 / 降格	Promotion / Relegation		
+優勝	Champions / Title		前回優勝` -> "Last Champions"
+前回優勝:%s	Last Champions: %s		not found in corpus yet
+大会	Tournament		
+リーグ形式	League Format		
+トーナメント形式	Knockout Format		not "Tournament Format"
+エキシビジョン形式	Exhibition Format		
+オリンピック形式	Olympic Format		
+Ｊリーグ	J.League		with the full stop
+Ｊ１ / Ｊ２	J1 / J2		
+ファーストステージ / セカンドステージ	First Stage / Second Stage		J1 ran two stages
+チャンピオンシップ	Championship		
+天皇杯	Emperor's Cup		not found in corpus yet
+ナビスコカップ	J.League Cup		avoid the sponsor brand (OPEN: confirm); not found in corpus yet
+ワールドカップ	World Cup		not found in corpus yet
+五輪 / オリンピック	Olympics		
+アジアカップ	Asian Cup		not found in corpus yet
+日本代表	Japan National Team		short: "Japan"
+欧州選抜 / 世界選抜	Euro / World		flag art EURO / WORLD (clubwords_art F32 / F33); the match title is World vs Europe (banner BINDMTCH 13912); prose: the Euro team / the World team
+ホーム / アウェー	Home / Away		
+観客動員数	Attendance		
+視聴率	TV Ratings		
+オーナー	Owner		the player's role
+秘書	Secretary		
+監督	Manager		British usage; keeps it distinct from コーチ = Coach
+コーチ	Coach		
+スカウト	Scout		
+選手	Player		
+新人	Newcomer / Rookie		"Rookie" for draft-style lists
+クラブ	Club		never "team" for the organisation; "team" = the playing squad
+チーム	Team / Squad		
+スポンサー	Sponsor		スポンサー契約` = Sponsorship Deal
+契約 / 契約更新	Contract / Contract Renewal		
+年俸	Salary (annual)		
+移籍	Transfer		
+留学	Study Abroad		the player is sent overseas to train
+海外キャンプ	Overseas Camp		
+練習	Training		
+チーム練習	Team Training		
+筋力強化 / 瞬発力強化 / 持久力強化	Strength / Speed / Endurance Training		the parenthetical (パワー etc.) = Power/Speed/Stamina
+ミニゲーム	Small-Sided Game		short: "Scrimmage"
+成長	Growth / Development		
+能力	Ability / Attributes		
+コンディション	Condition		
+スタミナ	Stamina		
+スピード	Pace		in-match speed; "Speed" for the training label
+パワー	Strength		
+地元団体	Local Groups		
+本拠地 / ホームタウン	Home Town		
+人口	Population		
+住宅投資	Housing Investment		
+スポーツ投資	Sports Investment		
+人気	Popularity		
+知名度	Recognition		
+観戦料	Ticket Price		
+広告費	Advertising Budget		
+収支	Income and Expenditure		short: "Finances"
+サポーター	Supporters		not "fans"
+サポーターズクラブ	Supporters' Club		members = "Members"
+フーリガン	Hooligans		
+クラブハウス	Clubhouse		
+データ室	Data Room		
+ミーティングルーム	Meeting Room		
+年末報告	Year-End Report		
+月初報告	Monthly Report		
+月間指示	Monthly Orders		
+週	Week		Wk` in tight labels
+段位 / 級 / 段	Rank / Kyu / Dan		10級` -> `10-kyu`, `7段` -> `7-dan`; explain once in the help text
+キャプテン / キャプテンマーク	Captain / Captain's Armband		
+スターティングメンバー	Starting XI		
+日本代表監督	Japan National Team Manager		
+セーブ / ロード	Save / Load		
+データ	Data		
+決定 / キャンセル	Confirm / Cancel		
+Ａボタン / Ｂボタン	A Button / B Button		
+上下 / 左右	Up/Down / Left/Right		上下で選択` -> "Up/Down: select"
+コンサドーレ札幌	Consadole Sapporo		
+ベガルタ仙台	Vegalta Sendai		
+モンテディオ山形	Montedio Yamagata		
+鹿島アントラーズ	Kashima Antlers		
+ジェフユナイテッド市原	JEF United Ichihara	JEF United	logo art JEF UNITED (F03); JEF only where the slot is 8 bytes
+柏レイソル	Reysol		"Kashiwa Reysol" is 15 bytes; HOMETOWN field is 12 bytes: full name does not fit; use "Reysol"
+ＦＣ東京	F.C.Tokyo		logo art F.C.TOKYO (F21); was FC Tokyo
+東京ヴェルディ	Tokyo Verdy		
+横浜Ｆ・マリノス	Yokohama F Marinos	Marinos	logo art, no period after F (F06); 8-byte pool slot keeps Marinos
+横浜ＦＣ	Yokohama FC		
+川崎フロンターレ	Kawasaki Frontale		
+湘南ベルマーレ	Shonan Bellmare	Bellmare	logo art Bellmare (F07); Belmare is a misspelling
+ヴァンフォーレ甲府	Ventforet Kofu		
+アルビレックス新潟	Albirex Niigata		
+清水エスパルス	Shimizu S-Pulse		
+ジュビロ磐田	Jubilo Iwata		
+名古屋グランパスエイト	Nagoya Grampus Eight		
+ガンバ大阪	Gamba Osaka		
+セレッソ大阪	Cerezo Osaka		
+ヴィッセル神戸	Vissel Kobe		logo art VISSEL KOBE (F14)
+サンフレッチェ広島	Sanfrecce Hiroshima		
+アビスパ福岡	Avispa Fukuoka		
+サガン鳥栖	Sagan Tosu		logo art SAGANTOSU (F25)
+浦和レッドダイヤモンズ	Urawa Red Diamonds	Red Diamonds	logo art Red Diamonds (F02); Reds only where the slot is 8 bytes
+水戸ホーリーホック	Mito Hollyhock		logo art HOLLYHOCK (F27); was HollyHock
+大宮アルディージャ	Omiya Ardija		
+京都パープルサンガ	Kyoto Purple Sanga		20-byte field (19 incl. NUL)
+大分トリニータ	Oita Trinita		
+億	Oku		money unit, 100 million yen (USER DECISION: money keeps the Oku/Man structure, docs/number-formats.md). Printed by the patched money function and drawn on the unit sprites; capital O, leading space when printed (13 Oku 1500 Man)
+万 / 万円	Man		money unit, 10 thousand yen (not the Chinese "man"; capital M). The population figure is the exception: 万 beside people is 10k
+円	Yen		a bare yen amount ("0 Yen"); the money function prints it only for zero; no Y prefix and no western decimal form
+ﾃﾝﾍﾟｽﾄ	Tempest		club word (logo art) 1: logo Tempest, English for "great storm"
+ｳﾞｧﾙｶﾝ	Vullcan		club word (logo art) 2: logo VULLCAN, English/Latin (Vulcan) for "volcano (Roman god of fire)"; language per art, see docs/style-guide.md 12.2
+ｱｳﾞｧﾗﾝﾁ	Avalanche		club word (logo art) 3: logo Avalanche, English for "avalanche (a rush of snow)"; art spelling too long for the in-place slot (NO(9>7)), slot-fit form in the DB, art form in translation/refit
+ｽﾃｨﾝｸﾞ	Sting		club word (logo art) 4: logo STING, English for "a sharp blow"
+ﾓﾉﾘｽ	Monolith		club word (logo art) 5: logo MONOLITH, English for "monolith / solid rock"; art spelling too long for the in-place slot (NO(8>7)), slot-fit form in the DB, art form in translation/refit
+ﾊﾞﾝﾃﾞｨｯﾂ	Bandits		club word (logo art) 6: logo Bandits, English for "outlaws"
+ﾌﾞﾘｯﾂ	Blitz		club word (logo art) 7: logo BLITZ, English (from German lightning) for "to attack suddenly"
+ｼｭﾊﾞﾙﾂ	Schwarz		club word (logo art) 8: logo SCHWARZ, German for "black"
+ﾌﾞﾚｲｽﾞ	Blaze		club word (logo art) 9: logo BLAZE, English for "flames"
+ﾌﾞﾙｰｽ	Blues		club word (logo art) 10: logo Blues, English for "blue"
+ｼｬﾄﾞｳｽﾞ	Shadows		club word (logo art) 11: logo SHADOWS, English for "shadow"
+ﾏﾝﾃｨｽ	Mantis		club word (logo art) 12: logo Mantis, English for "mantis"
+ｶﾞｲｽﾄ	Geist		club word (logo art) 13: logo GEIST, German for "spirit"
+ﾄｯﾎﾟﾘｰﾉ	Topolino		club word (logo art) 14: logo Topolino, Italian for "little mouse"; art spelling too long for the in-place slot (NO(8>7)), slot-fit form in the DB, art form in translation/refit
+ｱｰﾍﾟ	Ape		club word (logo art) 15: logo APE, Italian for "bee"; language per art, see docs/style-guide.md 12.2
+ﾊﾞｼﾞｪｰﾅ	Ballena		club word (logo art) 16: logo BALLENA, Spanish for "whale"
+ﾌﾞﾗｵｳﾞｨｰｾﾞ	Blau Wiese		club word (logo art) 17: logo Blau Wiese, German for "blue meadow"
+ｼｴﾛ	Cielo		club word (logo art) 18: logo CIELO, Spanish for "sky"; art spelling too long for the in-place slot (NO(5>3)), slot-fit form in the DB, art form in translation/refit
+ｺﾙﾐｰｼﾞｮ	Colmillo		club word (logo art) 19: logo COLMILLO, Spanish for "fang"; art spelling too long for the in-place slot (NO(8>7)), slot-fit form in the DB, art form in translation/refit
+ｺﾘｴﾝﾃ	Corriente		club word (logo art) 20: logo Corriente, Spanish for "current (of water)"; art spelling too long for the in-place slot (NO(9>7)), slot-fit form in the DB, art form in translation/refit
+ｴﾙﾌｼｭﾘｯﾄ	Elf Schritt		club word (logo art) 21: logo ELF SCHRITT, German for "eleven steps / 11 footsteps"
+ｴｽﾊﾟｰﾀﾞ	Espada		club word (logo art) 22: logo Espada, Spanish for "sword"
+ｸﾞﾘｭｯｸ	Gluck		club word (logo art) 23: logo GLÜCK, German for "luck / good fortune"
+ｴﾚﾝｼｱ	Herencia		club word (logo art) 24: logo HERENCIA, Spanish for "legacy / inheritance"; art spelling too long for the in-place slot (NO(8>7)), slot-fit form in the DB, art form in translation/refit
+ｱﾝﾌｨﾆ	Infini		club word (logo art) 25: logo infini, French for "infinity"
+ﾗﾝﾎﾟ	Lampo		club word (logo art) 26: logo LAMPO, Italian for "lightning / flash"
+ﾚｵｰﾈ	Leone		club word (logo art) 27: logo Leone, Italian for "lion"
+ﾗﾝｸｽ	Lynx		club word (logo art) 28: logo LYNX, French/English (same spelling) for "lynx"
+ﾒｼﾞｪｰﾙ	Megere		club word (logo art) 29: logo MÉGÈRE, French for "shrew / termagant"
+ﾐｽﾄﾗﾙ	Mistral		club word (logo art) 30: logo MISTRAL, French (Provencal) for "mistral (cold strong wind)"
+ﾊﾟﾝﾃｰﾗ	Panthera		club word (logo art) 31: logo Panthera, Latin (genus Panthera) for "panther"; art spelling too long for the in-place slot (NO(8>7)), slot-fit form in the DB, art form in translation/refit
+ﾘｯﾁｮ	Riccio		club word (logo art) 32: logo RICCIO, Italian for "hedgehog"
+ﾛｯｻ	Rosa		club word (logo art) 33: logo ROSA, Spanish for "rose"; art spelling too long for the in-place slot (NO(4>3)), slot-fit form in the DB, art form in translation/refit
+ﾕﾆｺｰﾝ	Unicorn		club word (logo art) 34: logo UNICORN, English for "unicorn (one-horned mythical beast)"
+ｱｳﾛｰﾗ	Aurora		club word (logo art) 35: logo Aurora, Italian for "dawn"
+ｱｳﾞｧﾝﾂｧｰﾚ	Avanzare		club word (logo art) 36: logo AVANZARE, Italian for "to advance"
+ｴﾙﾄｰﾛ	El Toro		club word (logo art) 37: logo EL TORO, Spanish for "the bull"
+ｴｽﾃｰﾗ	Estella		club word (logo art) 38: logo ESTELLA, Spanish (name from Latin stella) for "star"; language per art, see docs/style-guide.md 12.2
+ﾌｪﾘｽ	Feliz		club word (logo art) 39: logo FELIZ, Spanish for "happy / fortunate"
+ﾌｫﾙﾃ	Forte		club word (logo art) 40: logo FORTE, Italian for "strong"
+ｶﾞｰﾍﾞ	Gabe		club word (logo art) 41: logo GABE, German for "gift / talent"
+ｶﾞﾚｵｽ	Galeos		club word (logo art) 42: logo Galeos, Greek for "shark"
+ｼﾞｭﾗｰﾚ	Giurare		club word (logo art) 43: logo GIURARE, Italian for "to swear"
+ｲｰﾘｽ	Iris		club word (logo art) 44: logo IRIS, Greek for "rainbow"
+ﾘｭﾐｴｰﾙ	Lumiere		club word (logo art) 45: logo LUMIERE, French for "light"
+ﾐｭｰﾄｽ	Mythos		club word (logo art) 46: logo mythos, German/Greek for "myth"
+ﾌﾟﾚｼﾞｰﾙ	Plaisir		club word (logo art) 47: logo PLAISIR, French for "pleasure"
+ﾗﾌｧｰﾙ	Rafale		club word (logo art) 48: logo RAFALE, French for "gust (of wind)"
+ﾚﾝﾃﾞｨﾙ	Rendir		club word (logo art) 49: logo RENDIR, Spanish for "to defeat / subdue"
+ｻﾘｰﾚ	Salire		club word (logo art) 50: logo Salire, Italian for "to climb"
+ｽﾌｨｰﾀﾞ	Sfida		club word (logo art) 51: logo SFIDA, Italian for "challenge"
+ｼｭﾄﾙﾂ	Stolz		club word (logo art) 52: logo STOLZ, German for "pride"
+ﾃｨｸﾞﾚ	Tigre		club word (logo art) 53: logo TIGRE, Italian for "tiger"
+ﾊﾟﾚﾝﾃｨｰｱ	Valentia		club word (logo art) 54: logo VALENTÍA, Spanish for "courage / bravery"
+ｵｰﾙｲｰｽﾄ	East		flag art EAST (F29); was All East / AllEast
+ｵｰﾙｳｴｽﾄ	West		flag art WEST (F30); was All West / AllWest
+ﾄﾞﾘｰﾑｸﾗﾌﾞ (team menus)	Dream		flag art DREAM (F31) in the East / West / Dream menus; the mode name Dream Club keeps its English
+ｼﾞｬﾊﾟﾝｽﾀｰｽﾞ	Japanese Stars		BINDNAME art (S01)
+ｱｼﾞｱｽﾀｰｽﾞ	Asian Stars		BINDNAME art (S02)
+ｱﾌﾘｶｽﾀｰｽﾞ	African Stars		BINDNAME art (S03)
+北欧ｽﾀｰｽﾞ	N.Euro Stars		BINDNAME art N.EURO STARS (S04)
+ｽﾍﾟｲﾝﾚｼﾞｪﾝｽﾞ	Spanish Legends		BINDNAME art (S07)
+ﾌﾗﾝｽﾚｼﾞｪﾝｽﾞ	French Legends		BINDNAME art (S08)
+U.K. ﾚｼﾞｪﾝｽﾞ	English Legends		BINDNAME art ENGLISH LEGENDS (S09)
+ｵﾗﾝﾀﾞﾚｼﾞｪﾝｽﾞ	Hollander Legends		BINDNAME art HOLLANDER LEGENDS (S10)
+ｱﾙｾﾞﾝﾁﾝﾚｼﾞｪﾝｽﾞ	Argentine Legends		BINDNAME art (S11)
+ｲﾀﾘｱﾚｼﾞｪﾝｽﾞ	Italian Legends		BINDNAME art (S12)
+ﾄﾞｲﾂﾚｼﾞｪﾝｽﾞ	German Legends		BINDNAME art (S13)
+ﾌﾞﾗｼﾞﾙﾚｼﾞｪﾝｽﾞ	Brazilian Legends		BINDNAME art (S14)
+欧州ｽｰﾊﾟｰｽﾀｰｽﾞ / 南米ｽｰﾊﾟｰｽﾀｰｽﾞ	Euro Super Stars / S.Am. Super Stars		BINDNAME art (S15 / S16)
+欧州ｵｰﾙﾄﾞｽﾀｰｽﾞ / 南米ｵｰﾙﾄﾞｽﾀｰｽﾞ	Euro Old Stars / S.Am. Old Stars		BINDNAME art (S17 / S18)
+ﾜｰﾙﾄﾞｽﾀｰｽﾞ	The World Stars		BINDNAME art THE WORLD STARS (S19)
+ﾌｧﾝ感謝ﾏｯﾁ	Thanksgiving Match		banner THANKSGIVING MATCH (BINDMTCH 13924), plate THANKS GIVING; was Fan Appreciation / Fan Thanks / Thank-You Match
+ｱｼﾞｱｳｨﾅｰｽﾞｶｯﾌﾟ	Asia Winners Cup		banner ASIA WINNERS CUP (13913); was Asian Winners Cup / Asia Champ Cup
+ﾜｰﾙﾄﾞｳｨﾅｰｽﾞｶｯﾌﾟ	World Winners Cup		banner WORLD WINNERS CUP (13914); was World Champ Cup
+ｱｼﾞｱﾁｬﾚﾝｼﾞｶｯﾌﾟ	Asia Challenge Cup		banner ASIA CHALLENGE CUP (13927)
+ｱｼﾞｱﾄｰﾅﾒﾝﾄ	Asia Tournament		banner ASIA TOURNAMENT (13918); U22 Asia Tournament = banner UNDER22 ASIA TOURNAMENT (13935)
+ﾖｰﾛｯﾊﾟｶｯﾌﾟ	Europe Cup		banner EUROPE CUP (13920)
+欧州ﾁｬﾚﾝｼﾞﾘｰｸﾞ	Europe Challenge League		banner EUROPE CHALLENGE LEAGUE (13930)
+南米ﾁｬﾚﾝｼﾞﾘｰｸﾞ	South America Challenge League		banner SOUTH AMERICA CHALLENGE LEAGUE (13931)
+ﾌﾟﾚｼｰｽﾞﾝﾏｯﾁ	Preseason Match		banner PRESEASON MATCH (13938); was Pre-Season
+世界ｽﾎﾟｰﾂ大会	World Sports Festival		banner WORLD SPORTS FESTIVAL (13933 / 13934); was World Sports Games
+世界選抜対欧州選抜	World vs Europe		banner WORLD VS EUROPE (13912), plate WORLD VS EURO

@@ -1,0 +1,274 @@
+{
+ "texture": "10469 FLOW_PRG/YOUTH.BIN @36114#0",
+ "size": [
+  512,
+  512
+ ],
+ "supersample": 4,
+ "quantize": "argb1555",
+ "styles": {
+  "t": {
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#dedec6"
+    ],
+    [
+     1,
+     "#dedec6"
+    ]
+   ],
+   "shadow": {
+    "color": "#181808",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  },
+  "man": {
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#c6d600"
+    ],
+    [
+     1,
+     "#c6d600"
+    ]
+   ],
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  },
+  "oku": {
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#c6d600"
+    ],
+    [
+     1,
+     "#c6d600"
+    ]
+   ],
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  },
+  "half": {
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#dedec6"
+    ],
+    [
+     1,
+     "#dedec6"
+    ]
+   ],
+   "shadow": {
+    "color": "#181808",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  }
+ },
+ "defaults": {
+  "style": "t",
+  "align": "left",
+  "valign": "middle",
+  "min_sx": 0.8,
+  "erase": {
+   "mode": "mask",
+   "ink": [
+    {
+     "color": [
+      222,
+      222,
+      198
+     ],
+     "tol": 45
+    },
+    {
+     "luma_lt": 40
+    }
+   ],
+   "dilate": 1,
+   "fill": "hfill"
+  }
+ },
+ "regions": [
+  {
+   "id": "yr",
+   "ja": "年目",
+   "text": "Yr",
+   "x": 198,
+   "y": 34,
+   "w": 38,
+   "h": 30,
+   "size": 18,
+   "align": "center",
+   "erase": {
+    "mode": "hgrad"
+   },
+   "erase_rect": [
+    196,
+    28,
+    42,
+    42
+   ]
+  },
+  {
+   "id": "mo",
+   "ja": "月",
+   "text": "Mo",
+   "x": 265,
+   "y": 34,
+   "w": 16,
+   "h": 30,
+   "size": 16,
+   "erase": {
+    "mode": "hgrad"
+   },
+   "erase_rect": [
+    259,
+    28,
+    26,
+    42
+   ],
+   "align": "left",
+   "font": [
+    "arial-narrow-bold",
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "min_sx": 0.5
+  },
+  {
+   "id": "wk",
+   "ja": "週",
+   "text": "Wk",
+   "x": 301,
+   "y": 34,
+   "w": 24,
+   "h": 30,
+   "size": 17,
+   "erase": {
+    "mode": "hgrad"
+   },
+   "erase_rect": [
+    295,
+    28,
+    32,
+    42
+   ],
+   "align": "left",
+   "font": [
+    "arial-narrow-bold",
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "min_sx": 0.6
+  },
+  {
+   "id": "man",
+   "ja": "万円",
+   "text": "man",
+   "style": "man",
+   "size": "auto",
+   "max_size": 22,
+   "erase": null,
+   "x": 62,
+   "y": 126,
+   "w": 52,
+   "h": 36
+  },
+  {
+   "id": "oku",
+   "ja": "億",
+   "text": "oku",
+   "style": "oku",
+   "size": 18,
+   "min_sx": 0.4,
+   "font": [
+    "arial-narrow-bold",
+    "bahnschrift",
+    "arial-bold"
+   ],
+   "align": "center",
+   "erase": {
+    "mode": "clear"
+   },
+   "x": 462,
+   "y": 266,
+   "w": 30,
+   "h": 32
+  },
+  {
+   "id": "first",
+   "ja": "前半",
+   "text": "1st",
+   "style": "half",
+   "size": 19,
+   "align": "center",
+   "erase": {
+    "mode": "clear"
+   },
+   "x": 466,
+   "y": 296,
+   "w": 46,
+   "h": 37
+  },
+  {
+   "id": "second",
+   "ja": "後半",
+   "text": "2nd",
+   "style": "half",
+   "size": 19,
+   "align": "center",
+   "erase": {
+    "mode": "clear"
+   },
+   "x": 466,
+   "y": 335,
+   "w": 46,
+   "h": 38
+  }
+ ],
+ "prefill": [
+  [
+   60,
+   126,
+   55,
+   37,
+   58
+  ]
+ ]
+}

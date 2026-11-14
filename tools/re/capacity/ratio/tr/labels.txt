@@ -1,0 +1,80 @@
+42|#chi# Central Driving School
+43|#kyu# Sushi Train
+44|So you're #sname#. Nice to meet you.
+45|#chi# International Shipping
+46|#ken# Railway
+47|Bizen
+48|SKIP
+49|Suruga
+50|Utashinai
+51|Match Finance Screen
+52|Uma
+53|100M
+54|Ikoma
+55|Musashi
+56|Naniwa
+57|Japan
+58|Tohoku
+59|Heel Pass
+60|Licence Notice Screen
+61|Undecided
+62|J Music
+63|Champions
+64|Standard Chant
+65|Data Room
+66|Player Name Scout Screen
+67|Saved Study Abroad Destinations
+68|Yufutsu
+69|#chi# General Propane
+70|Samani
+71|-
+72|Kagamigahara
+73|Yokohama FC
+74|Teshima
+75|Kanto
+76|Player Contract Renewal Screen
+77|Oyama
+78|SKIP
+79|SKIP
+80|Hokkaido
+81|%s0k%s@
+150|Face change to %d
+151|Losses = %d
+152|Tournament Wins: %d
+153|#tk25# End Long Battle
+154|Nationality error!! %d , %d
+155|Incl. Population<09><09>%d:
+156|Upper limit is %d, so it becomes %d
+157|#tk20# Defence Offers No Resistance
+158|#tk20# Narrowly Lose Despite Brave Fight
+159|Leagues = %d
+160|#tk25# Now Perennial Winners
+161|Supporters  :%d
+162|0
+163|Dummy 6
+164|Under 21
+165|8
+166|Dummy 7
+167|9
+168|Pre-Match 1
+169|4
+170|Dummy 2
+171|Out in Finals Round 2
+172|7
+173|3
+174|5th
+175|6
+176|Y%6dM
+177|Wk4 Early
+178|Dummy 3
+179|Dummy 9
+180|Y0
+181|Wk2 Late
+182|Attack [%d]
+183|I'd like %d years.
+184|#tk20# One Win From the Title
+185|5
+186|#tk24# Draw After Dogged Comeback
+187|%2d-Year Contract Wanted
+188|Dummy 1
+189|VG  = %d

@@ -1,0 +1,60 @@
+6|@O/[Points System]@|Win in 90 min: 3 points. V-goal win: 2. Draw: 1. The team with most points in each stage wins.
+13|@Y/[Special Conditioning]@|Greatly raises condition. Useful before a must-win match, but fatigue also rises sharply, so be careful.
+16|@Y/[Advance Schedule]@|Ends this turn and moves to the next. Any scheduled match is played first. One turn is half a week.
+24|@Y/[Rest]@|Rests selected players to recover fatigue. The others do the set training.
+31|@Y/[National Team Ground]@|Where the national team trains: practical drills, tactics and adjustments just before a match. Only open when an international match is scheduled.
+36|@K/[Choosing a System]@|Every system has pros and cons, so choose freely. Consider your tactics and squad. If understanding stays low, try changing tactics.
+39|@Y/[5-3-2]@|Train to understand 5-3-2. Players learn to make the system work well.
+257|The sponsor gives a discount. Expansion costs @P/$1@, upkeep @P/$2@ a month. Expand?
+268|Intl Cup Qualifiers
+274|=k/Relegated to J2, but let's get promoted again. A fresh start from today.=
+277|We decided to hold off. Night training would have given the players a fuller schedule.
+280|Clubhouse Level 5.
+281|If it's all right, could I resign?
+292|Don't you think my salary is low?
+307|I'm confident I won't lose mentally.
+308|I'm not wrong, am I?
+314|Why won't the ball fly straight?
+317|I have no chance to show my ability.
+320|Remember what I blamed you for?
+324|Isn't a manager's job to unite the players?
+332|You know this is about the manager, right?
+333|So I asked: why are you laughing?
+344|I have just one complaint.
+348|With that one around, the team could fall apart.
+367|@Y/#tk01#@ lost today.
+378|A total defeat for @M/#tk03#@. They came second, but the gap in quality was even bigger.
+382|@P/#tk05#@ ended today. Looking back on all the matches, what do you think?
+385|In today's @P/pre-season match@, @Y/#tk03#@ and @Y/#tk02#@ drew.
+397|#tk03# place @Y/#tk01#@ are out of form. The club may not be using them well.
+398|Today's standings. @Y/#tk00#@ have slipped slightly from the title race.
+404|Now the results. Every club gave their all again today, with fierce battles.
+410|Japan are rising and are the top title favourites. Stay alert, though.
+415|@Y/#tk01#@ look out of form. Focus will bring results, so keep going.
+417|Average in attack but strong in defence. Could shine as a defensive MF who links attacks smoothly.
+424|The sponsor discounts the work. Improvement costs @Y/%m@, upkeep @Y/%m@ a month. OK?|
+446|Local increase  :%d
+455|Hans-Peter Briegel
+461|Past their peak, but promising.
+463|Set an overseas camp. The whole club trains abroad for a month.
+472|You have the strength to win the title in year one.
+488|DF:OK flag not set
+489|Arthur Friedenreich
+491|Local investment will boost the town's economy and raise its economic strength.|
+495|Saves your chant to the VM. You must save before assigning it to a match chant.
+496|Leads young players with experience.
+498|Marco Delvecchio
+503|Poland's pride, a right winger. Outstanding pace and world-class cutting-in goals.
+510|What a find. Best connections among European players.
+520|Annual scoring ranking|Top 10 players
+535|They finally accepted. Best connections among European DFs.
+546|Even jokes have limits. How unpleasant!
+547|No longer has youthful power.
+548|There won't be a house for me here later. Big problem.
+549|Check our match schedule.
+552|World-class at reading systems.
+573|Improves @Y/Full-Back@ skills. Builds pace and passing for quick overlaps.
+576|Runs the set training menu, then reports each player's results.
+577|A forward with top finishing. Hard to stop.
+590|Normal midfield defence. Less strain on players than zonal pressing.
+595|Improves heading. Builds the positioning and timing to win aerial duels.

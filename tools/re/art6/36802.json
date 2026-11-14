@@ -1,0 +1,640 @@
+{
+ "texture": "36802",
+ "supersample": 4,
+ "quantize": "argb1555",
+ "regions": [
+  {
+   "id": "title",
+   "ja": "タイトル付け",
+   "text": "Set Title",
+   "x": 10,
+   "y": 26,
+   "w": 78,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 14,
+   "min_sx": 0.7
+  },
+  {
+   "id": "compose",
+   "ja": "作曲",
+   "text": "Compose",
+   "x": 8,
+   "y": 63,
+   "w": 82,
+   "h": 26,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.7
+  },
+  {
+   "id": "time",
+   "ja": "拍子",
+   "text": "Time",
+   "x": 8,
+   "y": 101,
+   "w": 82,
+   "h": 26,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 20,
+   "min_sx": 0.7
+  },
+  {
+   "id": "tempo",
+   "ja": "テンポ",
+   "text": "Tempo",
+   "x": 8,
+   "y": 143,
+   "w": 82,
+   "h": 26,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 20,
+   "min_sx": 0.7
+  },
+  {
+   "id": "load",
+   "ja": "ロード",
+   "text": "Load",
+   "x": 8,
+   "y": 183,
+   "w": 82,
+   "h": 26,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 20,
+   "min_sx": 0.7
+  },
+  {
+   "id": "save",
+   "ja": "セーブ",
+   "text": "Save",
+   "x": 8,
+   "y": 222,
+   "w": 82,
+   "h": 26,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 20,
+   "min_sx": 0.7
+  },
+  {
+   "id": "exit",
+   "ja": "終了",
+   "text": "Exit",
+   "x": 8,
+   "y": 260,
+   "w": 82,
+   "h": 26,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 20,
+   "min_sx": 0.7
+  },
+  {
+   "id": "head",
+   "ja": "応援歌エディット",
+   "text": "Cheer Song Edit",
+   "x": 100,
+   "y": 25,
+   "w": 168,
+   "h": 37,
+   "style": "bl",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "bg_dist_gt": 75,
+      "bg": [
+       215,
+       140,
+       40
+      ]
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 30,
+   "min_sx": 0.7
+  },
+  {
+   "id": "timelab",
+   "ja": "拍子",
+   "text": "Time",
+   "x": 204,
+   "y": 120,
+   "w": 42,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 14,
+   "min_sx": 0.7
+  },
+  {
+   "id": "tempolab",
+   "ja": "テンポ",
+   "text": "Tempo",
+   "x": 250,
+   "y": 122,
+   "w": 40,
+   "h": 22,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 14,
+   "min_sx": 0.7
+  },
+  {
+   "id": "slow",
+   "ja": "遅",
+   "text": "Slow",
+   "x": 332,
+   "y": 108,
+   "w": 38,
+   "h": 28,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 16,
+   "min_sx": 0.7
+  },
+  {
+   "id": "fast",
+   "ja": "速",
+   "text": "Fast",
+   "x": 458,
+   "y": 108,
+   "w": 38,
+   "h": 28,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 16,
+   "min_sx": 0.7
+  },
+  {
+   "id": "sample",
+   "ja": "サンプルデータ",
+   "text": "Sample Data",
+   "x": 116,
+   "y": 152,
+   "w": 178,
+   "h": 26,
+   "style": "lav",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 135
+     },
+     {
+      "luma_lt": 35
+     }
+    ],
+    "dilate": 2,
+    "fill": "diffuse"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 20,
+   "min_sx": 0.7
+  },
+  {
+   "id": "savefile",
+   "ja": "セーブファイル",
+   "text": "Save File",
+   "x": 116,
+   "y": 188,
+   "w": 178,
+   "h": 24,
+   "style": "lav",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 135
+     },
+     {
+      "luma_lt": 35
+     }
+    ],
+    "dilate": 2,
+    "fill": "diffuse"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 20,
+   "min_sx": 0.7
+  },
+  {
+   "id": "melody",
+   "ja": "メロディ",
+   "text": "Melody",
+   "x": 304,
+   "y": 144,
+   "w": 80,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 17,
+   "min_sx": 0.7
+  },
+  {
+   "id": "rhythm",
+   "ja": "リズム",
+   "text": "Rhythm",
+   "x": 312,
+   "y": 170,
+   "w": 66,
+   "h": 20,
+   "style": "wh",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 175
+     },
+     {
+      "luma_lt": 28
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 16,
+   "min_sx": 0.7
+  },
+  {
+   "id": "triplet",
+   "ja": "三連符",
+   "text": "Triplet",
+   "x": 450,
+   "y": 146,
+   "w": 58,
+   "h": 20,
+   "style": "plain",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 190
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 14,
+   "min_sx": 0.7
+  },
+  {
+   "id": "b3",
+   "ja": "三拍子",
+   "text": "3 Beats",
+   "x": 338,
+   "y": 321,
+   "w": 70,
+   "h": 26,
+   "style": "cream",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 60
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.7
+  },
+  {
+   "id": "b4",
+   "ja": "四拍子",
+   "text": "4 Beats",
+   "x": 338,
+   "y": 353,
+   "w": 70,
+   "h": 26,
+   "style": "cream",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 165
+     },
+     {
+      "luma_lt": 60
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 18,
+   "min_sx": 0.7
+  }
+ ],
+ "styles": {
+  "wh": {
+   "font": [
+    "arial-bold-italic"
+   ],
+   "shear": 0.0,
+   "gradient": [
+    [
+     0,
+     "#ffffff"
+    ],
+    [
+     0.55,
+     "#e8e8f4"
+    ],
+    [
+     1,
+     "#a8a8c8"
+    ]
+   ],
+   "outline": {
+    "color": "#0c0820",
+    "width": 0.9
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "alpha": 1.0
+   }
+  },
+  "bl": {
+   "font": [
+    "arial-black"
+   ],
+   "shear": 0.22,
+   "gradient": [
+    [
+     0,
+     "#4a52ff"
+    ],
+    [
+     1,
+     "#1c1cc8"
+    ]
+   ],
+   "outline": {
+    "color": "#10106a",
+    "width": 0.8
+   },
+   "shadow": {
+    "color": "#5a2a00",
+    "dx": 2,
+    "dy": 2,
+    "steps": 2,
+    "alpha": 0.9
+   }
+  },
+  "lav": {
+   "font": [
+    "arial-bold-italic"
+   ],
+   "gradient": [
+    [
+     0,
+     "#f4f4ff"
+    ],
+    [
+     1,
+     "#aeb0e8"
+    ]
+   ],
+   "outline": {
+    "color": "#1a1a70",
+    "width": 0.9
+   },
+   "shadow": {
+    "color": "#101050",
+    "dx": 1.5,
+    "dy": 1.5,
+    "alpha": 1.0
+   }
+  },
+  "cream": {
+   "font": [
+    "arial-bold-italic"
+   ],
+   "gradient": [
+    [
+     0,
+     "#fff8ec"
+    ],
+    [
+     1,
+     "#c8b8a8"
+    ]
+   ],
+   "outline": {
+    "color": "#5a1408",
+    "width": 0.8
+   },
+   "shadow": {
+    "color": "#4a0c04",
+    "dx": 1.5,
+    "dy": 1.5,
+    "alpha": 1.0
+   }
+  },
+  "plain": {
+   "font": [
+    "arial-bold"
+   ],
+   "fill": "#f4f0ff",
+   "shadow": {
+    "color": "#301050",
+    "dx": 1,
+    "dy": 1,
+    "alpha": 0.8
+   }
+  }
+ }
+}

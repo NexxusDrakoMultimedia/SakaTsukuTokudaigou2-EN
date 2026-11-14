@@ -1,0 +1,60 @@
+---- 8c159e70-8c159eb0
+8c159e70: jsr @r2
+8c159e72: _nop
+8c159e74: mov.l 0x8c159edc,r3
+8c159e76: jsr @r3
+8c159e78: _nop
+8c159e7a: mov.l 0x8c159ee0,r2
+8c159e7c: jsr @r2
+8c159e7e: _nop
+8c159e80: stc SR,r0
+8c159e82: mov.w 0x8c159e90,r3
+8c159e84: and r3,r0
+8c159e86: or #0xf0,r0
+8c159e88: ldc r0,SR
+8c159e8a: lds.l @r15+,PR
+8c159e8c: rts
+8c159e8e: _nop
+8c159e90: .data undefined2 FF0Fh
+8c159e92: .data undefined2 0400h
+8c159e94: .data addr 8c01f3e4
+8c159e96: .data ?
+8c159e98: .data undefined4 00180000h
+8c159e9a: .data ?
+8c159e9c: .data undefined4 8CE80000h
+8c159e9e: .data ?
+8c159ea0: .data addr 8c01e944
+8c159ea2: .data ?
+8c159ea4: .data addr 8c024276
+8c159ea6: .data ?
+8c159ea8: .data addr 8c01f40e
+8c159eaa: .data ?
+8c159eac: .data addr 8c17b820
+8c159eae: .data ?
+8c159eb0: .data addr 8c16f800
+---- 8c164424-8c164440
+8c164424: .data undefined2 0100h
+8c164426: .data undefined2 1000h
+8c164428: .data undefined2 0200h
+8c16442a: .data undefined2 5100h
+8c16442c: .data undefined2 0F00h
+8c16442e: .data ?
+8c164430: .data addr 8c159000
+8c164432: .data ?
+8c164434: .data undefined4 8CE4C004h
+8c164436: .data ?
+8c164438: add #0x50,r3
+8c16443a: mov r3,r2
+8c16443c: mov.l r3,@r15
+8c16443e: mov.w @(0x4,r2),r0
+8c164440: mov #0x58,r1
+---- 8c164b40-8c164b50
+8c164b40: .data addr 8c024ff4
+8c164b42: .data ?
+8c164b44: .data addr 8c163a54
+8c164b46: .data ?
+8c164b48: .data addr 8c163b34
+8c164b4a: .data ?
+8c164b4c: .data undefined4 8CE4C000h
+8c164b4e: .data ?
+8c164b50: .data addr 8c164264

@@ -1,0 +1,50 @@
+{"l10n":1,"kind":"main","style":"compact","n":49,"final_newline":true,"src":"FLOW_PRG/S_SELECT.BIN"}
+{"id":"12980","jah":"1817e6143c118b747918086da2da3f79","en":"Please choose a secretary to help you.\nTheir personalities differ, but all are\nexcellent, and sure to be a big help.","max_bytes":107,"refs":2,"ctx":"ptr@10cc xrefs=2"}
+{"id":"129eb","jah":"f2ffdd7422394bef6f115e34224e8925","en":"Nice to meet you. I'm @Y/Yuko Takashima@.\nI'll do my utmost to support\n#sname# in every way I can.","max_bytes":101,"refs":2,"ctx":"tbl@dad0[1/28] xrefs=2"}
+{"id":"12a50","jah":"0534d49dcb1724e62deec7ac7a0507ba","en":"You're really going to hire\nme as your secretary?","max_bytes":40,"refs":2,"ctx":"tbl@dad0[2/28] xrefs=2"}
+{"id":"12a78","jah":"52d3faa0f5e118ea40a6110b4af3e3b6","en":"Thank you so much. I'll give it\nmy all, so I look forward to\nworking with you.","max_bytes":77,"refs":2,"ctx":"tbl@dad0[3/28] xrefs=2"}
+{"id":"12ac5","jah":"c8255f8e58ccceb7018738c2058116db","en":"I'm @Y/Jennifer Scoll@. As your secretary,\nI'll do my very best to support\nyou in all your work.","max_bytes":106,"refs":2,"ctx":"tbl@dad0[4/28] xrefs=2"}
+{"id":"12b2f","jah":"cb2e6de741eff5eb4753e1875ab7422f","en":"So you're choosing me as\nyour secretary?","max_bytes":48,"refs":2,"ctx":"tbl@dad0[5/28] xrefs=2"}
+{"id":"12b5f","jah":"1387bb9f0a7660219ab65a3e72bcc49a","en":"Thanks a lot! Let's work together\nand build the strongest club in the\nworld.","max_bytes":63,"refs":2,"ctx":"tbl@dad0[6/28] xrefs=2"}
+{"id":"12b9e","jah":"1e12c06ec0500e5af081ec3483d2d487","en":"Hello. I'm @Y/Sari Yamaguchi@.\nI'll bring all my energy to helping\n#sname# with every job.","max_bytes":97,"refs":2,"ctx":"tbl@dad0[7/28] xrefs=2"}
+{"id":"12bff","jah":"0534d49dcb1724e62deec7ac7a0507ba","en":"You're really going to hire\nme as your secretary?","max_bytes":40,"refs":2,"ctx":"tbl@dad0[8/28] xrefs=2"}
+{"id":"12c27","jah":"d2193ff1040df4dee16273a2cac986e5","en":"Thank you. I'll work really hard\nto win #sname#'s approval!","max_bytes":76,"refs":2,"ctx":"tbl@dad0[9/28] xrefs=2"}
+{"id":"12c73","jah":"847803ff1e5aa14303a2e2aa5974638e","en":"I'm @Y/Kyoko Mitsuya@. I'd like to be\nyour secretary and help #sname#\nwith the work.","max_bytes":101,"refs":2,"ctx":"tbl@dad0[10/28] xrefs=2"}
+{"id":"12cd8","jah":"d48de1ed4b16ff19441fd5d731cc2dd3","en":"Will you really take me on as\nyour secretary?","max_bytes":44,"refs":2,"ctx":"tbl@dad0[11/28] xrefs=2"}
+{"id":"12d04","jah":"f89908d95df282db309832899b7eaeff","en":"I'm so happy! Thank you.\nI'll do my best, so please feel free\nto ask me anything.","max_bytes":99,"refs":2,"ctx":"tbl@dad0[12/28] xrefs=2"}
+{"id":"12d67","jah":"27dd11e5fdbcbf3a4c43cc4a3d7d2107","en":"Hi, I'm @Y/Sayaka Shinohara@.\nI'll make #sname#'s work\nlook absolutely glamorous.","max_bytes":87,"refs":2,"ctx":"tbl@dad0[13/28] xrefs=2"}
+{"id":"12dbe","jah":"20e391b2c33e6bbc5f2062be0f5742e1","en":"Will you take me on as\nyour secretary?","max_bytes":36,"refs":2,"ctx":"tbl@dad0[14/28] xrefs=2"}
+{"id":"12de2","jah":"1898395526d50819262ae31298e8b36e","en":"Thank you. My glamorous way of working\nwill have #sname# spellbound.","max_bytes":82,"refs":2,"ctx":"tbl@dad0[15/28] xrefs=2"}
+{"id":"12e34","jah":"9f7bfed2e8f2ab7e1d45f896e797a5a9","en":"Nice to meet you. I'm @Y/Eri Nagai@.\nI'll work hard to help #sname#\nrun the club.","max_bytes":101,"refs":2,"ctx":"tbl@dad0[16/28] xrefs=2"}
+{"id":"12e99","jah":"14ea16418ae5d15340588478c9e9f161","en":"Are you really choosing me as\nyour secretary?","max_bytes":42,"refs":2,"ctx":"tbl@dad0[17/28] xrefs=2"}
+{"id":"12ec3","jah":"dab01292ba3aff38e525e03f8335a0a7","en":"Thank you! I'll give it my all,\nso I look forward to working\nwith you.","max_bytes":71,"refs":2,"ctx":"tbl@dad0[18/28] xrefs=2"}
+{"id":"12f0a","jah":"1108a21f3fc6709d7497f4e2455c2363","en":"I'm @Y/Gloria Knowlton@. I may not be able\nto do much, but I'll help make running\nyour club easier.","max_bytes":102,"refs":2,"ctx":"tbl@dad0[19/28] xrefs=2"}
+{"id":"12f70","jah":"94048ff397baa0bf432ccd64de5c3c74","en":"You're going to hire me as\nyour secretary?","max_bytes":34,"refs":2,"ctx":"tbl@dad0[20/28] xrefs=2"}
+{"id":"12f92","jah":"7225396152cca2408a8a41f68814d721","en":"Let's do our best.","max_bytes":23,"refs":2,"ctx":"tbl@dad0[21/28] xrefs=2"}
+{"id":"12fa9","jah":"dab5cf90e393d098df1efab32645c48e","en":"Nice to meet you. I'm @Y/Nanako Minami@.\nI'm still green, but I'll do my best\nto help #sname# run the club.","max_bytes":107,"refs":2,"ctx":"tbl@dad0[22/28] xrefs=2"}
+{"id":"13014","jah":"a7b3289574817d5c920b6b2845c75b93","en":"Will you really take me on\nas your secretary?","max_bytes":46,"refs":2,"ctx":"tbl@dad0[23/28] xrefs=2"}
+{"id":"13042","jah":"3e68ff423c0972e3b2205177f91b8e5f","en":"Thank you. I'll give it my all,\nso I look forward to working\nwith you.","max_bytes":73,"refs":2,"ctx":"tbl@dad0[24/28] xrefs=2"}
+{"id":"1308b","jah":"1ccc389b65356d547fad8357984c438e","en":"Nice to meet you. I'm @Y/Masumi Yamasaki@.\nI'll do my own best to help\n#sname# with the work.","max_bytes":91,"refs":2,"ctx":"tbl@dad0[25/28] xrefs=2"}
+{"id":"130e6","jah":"92fb378f4fb01fa636121fa3c6530b8a","en":"Do you really want me as\nyour secretary?","max_bytes":46,"refs":2,"ctx":"tbl@dad0[26/28] xrefs=2"}
+{"id":"13114","jah":"0ec5fae3939f0ec4dc1cc5f173f15660","en":"Really?\nThank you.\nI'll do my best, I promise.","max_bytes":65,"refs":2,"ctx":"tbl@dad0[27/28] xrefs=2"}
+{"id":"13155","jah":"20222e13c80deb56bfabb43c8babe492","en":"Please choose a new secretary to\ntake over your duties.","max_bytes":55,"refs":1,"ctx":"ptr@10d4"}
+{"id":"13278","jah":"732a8899e054dbd1ed09ae2c28d875e2","max_bytes":56,"refs":1,"ctx":"ptr@1b94 interior-ptrs=1"}
+{"id":"134d8","jah":"9e7d7f5a91c0ed851ada6f3a7fde11ed","en":"Expression %d","max_bytes":16,"refs":1,"ctx":"ptr@4288"}
+{"id":"134e8","jah":"bf901b65b51e0860dba2b43242bbd483","en":"Expression textures not loaded","max_bytes":36,"refs":1,"ctx":"ptr@4514"}
+{"id":"1358c","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@5088"}
+{"id":"13670","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@6458"}
+{"id":"4f994","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@bac0","skip":true}
+{"id":"4f998","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@bac8[0/3]","skip":true}
+{"id":"4f9a0","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@bac8[1/3]","skip":true}
+{"id":"4f9a4","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@bac8[2/3]","skip":true}
+{"id":"4f9a8","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@4f964[0/11]"}
+{"id":"4f9ac","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@4f964[1/11]"}
+{"id":"4f9b0","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@4f964[2/11]"}
+{"id":"4f9b4","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@4f964[3/11]"}
+{"id":"4f9b8","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@4f964[4/11]"}
+{"id":"4f9bc","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@4f964[5/11]"}
+{"id":"4f9c0","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@4f964[6/11]"}
+{"id":"4f9c4","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@4f964[7/11]"}
+{"id":"4f9c8","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@4f964[8/11]"}
+{"id":"4f9cc","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@4f964[9/11]"}
+{"id":"4f9d0","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@4f964[10/11]"}

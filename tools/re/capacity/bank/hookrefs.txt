@@ -1,0 +1,4 @@
+mov.l PC-relative loads of literal 0x8c160360: [('0x8c160288', 'mov.l')]
+aligned words == 0x8c163984: ['0x8c160360']
+word at 0x8c160360 = 0x8c163984
+cave bytes 0x8c13bb00..+0x80 zero: True

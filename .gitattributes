@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 the SakaTsuku Tokudaigou 2 English patch contributors
+#
+# Never convert line endings: the l10n files and deltas are hashed (l10n/MANIFEST.json, l10n/textures/MANIFEST.tsv) and the tools keep a
+# per-file CRLF/LF convention, so a checkout must give back exactly the committed bytes on every platform.
+* -text

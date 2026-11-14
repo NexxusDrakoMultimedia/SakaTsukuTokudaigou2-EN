@@ -1,0 +1,8 @@
+ram_2400.bin   FLOW_PRG/TITLE.BIN     pool bytes    5928 differ     0 | fixed-string bytes    278 differ    0 | pointer words   495 differ    0 | whole image 346 of 241138 bytes differ
+ram_5400.bin   FLOW_PRG/TITLE.BIN     pool bytes    5928 differ     0 | fixed-string bytes    278 differ    0 | pointer words   495 differ    0 | whole image 326 of 241138 bytes differ
+live1_ram.bin  FLOW_PRG/N_ENTRY.BIN   pool bytes    1652 differ     0 | fixed-string bytes      0 differ    0 | pointer words    76 differ    0 | whole image 136 of 67320 bytes differ
+live3_ram.bin  FLOW_PRG/CLUBEDIT.BIN  pool bytes    7253 differ     0 | fixed-string bytes     54 differ    0 | pointer words   155 differ    0 | whole image 6682 of 221853 bytes differ
+ram_2400.bin   FLOW_PRG/HELP.BIN      pool bytes  109794 differ     0 | fixed-string bytes    238 differ    0 | pointer words   683 differ    0 | whole image 8 of 195381 bytes differ
+live3_ram.bin  FLOW_PRG/HELP.BIN      pool bytes  109794 differ     0 | fixed-string bytes    238 differ    0 | pointer words   683 differ    0 | whole image 12 of 195381 bytes differ
+ram_2400.bin   FLOW_PRG/FACEMDUL.BIN  pool bytes       0 differ     0 | fixed-string bytes      0 differ    0 | pointer words     0 differ    0 | whole image 56 of 710656 bytes differ
+live3_ram.bin  FLOW_PRG/FACEMDUL.BIN  pool bytes       0 differ     0 | fixed-string bytes      0 differ    0 | pointer words     0 differ    0 | whole image 90 of 710656 bytes differ

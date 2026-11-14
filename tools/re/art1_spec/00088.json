@@ -1,0 +1,351 @@
+{
+ "texture": "00088 ATFIRST/SHTEX0.ZAR mon.tbd#0",
+ "size": [
+  256,
+  256
+ ],
+ "supersample": 4,
+ "quantize": "argb1555",
+ "styles": {
+  "y": {
+   "font": [
+    "arial-narrow-bold",
+    "bahnschrift",
+    "arial-bold"
+   ],
+   "fill": "#efff42",
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  },
+  "silver": {
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#f7f7f7"
+    ],
+    [
+     0.5,
+     "#cfcfcf"
+    ],
+    [
+     0.52,
+     "#9c9c9c"
+    ],
+    [
+     1,
+     "#bdbdbd"
+    ]
+   ],
+   "outline": {
+    "color": "#101042",
+    "width": 1
+   },
+   "shadow": {
+    "color": "#101042",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   }
+  },
+  "silveri": {
+   "font": [
+    "arial-narrow-bold",
+    "bahnschrift",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#f7f7f7"
+    ],
+    [
+     0.5,
+     "#cfcfcf"
+    ],
+    [
+     0.52,
+     "#9c9c9c"
+    ],
+    [
+     1,
+     "#bdbdbd"
+    ]
+   ],
+   "outline": {
+    "color": "#101042",
+    "width": 1
+   },
+   "shadow": {
+    "color": "#101042",
+    "dx": 1.5,
+    "dy": 1.5,
+    "steps": 2,
+    "alpha": 1.0
+   },
+   "shear": 0.2
+  }
+ },
+ "regions": [
+  {
+   "id": "contract",
+   "ja": "契約年数",
+   "text": "Contract Yrs",
+   "style": "silveri",
+   "x": 4,
+   "y": 8,
+   "w": 63,
+   "h": 19,
+   "size": "auto",
+   "max_size": 13,
+   "min_sx": 0.7,
+   "align": "left",
+   "erase_rect": [
+    3,
+    6,
+    64,
+    24
+   ],
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "sat_lt": 0.18,
+      "luma_gt": 90
+     },
+     {
+      "luma_lt": 50
+     }
+    ],
+    "dilate": 1,
+    "fill": "hfill"
+   }
+  },
+  {
+   "id": "yr",
+   "ja": "年",
+   "text": "Yr",
+   "style": "y",
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "x": 40,
+   "y": 38,
+   "w": 38,
+   "h": 28,
+   "size": "auto",
+   "max_size": 22,
+   "align": "right",
+   "erase_rect": [
+    40,
+    38,
+    38,
+    32
+   ],
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "color": [
+       239,
+       255,
+       66
+      ],
+      "tol": 80
+     },
+     {
+      "luma_lt": 14
+     }
+    ],
+    "dilate": 2,
+    "fill": "hfill"
+   }
+  },
+  {
+   "id": "salary",
+   "ja": "年俸",
+   "text": "Salary",
+   "style": "silver",
+   "x": 88,
+   "y": 3,
+   "w": 64,
+   "h": 30,
+   "size": "auto",
+   "max_size": 24,
+   "align": "left",
+   "erase": {
+    "mode": "clear"
+   }
+  },
+  {
+   "id": "funds",
+   "ja": "現在の所持金",
+   "text": "Funds",
+   "style": "silveri",
+   "x": 155,
+   "y": 5,
+   "w": 98,
+   "h": 28,
+   "size": "auto",
+   "max_size": 24,
+   "align": "left",
+   "erase": {
+    "mode": "clear"
+   }
+  },
+  {
+   "id": "cell",
+   "ja": "万円",
+   "text": "man",
+   "style": "y",
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "x": 1,
+   "y": 174,
+   "w": 46,
+   "h": 30,
+   "size": "auto",
+   "max_size": 18,
+   "align": "center",
+   "erase": {
+    "mode": "flat",
+    "color": [
+     0,
+     82,
+     82
+    ]
+   },
+   "erase_rect": [
+    0,
+    174,
+    48,
+    31
+   ]
+  },
+  {
+   "id": "stripend",
+   "ja": "万",
+   "x": 234,
+   "y": 118,
+   "w": 22,
+   "h": 32,
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "color": [
+       239,
+       255,
+       66
+      ],
+      "tol": 70
+     },
+     {
+      "luma_lt": 30
+     }
+    ],
+    "dilate": 1,
+    "fill": "hfill"
+   }
+  },
+  {
+   "id": "oku",
+   "ja": "億",
+   "text": "oku",
+   "style": "y",
+   "x": 90,
+   "y": 34,
+   "w": 36,
+   "h": 28,
+   "size": 18,
+   "min_sx": 0.4,
+   "align": "center",
+   "erase": null
+  },
+  {
+   "id": "search",
+   "ja": "捜索費用",
+   "text": "Search Cost",
+   "style": "silveri",
+   "x": 155,
+   "y": 34,
+   "w": 98,
+   "h": 28,
+   "size": "auto",
+   "max_size": 22,
+   "align": "left",
+   "erase": {
+    "mode": "clear"
+   }
+  },
+  {
+   "id": "income",
+   "ja": "収入",
+   "text": "Income",
+   "style": "silver",
+   "x": 88,
+   "y": 163,
+   "w": 62,
+   "h": 28,
+   "size": "auto",
+   "max_size": 20,
+   "align": "left",
+   "erase": {
+    "mode": "clear"
+   }
+  },
+  {
+   "id": "total",
+   "ja": "合計金額",
+   "text": "Total",
+   "style": "silver",
+   "x": 158,
+   "y": 163,
+   "w": 100,
+   "h": 28,
+   "size": "auto",
+   "max_size": 24,
+   "align": "left",
+   "erase": {
+    "mode": "clear"
+   }
+  },
+  {
+   "id": "cost",
+   "ja": "費用",
+   "text": "Expenses",
+   "style": "silver",
+   "x": 90,
+   "y": 195,
+   "w": 100,
+   "h": 30,
+   "size": "auto",
+   "max_size": 20,
+   "align": "left",
+   "erase": {
+    "mode": "clear"
+   }
+  }
+ ],
+ "prefill": [
+  [
+   90,
+   32,
+   38,
+   31,
+   88
+  ]
+ ]
+}

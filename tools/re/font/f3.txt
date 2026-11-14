@@ -1,0 +1,47 @@
+
+//////// FUN_8c15e914 @ 8c15e914 body 8c15e914-8c15e9c5
+
+void FUN_8c15e914(int *param_1,int param_2,int param_3)
+
+{
+  uint uVar1;
+  int unaff_r11;
+  uint unaff_r12;
+  uint unaff_r13;
+  int iVar2;
+  
+  FUN_8c15eca4();
+  if (unaff_r11 == 0) {
+    return;
+  }
+  if (unaff_r12 >> 4 == 0) {
+    uVar1 = 2;
+  }
+  else {
+    uVar1 = 0;
+  }
+  (*(code *)PTR_FUN_8c15ea60)(uVar1 | (int)DAT_8c15ea58,0x20,0x20);
+  if (param_3 == 0) {
+    uVar1 = unaff_r13 & 0xffff;
+    if (uVar1 == 0) {
+      iVar2 = DAT_8c15ea64;
+      goto LAB_8c15e992;
+    }
+    if ((DAT_8c15ea68 & uVar1) == 0) {
+      iVar2 = unaff_r12 * 0x1000 + (unaff_r13 & 0xffff) + DAT_8c15ea64;
+      goto LAB_8c15e992;
+    }
+    param_3 = DAT_8c15ea70;
+    iVar2 = (DAT_8c15ea6c & uVar1) + unaff_r12 * 0x100;
+  }
+  else {
+    iVar2 = param_2;
+  }
+  iVar2 = iVar2 + param_3;
+LAB_8c15e992:
+  (*(code *)PTR_FUN_8c15ea78)(*param_1 + param_2 * 0xc,iVar2,DAT_8c15ea74);
+  return;
+}
+
+
+-- callers:

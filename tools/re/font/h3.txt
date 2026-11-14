@@ -1,0 +1,2555 @@
+
+//////// FUN_8c012be0 @ 8c012be0 body 8c012be0-8c012bf7
+
+/* WARNING: Removing unreachable block (ram,0x8c012bee) */
+
+undefined8 FUN_8c012be0(void)
+
+{
+  uint uVar1;
+  uint in_r1;
+  uint uVar2;
+  int *in_r2;
+  
+  uVar2 = (in_r1 & 0xff) - 0x20;
+  uVar1 = *in_r2 << ((in_r1 & 0xff00) >> 8 & 0x1f);
+  if ((int)uVar2 < 0) {
+    uVar1 = uVar1 >> (~uVar2 & 0x1f) + 1;
+  }
+  else {
+    uVar1 = uVar1 << (uVar2 & 0x1f);
+  }
+  return CONCAT44(in_r1,uVar1);
+}
+
+
+-- callers:
+   8c162304
+
+//////// FUN_8c012bf8 @ 8c012bf8 body 8c012bf8-8c012ca1
+
+int FUN_8c012bf8(void)
+
+{
+  uint uVar1;
+  uint uVar2;
+  uint in_r0;
+  uint in_r1;
+  uint uVar3;
+  bool bVar4;
+  bool bVar5;
+  bool bVar7;
+  bool bVar6;
+  bool bVar8;
+  bool bVar9;
+  bool bVar10;
+  bool bVar11;
+  bool bVar12;
+  bool bVar13;
+  bool bVar14;
+  bool bVar15;
+  bool bVar16;
+  bool bVar17;
+  bool bVar18;
+  bool bVar19;
+  bool bVar20;
+  bool bVar21;
+  bool bVar22;
+  bool bVar23;
+  bool bVar24;
+  bool bVar25;
+  bool bVar26;
+  bool bVar27;
+  bool bVar28;
+  bool bVar29;
+  bool bVar30;
+  bool bVar31;
+  bool bVar32;
+  bool bVar33;
+  bool bVar34;
+  bool bVar35;
+  bool bVar36;
+  bool bVar37;
+  bool bVar38;
+  
+  if (in_r0 == 0) {
+    *(undefined4 *)PTR_DAT_8c012ca4 = DAT_8c012ca8;
+    return 0;
+  }
+  uVar2 = (uint)((in_r1 & 0x80000000) != 0);
+  uVar3 = in_r1 - (uVar2 != 0);
+  bVar5 = (-uVar2 & 0x80000000) != 0;
+  bVar4 = (in_r0 & 0x80000000) != 0;
+  uVar1 = uVar3 * 2;
+  bVar6 = (-uVar2 & 0x80000000) == 0;
+  uVar2 = uVar2 * -2 | (uint)((uVar3 & 0x80000000) != 0);
+  if (bVar5 || bVar4) {
+    if (!bVar5 && bVar4) {
+      uVar3 = uVar2 + in_r0;
+      bVar7 = uVar3 < uVar2;
+      if (bVar6) {
+        bVar7 = !bVar7;
+      }
+    }
+    else if (bVar5 && !bVar4) {
+      uVar3 = uVar2 + in_r0;
+      bVar7 = uVar3 < uVar2;
+      if (!bVar6) {
+        bVar7 = !bVar7;
+      }
+    }
+    else {
+      uVar3 = uVar2 - in_r0;
+      bVar7 = uVar2 < uVar3;
+      if (bVar6) {
+        bVar7 = !bVar7;
+      }
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar7 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar7 = !bVar7;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x80000000) != 0);
+  if (bVar7 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar8 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar8 = !bVar8;
+    }
+  }
+  else if (bVar7 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar8 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar8 = !bVar8;
+    }
+  }
+  else if (bVar7 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar8 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar8 = !bVar8;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar8 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar8 = !bVar8;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x40000000) != 0);
+  if (bVar8 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar9 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar9 = !bVar9;
+    }
+  }
+  else if (bVar8 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar9 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar9 = !bVar9;
+    }
+  }
+  else if (bVar8 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar9 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar9 = !bVar9;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar9 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar9 = !bVar9;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x20000000) != 0);
+  if (bVar9 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar10 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar10 = !bVar10;
+    }
+  }
+  else if (bVar9 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar10 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar10 = !bVar10;
+    }
+  }
+  else if (bVar9 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar10 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar10 = !bVar10;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar10 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar10 = !bVar10;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x10000000) != 0);
+  if (bVar10 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar11 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar11 = !bVar11;
+    }
+  }
+  else if (bVar10 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar11 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar11 = !bVar11;
+    }
+  }
+  else if (bVar10 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar11 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar11 = !bVar11;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar11 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar11 = !bVar11;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x8000000) != 0);
+  if (bVar11 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar12 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar12 = !bVar12;
+    }
+  }
+  else if (bVar11 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar12 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar12 = !bVar12;
+    }
+  }
+  else if (bVar11 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar12 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar12 = !bVar12;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar12 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar12 = !bVar12;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x4000000) != 0);
+  if (bVar12 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar13 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar13 = !bVar13;
+    }
+  }
+  else if (bVar12 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar13 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar13 = !bVar13;
+    }
+  }
+  else if (bVar12 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar13 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar13 = !bVar13;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar13 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar13 = !bVar13;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x2000000) != 0);
+  if (bVar13 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar14 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar14 = !bVar14;
+    }
+  }
+  else if (bVar13 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar14 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar14 = !bVar14;
+    }
+  }
+  else if (bVar13 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar14 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar14 = !bVar14;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar14 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar14 = !bVar14;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x1000000) != 0);
+  if (bVar14 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar15 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar15 = !bVar15;
+    }
+  }
+  else if (bVar14 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar15 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar15 = !bVar15;
+    }
+  }
+  else if (bVar14 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar15 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar15 = !bVar15;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar15 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar15 = !bVar15;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x800000) != 0);
+  if (bVar15 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar16 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar16 = !bVar16;
+    }
+  }
+  else if (bVar15 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar16 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar16 = !bVar16;
+    }
+  }
+  else if (bVar15 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar16 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar16 = !bVar16;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar16 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar16 = !bVar16;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x400000) != 0);
+  if (bVar16 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar17 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar17 = !bVar17;
+    }
+  }
+  else if (bVar16 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar17 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar17 = !bVar17;
+    }
+  }
+  else if (bVar16 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar17 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar17 = !bVar17;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar17 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar17 = !bVar17;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x200000) != 0);
+  if (bVar17 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar18 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar18 = !bVar18;
+    }
+  }
+  else if (bVar17 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar18 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar18 = !bVar18;
+    }
+  }
+  else if (bVar17 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar18 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar18 = !bVar18;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar18 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar18 = !bVar18;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x100000) != 0);
+  if (bVar18 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar19 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar19 = !bVar19;
+    }
+  }
+  else if (bVar18 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar19 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar19 = !bVar19;
+    }
+  }
+  else if (bVar18 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar19 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar19 = !bVar19;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar19 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar19 = !bVar19;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x80000) != 0);
+  if (bVar19 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar20 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar20 = !bVar20;
+    }
+  }
+  else if (bVar19 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar20 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar20 = !bVar20;
+    }
+  }
+  else if (bVar19 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar20 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar20 = !bVar20;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar20 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar20 = !bVar20;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x40000) != 0);
+  if (bVar20 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar21 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar21 = !bVar21;
+    }
+  }
+  else if (bVar20 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar21 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar21 = !bVar21;
+    }
+  }
+  else if (bVar20 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar21 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar21 = !bVar21;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar21 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar21 = !bVar21;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x20000) != 0);
+  if (bVar21 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar22 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar22 = !bVar22;
+    }
+  }
+  else if (bVar21 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar22 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar22 = !bVar22;
+    }
+  }
+  else if (bVar21 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar22 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar22 = !bVar22;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar22 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar22 = !bVar22;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x10000) != 0);
+  if (bVar22 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar23 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar23 = !bVar23;
+    }
+  }
+  else if (bVar22 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar23 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar23 = !bVar23;
+    }
+  }
+  else if (bVar22 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar23 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar23 = !bVar23;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar23 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar23 = !bVar23;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x8000) != 0);
+  if (bVar23 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar24 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar24 = !bVar24;
+    }
+  }
+  else if (bVar23 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar24 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar24 = !bVar24;
+    }
+  }
+  else if (bVar23 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar24 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar24 = !bVar24;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar24 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar24 = !bVar24;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x4000) != 0);
+  if (bVar24 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar25 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar25 = !bVar25;
+    }
+  }
+  else if (bVar24 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar25 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar25 = !bVar25;
+    }
+  }
+  else if (bVar24 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar25 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar25 = !bVar25;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar25 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar25 = !bVar25;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x2000) != 0);
+  if (bVar25 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar26 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar26 = !bVar26;
+    }
+  }
+  else if (bVar25 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar26 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar26 = !bVar26;
+    }
+  }
+  else if (bVar25 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar26 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar26 = !bVar26;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar26 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar26 = !bVar26;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x1000) != 0);
+  if (bVar26 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar27 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar27 = !bVar27;
+    }
+  }
+  else if (bVar26 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar27 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar27 = !bVar27;
+    }
+  }
+  else if (bVar26 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar27 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar27 = !bVar27;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar27 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar27 = !bVar27;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x800) != 0);
+  if (bVar27 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar28 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar28 = !bVar28;
+    }
+  }
+  else if (bVar27 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar28 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar28 = !bVar28;
+    }
+  }
+  else if (bVar27 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar28 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar28 = !bVar28;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar28 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar28 = !bVar28;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x400) != 0);
+  if (bVar28 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar29 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar29 = !bVar29;
+    }
+  }
+  else if (bVar28 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar29 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar29 = !bVar29;
+    }
+  }
+  else if (bVar28 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar29 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar29 = !bVar29;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar29 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar29 = !bVar29;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x200) != 0);
+  if (bVar29 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar30 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar30 = !bVar30;
+    }
+  }
+  else if (bVar29 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar30 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar30 = !bVar30;
+    }
+  }
+  else if (bVar29 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar30 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar30 = !bVar30;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar30 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar30 = !bVar30;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x100) != 0);
+  if (bVar30 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar31 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar31 = !bVar31;
+    }
+  }
+  else if (bVar30 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar31 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar31 = !bVar31;
+    }
+  }
+  else if (bVar30 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar31 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar31 = !bVar31;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar31 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar31 = !bVar31;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x80) != 0);
+  if (bVar31 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar32 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar32 = !bVar32;
+    }
+  }
+  else if (bVar31 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar32 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar32 = !bVar32;
+    }
+  }
+  else if (bVar31 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar32 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar32 = !bVar32;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar32 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar32 = !bVar32;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x40) != 0);
+  if (bVar32 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar33 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar33 = !bVar33;
+    }
+  }
+  else if (bVar32 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar33 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar33 = !bVar33;
+    }
+  }
+  else if (bVar32 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar33 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar33 = !bVar33;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar33 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar33 = !bVar33;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x20) != 0);
+  if (bVar33 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar34 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar34 = !bVar34;
+    }
+  }
+  else if (bVar33 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar34 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar34 = !bVar34;
+    }
+  }
+  else if (bVar33 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar34 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar34 = !bVar34;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar34 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar34 = !bVar34;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 0x10) != 0);
+  if (bVar34 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar35 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar35 = !bVar35;
+    }
+  }
+  else if (bVar34 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar35 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar35 = !bVar35;
+    }
+  }
+  else if (bVar34 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar35 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar35 = !bVar35;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar35 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar35 = !bVar35;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 8) != 0);
+  if (bVar35 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar36 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar36 = !bVar36;
+    }
+  }
+  else if (bVar35 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar36 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar36 = !bVar36;
+    }
+  }
+  else if (bVar35 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar36 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar36 = !bVar36;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar36 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar36 = !bVar36;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 4) != 0);
+  if (bVar36 == false && !bVar4) {
+    uVar3 = uVar2 - in_r0;
+    bVar37 = uVar2 < uVar3;
+    if (!bVar6) {
+      bVar37 = !bVar37;
+    }
+  }
+  else if (bVar36 == false && bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar37 = uVar3 < uVar2;
+    if (bVar6) {
+      bVar37 = !bVar37;
+    }
+  }
+  else if (bVar36 == true && !bVar4) {
+    uVar3 = uVar2 + in_r0;
+    bVar37 = uVar3 < uVar2;
+    if (!bVar6) {
+      bVar37 = !bVar37;
+    }
+  }
+  else {
+    uVar3 = uVar2 - in_r0;
+    bVar37 = uVar2 < uVar3;
+    if (bVar6) {
+      bVar37 = !bVar37;
+    }
+  }
+  bVar6 = (uVar3 & 0x80000000) == 0;
+  uVar2 = uVar3 << 1 | (uint)((uVar1 & 2) != 0);
+  if (bVar37 == false && !bVar4) {
+    bVar38 = uVar2 < uVar2 - in_r0;
+    if (!bVar6) {
+      bVar38 = !bVar38;
+    }
+  }
+  else if (bVar37 == false && bVar4) {
+    bVar38 = uVar2 + in_r0 < uVar2;
+    if (bVar6) {
+      bVar38 = !bVar38;
+    }
+  }
+  else if (bVar37 == true && !bVar4) {
+    bVar38 = uVar2 + in_r0 < uVar2;
+    if (!bVar6) {
+      bVar38 = !bVar38;
+    }
+  }
+  else {
+    bVar38 = uVar2 < uVar2 - in_r0;
+    if (bVar6) {
+      bVar38 = !bVar38;
+    }
+  }
+  return ((((((((((((((((((((((((((((((((uint)(bVar7 == bVar4) << 1 | (uint)(bVar8 == bVar4)) << 1 |
+                                      (uint)(bVar9 == bVar4)) << 1 | (uint)(bVar10 == bVar4)) << 1 |
+                                    (uint)(bVar11 == bVar4)) << 1 | (uint)(bVar12 == bVar4)) << 1 |
+                                  (uint)(bVar13 == bVar4)) << 1 | (uint)(bVar14 == bVar4)) << 1 |
+                                (uint)(bVar15 == bVar4)) << 1 | (uint)(bVar16 == bVar4)) << 1 |
+                              (uint)(bVar17 == bVar4)) << 1 | (uint)(bVar18 == bVar4)) << 1 |
+                            (uint)(bVar19 == bVar4)) << 1 | (uint)(bVar20 == bVar4)) << 1 |
+                          (uint)(bVar21 == bVar4)) << 1 | (uint)(bVar22 == bVar4)) << 1 |
+                        (uint)(bVar23 == bVar4)) << 1 | (uint)(bVar24 == bVar4)) << 1 |
+                      (uint)(bVar25 == bVar4)) << 1 | (uint)(bVar26 == bVar4)) << 1 |
+                    (uint)(bVar27 == bVar4)) << 1 | (uint)(bVar28 == bVar4)) << 1 |
+                  (uint)(bVar29 == bVar4)) << 1 | (uint)(bVar30 == bVar4)) << 1 |
+                (uint)(bVar31 == bVar4)) << 1 | (uint)(bVar32 == bVar4)) << 1 |
+              (uint)(bVar33 == bVar4)) << 1 | (uint)(bVar34 == bVar4)) << 1 |
+            (uint)(bVar35 == bVar4)) << 1 | (uint)(bVar36 == bVar4)) << 1 | (uint)(bVar37 == bVar4))
+          << 1 | (uint)(bVar38 == bVar4)) + (uint)(bVar4 != bVar5);
+}
+
+
+-- callers:
+   8c0a30ae
+   8c01f302
+   8c09ee9e
+   8c0a6796
+   8c0a67ae
+   8c013abc
+   8c0139fa
+   8c0156fa
+   8c015824
+   8c015a60
+   8c015ac8
+   8c0166b8
+   8c0168d6
+   8c0167f0
+   8c016828
+   8c01697c
+   8c013a24
+   8c013ae4
+   8c0157cc
+   8c0158f0
+   8c015c00
+   8c0167b4
+   8c0168c8
+   8c01694c
+   8c016994
+   8c01f384
+   8c09ef70
+   8c0a31d0
+   8c0a6814
+   8c0cace8
+   8c0cadd8
+   8c093c7e
+   8c093c5c
+   8c093c4e
+   8c093c3e
+   8c093c2e
+   8c093c20
+   8c093bbe
+   8c093ba6
+   8c093c6a
+   8c093c18
+   8c093ce4
+   8c164d94
+   8c164e18
+   8c15ec32
+   8c15ec4a
+   8c15ec64
+   8c15eba0
+   8c15ebb8
+   8c15ebd2
+   8c0ff072
+   8c0ff08c
+   8c0feefe
+   8c0fed48
+   8c0fed82
+   8c0fee00
+   8c0feda4
+   8c0fee2c
+   8c0fef4c
+   8c0ff104
+   8c15ec08
+   8c0c95c0
+   8c0c9614
+   8c0c9c4a
+   8c0c9698
+   8c0c96ec
+   8c0c9b8c
+   8c0c9be0
+   8c0c9870
+   8c0c993e
+   8c0c99f8
+   8c097bd8
+   8c097bfc
+   8c0c9670
+   8c0c9728
+   8c0c9918
+   8c0c9a60
+   8c0c9c38
+   8c0c9c88
+   8c09c120
+   8c0cc8b6
+   8c0cc6b6
+   8c0cc6c6
+   8c09c1ac
+   8c0cc750
+   8c0cc98c
+   8c0a6a70
+   8c0784bc
+   8c0784c8
+
+//////// FUN_8c012bc8 @ 8c012bc8 body 8c012bc8-8c012bdf
+
+/* WARNING: Removing unreachable block (ram,0x8c012bd6) */
+
+undefined8 FUN_8c012bc8(void)
+
+{
+  int iVar1;
+  uint in_r1;
+  uint uVar2;
+  int *in_r2;
+  
+  uVar2 = (in_r1 & 0xff) - 0x20;
+  iVar1 = *in_r2 << ((in_r1 & 0xff00) >> 8 & 0x1f);
+  if ((int)uVar2 < 0) {
+    iVar1 = iVar1 >> (~uVar2 & 0x1f) + 1;
+  }
+  else {
+    iVar1 = iVar1 << (uVar2 & 0x1f);
+  }
+  return CONCAT44(in_r1,iVar1);
+}
+
+
+-- callers:
+   8c162300
+
+//////// FUN_8c012b90 @ 8c012b90 body 8c012b90-8c012bc5
+
+/* WARNING: Removing unreachable block (ram,0x8c012ba8) */
+
+undefined8 FUN_8c012b90(void)
+
+{
+  uint uVar1;
+  uint in_r0;
+  uint uVar2;
+  uint in_r1;
+  uint uVar3;
+  uint *in_r2;
+  uint uVar4;
+  uint uVar5;
+  
+  uVar1 = (in_r1 & 0xff00) >> 8;
+  uVar4 = 0x20 - (in_r1 & 0xff);
+  if ((int)uVar4 < 0) {
+    uVar2 = in_r0 >> (~uVar4 & 0x1f) + 1;
+  }
+  else {
+    uVar2 = in_r0 << (uVar4 & 0x1f);
+  }
+  uVar3 = *in_r2 << (uVar1 & 0x1f) ^ uVar2;
+  uVar5 = -uVar4;
+  if ((int)uVar5 < 0) {
+    uVar3 = uVar3 >> (~uVar5 & 0x1f) + 1;
+    uVar2 = uVar2 >> (~uVar5 & 0x1f) + 1;
+  }
+  else {
+    uVar3 = uVar3 << (uVar5 & 0x1f);
+    uVar2 = uVar2 << (uVar5 & 0x1f);
+  }
+  uVar4 = uVar4 - uVar1;
+  if ((int)uVar4 < 0) {
+    uVar3 = uVar3 >> (~uVar4 & 0x1f) + 1;
+  }
+  else {
+    uVar3 = uVar3 << (uVar4 & 0x1f);
+  }
+  *in_r2 = uVar3 ^ *in_r2;
+  return CONCAT44(in_r1,uVar2);
+}
+
+
+-- callers:
+   8c162308
+
+//////// FUN_8c013460 @ 8c013460 body 8c013460-8c01351d
+
+longlong FUN_8c013460(void)
+
+{
+  uint uVar1;
+  undefined *puVar2;
+  uint in_r0;
+  uint in_r1;
+  uint uVar3;
+  uint uVar4;
+  bool bVar5;
+  bool bVar6;
+  bool bVar7;
+  bool bVar9;
+  bool bVar8;
+  bool bVar10;
+  bool bVar11;
+  bool bVar12;
+  bool bVar13;
+  bool bVar14;
+  bool bVar15;
+  bool bVar16;
+  bool bVar17;
+  bool bVar18;
+  bool bVar19;
+  bool bVar20;
+  bool bVar21;
+  bool bVar22;
+  bool bVar23;
+  bool bVar24;
+  bool bVar25;
+  bool bVar26;
+  bool bVar27;
+  bool bVar28;
+  bool bVar29;
+  bool bVar30;
+  bool bVar31;
+  bool bVar32;
+  bool bVar33;
+  bool bVar34;
+  bool bVar35;
+  bool bVar36;
+  bool bVar37;
+  bool bVar38;
+  bool bVar39;
+  bool bVar40;
+  
+  puVar2 = PTR_DAT_8c013520;
+  if (in_r0 == 0) {
+    *(undefined4 *)PTR_DAT_8c013520 = DAT_8c013524;
+    return ZEXT48(puVar2) << 0x20;
+  }
+  bVar6 = (in_r1 & 0x80000000) != 0;
+  uVar4 = (uint)bVar6;
+  uVar3 = in_r1 - (uVar4 != 0);
+  bVar7 = (-uVar4 & 0x80000000) != 0;
+  bVar5 = (in_r0 & 0x80000000) != 0;
+  uVar1 = uVar3 * 2;
+  bVar8 = (-uVar4 & 0x80000000) == 0;
+  uVar4 = uVar4 * -2 | (uint)((uVar3 & 0x80000000) != 0);
+  if (bVar7 || bVar5) {
+    if (!bVar7 && bVar5) {
+      uVar3 = uVar4 + in_r0;
+      bVar9 = uVar3 < uVar4;
+      if (bVar8) {
+        bVar9 = !bVar9;
+      }
+    }
+    else if (bVar7 && !bVar5) {
+      uVar3 = uVar4 + in_r0;
+      bVar9 = uVar3 < uVar4;
+      if (!bVar8) {
+        bVar9 = !bVar9;
+      }
+    }
+    else {
+      uVar3 = uVar4 - in_r0;
+      bVar9 = uVar4 < uVar3;
+      if (bVar8) {
+        bVar9 = !bVar9;
+      }
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar9 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar9 = !bVar9;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x80000000) != 0);
+  if (bVar9 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar10 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar10 = !bVar10;
+    }
+  }
+  else if (bVar9 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar10 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar10 = !bVar10;
+    }
+  }
+  else if (bVar9 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar10 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar10 = !bVar10;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar10 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar10 = !bVar10;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x40000000) != 0);
+  if (bVar10 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar11 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar11 = !bVar11;
+    }
+  }
+  else if (bVar10 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar11 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar11 = !bVar11;
+    }
+  }
+  else if (bVar10 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar11 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar11 = !bVar11;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar11 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar11 = !bVar11;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x20000000) != 0);
+  if (bVar11 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar12 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar12 = !bVar12;
+    }
+  }
+  else if (bVar11 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar12 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar12 = !bVar12;
+    }
+  }
+  else if (bVar11 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar12 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar12 = !bVar12;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar12 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar12 = !bVar12;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x10000000) != 0);
+  if (bVar12 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar13 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar13 = !bVar13;
+    }
+  }
+  else if (bVar12 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar13 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar13 = !bVar13;
+    }
+  }
+  else if (bVar12 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar13 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar13 = !bVar13;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar13 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar13 = !bVar13;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x8000000) != 0);
+  if (bVar13 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar14 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar14 = !bVar14;
+    }
+  }
+  else if (bVar13 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar14 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar14 = !bVar14;
+    }
+  }
+  else if (bVar13 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar14 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar14 = !bVar14;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar14 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar14 = !bVar14;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x4000000) != 0);
+  if (bVar14 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar15 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar15 = !bVar15;
+    }
+  }
+  else if (bVar14 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar15 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar15 = !bVar15;
+    }
+  }
+  else if (bVar14 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar15 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar15 = !bVar15;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar15 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar15 = !bVar15;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x2000000) != 0);
+  if (bVar15 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar16 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar16 = !bVar16;
+    }
+  }
+  else if (bVar15 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar16 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar16 = !bVar16;
+    }
+  }
+  else if (bVar15 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar16 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar16 = !bVar16;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar16 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar16 = !bVar16;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x1000000) != 0);
+  if (bVar16 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar17 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar17 = !bVar17;
+    }
+  }
+  else if (bVar16 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar17 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar17 = !bVar17;
+    }
+  }
+  else if (bVar16 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar17 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar17 = !bVar17;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar17 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar17 = !bVar17;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x800000) != 0);
+  if (bVar17 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar18 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar18 = !bVar18;
+    }
+  }
+  else if (bVar17 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar18 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar18 = !bVar18;
+    }
+  }
+  else if (bVar17 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar18 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar18 = !bVar18;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar18 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar18 = !bVar18;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x400000) != 0);
+  if (bVar18 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar19 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar19 = !bVar19;
+    }
+  }
+  else if (bVar18 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar19 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar19 = !bVar19;
+    }
+  }
+  else if (bVar18 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar19 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar19 = !bVar19;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar19 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar19 = !bVar19;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x200000) != 0);
+  if (bVar19 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar20 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar20 = !bVar20;
+    }
+  }
+  else if (bVar19 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar20 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar20 = !bVar20;
+    }
+  }
+  else if (bVar19 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar20 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar20 = !bVar20;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar20 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar20 = !bVar20;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x100000) != 0);
+  if (bVar20 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar21 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar21 = !bVar21;
+    }
+  }
+  else if (bVar20 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar21 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar21 = !bVar21;
+    }
+  }
+  else if (bVar20 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar21 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar21 = !bVar21;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar21 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar21 = !bVar21;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x80000) != 0);
+  if (bVar21 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar22 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar22 = !bVar22;
+    }
+  }
+  else if (bVar21 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar22 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar22 = !bVar22;
+    }
+  }
+  else if (bVar21 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar22 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar22 = !bVar22;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar22 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar22 = !bVar22;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x40000) != 0);
+  if (bVar22 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar23 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar23 = !bVar23;
+    }
+  }
+  else if (bVar22 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar23 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar23 = !bVar23;
+    }
+  }
+  else if (bVar22 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar23 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar23 = !bVar23;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar23 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar23 = !bVar23;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x20000) != 0);
+  if (bVar23 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar24 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar24 = !bVar24;
+    }
+  }
+  else if (bVar23 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar24 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar24 = !bVar24;
+    }
+  }
+  else if (bVar23 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar24 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar24 = !bVar24;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar24 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar24 = !bVar24;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x10000) != 0);
+  if (bVar24 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar25 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar25 = !bVar25;
+    }
+  }
+  else if (bVar24 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar25 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar25 = !bVar25;
+    }
+  }
+  else if (bVar24 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar25 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar25 = !bVar25;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar25 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar25 = !bVar25;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x8000) != 0);
+  if (bVar25 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar26 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar26 = !bVar26;
+    }
+  }
+  else if (bVar25 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar26 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar26 = !bVar26;
+    }
+  }
+  else if (bVar25 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar26 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar26 = !bVar26;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar26 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar26 = !bVar26;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x4000) != 0);
+  if (bVar26 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar27 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar27 = !bVar27;
+    }
+  }
+  else if (bVar26 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar27 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar27 = !bVar27;
+    }
+  }
+  else if (bVar26 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar27 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar27 = !bVar27;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar27 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar27 = !bVar27;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x2000) != 0);
+  if (bVar27 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar28 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar28 = !bVar28;
+    }
+  }
+  else if (bVar27 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar28 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar28 = !bVar28;
+    }
+  }
+  else if (bVar27 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar28 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar28 = !bVar28;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar28 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar28 = !bVar28;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x1000) != 0);
+  if (bVar28 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar29 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar29 = !bVar29;
+    }
+  }
+  else if (bVar28 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar29 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar29 = !bVar29;
+    }
+  }
+  else if (bVar28 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar29 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar29 = !bVar29;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar29 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar29 = !bVar29;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x800) != 0);
+  if (bVar29 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar30 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar30 = !bVar30;
+    }
+  }
+  else if (bVar29 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar30 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar30 = !bVar30;
+    }
+  }
+  else if (bVar29 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar30 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar30 = !bVar30;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar30 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar30 = !bVar30;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x400) != 0);
+  if (bVar30 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar31 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar31 = !bVar31;
+    }
+  }
+  else if (bVar30 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar31 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar31 = !bVar31;
+    }
+  }
+  else if (bVar30 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar31 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar31 = !bVar31;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar31 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar31 = !bVar31;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x200) != 0);
+  if (bVar31 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar32 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar32 = !bVar32;
+    }
+  }
+  else if (bVar31 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar32 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar32 = !bVar32;
+    }
+  }
+  else if (bVar31 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar32 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar32 = !bVar32;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar32 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar32 = !bVar32;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x100) != 0);
+  if (bVar32 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar33 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar33 = !bVar33;
+    }
+  }
+  else if (bVar32 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar33 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar33 = !bVar33;
+    }
+  }
+  else if (bVar32 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar33 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar33 = !bVar33;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar33 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar33 = !bVar33;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x80) != 0);
+  if (bVar33 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar34 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar34 = !bVar34;
+    }
+  }
+  else if (bVar33 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar34 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar34 = !bVar34;
+    }
+  }
+  else if (bVar33 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar34 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar34 = !bVar34;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar34 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar34 = !bVar34;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x40) != 0);
+  if (bVar34 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar35 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar35 = !bVar35;
+    }
+  }
+  else if (bVar34 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar35 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar35 = !bVar35;
+    }
+  }
+  else if (bVar34 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar35 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar35 = !bVar35;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar35 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar35 = !bVar35;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x20) != 0);
+  if (bVar35 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar36 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar36 = !bVar36;
+    }
+  }
+  else if (bVar35 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar36 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar36 = !bVar36;
+    }
+  }
+  else if (bVar35 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar36 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar36 = !bVar36;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar36 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar36 = !bVar36;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 0x10) != 0);
+  if (bVar36 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar37 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar37 = !bVar37;
+    }
+  }
+  else if (bVar36 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar37 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar37 = !bVar37;
+    }
+  }
+  else if (bVar36 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar37 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar37 = !bVar37;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar37 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar37 = !bVar37;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 8) != 0);
+  if (bVar37 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar38 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar38 = !bVar38;
+    }
+  }
+  else if (bVar37 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar38 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar38 = !bVar38;
+    }
+  }
+  else if (bVar37 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar38 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar38 = !bVar38;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar38 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar38 = !bVar38;
+    }
+  }
+  bVar8 = (uVar3 & 0x80000000) == 0;
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 4) != 0);
+  if (bVar38 == false && !bVar5) {
+    uVar3 = uVar4 - in_r0;
+    bVar39 = uVar4 < uVar3;
+    if (!bVar8) {
+      bVar39 = !bVar39;
+    }
+  }
+  else if (bVar38 == false && bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar39 = uVar3 < uVar4;
+    if (bVar8) {
+      bVar39 = !bVar39;
+    }
+  }
+  else if (bVar38 == true && !bVar5) {
+    uVar3 = uVar4 + in_r0;
+    bVar39 = uVar3 < uVar4;
+    if (!bVar8) {
+      bVar39 = !bVar39;
+    }
+  }
+  else {
+    uVar3 = uVar4 - in_r0;
+    bVar39 = uVar4 < uVar3;
+    if (bVar8) {
+      bVar39 = !bVar39;
+    }
+  }
+  uVar4 = uVar3 << 1 | (uint)((uVar1 & 2) != 0);
+  if (bVar39 == false && !bVar5) {
+    uVar4 = uVar4 - in_r0;
+  }
+  else if (bVar39 == false && bVar5) {
+    uVar4 = uVar4 + in_r0;
+  }
+  else if (bVar39 == true && !bVar5) {
+    uVar4 = uVar4 + in_r0;
+  }
+  else {
+    uVar4 = uVar4 - in_r0;
+  }
+  if (((uVar4 & 0x80000000) != 0) != bVar6) {
+    bVar40 = (uVar4 & 0x80000000) != 0;
+    bVar8 = (in_r0 & 0x80000000) != 0;
+    uVar4 = ((int)uVar4 >> 1) << 1 | (uint)((uVar4 & 1) != 0);
+    if (bVar40 || bVar8) {
+      if (!bVar40 && bVar8) {
+        uVar4 = uVar4 + in_r0;
+      }
+      else if (bVar40 && !bVar8) {
+        uVar4 = uVar4 + in_r0;
+      }
+      else {
+        uVar4 = uVar4 - in_r0;
+      }
+    }
+    else {
+      uVar4 = uVar4 - in_r0;
+    }
+  }
+  return CONCAT44((((((((((((((((((((((((((((((((uint)(bVar5 != bVar7) << 1 | (uint)(bVar9 == bVar5)
+                                               ) << 1 | (uint)(bVar10 == bVar5)) << 1 |
+                                             (uint)(bVar11 == bVar5)) << 1 | (uint)(bVar12 == bVar5)
+                                            ) << 1 | (uint)(bVar13 == bVar5)) << 1 |
+                                          (uint)(bVar14 == bVar5)) << 1 | (uint)(bVar15 == bVar5))
+                                         << 1 | (uint)(bVar16 == bVar5)) << 1 |
+                                       (uint)(bVar17 == bVar5)) << 1 | (uint)(bVar18 == bVar5)) << 1
+                                     | (uint)(bVar19 == bVar5)) << 1 | (uint)(bVar20 == bVar5)) << 1
+                                   | (uint)(bVar21 == bVar5)) << 1 | (uint)(bVar22 == bVar5)) << 1 |
+                                 (uint)(bVar23 == bVar5)) << 1 | (uint)(bVar24 == bVar5)) << 1 |
+                               (uint)(bVar25 == bVar5)) << 1 | (uint)(bVar26 == bVar5)) << 1 |
+                             (uint)(bVar27 == bVar5)) << 1 | (uint)(bVar28 == bVar5)) << 1 |
+                           (uint)(bVar29 == bVar5)) << 1 | (uint)(bVar30 == bVar5)) << 1 |
+                         (uint)(bVar31 == bVar5)) << 1 | (uint)(bVar32 == bVar5)) << 1 |
+                       (uint)(bVar33 == bVar5)) << 1 | (uint)(bVar34 == bVar5)) << 1 |
+                     (uint)(bVar35 == bVar5)) << 1 | (uint)(bVar36 == bVar5)) << 1 |
+                   (uint)(bVar37 == bVar5)) << 1 | (uint)(bVar38 == bVar5)) << 1 |
+                  (uint)(bVar39 == bVar5),uVar4 + bVar6);
+}
+
+
+-- callers:
+   8c0a30a2
+   8c01f31a
+   8c09eeb2
+   8c0156ec
+   8c0fb2fa
+   8c0166c2
+   8c0157c8
+   8c0167b8
+   8c01f388
+   8c09ef74
+   8c0a31cc
+   8c0fb348
+   8c093b9a
+   8c093c14
+   8c01dd72
+   8c01de10
+   8c07eef0
+   8c07f230
+   8c07ef5c
+   8c07ee5a
+
+//////// FUN_8c0111b4 @ 8c0111b4 body 8c0111b4-8c0111f3
+
+/* WARNING: Removing unreachable block (ram,0x8c0111d2) */
+
+void FUN_8c0111b4(undefined4 param_1,undefined1 param_2)
+
+{
+  if ((*PTR_DAT_8c0112ac != '\0') && (*PTR_DAT_8c0112b0 != '\0')) {
+    FUN_8c011084(1,param_1,&param_2,&param_2);
+  }
+  return;
+}
+
+
+-- callers:
+   8c0110d0
+   8c15a67e
+   8c15a692
+   8c15a69e
+   8c15a6a8
+   8c16040c
+   8c16045a
+   8c1604f8
+   8c1604d6
+   8c1639f2
+   8c162828
+   8c15c47e
+   8c15c5ce
+   8c1634c6
+   8c15a6e0
+   8c15c568
+   8c15c624
+   8c160498
+   8c162974
+   8c163644
+   8c163a48
+   8c15f2c8
+   8c15f90e
+   8c15f97e
+   8c15f9e0
+   8c15fa3e
+   8c15faa0
+   8c15fb06
+   8c15f886
+   8c15fc8c
+   8c15fcec
+   8c15fbb8
+   8c15f1e0
+   8c163418
+   8c163278
+   8c16359e
+   8c1635a6
+   8c1635c6
+   8c1635fa
+   8c1635e8
+   8c15fc42
+   8c15f34c
+   8c16325e
+   8c163580
+   8c159bd4
+   8c15f0f8
+   8c15f204
+   8c15f33c
+   8c15f7cc
+   8c15fbec
+   8c15fd44
+   8c163314
+   8c16347c
+   8c15fe62
+   8c1600e6
+   8c15bd7c
+   8c15bf08
+   8c15bee6
+   8c15bdc4
+   8c15be18
+   8c15be44
+   8c15beb4
+   8c15bec0
+   8c15beda
+   8c15e78e
+   8c15e2dc
+   8c15e532
+   8c15e412
+   8c15ef40
+   8c15f014
+   8c15f06e
+   8c15f098
+   8c164856
+   8c1644f6
+   8c1625ec
+   8c162736
+   8c15c224
+   8c15c23a
+   8c1650d2
+   8c1646e6
+   8c164744
+   8c15be74
+   8c15c3cc
+   8c15e390
+   8c15e4b4
+   8c15e604
+   8c15e85c
+   8c15ef9c
+   8c1601e8
+   8c162784
+   8c164520
+   8c1647cc
+   8c1648e8
+   8c165198
+   8c15b926
+   8c15ba32
+   8c15deea
+   8c15ddbe
+   8c15ddee
+   8c15dd06
+   8c15dc5a
+   8c15db56
+   8c15db78
+   8c15db9a
+   8c15dbee
+   8c15d994
+   8c165368
+   8c15d8a0
+   8c15d81e
+   8c15d53a
+   8c15d48a
+   8c15d4f4
+   8c15d51a
+   8c15d440
+   8c15d3dc
+   8c15d402
+   8c15d340
+   8c15d282
+   8c15d130
+   8c16300e
+   8c165e5a
+   8c165e84
+   8c165eae
+   8c165ed8
+   8c15bf3e
+   8c15bf6a
+   8c15bf76
+   8c15c166
+   8c15c01e
+   8c16310c
+   8c15c13c
+   8c15c0d8
+   8c15c0a4
+   8c15c070
+   8c15bf88
+   8c1655e6
+   8c15f4cc
+   8c15f4e4
+   8c1653be
+   8c16547a
+   8c16546c
+   8c165536
+   8c165710
+   8c165736
+   8c16579e
+   8c16580a
+   8c165b10
+   8c165b34
+   8c165b62
+   8c162948
+   8c165b7c
+   8c165bb8
+   8c162a6e
+   8c165bdc
+   8c162f48
+   8c162f6c
+   8c165896
+   8c1658bc
+   8c1658e0
+   8c165912
+   8c165932
+   8c165956
+   8c16598a
+   8c165cc8
+   8c165da2
+   8c165dd6
+   8c16492a
+   8c16494c
+   8c16496e
+   8c164990
+   8c1649de
+   8c164fba
+   8c15cef4
+   8c15cebe
+   8c15ce56
+   8c15cc4c
+   8c15cb8a
+   8c15cbaa
+   8c15cbca
+   8c15cc08
+   8c15cb18
+   8c15ca20
+   8c15c890
+   8c15c786
+   8c15c7aa
+   8c15b950
+   8c15ba94
+   8c15bfc4
+   8c15c108
+   8c15c678
+   8c15d090
+   8c15df44
+   8c15f570
+   8c162c58
+   8c16311c
+   8c164a10
+   8c16502c
+   8c165438
+   8c165680
+   8c165830
+   8c165a74
+   8c165cd8
+   8c165f58
+   8c159a2a
+   8c159a1a
+   8c162d32
+   8c162b5c
+   8c15fb64
+   8c159afc
+   8c162ea8
+   8c15df96
+   8c15e074
+   8c166f9c
+   8c15f696
+   8c15f6cc
+   8c166fbc
+   8c166fc4
+   8c167016
+   8c16701e
+   8c16703a
+   8c16704e
+   8c167062
+   8c167080
+   8c165c28
+   8c165c42
+   8c165c64
+   8c15982c
+   8c159840
+   8c15987a
+   8c15991c
+   8c15ad28
+   8c15ae24
+   8c164c50
+   8c165fd0
+   8c1661fa
+   8c1662ee
+   8c1660d4
+   8c1661ba
+   8c16638e
+   8c1662ae
+   8c166090
+   8c16616c
+   8c164bbe
+   8c164bfa
+   8c15ad3c
+   8c15ac42
+   8c15acb4

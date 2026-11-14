@@ -1,0 +1,44 @@
+{"l10n":1,"kind":"main","style":"compact","n":43,"final_newline":true,"src":"FLOW_PRG/SPT_CLUB.BIN"}
+{"id":"be2c","jah":"76203f8daae6a146f220a7ba083271b2","en":"Now we have a Supporters' Club, its\nannual running costs will be set\nat the start of each year.","max_bytes":79,"refs":2,"ctx":"ptr@10e0 xrefs=2"}
+{"id":"be7b","jah":"5fd1dda454bfa359c3131b8ad10eda62","en":"Running costs pay for newsletters,\nevents, merchandise and more for\nSupporters' Club members.","max_bytes":97,"refs":2,"ctx":"ptr@eb4 xrefs=2"}
+{"id":"bedc","jah":"420be0f05ad9764fb55dd4ea4094bd15","en":"The higher the running costs, the\nmore members we can serve well.","max_bytes":74,"refs":2,"ctx":"ptr@ebc xrefs=2"}
+{"id":"bf26","jah":"8e8dcbbeececaa1aff311e814e5066ba","en":"Set costs for all 12 months, January\nto December. One month's share is\ndeducted at each month end. Take note.","max_bytes":97,"refs":2,"ctx":"ptr@fe4 xrefs=2"}
+{"id":"bf87","jah":"ecdb0adb7b83b74f95551c578acf8cce","en":"Please set this year's annual running\ncosts. @Y/%m@ is suitable.\nOne twelfth is deducted every month.","max_bytes":99,"refs":3,"ctx":"ptr@ff0 xrefs=3"}
+{"id":"bfea","jah":"ad907f7e4025783811db2a2b8be511f2","en":"I think we'll run short of funds...\nThat amount is a bit much, I'm afraid.\nPlease enter it again.","max_bytes":101,"refs":2,"ctx":"tbl@328[0/3] xrefs=2"}
+{"id":"c04f","jah":"eafff6251e17e168b4e0b8f8ebf4477d","en":"That's far too low, surely.\nIf funds are tight it can't be helped,\nbut are you sure about this?","max_bytes":109,"refs":2,"ctx":"tbl@328[1/3] xrefs=2"}
+{"id":"c0bc","jah":"c5b4bb190e8a8e73d2b2b419c5012bc4","en":"No Supporters' Club recruiting\nthis year. I worry about the\neffect on our popularity...","max_bytes":91,"refs":2,"ctx":"tbl@328[2/3] xrefs=2"}
+{"id":"c117","jah":"5e750ad916e6633a80a429640e207b96","en":"...That's a bit low, I think.\nMembership is expected to fall.\nAre you sure about this?","max_bytes":89,"refs":2,"ctx":"ptr@338 xrefs=2"}
+{"id":"c170","jah":"559ae83a8a29ad9ceb7369a96535bf89","en":"This year's annual running costs are\nset at @Y/%m@.\nThe effect on popularity worries me.","max_bytes":73,"refs":2,"ctx":"ptr@33c xrefs=2"}
+{"id":"c1b9","jah":"4ec5aa73065b07c6ee2049090f5fa768","en":"The amount seems slightly short.\nI doubt membership will grow.\nAre you sure about this?","max_bytes":91,"refs":2,"ctx":"ptr@344 xrefs=2"}
+{"id":"c214","jah":"54a0084dbfc28bf066a0b23769e120d9","en":"This year's annual running costs are\nset at @Y/%m@.\nI wonder how many will sign up.","max_bytes":79,"refs":2,"ctx":"ptr@348 xrefs=2"}
+{"id":"c263","jah":"7edfaf7ecb35f368b88be10525741140","en":"That seems a fair amount, I suppose.\nMembership should stay about the same.\nAre you sure about this?","max_bytes":97,"refs":2,"ctx":"tbl@428[0/6] xrefs=2"}
+{"id":"c2c4","jah":"5d4db58f28a68e0845f1121e3a2113c6","en":"This year's annual running costs are\nset at @Y/%m@.\nI can't wait to see how many join!","max_bytes":79,"refs":2,"ctx":"tbl@428[1/6] xrefs=2"}
+{"id":"c313","jah":"e0afaadbec0ddafde1d2442efe626d69","en":"That's plenty, I'd say.\nMembership looks set to grow.\nAre you sure about this?","max_bytes":87,"refs":2,"ctx":"tbl@428[2/6] xrefs=2"}
+{"id":"c36a","jah":"030dedc945fdb9554b446b832fdfcb2a","en":"This year's annual running costs are\nset at @Y/%m@.\nI hope plenty of new members join.","max_bytes":75,"refs":2,"ctx":"tbl@428[3/6] xrefs=2"}
+{"id":"c3b5","jah":"9687db79f22e15c4e665eb131640c059","en":"That feels like rather a lot...\nMembers won't complain about more, but\nare you sure about this?","max_bytes":105,"refs":2,"ctx":"tbl@428[4/6] xrefs=2"}
+{"id":"c41e","jah":"3635aca17a24df710afb47e67ffa0fa9","en":"This year's annual running costs are\nset at @Y/%m@. I can't wait\nto see how many new members join.","max_bytes":86,"refs":2,"ctx":"tbl@428[5/6] xrefs=2"}
+{"id":"c474","jah":"c276c1ba7473d5f46239f74f11656967","en":"Supporters' Club Costs:","max_bytes":32,"refs":1,"ctx":"ptr@1e4"}
+{"id":"c494","jah":"ee7bc1d60c59be192441204865ad91be","en":"Football Pop:%d","max_bytes":16,"refs":2,"ctx":"ptr@208 xrefs=2"}
+{"id":"c4b0","jah":"7bbef0ca7ee5f9bd0ad35bd0606e246e","en":"Cost: Sup<3C>%d> x12 x1000 x(1000 x(31/\nPop<3C>%d> /100 + 1) = Cost<3C>%d>","max_bytes":92,"refs":1,"ctx":"ptr@318"}
+{"id":"c50c","jah":"e2f8b28f5b296d4c2e8ab20cc76051ae","en":"Ratio: %d00 man / %d = %f","max_bytes":28,"refs":1,"ctx":"ptr@31c"}
+{"id":"c538","jah":"258d910eb80d4a9a5df373c5d7c48a49","en":"Rec. Budget:%d","max_bytes":16,"refs":1,"ctx":"ptr@13ec"}
+{"id":"c6ec","jah":"9e7d7f5a91c0ed851ada6f3a7fde11ed","en":"Expression %d","max_bytes":16,"refs":1,"ctx":"ptr@2964"}
+{"id":"c6fc","jah":"bf901b65b51e0860dba2b43242bbd483","en":"Expression textures not loaded","max_bytes":36,"refs":1,"ctx":"ptr@2bf0"}
+{"id":"c7a0","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@327c"}
+{"id":"c884","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@464c"}
+{"id":"ceb8","jah":"51a0d723363108c021cafa9f360b309f","en":"ktmascot.c Invalid team number:%d","max_bytes":36,"refs":1,"ctx":"ptr@6808"}
+{"id":"d1a4","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@8570","skip":true}
+{"id":"d1a8","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@8578[0/3]","skip":true}
+{"id":"d1b0","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@8578[1/3]","skip":true}
+{"id":"d1b4","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@8578[2/3]","skip":true}
+{"id":"d1b8","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@d174[0/11]"}
+{"id":"d1bc","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@d174[1/11]"}
+{"id":"d1c0","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@d174[2/11]"}
+{"id":"d1c4","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@d174[3/11]"}
+{"id":"d1c8","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@d174[4/11]"}
+{"id":"d1cc","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@d174[5/11]"}
+{"id":"d1d0","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@d174[6/11]"}
+{"id":"d1d4","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@d174[7/11]"}
+{"id":"d1d8","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@d174[8/11]"}
+{"id":"d1dc","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@d174[9/11]"}
+{"id":"d1e0","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@d174[10/11]"}

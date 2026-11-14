@@ -1,0 +1,11 @@
+r=1.50 overflow relocatable strings 76577, bytes 3299549, unique ja 20799, unique bytes 1909468
+  strings present in >= 2 overlays:   5325 unique, bank bytes   335663, strings served   57940 (75.7% of all overflow strings), bytes served  1412594
+  strings present in >= 3 overlays:   2713 unique, bank bytes    80763, strings served   52658 (68.8% of all overflow strings), bytes served   898869
+  strings present in >= 5 overlays:   1673 unique, bank bytes    32918, strings served   48215 (63.0% of all overflow strings), bytes served   706806
+  strings present in >=10 overlays:   1625 unique, bank bytes    31549, strings served   47884 (62.5% of all overflow strings), bytes served   698040
+  strings present in >=20 overlays:   1303 unique, bank bytes    14225, strings served   43301 (56.5% of all overflow strings), bytes served   484380
+  strings present in >=50 overlays:     66 unique, bank bytes     1009, strings served    3759 (4.9% of all overflow strings), bytes served    62086
+budget   16612: stores  1379 unique entries (16611 B), serves  44826 overflow strings = 58.5% of strings, 16.6% of overflow bytes
+budget  150263: stores  3550 unique entries (150263 B), serves  55000 overflow strings = 71.8% of strings, 33.9% of overflow bytes
+budget  215799: stores  3872 unique entries (215796 B), serves  55644 overflow strings = 72.7% of strings, 37.9% of overflow bytes
+budget  300000: stores  4187 unique entries (299998 B), serves  56274 overflow strings = 73.5% of strings, 43.0% of overflow bytes

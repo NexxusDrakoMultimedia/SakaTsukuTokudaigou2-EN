@@ -1,0 +1,62 @@
+---- 8c160240-8c1602b8
+8c160240: jsr @r3
+8c160242: _nop
+8c160244: mov.l 0x8c160328,r2
+8c160246: jsr @r2
+8c160248: _nop
+8c16024a: mov.l 0x8c16032c,r3
+8c16024c: jsr @r3
+8c16024e: _nop
+8c160250: mov.l 0x8c160334,r2
+8c160252: mov.l 0x8c160330,r4
+8c160254: jsr @r2
+8c160256: _nop
+8c160258: mov.l 0x8c160340,r4
+8c16025a: mov.l 0x8c16033c,r6
+8c16025c: mov.l 0x8c160338,r14
+8c16025e: jsr @r14
+8c160260: _mov #0x0,r5
+8c160262: mov.l 0x8c160344,r13
+8c160264: jsr @r13
+8c160266: _mov #0x2,r4
+8c160268: mov.l 0x8c16034c,r6
+8c16026a: mov.l 0x8c160348,r4
+8c16026c: jsr @r14
+8c16026e: _mov r0,r5
+8c160270: jsr @r13
+8c160272: _mov #0x2,r4
+8c160274: mov.l 0x8c160354,r6
+8c160276: mov.l 0x8c160350,r4
+8c160278: jsr @r14
+8c16027a: _mov r0,r5
+8c16027c: jsr @r13
+8c16027e: _mov #0x2,r4
+8c160280: mov.l 0x8c16035c,r6
+8c160282: mov.l 0x8c160358,r4
+8c160284: jsr @r14
+8c160286: _mov r0,r5
+8c160288: mov.l 0x8c160360,r3
+8c16028a: jsr @r3
+8c16028c: _nop
+8c16028e: mov.l 0x8c160364,r2
+8c160290: jsr @r2
+8c160292: _nop
+8c160294: mov.l 0x8c160368,r3
+8c160296: mov r15,r4
+8c160298: jsr @r3
+8c16029a: _add #0x4,r4
+8c16029c: mov.l 0x8c16036c,r2
+8c16029e: mov r15,r4
+8c1602a0: mov r15,r5
+8c1602a2: jsr @r2
+8c1602a4: _add #0x4,r4
+8c1602a6: mov.l 0x8c160370,r3
+8c1602a8: jsr @r3
+8c1602aa: _mov.l @r15,r4
+8c1602ac: add #0x10,r15
+8c1602ae: lds.l @r15+,PR
+8c1602b0: mov.l @r15+,r12
+8c1602b2: mov.l @r15+,r13
+8c1602b4: rts
+8c1602b6: _mov.l @r15+,r14
+8c1602b8: sts.l PR,@-r15

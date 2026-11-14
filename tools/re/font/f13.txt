@@ -1,0 +1,100 @@
+
+//////// FUN_8c15eede @ 8c15eede body 8c15eede-8c15f0b5
+
+/* WARNING: Removing unreachable block (ram,0x8c15ef6e) */
+
+int FUN_8c15eede(undefined4 param_1,undefined4 param_2,int param_3,int param_4)
+
+{
+  char *pcVar1;
+  int *piVar2;
+  code *pcVar3;
+  code *pcVar4;
+  undefined *puVar5;
+  undefined *puVar6;
+  int iVar7;
+  int iVar8;
+  int local_34;
+  int local_30;
+  int local_2c;
+  undefined4 local_28;
+  int local_24;
+  
+  local_30 = param_3;
+  local_2c = param_4;
+  local_28 = param_2;
+  iVar7 = (*(code *)PTR_FUN_8c15ef90)();
+  pcVar1 = PTR_DAT_8c15efa8;
+  piVar2 = (int *)PTR_DAT_8c15efa4;
+  pcVar3 = (code *)PTR_FUN_8c15efa0;
+  pcVar4 = (code *)PTR_FUN_8c15ef9c;
+  if (iVar7 == 1) {
+    (*(code *)PTR_FUN_8c15ef94)();
+    (*(code *)PTR_FUN_8c15ef98)();
+    pcVar1 = PTR_DAT_8c15efa8;
+    piVar2 = (int *)PTR_DAT_8c15efa4;
+    pcVar3 = (code *)PTR_FUN_8c15efa0;
+    pcVar4 = (code *)PTR_FUN_8c15ef9c;
+  }
+  do {
+    iVar7 = (*(code *)PTR_FUN_8c15efac)(param_1,local_28);
+    puVar6 = PTR_FUN_8c15efc4;
+    puVar5 = PTR_LAB_8c15efc0;
+    if (iVar7 == 0) {
+      (*pcVar3)(*(undefined4 *)(*piVar2 + 0x10),0xffffffff,DAT_8c15efb0,param_1);
+      (*pcVar3)(*(undefined4 *)(*piVar2 + 0x10),0xffffffff,DAT_8c15efb8,PTR_s_OPEN_ERROR_8c15efb4);
+      (*pcVar4)(0,PTR_s_FILE_OPEN_ERROR___s__8c15efbc,param_1);
+      return 0;
+    }
+    *pcVar1 = *pcVar1 + '\x01';
+    (*(code *)puVar6)(iVar7,puVar5,param_1);
+    (*(code *)PTR_FUN_8c15efc8)(iVar7,&local_34);
+    *(int *)PTR_DAT_8c15efcc = local_34;
+    local_34 = local_34 + DAT_8c15ef8e >> 0xb;
+    if (local_30 == 0) {
+      if (local_2c == 0) {
+        iVar8 = (*(code *)PTR_FUN_8c15efd0)(local_34 << 0xb);
+      }
+      else {
+        iVar8 = (**(code **)PTR_PTR_8c15f0b8)(1,local_34 << 0xb,local_2c);
+      }
+      if (iVar8 == 0) {
+        (*pcVar3)(*(undefined4 *)(*piVar2 + 0x10),0xffffffff,DAT_8c15f0bc,param_1);
+        (*pcVar3)(*(undefined4 *)(*piVar2 + 0x10),0xffffffff,DAT_8c15f0c4,
+                  PTR_s_MEMORY_RESERVE_ERROR_8c15f0c0);
+        (*pcVar4)(0,PTR_s_FILE_MEMORY_RESERVE_ERROR___s____8c15f0c8,param_1,local_34 << 0xb);
+        return 0;
+      }
+    }
+    else {
+      FUN_8c15f0f4(local_30,*(undefined4 *)PTR_DAT_8c15f0cc,param_1);
+      iVar8 = local_30;
+    }
+    local_24 = (*(code *)PTR_FUN_8c15f0d0)(iVar7,local_34,iVar8);
+    (*(code *)PTR_FUN_8c15f0d4)(iVar7);
+    *pcVar1 = *pcVar1 + -1;
+    if (local_24 == 0) {
+      (*pcVar4)(0x12,PTR_s_READ_FROM_FILE___s___x_8c15f0f0,param_1,iVar8);
+      return iVar8;
+    }
+    if (local_30 == 0) {
+      if (local_2c == 0) {
+        (*(code *)PTR_FUN_8c15f0d8)(iVar8);
+      }
+      else {
+        (**(code **)PTR_PTR_8c15f0dc)(iVar8,local_2c);
+      }
+    }
+    (*pcVar4)(0x12,PTR_s_READ_FROM_FILE_RETRY___s__8c15f0e0,param_1);
+    iVar7 = (*(code *)PTR_FUN_8c15f0e4)();
+    if (iVar7 == 1) {
+      (*(code *)PTR_FUN_8c15f0e8)();
+      (*(code *)PTR_FUN_8c15f0ec)();
+    }
+  } while( true );
+}
+
+
+-- callers:
+   8c15eeba
+   8c15eeda

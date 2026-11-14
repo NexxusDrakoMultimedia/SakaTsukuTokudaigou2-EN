@@ -1,0 +1,592 @@
+file	kind	count	detail
+0GDTEX.PVR	pvr-file	1	
+1ST_READ.BIN	other	0	GBIX=2 PVRT=13
+2_DP.BIN	other	0	GBIX=2 PVRT=8
+ATFIRST/BAR.TBD	tbd-file	2	comp=2:2
+ATFIRST/FACEMDUL.DAT	other	0	GBIX=63 PVRT=3
+ATFIRST/HELP.DAT	tbd-file	1	comp=2:1
+ATFIRST/LOGO.DAT	tbd-file	5	comp=1:2,2:3
+ATFIRST/SECFTEX0.ZAR	zsarc	2	tbd-member -nc--=2 
+ATFIRST/SHTEX0.ZAR	zsarc	7	tbd-member -nc--=7 
+ATFIRST/TITLE.DAT	tbd-file	10	comp=1:5,2:5
+ATFIRST/TITLEM.DAT	tbd-file	18	comp=1:6,2:12
+DPTEX/C_M_S.PVR	pvr-file	1	
+DPTEX/JYOUCYU0.PVR	pvr-file	1	
+DPTEX/JYOUCYU1.PVR	pvr-file	1	
+DPTEX/JYOUCYU2.PVR	pvr-file	1	
+DPTEX/OPTION01.PVR	pvr-file	1	
+DPTEX/OPTION02.PVR	pvr-file	1	
+DPTEX/OPTION03.PVR	pvr-file	1	
+DPTEX/OPTION04.PVR	pvr-file	1	
+DPTEX/SKB_BASE.PVR	pvr-file	1	
+DPTEX/SKB_EISU.PVR	pvr-file	1	
+DPTEX/SKB_KANA.PVR	pvr-file	1	
+DPTEX/SKB_V102.PVR	pvr-file	1	
+DPTEX/SU_ICO2.PVR	pvr-file	1	
+DPTEX/SU_ICON.PVR	pvr-file	1	
+DPTEX/TAG_SU.PVR	pvr-file	1	
+DPTEX/TAG_SU2.PVR	pvr-file	1	
+DPTEX/VMSPART2.PVR	pvr-file	1	
+DPTEX/VMSPARTS.PVR	pvr-file	1	
+DPTEX/WALLPAPER.PVR	pvr-file	1	
+DPTEX/WALLPAPER00.PVR	pvr-file	1	
+DPTEX/WALLPAPER01.PVR	pvr-file	1	
+DPTEX/WALLPAPER02.PVR	pvr-file	1	
+DPTEX/WALLPAPER03.PVR	pvr-file	1	
+ETC_DATA/BACKUP.TBD	tbd-file	5	comp=1:1,2:4
+ETC_DATA/BAR.TBD	tbd-file	2	comp=2:2
+ETC_DATA/BG_R1.TBD	tbd-file	5	comp=2:5
+ETC_DATA/BG_R2.TBD	tbd-file	5	comp=2:5
+ETC_DATA/BG_R3.TBD	tbd-file	5	comp=2:5
+ETC_DATA/BMMAIN.TBD	tbd-file	4	comp=1:2,2:2
+ETC_DATA/BPMATCH.TBD	tbd-file	6	comp=1:2,2:4
+ETC_DATA/CAP_SLCT.DAT	tbd-file	4	comp=2:4
+ETC_DATA/CE_TEX.TBD	tbd-file	19	comp=1:1,2:18
+ETC_DATA/CE_VS.TBD	tbd-file	5	comp=2:5
+ETC_DATA/CHALDANI.TBD	tbd-file	21	comp=1:1,2:20
+ETC_DATA/CHALMODE.TBD	tbd-file	7	comp=1:1,2:6
+ETC_DATA/CHALMODE.ZAR	zsarc	4	tbd-member -bz--=1 tbd-member -nc--=3 
+ETC_DATA/CH_DANI.ZAR	zsarc	22	tbd-member -nc--=22 
+ETC_DATA/CLUBHOUS.DAT	tbd-file	26	comp=0:7,2:19
+ETC_DATA/CLUB_DAI.ZAR	zsarc	3	tbd-member -nc--=3 
+ETC_DATA/CMAS.TBD	tbd-file	2	comp=2:2
+ETC_DATA/CPNAMEB.TBD	tbd-file	6	comp=0:6
+ETC_DATA/CPNAMES.TBD	tbd-file	5	comp=0:5
+ETC_DATA/CSAVE2.TBD	tbd-file	3	comp=1:2,2:1
+ETC_DATA/DATAROOM.TBD	tbd-file	27	comp=0:3,1:4,2:20
+ETC_DATA/DCEMAIN.TBD	tbd-file	2	comp=1:1,2:1
+ETC_DATA/DCE_TEX.ZAR	tbd-file	7	comp=1:2,2:5
+ETC_DATA/DRMENU.ZAR	zsarc	4	tbd-member -nc--=4 
+ETC_DATA/DRSDENDO.ZAR	zsarc	3	tbd-member -nc--=3 
+ETC_DATA/DRSGP.TBD	tbd-file	6	comp=2:6
+ETC_DATA/DRSGPPVR.ZAR	zsarc	43	tbd-member -nc--=43 
+ETC_DATA/DRSSRANK.TBD	tbd-file	10	comp=1:1,2:9
+ETC_DATA/DRSUBC1.TBD	tbd-file	6	comp=2:6
+ETC_DATA/DRSUBC2.TBD	tbd-file	8	comp=1:1,2:7
+ETC_DATA/DRSUBC3.TBD	tbd-file	6	comp=2:6
+ETC_DATA/DRSUBOC.TBD	tbd-file	5	comp=2:5
+ETC_DATA/DRSUBR1.TBD	tbd-file	7	comp=2:7
+ETC_DATA/DRSUBS1.TBD	tbd-file	9	comp=2:9
+ETC_DATA/DRSUBS2.TBD	tbd-file	6	comp=2:6
+ETC_DATA/DR_TRO.ZAR	zsarc	22	tbd-member -nc--=22 
+ETC_DATA/D_ROOM.ZAR	zsarc	32	tbd-member -nc--=32 
+ETC_DATA/ENDOPT.TBD	tbd-file	8	comp=1:1,2:7
+ETC_DATA/ESTABLIS.ARC	other	0	tbd-tables@0x9800,0x23800,0x42000,0x66000,0x82000,0xa6800
+ETC_DATA/ESTABLIS.DAT	tbd-file	4	comp=2:4
+ETC_DATA/ESTAICON.ZAR	zsarc	3	tbd-member -nc--=3 
+ETC_DATA/GAMEOVER.ZAR	zsarc	5	tbd-member -nc--=5 
+ETC_DATA/GETREPBG.TBD	tbd-file	4	comp=2:4
+ETC_DATA/GRAPH.TBD	tbd-file	1	comp=2:1
+ETC_DATA/GRICON.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/GROUND.DAT	tbd-file	6	comp=2:6
+ETC_DATA/G_INCOME.DAT	tbd-file	6	comp=2:6
+ETC_DATA/G_RESULT.DAT	tbd-file	6	comp=1:3,2:3
+ETC_DATA/HELP.DAT	tbd-file	1	comp=2:1
+ETC_DATA/INVEST.DAT	tbd-file	6	comp=2:6
+ETC_DATA/JSCEVENT.TBD	tbd-file	7	comp=2:7
+ETC_DATA/KENPIC.BIN	tbd-file	1	comp=2:1
+ETC_DATA/LL_MAN.TBD	tbd-file	24	comp=1:1,2:23
+ETC_DATA/LOAD.TBD	tbd-file	5	comp=1:1,2:4
+ETC_DATA/LOCAL.ZAR	zsarc	5	tbd-member -nc--=5 
+ETC_DATA/LOC_GAME.TBD	tbd-file	3	comp=2:3
+ETC_DATA/LOGO.DAT	tbd-file	5	comp=1:2,2:3
+ETC_DATA/MAPBG.TBD	tbd-file	8	comp=1:3,2:5
+ETC_DATA/MCH01A.TBD	tbd-file	36	comp=0:1,1:2,2:33
+ETC_DATA/MCH01S.TBD	tbd-file	36	comp=0:2,1:2,2:32
+ETC_DATA/MCH01W.TBD	tbd-file	36	comp=0:1,1:1,2:34
+ETC_DATA/MCH02A.TBD	tbd-file	47	comp=0:3,1:5,2:39
+ETC_DATA/MCH02S.TBD	tbd-file	47	comp=0:4,1:5,2:38
+ETC_DATA/MCH02W.TBD	tbd-file	47	comp=0:3,1:5,2:39
+ETC_DATA/MCH03A.TBD	tbd-file	38	comp=0:6,1:5,2:27
+ETC_DATA/MCH03S.TBD	tbd-file	38	comp=0:7,1:5,2:26
+ETC_DATA/MCH03W.TBD	tbd-file	38	comp=0:6,1:5,2:27
+ETC_DATA/MCH04A.TBD	tbd-file	44	comp=0:2,1:8,2:34
+ETC_DATA/MCH04S.TBD	tbd-file	44	comp=0:3,1:8,2:33
+ETC_DATA/MCH04W.TBD	tbd-file	44	comp=0:2,1:8,2:34
+ETC_DATA/MCH05A.TBD	tbd-file	53	comp=0:4,1:5,2:44
+ETC_DATA/MCH05S.TBD	tbd-file	53	comp=0:5,1:5,2:43
+ETC_DATA/MCH05W.TBD	tbd-file	53	comp=0:4,1:5,2:44
+ETC_DATA/MCH06A.TBD	tbd-file	48	comp=0:4,1:4,2:40
+ETC_DATA/MCH06S.TBD	tbd-file	48	comp=0:5,1:4,2:39
+ETC_DATA/MCH06W.TBD	tbd-file	48	comp=0:4,1:4,2:40
+ETC_DATA/MCH07A.TBD	tbd-file	52	comp=0:15,1:7,2:30
+ETC_DATA/MCH07S.TBD	tbd-file	52	comp=0:15,1:7,2:30
+ETC_DATA/MCH07W.TBD	tbd-file	52	comp=0:15,1:7,2:30
+ETC_DATA/MEETING.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/MINILOGO.TBD	tbd-file	37	comp=1:37
+ETC_DATA/MONTH.TBD	tbd-file	14	comp=1:6,2:8
+ETC_DATA/MON_INST.TBD	tbd-file	3	comp=2:3
+ETC_DATA/NEWMONTH.ZAR	zsarc	4	tbd-member -nc--=4 
+ETC_DATA/NEWSAVE.TBD	tbd-file	2	comp=0:1,1:1
+ETC_DATA/NEWSOPED.ZAR	zsarc	6	tbd-member -nc--=6 
+ETC_DATA/NRICON.ZAR	zsarc	8	tbd-member -nc--=8 
+ETC_DATA/N_ENTRY.DAT	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/ONISTA.TBD	tbd-file	1	comp=0:1
+ETC_DATA/ONISTA2.TBD	tbd-file	1	comp=0:1
+ETC_DATA/ONISTA3.TBD	tbd-file	1	comp=0:1
+ETC_DATA/ONISTA4.TBD	tbd-file	1	comp=0:1
+ETC_DATA/OPTION.DAT	tbd-file	3	comp=2:3
+ETC_DATA/PASSWD.TBD	tbd-file	2	comp=2:2
+ETC_DATA/PLATE.ZAR	zsarc	17	tbd-member -nc--=17 
+ETC_DATA/PLNUMSET.DAT	tbd-file	4	comp=2:4
+ETC_DATA/PL_EDIT.ZAR	zsarc	4	tbd-member -nc--=4 
+ETC_DATA/PUTIL.TBD	tbd-file	1	comp=1:1
+ETC_DATA/SCHE1.TBD	tbd-file	10	comp=1:2,2:8
+ETC_DATA/SECFTEX0.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SECFTEX1.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SECFTEX2.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SECFTEX3.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SECFTEX4.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SECFTEX5.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SECFTEX6.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SECFTEX7.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SECFTEX8.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/SEC_PR00.TBD	tbd-file	1	comp=2:1
+ETC_DATA/SEC_PR01.TBD	tbd-file	1	comp=2:1
+ETC_DATA/SEC_PR02.TBD	tbd-file	1	comp=2:1
+ETC_DATA/SEC_PR03.TBD	tbd-file	1	comp=2:1
+ETC_DATA/SEC_PR04.TBD	tbd-file	1	comp=2:1
+ETC_DATA/SELNAT.TBD	tbd-file	6	comp=2:6
+ETC_DATA/SHINJIN.TBD	tbd-file	5	comp=1:1,2:4
+ETC_DATA/SHTEX.ZAR	zsarc	6	tbd-member -nc--=6 
+ETC_DATA/SHTEX0.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SHTEX1.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SHTEX2.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SHTEX3.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SHTEX4.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SHTEX5.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SHTEX6.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SHTEX7.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SHTEX8.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/SH_ICON.ZAR	zsarc	5	tbd-member -nc--=5 
+ETC_DATA/SPF_READ.DAT	tbd-file	4	comp=2:4
+ETC_DATA/SPONSOR.DAT	tbd-file	5	comp=2:5
+ETC_DATA/SPONSOR2.DAT	tbd-file	1	comp=1:1
+ETC_DATA/SPT_CLUB.TBD	tbd-file	6	comp=2:6
+ETC_DATA/SP_DATA.DAT	tbd-file	2	comp=2:2
+ETC_DATA/SS_TEX.ZAR	zsarc	5	tbd-member -nc--=5 
+ETC_DATA/STADIUM.DAT	tbd-file	26	comp=2:26
+ETC_DATA/SUPPORT.ZAR	zsarc	14	tbd-member -nc--=14 
+ETC_DATA/SYUSI.TBD	tbd-file	1	comp=2:1
+ETC_DATA/TICKET.TBD	tbd-file	2	comp=1:2
+ETC_DATA/TITLE.DAT	tbd-file	10	comp=1:5,2:5
+ETC_DATA/TITLE0.DAT	tbd-file	36	comp=2:36
+ETC_DATA/TITLE1.DAT	tbd-file	36	comp=2:36
+ETC_DATA/TITLE2.DAT	tbd-file	36	comp=2:36
+ETC_DATA/TITLE3.DAT	tbd-file	36	comp=2:36
+ETC_DATA/TITLEM.DAT	tbd-file	18	comp=1:6,2:12
+ETC_DATA/TOWNDATA.TBD	tbd-file	5	comp=1:1,2:4
+ETC_DATA/TOWNSEL.TBD	tbd-file	3	comp=2:3
+ETC_DATA/TV_EVENT.ZAR	zsarc	7	tbd-member -nc--=7 
+ETC_DATA/VMCOM.ZAR	zsarc	2	tbd-member -nc--=2 
+ETC_DATA/YEAR.TBD	tbd-file	11	comp=0:1,1:4,2:6
+ETC_DATA/YEAR_PT.TBD	tbd-file	1	comp=2:1
+EVENT/E003.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E005.DAT	zsarc	8	tbd-member -nc--=8 
+EVENT/E006.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/E007.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E008.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E009.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E010.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/E011.DAT	zsarc	5	other -nc--=4 tbd-member -nc--=1 
+EVENT/E012.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E014.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E016.DAT	zsarc	3	other -nc--=1 tbd-member -nc--=2 
+EVENT/E017.DAT	zsarc	10	other -nc--=6 tbd-member -nc--=4 
+EVENT/E019.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E020.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E023.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E024.DAT	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+EVENT/E025.DAT	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+EVENT/E027.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E028.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E029.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E030.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E031.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E032.DAT	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+EVENT/E034.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/E035.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/E035K.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/E036.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E037.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E038.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E039.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E040.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E041.DAT	zsarc	11	other -nc--=10 tbd-member -nc--=1 
+EVENT/E042.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E043.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E047.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E048.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E049.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E051.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E052.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E053.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E054.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E055.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E072.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/E076.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/E076K.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/E082.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E086.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E088.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E089.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E090.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E091.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E093.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E095.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E100.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E102.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E113.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E114.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E115.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E117.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E142.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E148.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E150.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E151.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E155.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E157.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E159.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E162.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E165.DAT	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+EVENT/E167.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E171.DAT	zsarc	5	other -nc--=4 tbd-member -nc--=1 
+EVENT/E176.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E177.DAT	zsarc	8	tbd-member -nc--=8 
+EVENT/E180.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E181.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E185.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E186.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E187.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E188.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E189.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E190.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E193.DAT	zsarc	3	tbd-member -nc--=3 
+EVENT/E194.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E195.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E196.DAT	zsarc	4	tbd-member -nc--=4 
+EVENT/E197.DAT	zsarc	4	tbd-member -nc--=4 
+EVENT/E199.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E201.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E202.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E203.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E204.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E205.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E206.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E207.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E233.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E241.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/E242.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E243.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E300.DAT	zsarc	1	tbd-member -nc--=1 
+EVENT/E405.DAT	zsarc	8	tbd-member -nc--=8 
+EVENT/E800.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/ETC.TBD	tbd-file	1	comp=2:1
+EVENT/EVCOM.TBD	tbd-file	2	comp=2:2
+EVENT/EVENTBG.DAT	tbd-file	4	comp=2:4
+EVENT/E_SPPT_0.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_1.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_2.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_3.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_4.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_5.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_6.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_7.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_8.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_9.DAT	zsarc	5	tbd-member -nc--=5 
+EVENT/E_SPPT_C.DAT	zsarc	2	tbd-member -nc--=2 
+EVENT/HEREWEGO.ZAR	zsarc	5	tbd-member -nc--=5 
+EVENT/OFEV077.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/OFEV078.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/OFEV079.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/OFEV080.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/OFEV081.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/OFEV111.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/OFEV164.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/OFEV178.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/OFEV179.DAT	zsarc	4	other -nc--=3 tbd-member -nc--=1 
+EVENT/OFEV400.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/OFEV401.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/OFEV402.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/OFEV403.DAT	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+EVENT/REPORT.DAT	zsarc	8	tbd-member -nc--=8 
+EVENT/REPORTN.DAT	zsarc	10	tbd-member -nc--=10 
+EVENT/TOPIC.TBD	tbd-file	2	comp=2:2
+FACE/CAS1DATA.BIN	other	0	tbd-tables@0x18
+FACE/CAS2DATA.BIN	other	0	tbd-tables@0x18
+FACE/CAS3DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC0DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC0_X2.BIN	other	0	tbd-tables@0x18
+FACE/SEC1DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC1_X2.BIN	other	0	tbd-tables@0x18
+FACE/SEC2DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC2_X2.BIN	other	0	tbd-tables@0x18
+FACE/SEC3DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC3_X2.BIN	other	0	tbd-tables@0x18
+FACE/SEC4DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC4_X2.BIN	other	0	tbd-tables@0x18
+FACE/SEC5DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC5_X2.BIN	other	0	tbd-tables@0x18
+FACE/SEC6DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC6_X2.BIN	other	0	tbd-tables@0x18
+FACE/SEC7DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC7_X2.BIN	other	0	tbd-tables@0x18
+FACE/SEC8DATA.BIN	other	0	tbd-tables@0x18
+FACE/SEC8_X2.BIN	other	0	tbd-tables@0x18
+FLOW_PRG/ABROAD.BIN	other	0	tbd-tables@0x304f4,0x5d0a4 GBIX=1 PVRT=0
+FLOW_PRG/ALLJINI.ZAR	zsarc	6	tbd-member -nc--=6 
+FLOW_PRG/CAP_SLCT.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/CE_VS.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/CHSET1S.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET1W.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET2S.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET2W.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET3S.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET3W.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET4S.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET4W.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET5S.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET5W.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET6S.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET6W.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET7S.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CHSET7W.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/CLUBEDIT.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/CSAVE3.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/DMCLBEDT.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/DRAFT.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/DRAFT.ZAR	zsarc	1	tbd-member -nc--=1 
+FLOW_PRG/DRAFTK.ZAR	zsarc	1	tbd-member -nc--=1 
+FLOW_PRG/DRSDENDO.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/DRSLIST.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/DRSOLIST.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/ENDING.BIN	other	0	GBIX=2 PVRT=0
+FLOW_PRG/ENDOPT.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/ESTABLIS.BIN	other	0	tbd-tables@0x1ee08,0x22e74
+FLOW_PRG/EVENT.BIN	other	0	tbd-tables@0x8d458,0xebb20,0x1186d0 GBIX=1 PVRT=0
+FLOW_PRG/FIRE.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/GAME.BIN	other	0	tbd-tables@0x196f40,0x19dcc4,0x1b3410,0x1ba378,0x1c05a8,0x1c69a4 GBIX=1 PVRT=0
+FLOW_PRG/GAMEOVER.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/HEREWEGO.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/INITCON.BIN	other	0	tbd-tables@0x5b08
+FLOW_PRG/LOADBAR.BIN	other	0	tbd-tables@0x1ec
+FLOW_PRG/MEETING.BIN	other	0	tbd-tables@0x9ce28 GBIX=1 PVRT=0
+FLOW_PRG/NEWCON.BIN	other	0	tbd-tables@0x293f0,0x2a070,0x2ac9c,0x2bdf8 GBIX=1 PVRT=0
+FLOW_PRG/NEWS.BIN	other	0	tbd-tables@0xe3e90,0x12aa2c,0x131994,0x137bc4,0x13dfc0,0x144728
+FLOW_PRG/NEWS_ED.BIN	other	0	tbd-tables@0x6f670,0x765d8,0x7c808,0x82c04,0x8936c,0x8fa50 GBIX=1 PVRT=0
+FLOW_PRG/NEWS_OP.BIN	other	0	tbd-tables@0x63d20,0x6ac88,0x70eb8,0x772b4,0x7da1c,0x84100 GBIX=1 PVRT=0
+FLOW_PRG/NEWUNIF.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/OFFD1.ZAR	zsarc	5	other -nc--=1 tbd-member -nc--=4 
+FLOW_PRG/OFFD2.ZAR	zsarc	5	other -nc--=1 tbd-member -nc--=4 
+FLOW_PRG/OFFD3.ZAR	zsarc	5	other -nc--=1 tbd-member -nc--=4 
+FLOW_PRG/OFFICE.BIN	other	0	tbd-tables@0x5aa80 GBIX=1 PVRT=0
+FLOW_PRG/PLNUMSET.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/PL_EDIT.BIN	other	0	GBIX=1 PVRT=0
+FLOW_PRG/RECON.BIN	other	0	tbd-tables@0x25758,0x28d14 GBIX=1 PVRT=0
+FLOW_PRG/SCDRF.BIN	other	0	tbd-tables@0x2ff64 GBIX=1 PVRT=0
+FLOW_PRG/SEARCH.BIN	other	0	tbd-tables@0x2c58c,0x2fcf0,0x35a9c,0x6264c GBIX=1 PVRT=0
+FLOW_PRG/STSET11.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET12.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET13.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET14.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET21.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET22.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET23.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET24.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET31.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET32.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET33.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET34.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET41.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET42.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET43.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET44.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET51.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET52.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET53.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET54.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET61.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET62.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET63.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET64.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET71.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET72.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET73.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/STSET74.ZAR	zsarc	2	other -nc--=1 tbd-member -nc--=1 
+FLOW_PRG/S_SELECT.BIN	other	0	tbd-tables@0x1368c,0x1916c,0x1f884,0x25094,0x2aa78,0x30090
+FLOW_PRG/TRAINING.BIN	other	0	tbd-tables@0x83f70,0x9027c,0x971e4,0x9d414,0xa3810,0xa9f78
+FLOW_PRG/TWND1.ZAR	zsarc	7	tbd-member -nc--=7 
+FLOW_PRG/TWND1F.ZAR	zsarc	10	tbd-member -nc--=10 
+FLOW_PRG/TWND1R.ZAR	zsarc	10	tbd-member -nc--=10 
+FLOW_PRG/TWND2.ZAR	zsarc	7	tbd-member -nc--=7 
+FLOW_PRG/TWND2F.ZAR	zsarc	10	tbd-member -nc--=10 
+FLOW_PRG/TWND2R.ZAR	zsarc	10	tbd-member -nc--=10 
+FLOW_PRG/TWND3.ZAR	zsarc	7	tbd-member -nc--=7 
+FLOW_PRG/TWND3F.ZAR	zsarc	10	tbd-member -nc--=10 
+FLOW_PRG/TWND3R.ZAR	zsarc	10	tbd-member -nc--=10 
+FLOW_PRG/TWND4.ZAR	zsarc	7	tbd-member -nc--=7 
+FLOW_PRG/TWND4F.ZAR	zsarc	10	tbd-member -nc--=10 
+FLOW_PRG/TWND4R.ZAR	zsarc	10	tbd-member -nc--=10 
+FLOW_PRG/YOUTH.BIN	other	0	tbd-tables@0x28950,0x36114 GBIX=1 PVRT=0
+FLOW_PRG/YOUTH.ZAR	zsarc	2	tbd-member -nc--=2 
+GAME/ALLFLAGS.BIN	zsarc	249	pvr-member -bz--=232 pvr-member -bzw-=17 
+GAME/ALLJNAME.BIN	zsarc	28	pvr-member -bz--=28 
+GAME/ALLLOGOS.BIN	zsarc	66	pvr-member -bz--=65 pvr-member -bzw-=1 
+GAME/ALLPNAME.BIN	zsarc	54	pvr-member -bz--=54 
+GAME/AUDIENCE0.ZAR	tbd-file	3	comp=2:3
+GAME/BINDFLAG.BIN	zsarc	2944	pvr-member -bz--=2832 pvr-member -bzw-=58 pvr-member -nc--=54 
+GAME/BINDLOGO.BIN	zsarc	80	pvr-member -bz--=79 pvr-member -bzw-=1 
+GAME/BINDMTCH.BIN	zsarc	37	pvr-member -bz--=37 
+GAME/BINDNAME.BIN	zsarc	157	pvr-member -bz--=148 pvr-member -bzw-=9 
+GAME/BINDUNIF.BIN	zsarc	21089	other -nc--=756 pvr-member -nc--=20333 
+GAME/ENVCDS_A.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVCDS_B.ZAR	tbd-file	12	comp=0:1,1:1,2:10
+GAME/ENVCDW_A.ZAR	tbd-file	12	comp=0:1,1:1,2:10
+GAME/ENVCDW_B.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVCNS_A.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVCNS_B.ZAR	tbd-file	12	comp=0:1,1:1,2:10
+GAME/ENVCNW_A.ZAR	tbd-file	12	comp=0:1,1:1,2:10
+GAME/ENVCNW_B.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVFDS_A.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVFDS_B.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVFDW_A.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVFDW_B.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVFNS_A.ZAR	tbd-file	12	comp=0:2,1:2,2:8
+GAME/ENVFNS_B.ZAR	tbd-file	12	comp=0:2,1:2,2:8
+GAME/ENVFNW_A.ZAR	tbd-file	12	comp=0:1,1:2,2:9
+GAME/ENVFNW_B.ZAR	tbd-file	12	comp=0:2,1:2,2:8
+GAME/ENVKDS_A.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVKDS_B.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVKDW_A.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/ENVKDW_B.ZAR	tbd-file	12	comp=0:2,1:1,2:9
+GAME/EVMDLTEX.ZAR	tbd-file	3	comp=2:3
+GAME/GAMEEFF.ZAR	zsarc	4	pvr-member -bz--=4 
+GAME/GAMEETC.ZAR	other	0	tbd-tables@0x36520,0x38a84,0x3b174,0x3ceb0,0x3f038,0x42b0c GBIX=36 PVRT=6
+GAME/JPHOTO.BIN	zsarc	726	pvr-member -bz--=719 pvr-member -bzw-=7 
+GAME/KSPAPET.ZAR	zsarc	18	other -bz--=1 other -bzw-=2 pvr-member -bz--=15 
+GAME/SKINCOMM.ZAR	zsarc	48	pvr-member -bz--=48 
+GAME/STAFFLST.ZAR	zsarc	62	pvr-member -bz--=61 pvr-member -bzw-=1 
+GAME/STD_01_00.ZAR	zsarc	81	other -bz--=71 other -bzw-=1 other -nc--=9 tail@0x49c38 len=121036 tbd_tables_in_tail=['0x49c38']
+GAME/STD_01_01.ZAR	zsarc	81	other -bz--=71 other -bzw-=1 other -nc--=9 tail@0x49c38 len=117940 tbd_tables_in_tail=['0x49c38']
+GAME/STD_01_02.ZAR	zsarc	89	other -bz--=79 other -bzw-=1 other -nc--=9 tail@0x4baa4 len=137680 tbd_tables_in_tail=['0x4baa4']
+GAME/STD_01_03.ZAR	zsarc	89	other -bz--=79 other -bzw-=1 other -nc--=9 tail@0x4baa4 len=131896 tbd_tables_in_tail=['0x4baa4']
+GAME/STD_02_00.ZAR	zsarc	73	other -bz--=71 other -bzw-=2 tail@0x4ae68 len=116964 tbd_tables_in_tail=['0x4ae68']
+GAME/STD_02_01.ZAR	zsarc	73	other -bz--=71 other -bzw-=2 tail@0x4ae68 len=113660 tbd_tables_in_tail=['0x4ae68']
+GAME/STD_02_02.ZAR	zsarc	77	other -bz--=75 other -bzw-=2 tail@0x4beec len=130668 tbd_tables_in_tail=['0x4beec']
+GAME/STD_02_03.ZAR	zsarc	77	other -bz--=75 other -bzw-=2 tail@0x4beec len=124216 tbd_tables_in_tail=['0x4beec']
+GAME/STD_03_00.ZAR	zsarc	80	other -bz--=79 other -bzw-=1 tail@0x4cd7c len=83188 tbd_tables_in_tail=['0x4cd7c']
+GAME/STD_03_01.ZAR	zsarc	80	other -bz--=79 other -bzw-=1 tail@0x4cd7c len=81400 tbd_tables_in_tail=['0x4cd7c']
+GAME/STD_03_02.ZAR	zsarc	85	other -bz--=84 other -bzw-=1 tail@0x4d558 len=93656 tbd_tables_in_tail=['0x4d558']
+GAME/STD_03_03.ZAR	zsarc	85	other -bz--=84 other -bzw-=1 tail@0x4d558 len=87916 tbd_tables_in_tail=['0x4d558']
+GAME/STD_04_00.ZAR	zsarc	74	other -bz--=69 other -bzw-=1 other -nc--=4 tail@0x4f89c len=94072 tbd_tables_in_tail=['0x4f89c']
+GAME/STD_04_01.ZAR	zsarc	74	other -bz--=69 other -bzw-=1 other -nc--=4 tail@0x4f89c len=91692 tbd_tables_in_tail=['0x4f89c']
+GAME/STD_04_02.ZAR	zsarc	81	other -bz--=76 other -bzw-=1 other -nc--=4 tail@0x50908 len=115164 tbd_tables_in_tail=['0x50908']
+GAME/STD_04_03.ZAR	zsarc	81	other -bz--=76 other -bzw-=1 other -nc--=4 tail@0x50908 len=108568 tbd_tables_in_tail=['0x50908']
+GAME/STD_05_00.ZAR	zsarc	111	other -bz--=106 other -bzw-=1 other -nc--=4 tail@0x4ff68 len=82500 tbd_tables_in_tail=['0x4ff68']
+GAME/STD_05_01.ZAR	zsarc	111	other -bz--=106 other -bzw-=1 other -nc--=4 tail@0x4ff68 len=80300 tbd_tables_in_tail=['0x4ff68']
+GAME/STD_05_02.ZAR	zsarc	108	other -bz--=103 other -bzw-=1 other -nc--=4 tail@0x508a0 len=100072 tbd_tables_in_tail=['0x508a0']
+GAME/STD_05_03.ZAR	zsarc	108	other -bz--=103 other -bzw-=1 other -nc--=4 tail@0x508a0 len=93704 tbd_tables_in_tail=['0x508a0']
+GAME/STD_06_00.ZAR	zsarc	115	other -bz--=110 other -bzw-=1 other -nc--=4 tail@0x50c0c len=88124 tbd_tables_in_tail=['0x50c0c']
+GAME/STD_06_01.ZAR	zsarc	115	other -bz--=110 other -bzw-=1 other -nc--=4 tail@0x50c0c len=85924 tbd_tables_in_tail=['0x50c0c']
+GAME/STD_06_02.ZAR	zsarc	112	other -bz--=107 other -bzw-=1 other -nc--=4 tail@0x50de0 len=107036 tbd_tables_in_tail=['0x50de0']
+GAME/STD_06_03.ZAR	zsarc	112	other -bz--=107 other -bzw-=1 other -nc--=4 tail@0x50de0 len=100708 tbd_tables_in_tail=['0x50de0']
+GAME/STD_07_00.ZAR	zsarc	116	other -bz--=111 other -bzw-=1 other -nc--=4 tail@0x51288 len=100592 tbd_tables_in_tail=['0x51288']
+GAME/STD_07_01.ZAR	zsarc	116	other -bz--=111 other -bzw-=1 other -nc--=4 tail@0x51288 len=98096 tbd_tables_in_tail=['0x51288']
+GAME/STD_07_02.ZAR	zsarc	113	other -bz--=108 other -bzw-=1 other -nc--=4 tail@0x51234 len=114236 tbd_tables_in_tail=['0x51234']
+GAME/STD_07_03.ZAR	zsarc	113	other -bz--=108 other -bzw-=1 other -nc--=4 tail@0x51234 len=107440 tbd_tables_in_tail=['0x51234']
+GAME2/BC_FACE0.TBD	tbd-file	1	comp=2:1
+GAME2/BC_FACE1.TBD	tbd-file	1	comp=2:1
+GAME2/BC_FACE2.TBD	tbd-file	1	comp=2:1
+GAME2/GM_OTHER.TBD	tbd-file	7	comp=0:1,1:1,2:5
+GAME2/GM_SHBGA.TBD	tbd-file	6	comp=0:3,1:2,2:1
+GAME2/GM_SHBGB.TBD	tbd-file	6	comp=0:3,1:2,2:1
+GAME2/GM_SHORT.TBD	tbd-file	2	comp=2:2
+GAME2/SS_EDIT.TBD	tbd-file	4	comp=0:1,1:2,2:1
+MASCOT/BEE.ZAR	zsarc	5	other -bzw-=1 other -nc--=3 tbd-member -nc--=1 
+MASCOT/BRAVE.ZAR	zsarc	5	other -bz--=1 other -nc--=3 tbd-member -nc--=1 
+MASCOT/CUJIRA.ZAR	zsarc	5	other -bz--=1 other -bzw-=2 other -nc--=1 tbd-member -nc--=1 
+MASCOT/GOHST.ZAR	zsarc	5	other -bzw-=3 other -nc--=1 tbd-member -nc--=1 
+MASCOT/GOKURA.ZAR	zsarc	5	other -bzw-=3 other -nc--=1 tbd-member -nc--=1 
+MASCOT/LINX.ZAR	zsarc	5	other -bz--=1 other -bzw-=2 other -nc--=1 tbd-member -nc--=1 
+MASCOT/LION.ZAR	zsarc	5	other -bz--=2 other -bzw-=1 other -nc--=1 tbd-member -nc--=1 
+MASCOT/MANTIS.ZAR	zsarc	5	other -bz--=1 other -bzw-=2 other -nc--=1 tbd-member -nc--=1 
+MASCOT/MOUSE.ZAR	zsarc	5	other -bz--=1 other -bzw-=2 other -nc--=1 tbd-member -nc--=1 
+MASCOT/SAME.ZAR	zsarc	5	other -bz--=1 other -bzw-=2 other -nc--=1 tbd-member -nc--=1 
+MASCOT/USI.ZAR	zsarc	5	other -bz--=1 other -bzw-=2 other -nc--=1 tbd-member -nc--=1 
+NEWS/ABROAD.TBD	tbd-file	4	comp=2:4
+NEWS/CHAMP_MY.TBD	tbd-file	1	comp=2:1
+NEWS/CHAMP_OT.TBD	tbd-file	1	comp=0:1
+NEWS/FLEAGUE0.TBD	tbd-file	1	comp=2:1
+NEWS/FLEAGUE1.TBD	tbd-file	1	comp=2:1
+NEWS/FLEAGUE2.TBD	tbd-file	1	comp=2:1
+NEWS/FLEAGUE3.TBD	tbd-file	1	comp=2:1
+NEWS/FLEAGUE4.TBD	tbd-file	1	comp=2:1
+NEWS/FLEAGUE5.TBD	tbd-file	1	comp=2:1
+NEWS/FLEAGUE6.TBD	tbd-file	1	comp=2:1
+NEWS/FLEAGUE7.TBD	tbd-file	1	comp=2:1
+NEWS/FLGLOGO.TBD	tbd-file	1	comp=2:1
+NEWS/LAUNCHER.TBD	tbd-file	2	comp=1:2
+NEWS/MATTITLE.ZAR	zsarc	33	tbd-member -nc--=33 
+NEWS/MONTHMVP.TBD	tbd-file	4	comp=2:4
+NEWS/MONTH_RP.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_00.TBD	tbd-file	3	comp=2:3
+NEWS/NEWS_00_2.TBD	tbd-file	2	comp=2:2
+NEWS/NEWS_01.TBD	tbd-file	3	comp=1:1,2:2
+NEWS/NEWS_01_2.TBD	tbd-file	2	comp=2:2
+NEWS/NEWS_02.TBD	tbd-file	3	comp=2:3
+NEWS/NEWS_03.TBD	tbd-file	2	comp=2:2
+NEWS/NEWS_03_2.TBD	tbd-file	2	comp=2:2
+NEWS/NEWS_04.TBD	tbd-file	3	comp=2:3
+NEWS/NEWS_04_2.TBD	tbd-file	2	comp=2:2
+NEWS/NEWS_05.TBD	tbd-file	4	comp=2:4
+NEWS/NEWS_05_2.TBD	tbd-file	2	comp=2:2
+NEWS/NEWS_ARROW.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_BACK.TBD	tbd-file	2	comp=1:2
+NEWS/NEWS_BAR.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_BG.TBD	tbd-file	8	comp=0:1,2:7
+NEWS/NEWS_CHAR.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_COIN.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_LINE.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_MOM.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_NUM.TBD	tbd-file	1	comp=1:1
+NEWS/NEWS_ORDER.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_P0.TBD	tbd-file	2	comp=2:2
+NEWS/NEWS_P1.TBD	tbd-file	1	comp=2:1
+NEWS/NEWS_PANEL.TBD	tbd-file	1	comp=1:1
+NEWS/NEWS_TNMNT.TBD	tbd-file	2	comp=1:2
+NEWS/PARTS.TBD	tbd-file	13	comp=1:3,2:10
+NEWS/RSLTLOGO.TBD	tbd-file	1	comp=2:1
+NEWS/STUDIO1.TBD	tbd-file	50	comp=0:3,1:11,2:36
+NEWS/STUDIO1TEX.TBD	tbd-file	2	comp=2:2
+NEWS/STUDIO2.TBD	tbd-file	30	comp=0:1,1:6,2:23
+NEWS/STUDIO2TEX.TBD	tbd-file	2	comp=2:2
+NEWS/STUDIO3.TBD	tbd-file	34	comp=1:10,2:24
+NEWS/STUDIO3TEX.TBD	tbd-file	2	comp=2:2
+NEWS/STUDIO4.TBD	tbd-file	33	comp=0:1,1:7,2:25
+NEWS/STUDIO4TEX.TBD	tbd-file	2	comp=2:2
+NEWS/STUDIO5.TBD	tbd-file	32	comp=0:2,1:11,2:19
+NEWS/STUDIO5TEX.TBD	tbd-file	2	comp=2:2
+NEWS/STUDIO6.TBD	tbd-file	26	comp=0:1,1:6,2:19
+NEWS/STUDIO6TEX.TBD	tbd-file	2	comp=2:2
+NEWS/T_BESTJ1.TBD	tbd-file	1	comp=2:1
+NEWS/T_BESTJ2.TBD	tbd-file	1	comp=2:1
+NEWS/T_BESTWO.TBD	tbd-file	1	comp=2:1
+NEWS/T_GLRANK.TBD	tbd-file	1	comp=2:1
+NEWS/T_J1.TBD	tbd-file	1	comp=2:1
+NEWS/T_J2.TBD	tbd-file	1	comp=2:1
+NEWS/T_MOFM.TBD	tbd-file	1	comp=2:1
+NEWS/T_TITLE.TBD	tbd-file	1	comp=1:1
+NEWS/T_TMRANK.TBD	tbd-file	1	comp=2:1
+NEWS/T_VARANK.TBD	tbd-file	1	comp=2:1
+NEWS/YOUTH.TBD	tbd-file	2	comp=2:2
+TRAINING/BFGAME.ZAR	zsarc	3	other -nc--=2 tbd-member -nc--=1 
+TRAINING/ICON.TBD	tbd-file	44	comp=2:44
+TRAINING/KAO.ZAR	zsarc	24	tbd-member -nc--=24 
+TRAINING/PAPET.TBD	tbd-file	24	comp=2:24
+TRAINING/PLSEL.TBD	tbd-file	10	comp=1:2,2:8
+TRAINING/PLSELINFO.TBD	tbd-file	1	comp=2:1
+TRAINING/PR_GR.TBD	tbd-file	1	comp=2:1
+TRAINING/PR_GR_T.TBD	tbd-file	1	comp=2:1
+TRAINING/TRAINING.TBD	tbd-file	15	comp=1:1,2:14
+TRAINING/TUTO_BF.TBD	tbd-file	1	comp=2:1
+TRAINING/TUTO_TG.TBD	tbd-file	2	comp=1:2

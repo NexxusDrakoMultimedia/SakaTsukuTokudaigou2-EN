@@ -1,0 +1,109 @@
+index	katakana_ja	art_spelling	ascii_for_strings	language_of_origin	meaning	confidence	texture_id	flag_texture_id	db_pool_en	db_pool_slot_bytes	fits_slot	db_message_word	db_message_language	ja_message_language	differs_from_db	n_records_ja	n_files_ja	note
+1	ﾃﾝﾍﾟｽﾄ	Tempest	Tempest	English	great storm	high	10824	13522	Tempest	8	yes	Tempest	English	English	same	50	45	
+2	ｳﾞｧﾙｶﾝ	VULLCAN	Vullcan	English/Latin (Vulcan)	volcano (Roman god of fire)	spelling high / language medium	10825	13523	Vulcan	8	yes	Vulkan	German	German	pool+message+language	50	45	Banner subtitle reads LEGEND OF VICTORY MOUNTAINS. Two L as the user reported. Not German (German is Vulkan); the original JP message claims German.
+3	ｱｳﾞｧﾗﾝﾁ	Avalanche	Avalanche	English	avalanche (a rush of snow)	high	10826	13524	Valanch	8	NO(9>7)	Avalanche		English	pool	50	45	9 letters: does not fit an 8-byte pool slot (7 chars); DB pool has Valanch.
+4	ｽﾃｨﾝｸﾞ	STING	Sting	English	a sharp blow	high	10827	13525	Sting	8	yes	Sting	English	English	same	102	48	
+5	ﾓﾉﾘｽ	MONOLITH	Monolith	English	monolith / solid rock	high	10828	13526	Monoris	8	NO(8>7)	Monolith	English	English	pool	49	44	Greek-looking caption under the logo is decorative noise. 8 letters: over a 7-char slot; DB pool has Monoris.
+6	ﾊﾞﾝﾃﾞｨｯﾂ	Bandits	Bandits	English	outlaws	high	10829	13527	Bandits	12	yes	Bandits	English	English	same	50	45	
+7	ﾌﾞﾘｯﾂ	BLITZ	Blitz	English (from German lightning)	to attack suddenly	high	10830	13528	Blitz	8	yes	Blitz		English	same	50	45	
+8	ｼｭﾊﾞﾙﾂ	SCHWARZ	Schwarz	German	black	high	10831	13529	Schwarz	8	yes	Schwarz	German	German	same	50	45	
+9	ﾌﾞﾚｲｽﾞ	BLAZE	Blaze	English	flames	high	10832	13530	Blaze	8	yes	Blaze	English	English	same	93	48	
+10	ﾌﾞﾙｰｽ	Blues	Blues	English	blue	high	10833	13531	Bruce	8	yes	Blues	English	English	pool	95	48	Existing DB pool string Bruce (about 91 records / 46 files) is wrong.
+11	ｼｬﾄﾞｳｽﾞ	SHADOWS	Shadows	English	shadow	high	10834	13532	Shadows	8	yes	Shadows		English	same	50	45	
+12	ﾏﾝﾃｨｽ	Mantis	Mantis	English	mantis	high	10835	13533	Mantis	8	yes	Mantis	English	English	same	50	45	
+13	ｶﾞｲｽﾄ	GEIST	Geist	German	spirit	high	10836	13534	Geist	8	yes	Geist	German	German	same	50	45	
+14	ﾄｯﾎﾟﾘｰﾉ	Topolino	Topolino	Italian	little mouse	high	10837	13535	Topolin	8	NO(8>7)	Topolino	Italian	Italian	pool	49	45	8 letters: over a 7-char slot; DB pool has Topolin.
+15	ｱｰﾍﾟ	APE	Ape	Italian	bee	high	10838	13536	Arpe	8	yes	Abeille	French	French	pool+message+language	50	45	Italian ape = bee (the JP message says French and the DB says Abeille; the logo is APE with a bee-striped P).
+16	ﾊﾞｼﾞｪｰﾅ	BALLENA	Ballena	Spanish	whale	high	10839	13537	Bajena	8	yes	Ballena	Spanish	Spanish	pool	50	45	DB pool Bajena is wrong.
+17	ﾌﾞﾗｵｳﾞｨｰｾﾞ	Blau Wiese	Blau Wiese	German	blue meadow	high	10840	13538	Braovize	12	yes	Blauwiese	German	German	pool+message	50	45	Two words in the art (Blau / Wiese). 10 chars incl. blank: fits the 12-byte slot only.
+18	ｼｴﾛ	CIELO	Cielo	Spanish	sky	high	10841	13539	Sie	4	NO(5>3)	Cielo	Spanish	Spanish	pool	118	59	Also Italian. 5 letters but the pool slot is 4 bytes (3 chars): DB pool has Sie.
+19	ｺﾙﾐｰｼﾞｮ	COLMILLO	Colmillo	Spanish	fang	high	10842	13540	Colmijo	8	NO(8>7)	Colmillo	Spanish	Spanish	pool	50	45	Fang drawn between the letters. 8 letters: over a 7-char slot; DB pool Colmijo.
+20	ｺﾘｴﾝﾃ	Corriente	Corriente	Spanish	current (of water)	high	10843	13541	Corient	8	NO(9>7)	Corriente	Spanish	Spanish	pool	50	45	Caption: the super football club. 9 letters: over a 7-char slot; DB pool Corient.
+21	ｴﾙﾌｼｭﾘｯﾄ	ELF SCHRITT	Elf Schritt	German	eleven steps / 11 footsteps	high	10844	13542	Elfshrit	12	yes	Elfschritt	German	German	pool+message	50	45	Two words in the art. 11 chars: fits the 12-byte slot exactly.
+22	ｴｽﾊﾟｰﾀﾞ	Espada	Espada	Spanish	sword	high	10845	13543	Espada	8	yes	Espada	Spanish	Spanish	same	50	45	
+23	ｸﾞﾘｭｯｸ	GLÜCK	Gluck	German	luck / good fortune	high	10846	13544	Gluck	8	yes	Gluck	German	German	same	50	45	Umlaut in the art; ASCII fold Gluck (Glueck is the German transliteration, 6 chars).
+24	ｴﾚﾝｼｱ	HERENCIA	Herencia	Spanish	legacy / inheritance	high	10847	13545	Erencia	8	NO(8>7)	Herencia	Spanish	German	pool	50	45	The JP message says German (wrong). 8 letters: over a 7-char slot; DB pool Erencia.
+25	ｱﾝﾌｨﾆ	infini	Infini	French	infinity	high	10848	13546	Anfini	8	yes	Infini	French	French	pool	50	45	Stylised INFINI with a ring around the F. DB pool Anfini is wrong.
+26	ﾗﾝﾎﾟ	LAMPO	Lampo	Italian	lightning / flash	high	10849	13547	Lampo	8	yes	Lampo	Italian	Italian	same	50	45	
+27	ﾚｵｰﾈ	Leone	Leone	Italian	lion	high	10850	13548	Leone	8	yes	Leone	Italian	Italian	same	117	58	
+28	ﾗﾝｸｽ	LYNX	Lynx	French/English (same spelling)	lynx	high	10851	13549	Lanks	8	yes	Lynx	French	French	pool	50	45	DB pool Lanks is wrong.
+29	ﾒｼﾞｪｰﾙ	MÉGÈRE	Megere	French	shrew / termagant	high	10852	13550	Mejel	8	yes	Megere	French	French	pool	50	45	Accents on both E; caption PRO SOCCER CLUB. DB pool Mejel is wrong.
+30	ﾐｽﾄﾗﾙ	MISTRAL	Mistral	French (Provencal)	mistral (cold strong wind)	high	10853	13551	Mistral	8	yes	Mistral	French	French	same	50	45	
+31	ﾊﾟﾝﾃｰﾗ	Panthera	Panthera	Latin (genus Panthera)	panther	medium	10854	13552	Pantera	8	NO(8>7)	Pantera	Spanish	Spanish	pool+message+language	50	45	Paw print replaces the dot over the E. The JP message claims Spanish (Pantera); the art says Panthera (8 letters: over a 7-char slot).
+32	ﾘｯﾁｮ	RICCIO	Riccio	Italian	hedgehog	high	10855	13553	Richo	8	yes	Riccio	Italian	Italian	pool	50	45	DB pool Richo is wrong.
+33	ﾛｯｻ	ROSA	Rosa	Spanish	rose	high	10856	13554	Ros	4	NO(4>3)	Rosa	Spanish	Spanish	pool	103	48	Also Italian/Portuguese. 4 letters but the pool slot is 4 bytes (3 chars): DB pool has Ros.
+34	ﾕﾆｺｰﾝ	UNICORN	Unicorn	English	unicorn (one-horned mythical beast)	high	10857	13555	Unicorn	8	yes	Unicorn	mythical	myth (Unicorn)	language	50	45	
+35	ｱｳﾛｰﾗ	Aurora	Aurora	Italian	dawn	high	10858	13556	Aurora	8	yes	Aurora	Italian	Italian	same	50	45	Also Latin/Spanish.
+36	ｱｳﾞｧﾝﾂｧｰﾚ	AVANZARE	Avanzare	Italian	to advance	high	10859	13557	Avanzare	12	yes	Avanzare	Italian	Spanish	same	50	45	The JP message says Spanish (Spanish is avanzar).
+37	ｴﾙﾄｰﾛ	EL TORO	El Toro	Spanish	the bull	high	10860	13558	Eltoro	8	yes	El Toro	Spanish	Spanish	pool	50	45	Two words in the art; 7 chars. DB pool Eltoro.
+38	ｴｽﾃｰﾗ	ESTELLA	Estella	Spanish (name from Latin stella)	star	medium	10861	13559	Estela	8	yes	Estrella	Spanish	Spanish	pool+message	50	45	Logo reads ESTELLA, not Estrella (Spanish for star is estrella). Estella = the star-name (Latin stella).
+39	ﾌｪﾘｽ	FELIZ	Feliz	Spanish	happy / fortunate	high	10862	13560	Felis	8	yes	Feliz	Spanish	Spanish	pool	50	45	Also Portuguese. DB pool Felis is wrong.
+40	ﾌｫﾙﾃ	FORTE	Forte	Italian	strong	high	10863	13561	Forte	8	yes	Forte	Italian	Latin	same	50	45	Caption: Powerful football club. Original JP message says Latin (fortis).
+41	ｶﾞｰﾍﾞ	GABE	Gabe	German	gift / talent	high	10864	13562	Garbe	8	yes	Gabe	German	German	pool	50	45	DB pool Garbe is wrong.
+42	ｶﾞﾚｵｽ	Galeos	Galeos	Greek	shark	high	10865	13563	Galeos	8	yes	Galeos	Greek	Greek	same	50	45	
+43	ｼﾞｭﾗｰﾚ	GIURARE	Giurare	Italian	to swear	high	10866	13564	Jurale	8	yes	Giurare	Italian	Italian	pool	50	45	DB pool Jurale is wrong.
+44	ｲｰﾘｽ	IRIS	Iris	Greek	rainbow	high	10867	13565	Ilis	8	yes	Iris	Greek	Greek	pool	50	45	Rainbow-striped letters. DB pool Ilis is wrong.
+45	ﾘｭﾐｴｰﾙ	LUMIERE	Lumiere	French	light	high	10868	13566	Lumiere	8	yes	Lumiere	French	French	same	50	45	No accent drawn in the art.
+46	ﾐｭｰﾄｽ	mythos	Mythos	German/Greek	myth	high	10869	13567	Mythos	8	yes	Mythos	German	German	same	50	45	Lower-case in the art.
+47	ﾌﾟﾚｼﾞｰﾙ	PLAISIR	Plaisir	French	pleasure	high	10870	13568	Plaisir	8	yes	Plaisir	French	French	same	50	45	
+48	ﾗﾌｧｰﾙ	RAFALE	Rafale	French	gust (of wind)	high	10871	13569	Rafal	8	yes	Rafale	French	French	pool	50	45	DB pool Rafal is wrong.
+49	ﾚﾝﾃﾞｨﾙ	RENDIR	Rendir	Spanish	to defeat / subdue	high	10872	13570	Rendil	8	yes	Rendir	Spanish	Spanish	pool	50	45	RAE: rendir = vencer, someter (also to yield).
+50	ｻﾘｰﾚ	Salire	Salire	Italian	to climb	high	10873	13571	Salire	8	yes	Salire	Italian	Italian	same	50	45	
+51	ｽﾌｨｰﾀﾞ	SFIDA	Sfida	Italian	challenge	high	10874	13572	Sfida	8	yes	Sfida	Italian	Italian	same	50	45	
+52	ｼｭﾄﾙﾂ	STOLZ	Stolz	German	pride	high	10875	13573	Sturz	8	yes	Stolz	German	German	pool	50	45	DB pool Sturz (= fall) is wrong. Seen on the kit chest in build/emu/live3.png.
+53	ﾃｨｸﾞﾚ	TIGRE	Tigre	Italian	tiger	high	10876	13574	Tigre	8	yes	Tigre	Italian	Italian	same	50	45	Same spelling in Spanish/French/Portuguese.
+54	ﾊﾟﾚﾝﾃｨｰｱ	VALENTÍA	Valentia	Spanish	courage / bravery	high	10877	13575	Palentia	12	yes	Valentia	Spanish	Spanish	pool	50	45	Accent on the I in the art; ASCII fold Valentia.
+F01	ｱﾝﾄﾗｰｽﾞ	Antlers	Antlers	proper name		high	10730	10481	Antlers	8					same	75	69	caption KASHIMA
+F02	ﾚｯｽﾞ	Red Diamonds	Red Diamonds	proper name		high	10731	10482	Reds	8					differs	77	69	DB uses the short form Reds
+F03	ｼﾞｪﾌ	JEF UNITED	JEF United	proper name		high	10732	10483	JEF	8					differs	199	70	
+F04	ﾚｲｿﾙ	Reysol	Reysol	proper name		high	10733	10484	Reysol	8					same	75	69	caption KASHIWA
+F05	ｳﾞｪﾙﾃﾞｨ	Verdy	Verdy	proper name		high	10734	10485	Verdy	8					same	79	69	caption FC NIPPON
+F06	F･ﾏﾘﾉｽ	Yokohama F Marinos	Yokohama F Marinos	proper name		high	10735	10486	Marinos						differs	67	67	DB Marinos
+F07	ﾍﾞﾙﾏｰﾚ	Bellmare	Bellmare	proper name		high	10736	10487	Belmare	8					differs	75	69	DB Belmare is a misspelling (Bellmare Hiratsuka)
+F08	ｴｽﾊﾟﾙｽ	S-PULSE	S-Pulse	proper name		high	10737	10488	S-Pulse	8					same	77	69	caption SHIMIZU
+F09	ｼﾞｭﾋﾞﾛ	JÚBILO	Jubilo	proper name		high	10738	10489	Jubilo	8					same	77	69	accent in the art; caption IWATA
+F10	ｸﾞﾗﾝﾊﾟｽ	Grampus	Grampus	proper name		high	10739	10490	Grampus	8					same	75	69	flag says Grampus Eight; caption NAGOYA
+F11	ﾊﾟｰﾌﾟﾙｻﾝｶﾞ	Purple Sanga	Purple Sanga	proper name		high	10740	10491	PurpleSanga	12					differs	72	68	DB PurpleSanga has no space (slot width)
+F12	ｶﾞﾝﾊﾞ	GAMBA	Gamba	proper name		high	10741	10492	Gamba	8					same	75	69	caption OSAKA
+F13	ｾﾚｯｿ	Cerezo	Cerezo	proper name		high	10742	10493	Cerezo	8					same	75	69	caption OSAKA
+F14	ｳﾞｨｯｾﾙ	VISSEL KOBE	Vissel Kobe	proper name		high	10743	10494	Vissel	8					differs	77	69	DB Vissel
+F15	ｻﾝﾌﾚｯﾁｪ	SANFRECCE	Sanfrecce	proper name		high	10744	10495	Sanfrec	8					differs	75	69	DB Sanfrec is a truncation; caption HIROSHIMA FC
+F16	ｱﾋﾞｽﾊﾟ	Avispa	Avispa	proper name		high	10745	10496	Avispa	8					same	75	69	caption FUKUOKA
+F17	ｺﾝｻﾄﾞｰﾚ	Consadole	Consadole	proper name		high	10746	10497	Consado	8					differs	75	69	DB Consado is a truncation (slot width); caption SAPPORO
+F18	ﾍﾞｶﾞﾙﾀ	VEGALTA	Vegalta	proper name		high	10747	10498	Vegalta	8					same	75	69	caption SENDAI
+F19	ﾓﾝﾃﾃﾞｨｵ	Montedio	Montedio	proper name		high	10748	10499	Montedo	8					differs	75	69	DB Montedo is a truncation; caption YAMAGATA
+F20	ｱﾙﾃﾞｨｰｼﾞｬ	Ardija	Ardija	proper name		high	10749	10500	Ardija	12					same	75	69	caption OMIYA
+F21	FC東京	F.C.TOKYO	F.C.Tokyo	proper name		high	10750	10501	FCTokyo						differs	75	69	DB FCTokyo
+F22	ﾌﾛﾝﾀｰﾚ	Frontale	Frontale	proper name		high	10751	10502	Frontal	8					differs	75	69	DB Frontal is a truncation; caption KAWASAKI
+F23	ｳﾞｧﾝﾌｫｰﾚ	VENTFORET	Ventforet	proper name		high	10752	10503	Ventforet	12					same	75	69	caption KOFU
+F24	ｱﾙﾋﾞﾚｯｸｽ	Albirex	Albirex	proper name		high	10753	10504	Albirex	12					same	75	69	caption NIIGATA
+F25	ｻｶﾞﾝ	SAGANTOSU	Sagan Tosu	proper name		high	10754	10505	Sagan	8					differs	75	69	art reads SAGANTOSU (G looks like S at this size); DB Sagan
+F26	ﾄﾘﾆｰﾀ	Trinita	Trinita	proper name		high	10755	10506	Trinita	8					same	75	69	
+F27	ﾎｰﾘｰﾎｯｸ	Hollyhock	Hollyhock	proper name		high	10756	10507	Holyhok	8					differs	74	68	DB Holyhok is a misspelling; caption FC MITO / IBARAKI
+F28	横浜FC	YOKOHAMA FC	Yokohama FC	proper name		high	10757	10508	Yoko.FC						differs	71	68	DB Yoko.FC (short form)
+F29	ｵｰﾙｲｰｽﾄ	EAST	East	proper name		medium		10509	AllEast	8					differs	67	67	flag art only (ALLFLAGS); DB AllEast; Japanese logo text in ALLLOGOS
+F30	ｵｰﾙｳｴｽﾄ	WEST	West	proper name		medium		10510	AllWest	8					differs	67	67	flag art only; DB AllWest
+F31	ﾄﾞﾘｰﾑｸﾗﾌﾞ	DREAM	Dream	proper name		medium		10511	Dream Club	12					differs	100	67	flag art DREAM (10511) and Dream (10512); DB Dream Club
+F32	欧州選抜	EURO	Euro	proper name		medium		10513	European XI						differs	110	69	flag art only; DB European XI
+F33	世界選抜	WORLD	World	proper name		medium		10514	World XI						differs	111	69	flag art only; DB World XI
+S01	ｼﾞｬﾊﾟﾝｽﾀｰｽﾞ	JAPANESE STARS	Japanese Stars	proper name		medium	14024		Japan Stars						differs	5	1	BINDNAME art; DB Japan Stars
+S02	ｱｼﾞｱｽﾀｰｽﾞ	ASIAN STARS	Asian Stars	proper name		medium	14025		Asia Stars						differs	5	1	DB Asia Stars
+S03	ｱﾌﾘｶｽﾀｰｽﾞ	AFRICAN STARS	African Stars	proper name		medium	14026		Africa Stars						differs	2	1	DB Africa Stars
+S04	北欧ｽﾀｰｽﾞ	N.EURO STARS	N.Euro Stars	proper name		medium	14027		Nordic Stars						differs	5	1	DB Nordic Stars
+S05	ﾊﾞﾙｶﾝｽﾀｰｽﾞ	BALKAN STARS	Balkan Stars	proper name		medium	14028		Balkan Stars						same	5	1	
+S06	サカつくｽﾀｰｽﾞ	さかつく STARS	Sakatsuku Stars	proper name		medium	14029		Sakatsuku Stars						same	5	1	hiragana in the art; DB Sakatsuku Stars
+S07	ｽﾍﾟｲﾝﾚｼﾞｪﾝｽﾞ	SPANISH LEGENDS	Spanish Legends	proper name		medium	14030		Spain Legends						differs	5	1	DB Spain Legends
+S08	ﾌﾗﾝｽﾚｼﾞｪﾝｽﾞ	FRENCH LEGENDS	French Legends	proper name		medium	14031		France Legends						differs	5	1	DB France Legends
+S09	U.K. ﾚｼﾞｪﾝｽﾞ	ENGLISH LEGENDS	English Legends	proper name		medium	14032		U.K. Legends						differs	5	1	DB U.K. Legends
+S10	ｵﾗﾝﾀﾞﾚｼﾞｪﾝｽﾞ	HOLLANDER LEGENDS	Hollander Legends	proper name		medium	14033		Netherlands Legends						differs	5	1	DB Netherlands Legends
+S11	ｱﾙｾﾞﾝﾁﾝﾚｼﾞｪﾝｽﾞ	ARGENTINE LEGENDS	Argentine Legends	proper name		medium	14034		Argentina Legends						differs	5	1	DB Argentina Legends
+S12	ｲﾀﾘｱﾚｼﾞｪﾝｽﾞ	ITALIAN LEGENDS	Italian Legends	proper name		medium	14035		Italy Legends						differs	5	1	DB Italy Legends
+S13	ﾄﾞｲﾂﾚｼﾞｪﾝｽﾞ	GERMAN LEGENDS	German Legends	proper name		medium	14036		Germany Legends						differs	5	1	DB Germany Legends
+S14	ﾌﾞﾗｼﾞﾙﾚｼﾞｪﾝｽﾞ	BRAZILIAN LEGENDS	Brazilian Legends	proper name		medium	14037		Brazil Legends						differs	5	1	DB Brazil Legends
+S15	欧州ｽｰﾊﾟｰｽﾀｰｽﾞ	euro Super stars	Euro Super Stars	proper name		medium	14038		Europe Super Stars						differs	5	1	DB Europe Super Stars
+S16	南米ｽｰﾊﾟｰｽﾀｰｽﾞ	S.Am. Super stars	S.Am. Super Stars	proper name		medium	14039		South America Super Stars						differs	5	1	DB South America Super Stars
+S17	欧州ｵｰﾙﾄﾞｽﾀｰｽﾞ	EURO Old stars	Euro Old Stars	proper name		medium	14040		Europe Old Stars						differs	5	1	DB Europe Old Stars
+S18	南米ｵｰﾙﾄﾞｽﾀｰｽﾞ	S.AM. Old stars	S.Am. Old Stars	proper name		medium	14041		South America Old Stars						differs	5	1	DB South America Old Stars
+S19	ﾜｰﾙﾄﾞｽﾀｰｽﾞ	THE WORLD STARS	The World Stars	proper name		medium	14042		World Stars						differs	5	1	DB World Stars
+S20	ﾄﾞﾘｰﾑｽﾀｰｽﾞ	DREAM STARS	Dream Stars	proper name		medium	14043		Dream Stars						same	5	1	
+S21	ｳｨﾝｸﾞﾌｧｰﾑｽﾞ	Wing Farms	Wing Farms	proper name		medium	14044		Wing Farms						same	5	1	

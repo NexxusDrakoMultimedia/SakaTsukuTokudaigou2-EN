@@ -1,0 +1,132 @@
+no func at 8c15a7d4
+
+//////// FUN_8c15a852 @ 8c15a852 body 8c15a852-8c15a86d
+
+undefined4 FUN_8c15a852(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8c15a45a(0);
+  if (iVar1 == 0) {
+    return 0xffffffff;
+  }
+  return 0;
+}
+
+
+-- callers:
+   8c159380
+
+//////// FUN_8c15a86e @ 8c15a86e body 8c15a86e-8c15a87b
+
+void FUN_8c15a86e(void)
+
+{
+  FUN_8c15a45a(0,1);
+  return;
+}
+
+
+-- callers:
+   8c159384
+
+//////// FUN_8c15a87c @ 8c15a87c body 8c15a87c-8c15a891
+
+void FUN_8c15a87c(int param_1)
+
+{
+  FUN_8c15a45a(0,param_1 + 2,param_1);
+  return;
+}
+
+
+-- callers:
+   8c164fa8
+   8c1593d4
+
+//////// FUN_8c15a8e2 @ 8c15a8e2 body 8c15a8e2-8c15a941
+
+undefined4 FUN_8c15a8e2(int *param_1,int param_2)
+
+{
+  undefined *puVar1;
+  undefined *puVar2;
+  int iVar3;
+  undefined4 uVar4;
+  int iVar5;
+  code *pcVar6;
+  
+  puVar2 = PTR_FUN_8c15a9f0;
+  puVar1 = PTR_FUN_8c15a9ec;
+  pcVar6 = FUN_8c01f542;
+  iVar5 = 0;
+  uVar4 = 1;
+  if (0 < param_2) {
+    do {
+      iVar3 = (*(code *)puVar1)(param_1,pcVar6);
+      if (iVar3 < 0) {
+        uVar4 = 0xffffffff;
+      }
+      if (*param_1 != 0) {
+        (*(code *)puVar2)();
+      }
+      if (param_1 != (int *)0x0) {
+        (*(code *)puVar2)();
+      }
+      iVar5 = iVar5 + 1;
+      param_1 = param_1 + 2;
+    } while (iVar5 < param_2);
+  }
+  return uVar4;
+}
+
+
+-- callers:
+   8c164f30
+   8c16505a
+   8c159390
+
+//////// FUN_8c15a942 @ 8c15a942 body 8c15a942-8c15a9c9
+
+undefined4 FUN_8c15a942(int *param_1,int param_2,int *param_3)
+
+{
+  undefined *puVar1;
+  int *piVar2;
+  int iVar3;
+  int iVar4;
+  
+  piVar2 = (int *)FUN_8c159fd4(8);
+  if (piVar2 != (int *)0x0) {
+    iVar4 = *param_1;
+    piVar2[1] = iVar4;
+    iVar4 = FUN_8c159fd4(iVar4 * 0xc);
+    *piVar2 = iVar4;
+    if (iVar4 != 0) {
+      iVar3 = FUN_8c159fd4(piVar2[1] * 0x2c);
+      puVar1 = PTR_FUN_8c15a9f0;
+      if (iVar3 != 0) {
+        FUN_8c15a776(piVar2,param_1,param_2 + 8,iVar3);
+        if (iVar3 != 0) {
+          (*(code *)puVar1)(iVar3);
+        }
+        *param_3 = (int)piVar2;
+        return 0;
+      }
+      if (iVar4 != 0) {
+        (*(code *)PTR_FUN_8c15a9f0)(iVar4);
+      }
+      if (piVar2 != (int *)0x0) {
+        (*(code *)puVar1)(piVar2);
+      }
+    }
+  }
+  return 0xffffffff;
+}
+
+
+-- callers:
+   8c164fc8
+   8c164f10
+   8c15938c

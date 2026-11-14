@@ -1,0 +1,21 @@
+{
+  "texture": "FLOW_PRG/SEARCH.BIN @2c58c#0 (07594) SEARCH name-input labels",
+  "size": [128, 128],
+  "supersample": 4,
+  "quantize": "argb1555",
+  "styles": {
+    "search": {
+      "font": ["arial-black", "arial-bold"],
+      "gradient": [[0, "#e8fffc"], [0.5, "#8ce8dc"], [1, "#30b0a8"]],
+      "outline": {"color": "#001c20", "width": 1.2},
+      "shadow": {"color": "#001418", "dx": 1.5, "dy": 1.5, "steps": 2, "alpha": 1.0},
+      "aa": false, "shear": 0.18
+    }
+  },
+  "defaults": {"erase": {"mode": "clear"}, "align": "left", "valign": "middle", "min_sx": 0.7, "style": "search", "size": 20},
+  "regions": [
+    {"id": "enter",  "ja": "名前入力", "text": "Enter Name",   "x": 0, "y": 2,  "w": 100, "h": 31},
+    {"id": "in",     "ja": "捜索先",   "text": "Search In",    "x": 0, "y": 41, "w": 100, "h": 31},
+    {"id": "start",  "ja": "捜索開始", "text": "Start Search", "x": 0, "y": 82, "w": 100, "h": 31}
+  ]
+}

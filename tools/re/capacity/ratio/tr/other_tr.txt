@@ -1,0 +1,136 @@
+420|@O/#tk00#@. I have some concerns about the technical side of @Y/%s@, but is that all right?
+421|Growth on national team return :Player No. %d
+422|A %d-year contract sounds about right.
+423|** Person No. %d is newly added (%d) **
+424|The sponsor discounts the improvement cost. The improvement costs @Y/%m@, with @Y/%m@ monthly upkeep. Is that all right?|
+425|SPONSOR DELETE SET (%d) money:Y%d0,000
+426|Late summer heat still lingers, yet the @P/J.League Division 2@ is providing white-hot battles. Here are today's results.
+427|The warm season has fully arrived, but the fierce battle in the @P/J.League Division 2@ goes on. How did today turn out?
+428|Supporter increase (minus):%d
+429|@Y/J.League DIVISION 1@
+430|Temp (x10):%d %d %d %d %d %d %d %d %d %d %d %d
+431|The @P/Asian Tournament@ has reached the semi-finals. At this stage, every club badly wants to reach the final.
+432|** Person No. %d has gone **
+433|Our club has only @M/%D players@ who can play in matches. Be careful, or you won't be able to play in official matches.
+434|Own club last champions, substitute entry %d
+435|The current No. 1 is @Y/%s@. I'd like to see how many goals they can keep out against the world's top clubs.
+436|This is the @Y/Fan Appreciation Match@, sponsored by the sponsor. The opponent is chosen from around the world.
+437|#sname#, there are too few players in the club. You cannot take part in the J.League like this.
+438|Trade ban flag %d(%d)
+439|Today the corporate-sponsored @P/Fan Appreciation Match@ was held. Here is how the battle with the strong @Y/#tk02#@ went.
+440|Win bonus set to #tk25#. Even their faces look different going into the match. We can expect good things.
+441|Highly renowned Japanese manager @Y/Yoshisada Ishida@ has been added. He will appear on the manager list someday.
+442|@Y/Leone@ is Italian for @K/"lion"@. This name does give the impression of the king of beasts, a champion.
+443|Our club is No. 1 with @Y/#tk02# times@. But a club with a strong defence will break that number sooner or later.
+444|This is the improved @Y/Lounge@. Even more customers will use it. Every user gets a good impression.|
+445|Player %d: ability %d changed from %d to %d
+446|Local increase       :%d
+447|A goalkeeper representing South Korea, who defends the goal with fierce fighting spirit, technical skill and the mental strength to excel in one-on-ones.
+448|A famous manager who built an all-conquering squad on the tactical theory that founded modern pressing football. The key is understanding his complicated system.|
+449|Check the unwanted records, never yet broken, that came from J1 clubs.
+450|Excellent at reading the situation and takes the necessary action.
+451|I don't think someone like me could teach that player.
+452|Please select the data to load.
+453|Has a wide defensive range that is more than good enough.
+454|There is no space in the current stadium to expand this facility. Let's expand it once we have secured space.|
+455|Hans-Peter Briegel
+456|Some doubts remain, but promising GK skills.
+457|Explosive shooting that works on the world stage.
+458|Excellent leadership and reliability.
+459|They are injured. They will not be able to move as they normally do.
+460|The goalkeeper. Needs strength in one-on-ones, sharp instinct and judgement, and mental strength is also required for penalties.
+461|Past their peak, but still promising.
+462|"This is it... the strongest style!!"
+463|Set up an overseas camp. The whole club takes part and trains abroad for one month.
+464|What did I do wrong? Please tell me!
+465|=W/This is a clubhouse we can be proud of before the world. You couldn't ask for better.=|
+466|Check this year's results for every J.League club and how final results have changed year by year.
+467|Official site opened:1, not yet:0
+468|A wonderful scout has been summoned. When it comes to forwards from South America, they have the best network you could ask for.
+469|The training ground has been expanded. There is now plenty of training space, and training efficiency will rise too.|
+470|Practise a system that thickens the midfield and stresses organised play. You need MFs who respond quickly in attack and defence.
+471|What kind of personality does this player have? Please choose from the options.
+472|You have plenty of strength, so you can win the title from the first year.
+473|A little lacking for a professional.
+474|Practise the most common system, which adapts flexibly to attack and defence.
+475|The camp needs this much money, but we really can't pay it.
+476|Now that I'm here, there are no more worries about defence.
+477|Their individual skill level is very high. They can be a little hot-tempered, but it is a country that plays imaginative football.
+478|A long-established Japanese confectioner founded in the Edo period. They reportedly want to use our club's profile to promote a new product.
+479|They are a team of no great consequence. Their players seem to be in good form, but we should be able to beat them.
+480|That's a relief... I'd like you to keep this up.
+481|Do you understand my ability? I'm going to improve from here, you know?
+482|Trusted by players so deeply, a true leader.
+483|Specialty on sale. Non-zero:on sale
+484|It was a somewhat one-sided match in the opposition's favour. We are also well behind on goals. Let's somehow pull the flow back.
+485|A player who can show leadership.
+486|A country whose individual skill is often highly rated. You can expect improvement in abilities such as counter-attack and free kick accuracy.
+487|This match data will be loaded. Is that all right?
+488|DF:OK flag is not set
+489|Arthur Friedenreich
+490|Many supporters have left. A club cannot be run if the supporters abandon it.
+491|To invigorate the town's economy, local investment will be made. The town's economic strength will increase.|
+492|Could improve explosively in the future.
+493|The world takes notice of their brilliant passing.
+494|An attacking MF with great technique, the pride of Argentina. With nimble movement they show a feel for dribbling and passing.
+495|I'll save the chant you're making to the VM. You have to save once before you can assign it to a chant in a match.
+496|Uses experience to lead the young players.
+497|Game Centre +:awaiting completion, -:prevent recurrence
+498|Marco Delvecchio
+499|Expression textures are not loaded
+500|Here the J.League results year by year since our club joined are shown. Please wait until the end of this year's league.
+501|A born striker with a nose for goal rare in Japan, who does the job even in a short time.
+502|A player with the strongest shot in the world. They almost never miss.
+503|Poland's pride, a right winger. Blessed with outstanding pace, and the ability to cut inside and score is among the most destructive in the world.
+504|A clever DF who gives opponents no room to work.
+505|The goalkeeper who represents Argentina, known by the nickname "Pato". Long limbs and sharp reactions give keen anticipation and a stream of fine saves.
+506|Of course, this is "King Kazu". An ace striker with outstanding finishing, thanks to Brazil-honed technique and a winning instinct.
+507|Attacks boldly, making use of natural flair.
+508|A player who takes chances and makes them count.
+509|That tough defender, Michel Miyazawa, is going to lend us a hand in launching our club.| |He will surely become the linchpin of our defence.
+510|So we have reached an age when people like this appear. They have the best connections you could ask for among players from Europe.
+511|Fully understands the specified DF type.
+512|Check the ranking of forwards from players all over the world.
+513|Club Tower +:awaiting completion, -:prevent recurrence
+514|I can't possibly fulfil such a heavy responsibility.
+515|Check player transfer information.
+516|Japan Design Support
+517|If there is a player you want to negotiate with, you offer them a contract length and salary.
+518|As well as running a chain of bookshops, they also work in publishing. They may feature the club in a magazine they publish.
+519|Their record is decent, and they are a leading Czech manager who practises a distinctive brand of football with fast transitions between attack and defence.|
+520|Annual scoring ranking|Top 10 players
+521|Physically gifted and well suited to GK.
+522|A promising young player with growth potential.
+523|An MF who comes into their own with accurate kicking.
+524|Select the club you want to view. Select the club's flag and press the A Button to see that club's information.
+525|SKIP
+526|They have a top-class information network on MFs from South America. They should gather some wonderful players.
+527|International Cup Qualifiers
+528|A manager who puts understanding of tactics first. Training volume is high, but they take care over injuries. You don't hear much about their reputation.
+529|Ridiculous... I'm speechless.
+530|Has the running ability, but still lacks training.
+531|A club known for persistent, strong defence. You can expect improvement in mentality, the so-called Germanic spirit, and in leadership.
+532|Has stylish ball retention.
+533|Francis Jeffers
+534|A team that is lacking in strength. Their players also seem to be out of form. This should be a very winnable match.
+535|At last they have accepted our offer. They have the best network you could ask for among DFs from Europe.
+536|Feels like you're aiming a bit high... All right.
+537|At an age where they can no longer push themselves.
+538|Jimmy Greaves
+539|Sometimes cuts into enemy territory with sharp dribbling.
+540|That's a bit worrying. With the future in mind, it may be best to deal with it early.
+541|You're trying to sign me for this amount?
+542|Can't you wait until my contract runs out? So impatient.
+543|Check the J1 goal rankings year by year.
+544|If only there were a few more shops. Shopping isn't much fun.
+545|*** Friendly Match Opponent Selection ***
+546|There's a limit even to jokes. How deeply unpleasant!
+547|The power of youth is no longer there.
+548|In this town, there probably won't be a house for me to live in in the future. That's a real problem.
+549|Check our club's match schedule.
+550|A player known only to those in the know. Adaptable to any system, an MF who dominates the midfield with high technical skill.
+551|Let's build a wonderful club. I'm counting on you.
+552|World-class at reading and applying systems.
+553|Return to the office.|
+554|Winning the ball with hard challenges and launching razor-sharp counter-attacks is their trademark. They are also known for the high ball and solid defence.
+555|Showing explosive growth.

@@ -1,0 +1,5 @@
+CLUBEDIT (8c2d0000, arena 8c3062a0..8c3d0000) blocks 166 used bytes 3745476 (165 blocks) free bytes 1275584 (1 blocks, largest 1275584) chain total 5021060 last block end 8c228424
+N_ENTRY (8c8d0000) blocks 49 used bytes 233668 (46 blocks) free bytes 743680 (3 blocks, largest 743328) chain total 977348 last block end 8c228664
+--- restricted to the arena [start, slot end) ---
+CLUBEDIT arena bytes 826720 blocks in arena 3 used 1089632 free 0 largest free 0 used 131.8%
+N_ENTRY arena bytes 977312 blocks in arena 48 used 233632 free 743680 largest free 743328 used 23.9%

@@ -1,0 +1,500 @@
+{
+ "texture": "00169",
+ "supersample": 4,
+ "quantize": "argb4444",
+ "regions": [
+  {
+   "id": "menu0",
+   "ja": "簡易選択",
+   "text": "Quick Pick",
+   "x": 12,
+   "y": 41,
+   "w": 112,
+   "h": 28,
+   "style": "lbl",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 19,
+   "min_sx": 0.7,
+   "erase_rect": [
+    10,
+    40,
+    117,
+    30
+   ]
+  },
+  {
+   "id": "menu1",
+   "ja": "大会形式",
+   "text": "Format",
+   "x": 12,
+   "y": 73,
+   "w": 112,
+   "h": 28,
+   "style": "lbl",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 19,
+   "min_sx": 0.7,
+   "erase_rect": [
+    10,
+    72,
+    117,
+    30
+   ]
+  },
+  {
+   "id": "menu2",
+   "ja": "試合形式",
+   "text": "Match Type",
+   "x": 12,
+   "y": 105,
+   "w": 112,
+   "h": 28,
+   "style": "lbl",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 19,
+   "min_sx": 0.7,
+   "erase_rect": [
+    10,
+    104,
+    117,
+    30
+   ]
+  },
+  {
+   "id": "menu3",
+   "ja": "参加チーム",
+   "text": "Teams",
+   "x": 12,
+   "y": 137,
+   "w": 112,
+   "h": 28,
+   "style": "lbl",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 19,
+   "min_sx": 0.7,
+   "erase_rect": [
+    10,
+    136,
+    117,
+    30
+   ]
+  },
+  {
+   "id": "menu4",
+   "ja": "スタジアム",
+   "text": "Stadium",
+   "x": 12,
+   "y": 169,
+   "w": 112,
+   "h": 28,
+   "style": "lbl",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 19,
+   "min_sx": 0.7,
+   "erase_rect": [
+    10,
+    168,
+    117,
+    30
+   ]
+  },
+  {
+   "id": "menu5",
+   "ja": "選手規定",
+   "text": "Player Rules",
+   "x": 12,
+   "y": 201,
+   "w": 112,
+   "h": 28,
+   "style": "lbl",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 19,
+   "min_sx": 0.7,
+   "erase_rect": [
+    10,
+    200,
+    117,
+    30
+   ]
+  },
+  {
+   "id": "blk1",
+   "ja": "試合開始",
+   "text": "Start Match",
+   "x": 434,
+   "y": 281,
+   "w": 76,
+   "h": 24,
+   "style": "blk",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 60
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 15,
+   "min_sx": 0.7
+  },
+  {
+   "id": "blk2",
+   "ja": "再ドロー",
+   "text": "Redraw",
+   "x": 434,
+   "y": 321,
+   "w": 76,
+   "h": 24,
+   "style": "blk",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 60
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 15,
+   "min_sx": 0.7
+  },
+  {
+   "id": "exit",
+   "ja": "終了",
+   "text": "Exit",
+   "x": 74,
+   "y": 397,
+   "w": 76,
+   "h": 26,
+   "style": "ext",
+   "erase": {
+    "mode": "hgrad"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 22,
+   "min_sx": 0.7,
+   "erase_rect": [
+    77,
+    396,
+    71,
+    34
+   ]
+  },
+  {
+   "id": "natA",
+   "ja": "代表A",
+   "text": "National A",
+   "x": 198,
+   "y": 438,
+   "w": 148,
+   "h": 28,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 22,
+   "min_sx": 0.7,
+   "erase_rect": [
+    198,
+    434,
+    148,
+    37
+   ]
+  },
+  {
+   "id": "natB",
+   "ja": "代表B",
+   "text": "National B",
+   "x": 198,
+   "y": 478,
+   "w": 148,
+   "h": 28,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 22,
+   "min_sx": 0.7,
+   "erase_rect": [
+    198,
+    474,
+    148,
+    37
+   ]
+  },
+  {
+   "id": "ovsA",
+   "ja": "海外A",
+   "text": "Overseas A",
+   "x": 360,
+   "y": 398,
+   "w": 148,
+   "h": 28,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 22,
+   "min_sx": 0.7,
+   "erase_rect": [
+    360,
+    394,
+    148,
+    37
+   ]
+  },
+  {
+   "id": "ovsB",
+   "ja": "海外B",
+   "text": "Overseas B",
+   "x": 360,
+   "y": 438,
+   "w": 148,
+   "h": 28,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 22,
+   "min_sx": 0.7,
+   "erase_rect": [
+    360,
+    434,
+    148,
+    37
+   ]
+  },
+  {
+   "id": "ovsC",
+   "ja": "海外C",
+   "text": "Overseas C",
+   "x": 360,
+   "y": 478,
+   "w": 148,
+   "h": 28,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 22,
+   "min_sx": 0.7,
+   "erase_rect": [
+    360,
+    474,
+    148,
+    37
+   ]
+  },
+  {
+   "id": "start",
+   "ja": "試合開始",
+   "text": "Start Match",
+   "x": 187,
+   "y": 239,
+   "w": 291,
+   "h": 27,
+   "style": "yel",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 22,
+   "min_sx": 0.7
+  }
+ ],
+ "styles": {
+  "lbl": {
+   "font": [
+    "arial-bold",
+    "segoe-ui-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffffff"
+    ],
+    [
+     0.5,
+     "#e4e8e4"
+    ],
+    [
+     1,
+     "#98a49c"
+    ]
+   ],
+   "outline": {
+    "color": "#000000",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "alpha": 1.0
+   }
+  },
+  "yel": {
+   "font": [
+    "arial-black",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffff70"
+    ],
+    [
+     0.55,
+     "#ffee10"
+    ],
+    [
+     1,
+     "#e8c800"
+    ]
+   ],
+   "outline": {
+    "color": "#201000",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 2,
+    "dy": 2,
+    "alpha": 1.0
+   }
+  },
+  "blk": {
+   "font": [
+    "arial-bold"
+   ],
+   "fill": "#f2f2f2",
+   "outline": {
+    "color": "#303030",
+    "width": 0.5
+   }
+  },
+  "ext": {
+   "font": [
+    "arial-black",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#fff060"
+    ],
+    [
+     0.5,
+     "#ffb020"
+    ],
+    [
+     1,
+     "#ff6000"
+    ]
+   ],
+   "outline": {
+    "color": "#300000",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "alpha": 1.0
+   }
+  }
+ }
+}

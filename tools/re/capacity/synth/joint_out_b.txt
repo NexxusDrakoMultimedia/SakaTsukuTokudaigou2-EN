@@ -1,0 +1,86 @@
+records (overlay sources) 119946 categories {'help': 1330, 'label': 13027, 'name': 34333, 'numunit': 2866, 'prose_other': 10290, 'place': 43676, 'prose_event': 814, 'prose_meeting': 7318, 'prose_news': 3628, 'prose_training': 2664}
+empirical ratio samples per category {'help': 42, 'label': 41, 'name': 68, 'numunit': 40, 'place': 56, 'prose_event': 40, 'prose_meeting': 72, 'prose_news': 62, 'prose_other': 135, 'prose_training': 49}
+images 114 load 20s
+total strings 119946, JP bytes incl NUL 2749078
+
+=========== scale 0.95 ===========
+EN bytes 3176878 = 1.156 x JP
+L0 fits own slot            :  60750 strings  50.6 % | JP bytes  38.4 %
+L0+L1 pool repack+cross  :  92939 strings  77.5 % | JP bytes  68.6 % ; left: movable 11716 str (784413 EN B), fixed 15291 str (371609 EN B, 12.7 % of strings)
+L0+L1+L1s +dup sharing   :  96066 strings  80.1 % | JP bytes  77.0 % ; left: movable 8589 str (496819 EN B), fixed 15291 str (371609 EN B, 12.7 % of strings)
+  [l1] movable remainder 11716 str / 784413 EN B: L3 bank (259689 of 259771 B, 3195 unique JP texts) absorbs 10072 str (8.4 % of all); L2 then absorbs 1505 str (216044 EN B); unhoused 139 movable str (19542 EN B, 0.12 % of all strings) -> L4
+  [l1] L2 alone (no bank): 11154 str (738629 EN B)
+  [l1] overlays still short after L3+L2 (unhoused EN B, cons budget): GAME 11129 (cons 0), ESTABLIS 8413 (cons 0)
+  [l1s] movable remainder 8589 str / 496819 EN B: L3 bank (259650 of 259771 B, 2863 unique JP texts) absorbs 8236 str (6.9 % of all); L2 then absorbs 326 str (54946 EN B); unhoused 27 movable str (4489 EN B, 0.02 % of all strings) -> L4
+  [l1s] L2 alone (no bank): 8081 str (457472 EN B)
+  [l1s] overlays still short after L3+L2 (unhoused EN B, cons budget): GAME 2975 (cons 0), ESTABLIS 1514 (cons 0)
+  biggest L1 deficits (n, JP B, EN B | l1 movable str/EN B, fixed str/EN B | l1s movable, fixed)
+   FLOW_PRG/TRAINING.BIN      n= 2791 JP= 254338 EN= 285624 | mov  682/ 79686 fix 1316/142632 | mov  650/ 76211 fix 1316/142632
+   FLOW_PRG/NEWS.BIN          n= 3702 JP= 302574 EN= 335426 | mov 1598/181925 fix    3/    48 | mov    0/     0 fix    3/    48
+   FLOW_PRG/DRAFT.BIN         n= 1563 JP= 118757 EN= 136719 | mov  515/ 59233 fix    4/   167 | mov  290/ 42645 fix    4/   167
+   FLOW_PRG/SCDRF.BIN         n=  861 JP=  73022 EN=  84070 | mov  301/ 41891 fix    9/   135 | mov  286/ 40159 fix    9/   135
+   FLOW_PRG/GAME.BIN          n= 1137 JP=  57637 EN=  66149 | mov  303/ 30212 fix  191/  4756 | mov  299/ 30061 fix  191/  4756
+   FLOW_PRG/EVENT.BIN         n= 2606 JP=  71970 EN=  83715 | mov  379/ 27587 fix   11/   166 | mov  378/ 27574 fix   11/   166
+   FLOW_PRG/NEWS_ED.BIN       n= 2047 JP=  59969 EN=  67747 | mov  340/ 26679 fix    3/    30 | mov    0/     0 fix    3/    30
+   FLOW_PRG/SPF_READ.BIN      n= 3987 JP=  41975 EN=  55101 | mov  327/  8961 fix  815/ 13433 | mov  326/  8948 fix  815/ 13433
+   FLOW_PRG/BPMATCH.BIN       n= 3569 JP=  36794 EN=  48323 | mov  158/  5561 fix  809/ 13220 | mov  149/  4920 fix  809/ 13220
+   FLOW_PRG/CHALMODE.BIN      n= 3650 JP=  36076 EN=  47677 | mov  178/  4755 fix  804/ 13136 | mov  177/  4742 fix  804/ 13136
+   FLOW_PRG/DMCLBEDT.BIN      n= 3498 JP=  34254 EN=  45208 | mov  134/  3551 fix  809/ 13220 | mov  130/  3288 fix  809/ 13220
+   FLOW_PRG/ENDOPT.BIN        n= 3512 JP=  34402 EN=  45317 | mov  121/  3243 fix  800/ 13062 | mov  120/  3230 fix  800/ 13062
+   FLOW_PRG/BACKUP.BIN        n= 3487 JP=  32833 EN=  43729 | mov  129/  3066 fix  807/ 13190 | mov  128/  3053 fix  807/ 13190
+   FLOW_PRG/EXTRADE.BIN       n= 3480 JP=  32711 EN=  43462 | mov  129/  2733 fix  807/ 13190 | mov  128/  2720 fix  807/ 13190
+
+=========== scale 0.90 ===========
+EN bytes 3003227 = 1.092 x JP
+L0 fits own slot            :  75722 strings  63.1 % | JP bytes  52.1 %
+L0+L1 pool repack+cross  : 105339 strings  87.8 % | JP bytes  82.6 % ; left: movable 4138 str (362984 EN B), fixed 10469 str (263636 EN B, 8.7 % of strings)
+L0+L1+L1s +dup sharing   : 106700 strings  89.0 % | JP bytes  86.6 % ; left: movable 2777 str (226212 EN B), fixed 10469 str (263636 EN B, 8.7 % of strings)
+  [l1] movable remainder 4138 str / 362984 EN B: L3 bank (243903 of 259771 B, 2342 unique JP texts) absorbs 4138 str (3.4 % of all); L2 then absorbs 0 str (0 EN B); unhoused 0 movable str (0 EN B, 0.00 % of all strings) -> L4
+  [l1] L2 alone (no bank): 3893 str (339120 EN B)
+  [l1] overlays still short after L3+L2 (unhoused EN B, cons budget): 
+  [l1s] movable remainder 2777 str / 226212 EN B: L3 bank (155299 of 259771 B, 1565 unique JP texts) absorbs 2777 str (2.3 % of all); L2 then absorbs 0 str (0 EN B); unhoused 0 movable str (0 EN B, 0.00 % of all strings) -> L4
+  [l1s] L2 alone (no bank): 2569 str (207392 EN B)
+  [l1s] overlays still short after L3+L2 (unhoused EN B, cons budget): 
+  biggest L1 deficits (n, JP B, EN B | l1 movable str/EN B, fixed str/EN B | l1s movable, fixed)
+   FLOW_PRG/TRAINING.BIN      n= 2791 JP= 254338 EN= 270590 | mov  349/ 40961 fix 1041/110498 | mov  330/ 38783 fix 1041/110498
+   FLOW_PRG/NEWS.BIN          n= 3702 JP= 302574 EN= 317751 | mov  750/ 86321 fix    3/    45 | mov    0/     0 fix    3/    45
+   FLOW_PRG/DRAFT.BIN         n= 1563 JP= 118757 EN= 129501 | mov  266/ 31783 fix    4/   158 | mov  125/ 17717 fix    4/   158
+   FLOW_PRG/SCDRF.BIN         n=  861 JP=  73022 EN=  79633 | mov  172/ 24432 fix    7/    99 | mov  162/ 23217 fix    7/    99
+   FLOW_PRG/GAME.BIN          n= 1137 JP=  57637 EN=  62638 | mov  181/ 17777 fix  165/  3975 | mov  178/ 17659 fix  165/  3975
+   FLOW_PRG/EVENT.BIN         n= 2606 JP=  71970 EN=  78978 | mov  188/ 13411 fix    9/   128 | mov  187/ 13318 fix    9/   128
+   FLOW_PRG/SPF_READ.BIN      n= 3987 JP=  41975 EN=  52269 | mov  122/  4401 fix  529/  8680 | mov  121/  4383 fix  529/  8680
+   FLOW_PRG/BPMATCH.BIN       n= 3569 JP=  36794 EN=  45783 | mov   24/  1462 fix  525/  8507 | mov   19/   861 fix  525/  8507
+   FLOW_PRG/CSAVE3.BIN        n= 2788 JP=  25468 EN=  31609 | mov    0/     0 fix  653/  9886 | mov    0/     0 fix  653/  9886
+   FLOW_PRG/CHALMODE.BIN      n= 3650 JP=  36076 EN=  45193 | mov   41/  1189 fix  521/  8441 | mov   39/  1157 fix  521/  8441
+   FLOW_PRG/DMCLBEDT.BIN      n= 3498 JP=  34254 EN=  42834 | mov    8/   344 fix  525/  8507 | mov    5/   211 fix  525/  8507
+   FLOW_PRG/BACKUP.BIN        n= 3487 JP=  32833 EN=  41426 | mov    8/   344 fix  524/  8492 | mov    8/   344 fix  524/  8492
+   FLOW_PRG/SONGSAVE.BIN      n= 3461 JP=  31883 EN=  40342 | mov    5/   211 fix  522/  8432 | mov    5/   211 fix  522/  8432
+   FLOW_PRG/FREELOAD.BIN      n= 3453 JP=  31488 EN=  39920 | mov    2/    87 fix  521/  8489 | mov    2/    87 fix  521/  8489
+
+=========== scale 0.75 ===========
+EN bytes 2509141 = 0.913 x JP
+L0 fits own slot            : 102876 strings  85.8 % | JP bytes  85.2 %
+L0+L1 pool repack+cross  : 117633 strings  98.1 % | JP bytes  98.4 % ; left: movable 5 str (143 EN B), fixed 2308 str (53546 EN B, 1.9 % of strings)
+L0+L1+L1s +dup sharing   : 117633 strings  98.1 % | JP bytes  98.4 % ; left: movable 5 str (143 EN B), fixed 2308 str (53546 EN B, 1.9 % of strings)
+  [l1] movable remainder 5 str / 143 EN B: L3 bank (143 of 259771 B, 5 unique JP texts) absorbs 5 str (0.0 % of all); L2 then absorbs 0 str (0 EN B); unhoused 0 movable str (0 EN B, 0.00 % of all strings) -> L4
+  [l1] L2 alone (no bank): 5 str (143 EN B)
+  [l1] overlays still short after L3+L2 (unhoused EN B, cons budget): 
+  [l1s] movable remainder 5 str / 143 EN B: L3 bank (143 of 259771 B, 5 unique JP texts) absorbs 5 str (0.0 % of all); L2 then absorbs 0 str (0 EN B); unhoused 0 movable str (0 EN B, 0.00 % of all strings) -> L4
+  [l1s] L2 alone (no bank): 5 str (143 EN B)
+  [l1s] overlays still short after L3+L2 (unhoused EN B, cons budget): 
+  biggest L1 deficits (n, JP B, EN B | l1 movable str/EN B, fixed str/EN B | l1s movable, fixed)
+   FLOW_PRG/TRAINING.BIN      n= 2791 JP= 254338 EN= 225495 | mov    0/     0 fix  202/ 21167 | mov    0/     0 fix  202/ 21167
+   FLOW_PRG/NENREP.BIN        n= 1419 JP=  13410 EN=  12902 | mov    4/   130 fix  275/  3260 | mov    4/   130 fix  275/  3260
+   FLOW_PRG/CSAVE3.BIN        n= 2788 JP=  25468 EN=  26526 | mov    0/     0 fix  199/  2880 | mov    0/     0 fix  199/  2880
+   FLOW_PRG/GAME.BIN          n= 1137 JP=  57637 EN=  52212 | mov    0/     0 fix   95/  1938 | mov    0/     0 fix   95/  1938
+   FLOW_PRG/AUTOSAVE.BIN      n= 3447 JP=  31158 EN=  33066 | mov    0/     0 fix  100/  1530 | mov    0/     0 fix  100/  1530
+   FLOW_PRG/FREELOAD.BIN      n= 3453 JP=  31488 EN=  33410 | mov    0/     0 fix   98/  1528 | mov    0/     0 fix   98/  1528
+   FLOW_PRG/BACKUP.BIN        n= 3487 JP=  32833 EN=  34672 | mov    0/     0 fix   98/  1524 | mov    0/     0 fix   98/  1524
+   FLOW_PRG/BPMATCH.BIN       n= 3569 JP=  36794 EN=  38297 | mov    0/     0 fix   98/  1524 | mov    0/     0 fix   98/  1524
+   FLOW_PRG/CSAVE.BIN         n= 3462 JP=  31693 EN=  33582 | mov    0/     0 fix   98/  1524 | mov    0/     0 fix   98/  1524
+   FLOW_PRG/CSAVE4.BIN        n= 3470 JP=  32323 EN=  34110 | mov    0/     0 fix   98/  1524 | mov    0/     0 fix   98/  1524
+   FLOW_PRG/DMCLBEDT.BIN      n= 3498 JP=  34254 EN=  35835 | mov    0/     0 fix   98/  1524 | mov    0/     0 fix   98/  1524
+   FLOW_PRG/EXFLAG.BIN        n= 3464 JP=  31535 EN=  33442 | mov    0/     0 fix   98/  1524 | mov    0/     0 fix   98/  1524
+   FLOW_PRG/EXTRADE.BIN       n= 3480 JP=  32711 EN=  34461 | mov    0/     0 fix   98/  1524 | mov    0/     0 fix   98/  1524
+   FLOW_PRG/LOAD.BIN          n= 3478 JP=  32417 EN=  34139 | mov    0/     0 fix   98/  1524 | mov    0/     0 fix   98/  1524
+done 25s

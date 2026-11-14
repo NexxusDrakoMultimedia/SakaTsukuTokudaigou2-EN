@@ -1,0 +1,147 @@
+# Curated refit forms (source data of tools/re/rfit_gen.py; NOT read by the build).  TAB separated, UTF-8:
+#   cls <TAB> ja <TAB> en (first form that passes every check is used; alternatives separated by " | ") <TAB> sel <TAB> why
+# sel: * = every matching record, or space separated conditions on the pointer table of the record:
+#   n=<k>[,<k>]  size of the table (tbl@..[i/n])   n<=<k>  n>=<k>   fmt=<hwptr|recarr|ptr>   notbl = record without a table
+# Priority: the order of this file (club words, J.League names, nations, cities, cups, places, persons).
+# Rules: docs/style-guide.md 7 / 8 / 12; money / Japanese flavour decisions untouched.  club words follow the logo art (clubwords_art.tsv) and stay <= 9 characters
+# (the composed club name `town short + word` lives in the 14-byte #sname#, docs/expansion/field-widths.md 2.3).
+#
+# --- club-name words (the fictional club pool, tables of 55 / 85 words)
+club	ｼｴﾛ	Cielo	n=55,85	logo CIELO (Spanish 'sky'); 'Cie' is the 4-byte slot cut
+club	ﾛｯｻ	Rosa	n=55,85	logo ROSA (Spanish 'rose'); 'Ros' is the 4-byte slot cut
+club	ﾄｯﾎﾟﾘｰﾉ	Topolino	n=55,85	logo Topolino (Italian 'little mouse'); 'Topolin' is the 8-byte slot cut
+club	ｺﾙﾐｰｼﾞｮ	Colmillo	n=55,85	logo COLMILLO (Spanish 'fang'); 'Colmill' is the 8-byte slot cut
+club	ｱｳﾞｧﾗﾝﾁ	Avalanche	n=55,85	logo Avalanche (English); 'Avalanc' is the 8-byte slot cut
+club	ﾓﾉﾘｽ	Monolith	n=55,85	logo MONOLITH (English); 'Monolit' is the 8-byte slot cut
+club	ｺﾘｴﾝﾃ	Corriente	n=55,85	logo Corriente (Spanish 'current'); 'Corrien' is the 8-byte slot cut
+club	ｴﾚﾝｼｱ	Herencia	n=55,85	logo HERENCIA (Spanish 'legacy'); 'Herenci' is the 8-byte slot cut
+club	ﾊﾟﾝﾃｰﾗ	Panthera	n=55,85	logo Panthera (Latin 'panther'); 'Panther' is the 8-byte slot cut
+# --- J.League club names shown on their own (tables of 14 / 6 / 3 words)
+jclub	ﾍﾞﾙﾏｰﾚ	Bellmare	n<=20	Shonan Bellmare (style guide 8.1)
+jclub	ｻﾝﾌﾚｯﾁｪ	Sanfrecce	n<=20	Sanfrecce Hiroshima
+jclub	ｺﾝｻﾄﾞｰﾚ	Consadole	n<=20	Consadole Sapporo
+jclub	ﾓﾝﾃﾃﾞｨｵ	Montedio	n<=20	Montedio Yamagata
+jclub	ﾌﾛﾝﾀｰﾚ	Frontale	n<=20	Kawasaki Frontale
+jclub	ﾎｰﾘｰﾎｯｸ	Hollyhock	n<=20	logo art HOLLYHOCK (clubwords_art F27); Mito Hollyhock
+jclub	ﾊﾟｰﾌﾟﾙｻﾝｶﾞ	Purple Sanga	n<=20	Kyoto Purple Sanga
+jclub	J2ﾘｰｸﾞ	J2 League	*	J2 League
+jclub	横浜FC	Yokohama FC	fmt=ptr	Yokohama FC (style guide 8.1); 'Yoko.FC' was the 8-byte slot cut
+jclub	ﾚｯｽﾞ	Red Diamonds | Reds	n<=20	logo art Red Diamonds (F02); Reds is the slot cut
+jclub	ｼﾞｪﾌ	JEF United | JEF	n<=20	logo art JEF UNITED (F03); JEF is the slot cut
+jclub	ｳﾞｨｯｾﾙ	Vissel Kobe | Vissel	n<=20	logo art VISSEL KOBE (F14)
+jclub	ｻｶﾞﾝ	Sagan Tosu | Sagan	n<=20	logo art SAGAN TOSU (F25)
+jclub	ﾏﾘﾉｽ	Yokohama F Marinos | F Marinos	n<=20	logo art Yokohama F Marinos (F06, no period); Marinos is the slot cut
+jclub	FC東京	F.C.Tokyo | FC Tokyo | FCTokyo	fmt=ptr	logo art F.C.TOKYO (F21); FCTokyo is the 8-byte slot cut
+# --- nations (4-byte slots held 3-letter codes, 8-byte slots abbreviations)
+nation	ﾁｪｺ	Czech Republic | Czech Rep. | Czechia | Czech	n<=90|notbl fmt=hwptr|fmt=ptr	'CZE'
+nation	ﾛｼｱ	Russia	n<=90|notbl fmt=hwptr|fmt=ptr	'RUS'
+nation	ﾄﾙｺ	Turkey	n<=90|notbl fmt=hwptr|fmt=ptr	'TUR'
+nation	ｽｲｽ	Switzerland	n<=90|notbl fmt=hwptr|fmt=ptr	'SUI'
+nation	ｲﾗﾝ	Iran	n<=90|notbl fmt=hwptr|fmt=ptr	'IRN'
+nation	ｲﾗｸ	Iraq	n<=90|notbl fmt=hwptr|fmt=ptr	'IRQ'
+nation	ﾀｲ	Thailand	n<=90|notbl fmt=hwptr|fmt=ptr	'THA'
+nation	ﾏｶｵ	Macau	n<=90|notbl fmt=hwptr|fmt=ptr	'MAC'
+nation	ｲﾝﾄﾞﾈｼｱ	Indonesia	n<=90|notbl fmt=hwptr|fmt=ptr	'Indon.'
+nation	ｱﾙｾﾞﾝﾁﾝ	Argentina	n<=90|notbl fmt=hwptr|fmt=ptr	'Arg.'
+nation	ｺﾛﾝﾋﾞｱ	Colombia	n<=90|notbl fmt=hwptr|fmt=ptr	'Col.'
+nation	ﾊﾟﾗｸﾞｱｲ	Paraguay	n<=90|notbl fmt=hwptr|fmt=ptr	'Parag.'
+nation	ﾍﾞﾈｽﾞｴﾗ	Venezuela	n<=90|notbl fmt=hwptr|fmt=ptr	'Venez.'
+nation	ｽﾛﾊﾞｷｱ	Slovakia	n<=90|notbl fmt=hwptr|fmt=ptr	'Slovak.'
+nation	ｽﾛﾍﾞﾆｱ	Slovenia	n<=90|notbl fmt=hwptr|fmt=ptr	'Sloven.'
+nation	ﾌﾞﾙｶﾞﾘｱ	Bulgaria	n<=90|notbl fmt=hwptr|fmt=ptr	'Bulg.'
+nation	ﾎﾟﾙﾄｶﾞﾙ	Portugal	n<=90|notbl fmt=hwptr|fmt=ptr	'Port.'
+nation	ﾏﾚｰｼｱ	Malaysia	n<=90|notbl fmt=hwptr|fmt=ptr	'Malay.'
+nation	ﾀｼﾞｷｽﾀﾝ	Tajikistan	n<=90|notbl fmt=hwptr|fmt=ptr	'Tajik.'
+nation	ｶｻﾞﾌｽﾀﾝ	Kazakhstan	n<=90|notbl fmt=hwptr|fmt=ptr	'Kazakh.'
+nation	ﾄﾙｸﾒﾆｽﾀﾝ	Turkmenistan	n<=90|notbl fmt=hwptr|fmt=ptr	'Turkmen'
+nation	ｷﾙｷﾞｽﾀﾝ	Kyrgyzstan	n<=90|notbl fmt=hwptr|fmt=ptr	'Kyrgyz'
+nation	ｶﾒﾙｰﾝ	Cameroon	n<=90|notbl fmt=hwptr|fmt=ptr	'Camern.'
+nation	ｵｰｽﾄﾗﾘｱ	Australia	n<=90|notbl fmt=hwptr|fmt=ptr	'Austral'
+nation	ｺｽﾀﾘｶ	Costa Rica	n<=90|notbl fmt=hwptr|fmt=ptr	'C. Rica'
+nation	ｻｳｼﾞｱﾗﾋﾞｱ	Saudi Arabia	n<=90|notbl fmt=hwptr|fmt=ptr	'Saudi Arab.'
+nation	南ｱﾌﾘｶ	South Africa | S. Africa	fmt=ptr	'S.Afr.'
+nation	南米	South America | S. America	fmt=ptr	'S.Amer.'
+nation	南ｱﾒﾘｶｶｯﾌﾟ	Copa America	fmt=ptr	'Copa Amer.'
+# --- cities (3-letter codes and apostrophe / dot abbreviations of the club / city tables)
+city	ｶｲﾛ	Cairo	n<=90|notbl fmt=hwptr|fmt=ptr	'CAI'
+city	ｱｸﾗ	Accra	n<=90|notbl fmt=hwptr|fmt=ptr	'ACC'
+city	ﾊﾟﾘ	Paris	n<=90|notbl fmt=hwptr|fmt=ptr	'PAR'
+city	ﾓﾅｺ	Monaco	n<=90|notbl fmt=hwptr|fmt=ptr	'MON'
+city	ﾛｰﾏ	Rome	n<=90|notbl fmt=hwptr|fmt=ptr	'ROM'
+city	ﾄﾘﾉ	Turin	n<=90|notbl fmt=hwptr|fmt=ptr	'TRN'
+city	ﾐﾗﾉ	Milan	n<=90|notbl fmt=hwptr|fmt=ptr	'MIL'
+city	ｱﾃﾈ	Athens	n<=90|notbl fmt=hwptr|fmt=ptr	'ATH'
+city	ｵｽﾛ	Oslo	n<=90|notbl fmt=hwptr|fmt=ptr	'OSL'
+city	ｿｳﾙ	Seoul	n<=90|notbl fmt=hwptr|fmt=ptr	'SEO'
+city	ﾙｻｶ	Lusaka	n<=90|notbl fmt=hwptr|fmt=ptr	'Lus'
+city	ｷﾄ	Quito	n<=90|notbl fmt=hwptr|fmt=ptr	'Qto'
+city	ﾘﾏ	Lima	n<=90|notbl fmt=hwptr|fmt=ptr	'Lim'
+city	ｵﾀﾜ	Ottawa	n<=90|notbl fmt=hwptr|fmt=ptr	'Ott'
+city	ｷｴﾌ	Kiev	n<=90|notbl fmt=hwptr|fmt=ptr	'Kyv' (era-correct spelling)
+city	ｻﾝﾁｬｺﾞ	Santiago	n<=90|notbl fmt=hwptr|fmt=ptr	'Stgo'
+city	ﾎﾞｶ	Boca	n<=90|notbl fmt=hwptr|fmt=ptr	'Boc'
+city	ﾘﾊﾞﾌﾟｰﾙ	Liverpool	n<=90|notbl fmt=hwptr|fmt=ptr	"L'pool"
+city	ﾛｯﾃﾙﾀﾞﾑ	Rotterdam	n<=90|notbl fmt=hwptr|fmt=ptr	"R'dam"
+city	ﾖﾊﾈｽﾊﾞｰｸﾞ	Johannesburg	n<=90|notbl fmt=hwptr|fmt=ptr	'Joburg'
+city	ｻﾝﾊﾟｳﾛ	Sao Paulo	n<=90|notbl fmt=hwptr|fmt=ptr	'S.Paulo'
+city	ﾌﾞｴﾉｽｱｲﾚｽ	Buenos Aires	n<=90|notbl fmt=hwptr|fmt=ptr	'B. Aires'
+city	ﾆｭｰﾖｰｸ	New York	n<=90|notbl fmt=hwptr|fmt=ptr	'N.York'
+city	ﾘｵﾃﾞｼﾞｬﾈｲﾛ	Rio de Janeiro	n<=90|notbl fmt=hwptr|fmt=ptr	'Rio de Jan.'
+city	ﾍﾞﾛｵﾘｿﾞﾝﾃ	Belo Horizonte	n<=90|notbl fmt=hwptr|fmt=ptr	'B.Horizonte'
+city	ﾎﾟﾙﾄｱﾚｸﾞﾚ	Porto Alegre	n<=90|notbl fmt=hwptr|fmt=ptr	'P. Alegre'
+city	ﾛｻﾝｾﾞﾙｽ	Los Angeles	n<=90|notbl fmt=hwptr|fmt=ptr	'L.A.'
+city	ｻﾝｻﾙﾊﾞﾄﾞﾙ	San Salvador	n<=90|notbl fmt=hwptr|fmt=ptr	'S.Salvador'
+city	ｻﾝﾎｾ	San Jose	n<=90|notbl fmt=hwptr|fmt=ptr	'Sanjose'
+city	ﾊﾞﾚﾝｼｱ	Valencia	n<=90|notbl fmt=hwptr|fmt=ptr	'Valenci'
+city	ﾊﾞﾙｾﾛﾅ	Barcelona	n<=90|notbl fmt=hwptr|fmt=ptr	'Barca'
+city	ﾏﾝﾁｪｽﾀｰ	Manchester	n<=90|notbl fmt=hwptr|fmt=ptr	'Manch.'
+city	ﾏﾙｾｲﾕ	Marseille	n<=90|notbl fmt=hwptr|fmt=ptr	'Mars.'
+city	ﾄﾞﾙﾄﾑﾝﾄ	Dortmund	n<=90|notbl fmt=hwptr|fmt=ptr	'Dortm.'
+city	ﾌﾞﾘｭｯｾﾙ	Brussels	n<=90|notbl fmt=hwptr|fmt=ptr	'Bruss.'
+city	ｽﾄｯｸﾎﾙﾑ	Stockholm	n<=90|notbl fmt=hwptr|fmt=ptr	'Stockh.'
+city	ﾌﾞｶﾚｽﾄ	Bucharest	n<=90|notbl fmt=hwptr|fmt=ptr	'Buch.'
+city	ｶｻﾌﾞﾗﾝｶ	Casablanca	n<=90|notbl fmt=hwptr|fmt=ptr	'Casab.'
+city	ｷｬﾝﾍﾞﾗ	Canberra	n<=90|notbl fmt=hwptr|fmt=ptr	'Canb.'
+city	ｶﾄﾏﾝｽﾞ	Kathmandu	n<=90|notbl fmt=hwptr|fmt=ptr	'Kathm.'
+city	ﾓﾝﾛﾋﾞｱ	Monrovia	n<=90|notbl fmt=hwptr|fmt=ptr	'Monrov.'
+city	ﾄﾞｼｬﾝﾍﾞ	Dushanbe	n<=90|notbl fmt=hwptr|fmt=ptr	'Dush.'
+city	ｸｱﾗﾙﾝﾌﾟｰﾙ	Kuala Lumpur	n<=90|notbl fmt=hwptr|fmt=ptr	'K. Lumpur'
+city	ｱﾌﾞﾀﾞﾋﾞ	Abu Dhabi	n<=90|notbl fmt=hwptr|fmt=ptr	'A.Dhabi'
+city	ｼｬﾝﾊｲ	Shanghai	n<=90|notbl fmt=hwptr|fmt=ptr	'Shangh.'
+city	ｶｵｼｭﾝ	Kaohsiung	n<=90|notbl fmt=hwptr|fmt=ptr	'Kaoh.'
+city	ﾋﾟｮﾝﾔﾝ	Pyongyang	n<=90|notbl fmt=hwptr|fmt=ptr	'Pyong.'
+city	ﾒﾃﾞｼﾞﾝ	Medellin	n<=90|notbl fmt=hwptr|fmt=ptr	'Medelin'
+city	ｱｶﾌﾟﾙｺ	Acapulco	n<=90|notbl fmt=hwptr|fmt=ptr	'Acapulc'
+city	ｱｽﾝｼｵﾝ	Asuncion	n<=90|notbl fmt=hwptr|fmt=ptr	'Asunc.'
+city	ﾌﾞﾀﾍﾟｽﾄ	Budapest	n<=90|notbl fmt=hwptr|fmt=ptr	"B'pest"
+city	ﾍﾙｼﾝｷ	Helsinki	n<=90|notbl fmt=hwptr|fmt=ptr	"H'sinki"
+city	ｶﾙﾀｺﾞ	Cartago	n<=90|notbl fmt=hwptr|fmt=ptr	'Carth.'
+city	ﾜｼﾝﾄﾝ	Washington	n<=90|notbl fmt=hwptr|fmt=ptr	'Wash.'
+# --- cups and tournaments
+other	ｱｼﾞｱﾁｬﾚﾝｼﾞｶｯﾌﾟ	Asia Challenge Cup | Asia Chal. Cup	*	'Asia Chal. Cup'
+other	ｱｼﾞｱﾄｰﾅﾒﾝﾄ	Asia Tournament | Asia Tourn.	*	'Asia Tourn.'
+# --- places (plain text records)
+other	奄美諸島	Amami Islands | Amami Is.	fmt=ptr	'Amami Is.'
+other	伊豆諸島	Izu Islands | Izu Is.	fmt=ptr	'Izu Is.'
+other	ｱｼﾞｱｳｨﾅｰｽﾞｶｯﾌﾟ	Asia Winners Cup | Asia Champ Cup	*	banner ASIA WINNERS CUP (BINDMTCH 13913), plate ASIA WIN CUP
+other	ｱｼﾞｱｳｲﾅｰｽﾞｶｯﾌﾟ	Asia Winners Cup | Asia Champ Cup	*	banner ASIA WINNERS CUP (BINDMTCH 13913)
+other	ﾜｰﾙﾄﾞｳｨﾅｰｽﾞｶｯﾌﾟ	World Winners Cup | World Champ Cup	*	banner WORLD WINNERS CUP (BINDMTCH 13914)
+other	ﾜｰﾙﾄﾞｳｲﾅｰｽﾞｶｯﾌﾟ	World Winners Cup | World Champ Cup	*	banner WORLD WINNERS CUP (BINDMTCH 13914)
+other	世界ｽﾎﾟｰﾂ大会	World Sports Festival | Sports Festival | World Games	*	banner WORLD SPORTS FESTIVAL (BINDMTCH 13933 / 13934)
+other	世界ｽﾎﾟｰﾂ大会予選	World Sports Festival Qual. | Sports Festival Qual. | Sports Fest. Qual. | World Games Qual.	*	banner WORLD SPORTS FESTIVAL QUALIFY (13933)
+other	世界ｽﾎﾟｰﾂ大会予選ﾘｰｸﾞ	World Sports Festival Qualif. | Sports Festival Qualif. | World Sports Qualif.	*	banner WORLD SPORTS FESTIVAL QUALIFY (13933)
+other	世界ｽﾎﾟｰﾂ大会決勝ﾄｰﾅﾒﾝﾄ	World Sports Festival Finals | Sports Festival Finals | World Sports Finals	*	banner WORLD SPORTS FESTIVAL (13934)
+other	ﾌｧﾝ感謝ﾏｯﾁ	Thanksgiving Match | Thanksgiving | Fan Thanks	*	banner THANKSGIVING MATCH (BINDMTCH 13924), plate THANKS GIVING
+other	Ｕ.Ｋ.レジェンズ	English Legends | U.K. Legends	*	BINDNAME art ENGLISH LEGENDS (S09)
+other	ワールドスターズ	The World Stars | World Stars	*	BINDNAME art THE WORLD STARS (S19)
+other	ジャパン・スターズ	Japanese Stars | Japan Stars	*	BINDNAME art JAPANESE STARS (S01)
+other	アジア・スターズ	Asian Stars | Asia Stars	*	BINDNAME art ASIAN STARS (S02)
+other	アフリカ・スターズ	African Stars | Africa Stars	*	BINDNAME art AFRICAN STARS (S03)
+other	スペイン・レジェンズ	Spanish Legends | Spain Legends	*	BINDNAME art SPANISH LEGENDS (S07)
+other	イタリア・レジェンズ	Italian Legends | Italy Legends	*	BINDNAME art ITALIAN LEGENDS (S12)
+other	ブラジル・レジェンズ	Brazilian Legends | Brazil Legends	*	BINDNAME art BRAZILIAN LEGENDS (S14)
+# --- persons: name-pool entries that were cut to a 4 / 8 byte slot and have no BPINFO twin (those with one: ｼｴﾗ Sierra, ｼｴﾛ Cielo, ﾙﾓｽﾀｷﾑ Rumostakim ... come from the BPINFO record, tools/re/rfit_gen.py class B)
+person	ﾛｯｼ	Rossi	n>=100	Italian surname (docs/style-guide.md 12.4); 'Ros'
+person	ｺﾞｲｺﾁｪｱ	Goycochea	n>=100	Sergio Goycochea; 'Goyco.'
+person	ﾅｼﾒﾝﾄ	Nascimento	n>=100	Brazilian surname; 'Nascim.'
+person	ｱﾗﾋﾞﾚｰｽﾞ	Arabilese	fmt=ptr	the BPINFO record cut the name; the name pools already read Arabilese; was Arabiles

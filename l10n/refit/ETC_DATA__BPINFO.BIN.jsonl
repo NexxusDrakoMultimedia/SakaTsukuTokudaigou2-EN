@@ -1,0 +1,2 @@
+{"l10n":1,"kind":"refit","style":"spaced","n":1,"final_newline":true,"src":"ETC_DATA/BPINFO.BIN"}
+{"id":"200b8","jah":"2ab4a7696b7d26fa8791c4993564cc25","en":"Arabilese","why":"the BPINFO record cut the name; the name pools already read Arabilese; was Arabiles (was 'Arabiles')","cls":"person"}

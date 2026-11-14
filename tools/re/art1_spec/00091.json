@@ -1,0 +1,70 @@
+{
+ "texture": "00091 yesno.tbd#1",
+ "size": [
+  128,
+  128
+ ],
+ "supersample": 4,
+ "quantize": "argb4444",
+ "styles": {
+  "v": {
+   "font": [
+    "segoe-ui-bold",
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffffff"
+    ],
+    [
+     1,
+     "#d6d6ee"
+    ]
+   ],
+   "outline": {
+    "color": "#8a5ae0",
+    "width": 1.6
+   },
+   "shadow": {
+    "color": "#2a0a5a",
+    "dx": 1.5,
+    "dy": 1.5,
+    "blur": 1,
+    "alpha": 0.7
+   }
+  }
+ },
+ "regions": [
+  {
+   "id": "yes",
+   "ja": "はい",
+   "text": "Yes",
+   "style": "v",
+   "x": 0,
+   "y": 16,
+   "w": 128,
+   "h": 44,
+   "size": 36,
+   "align": "center",
+   "erase": {
+    "mode": "clear"
+   }
+  },
+  {
+   "id": "no",
+   "ja": "いいえ",
+   "text": "No",
+   "style": "v",
+   "x": 0,
+   "y": 62,
+   "w": 128,
+   "h": 52,
+   "size": 36,
+   "align": "center",
+   "erase": {
+    "mode": "clear"
+   }
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+ratio 1.25: overflow strings 63311 (non-relocatable 6275), relocatable 57036
+  stored: unique strings 19165 (suffix aliases 207), stored bytes 259767 of 259771 capacity, raw bytes w/o dedupe 2577978
+  per region used/size: {'tail': (93183, 93184), 'gap1': (119936, 119936), 'gap2': (13402, 13402), 'gap3': (16634, 16637), 'font': (16612, 16612)}
+  strings served by the shared bank: 37279 of 57036 (65.4%); unplaced 21410
+  overflow bytes served 983051 of 2577978 (38.1%)
+  unplaced strings by overlay (top): [('FLOW_PRG/MEETING.BIN', 7400), ('FLOW_PRG/NEWS.BIN', 3405), ('FLOW_PRG/DRAFT.BIN', 970), ('FLOW_PRG/TRAINING.BIN', 961), ('FLOW_PRG/EVENT.BIN', 947), ('FLOW_PRG/PL_EDIT.BIN', 852), ('FLOW_PRG/SCDRF.BIN', 702), ('FLOW_PRG/PLNUMSET.BIN', 670)]
+  leftover (route d) overlays: 87, total leftover bytes 1637972; overlays where leftover > 50% of the heap lower bound: [('FLOW_PRG/NEWS.BIN', 361839, 462512), ('FLOW_PRG/TRAINING.BIN', 118841, 187208), ('FLOW_PRG/GETREP.BIN', 9074, None), ('FLOW_PRG/NENREP.BIN', 256, None)]
+  biggest leftovers (overlay, bytes, heap lower bound): [('FLOW_PRG/MEETING.BIN', 465354, 972592), ('FLOW_PRG/NEWS.BIN', 361839, 462512), ('FLOW_PRG/DRAFT.BIN', 124290, 518576), ('FLOW_PRG/TRAINING.BIN', 118841, 187208), ('FLOW_PRG/SCDRF.BIN', 87981, 592363), ('FLOW_PRG/EVENT.BIN', 71533, 553404)]
+ratio 1.50: overflow strings 101568 (non-relocatable 26576), relocatable 74992
+  stored: unique strings 20631 (suffix aliases 136), stored bytes 259770 of 259771 capacity, raw bytes w/o dedupe 3268723
+  per region used/size: {'tail': (93184, 93184), 'gap1': (119936, 119936), 'gap2': (13401, 13402), 'gap3': (16637, 16637), 'font': (16612, 16612)}
+  strings served by the shared bank: 52853 of 74992 (70.5%); unplaced 25819
+  overflow bytes served 1229699 of 3268723 (37.6%)
+  unplaced strings by overlay (top): [('FLOW_PRG/MEETING.BIN', 7431), ('FLOW_PRG/NEWS.BIN', 3448), ('FLOW_PRG/PL_EDIT.BIN', 2000), ('FLOW_PRG/PLNUMSET.BIN', 1776), ('FLOW_PRG/TRAINING.BIN', 1053), ('FLOW_PRG/DRAFT.BIN', 1019), ('FLOW_PRG/EVENT.BIN', 996), ('FLOW_PRG/SCDRF.BIN', 717)]
+  leftover (route d) overlays: 89, total leftover bytes 2208537; overlays where leftover > 50% of the heap lower bound: [('FLOW_PRG/MEETING.BIN', 558565, 972592), ('FLOW_PRG/NEWS.BIN', 436831, 462512), ('FLOW_PRG/TRAINING.BIN', 154686, 187208), ('FLOW_PRG/GETREP.BIN', 11501, None), ('FLOW_PRG/NENREP.BIN', 296, None)]
+  biggest leftovers (overlay, bytes, heap lower bound): [('FLOW_PRG/MEETING.BIN', 558565, 972592), ('FLOW_PRG/NEWS.BIN', 436831, 462512), ('FLOW_PRG/DRAFT.BIN', 155013, 518576), ('FLOW_PRG/TRAINING.BIN', 154686, 187208), ('FLOW_PRG/SCDRF.BIN', 106176, 592363), ('FLOW_PRG/EVENT.BIN', 86787, 553404)]
+ratio 2.00: overflow strings 116207 (non-relocatable 35337), relocatable 80870
+  stored: unique strings 21306 (suffix aliases 150), stored bytes 259763 of 259771 capacity, raw bytes w/o dedupe 4382800
+  per region used/size: {'tail': (93179, 93184), 'gap1': (119935, 119936), 'gap2': (13402, 13402), 'gap3': (16636, 16637), 'font': (16611, 16612)}
+  strings served by the shared bank: 57234 of 80870 (70.8%); unplaced 28691
+  overflow bytes served 1492042 of 4382800 (34.0%)
+  unplaced strings by overlay (top): [('FLOW_PRG/MEETING.BIN', 7473), ('FLOW_PRG/NEWS.BIN', 3467), ('FLOW_PRG/PL_EDIT.BIN', 2641), ('FLOW_PRG/PLNUMSET.BIN', 2394), ('FLOW_PRG/TRAINING.BIN', 1095), ('FLOW_PRG/DRAFT.BIN', 1018), ('FLOW_PRG/EVENT.BIN', 1003), ('FLOW_PRG/SCDRF.BIN', 719)]
+  leftover (route d) overlays: 89, total leftover bytes 3303335; overlays where leftover > 50% of the heap lower bound: [('FLOW_PRG/MEETING.BIN', 741101, 972592), ('FLOW_PRG/NEWS.BIN', 584257, 462512), ('FLOW_PRG/TRAINING.BIN', 215002, 187208), ('FLOW_PRG/HELP.BIN', 160620, 58816), ('ATFIRST/HELP.BIN', 160162, 58816), ('FLOW_PRG/GETREP.BIN', 15429, None)]
+  biggest leftovers (overlay, bytes, heap lower bound): [('FLOW_PRG/MEETING.BIN', 741101, 972592), ('FLOW_PRG/NEWS.BIN', 584257, 462512), ('FLOW_PRG/TRAINING.BIN', 215002, 187208), ('FLOW_PRG/DRAFT.BIN', 206328, 518576), ('FLOW_PRG/HELP.BIN', 160620, 58816), ('ATFIRST/HELP.BIN', 160162, 58816)]

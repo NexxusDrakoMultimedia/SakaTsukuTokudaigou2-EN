@@ -1,0 +1,104 @@
+sample total 609 skipped junk 4 used 605
+POPULATION (FLOW_PRG + ATFIRST overlay records): n=119946 jp_bytes(incl NUL)=2749078 maxb=3019121
+
+PER CATEGORY (sample): n, JP bytes, EN bytes, sumEN/sumJP, mean(per-string), p50 p75 p90 p99 of per-string EN/JP, fit-in-slot %, fit<=JP-bytes %
+prose_meeting   n= 72 J=  3714 E=  3943 ratio=1.062 [95% CI 1.014-1.110] mean=1.060 p50=1.05 p75=1.20 p90=1.34 p99=1.56 fit=45.8% fit<=JPbytes=45.8%  (movable n=72 fit 46%; pinned n=0 fit 0%)
+prose_news      n= 62 J=  5818 E=  6811 ratio=1.171 [95% CI 1.133-1.208] mean=1.171 p50=1.18 p75=1.26 p90=1.38 p99=1.46 fit=12.9% fit<=JPbytes=12.9%  (movable n=62 fit 13%; pinned n=0 fit 0%)
+prose_event     n= 40 J=  2530 E=  3029 ratio=1.197 [95% CI 1.142-1.253] mean=1.190 p50=1.17 p75=1.32 p90=1.46 p99=1.68 fit=27.5% fit<=JPbytes=22.5%  (movable n=40 fit 28%; pinned n=0 fit 0%)
+prose_training  n= 49 J=  4662 E=  5510 ratio=1.182 [95% CI 1.146-1.221] mean=1.180 p50=1.17 p75=1.29 p90=1.33 p99=1.47 fit=10.2% fit<=JPbytes=10.2%  (movable n=22 fit 5%; pinned n=27 fit 15%)
+prose_other     n=135 J=  8369 E= 10021 ratio=1.197 [95% CI 1.162-1.234] mean=1.209 p50=1.19 p75=1.34 p90=1.51 p99=1.85 fit=21.5% fit<=JPbytes=18.5%  (movable n=134 fit 21%; pinned n=1 fit 100%)
+help            n= 42 J=  7133 E=  7684 ratio=1.077 [95% CI 1.034-1.123] mean=1.053 p50=1.05 p75=1.14 p90=1.19 p99=1.41 fit=35.7% fit<=JPbytes=35.7%  (movable n=42 fit 36%; pinned n=0 fit 0%)
+label           n= 41 J=   397 E=   526 ratio=1.325 [95% CI 1.210-1.440] mean=1.293 p50=1.32 p75=1.52 p90=1.80 p99=2.04 fit=53.7% fit<=JPbytes=29.3%  (movable n=36 fit 47%; pinned n=5 fit 100%)
+name            n= 68 J=   681 E=   996 ratio=1.463 [95% CI 1.409-1.513] mean=1.471 p50=1.48 p75=1.60 p90=1.80 p99=1.93 fit=47.1% fit<=JPbytes=2.9%  (movable n=2 fit 0%; pinned n=66 fit 48%)
+place           n= 56 J=   410 E=   546 ratio=1.332 [95% CI 1.225-1.438] mean=1.312 p50=1.29 p75=1.60 p90=1.78 p99=2.20 fit=41.1% fit<=JPbytes=26.8%  (movable n=55 fit 40%; pinned n=1 fit 100%)
+numunit         n= 40 J=   487 E=   562 ratio=1.154 [95% CI 1.032-1.265] mean=1.027 p50=0.91 p75=1.25 p90=1.47 p99=1.78 fit=62.5% fit<=JPbytes=55.0%  (movable n=37 fit 65%; pinned n=3 fit 33%)
+
+OVERALL
+unweighted sample (n=605): sumEN/sumJP = 1.159, fit in own slot 33.6%
+population-weighted (post-stratified by category): sumEN/sumJP (byte-weighted) = 1.218 ; mean per-string ratio (record-weighted) = 1.314
+population-weighted fit-in-own-slot: 41.6% of records, 28.0% of JP bytes
+bootstrap 95% CI of population-weighted sumEN/sumJP: 1.200 - 1.237
+prose+help share of JP bytes: 70.5%  weighted ratio 1.151
+prose+help per-string EN/JP ratio: p50=1.14 p75=1.29 p90=1.41 p99=1.70  max=1.93
+ALL sampled strings per-string ratio: p50=1.18 p75=1.36 p90=1.60 p99=1.91
+
+SAMPLE POOLED PER OVERLAY (files with >= 10 sampled strings): n, sumJP, sumEN, ratio, fit%
+MEETING.BIN        n= 73 JP=  3721 EN=  3953 ratio=1.062 fit=45%
+NEWS.BIN           n= 65 JP=  5446 EN=  6459 ratio=1.186 fit=12%
+TRAINING.BIN       n= 49 JP=  4662 EN=  5510 ratio=1.182 fit=10%
+EVENT.BIN          n= 42 JP=  2553 EN=  3063 ratio=1.200 fit=26%
+HELP.BIN           n= 22 JP=  3893 EN=  4195 ratio=1.078 fit=41%
+ATFIRST/HELP.BIN   n= 20 JP=  3240 EN=  3489 ratio=1.077 fit=30%
+DRAFT.BIN          n= 15 JP=  1004 EN=  1231 ratio=1.226 fit=13%
+YOUTH.BIN          n= 15 JP=   575 EN=   788 ratio=1.370 fit=13%
+ESTABLIS.BIN       n= 12 JP=   546 EN=   657 ratio=1.203 fit=8%
+CHALMODE.BIN       n= 12 JP=   196 EN=   226 ratio=1.153 fit=50%
+VTRLOAD.BIN        n= 10 JP=    94 EN=   148 ratio=1.574 fit=30%
+GAME.BIN           n= 10 JP=   588 EN=   669 ratio=1.138 fit=60%
+FREELOAD.BIN       n= 10 JP=    82 EN=   113 ratio=1.378 fit=40%
+
+BY JP SIZE (fit rate depends on slot padding): JP bytes bucket -> n, ratio, fit%
+  JP   0-8     n= 79 sumratio=1.215 fit=59% meanpad(max-jb)=1.9
+  JP   8-17    n=115 sumratio=1.369 fit=48% meanpad(max-jb)=3.4
+  JP  17-40    n= 90 sumratio=1.243 fit=31% meanpad(max-jb)=0.8
+  JP  40-80    n=121 sumratio=1.108 fit=33% meanpad(max-jb)=0.2
+  JP  80-120   n=166 sumratio=1.174 fit=14% meanpad(max-jb)=0.3
+  JP 120-10000 n= 34 sumratio=1.096 fit=26% meanpad(max-jb)=0.0
+
+LINE FEASIBILITY (prose + help; width 39 half-width cells; substitution tokens expanded: #sname#/#tkNN# 10, $N 6, %s 8, %d 3)
+ expand=True: strings 400, English needs MORE lines than the Japanese had: 149 (37.2%); fewer/equal: 251
+   extra-lines histogram (EN lines - JP lines): {-2: 1, -1: 33, 0: 217, 1: 137, 2: 11, 3: 1}
+   of 362 strings with JP <=3 lines, English needs >3 lines: 96 (26.5%)
+   by category: help 8/42 (19%), prose_event 16/40 (40%), prose_meeting 3/72 (4%), prose_news 33/62 (53%), prose_other 60/135 (44%), prose_training 29/49 (59%)
+ expand=False: strings 400, English needs MORE lines than the Japanese had: 135 (33.8%); fewer/equal: 265
+   extra-lines histogram (EN lines - JP lines): {-2: 1, -1: 35, 0: 229, 1: 123, 2: 11, 3: 1}
+   of 362 strings with JP <=3 lines, English needs >3 lines: 85 (23.5%)
+   by category: help 8/42 (19%), prose_event 14/40 (35%), prose_meeting 3/72 (4%), prose_news 26/62 (42%), prose_other 57/135 (42%), prose_training 27/49 (55%)
+JP line width in half-width cells (non-empty lines of sampled prose/help): mean 27.8 p50 30 p90 36 max 40 (window = 39/40)
+JP line-count histogram (sampled prose/help): {1: 73, 2: 111, 3: 178, 4: 6, 5: 5, 6: 6, 7: 11, 8: 3, 9: 7}
+English flat text width (cells) of sampled prose/help: mean 91 p50 84 p90 144 max 402; JP total cells mean 75
+
+EXTRAPOLATION per overlay (all records of FLOW_PRG + ATFIRST HELP/TITLE)
+overlay	n	JPbytes	pool(sum max_bytes)	slack	est EN need	need/pool	movable pool	movable need	mov need/pool	extra bytes if repacked	pinned n	pinned fit%
+MEETING.BIN    n= 7548 JP= 376714 pool= 376951 slack=   237 est=  400807 need/pool=1.06 | mov pool= 376541 need=  400367 1.06 extra=  23826 | pinned n=   27 fit 64%
+NEWS.BIN       n= 3702 JP= 302574 pool= 303165 slack=   591 est=  354357 need/pool=1.17 | mov pool= 303031 need=  354205 1.17 extra=  51174 | pinned n=    9 fit 76%
+TRAINING.BIN   n= 2791 JP= 254338 pool= 254598 slack=   260 est=  300739 need/pool=1.18 | mov pool= 109725 need=  129505 1.18 extra=  19780 | pinned n= 1570 fit 16%
+DRAFT.BIN      n= 1563 JP= 118757 pool= 120588 slack=  1831 est=  142299 need/pool=1.18 | mov pool= 120421 need=  142101 1.18 extra=  21680 | pinned n=    8 fit 90%
+ATFIRST/HELP.BIN n=  700 JP= 109945 pool= 110036 slack=    91 est=  118520 need/pool=1.08 | mov pool= 109798 need=  118275 1.08 extra=   8477 | pinned n=   17 fit 48%
+HELP.BIN       n=  700 JP= 109939 pool= 110032 slack=    93 est=  118514 need/pool=1.08 | mov pool= 109794 need=  118268 1.08 extra=   8474 | pinned n=   17 fit 48%
+SCDRF.BIN      n=  861 JP=  73022 pool=  73307 slack=   285 est=   87574 need/pool=1.19 | mov pool=  72991 need=   87237 1.20 extra=  14246 | pinned n=   26 fit 64%
+EVENT.BIN      n= 2606 JP=  71970 pool=  76173 slack=  4203 est=   87946 need/pool=1.15 | mov pool=  75722 need=   87444 1.15 extra=  11722 | pinned n=   29 fit 65%
+NEWS_ED.BIN    n= 2047 JP=  59969 pool=  62456 slack=  2487 est=   72079 need/pool=1.15 | mov pool=  62419 need=   72035 1.15 extra=   9616 | pinned n=    5 fit 100%
+GAME.BIN       n= 1137 JP=  57637 pool=  58322 slack=   685 est=   69624 need/pool=1.19 | mov pool=  53017 need=   62855 1.19 extra=   9838 | pinned n=  276 fit 84%
+SPF_READ.BIN   n= 3987 JP=  41975 pool=  53085 slack= 11110 est=   58106 need/pool=1.09 | mov pool=  23679 need=   27644 1.17 extra=   3965 | pinned n= 2096 fit 49%
+ESTABLIS.BIN   n= 1798 JP=  36935 pool=  39249 slack=  2314 est=   45768 need/pool=1.17 | mov pool=  39249 need=   45768 1.17 extra=   6519 | pinned n=    0 fit 0%
+BPMATCH.BIN    n= 3569 JP=  36794 pool=  47311 slack= 10517 est=   50853 need/pool=1.07 | mov pool=  18258 need=   20775 1.14 extra=   2517 | pinned n= 2078 fit 49%
+CHALMODE.BIN   n= 3650 JP=  36076 pool=  46765 slack= 10689 est=   50267 need/pool=1.07 | mov pool=  17866 need=   20367 1.14 extra=   2501 | pinned n= 2067 fit 49%
+ENDOPT.BIN     n= 3512 JP=  34402 pool=  44997 slack= 10595 est=   47942 need/pool=1.07 | mov pool=  16150 need=   18083 1.12 extra=   1933 | pinned n= 2063 fit 49%
+DMCLBEDT.BIN   n= 3498 JP=  34254 pool=  44675 slack= 10421 est=   47785 need/pool=1.07 | mov pool=  15622 need=   17707 1.13 extra=   2085 | pinned n= 2078 fit 49%
+BACKUP.BIN     n= 3487 JP=  32833 pool=  43326 slack= 10493 est=   46068 need/pool=1.06 | mov pool=  14343 need=   16066 1.12 extra=   1723 | pinned n= 2073 fit 49%
+EXTRADE.BIN    n= 3480 JP=  32711 pool=  43181 slack= 10470 est=   45914 need/pool=1.06 | mov pool=  14186 need=   15904 1.12 extra=   1718 | pinned n= 2074 fit 49%
+LOAD.BIN       n= 3478 JP=  32417 pool=  42873 slack= 10456 est=   45565 need/pool=1.06 | mov pool=  13890 need=   15563 1.12 extra=   1673 | pinned n= 2073 fit 49%
+CSAVE4.BIN     n= 3470 JP=  32323 pool=  42745 slack= 10422 est=   45456 need/pool=1.06 | mov pool=  13762 need=   15454 1.12 extra=   1692 | pinned n= 2073 fit 49%
+SONGSAVE.BIN   n= 3461 JP=  31883 pool=  42299 slack= 10416 est=   44916 need/pool=1.06 | mov pool=  13338 need=   14920 1.12 extra=   1582 | pinned n= 2072 fit 49%
+VTRLOAD.BIN    n= 3467 JP=  31757 pool=  42190 slack= 10433 est=   44789 need/pool=1.06 | mov pool=  13151 need=   14725 1.12 extra=   1574 | pinned n= 2077 fit 49%
+CSAVE.BIN      n= 3462 JP=  31693 pool=  42105 slack= 10412 est=   44701 need/pool=1.06 | mov pool=  13122 need=   14699 1.12 extra=   1577 | pinned n= 2073 fit 49%
+EXFLAG.BIN     n= 3464 JP=  31535 pool=  41965 slack= 10430 est=   44515 need/pool=1.06 | mov pool=  12982 need=   14513 1.12 extra=   1531 | pinned n= 2073 fit 49%
+FREELOAD.BIN   n= 3453 JP=  31488 pool=  41860 slack= 10372 est=   44435 need/pool=1.06 | mov pool=  13002 need=   14553 1.12 extra=   1551 | pinned n= 2064 fit 49%
+AUTOSAVE.BIN   n= 3447 JP=  31158 pool=  41571 slack= 10413 est=   44037 need/pool=1.06 | mov pool=  12554 need=   13986 1.11 extra=   1432 | pinned n= 2077 fit 49%
+SPONSOR.BIN    n= 1762 JP=  29446 pool=  31851 slack=  2405 est=   36851 need/pool=1.16 | mov pool=  31797 need=   36784 1.16 extra=   4987 | pinned n=    6 fit 100%
+SPONSOR2.BIN   n= 1762 JP=  29446 pool=  31851 slack=  2405 est=   36851 need/pool=1.16 | mov pool=  31797 need=   36784 1.16 extra=   4987 | pinned n=    6 fit 100%
+SCHE0.BIN      n= 1817 JP=  27789 pool=  30655 slack=  2866 est=   34878 need/pool=1.14 | mov pool=  30553 need=   34755 1.14 extra=   4202 | pinned n=    7 fit 89%
+SCHE1.BIN      n= 1817 JP=  27789 pool=  30655 slack=  2866 est=   34878 need/pool=1.14 | mov pool=  30553 need=   34755 1.14 extra=   4202 | pinned n=    7 fit 89%
+LOCAL.BIN      n= 1769 JP=  26550 pool=  28894 slack=  2344 est=   33356 need/pool=1.15 | mov pool=  28656 need=   33111 1.16 extra=   4455 | pinned n=   17 fit 48%
+YOUTH.BIN      n=  741 JP=  26171 pool=  26362 slack=   191 est=   31439 need/pool=1.19 | mov pool=  26266 need=   31320 1.19 extra=   5054 | pinned n=   10 fit 92%
+HOMETOWN.BIN   n= 3189 JP=  25966 pool=  69438 slack= 43472 est=   34330 need/pool=0.49 | mov pool=  15798 need=   17450 1.10 extra=   1652 | pinned n= 1531 fit 90%
+CSAVE3.BIN     n= 2788 JP=  25468 pool=  31727 slack=  6259 est=   35441 need/pool=1.12 | mov pool=  13726 need=   15389 1.12 extra=   1663 | pinned n= 1389 fit 49%
+NEWS_OP.BIN    n=  319 JP=  25343 pool=  25558 slack=   215 est=   30391 need/pool=1.19 | mov pool=  25521 need=   30350 1.19 extra=   4829 | pinned n=    5 fit 100%
+DRSHRANK.BIN   n= 1664 JP=  20601 pool=  23005 slack=  2404 est=   26226 need/pool=1.14 | mov pool=  23005 need=   26226 1.14 extra=   3221 | pinned n=    0 fit 0%
+PL_EDIT.BIN    n= 1865 JP=  19356 pool=  23478 slack=  4122 est=   25057 need/pool=1.07 | mov pool=  21399 need=   22963 1.07 extra=   1564 | pinned n=  142 fit 50%
+RECON.BIN      n=  345 JP=  17065 pool=  17136 slack=    71 est=   20469 need/pool=1.19 | mov pool=  16428 need=   19619 1.19 extra=   3191 | pinned n=   15 fit 58%
+DRSLIST.BIN    n=  586 JP=  16050 pool=  16246 slack=   196 est=   19323 need/pool=1.19 | mov pool=  16187 need=   19250 1.19 extra=   3063 | pinned n=    7 fit 100%
+DRSOLIST.BIN   n=  568 JP=  16026 pool=  16186 slack=   160 est=   19272 need/pool=1.19 | mov pool=  16127 need=   19199 1.19 extra=   3072 | pinned n=    7 fit 100%
+ALL 114 overlays: n=119946 JP=2749078 pool=3019121 est EN need=3349285 (1.218 x JP, 1.109 x pool); movable pool=2338270 movable need=2657180; total extra bytes if every overlay repacks = 318916 ; overlays whose movable need exceeds movable pool: 112
+HEADLINE (record-weighted): fit in place 41.8% ; JP-byte-weighted: 31.3%

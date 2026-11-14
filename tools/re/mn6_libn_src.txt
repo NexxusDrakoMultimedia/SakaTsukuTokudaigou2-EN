@@ -1,0 +1,308 @@
+; ---- entry n_sp: libc sprintf(dst = r4, fmt/args on the stack).  r1 = the real sprintf, r2 = the field width W (0 = none), both from the stub.
+n_sp:   sts.l pr,@-r15
+        mov.l r8,@-r15
+        mov.l r9,@-r15
+        mov.l r10,@-r15
+        mov.l r11,@-r15
+        mov.l r12,@-r15
+        mov.l r13,@-r15
+        mov   r1,r13                  ; real
+        mov   r2,r12                  ; W
+        mov   r15,r9
+        add   #28,r9                  ; r9 -> [fmt][a1][a2]..
+        add   #-52,r15
+        mov.l r4,@r15                 ; dst
+        mov   r15,r10
+        add   #4,r10                  ; text buffer (48 bytes)
+        bsr   n_core
+        nop
+        cmp/pz r0
+        bf    n_ps
+        mov   r0,r7                   ; L
+        mov.l @r15,r4                 ; dst
+        mov   r12,r1
+        sub   r7,r1                   ; pad = W - L
+        cmp/pl r1
+        bf    n_c1
+        mov   #32,r2
+n_pl:   mov.b r2,@r4
+        add   #1,r4
+        dt    r1
+        bf    n_pl
+n_c1:   mov   r7,r1
+n_cp:   mov.b @r10+,r0
+        mov.b r0,@r4
+        add   #1,r4
+        dt    r1
+        bf    n_cp
+        mov   #0,r0
+        mov.b r0,@r4
+        mov.l @r15,r0
+        mov   r4,r1
+        sub   r0,r1
+        mov   r1,r0                   ; length written (sprintf's result)
+        add   #52,r15
+        mov.l @r15+,r13
+        mov.l @r15+,r12
+        mov.l @r15+,r11
+        mov.l @r15+,r10
+        mov.l @r15+,r9
+        mov.l @r15+,r8
+        lds.l @r15+,pr
+        rts
+        nop
+n_ps:   mov.l @r15,r4                 ; not a money format: the original r4, the real function, stack untouched
+        add   #52,r15
+n_pt:   mov   r13,r0
+        mov.l @r15+,r13
+        mov.l @r15+,r12
+        mov.l @r15+,r11
+        mov.l @r15+,r10
+        mov.l @r15+,r9
+        mov.l @r15+,r8
+        lds.l @r15+,pr
+        jmp   @r0
+        nop
+; ---- entry n_al: the library's text-object printf real(fmt, args) (G_INCOME `%d円`).  r1 = real.
+n_al:   sts.l pr,@-r15
+        mov.l r8,@-r15
+        mov.l r9,@-r15
+        mov.l r10,@-r15
+        mov.l r11,@-r15
+        mov.l r12,@-r15
+        mov.l r13,@-r15
+        mov   r1,r13
+        mov   #0,r12
+        mov   r15,r9
+        add   #28,r9
+        add   #-48,r15
+        mov   r15,r10
+        bsr   n_core
+        nop
+        cmp/pz r0
+        bf    n_pa
+        mov   r10,r1
+        add   r0,r1
+        mov   #0,r2
+        mov.b r2,@r1                  ; NUL
+        mova  n_pct,r0
+        mov.l r10,@-r15
+        jsr   @r13                    ; real("%s", text)
+        mov.l r0,@-r15
+        add   #8,r15
+        add   #48,r15
+        mov.l @r15+,r13
+        mov.l @r15+,r12
+        mov.l @r15+,r11
+        mov.l @r15+,r10
+        mov.l @r15+,r9
+        mov.l @r15+,r8
+        lds.l @r15+,pr
+        rts
+        nop
+n_pa:   add   #48,r15
+        bra   n_pt
+        nop
+; ---- entry n_gd(r4 = yen): the number of characters of the text of this yen amount (replaces the digit counter of the G_INCOME yen row, which
+;      right-aligns the object by 12 px per missing digit).  Preserves everything but r0-r7.
+n_gd:   sts.l pr,@-r15
+        mov.l r8,@-r15
+        mov.l r9,@-r15
+        mov.l r10,@-r15
+        mov.l r11,@-r15
+        mov.l r12,@-r15
+        mov   #0,r12
+        add   #-56,r15
+        mov   r15,r9
+        mova  n_fy,r0
+        mov.l r0,@r9
+        mov   r9,r1
+        add   #4,r1
+        mov.l r4,@r1
+        mov   r15,r10
+        add   #8,r10
+        bsr   n_core
+        nop
+        add   #56,r15
+        mov.l @r15+,r12
+        mov.l @r15+,r11
+        mov.l @r15+,r10
+        mov.l @r15+,r9
+        mov.l @r15+,r8
+        lds.l @r15+,pr
+        rts
+        nop
+; ---- n_core: r9 -> [fmt][a1][a2]..; r10 = destination of the text (no NUL); r12 = field width W (compact form when the full form is wider than W).
+;      out r0 = length, or -1 = not a money format (only r0-r2, r8, r11 touched then).  Keeps r9, r10, r12, r13.
+;      A money format = every `%` is `%[0-9]*d`, directly followed by zeros ("00" = x100), spaces and a unit letter c / o / m / y (cho, oku, man, yen;
+;      lower or upper case y): value in man = sum(arg * 10^zeros * unit) with cho = 10^8, oku = 10^4, man = 1, yen = 1/10^4 (floor).
+n_core: sts.l pr,@-r15
+        mov.l @r9,r8
+        mov   #0,r11                  ; number of %d
+n_v:    mov.b @r8+,r0
+        tst   r0,r0
+        bt    n_ve
+        cmp/eq #37,r0
+        bf    n_v
+n_w:    mov.b @r8+,r0
+        mov   r0,r1
+        add   #-48,r0
+        extu.b r0,r0
+        mov   #10,r2
+        cmp/hs r2,r0
+        bf    n_w                     ; a digit of the width
+        mov   r1,r0
+        cmp/eq #100,r0                ; 'd'
+        bf    n_no
+        add   #1,r11
+n_z1:   mov.b @r8,r0
+        cmp/eq #48,r0
+        bf    n_s1
+        add   #1,r8
+        bra   n_z1
+        nop
+n_s1:   mov.b @r8,r0
+        cmp/eq #32,r0
+        bf    n_u1
+        add   #1,r8
+        bra   n_s1
+        nop
+n_u1:   cmp/eq #99,r0                 ; 'c'
+        bt    n_v
+        cmp/eq #111,r0                ; 'o'
+        bt    n_v
+        cmp/eq #109,r0                ; 'm'
+        bt    n_v
+        cmp/eq #121,r0                ; 'y'
+        bt    n_v
+        cmp/eq #89,r0                 ; 'Y'
+        bt    n_v
+n_no:   mov   #-1,r0
+        bra   n_ret
+        nop
+n_ve:   tst   r11,r11
+        bt    n_no
+        mov.l @r9,r8
+        mov   r9,r7
+        add   #4,r7                   ; r7 = argument cursor
+        mov   #0,r11                  ; V (man)
+        mov   #0,r6                   ; a yen unit was seen
+        mov   #0,r3                   ; the yen remainder
+n_c:    mov.b @r8+,r0
+        tst   r0,r0
+        bt    n_gen
+        cmp/eq #37,r0
+        bf    n_c
+n_w2:   mov.b @r8+,r0
+        cmp/eq #100,r0
+        bf    n_w2
+        mov.l @r7+,r5                 ; the argument
+        mov   #1,r4                   ; 10^zeros
+n_z2:   mov.b @r8,r0
+        cmp/eq #48,r0
+        bf    n_s2
+        add   #1,r8
+        mov   r4,r0
+        shll2 r0
+        add   r4,r0
+        shll  r0
+        mov   r0,r4
+        bra   n_z2
+        nop
+n_s2:   mov.b @r8,r0
+        cmp/eq #32,r0
+        bf    n_u2
+        add   #1,r8
+        bra   n_s2
+        nop
+n_u2:   mul.l r4,r5
+        sts   macl,r5
+        cmp/eq #121,r0
+        bt    n_y
+        cmp/eq #89,r0
+        bt    n_y
+        cmp/eq #99,r0
+        bt    n_cho
+        cmp/eq #111,r0
+        bt    n_oku
+n_ad:   add   r5,r11
+        bra   n_c
+        nop
+n_cho:  mov.l @(n_1e8,pc),r2
+        mul.l r2,r5
+        sts   macl,r5
+        bra   n_ad
+        nop
+n_oku:  mov.l @(n_10k,pc),r2
+        mul.l r2,r5
+        sts   macl,r5
+        bra   n_ad
+        nop
+n_y:    mov   r5,r1                   ; yen: man = yen / 10000 (floor), the rest stays yen
+        mov.l @(n_10k,pc),r0
+        mov.l @(n_div,pc),r2
+        jsr   @r2                     ; r0 = r1 / r0 (clobbers r0, r1)
+        nop
+        mov.l @(n_10k,pc),r2
+        mul.l r0,r2
+        sts   macl,r2
+        sub   r2,r5
+        mov   r5,r3                   ; the remainder in yen
+        mov   r0,r5                   ; the man part
+        mov   #1,r6
+        bra   n_ad
+        nop
+n_gen:  tst   r6,r6
+        bt    n_mon
+        tst   r11,r11
+        bf    n_mon
+        mov   r10,r4                  ; a yen amount below one man: "N Yen"
+        mov   r3,r5
+        mov   #0,r6
+        mov.l @(n_dec,pc),r0
+        jsr   @r0                     ; m_dec(dst, N) = N in decimal
+        nop
+        mov   r10,r1
+        add   r0,r1
+        mova  n_yen,r0
+        mov   r0,r2
+        mov   #4,r7
+n_yl:   mov.b @r2+,r0
+        mov.b r0,@r1
+        add   #1,r1
+        dt    r7
+        bf    n_yl
+        mov   r1,r0
+        sub   r10,r0
+        bra   n_ret
+        nop
+n_mon:  mov   r10,r4
+        mov   r11,r5
+        mov   #0,r6
+        mov.l @(n_mny,pc),r0
+        jsr   @r0                     ; the jp money formatter: "13 oku 1500 man"
+        nop
+        tst   r12,r12
+        bt    n_ret
+        mov   r12,r1
+        cmp/gt r1,r0                  ; wider than the field ?
+        bf    n_ret
+        mov   r10,r4
+        mov   r11,r5
+        mov   #77,r6                  ; COMPACT_FLAG: "13 oku 1500m"
+        mov.l @(n_mny,pc),r0
+        jsr   @r0
+        nop
+n_ret:  lds.l @r15+,pr
+        rts
+        nop
+        .align 4
+n_1e8:  .long 100000000
+n_10k:  .long 10000
+n_div:  .long DIV
+n_dec:  .long MDEC
+n_mny:  .long MONEY
+n_pct:  .long 0x00007325              ; "%s"
+n_fy:   .long 0x59206425              ; "%d Yen" (the format of the digit counter replacement)
+        .long 0x00006E65
+n_yen:  .long 0x6E655920              ; " Yen"

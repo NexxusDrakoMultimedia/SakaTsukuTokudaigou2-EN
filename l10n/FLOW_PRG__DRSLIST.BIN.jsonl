@@ -1,0 +1,800 @@
+{"l10n":1,"kind":"main","style":"compact","n":799,"final_newline":true,"src":"FLOW_PRG/DRSLIST.BIN","ctx":["orphan (no pointer)"]}
+{"id":"210c8","jah":"da9047e5ab360dc32cd8b0db30e42ca7","en":"   @Y/In Training@","max_bytes":20,"refs":1,"ctx":"ptr@498"}
+{"id":"210f0","jah":"edf9a0fea5873de76c13ad991b6603ef","en":"         Age %d","max_bytes":16,"refs":2,"ctx":"ptr@5c0 xrefs=2"}
+{"id":"21100","jah":"b9856a7bfdbb543429ba60a190d4bfa5","en":"         Youth","max_bytes":16,"refs":1,"ctx":"ptr@5c4"}
+{"id":"21110","jah":"ed0b338895ea1bd2ac9393fdafa6f3bb","en":"     No. %d","max_bytes":16,"refs":1,"ctx":"ptr@738"}
+{"id":"21750","jah":"f84870747a8f7a09281e3f646c38061b","en":"A list of the players at our club.\nUp/Down: select a player.\nA Button: view their details.","max_bytes":112,"refs":1,"ctx":"ptr@3170"}
+{"id":"217fc","jah":"af531d61f18e1627be1185ac4ddf5a43","en":"Squad Size:%d","max_bytes":20,"refs":1,"ctx":"ptr@3640"}
+{"id":"21858","jah":"487bd8bf8891e88cc0e06e29f4b8b310","en":"Fee STR:%s %d","max_bytes":20,"refs":1,"ctx":"ptr@45e8"}
+{"id":"218ac","jah":"2c53fbad6eb90e532ee4120015170de1","en":"  --  ","max_bytes":8,"refs":1,"ctx":"tbl@1f418[0/3]"}
+{"id":"218b4","jah":"bd7b5b35116b397c2e0326d4ceca39e6","en":"Abroad","max_bytes":8,"refs":1,"ctx":"tbl@1f418[1/3]"}
+{"id":"218bc","jah":"a18858f4e718d911d0ecb5b32d9104ec","en":"Studied","max_bytes":8,"refs":1,"ctx":"tbl@1f418[2/3]"}
+{"id":"218cc","jah":"1b5bd745ef702f815f6e6858cd0e5f35","en":"Severe","max_bytes":8,"refs":1,"ctx":"ptr@1f428"}
+{"id":"218d4","jah":"ab11a195b531e5808522ff2c14013c1e","en":"Minor","max_bytes":8,"refs":1,"ctx":"ptr@1f42c"}
+{"id":"21970","jah":"9e7d7f5a91c0ed851ada6f3a7fde11ed","en":"Expression %d","max_bytes":16,"refs":1,"ctx":"ptr@6fbc"}
+{"id":"21980","jah":"bf901b65b51e0860dba2b43242bbd483","en":"Expression textures not loaded","max_bytes":36,"refs":1,"ctx":"ptr@7248"}
+{"id":"219d8","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@8124","skip":true}
+{"id":"219dc","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@812c[0/3]","skip":true}
+{"id":"219e4","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@812c[1/3]","skip":true}
+{"id":"219e8","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@812c[2/3]","skip":true}
+{"id":"219ec","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@219a8[0/11]"}
+{"id":"219f0","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@219a8[1/11]"}
+{"id":"219f4","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@219a8[2/11]"}
+{"id":"219f8","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@219a8[3/11]"}
+{"id":"219fc","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@219a8[4/11]"}
+{"id":"21a00","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@219a8[5/11]"}
+{"id":"21a04","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@219a8[6/11]"}
+{"id":"21a08","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@219a8[7/11]"}
+{"id":"21a0c","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@219a8[8/11]"}
+{"id":"21a10","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@219a8[9/11]"}
+{"id":"21a14","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@219a8[10/11]"}
+{"id":"21aa4","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@882c"}
+{"id":"21b88","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@9bfc"}
+{"id":"21ba4","jah":"af10a988ca354489394f36c6acf7f81c","en":"@R/%s %s man@","max_bytes":16,"refs":1,"ctx":"ptr@ae94"}
+{"id":"21bb4","jah":"e4926a637a7b7cbcbc21660c024b1fbb","en":"%s %s man","max_bytes":12,"refs":1,"ctx":"ptr@afa0"}
+{"id":"21bc0","jah":"ed78bd629cadbab61fde83450643fba6","en":"@R/%s man@","max_bytes":12,"refs":1,"ctx":"tbl@afa8[0/3]"}
+{"id":"21bcc","jah":"712da175543bd1858eb7005f5be8d36d","en":"%s man","max_bytes":8,"refs":1,"ctx":"tbl@afa8[1/3]"}
+{"id":"21bd4","jah":"9826107d9ac30a5ea35ad419455ef5cd","en":"%s Yen","max_bytes":8,"refs":1,"ctx":"tbl@afa8[2/3]"}
+{"id":"21bdc","jah":"ceb400799345acb13fd96fcfc25b66cb","en":"@R/%s%s@","max_bytes":16,"refs":2,"ctx":"ptr@b0d0 xrefs=2"}
+{"id":"21bec","jah":"47bd32ed131fcfbbd5520b31c0d97725","en":"-%s%s@","max_bytes":12,"refs":1,"ctx":"tbl@b0d8[0/3]"}
+{"id":"21bf8","jah":"278ab324890f28ed1bd5ea1d47c6ab00","en":"%s%s","max_bytes":12,"refs":2,"ctx":"tbl@b0d8[1/3] xrefs=2"}
+{"id":"21c04","jah":"7500b6fe5993ad1746778a9261a7e584","en":"%s%s@","max_bytes":12,"refs":1,"ctx":"tbl@b0d8[2/3]"}
+{"id":"21c10","jah":"4daaee11393bcad98cb5b659298c240d","en":"@R/%s@","max_bytes":12,"refs":2,"ctx":"ptr@b1f0 xrefs=2"}
+{"id":"21c1c","jah":"b6bb1dc86195b3e77072a39e52e3fe10","en":"-%s@","max_bytes":8,"refs":1,"ctx":"tbl@b1f8[0/3]"}
+{"id":"21c24","jah":"68812168801396a192af3b5b9cb01a89","en":"%s","max_bytes":8,"refs":2,"ctx":"tbl@b1f8[1/3] xrefs=2"}
+{"id":"21c2c","jah":"33efd05935976528edcb69b7d34dc97b","en":"%s@","max_bytes":8,"refs":1,"ctx":"tbl@b1f8[2/3]"}
+{"id":"21c94","jah":"61b099639951c0eed71c801e92fb1d2b","en":"Hokkaido","max_bytes":8,"refs":2,"ctx":"tbl@1f918[0/50] xrefs=2"}
+{"id":"21c9c","jah":"0950ce65062fc481cfa5c2944c2dfaf2","en":"Aomori","max_bytes":8,"refs":1,"ctx":"tbl@1f918[1/50]"}
+{"id":"21ca4","jah":"32186134057cf4589e3caea5a11c4586","en":"Iwate","max_bytes":8,"refs":1,"ctx":"tbl@1f918[2/50]"}
+{"id":"21cac","jah":"f70d77a25b18b715b79f5162a11c8fa8","en":"Miyagi","max_bytes":8,"refs":1,"ctx":"tbl@1f918[3/50]"}
+{"id":"21cb4","jah":"7ce1343175ff9759814cfe8edee29b76","en":"Akita","max_bytes":8,"refs":1,"ctx":"tbl@1f918[4/50]"}
+{"id":"21cbc","jah":"a0d677442a9ffd6422390a6b84e14edd","en":"Yamagata","max_bytes":8,"refs":1,"ctx":"tbl@1f918[5/50]"}
+{"id":"21cc4","jah":"e7019e6ac833a7f27a8a0a89a0c462dc","en":"Fukushima","max_bytes":8,"refs":1,"ctx":"tbl@1f918[6/50]"}
+{"id":"21ccc","jah":"da430224a97b29cf5818b2996fdf8fd5","en":"Ibaraki","max_bytes":8,"refs":1,"ctx":"tbl@1f918[7/50]"}
+{"id":"21cd4","jah":"1c022a1079888739d6e2df9b7898abf9","en":"Tochigi","max_bytes":8,"refs":1,"ctx":"tbl@1f918[8/50]"}
+{"id":"21cdc","jah":"49dc031cbe6dac88a61e993983d962dd","en":"Gunma","max_bytes":8,"refs":1,"ctx":"tbl@1f918[9/50]"}
+{"id":"21ce4","jah":"ba13885bedbfeb9b76b92c1846d9fcca","en":"Saitama","max_bytes":8,"refs":1,"ctx":"tbl@1f918[10/50]"}
+{"id":"21cec","jah":"6f2e379e9ccd1665664820638a125292","en":"Chiba","max_bytes":8,"refs":1,"ctx":"tbl@1f918[11/50]"}
+{"id":"21cf4","jah":"df2b6cd8c01ab9ca005e2495e88d28ff","en":"Tokyo","max_bytes":8,"refs":1,"ctx":"tbl@1f918[12/50]"}
+{"id":"21cfc","jah":"e13bc05ffd4990f97ab48ab5b63cd1a8","en":"Kanagawa","max_bytes":12,"refs":1,"ctx":"tbl@1f918[13/50]"}
+{"id":"21d08","jah":"08741ada186bb6c3e1bd391532e9fa7c","en":"Izu Is.","max_bytes":12,"refs":1,"ctx":"tbl@1f918[14/50]"}
+{"id":"21d14","jah":"aee4b6c5fa941290cdf7f424bf8b7ebf","en":"Niigata","max_bytes":8,"refs":1,"ctx":"tbl@1f918[15/50]"}
+{"id":"21d1c","jah":"6deaaa980ec93a13c8264a0d4c611af8","en":"Toyama","max_bytes":8,"refs":1,"ctx":"tbl@1f918[16/50]"}
+{"id":"21d24","jah":"22953f7192e2e3bc92cd3ef6c73d0f91","en":"Ishikawa","max_bytes":8,"refs":1,"ctx":"tbl@1f918[17/50]"}
+{"id":"21d2c","jah":"69177459eb934894308db74dfdc8f609","en":"Fukui","max_bytes":8,"refs":1,"ctx":"tbl@1f918[18/50]"}
+{"id":"21d34","jah":"60ce9867a7b4d2da078d58ba319755ca","en":"Yamanashi","max_bytes":8,"refs":1,"ctx":"tbl@1f918[19/50]"}
+{"id":"21d3c","jah":"9d4e863411127e736586677cefdecb9f","en":"Nagano","max_bytes":8,"refs":1,"ctx":"tbl@1f918[20/50]"}
+{"id":"21d44","jah":"ef16c40bcad72c1044202d3ee00100f9","en":"Gifu","max_bytes":8,"refs":1,"ctx":"tbl@1f918[21/50]"}
+{"id":"21d4c","jah":"8fb432c804baad654128001ee10e5d80","en":"Shizuoka","max_bytes":8,"refs":1,"ctx":"tbl@1f918[22/50]"}
+{"id":"21d54","jah":"dcd3f9e6d14157976d3a6a5f2d219a2f","en":"Aichi","max_bytes":8,"refs":1,"ctx":"tbl@1f918[23/50]"}
+{"id":"21d5c","jah":"3e1dbdeaaf4b0609906ef4746f3c0284","en":"Mie","max_bytes":8,"refs":1,"ctx":"tbl@1f918[24/50]"}
+{"id":"21d64","jah":"315fcefc075cecc7b4ac0850350ab5b4","en":"Shiga","max_bytes":8,"refs":1,"ctx":"tbl@1f918[25/50]"}
+{"id":"21d6c","jah":"13cccabec1a08efafac6756799267a75","en":"Kyoto","max_bytes":8,"refs":1,"ctx":"tbl@1f918[26/50]"}
+{"id":"21d74","jah":"aa37d4e965dd3deae882256a6d7790cf","en":"Osaka","max_bytes":8,"refs":1,"ctx":"tbl@1f918[27/50]"}
+{"id":"21d7c","jah":"4eb741e6df7bf78f70bba9d5cab9397c","en":"Hyogo","max_bytes":8,"refs":1,"ctx":"tbl@1f918[28/50]"}
+{"id":"21d84","jah":"376399ac99c313bb191625a66e65d0eb","en":"Nara","max_bytes":8,"refs":1,"ctx":"tbl@1f918[29/50]"}
+{"id":"21d8c","jah":"0f6b810dac67f2087d170435893c7935","en":"Wakayama","max_bytes":12,"refs":1,"ctx":"tbl@1f918[30/50]"}
+{"id":"21d98","jah":"22e83f0c634130a6ba4b4b6978619b97","en":"Tottori","max_bytes":8,"refs":1,"ctx":"tbl@1f918[31/50]"}
+{"id":"21da0","jah":"3feee89720d12720d2b11d661ea121ca","en":"Shimane","max_bytes":8,"refs":1,"ctx":"tbl@1f918[32/50]"}
+{"id":"21da8","jah":"a538f5f4dc79d02edaabc86d12562123","en":"Okayama","max_bytes":8,"refs":1,"ctx":"tbl@1f918[33/50]"}
+{"id":"21db0","jah":"104563674c0bda23166a599b37e8b7ef","en":"Hiroshima","max_bytes":8,"refs":1,"ctx":"tbl@1f918[34/50]"}
+{"id":"21db8","jah":"056662dc4e521f27501b40b9f5f594d8","en":"Yamaguchi","max_bytes":8,"refs":1,"ctx":"tbl@1f918[35/50]"}
+{"id":"21dc0","jah":"9d9ca7d1ea06031563b5da6f349b5d9d","en":"Tokushima","max_bytes":8,"refs":1,"ctx":"tbl@1f918[36/50]"}
+{"id":"21dc8","jah":"f7025d4d53c9439299c2205ace61d008","en":"Kagawa","max_bytes":8,"refs":1,"ctx":"tbl@1f918[37/50]"}
+{"id":"21dd0","jah":"02206bdc175a0e9bf64d733fc2b63310","en":"Ehime","max_bytes":8,"refs":1,"ctx":"tbl@1f918[38/50]"}
+{"id":"21dd8","jah":"ce5b730bc781510a1445956d3248023e","en":"Kochi","max_bytes":8,"refs":1,"ctx":"tbl@1f918[39/50]"}
+{"id":"21de0","jah":"f65c2e7a703c5fd314c04ad1ae1c1c3a","en":"Fukuoka","max_bytes":8,"refs":1,"ctx":"tbl@1f918[40/50]"}
+{"id":"21de8","jah":"8acfe3cdbaa98889daf6475770b04f14","en":"Saga","max_bytes":8,"refs":1,"ctx":"tbl@1f918[41/50]"}
+{"id":"21df0","jah":"ae2d03630cb6e86a5406099c10f30577","en":"Nagasaki","max_bytes":8,"refs":1,"ctx":"tbl@1f918[42/50]"}
+{"id":"21df8","jah":"202325fa92f6f733a0e6bf18ba4ac3d9","en":"Kumamoto","max_bytes":8,"refs":1,"ctx":"tbl@1f918[43/50]"}
+{"id":"21e00","jah":"d1ed0a10156799e3f7be83d578cec2bd","en":"Oita","max_bytes":8,"refs":1,"ctx":"tbl@1f918[44/50]"}
+{"id":"21e08","jah":"fc325a44655c668ae4718777ae4ff4bb","en":"Miyazaki","max_bytes":8,"refs":1,"ctx":"tbl@1f918[45/50]"}
+{"id":"21e10","jah":"5817083102e930c02c3b851d384e8435","en":"Kagoshima","max_bytes":12,"refs":1,"ctx":"tbl@1f918[46/50]"}
+{"id":"21e1c","jah":"513a56d4f41797e49db990e6e4ffb25d","en":"Okinawa","max_bytes":8,"refs":1,"ctx":"tbl@1f918[47/50]"}
+{"id":"21e24","jah":"da41939d534805cae36ad491be6c8a3d","en":"Amami Is.","max_bytes":12,"refs":1,"ctx":"tbl@1f918[48/50]"}
+{"id":"21e30","jah":"d298eea0ec1f04db1fb83882f018ae51","en":"Japan","max_bytes":8,"refs":1,"ctx":"tbl@1f918[49/50]"}
+{"id":"21e38","jah":"345c9fa96eaaf3ad9e74bf5f60403784","en":"Tohoku","max_bytes":8,"refs":1,"ctx":"ptr@21c3c"}
+{"id":"21e40","jah":"0a3f267b0fd53ea86fed299839cb73da","en":"Kanto","max_bytes":8,"refs":1,"ctx":"ptr@21c44"}
+{"id":"21e48","jah":"e0a49126ab120bd4b4dc7797f2c0036b","en":"Izu","max_bytes":8,"refs":1,"ctx":"ptr@21c4c"}
+{"id":"21e50","jah":"2f94f4f9eac3301cca126353622472e3","en":"Chubu","max_bytes":8,"refs":1,"ctx":"ptr@21c54"}
+{"id":"21e58","jah":"4cdae619ef309e9ba80bf9e461b32dc5","en":"Tokai","max_bytes":8,"refs":1,"ctx":"ptr@21c5c"}
+{"id":"21e60","jah":"851e047322b0b2adfbe43a1c1da98259","en":"Kansai","max_bytes":8,"refs":1,"ctx":"ptr@21c64"}
+{"id":"21e68","jah":"f2a9cf3006c70c99d645d1354bef85b9","en":"China","max_bytes":8,"refs":1,"ctx":"ptr@21c6c"}
+{"id":"21e70","jah":"211f43b037863cb5344115ae0be29af2","en":"Shikoku","max_bytes":8,"refs":1,"ctx":"ptr@21c74"}
+{"id":"21e78","jah":"ae2b1d04d39913f690739d11d1ec9626","en":"Kyushu","max_bytes":8,"refs":1,"ctx":"ptr@21c7c"}
+{"id":"21e80","jah":"985f59f6c281dffb7205b98d16b44edf","en":"Amami","max_bytes":8,"refs":1,"ctx":"ptr@21c84"}
+{"id":"21e88","jah":"16fe2a9502cdd455dff1c23c62601518","en":"Okinawa","max_bytes":8,"refs":1,"ctx":"ptr@21c8c"}
+{"id":"2222c","jah":"5c43a99725b759fd16e1c1f2d5668f78","en":"GK skills lacking for a starter.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[0/456]"}
+{"id":"2224f","jah":"51551e9260d3c64696681264a4ab26bd","en":"Some doubts, but promising GK.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[1/456]"}
+{"id":"22272","jah":"1bd8eb972025bba9182d839cc998a594","en":"Needs work, but a promising GK.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[2/456]"}
+{"id":"22295","jah":"91372099652a439aa441ccdc93f873fc","en":"Has more than enough GK ability.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[3/456]"}
+{"id":"222b4","jah":"df578633ac535c7291d65d5793ba7e4c","en":"Guards goal with superb skill.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[4/456]"}
+{"id":"222d3","jah":"edffc9f91771b7716426f74ec4fc1c95","en":"Has truly impregnable technique.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[5/456]"}
+{"id":"222f2","jah":"a83d6610e3b1a871674a487e1d4daeab","en":"World-class keeping technique.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[6/456]"}
+{"id":"22311","jah":"3cb153bcfdb766ddb647ca3c4cea9069","en":"World-class. A true guardian.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[7/456]"}
+{"id":"22332","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[8/456]"}
+{"id":"22353","jah":"23f95a826eb34057e12dd5846357881b","en":"Good eye, but lacks practice.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[9/456]"}
+{"id":"22374","jah":"48f36b1e4cc33c3777ed9f37ccc27da1","en":"Above-average instinct.","max_bytes":23,"refs":1,"ctx":"tbl@1f9e8[10/456]"}
+{"id":"2238b","jah":"a204420f7c70c89191ea9af0faf37473","en":"Average, but instinct shines.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[11/456]"}
+{"id":"223ae","jah":"03cfd68f29d645ad86f578a6795b7222","en":"A GK with excellent anticipation.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[12/456]"}
+{"id":"223cd","jah":"e1d7bb366218f7d2abdf0a86665a02f5","en":"Calmly predicts the ball's path.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[13/456]"}
+{"id":"223ee","jah":"bdee8387b895460c446c83f19d971690","en":"Superb instinct, world level.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[14/456]"}
+{"id":"2240d","jah":"2218dd220908bbcc55432afdb369106a","en":"A top GK with brilliant instinct.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[15/456]"}
+{"id":"22430","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[16/456]"}
+{"id":"22451","jah":"828f715982689990e2a775fdc5bcfb7b","en":"Undertrained, but suited to GK.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[17/456]"}
+{"id":"22470","jah":"db85c9af7e5c2c2a690fbaa5c3a2ae39","en":"Wide reach that holds up well.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[18/456]"}
+{"id":"22493","jah":"11bc8900a0a92d74f486eec20a5d62c4","en":"Good positioning. A reliable GK.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[19/456]"}
+{"id":"224b2","jah":"76e0cf70f2b52e0fd717c75d074c8857","en":"A very fine GK. Valuable asset.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[20/456]"}
+{"id":"224d5","jah":"3b73bec65f0178e4292071fed92f99ac","en":"An international-class GK.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[21/456]"}
+{"id":"224f6","jah":"cc4f48d8f39db447f15b1b71fd69bced","en":"Top-rank GK with cool judgement.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[22/456]"}
+{"id":"22515","jah":"64f7d971a0f801ed69b25ede86e8e926","en":"In goal, among the world's best.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[23/456]"}
+{"id":"22536","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[24/456]"}
+{"id":"22557","jah":"10acd5b001a9d1c02054b98a754ae0f4","en":"Body can't keep up with reflexes.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[25/456]"}
+{"id":"2257a","jah":"ae234130b08e0e9464f412dda99f1b84","en":"A GK who calmly tracks the ball.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[26/456]"}
+{"id":"22599","jah":"dcc8ae6022b2d97b1d5b53a6b1ee9444","en":"A GK you can trust with the goal.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[27/456]"}
+{"id":"225ba","jah":"96bc9454046b42ac1044780db6dcb186","en":"Calm play makes for a safe GK.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[28/456]"}
+{"id":"225dd","jah":"a3b4bc29acda06fd2c35d5236e9c4b68","en":"World-class judgement for a GK.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[29/456]"}
+{"id":"225fe","jah":"697d24680b6ed908e737e56469605611","en":"Guards goal with superb sense.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[30/456]"}
+{"id":"22621","jah":"259c66de633e3f66cb84f1f6678e9bf9","en":"Composed with world-class vision.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[31/456]"}
+{"id":"22642","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[32/456]"}
+{"id":"22663","jah":"2cb6704af730935b54b8df861995ef5d","en":"Lacks the physique for a keeper.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[33/456]"}
+{"id":"22684","jah":"823536bf430d514ad6682ff4cd1b4452","en":"Well built and a fit for goal.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[34/456]"}
+{"id":"226a7","jah":"801dba5d5b11c706685010698a911033","en":"Agile reflexes that reassure.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[35/456]"}
+{"id":"226ca","jah":"3e2bb9b4f6b46b73658d6309dc0c688b","en":"Uses a fine frame to guard goal.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[36/456]"}
+{"id":"226ed","jah":"a5c1427dc7b634dd5d2929f41b264555","en":"Born with the body of a keeper.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[37/456]"}
+{"id":"2270e","jah":"d8923093a3b618f4d0073658addbeab8","en":"World-class athletic GK.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[38/456]"}
+{"id":"2272d","jah":"52b31a62d742e06a2f63b8654ec51cb4","en":"World-class guardian of the goal.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[39/456]"}
+{"id":"22750","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[40/456]"}
+{"id":"22771","jah":"a3de2c4d3bd86781a713fb2823ec8513","en":"Leads well, but doubts remain.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[41/456]"}
+{"id":"22790","jah":"ae5f1dcbdfcb12022c360e39021ffa7c","en":"Shows natural, strong leadership.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[42/456]"}
+{"id":"227b1","jah":"73020fd58c94fa9e09c38854e0d4bdf6","en":"Has a gift for captaincy.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[43/456]"}
+{"id":"227ce","jah":"85bfdda982207f34bf1488da6aa42d23","en":"Magnetic talent, very reliable.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[44/456]"}
+{"id":"227f1","jah":"e65cc51f12be6455e594d97a9c0a077e","en":"Superb leader, highly reliable.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[45/456]"}
+{"id":"22810","jah":"a4b7b1b45d55ec0f26d6987ad31f561c","en":"Highly respected, a true leader.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[46/456]"}
+{"id":"22833","jah":"d31cfe05770ed325c09e689592b17746","en":"Powerful, charismatic playmaker.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[47/456]"}
+{"id":"22856","jah":"d9672be81d4c3b3fe8ec22c8d88e7d0f","en":"Needs to be keener on the ball.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[48/456]"}
+{"id":"22877","jah":"c613aca2b1107d5d7e0466753d061348","en":"Needs to improve interceptions.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[49/456]"}
+{"id":"22896","jah":"2611d91b4a261562b75893686ea4e8d8","en":"Raw, but known for interceptions.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[50/456]"}
+{"id":"228b7","jah":"4d6d17627a1dc25dfc44f30557b65ed4","en":"Famed for ball aggression.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[51/456]"}
+{"id":"228d4","jah":"ec76c8a4aa6e82f5bcffb91357992135","en":"Promising DF, great interceptor.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[52/456]"}
+{"id":"228f7","jah":"e3126b6c5214d1df0452fc81fefb0f3c","en":"Sharp reading wins the ball.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[53/456]"}
+{"id":"22916","jah":"b2d1d5eb6f23f5f3d68c3b0d8253a69c","en":"International-class interceptor.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[54/456]"}
+{"id":"22937","jah":"a03fc84a2b3ecc320490dc741325d360","en":"World-class interceptor, top DF.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[55/456]"}
+{"id":"2295a","jah":"a2b1b156a5cc15fdbebe437a0f090ccb","en":"Hoping for sharper tackling.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[56/456]"}
+{"id":"2297b","jah":"fc6455b147926449cb2c440768847714","en":"Needs to develop tackling.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[57/456]"}
+{"id":"2299c","jah":"f55c2d10fde42080f2e53ca3ad08280d","en":"Room to grow, but tackles well.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[58/456]"}
+{"id":"229bf","jah":"1dc885d373ee1d47da210b1fcec4cda2","en":"Reads the opposition to tackle.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[59/456]"}
+{"id":"229e2","jah":"96a9914e7ea0ab98e44f1858297cc514","en":"Fierce tackling is a speciality.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[60/456]"}
+{"id":"22a03","jah":"51db373f25ffb620646ea9ce79241cb4","en":"Promising DF, skilful tackler.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[61/456]"}
+{"id":"22a26","jah":"d94b14d2be3aa3f67bf3f919be284419","en":"Clever DF who stifles attackers.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[62/456]"}
+{"id":"22a47","jah":"811f58d45c0097b1d0de5a425baf9e49","en":"Nullifies opposing aces entirely.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[63/456]"}
+{"id":"22a68","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[64/456]"}
+{"id":"22a89","jah":"05fa98b61a86b4cea00d793186a3ac9a","en":"Wins duels, but lacks training.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[65/456]"}
+{"id":"22aac","jah":"8133a1c2e4c2fb06ad4e7da01d4e51f1","en":"Has room to grow but wins duels.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[66/456]"}
+{"id":"22acf","jah":"0da80e0376bc0cd84ea157073d62cb45","en":"DF with an appetite for duels.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[67/456]"}
+{"id":"22aee","jah":"73a368922b791780e85eed7b41230a43","en":"DF who outwits opponents.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[68/456]"}
+{"id":"22b0d","jah":"95fd4233f764dd8b97ba30ccd0da7ca5","en":"Skilful DF, very hard to beat.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[69/456]"}
+{"id":"22b2c","jah":"419496412c179913731215f4225420e7","en":"Top-class DF, never loses duels.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[70/456]"}
+{"id":"22b4f","jah":"e6d93bb1636c0535c425e459c60834a4","en":"A top technician with flair.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[71/456]"}
+{"id":"22b6e","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[72/456]"}
+{"id":"22b8f","jah":"d93a181126aa997174a2c58f7ef70c23","en":"Reads play well, needs training.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[73/456]"}
+{"id":"22bb2","jah":"f520a87668b4e0ebf14d56fc999eb607","en":"Needs work but positions well.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[74/456]"}
+{"id":"22bd3","jah":"daefb630f9d04dc02aa99fadbaf3a2c0","en":"Tough DF with superb positioning.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[75/456]"}
+{"id":"22bf6","jah":"746f32ef38850ca4ef6815ec763119cc","en":"Sharp cover, as advertised.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[76/456]"}
+{"id":"22c13","jah":"c4ebaacf20ea171a1e6e7816a4841ebb","en":"Keen senses, the key to defence.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[77/456]"}
+{"id":"22c34","jah":"2c85b92201208b08c5dc0e98b68fbeb1","en":"World-class DF, superb judgement.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[78/456]"}
+{"id":"22c57","jah":"0e06e133f5cd9a960f992caf757fb051","en":"Ultimate DF, a true iron wall.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[79/456]"}
+{"id":"22c78","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[80/456]"}
+{"id":"22c99","jah":"6da5dea556e957b4be4e6d5d97ff37fe","en":"Understands DF types well.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[81/456]"}
+{"id":"22cb8","jah":"0141467686c6c20ba4c9f1e358f8eac7","en":"Knows own role in the DF type.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[82/456]"}
+{"id":"22cd9","jah":"badf93dcffbd05bb6ec800a948b325cc","en":"Fully grasps the set DF type.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[83/456]"}
+{"id":"22cfc","jah":"1690ed67cae48cc6a0e1caecacce55bd","en":"Grasps DF type and acts at once.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[84/456]"}
+{"id":"22d1f","jah":"fc0184a5db08dbf0c4cb15aa44bf83b8","en":"Knows DF type, no wasted moves.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[85/456]"}
+{"id":"22d42","jah":"fb1eacbfa03d99dfc60bbf9c9e80bb1b","en":"Faithful to DF type, sees it all.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[86/456]"}
+{"id":"22d65","jah":"a67a2a81f2586f3bd6dd4d6aa8701cf1","en":"Knows DF type, can run the show.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[87/456]"}
+{"id":"22d88","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[88/456]"}
+{"id":"22da9","jah":"e2967287f24cd2e6b37c2f606f55af88","en":"Needs a deeper grasp of tactics.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[89/456]"}
+{"id":"22dca","jah":"7ba97867f5ff17c96fb9a3a7398aa5ca","en":"Has a firm place in the tactics.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[90/456]"}
+{"id":"22ded","jah":"54a38fe1036ca7335e49c0c42c427e26","en":"Makes the most of every chance.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[91/456]"}
+{"id":"22e10","jah":"81d7f24cb6e04bfb7e9dc9010b5b356e","en":"Grasps tactics at once and acts.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[92/456]"}
+{"id":"22e33","jah":"d3d920394359b26bb48acbf8f8dbb0eb","en":"Understands, acts without waste.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[93/456]"}
+{"id":"22e56","jah":"b4be045c7c6b30b68388f24e66d21dbc","en":"Sees the whole, follows tactics.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[94/456]"}
+{"id":"22e79","jah":"23a8e13a76227f84f939e8f63cb2a0e1","en":"Knows tactics, lifts others.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[95/456]"}
+{"id":"22e9c","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[96/456]"}
+{"id":"22ebd","jah":"e4b2560ff919dc3110323a8bd6c3cb4d","en":"Fast, but still very untrained.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[97/456]"}
+{"id":"22ede","jah":"d2ebb5e57159edaa8afa2f3f484abc6d","en":"DF winning on energy, not skill.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[98/456]"}
+{"id":"22f01","jah":"03a3340ea8a16832f2e363c445873618","en":"DF who makes chances by running.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[99/456]"}
+{"id":"22f24","jah":"6ba8332ceab60a6ac8d9e7f9de882c15","en":"Tireless, runs everywhere.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[100/456]"}
+{"id":"22f47","jah":"47e79497facfb4349048d6d45d2cfb9b","en":"Boasts huge pace and work rate.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[101/456]"}
+{"id":"22f66","jah":"0707e4aa33fe0ad0d9057f965536c4d2","en":"World-class pace and work rate.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[102/456]"}
+{"id":"22f87","jah":"faac289dea4cd7c2e8e87c705ac4f423","en":"World talent: fast and tireless.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[103/456]"}
+{"id":"22faa","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[104/456]"}
+{"id":"22fcb","jah":"5777e30a996cb29aafc2de479c0cf378","en":"Must learn the formation better.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[105/456]"}
+{"id":"22fec","jah":"ab7f6af1ab06924bd74b0178153865ef","en":"Firm place in the formation.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[106/456]"}
+{"id":"2300f","jah":"54a38fe1036ca7335e49c0c42c427e26","en":"Makes the most of every chance.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[107/456]"}
+{"id":"23032","jah":"0b5cf97b705f8f848aa945178e9d47a3","en":"Grasps formation and acts fast.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[108/456]"}
+{"id":"23055","jah":"69a0f94c8e5c2c019d40de1e1f02bdb9","en":"Sharp mind, keeps the formation.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[109/456]"}
+{"id":"23078","jah":"33a8f859c881044a54a324c22a1b3f33","en":"Sees all, true to the formation.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[110/456]"}
+{"id":"2309b","jah":"b5f36a9215125a2cc3e23f4f567013dc","en":"Knows formation, leads others.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[111/456]"}
+{"id":"230be","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[112/456]"}
+{"id":"230df","jah":"25579fa9959136ea0cded82b30cae310","en":"Sees the whole; needs training.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[113/456]"}
+{"id":"23102","jah":"466dab11c3f9a8db3f4b26b0b15782b4","en":"Sees the picture and acts fast.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[114/456]"}
+{"id":"23125","jah":"69d534afa4f6f5507c99a249db31dfdf","en":"Judges well, takes needed action.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[115/456]"}
+{"id":"23148","jah":"d2498b95b8a5f8f16843b0c7fb80c252","en":"Sharp observer, reads opponents.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[116/456]"}
+{"id":"2316b","jah":"25d31909fe2376c9f4d2337a2c75cfaf","en":"Remarkably cool-headed.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[117/456]"}
+{"id":"23188","jah":"4a18e28b06cf39d5a111959e355d702b","en":"A world-class intelligent player.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[118/456]"}
+{"id":"231a9","jah":"169c8435c14fe96f9257cb279f7d25f9","en":"Top-class analysis and judgement.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[119/456]"}
+{"id":"231ca","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[120/456]"}
+{"id":"231eb","jah":"5e4c37f3000598b7dd7dde1490b195a9","en":"Powerful, but badly undertrained.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[121/456]"}
+{"id":"2320c","jah":"5c1e492393d9bfbb9343004cf445552c","en":"Raw, but has stamina, strength.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[122/456]"}
+{"id":"2322f","jah":"218f7dccecbfabc67aab8f407736a6b5","en":"Combative with a fine physique.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[123/456]"}
+{"id":"2324e","jah":"494df56caf789fd9584310bdbe779e1a","en":"Can run flat out for 90 minutes.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[124/456]"}
+{"id":"2326f","jah":"06982f1f4716c23c6073002856becb15","en":"Has tireless stamina.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[125/456]"}
+{"id":"23292","jah":"0caa8d1013599a71707d3aabc397749e","en":"Such stamina is rare worldwide.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[126/456]"}
+{"id":"232b5","jah":"80be71330a08b5262c44f08cf9f73a5d","en":"Uses a tough, world-class body.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[127/456]"}
+{"id":"232d8","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[128/456]"}
+{"id":"232f9","jah":"1ee6c07ccac9439b2ec74c542c99afb5","en":"Kicks accurately; needs training.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[129/456]"}
+{"id":"2331a","jah":"f64f530def1da9e50c1876c934a0edc6","en":"Skilful, famed for kick accuracy.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[130/456]"}
+{"id":"2333d","jah":"b1548167223b57564892e3d1b80bb029","en":"DF who shines on accurate kicks.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[131/456]"}
+{"id":"23360","jah":"479e7ea5d49188498430e821f4102001","en":"Accurate, dependable kicking.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[132/456]"}
+{"id":"23381","jah":"4db908a3b16fd7b01243f1b102d13782","en":"Crafty kicker, a dependable DF.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[133/456]"}
+{"id":"233a2","jah":"5ecfbc497974d4b767ed88aac2845daf","en":"World-class kicking skill.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[134/456]"}
+{"id":"233bf","jah":"99ee9171c2867995a4e7dfead952e433","en":"World-class kicking distribution.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[135/456]"}
+{"id":"233e2","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[136/456]"}
+{"id":"23403","jah":"78e7cb42275fc1abe2f3925130c778a7","en":"Leader, but doubts remain.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[137/456]"}
+{"id":"2341e","jah":"068ed9c407c378e5cdcc6f8fcbd2d1ef","en":"A player able to show leadership.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[138/456]"}
+{"id":"2343f","jah":"9e119c2766d12dcdc7d4445fd48cbbba","en":"Has the talent to be a captain.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[139/456]"}
+{"id":"23460","jah":"73f64f51c052e7c8b7118c22b5858777","en":"Magnetic talent, fully reliable.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[140/456]"}
+{"id":"23481","jah":"e227c468dd566ee34544598c33e31f73","en":"Fine leader who unites the side.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[141/456]"}
+{"id":"234a2","jah":"238c45b862ca70d946bc322b0b1b7af0","en":"Hugely respected, a true leader.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[142/456]"}
+{"id":"234c5","jah":"c9aafcb70bd309f5c3751c1c3a35b974","en":"Strong playmaker, peak charisma.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[143/456]"}
+{"id":"234e8","jah":"b24a15e4746c103ce93ca7d756f1e464","en":"Tough to earn a starting place.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[144/456]"}
+{"id":"23507","jah":"7a57d59c32b5fbe839f973ee6d43e77f","en":"Passing shines, far from ready.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[145/456]"}
+{"id":"2352a","jah":"8a5b3fe5ae00b56e5d03dbc5fa4d1487","en":"Can deliver accurate passes.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[146/456]"}
+{"id":"23547","jah":"3b2bb92085f928a9ef10c69d006f6f38","en":"Armed with sharp, sure passing.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[147/456]"}
+{"id":"23566","jah":"dbc05d249fd257cdb80cdf74b798fc5b","en":"Pinpoint passing none can match.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[148/456]"}
+{"id":"23589","jah":"7e4be978aa25c019b3799e08b37a2947","en":"Top passing helps win matches.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[149/456]"}
+{"id":"235aa","jah":"a4293f6e0ee468bcfd33ecc07c9eb579","en":"Passing that the world watches.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[150/456]"}
+{"id":"235c9","jah":"fa9cd48520ff2537bdce83aed8783105","en":"Passes that thrill the world.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[151/456]"}
+{"id":"235e6","jah":"7a91c5bbd7be35b2693fac89f670dd74","en":"Not good enough to be a regular.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[152/456]"}
+{"id":"23607","jah":"7580b5a7e53835a511efc956ef74eb9c","en":"Sharp dribbles into enemy half.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[153/456]"}
+{"id":"2362a","jah":"bbf7b887e082cab3bdf1fe6a1c4324e7","en":"Powerful runs thrill the stands.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[154/456]"}
+{"id":"2364b","jah":"75e311706d6511a7aab2b4c48bedad3f","en":"Artful dribbling baffles rivals.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[155/456]"}
+{"id":"2366c","jah":"3b51b8f8dc558e2dd27e84c8e1f1d1a9","en":"Dribbling without a weakness.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[156/456]"}
+{"id":"2368b","jah":"d55459ec52276063033827faa65f6358","en":"International-class runner.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[157/456]"}
+{"id":"236aa","jah":"77bab7be93f288478e60925c20b82d35","en":"Sparkling world-class dribbling.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[158/456]"}
+{"id":"236cb","jah":"0eb84f2898f087d267c8bbf7c33e08cd","en":"Perfect dribbling, world's best.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[159/456]"}
+{"id":"236ec","jah":"42bdd9de8ac9fd810d1f97d3954dcb06","en":"Playmaking is still a concern.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[160/456]"}
+{"id":"2370b","jah":"b7464f14b0c63599d1eccfe1ad5cf695","en":"Looks promising in possession.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[161/456]"}
+{"id":"2372a","jah":"578c8004ec752d14d04b1163af4272a6","en":"Has stylish ball retention.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[162/456]"}
+{"id":"2374b","jah":"f7694f4635e9e95c591b70bbc19d1a20","en":"Boasts superb ball retention.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[163/456]"}
+{"id":"2376a","jah":"01c964f338456a47334155424d17bc27","en":"Top retention creates chances.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[164/456]"}
+{"id":"2378b","jah":"b417875406fde41f65d2e02882028386","en":"Strong ball-holding attack hub.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[165/456]"}
+{"id":"237aa","jah":"d07d00b1d4b716d5fc12622506632936","en":"Can dominate the whole match.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[166/456]"}
+{"id":"237c9","jah":"5c8c1c38f41f8c31af058e2111f723a3","en":"Genius retention, world-class.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[167/456]"}
+{"id":"237e8","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[168/456]"}
+{"id":"23809","jah":"293240bd87604916d85c7be64319c052","en":"Accurate kicker, but untrained.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[169/456]"}
+{"id":"23828","jah":"52526aa625f3dd421d09dfe5b94684b1","en":"Renowned for accurate kicking.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[170/456]"}
+{"id":"23849","jah":"6af248b638b044492fcc7bb934520e6e","en":"MF shining with accurate kicks.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[171/456]"}
+{"id":"2386c","jah":"479e7ea5d49188498430e821f4102001","en":"Accurate, dependable kicking.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[172/456]"}
+{"id":"2388d","jah":"f737537e97d5be4fe909de87cffda122","en":"MF renowned for kicking accuracy.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[173/456]"}
+{"id":"238b0","jah":"11409a6debabc6959812931b2b598569","en":"World-class kicking precision.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[174/456]"}
+{"id":"238d3","jah":"661d08870bbfd9d1eb80060ee372e5af","en":"Pinpoint kicking is world class.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[175/456]"}
+{"id":"238f4","jah":"17fedfbc8378149b43287a9bd13cf5ec","en":"Needs much more work as an MF.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[176/456]"}
+{"id":"23913","jah":"15a95bff897cd5487d38659f71138cc1","en":"Has a good sense of positioning.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[177/456]"}
+{"id":"23932","jah":"211f98c93a2070a8171096cbca82bf2a","en":"Excellent positioning is a plus.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[178/456]"}
+{"id":"2394f","jah":"d051c935cdb123fc5d98e1e60e34e4d3","en":"Gets on the ball in good spots.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[179/456]"}
+{"id":"2396e","jah":"6712ebbd6f2c91e438737d3baa8eb1cd","en":"Shows high-level positioning.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[180/456]"}
+{"id":"2398f","jah":"918efaed72ec68758edb416909887825","en":"Understands positioning best.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[181/456]"}
+{"id":"239ae","jah":"5042c1cd3f72618a8fdaf854d8ef5465","en":"Positioning second to none.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[182/456]"}
+{"id":"239cf","jah":"9a3689381c9596a6d22ff230f61797ff","en":"World-class positioning sense.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[183/456]"}
+{"id":"239f0","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[184/456]"}
+{"id":"23a11","jah":"e4b2560ff919dc3110323a8bd6c3cb4d","en":"Fast, but still very untrained.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[185/456]"}
+{"id":"23a32","jah":"59e51956c20843427c6bfb951235bfe8","en":"Work rate over technique.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[186/456]"}
+{"id":"23a4f","jah":"a6cff60ed29a063c620ac64d4e0d2b43","en":"Superb work rate creates chances.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[187/456]"}
+{"id":"23a70","jah":"6ba8332ceab60a6ac8d9e7f9de882c15","en":"Tireless, runs everywhere.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[188/456]"}
+{"id":"23a93","jah":"bcfe34ee77c5f65aa79b310005875411","en":"MF known for running, work rate.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[189/456]"}
+{"id":"23ab2","jah":"71246f428dc01dac5c9630d428628417","en":"Unrivalled running and work rate.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[190/456]"}
+{"id":"23ad1","jah":"bb429e5514bf3b11d4a3d5a568305f2d","en":"World-class engine and work rate.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[191/456]"}
+{"id":"23af4","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[192/456]"}
+{"id":"23b15","jah":"e2967287f24cd2e6b37c2f606f55af88","en":"Needs a deeper grasp of tactics.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[193/456]"}
+{"id":"23b36","jah":"7ba97867f5ff17c96fb9a3a7398aa5ca","en":"Has a firm place in the tactics.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[194/456]"}
+{"id":"23b59","jah":"54a38fe1036ca7335e49c0c42c427e26","en":"Makes the most of every chance.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[195/456]"}
+{"id":"23b7c","jah":"81d7f24cb6e04bfb7e9dc9010b5b356e","en":"Grasps tactics at once and acts.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[196/456]"}
+{"id":"23b9f","jah":"d3d920394359b26bb48acbf8f8dbb0eb","en":"Understands, acts without waste.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[197/456]"}
+{"id":"23bc2","jah":"b4be045c7c6b30b68388f24e66d21dbc","en":"Sees the whole, follows tactics.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[198/456]"}
+{"id":"23be5","jah":"23a8e13a76227f84f939e8f63cb2a0e1","en":"Knows tactics, lifts others.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[199/456]"}
+{"id":"23c08","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[200/456]"}
+{"id":"23c29","jah":"5a395ff4160677ffb8ccbece14028f52","en":"Must grasp formations better.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[201/456]"}
+{"id":"23c4a","jah":"ab7f6af1ab06924bd74b0178153865ef","en":"Firm place in the formation.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[202/456]"}
+{"id":"23c6d","jah":"54a38fe1036ca7335e49c0c42c427e26","en":"Makes the most of every chance.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[203/456]"}
+{"id":"23c90","jah":"0b5cf97b705f8f848aa945178e9d47a3","en":"Grasps formation and acts fast.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[204/456]"}
+{"id":"23cb3","jah":"6500bd7173290e3c2796ea73142bfbbe","en":"Knows formations; no waste.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[205/456]"}
+{"id":"23cd6","jah":"33a8f859c881044a54a324c22a1b3f33","en":"Sees all, true to the formation.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[206/456]"}
+{"id":"23cf9","jah":"b5f36a9215125a2cc3e23f4f567013dc","en":"Knows formation, leads others.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[207/456]"}
+{"id":"23d1c","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[208/456]"}
+{"id":"23d3d","jah":"25579fa9959136ea0cded82b30cae310","en":"Sees the whole; needs training.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[209/456]"}
+{"id":"23d60","jah":"466dab11c3f9a8db3f4b26b0b15782b4","en":"Sees the picture and acts fast.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[210/456]"}
+{"id":"23d83","jah":"69d534afa4f6f5507c99a249db31dfdf","en":"Judges well, takes needed action.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[211/456]"}
+{"id":"23da6","jah":"d2498b95b8a5f8f16843b0c7fb80c252","en":"Sharp observer, reads opponents.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[212/456]"}
+{"id":"23dc9","jah":"daf1f494a7b0cb35e57f21ee038da813","en":"Has dependable decision-making.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[213/456]"}
+{"id":"23de8","jah":"4a18e28b06cf39d5a111959e355d702b","en":"A world-class intelligent player.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[214/456]"}
+{"id":"23e09","jah":"2c6aba4dd1a772fc3192fe820510ea18","en":"World-best analysis, decisions.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[215/456]"}
+{"id":"23e2a","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[216/456]"}
+{"id":"23e4b","jah":"300b4b9cfefc4467622e146b778340da","en":"Stamina still has room to grow.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[217/456]"}
+{"id":"23e6a","jah":"d4a09e7bc3caa7df07bd07870bbb943b","en":"Raw, but renowned for stamina.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[218/456]"}
+{"id":"23e8d","jah":"218f7dccecbfabc67aab8f407736a6b5","en":"Combative with a fine physique.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[219/456]"}
+{"id":"23eac","jah":"006bce39de98aa4adbe99bf596767418","en":"Stamina to go all out 90 mins.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[220/456]"}
+{"id":"23ecd","jah":"27669f5f3d4a53b1331071d19ff2a0e8","en":"MF renowned for ample stamina.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[221/456]"}
+{"id":"23ef0","jah":"a0be08f8ae280aff316a47f96b0da423","en":"Stamina among the world's best.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[222/456]"}
+{"id":"23f11","jah":"c5d8bcd0ac07e12dd461c3430c5c3f86","en":"Work rate is world class.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[223/456]"}
+{"id":"23f30","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[224/456]"}
+{"id":"23f51","jah":"acb10e34872f6fd821deefde868b8ba9","en":"Trusted by teammates, but shaky.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[225/456]"}
+{"id":"23f74","jah":"068ed9c407c378e5cdcc6f8fcbd2d1ef","en":"A player able to show leadership.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[226/456]"}
+{"id":"23f95","jah":"9e119c2766d12dcdc7d4445fd48cbbba","en":"Has the talent to be a captain.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[227/456]"}
+{"id":"23fb6","jah":"73f64f51c052e7c8b7118c22b5858777","en":"Magnetic talent, fully reliable.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[228/456]"}
+{"id":"23fd7","jah":"ed10547a778df49524cc344a14474406","en":"A superb leader of the team.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[229/456]"}
+{"id":"23ff6","jah":"a4b7b1b45d55ec0f26d6987ad31f561c","en":"Highly respected, a true leader.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[230/456]"}
+{"id":"24019","jah":"c9aafcb70bd309f5c3751c1c3a35b974","en":"Strong playmaker, peak charisma.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[231/456]"}
+{"id":"2403c","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[232/456]"}
+{"id":"2405d","jah":"c0d6e2d87c5a2b02bcb2d35bdf9fee72","en":"Can shoot, but needs practice.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[233/456]"}
+{"id":"24080","jah":"befc02b8bfb75bc434483e9207ce5a93","en":"Shot power makes a key attacker.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[234/456]"}
+{"id":"240a3","jah":"8c66e9fc060ea55ea772174601901972","en":"Technical, with a powerful shot.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[235/456]"}
+{"id":"240c6","jah":"7fe726ff7403307f37175940cd49dd1c","en":"Accurate shots score reliably.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[236/456]"}
+{"id":"240e9","jah":"b6c93ee9cd78635ffe074f0152c81952","en":"Striker with reliable firepower.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[237/456]"}
+{"id":"2410a","jah":"fe5a2fb6ea349b4ca7017993747ca96e","en":"Explosive, world-class shooting.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[238/456]"}
+{"id":"2412b","jah":"45e07d69b6a1cdf7d4eb60353b31860a","en":"Shot power among world's best.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[239/456]"}
+{"id":"2414e","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[240/456]"}
+{"id":"2416f","jah":"d7ad155f248e0ddeee71207668fc1ac3","en":"Penetrative, but needs practice.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[241/456]"}
+{"id":"24190","jah":"4e0c135d7e1e5cce3d1c4869d9db24a6","en":"Sharp dribbling leads to goals.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[242/456]"}
+{"id":"241b3","jah":"851eddf73801602e34e288c1cd0dec69","en":"Skilful dribbling beats defence.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[243/456]"}
+{"id":"241d4","jah":"cdeb978ef19a06410239db5150b77d59","en":"Weapon of choice: pacy dribbling.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[244/456]"}
+{"id":"241f7","jah":"eb6e2dbfdd2386261d9fa91cb4084bb9","en":"International-class dribbling.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[245/456]"}
+{"id":"24216","jah":"9d04ce9f3516ed006dca73632fb98dae","en":"Skilful, with elite penetration.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[246/456]"}
+{"id":"24237","jah":"516b96a66eb1607bc740273ca2e57795","en":"Captivates with genius dribbling.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[247/456]"}
+{"id":"2425a","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[248/456]"}
+{"id":"2427b","jah":"8468205cb2f83ef2b4ae9c37f6c9d8b1","en":"Needs the build to win duels.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[249/456]"}
+{"id":"2429e","jah":"24aa605f2c8abc7ab5c6e24b804eef4d","en":"Raw, but strong in duels.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[250/456]"}
+{"id":"242bb","jah":"6644cc2601e10539ff29d29e03bf771a","en":"Strong in duels, a reliable FW.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[251/456]"}
+{"id":"242dc","jah":"e8790b51201318ecb885180788048a82","en":"Key attacker who dominates duels.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[252/456]"}
+{"id":"242ff","jah":"7d9e40b15720178a7f8b8c26b36df00f","en":"Internationally strong in duels.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[253/456]"}
+{"id":"24322","jah":"4d0f4d4352fb2291a46d213c5fc02a47","en":"Amazing in duels, world leader.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[254/456]"}
+{"id":"24345","jah":"720146f55871a6671cb5d76e4f883b46","en":"Strongest in duels worldwide.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[255/456]"}
+{"id":"24362","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[256/456]"}
+{"id":"24383","jah":"7c48bc9023ee8ca50369065844d0aa7f","en":"Stands out 1v1, needs practice.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[257/456]"}
+{"id":"243a6","jah":"ae5ca8d732a0c71d72279f2a1a3a7caf","en":"Duel strength should bring goals.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[258/456]"}
+{"id":"243c9","jah":"93fa45704dd5e138eb094c131a08a316","en":"Duel strength aids penetration.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[259/456]"}
+{"id":"243ec","jah":"eab195ef053f02d6bedf854a48d79037","en":"Powerful in duels, key attacker.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[260/456]"}
+{"id":"2440d","jah":"7bf0a552cb4360f4c3990747e88da63d","en":"Boasts international duel class.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[261/456]"}
+{"id":"24430","jah":"5bbc3f83b17a5d83a5de38d1fff191bc","en":"Hunter with world-class duels.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[262/456]"}
+{"id":"24453","jah":"a6f3253d03e869cc56f3267190c712f0","en":"Astounding duels, world class.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[263/456]"}
+{"id":"24476","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[264/456]"}
+{"id":"24497","jah":"58f5b0d5746dd2d581b2f6b48445aadb","en":"Talented kicker, needs practice.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[265/456]"}
+{"id":"244ba","jah":"17741029f3b4be89a092cda5ec4acb4a","en":"Known for kicking accuracy.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[266/456]"}
+{"id":"244d9","jah":"974bb2c2cdf04cfbd1698050426b03cb","en":"Shines with accurate kicks.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[267/456]"}
+{"id":"244f8","jah":"85d22282d834b8dd8116f17105edd77c","en":"Accurate kicking is the appeal.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[268/456]"}
+{"id":"24515","jah":"48642dd7d7ce428efc11af87797aa725","en":"Famed for kicks on target.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[269/456]"}
+{"id":"24530","jah":"92ccb52ee13fd32d8bc39e5c70dc4ad8","en":"Boasts world-class kick skill.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[270/456]"}
+{"id":"24553","jah":"7365b1fd43e571590e950ccbc7b4ff08","en":"Kick accuracy a world treasure.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[271/456]"}
+{"id":"24574","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[272/456]"}
+{"id":"24595","jah":"39a54e0ba50847d8e00750979e3709f1","en":"Unpolished, but talented runner.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[273/456]"}
+{"id":"245b8","jah":"59e51956c20843427c6bfb951235bfe8","en":"Work rate over technique.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[274/456]"}
+{"id":"245d5","jah":"a6cff60ed29a063c620ac64d4e0d2b43","en":"Superb work rate creates chances.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[275/456]"}
+{"id":"245f6","jah":"0d9d912eb4fe1254492986bffd9fd768","en":"Work rate unsettles opponents.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[276/456]"}
+{"id":"24619","jah":"ed503403ba0326a1f73acf34efa2b6be","en":"Top work rate and running power.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[277/456]"}
+{"id":"24638","jah":"ac9898bda21264769d302fef5598787c","en":"World-class running, work rate.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[278/456]"}
+{"id":"24659","jah":"24a188fe72e9f77e6175e96630797285","en":"World-class FW with a big motor.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[279/456]"}
+{"id":"2467c","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[280/456]"}
+{"id":"2469d","jah":"b235515c91709dd6c810f729b742be8f","en":"Needs more consistency in play.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[281/456]"}
+{"id":"246bc","jah":"2070f48a16e77d5a754953043ba14a92","en":"Attacks boldly on natural flair.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[282/456]"}
+{"id":"246df","jah":"6584ad3809dc6d12311f50ff3d912faa","en":"Excels at finding space.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[283/456]"}
+{"id":"24700","jah":"7081518f06799f60a2699f0360e4b9c7","en":"Superb positioning leads attack.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[284/456]"}
+{"id":"24723","jah":"af1a8ff457a90b64e45810c6d8765c1f","en":"Sound positioning is an asset.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[285/456]"}
+{"id":"24746","jah":"3ef3d51fbbeac562d6a4f28b6c7ddc40","en":"FW with world-class vision.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[286/456]"}
+{"id":"24765","jah":"05218d989d6c45de634d2156e7f5ae82","en":"World-leading genius striker.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[287/456]"}
+{"id":"24788","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[288/456]"}
+{"id":"247a9","jah":"e2967287f24cd2e6b37c2f606f55af88","en":"Needs a deeper grasp of tactics.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[289/456]"}
+{"id":"247ca","jah":"7ba97867f5ff17c96fb9a3a7398aa5ca","en":"Has a firm place in the tactics.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[290/456]"}
+{"id":"247ed","jah":"a621720827290d746501c69830833af7","en":"Grasps and applies tactics well.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[291/456]"}
+{"id":"2480c","jah":"59e3761e25428a49126cde2f1ae84df1","en":"Grasps tactics at once and acts.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[292/456]"}
+{"id":"2482b","jah":"117e66bf63d888b4190f64e71b659c2a","en":"Grasps tactics, wastes nothing.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[293/456]"}
+{"id":"2484c","jah":"b4be045c7c6b30b68388f24e66d21dbc","en":"Sees the whole, follows tactics.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[294/456]"}
+{"id":"2486f","jah":"e9a8a547967d57e7099b7ddb3803ae29","en":"Peerless tactician, world-class.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[295/456]"}
+{"id":"24892","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[296/456]"}
+{"id":"248b3","jah":"28727238b57a84c6295a2de9a0f24d71","en":"Needs to grasp formations more.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[297/456]"}
+{"id":"248d6","jah":"fe87c9bf4d93a28b3744bd9e57c52190","en":"Adapts safely to any formation.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[298/456]"}
+{"id":"248f7","jah":"fd591f816527c9a06ea64feb5fcd8ea9","en":"Knows formations and own role.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[299/456]"}
+{"id":"2491a","jah":"28a56c31a097b026404932abba1bddfa","en":"Grasps formations at once, acts.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[300/456]"}
+{"id":"2493d","jah":"c514e693ccddda43d29f0aefbf377df2","en":"High formation sense, no waste.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[301/456]"}
+{"id":"24960","jah":"7e5a113a6520a0c741d26a6952207e33","en":"World-class at using formations.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[302/456]"}
+{"id":"24983","jah":"e780981b35d3ce5f075cbf2031beaeaa","en":"World-class brain on formations.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[303/456]"}
+{"id":"249a6","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[304/456]"}
+{"id":"249c7","jah":"25579fa9959136ea0cded82b30cae310","en":"Sees the whole; needs training.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[305/456]"}
+{"id":"249ea","jah":"a911a59251583a27bf975c7f6c86ab15","en":"Reads, judges and acts strongly.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[306/456]"}
+{"id":"24a0b","jah":"8c7741dc7c7626b894210a6f6a075330","en":"Judges well and acts immediately.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[307/456]"}
+{"id":"24a2e","jah":"a82150f90cc4b5d83a8efd2e7b3b4771","en":"Sharp eye foresees their play.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[308/456]"}
+{"id":"24a51","jah":"dbddf5c29d0c9fc9605b40d2ca4bee48","en":"Cool head, formidable judgement.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[309/456]"}
+{"id":"24a74","jah":"4a18e28b06cf39d5a111959e355d702b","en":"A world-class intelligent player.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[310/456]"}
+{"id":"24a95","jah":"169c8435c14fe96f9257cb279f7d25f9","en":"Top-class analysis and judgement.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[311/456]"}
+{"id":"24ab6","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[312/456]"}
+{"id":"24ad7","jah":"5e4c37f3000598b7dd7dde1490b195a9","en":"Powerful, but badly undertrained.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[313/456]"}
+{"id":"24af8","jah":"b912abca6db3edf12b4942bc7525a382","en":"Raw, but has plentiful stamina.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[314/456]"}
+{"id":"24b19","jah":"218f7dccecbfabc67aab8f407736a6b5","en":"Combative with a fine physique.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[315/456]"}
+{"id":"24b38","jah":"494df56caf789fd9584310bdbe779e1a","en":"Can run flat out for 90 minutes.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[316/456]"}
+{"id":"24b59","jah":"793cbc1fb2a236f25614b0a951f5cca1","en":"An iron man with rare stamina.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[317/456]"}
+{"id":"24b76","jah":"0caa8d1013599a71707d3aabc397749e","en":"Such stamina is rare worldwide.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[318/456]"}
+{"id":"24b99","jah":"55ae31d64f9336b90d903c690d1a364d","en":"Boasts world-class stamina.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[319/456]"}
+{"id":"24bbc","jah":"9194ea8eb48b8f79268667daf153d493","en":"A little short of pro standard.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[320/456]"}
+{"id":"24bdd","jah":"65fa74d94160b6f7b04c50c19c2f8f7b","en":"Promising leader, inexperienced.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[321/456]"}
+{"id":"24c00","jah":"068ed9c407c378e5cdcc6f8fcbd2d1ef","en":"A player able to show leadership.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[322/456]"}
+{"id":"24c21","jah":"9e119c2766d12dcdc7d4445fd48cbbba","en":"Has the talent to be a captain.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[323/456]"}
+{"id":"24c42","jah":"73f64f51c052e7c8b7118c22b5858777","en":"Magnetic talent, fully reliable.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[324/456]"}
+{"id":"24c63","jah":"e227c468dd566ee34544598c33e31f73","en":"Fine leader who unites the side.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[325/456]"}
+{"id":"24c84","jah":"a4b7b1b45d55ec0f26d6987ad31f561c","en":"Highly respected, a true leader.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[326/456]"}
+{"id":"24ca7","jah":"d724cb4861425785cb5dfb0797f291f8","en":"Strong playmaker, peak charisma.","max_bytes":35,"refs":1,"ctx":"tbl@1f9e8[327/456]"}
+{"id":"24cca","jah":"29fba1341e0bff7e7347f942e8181c7e","en":"Promising rookie at peak growth.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[328/456]"}
+{"id":"24ce9","jah":"59678774031c70e0bbf40d68a30c5d21","en":"Promising youth, room to grow.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[329/456]"}
+{"id":"24d0a","jah":"82eca208bca005921dfe43ea3663eeeb","en":"Seems past the growth peak.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[330/456]"}
+{"id":"24d29","jah":"dc083aa2ecdf57761f26afbd2aad15a4","en":"Past peak, but still promising.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[331/456]"}
+{"id":"24d46","jah":"a501c96f37dadee4357044e677fe7041","en":"Plays with composure.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[332/456]"}
+{"id":"24d65","jah":"11f45795247683b35891e1ca7320c906","en":"Experience makes a key asset.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[333/456]"}
+{"id":"24d86","jah":"3bbc47c64f3bffaed600e31a07f5496c","en":"Struggles at the top level.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[334/456]"}
+{"id":"24da3","jah":"3ad0ed8c4878207694377618bb043dc1","en":"Experience to lead the young.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[335/456]"}
+{"id":"24dc2","jah":"0a7bf76af5e1a1d59d4cdc7e4afd60a8","en":"Young prospect expected to grow.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[336/456]"}
+{"id":"24de3","jah":"b8b1cfe77db6412deaab506cf9a4ad6f","en":"Peak growth: ideal to develop.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[337/456]"}
+{"id":"24e02","jah":"d4ad6c2fefe1a45f4c2e96ac7f24b9d5","en":"Still has growth to come.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[338/456]"}
+{"id":"24e1d","jah":"613159655a8988b8e17ad9fe3d1a2472","en":"Past the peak. Stable phase.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[339/456]"}
+{"id":"24e3e","jah":"ca3b480e64590c0e5fc209deaaee0bac","en":"Past the peak, now a veteran.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[340/456]"}
+{"id":"24e5b","jah":"8e1c21950b9994e438f5731d9790e0c3","en":"Mature; experience tells.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[341/456]"}
+{"id":"24e76","jah":"102aaad6f98aaf4fa1c5926278f9b7b2","en":"Too old to compete at the top.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[342/456]"}
+{"id":"24e95","jah":"d96b8839eb96db07dac7882ed05f371b","en":"Experience backs up the young.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[343/456]"}
+{"id":"24eb4","jah":"75945347d280ff2456108bc8e5191f92","en":"Needs experience; bright future.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[344/456]"}
+{"id":"24ed5","jah":"5e4b4dfde485b5721904780eefe2d6d4","en":"Growing explosively.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[345/456]"}
+{"id":"24ef0","jah":"36856733d677f748ec4e696e6f52b3a4","en":"Peak growth is now.","max_bytes":23,"refs":1,"ctx":"tbl@1f9e8[346/456]"}
+{"id":"24f07","jah":"4520930a7d0da18fe1b445d64af78cd6","en":"Continues to grow.","max_bytes":25,"refs":1,"ctx":"tbl@1f9e8[347/456]"}
+{"id":"24f20","jah":"11ccee6a26ffb81f8e9dafe1cc7e66cb","en":"Age limits growth; fully mature.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[348/456]"}
+{"id":"24f41","jah":"c4469e5b8e0902395cf080b25ddd0ac5","en":"Unlikely to grow; a veteran now.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[349/456]"}
+{"id":"24f62","jah":"2b7ce97f11c800cf27655f7a76fa4350","en":"Less fiery; experience covers.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[350/456]"}
+{"id":"24f81","jah":"9860c9af08d926ea89071a30ca12e437","en":"Should groom a successor.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[351/456]"}
+{"id":"24f9c","jah":"35142c1e0e2b828a34978952afc174ac","en":"Real growth starts now.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[352/456]"}
+{"id":"24fb7","jah":"5682014e41b1d1aca2326d496689b2e8","en":"Recent growth is obvious.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[353/456]"}
+{"id":"24fd4","jah":"55a6727c3e2b2025cf48810d6f706816","en":"Learns fast; leaps forward.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[354/456]"}
+{"id":"24ff1","jah":"cc9b8a38d3849dfede375fc382f04045","en":"Plenty of room to grow.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[355/456]"}
+{"id":"2500c","jah":"912e3afa219c630b0f4f32b44c3f48c6","en":"Slower growth, but mature play.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[356/456]"}
+{"id":"2502d","jah":"ca8b6c805d64357021bb6ffec219d6a0","en":"Past top level, but experienced.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[357/456]"}
+{"id":"2504e","jah":"8472f4e380d57fe1be884c041c1f7bbb","en":"Age-related decline is clear.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[358/456]"}
+{"id":"2506d","jah":"8878bbec5a5cc544ab5f2dd1f70effbc","en":"Experience helps unite the club.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[359/456]"}
+{"id":"2508c","jah":"f2681166e143a9c8e706696a73a94a12","en":"Good potential for the future.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[360/456]"}
+{"id":"250ab","jah":"75945347d280ff2456108bc8e5191f92","en":"Needs experience; bright future.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[361/456]"}
+{"id":"250cc","jah":"5682014e41b1d1aca2326d496689b2e8","en":"Recent growth is obvious.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[362/456]"}
+{"id":"250e9","jah":"1f9dc9393178b55445d5d6c612a60c05","en":"At the peak of physical growth.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[363/456]"}
+{"id":"25108","jah":"93d0699cabdc80196a145e627cfe01a1","en":"Past the peak but not declining.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[364/456]"}
+{"id":"25127","jah":"11f45795247683b35891e1ca7320c906","en":"Experience makes a key asset.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[365/456]"}
+{"id":"25148","jah":"8472f4e380d57fe1be884c041c1f7bbb","en":"Age-related decline is clear.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[366/456]"}
+{"id":"25167","jah":"9860c9af08d926ea89071a30ca12e437","en":"Should groom a successor.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[367/456]"}
+{"id":"25182","jah":"75945347d280ff2456108bc8e5191f92","en":"Needs experience; bright future.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[368/456]"}
+{"id":"251a3","jah":"35142c1e0e2b828a34978952afc174ac","en":"Real growth starts now.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[369/456]"}
+{"id":"251be","jah":"5682014e41b1d1aca2326d496689b2e8","en":"Recent growth is obvious.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[370/456]"}
+{"id":"251db","jah":"f199741b138326793b857ecb17c33d00","en":"Continues to grow steadily.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[371/456]"}
+{"id":"251f6","jah":"5f610be8ec2b07a15ea676dfa4bf37e5","en":"Past the peak, but still steady.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[372/456]"}
+{"id":"25215","jah":"2b7ce97f11c800cf27655f7a76fa4350","en":"Less fiery; experience covers.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[373/456]"}
+{"id":"25234","jah":"2166c40384e083efedf0282cd9180521","en":"Experience handles any situation.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[374/456]"}
+{"id":"25253","jah":"85d844ac6ba927a446076b6470d2fa60","en":"Has experience to coach youth.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[375/456]"}
+{"id":"25274","jah":"2f0f06263e239d5f4d8c7c87265217c6","en":"Promising but growth has stalled.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[376/456]"}
+{"id":"25293","jah":"c1bbe61c2f3e3dcd6e89951c8c41ed14","en":"Erratic growth, but promising.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[377/456]"}
+{"id":"252b0","jah":"522ecfb99ecb6ad66a13d8314821a1ff","en":"More experience will aid growth.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[378/456]"}
+{"id":"252d1","jah":"b8b1cfe77db6412deaab506cf9a4ad6f","en":"Peak growth: ideal to develop.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[379/456]"}
+{"id":"252f0","jah":"026cea59388198ff5a36fe4b40beef09","en":"Past the peak, shows no decline.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[380/456]"}
+{"id":"25311","jah":"4f909ea05482a3491430fffb3b35ffaf","en":"Power is starting to decline.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[381/456]"}
+{"id":"25332","jah":"8472f4e380d57fe1be884c041c1f7bbb","en":"Age-related decline is clear.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[382/456]"}
+{"id":"25351","jah":"55c689a146c438c02ffdf921e9b509b0","en":"A role model for young players.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[383/456]"}
+{"id":"25372","jah":"b9819faa678b74458eba4100d011691c","en":"Growth unsteady and has stalled.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[384/456]"}
+{"id":"25391","jah":"a5cbd070dc359a64e18a2b3728dcb4e3","en":"Developing, with a bright future.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[385/456]"}
+{"id":"253ae","jah":"36856733d677f748ec4e696e6f52b3a4","en":"Peak growth is now.","max_bytes":23,"refs":1,"ctx":"tbl@1f9e8[386/456]"}
+{"id":"253c5","jah":"613159655a8988b8e17ad9fe3d1a2472","en":"Past the peak. Stable phase.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[387/456]"}
+{"id":"253e6","jah":"c4469e5b8e0902395cf080b25ddd0ac5","en":"Unlikely to grow; a veteran now.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[388/456]"}
+{"id":"25407","jah":"ab21d5a7cece79a485d33cba83728fa6","en":"Too old to push too hard.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[389/456]"}
+{"id":"25422","jah":"102aaad6f98aaf4fa1c5926278f9b7b2","en":"Too old to compete at the top.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[390/456]"}
+{"id":"25441","jah":"9860c9af08d926ea89071a30ca12e437","en":"Should groom a successor.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[391/456]"}
+{"id":"2545c","jah":"75945347d280ff2456108bc8e5191f92","en":"Needs experience; bright future.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[392/456]"}
+{"id":"2547d","jah":"f2681166e143a9c8e706696a73a94a12","en":"Good potential for the future.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[393/456]"}
+{"id":"2549c","jah":"f199741b138326793b857ecb17c33d00","en":"Continues to grow steadily.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[394/456]"}
+{"id":"254b7","jah":"2d612952022c75cc8caa293589498fa4","en":"Physique still keeps growing.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[395/456]"}
+{"id":"254d6","jah":"c4469e5b8e0902395cf080b25ddd0ac5","en":"Unlikely to grow; a veteran now.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[396/456]"}
+{"id":"254f7","jah":"ef8db93a7d37d136c8d20729289b5e53","en":"Veteran, yet still developing.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[397/456]"}
+{"id":"25516","jah":"573c11f12b7fcaff3ee65d9c60cf1c81","en":"Intense play is getting harder.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[398/456]"}
+{"id":"25537","jah":"1a741884e8c57fda863a0f6a69b829dd","en":"Experience should nurture youth.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[399/456]"}
+{"id":"25556","jah":"1d9f6e3e9f0f90fc5e614f08387718eb","en":"Struggling now, but has promise.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[400/456]"}
+{"id":"25577","jah":"0a7bf76af5e1a1d59d4cdc7e4afd60a8","en":"Young prospect expected to grow.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[401/456]"}
+{"id":"25598","jah":"5d018646399883902d6bc3f69234bd73","en":"Experience and practice to grow.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[402/456]"}
+{"id":"255b9","jah":"949a3ba37b5cc46d6dabea6765e69489","en":"Showing explosive growth lately.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[403/456]"}
+{"id":"255d8","jah":"cc9b8a38d3849dfede375fc382f04045","en":"Plenty of room to grow.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[404/456]"}
+{"id":"255f3","jah":"5c3e5270ab96ff5ce80a56005aa3585a","en":"Power recently starting to drop.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[405/456]"}
+{"id":"25612","jah":"291149185608f8c1c1cbb77d3e87461b","en":"Expect play built on experience.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[406/456]"}
+{"id":"2562f","jah":"26e6d6ee8103213cc65526cdec3cf8ba","en":"Leads the young with experience.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[407/456]"}
+{"id":"2564e","jah":"fae56840795dbf34f3495c756d4a56a5","en":"Young talent, but growth stalls.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[408/456]"}
+{"id":"2566b","jah":"9925662930c08f7d65b5783b62f8018d","en":"Slowing a little, but promising.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[409/456]"}
+{"id":"2568c","jah":"9925662930c08f7d65b5783b62f8018d","en":"Slowing a little, but promising.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[410/456]"}
+{"id":"256ad","jah":"35142c1e0e2b828a34978952afc174ac","en":"Real growth starts now.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[411/456]"}
+{"id":"256c8","jah":"7cd4ffed0f832f3c1f11a70c05bb235c","en":"Mature, but now at peak growth.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[412/456]"}
+{"id":"256e7","jah":"bea277fb0aa4c5998eefcdb8ac3abf88","en":"A veteran maturing as they grow.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[413/456]"}
+{"id":"25708","jah":"cc4ac15b372a6c1b1f2e5d8c243f836f","en":"Very experienced veteran.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[414/456]"}
+{"id":"25723","jah":"26e6d6ee8103213cc65526cdec3cf8ba","en":"Leads the young with experience.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[415/456]"}
+{"id":"25742","jah":"0a7bf76af5e1a1d59d4cdc7e4afd60a8","en":"Young prospect expected to grow.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[416/456]"}
+{"id":"25763","jah":"5cfa0499bf2991b4b224e6cfbb693034","en":"Expected to grow with experience.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[417/456]"}
+{"id":"25782","jah":"f199741b138326793b857ecb17c33d00","en":"Continues to grow steadily.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[418/456]"}
+{"id":"2579d","jah":"b8b1cfe77db6412deaab506cf9a4ad6f","en":"Peak growth: ideal to develop.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[419/456]"}
+{"id":"257bc","jah":"479081c8b65c4c62d7957ec4d2d62d5b","en":"More training will boost growth.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[420/456]"}
+{"id":"257dd","jah":"01442a76020a4618dcb16c8b5e035a24","en":"Is still showing growth.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[421/456]"}
+{"id":"257fa","jah":"9f64866d03063835732a11f5e980b1a0","en":"Amazing body, still growing.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[422/456]"}
+{"id":"25819","jah":"b1b851d824fde98c4c2f4874e487917a","en":"Still growing at a godlike level.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[423/456]"}
+{"id":"2583a","jah":"fa93ab7b08495cf59fda454ce56079c0","en":"Growth stalled, but has promise.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[424/456]"}
+{"id":"2585b","jah":"35142c1e0e2b828a34978952afc174ac","en":"Real growth starts now.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[425/456]"}
+{"id":"25876","jah":"691efbb35950f3cf878ed140105989ed","en":"No sharp growth, but steady.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[426/456]"}
+{"id":"25891","jah":"c9ba55a0e6b27725039a8b9feb72ca1f","en":"Slight decline; needs training.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[427/456]"}
+{"id":"258ae","jah":"a501c96f37dadee4357044e677fe7041","en":"Plays with composure.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[428/456]"}
+{"id":"258cd","jah":"c4469e5b8e0902395cf080b25ddd0ac5","en":"Unlikely to grow; a veteran now.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[429/456]"}
+{"id":"258ee","jah":"3bbc47c64f3bffaed600e31a07f5496c","en":"Struggles at the top level.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[430/456]"}
+{"id":"2590b","jah":"1ba6887039ccda633542100b23c7f38d","en":"Experience will serve the club.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[431/456]"}
+{"id":"2592c","jah":"fab8485732be791ace5b3ab7edb6170f","en":"Hyped rookie, but growth stalls.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[432/456]"}
+{"id":"25949","jah":"9925662930c08f7d65b5783b62f8018d","en":"Slowing a little, but promising.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[433/456]"}
+{"id":"2596a","jah":"0a7bf76af5e1a1d59d4cdc7e4afd60a8","en":"Young prospect expected to grow.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[434/456]"}
+{"id":"2598b","jah":"5e4b4dfde485b5721904780eefe2d6d4","en":"Growing explosively.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[435/456]"}
+{"id":"259a6","jah":"82eca208bca005921dfe43ea3663eeeb","en":"Seems past the growth peak.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[436/456]"}
+{"id":"259c5","jah":"a254c8b034731a4c1ae50e560d662fa4","en":"Lacks the power of youth.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[437/456]"}
+{"id":"259e4","jah":"9b9e6caac7b7cb7d278a16d5edcbf6a0","en":"Hard to compete at the top now.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[438/456]"}
+{"id":"25a03","jah":"8878bbec5a5cc544ab5f2dd1f70effbc","en":"Experience helps unite the club.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[439/456]"}
+{"id":"25a22","jah":"3434e649187aeea50542ac34a8e9e550","en":"Young player with future growth.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[440/456]"}
+{"id":"25a43","jah":"ff3f5b4a6664c5921459a5f70d649b37","en":"May grow explosively in future.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[441/456]"}
+{"id":"25a62","jah":"36856733d677f748ec4e696e6f52b3a4","en":"Peak growth is now.","max_bytes":23,"refs":1,"ctx":"tbl@1f9e8[442/456]"}
+{"id":"25a79","jah":"dc083aa2ecdf57761f26afbd2aad15a4","en":"Past peak, but still promising.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[443/456]"}
+{"id":"25a96","jah":"7e411a40671ff08668fa8690e3b65c00","en":"An amazing body, growing again.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[444/456]"}
+{"id":"25ab7","jah":"ca8b6c805d64357021bb6ffec219d6a0","en":"Past top level, but experienced.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[445/456]"}
+{"id":"25ad8","jah":"3bbc47c64f3bffaed600e31a07f5496c","en":"Struggles at the top level.","max_bytes":29,"refs":1,"ctx":"tbl@1f9e8[446/456]"}
+{"id":"25af5","jah":"5c43636f5dbdfbb9078cf71b57ba0371","en":"Uses experience to lead youth.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[447/456]"}
+{"id":"25b16","jah":"f1e9f9e66b4ed38512200c946be5abbb","en":"Exciting young prospect.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[448/456]"}
+{"id":"25b31","jah":"ddfe5042bf7c9bfa463f9aa077a22704","en":"A highly rated young hopeful.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[449/456]"}
+{"id":"25b4c","jah":"b5ae29f3ad6f864b2100a2c861b17635","en":"Will go far with experience.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[450/456]"}
+{"id":"25b6d","jah":"cc9b8a38d3849dfede375fc382f04045","en":"Plenty of room to grow.","max_bytes":27,"refs":1,"ctx":"tbl@1f9e8[451/456]"}
+{"id":"25b88","jah":"4520930a7d0da18fe1b445d64af78cd6","en":"Continues to grow.","max_bytes":25,"refs":1,"ctx":"tbl@1f9e8[452/456]"}
+{"id":"25ba1","jah":"f54fa3aa4250ae9c2d2b5d126876af1e","en":"Mature play, with more to come.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[453/456]"}
+{"id":"25bc2","jah":"a476f72340e0d0c2bdc3849a2fca7579","en":"Amazing growth, no decline seen.","max_bytes":33,"refs":1,"ctx":"tbl@1f9e8[454/456]"}
+{"id":"25be3","jah":"fdfe409a1e30c5a25f152aba4986502d","en":"Still growing at this age.","max_bytes":31,"refs":1,"ctx":"tbl@1f9e8[455/456]"}
+{"id":"25fd4","jah":"a28b21d35df1c21ef71553fe300e300b","en":"No Team","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2012c[0/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"25fdc","jah":"51b3ee0ee947569705dc0c4405d57c16","en":"My Team","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2012c[1/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"25fe4","jah":"5f9ae182679fa38b3d4a4a286aaa7c76","en":"Rival Team","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@2012c[2/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"25ff0","jah":"f18a3c3a264d68dc075306c5f8d5a01f","en":"Antlers","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2012c[3/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"25ff8","jah":"19fcd082afd0e183ee5d1e97b1d3bcb2","en":"Reds","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2012c[4/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26000","jah":"0af80e82f62cb52f602f775cc918f9d9","en":"JEF","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2012c[5/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26008","jah":"1b62551679ac2281c383c93a794ea295","en":"Reysol","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2012c[6/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26010","jah":"82c121fda3b602102cc34f37366c4a16","en":"Verdy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2012c[7/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26018","jah":"10c1d794ee6ce3d0ec8b1b345700d6a4","en":"Marinos","max_bytes":8,"refs":0,"ctx":"hwpool run=36 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26020","jah":"aaf12fb2bdb6267b3db0c8facc4cf5ce","en":"Belmare","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[0/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26028","jah":"b7bb52311ecd0cd69c0c4b748686e16e","en":"S-Pulse","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[1/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26030","jah":"20b901f043f9a4b0d4e17eadd89a3293","en":"Jubilo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[2/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26038","jah":"0310a14bf66e2c05692fafa06692c3c5","en":"Grampus","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[3/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26040","jah":"5257001f2713f636d511f6957d6f611a","en":"PurpleSanga","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20150[4/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2604c","jah":"b4b6bc550a07ea3c755cc5feb9e6ca05","en":"Gamba","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[5/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26054","jah":"320fa46c8fa320ff787add95815c0119","en":"Cerezo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[6/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2605c","jah":"a2255446499c05d2fe56ae4c2c057317","en":"Vissel","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[7/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26064","jah":"a10fb15f4877cea2c4a7bbee1e64c57f","en":"Sanfrec","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[8/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2606c","jah":"1ac1ff36eb4d66a052c30459b23c0cbe","en":"Avispa","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[9/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26074","jah":"98aef041effa5675c2e0aa59902748e1","en":"Consado","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[10/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2607c","jah":"ebb14dee04c47449660d3fa412b67587","en":"Vegalta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[11/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26084","jah":"ed7454c7a16670804c09b3c445007b99","en":"Montedo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20150[12/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2608c","jah":"c41b357d8d0ae2d3eb043c2e2e950715","en":"Ardija","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20150[13/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26098","jah":"9bbd678e223e2c7ad64e2ae0a922769f","en":"FCTokyo","max_bytes":8,"refs":1,"ctx":"ptr@20188"}
+{"id":"260a0","jah":"be605122902addb49be4b17b89ee626e","en":"Frontal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2018c[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260a8","jah":"0ce43c4429469f58828e96c4ff959051","en":"Ventforet","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@2018c[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260b4","jah":"572f9b1f761932650540ce57f491e111","en":"Albirex","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@2018c[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260c0","jah":"41530ec4602f673444ab7770b6397cb3","en":"Sagan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2018c[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260c8","jah":"f0858223bd8b84ce4582febafe6e911a","en":"Trinita","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2018c[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260d0","jah":"dcb3be575c5c4d6e3a13c834d70ec1f4","en":"Holyhok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2018c[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260d8","jah":"8ae10017e8eb311254732c6dc8be7199","en":"Yoko.FC","max_bytes":8,"refs":1,"ctx":"ptr@201a4"}
+{"id":"260e0","jah":"93912bb0b16dcf81a16f2e22338e740b","en":"East","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@201a8[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260e8","jah":"e0174adbca8a7146b241315ca06fa353","en":"West","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@201a8[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260f0","jah":"a3c1faae1d6b5be7d6521ea591e1709f","en":"Dream","max_bytes":40,"slot":12,"refs":2,"ctx":"hwptr tbl@201a8[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"260fc","jah":"8af8e3662e9f2e334bf05b82ee8d9fd8","en":"Euro","max_bytes":12,"refs":1,"ctx":"ptr@201b8"}
+{"id":"26108","jah":"fbc6c63107460e861b77440d4a571c20","en":"World","max_bytes":12,"refs":1,"ctx":"ptr@201bc"}
+{"id":"2611c","jah":"d298eea0ec1f04db1fb83882f018ae51","en":"Japan","max_bytes":8,"refs":1,"ctx":"ptr@201f4"}
+{"id":"26124","jah":"43de6e90dcda5594949f6278d57a7071","en":"S.Korea","max_bytes":8,"refs":1,"ctx":"ptr@201f8"}
+{"id":"2612c","jah":"8e90a9f7e065518f069f6fde4fb8ea3c","en":"Saudi Arab.","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@201fc[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26138","jah":"6e4278ee4049a946cc6d5222ce2f278a","en":"IRN","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@201fc[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2613c","jah":"688a9dcc1f1fe35203303edf13cbc56d","en":"THA","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@201fc[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26140","jah":"f2a9cf3006c70c99d645d1354bef85b9","en":"China","max_bytes":8,"refs":1,"ctx":"ptr@20208"}
+{"id":"26148","jah":"9673ca66abf53ca9d9317d090cbb2e77","en":"Kuwait","max_bytes":40,"slot":8,"refs":2,"ctx":"hwptr ptr@2020c stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26154","jah":"eb84ad62590e6e1c190c403ae35273f4","en":"Uzbekistan","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20214[0/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26160","jah":"804dedc7d3faa54212f098fb674dd1fb","en":"IRQ","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20214[1/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26164","jah":"04560fe5e37872e5bdb05b1a9dbc6f9a","en":"Kazakh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20214[2/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2616c","jah":"3887573b4f64bf221411d3d33e06d663","en":"Turkmen","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20214[3/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26178","jah":"803dc7aa2aff7bf6c2cdba4e16bb4641","en":"N.Korea","max_bytes":8,"refs":1,"ctx":"ptr@20224"}
+{"id":"26180","jah":"1f33ea08babf05b439a180fd2f87338c","en":"Qatar","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20228[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26188","jah":"e3a4853a4a850e88d91015a7778dbb5b","en":"Indon.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20228[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26190","jah":"d6a25a0402a11f58d6b39487b8dad607","en":"Singapore","max_bytes":40,"slot":12,"refs":2,"ctx":"hwptr tbl@20228[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2619c","jah":"3981f879dd27ff5b6b80382b9f0aca9e","en":"Malay.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20228[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261a4","jah":"90283fd65975e62fc42fc89e09ad4c0e","en":"Oman","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20228[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261ac","jah":"b539093f790ca3783d8431d04eb78bec","en":"Tajik.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20228[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261b4","jah":"e9dae6f899a91f24b9acd5deac416c92","en":"HK","max_bytes":8,"refs":2,"ctx":"ptr@20240 xrefs=2"}
+{"id":"261bc","jah":"da357531cf1c922653c841d3e971b736","en":"Kyrgyz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr ptr@20244 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261c4","jah":"4b94bdfdc19883198bff9ca3fe51afaf","en":"Taiwan","max_bytes":8,"refs":1,"ctx":"ptr@20248"}
+{"id":"261cc","jah":"2fd67d8551393c8a5e800125c9f9812b","en":"MAC","max_bytes":40,"slot":4,"refs":2,"ctx":"hwptr tbl@2024c[0/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261d0","jah":"8462fc14f940f055841b4ae0499c436d","en":"Nepal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2024c[1/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261d8","jah":"aab79c214bb26c1693c3f98e6a47ae2b","en":"Austral","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2024c[2/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261e0","jah":"9a172eb61032f4719320148103e084e2","en":"Nigeria","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2024c[3/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261e8","jah":"ead600c5eb5af4685ab68dc9bd508453","en":"Morocco","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2024c[4/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261f0","jah":"9884080639d0896b906348b0cb8db6b7","en":"Camern.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2024c[5/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"261f8","jah":"779fafd51f839e81877a4952531dc0e1","en":"Tunisia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2024c[6/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26200","jah":"64212fd24932bb326aa9dcd8d29091fb","en":"S.Afr.","max_bytes":8,"refs":1,"ctx":"ptr@20268"}
+{"id":"26208","jah":"acaa076bdfc31f5715316e73d96d5bc7","en":"Egypt","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[0/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26210","jah":"ff2369c3b50273e6c02fe7bb343cb881","en":"Zambia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[1/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26218","jah":"c64d83e82ff2ee0023550491d943f0b3","en":"Ghana","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[2/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26220","jah":"5754a4d850b5400feec507a396dbe496","en":"Liberia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[3/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26228","jah":"2fd5bdcd632e7d2c490a890ed1916019","en":"Zimbabwe","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@2026c[4/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26234","jah":"200d8b6acdf9af3f0308043ce413a0fe","en":"France","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[5/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2623c","jah":"2a26773c68a6ae65ede64c72c1cbaeac","en":"Germany","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[6/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26244","jah":"fea12737a943cbd27e15d1cea70b36a3","en":"Holland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[7/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2624c","jah":"51cfdd9cd3a951bc283953102f9609c2","en":"Italy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[8/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26254","jah":"c3bc56ef5c67cc047123cb903b5af0a5","en":"England","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@2026c[9/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26260","jah":"7908a4439dbf7a02b8cd52116c8216ff","en":"Spain","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[10/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26268","jah":"076b67b017eb2ce2f4264845268581a6","en":"Croatia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[11/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26270","jah":"2774c595b23be0695cfafdf997c244b8","en":"CZE","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@2026c[12/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26274","jah":"4dbb8420cb61edc8d015e5bf6f0ac1cb","en":"Yugoslavia","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@2026c[13/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26280","jah":"1c6f5bbf7667e9484c56604e11dd55ee","en":"Norway","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[14/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26288","jah":"6ae6c347fe5f3fd47ebee459fdea7905","en":"Romania","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[15/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26290","jah":"b0c886f269fcb2bfd3d9cb04982b7719","en":"Denmark","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[16/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26298","jah":"f6416ff3b1cd11f8ce992980315f7fde","en":"RUS","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@2026c[17/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2629c","jah":"1652c7f1a2f43303916ae7c5c0b821c4","en":"Sweden","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[18/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262a4","jah":"0f06150e06c618c5e0119e9b7d309fec","en":"Belgium","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[19/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262ac","jah":"45f8eeb909c0ecd8e44aa970a52f47ab","en":"Bulg.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[20/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262b4","jah":"5c35b24229b137a07b3f070b4abafcfa","en":"Scotland","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@2026c[21/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262c0","jah":"d3b8ec46e7e353f572fe424782d2855d","en":"Port.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[22/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262c8","jah":"a8c2673ea2f385bad95ce4ab029d2b44","en":"Austria","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[23/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262d0","jah":"54ca015f29ba77afc7897d72235f4744","en":"Slovak.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[24/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262d8","jah":"776268b45d49b6e1520db5595633785a","en":"Poland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[25/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262e0","jah":"d20cdff23622e9b3e0f52f7d8c874d6e","en":"Greece","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[26/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262e8","jah":"35b506bfa0e22daa41ef168e619a1a27","en":"SUI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@2026c[27/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262ec","jah":"b85e4acbaeca9134c048f166ec35820f","en":"Israel","max_bytes":40,"slot":8,"refs":2,"ctx":"hwptr tbl@2026c[28/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262f4","jah":"1ab80c616bc38d1fbe34fa918d222438","en":"Ireland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[29/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"262fc","jah":"4b64792aba2b0a0d91b9ebd9da0e535b","en":"TUR","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@2026c[30/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26300","jah":"179b2731784c1e517b6664cccecf1908","en":"Hungary","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[31/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26308","jah":"ab1679e3916081d85ae924d2125cd4c6","en":"Finland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[32/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26310","jah":"49f04d27d69344146b29b805197c302b","en":"Ukraine","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2026c[33/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26318","jah":"79f5cf0156b31b21c8271d233ba22595","en":"N.Ireland","max_bytes":12,"refs":1,"ctx":"ptr@202f4"}
+{"id":"26324","jah":"32ebd76a2e68126f9773e4ed2650caaf","en":"Brazil","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[0/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2632c","jah":"8c14f3320fc7dc72b2679ee3a62a0a73","en":"Arg.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[1/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26334","jah":"01f43676e9acf85dd2b1fc562c7d2704","en":"CHI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@202f8[2/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26338","jah":"eb099d1078323ea83011052e66e34b76","en":"Col.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[3/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26340","jah":"e7116e53b1dd357df15f71a9dcac61d4","en":"Parag.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[4/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26348","jah":"050a9f19cad9640d2a8f0aa40f4d8e20","en":"Uruguay","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[5/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26350","jah":"7b2f4b1dfd931442a017a870a373f06c","en":"Peru","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[6/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26358","jah":"8c777ca5ca6142e9cd55d972273e28d7","en":"Bolivia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[7/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26360","jah":"24298350279c9a712003c3a9e87b6de1","en":"Venez.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[8/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26368","jah":"a22665b0ba244787ab0db4effe4aff65","en":"Ecuador","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[9/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26370","jah":"aa622ebb6cc65f6e8c8af0fb0245feb3","en":"Mexico","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@202f8[10/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2637c","jah":"7e1e15c453e4b60e0bab0facd82fe33e","en":"Jamaica","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20328[0/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26384","jah":"d7099aa59801f49eeb3ec293e6d27576","en":"C. Rica","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20328[1/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2638c","jah":"4270949e2f10cc9365e5e5c5b99fff47","en":"El Salvador","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20328[2/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26398","jah":"9fb212d87725cf4f7801e72092c6898f","en":"Canada","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20328[3/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263a0","jah":"45af52067f918268d9c66d16a7e32d80","en":"Sloven.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20328[4/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263ac","jah":"11e09c982b019e8ef65a85617e819cb4","en":"Not set","max_bytes":8,"refs":1,"ctx":"ptr@20340"}
+{"id":"263b4","jah":"67df2a8cc517ef009498a6c1dd1daa88","en":"Incheon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[0/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263bc","jah":"c3b6356c7180f72ada626830bd1eff82","en":"SEO","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@2035c[1/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263c0","jah":"6105807a173a0a198e7d9336fb31529e","en":"Daegu","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[2/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263c8","jah":"cd0fdb6b0ba34b5466558ff3c5e1c800","en":"Daejeon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[3/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263d0","jah":"a23847fc6bea512e2138e89feaef28d6","en":"Busan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[4/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263d8","jah":"de09326329ad6ada6b4e4831ff84626b","en":"Riyadh","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[5/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263e0","jah":"4ad04ec03af370ad241805dbce549545","en":"Tehran","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[6/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263e8","jah":"a1ebfd8e3c62fd5f5564b5f9b100cd8e","en":"Bangkok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[7/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263f0","jah":"f4c94aa612bafa9ddb9dbb0ddd45250b","en":"Qingdao","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[8/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"263f8","jah":"00a4832aa3b818490b99ca766e4567ac","en":"Shangh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[9/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26400","jah":"6365c0f8daa1e3d36fbc777b20b45621","en":"Dalian","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[10/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26408","jah":"f3db83aa82970343dfcd1fadbf2a71ba","en":"Beijing","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@2035c[11/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26410","jah":"7f6fcda6ed9bb8221d33700cc05d1dff","en":"A.Dhabi","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20390[0/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26418","jah":"c1cae71d35ae14f3b838adf06f2d5937","en":"Bukhara","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20390[1/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26420","jah":"0d9dd31a2b34c9cfb24c02f03ff597f0","en":"Baghdad","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20390[2/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2642c","jah":"910d5d329ad3432e09289c369df598fd","en":"Astana","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20390[3/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26434","jah":"4aa7a736b30a2044eee85b7a1242852b","en":"Krasnovodsk","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20390[4/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26440","jah":"4d7785f7ae3b8798db7478c30547f6bb","en":"Pyong.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20390[5/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26448","jah":"35878447e662db2ba363f8d03ac06af8","en":"Doha","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20390[6/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26450","jah":"20dadcf56d711de097c24a62176b3630","en":"Jakarta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20390[7/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26458","jah":"e2e986cb86254872a08bbcc941e63246","en":"K. Lumpur","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203b4[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26464","jah":"bcf9a57166e58627a17fb3fde711c570","en":"Muscat","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203b4[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2646c","jah":"752e711046029429c7e810604cf41e7f","en":"Dush.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203b4[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26474","jah":"e112c21e57247cc34b092e791eae3965","en":"Frunze","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203c4[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2647c","jah":"c23eb43bfff024e07b354068b289dac2","en":"Taipei","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203c4[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26484","jah":"a11a6bf383760711098b757a51392dc7","en":"Kaoh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203c4[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2648c","jah":"3a8dc1b4a67f8c284efd1c32aa8c0d7b","en":"Kathm.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[0/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26494","jah":"94b612d76e5118ee262e18830f290c7b","en":"Canb.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[1/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2649c","jah":"a2cb44996043d02cd94995c0e2cc0100","en":"Lagos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[2/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264a4","jah":"465ecc24b896aaeef5e39448b0e74f7e","en":"Casab.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[3/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264ac","jah":"fa18ab05c1a811c330d73d17f8331fc7","en":"Yaounde","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[4/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264b4","jah":"fe98241b5ef93e9fe056fa38b2d69e4a","en":"Carth.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[5/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264bc","jah":"9020386cb9e01d9821cf60dc4f2c2bb7","en":"Joburg","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[6/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264c8","jah":"cb44ffdda18d9f308556fb25dfd6598b","en":"CAI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[7/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264cc","jah":"7f435ee38cd550bdcc217c5dd92c2c2e","en":"Lus","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[8/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264d0","jah":"dfb3e7d6847528e2dde3ff161f11d57f","en":"ACC","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[9/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264d4","jah":"dd4c01c6434245ef18748cb91dad4737","en":"Monrov.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[10/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264dc","jah":"70885bdd6cd0c42495a035546a336f20","en":"Salisbury","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[11/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264e8","jah":"5137db63ffca1c614d120695fdab38e9","en":"PAR","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[12/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264ec","jah":"24e2d63920017f04cd87d951b5affd9f","en":"MON","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[13/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264f0","jah":"7cc32824575bd8e49def424a7ff694cb","en":"Mars.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[14/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"264f8","jah":"dfe2beadbd15f07347b6dc05671221da","en":"Dortm.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[15/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26500","jah":"591e534829fa621ead462f7e312b92f8","en":"Munich","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[16/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26508","jah":"e982ea729b517f3be8aac146ea099c2a","en":"Bremen","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[17/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26510","jah":"1800dc3b3716c4346565c177f0f8d043","en":"Amsterdam","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[18/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2651c","jah":"d2853b2ef0e15d00f26eaca785b82672","en":"Eindhoven","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[19/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26528","jah":"f0d6b52e4e8d3ada52dea80ca38632cc","en":"R'dam","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[20/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26530","jah":"0b16729a314328161cc1ea2fff0ca633","en":"TRN","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[21/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26534","jah":"49c11c76c969d5caca63a50893c41613","en":"MIL","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[22/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26538","jah":"eecdace6497c30f49aab8030b0b7daeb","en":"ROM","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[23/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2653c","jah":"491f8a3029c0e3f8df362cb034d245d8","en":"Lazio","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[24/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26544","jah":"b53ac44136640d9344a12c495328d787","en":"Manch.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[25/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2654c","jah":"3b4e7128152b8fcd9b46a9272840ead5","en":"London","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[26/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26554","jah":"062bc304f3fd93d090898765504e8cd0","en":"L'pool","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[27/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2655c","jah":"21ba9c1500fdc6df3a2da15e51bc7ede","en":"Stamford","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[28/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26568","jah":"51dea70b94441933b002b669c05374bc","en":"Barca","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[29/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26570","jah":"5f0d36ad1fe3d2246660d3a0d814414e","en":"Madrid","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[30/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26578","jah":"82d1e465b11f51bda1a2f225bf24cb0a","en":"Valenci","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[31/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26580","jah":"3a1c91e0facadbd7dddfd4c2bd2a73ec","en":"Valladolid","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[32/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2658c","jah":"73f7cc9a10fbca305efecaa9f17d63cb","en":"Zagreb","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[33/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26594","jah":"3f4cf801d947388bbd8f133faee2955f","en":"Prague","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[34/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2659c","jah":"16941d1e6b2004fe58e0d3cc07bc0a6c","en":"Belgrade","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[35/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265a8","jah":"b175303deafa9fca31abf11811db98ca","en":"OSL","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[36/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265ac","jah":"304825f620557707f6d0456d68b9d7f9","en":"Buch.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[37/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265b4","jah":"def0396e20ed95fd35e80f3ea1e7fa45","en":"Copenhagen","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[38/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265c0","jah":"8b464e1f62484c24fe004445bf6dcd7a","en":"Moscow","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[39/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265c8","jah":"dbc3edefade52605271b756913c615a4","en":"Stockh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[40/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265d0","jah":"73df72ee4f632365d2ff13a5267acc09","en":"Bruss.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[41/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265d8","jah":"a67f2d19a00352a13aff9eed3edefd34","en":"Sofia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[42/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265e0","jah":"d20b1b4a1235f05ed0405f158ad3ba6a","en":"Glasgow","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[43/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265e8","jah":"4f000f049a2c48424b2dbbc5af638e66","en":"Porto","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[44/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265f0","jah":"bb8641a2a8503e601cc086307b7987ed","en":"Lisbon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[45/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"265f8","jah":"721e717d69955ce0925eaebb4386f3a7","en":"Coimbra","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[46/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26600","jah":"d261d2ada10f63318fa8b1741f92ae88","en":"Vienna","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[47/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26608","jah":"7a821f0b418a7e6dbbbdcd16bb72b906","en":"Bratislava","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@203d4[48/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26614","jah":"aaa409feb1bce475d14d0267c0142204","en":"Warsaw","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[49/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2661c","jah":"08af84e259430dd3807a024edf2f0190","en":"ATH","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@203d4[50/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26620","jah":"c1c380a369f5c642a3bf0c1fbac0c272","en":"Bern","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@203d4[51/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26628","jah":"2cf50a50309d3c520b966e2fd4cf058f","en":"Dublin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[0/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26630","jah":"3cd7e0c874167e0e9ef8054b80920ace","en":"Ankara","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[1/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26638","jah":"f5e7974d2a824679ea6909b03693320c","en":"B'pest","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[2/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26640","jah":"6b8f7c12c59ebc6da18eb9d1d4010398","en":"H'sinki","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[3/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26648","jah":"58904eed58446f175464b2c87657c54c","en":"Kyv","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@204a8[4/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2664c","jah":"12bfd954337920c2692f70be3d2073af","en":"S.Paulo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[5/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26654","jah":"e8c7510f793b01f193673a95d860276a","en":"Rio de Jan.","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@204a8[6/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26660","jah":"8ffdc25171d17a5e3407350753833b47","en":"B.Horizonte","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@204a8[7/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2666c","jah":"e816808e83bf49e8b65b668c7f487914","en":"P. Alegre","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@204a8[8/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26678","jah":"e21d3b18b6bc752d41769572b02169f0","en":"Santos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[9/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26680","jah":"574c3b227090a2034cc18002ceec6954","en":"B. Aires","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@204a8[10/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2668c","jah":"de94077eba2fa32a91052f54afd94c4b","en":"Boc","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@204a8[11/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26690","jah":"4a4ca05db3c30ee1579a92fc0b94559d","en":"Stgo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[12/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26698","jah":"4724f752d3aafbd0b2b096085b897e80","en":"Medelin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[13/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266a0","jah":"135e99d78056b3b8806fe452c967a4f1","en":"Bogota","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[14/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266a8","jah":"a695c1e01075137c870128bf9e69d76e","en":"Asunc.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[15/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266b0","jah":"bce3a8cbf4427e422127ff1b0a6f6826","en":"Montevideo","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@204a8[16/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266bc","jah":"3320a5e2ce6f2c4cd28375e7911b02c5","en":"Lim","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@204a8[17/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266c0","jah":"000bf6aa6880d65b73444411a5d740e9","en":"La Paz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[18/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266c8","jah":"355aed18e4f9728f59c5d72891bc15e3","en":"Caracas","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[19/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266d0","jah":"3741117514e2314c6e7d99d23481ff84","en":"Qto","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@204a8[20/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266d4","jah":"72e42c91da99dca750f06eec2f903f8f","en":"Acapulc","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[21/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266dc","jah":"54c2540ed03d9742bbb7630dddcb2c27","en":"Mexico","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[22/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266e4","jah":"9083d043d3a100da28bf9197b7c66d7b","en":"N.York","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[23/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266ec","jah":"71f294df3709ecc32ff918f027752341","en":"L.A.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[24/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266f4","jah":"a4ff87e843ed5a0ced9656d08cdcb5c0","en":"Wash.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[25/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"266fc","jah":"5566723fb4f77fe560cf284c605e2fec","en":"Kingstn","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[26/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26704","jah":"db3e21cadbcc56900abf850cc59cc81b","en":"Sanjose","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@204a8[27/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"2670c","jah":"d7d59bb1f77dc8957f035c20e4b82f9d","en":"S.Salvador","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@204a8[28/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"26718","jah":"3c884ce4961f1c3f28878e0f71deda06","en":"Ott","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@204a8[29/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"283a0","jah":"235d85e1affb47886e15b40caf5fe23d","en":"Re-entry Ban List: %d now","max_bytes":28,"refs":1,"ctx":"ptr@141bc"}
+{"id":"28d14","jah":"d423f010369051ed62d46f858f626c6d","en":"Nuchitos","max_bytes":40,"slot":9,"refs":1,"ctx":"hwptr ptr@121f4 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"29433","jah":"a8f22613ca9dcbbd002d967d3a061ef9","max_bytes":9,"ctx":0,"orphan":true,"skip":true}
+{"id":"298cd","jah":"ebd866269f029c42ff2cbc3eaf4368b6","max_bytes":17,"ctx":0,"orphan":true,"skip":true}
+{"id":"298f2","jah":"2d00ae3344cbc8439cf4185dcc44ef86","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"2990c","jah":"34b5abab823fbecf854c8e85db442817","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"29ba7","jah":"ce88f0569aea0b59d806962fc5e38412","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"29bae","jah":"ce88f0569aea0b59d806962fc5e38412","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"3056f","jah":"90b8164ad7affe790c2ff2334c266d56","max_bytes":5,"ctx":0,"orphan":true,"skip":true}
+{"id":"46a94","jah":"62e61410905e24e66450d54ed05654d5","en":"Intl Return Growth: Player %d","max_bytes":36,"refs":1,"ctx":"ptr@1c340"}
+{"id":"46ab8","jah":"b8eaff67cbe96edbb865475ddaff3098","en":"Plr %d stat %d: %d to %d, skipped","max_bytes":48,"refs":1,"ctx":"ptr@1c348"}
+{"id":"46ae8","jah":"00253978a6e91d74c5a0543385d825ea","en":"Plr %d stat %d: %d to %d, added","max_bytes":40,"refs":2,"ctx":"ptr@1c350 xrefs=2"}
+{"id":"46b10","jah":"c30485ae19816d8c67a38555ee9036b6","en":"Limit %d, so set to %d","max_bytes":28,"refs":1,"ctx":"ptr@1c5dc"}

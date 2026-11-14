@@ -1,0 +1,121 @@
+# SakaTsuku Tokudaigou 2 - English patch: ignore rules.
+# Rule of thumb: this repository holds tooling, docs and the translation; it never holds the game itself.
+# Every pattern below is anchored (leading "/") where it can be, because on Windows git matches case-insensitively:
+# an unanchored "*.bin" also hides the translated texture folders translation/textures/FLOW_PRG/*.BIN/.
+
+# --- The player's own disc dump (copyrighted game data; the repo root is where tools expect it) ---
+/*.bin
+/*.BIN.bak
+/*.cue
+/*.gdi
+/*.iso
+/*.img
+/*.cdi
+/*.chd
+/*.mds
+/*.mdf
+/*.nrg
+/*.raw
+
+# --- Files read out of the disc by tools/extract.py (copyrighted game data, read-only) ---
+/extracted/
+
+# --- Generated: trial discs, decoded textures, dumps, work files, logs, emulator output ---
+/build/
+/dist/
+/scratch/
+/scratch*/
+/tmp/
+/temp/
+/out/
+*.tmp
+
+# --- Release bundles and archives (patches go to a GitHub release, never into git) ---
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.xdelta
+*.vcdiff
+*.sha256
+# (the texture deltas l10n/textures/**/*.vcdiff are re-included further down, after the generic game-asset rules: the last matching rule wins)
+
+# --- The WORKING form of the translation: it carries the Japanese source strings (`ja`) read from the player's own disc ---
+# The committed form is l10n/ (English + ids + SHA-256 of the raw Japanese bytes), see docs/l10n-format.md.  Regenerate it with
+#   python -I -X utf8 tools/l10n.py export
+# and rebuild the working form from a disc with tools/setup_from_disc.py.
+/translation/*.jsonl
+/translation/refit/*.jsonl
+
+# --- Raw game-asset copies and dumps anywhere outside the translation tree ---
+# (the folders of l10n/textures/ are named like the original containers, e.g. X.ZAR/ X.TBD/, hence the re-include after this block)
+*.pvr
+*.zar
+*.tbd
+*.mlt
+*.afs
+*.adx
+*.wav
+*.ram
+*.dump
+*.memdump
+*.sav
+*.vms
+*.vmu
+
+# --- The repainted textures (translation/textures/**/*.pvr) are painted over Sega's own pictures: NOT committed ---
+# The committed form is the delta against the original texture, l10n/textures/**/*.vcdiff (VCDIFF, docs/texture-delta.md); no unchanged original
+# data is in it.  Rebuild the PVRs from a disc with tools/setup_from_disc.py (or `python -I -X utf8 tools/texdelta.py apply-all`).
+/translation/textures/
+# ... the texture deltas stay tracked.  These re-includes must come AFTER the generic *.vcdiff / *.tbd / *.zar rules above.
+!/l10n/textures/
+!/l10n/textures/**
+
+# --- Pictures that show original game art (made for docs / research; regenerate locally, see docs/art-translation.md) ---
+/docs/art-sample/club_edit_menu_before.png
+/docs/art-sample/club_edit_menu_after.png
+/docs/art-sample/club_edit_menu_sheet.png
+/tools/re/art6/plate_menu.png
+
+# --- Renderings of original game textures made for research (tools/re/datatext/png/*.png) ---
+/tools/re/datatext/png/
+
+# --- Python / tooling caches ---
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# --- Editor, OS and assistant working state ---
+.remember/
+.claude/
+.vscode/
+.idea/
+*.bak
+*.log
+*.pkl
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets (none exist today; keep it that way) ---
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# =====================================================================================================
+# DECIDED (docs/repo-audit.md): the repainted textures translation/textures/**/*.pvr are ignored (above); the delta form
+# l10n/textures/**/*.vcdiff is the committed one (docs/texture-delta.md).  DECIDED: Japanese remaining in non-jsonl working files
+# (e.g. sample_src.tsv) is accepted; a .jsonl holding the original Japanese is not, so it is ignored:
+/tools/re/capacity/ratio/sample.jsonl
+# =====================================================================================================

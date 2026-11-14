@@ -1,0 +1,102 @@
+{
+ "texture": "03266",
+ "supersample": 4,
+ "quantize": "argb4444",
+ "styles": {
+  "wh": {
+   "font": [
+    "arial-bold-italic"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffffff"
+    ],
+    [
+     1,
+     "#d8d8e8"
+    ]
+   ],
+   "outline": {
+    "color": "#202020",
+    "width": 0.5
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 1.5,
+    "dy": 1.5,
+    "alpha": 1.0
+   }
+  }
+ },
+ "regions": [
+  {
+   "id": "weak",
+   "ja": "弱点",
+   "text": "Weakness",
+   "x": 8,
+   "y": 139,
+   "w": 62,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 16,
+   "min_sx": 0.75
+  },
+  {
+   "id": "sell",
+   "ja": "セールスポイント",
+   "text": "Selling Point",
+   "x": 73,
+   "y": 139,
+   "w": 110,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 16,
+   "min_sx": 0.75
+  },
+  {
+   "id": "comp",
+   "ja": "不満",
+   "text": "Complaint",
+   "x": 8,
+   "y": 169,
+   "w": 62,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 16,
+   "min_sx": 0.75
+  },
+  {
+   "id": "club",
+   "ja": "クラブへ意見",
+   "text": "Club Feedback",
+   "x": 75,
+   "y": 169,
+   "w": 106,
+   "h": 24,
+   "style": "wh",
+   "erase": {
+    "mode": "clear"
+   },
+   "align": "left",
+   "size": "auto",
+   "max_size": 16,
+   "min_sx": 0.75
+  }
+ ]
+}

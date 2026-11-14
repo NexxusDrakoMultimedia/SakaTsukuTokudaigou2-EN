@@ -1,0 +1,125 @@
+{"l10n":1,"kind":"main","style":"compact","n":124,"final_newline":true,"src":"FLOW_PRG/OPTION.BIN"}
+{"id":"7ae4","jah":"cb5ced4d6d66794510aadc5045477d81","en":"   Hide   ","max_bytes":11,"refs":0,"ctx":"stride-table(in-place only)"}
+{"id":"7aef","jah":"1044781e3574c484697ea3540f387f1c","en":"   Show   ","max_bytes":11,"refs":2,"ctx":"ptr@7ce8 stride-table(in-place only) xrefs=2"}
+{"id":"7afa","jah":"a9b6f883543f24e780506504d0035828","en":" Comm Off ","max_bytes":11,"refs":1,"ctx":"ptr@7d00 stride-table(in-place only)"}
+{"id":"7b05","jah":"923cb6792a9f159dc804ec87c110e1e0","en":"  Comm On ","max_bytes":11,"refs":2,"ctx":"ptr@7d0c stride-table(in-place only) xrefs=2"}
+{"id":"7b10","jah":"174301ecb37bc385060c7c97445454cf","en":"Msgs Off","max_bytes":11,"refs":1,"ctx":"ptr@7d24 stride-table(in-place only)"}
+{"id":"7b1b","jah":"3fa831111cd325ef6d21450b78612088","en":"Msgs On","max_bytes":11,"refs":2,"ctx":"ptr@7d30 stride-table(in-place only) xrefs=2"}
+{"id":"7b26","jah":"1cc5e65e10848def47ae78bd373736db","en":"  Close   ","max_bytes":11,"refs":1,"ctx":"ptr@7d48 stride-table(in-place only)"}
+{"id":"7b31","jah":"cfebe3145b76901a577340307b179afe","en":"  Medium  ","max_bytes":11,"refs":1,"ctx":"ptr@7d54 stride-table(in-place only)"}
+{"id":"7b3c","jah":"a0989532e5f2da81233230266fc7957c","en":"   Far    ","max_bytes":11,"refs":1,"ctx":"ptr@7d60 stride-table(in-place only)"}
+{"id":"7b47","jah":"d48bfab6d1597d11b62e916de469b09f","en":"  1 min   ","max_bytes":11,"refs":1,"ctx":"ptr@7d6c stride-table(in-place only)"}
+{"id":"7b52","jah":"7e6ce7fccd028bb7816c261c196da23a","en":"  3 min   ","max_bytes":11,"refs":1,"ctx":"ptr@7d78 stride-table(in-place only)"}
+{"id":"7b5d","jah":"27f941414979292cbd4be8242f66c22a","en":"  5 min   ","max_bytes":11,"refs":1,"ctx":"ptr@7d84 stride-table(in-place only)"}
+{"id":"7b68","jah":"41f2f63517445140008223e17a735bd8","en":" Scoop Report Off ","max_bytes":19,"refs":1,"ctx":"ptr@7d90 stride-table(in-place only)"}
+{"id":"7b7b","jah":"31202f88cb20be54d2df6e6cd0be4401","en":"  Scoop Report On ","max_bytes":19,"refs":2,"ctx":"ptr@7d9c xrefs=2"}
+{"id":"7b8e","jah":"a28933eb696439f65c5425f58844d67a","en":"Assist Rank: Off","max_bytes":19,"refs":1,"ctx":"ptr@7db4"}
+{"id":"7ba1","jah":"7c1d9be86cd17c4ec850a9d877c43916","en":"Assist Rank: On","max_bytes":19,"refs":2,"ctx":"ptr@7dc0 xrefs=2"}
+{"id":"7bb4","jah":"d111224e0134691c6122ba5a89119978","en":"Club Results Off","max_bytes":19,"refs":1,"ctx":"ptr@7dd8"}
+{"id":"7bc7","jah":"f6f73bd94cf5de85d10c70f3098cd6a9","en":"Club Results On","max_bytes":19,"refs":2,"ctx":"ptr@7de4 xrefs=2"}
+{"id":"7bda","jah":"7cd70925a5a49874f6c2c91f774a7e48","en":"Man of Match: Off","max_bytes":19,"refs":1,"ctx":"ptr@7dfc"}
+{"id":"7bed","jah":"e16ab1d5cd481d2a4bf3618c0a0770e8","en":"Man of Match: On","max_bytes":19,"refs":2,"ctx":"ptr@7e08 xrefs=2"}
+{"id":"7c00","jah":"f37e58e3f555bedd4428d46e5c106133","en":"Club Ranking Off","max_bytes":19,"refs":1,"ctx":"ptr@7e20"}
+{"id":"7c13","jah":"a52bd585e59b3cf8583558cea92b487a","en":"Club Ranking On","max_bytes":19,"refs":2,"ctx":"ptr@7e2c xrefs=2"}
+{"id":"7c26","jah":"cb70a5db33abd780ebd1497711fde25f","en":"Rating Rank: Off","max_bytes":19,"refs":1,"ctx":"ptr@7e44"}
+{"id":"7c39","jah":"68be846f47939e92a66d4128119b5dc1","en":"Rating Rank: On","max_bytes":19,"refs":2,"ctx":"ptr@7e50 xrefs=2"}
+{"id":"7c4c","jah":"dcb8283e554b223b799f942dae8a50e3","en":"Goal Rank: Off","max_bytes":19,"refs":1,"ctx":"ptr@7e68"}
+{"id":"7c5f","jah":"e67eb7ddd9d44e153ccd36589c51d7ae","en":"Goal Rank: On","max_bytes":19,"refs":2,"ctx":"ptr@7e74 xrefs=2"}
+{"id":"7c72","jah":"e52d57dad806bdc19239831801615858","en":" News Index: Off  ","max_bytes":19,"refs":1,"ctx":"ptr@7e8c"}
+{"id":"7c85","jah":"97725f48341d89b6eeed81d1e4a972c1","en":" News Index: On   ","max_bytes":19,"refs":2,"ctx":"ptr@7e98 xrefs=2"}
+{"id":"7c98","jah":"f9b998a6698de5a002f3d0927be2e208","en":"STEREO","max_bytes":13,"refs":1,"ctx":"ptr@7eb0"}
+{"id":"7ca5","jah":"1ae76d995eadfdc2f1e8bdfd4485a0b9","en":"  MONO  ","max_bytes":13,"refs":1,"ctx":"ptr@7ebc"}
+{"id":"7cb2","jah":"b6e0d555b92d1ff5108c4d30f7b3d7ad","en":"   BGM   ","max_bytes":13,"refs":1,"ctx":"ptr@7ec8"}
+{"id":"7cbf","jah":"e3fc1a40f0b773ce661f987df4e17bd8","en":"   SE   ","max_bytes":13,"refs":1,"ctx":"ptr@7ed4"}
+{"id":"7ccc","jah":"e8440c643a9256e91f52314463a6ef94","en":" VOICE ","max_bytes":16,"refs":1,"ctx":"ptr@7ee0"}
+{"id":"7cdc","jah":"a86aa5daf45ee066f15a0266a439ef30","en":"-","max_bytes":12,"refs":3,"ctx":"ptr@1784 interior-ptrs=1 xrefs=3"}
+{"id":"88f4","jah":"1471fba869cb944963e3378b91d665ed","en":"Advance Schedule","max_bytes":12,"refs":1,"ctx":"ptr@7eec"}
+{"id":"8900","jah":"b92ba946d6f388b87f6bb2ff0f736104","en":"Cursor Move","max_bytes":16,"refs":1,"ctx":"ptr@7ef8"}
+{"id":"8910","jah":"3ebf3eae5eb2ad5dc9af1ccf61a21080","en":"Cursor Enter","max_bytes":16,"refs":1,"ctx":"ptr@7f04"}
+{"id":"8920","jah":"b74b676cbd0edfda13b952e170549886","en":"NG1","max_bytes":8,"refs":1,"ctx":"ptr@7f10"}
+{"id":"8928","jah":"78c17f4e8a0548e2a2ec73f5c1ffbf8f","en":"NG2","max_bytes":8,"refs":1,"ctx":"ptr@7f1c"}
+{"id":"8930","jah":"aa904e71372f6bde72b7378133a255b1","en":"Window 1","max_bytes":16,"refs":1,"ctx":"ptr@7f28"}
+{"id":"8940","jah":"80c74cae3c315f3607680608bd087829","en":"Window 2","max_bytes":16,"refs":1,"ctx":"ptr@7f34"}
+{"id":"8950","jah":"81edf8aa6f791a990cec5cc129671a63","en":"Funds Plus","max_bytes":12,"refs":1,"ctx":"ptr@7f40"}
+{"id":"895c","jah":"014be96fc77f3544b33c73f291c125ac","en":"Funds Minus","max_bytes":16,"refs":1,"ctx":"ptr@7f4c"}
+{"id":"896c","jah":"5bd245c3338efea8ac53843a4c3f59df","en":"Funds OK","max_bytes":12,"refs":1,"ctx":"ptr@7f58"}
+{"id":"8978","jah":"99da2d250f8843fa348b68d94d5e3094","en":"Panel","max_bytes":8,"refs":1,"ctx":"ptr@7f64"}
+{"id":"8980","jah":"bf2c5f5844fc448b820ce9f8a7c309b5","en":"Cancel","max_bytes":12,"refs":1,"ctx":"ptr@7f70"}
+{"id":"898c","jah":"235867cddd402dde890885f4d6652853","en":"Zoom In","max_bytes":12,"refs":1,"ctx":"ptr@7f7c"}
+{"id":"8998","jah":"22eb2bad09ef74dbbde347bae713b855","en":"Zoom Out","max_bytes":16,"refs":1,"ctx":"ptr@7f88"}
+{"id":"89a8","jah":"b85a90364e9c72ac157fc5f70c06f052","en":"Dr. Tsukuro 1","max_bytes":16,"refs":1,"ctx":"ptr@7f94"}
+{"id":"89b8","jah":"c6bc2f556e8e5329fd988f4c9cc51044","en":"Dr. Tsukuro 2","max_bytes":16,"refs":1,"ctx":"ptr@7fa0"}
+{"id":"89c8","jah":"5595b19342ce3462fff134e9f2921626","en":"Next Text","max_bytes":12,"refs":1,"ctx":"ptr@7fac"}
+{"id":"89d4","jah":"832505c844e27acd44056575a2522eb9","en":"Move","max_bytes":8,"refs":1,"ctx":"ptr@7fb8"}
+{"id":"89dc","jah":"2c56a922be2c65c94c6c6910b146e823","en":"Spec","max_bytes":8,"refs":1,"ctx":"ptr@7fc4"}
+{"id":"89e4","jah":"b5351a42ef6988ef754ff7cacf22087f","en":"Chair","max_bytes":8,"refs":1,"ctx":"ptr@7fd0"}
+{"id":"89ec","jah":"79fe1b32db5a737fc22cf35291b31b42","en":"Typing","max_bytes":8,"refs":1,"ctx":"ptr@7fdc"}
+{"id":"89f4","jah":"060bcfa779bdae55df2b69433caa0d16","en":"Phone","max_bytes":8,"refs":1,"ctx":"ptr@7fe8"}
+{"id":"89fc","jah":"3f09e2c6435252dc36a57b29f4025752","en":"FAX","max_bytes":8,"refs":1,"ctx":"ptr@7ff4"}
+{"id":"8a04","jah":"11ba751a026eeba5f30dcf01925af45a","en":"Door 1","max_bytes":8,"refs":1,"ctx":"ptr@8000"}
+{"id":"8a0c","jah":"1b7f2df9f69da045d77bfcfc4448ac24","en":"Door 2","max_bytes":8,"refs":1,"ctx":"ptr@800c"}
+{"id":"8a14","jah":"e03dbcdc7d6c5fde7951896a44b0bbe0","en":"Knock","max_bytes":8,"refs":1,"ctx":"ptr@8018"}
+{"id":"8a1c","jah":"d9d5f63ba08ac7900e6a915f2bd1efe4","en":"TOPIC","max_bytes":12,"refs":1,"ctx":"ptr@8024"}
+{"id":"8a28","jah":"260898d836c92401660a9f6b4428034b","en":"ACCIDENT","max_bytes":20,"refs":1,"ctx":"ptr@8030"}
+{"id":"8a3c","jah":"3ea9d7a4eb92e152cbcb2f7b8c5008ea","en":"WARNING","max_bytes":16,"refs":1,"ctx":"ptr@803c"}
+{"id":"8a4c","jah":"341c1bbe6da90f9f1f22e4e294d0dc2d","en":"REPORT","max_bytes":16,"refs":1,"ctx":"ptr@8048"}
+{"id":"8a68","jah":"241c06810af5a678b2f7a9eda4ee8bf9","en":"Takeoff","max_bytes":12,"refs":1,"ctx":"ptr@8060"}
+{"id":"8a74","jah":"e0dbc2747ff52780e0e034804d6ed615","en":"Landing","max_bytes":12,"refs":1,"ctx":"ptr@806c"}
+{"id":"8a80","jah":"8f27cbd11ec431b040991e4c5985912c","en":"Camera","max_bytes":8,"refs":1,"ctx":"ptr@8078"}
+{"id":"8a88","jah":"8f1bd024cef4cfde4c083bfbe2d7da85","en":"Cheers","max_bytes":8,"refs":1,"ctx":"ptr@8084"}
+{"id":"8a90","jah":"7ef0024248f34430a60e62edc0204f6b","en":"Booing","max_bytes":12,"refs":1,"ctx":"ptr@8090"}
+{"id":"8a9c","jah":"17e9776dcb51870388bd05677194b112","en":"Training","max_bytes":8,"refs":1,"ctx":"ptr@809c"}
+{"id":"8aa4","jah":"fff05ec44e86de4f5508687298af2cc1","en":"Office","max_bytes":12,"refs":1,"ctx":"ptr@80a8"}
+{"id":"8ab0","jah":"f69eb499509bbc62b6dcb0cb8c3cd5a2","en":"Small","max_bytes":8,"refs":1,"ctx":"ptr@80b4"}
+{"id":"8ab8","jah":"a84c04d189ba3cae5ebbd758ed8ca184","en":"Medium","max_bytes":8,"refs":1,"ctx":"ptr@80c0"}
+{"id":"8ac0","jah":"31774f7b2d2063227c95e99530562594","en":"Large","max_bytes":8,"refs":1,"ctx":"ptr@80cc"}
+{"id":"8ac8","jah":"7a013e5c2889992dab15e5a7717b0600","en":"Data Room","max_bytes":12,"refs":1,"ctx":"ptr@80d8"}
+{"id":"8ad4","jah":"f56127692040829cfbf04190ff72c3e5","en":"Luck 1","max_bytes":8,"refs":1,"ctx":"ptr@80e4"}
+{"id":"8adc","jah":"1edfeaf3577277c38792350fb02f01aa","en":"Luck 2","max_bytes":8,"refs":1,"ctx":"ptr@80f0"}
+{"id":"8ae4","jah":"909a124a4f6862b83c471a66c9bf5c94","en":"Woe 1","max_bytes":8,"refs":1,"ctx":"ptr@80fc"}
+{"id":"8aec","jah":"b111d20f625211e30dcce984907d8fc3","en":"Woe 2","max_bytes":8,"refs":1,"ctx":"ptr@8108"}
+{"id":"8af4","jah":"1cbdd7f334a2839a6fa06951b1471287","en":"Sports News","max_bytes":20,"refs":1,"ctx":"ptr@8114"}
+{"id":"8b08","jah":"35aa8eaa6f0ff8108e60f3bcb347b9c5","en":"Sports News 2","max_bytes":20,"refs":1,"ctx":"ptr@8120"}
+{"id":"8b1c","jah":"3a505a0dcf3e4ac1be6570620a5b832b","en":"Sports News 3","max_bytes":20,"refs":1,"ctx":"ptr@812c"}
+{"id":"8b30","jah":"3b816751ef7ab5233522f6cea6be8153","en":"Opening","max_bytes":16,"refs":1,"ctx":"ptr@8138"}
+{"id":"8b40","jah":"c1230985c39a2283e72f32e334eb5633","en":"Club Editor","max_bytes":20,"refs":1,"ctx":"ptr@8144"}
+{"id":"8b54","jah":"37b06bf4108bff80a6f984d3db4e0b8c","en":"Rank 1 (Kyu)","max_bytes":16,"refs":1,"ctx":"ptr@8150"}
+{"id":"8b64","jah":"4cbe9c5de3ab36f32f21db78552f81c8","en":"Rank 2 (Dan)","max_bytes":16,"refs":1,"ctx":"ptr@815c"}
+{"id":"8b74","jah":"88369d5b07fe7edc33689ddac3b84a36","en":"Rank 3 (Master)","max_bytes":20,"refs":1,"ctx":"ptr@8168"}
+{"id":"8b88","jah":"dec073b0c8892cce48dd5ede17916011","en":"Club Setup","max_bytes":12,"refs":1,"ctx":"ptr@8174"}
+{"id":"8b94","jah":"8ad6d9530a7f4262286853e0333603ba","en":"Month","max_bytes":8,"refs":1,"ctx":"ptr@8180"}
+{"id":"8b9c","jah":"30a1d6d979c510925c7d72f002f1d863","en":"Quit / Options","max_bytes":12,"refs":1,"ctx":"ptr@818c"}
+{"id":"8ba8","jah":"7da221e8fe6a095e2d709b46dd9dd77d","en":"Pre-Match 1","max_bytes":12,"refs":1,"ctx":"ptr@8198"}
+{"id":"8bb4","jah":"b9312446a362cc1e7b97bdf74fbabea5","en":"Pre-Match 2","max_bytes":12,"refs":1,"ctx":"ptr@81a4"}
+{"id":"8bc0","jah":"3ec2fbb47a5fb2f9a1ce0633d7de4fda","en":"Pre-Match 3","max_bytes":12,"refs":1,"ctx":"ptr@81b0"}
+{"id":"8bcc","jah":"09c5bf62b830bbe8d92cfe1b5f64a640","en":"Pre-Match 4","max_bytes":12,"refs":1,"ctx":"ptr@81bc"}
+{"id":"8bd8","jah":"ad01d65a6f91797e9bf38f90c74fcb54","en":"Pre-Match 5","max_bytes":12,"refs":1,"ctx":"ptr@81c8"}
+{"id":"8be4","jah":"b65bab118cf497464638484a9b8ad632","en":"Pre-Match 6","max_bytes":12,"refs":1,"ctx":"ptr@81d4"}
+{"id":"8bf0","jah":"69ea2fb9ebf09e3fd4710f4b93374e7d","en":"Pre-Match 7","max_bytes":12,"refs":1,"ctx":"ptr@81e0"}
+{"id":"8bfc","jah":"aea5b0afb4251e9a88dd0537d1d94025","en":"Pre-Match 8","max_bytes":12,"refs":1,"ctx":"ptr@81ec"}
+{"id":"8c08","jah":"aacc841af396132f08df3f901f8959f9","en":"Special Mega Jingle","max_bytes":20,"refs":1,"ctx":"ptr@81f8"}
+{"id":"8c2c","jah":"09ca95ced72ff087412e63e7b60d0532","en":"Title (Normal)","max_bytes":20,"refs":1,"ctx":"ptr@8210"}
+{"id":"8c40","jah":"1bf1f81d71a394c3ebbefee06f9769f3","en":"Title (High)","max_bytes":16,"refs":1,"ctx":"ptr@821c"}
+{"id":"8c50","jah":"6225f5cc5b0b9763b09d9fb9a5a712ad","en":"Title (Highest)","max_bytes":20,"refs":1,"ctx":"ptr@8228"}
+{"id":"8c64","jah":"99bb4db47494aab9a493c4d2100757e8","en":"Title (Special)","max_bytes":20,"refs":1,"ctx":"ptr@8234"}
+{"id":"8c78","jah":"d8839289076623e6d5bde1785711bb7b","en":"Normal Ret.","max_bytes":12,"refs":1,"ctx":"ptr@8240"}
+{"id":"8c84","jah":"c54e172d3a25db9268bb03a97d9c6c60","en":"Special Ret.","max_bytes":16,"refs":1,"ctx":"ptr@824c"}
+{"id":"8c94","jah":"b0f9bb9b6e21dfdeb776462dcc9c0a15","en":"Game Over 1","max_bytes":20,"refs":1,"ctx":"ptr@8258"}
+{"id":"8ca8","jah":"945629ef6fd8c8c43aecd9e5c33b4e30","en":"Game Over 2","max_bytes":20,"refs":1,"ctx":"ptr@8264"}
+{"id":"8d34","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@326c"}
+{"id":"8e18","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@463c"}
+{"id":"8e64","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@6a88","skip":true}
+{"id":"8e68","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@6a90[0/3]","skip":true}
+{"id":"8e70","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@6a90[1/3]","skip":true}
+{"id":"8e74","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@6a90[2/3]","skip":true}
+{"id":"8e78","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@8e34[0/11]"}
+{"id":"8e7c","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@8e34[1/11]"}
+{"id":"8e80","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@8e34[2/11]"}
+{"id":"8e84","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@8e34[3/11]"}
+{"id":"8e88","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@8e34[4/11]"}
+{"id":"8e8c","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@8e34[5/11]"}
+{"id":"8e90","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@8e34[6/11]"}
+{"id":"8e94","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@8e34[7/11]"}
+{"id":"8e98","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@8e34[8/11]"}
+{"id":"8e9c","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@8e34[9/11]"}
+{"id":"8ea0","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":3,"refs":1,"ctx":"tbl@8e34[10/11]"}

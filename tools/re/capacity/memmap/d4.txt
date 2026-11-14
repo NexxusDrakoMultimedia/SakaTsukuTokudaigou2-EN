@@ -1,0 +1,210 @@
+no func at 8c164b30
+
+//////// FUN_8c159e5a @ 8c159e5a body 8c159e5a-8c159e8f
+
+uint FUN_8c159e5a(void)
+
+{
+  byte in_MD;
+  byte in_RB;
+  byte in_BL;
+  byte in_FD;
+  byte extraout_M;
+  byte extraout_Q;
+  byte in_IMASK;
+  byte extraout_S;
+  byte extraout_T;
+  
+  (*(code *)PTR_FUN_8c159ecc)();
+  (*(code *)PTR_FUN_8c159ed0)();
+  (*(code *)PTR_FUN_8c159ed4)();
+  (*(code *)PTR_FUN_8c159ed8)();
+  (*(code *)PTR_FUN_8c159edc)();
+  (*(code *)PTR_FUN_8c159ee0)();
+  return ((uint)extraout_T | (uint)extraout_S << 1 | (uint)in_IMASK << 4 | (uint)extraout_Q << 8 |
+          (uint)extraout_M << 9 | (uint)in_FD << 0xf | (uint)in_BL << 0x1c | (uint)in_RB << 0x1d |
+         (uint)in_MD << 0x1e) & (int)DAT_8c159e90 | 0xf0;
+}
+
+
+-- callers:
+   8c012b32
+   8c012b7c
+   8c159e26
+   8c159e40
+   8c160316
+   8c1603a0
+
+//////// FUN_8c164264 @ 8c164264 body 8c164264-8c164653
+
+void FUN_8c164264(void)
+
+{
+  undefined2 uVar1;
+  undefined2 uVar2;
+  undefined *puVar3;
+  undefined *puVar4;
+  undefined2 uVar5;
+  int iVar6;
+  uint uVar7;
+  int iVar8;
+  int iVar9;
+  int iVar10;
+  int iVar11;
+  int *piVar12;
+  undefined1 *puVar13;
+  int iVar14;
+  int iVar15;
+  int iVar16;
+  int iVar17;
+  uint uVar18;
+  int iVar19;
+  int iVar20;
+  int iVar21;
+  int iVar22;
+  int iVar23;
+  undefined4 *puVar24;
+  int iVar25;
+  int iVar26;
+  bool bVar27;
+  undefined *puVar28;
+  
+  puVar3 = PTR_PTR_8c164430;
+  puVar28 = &DAT_8c16a4e0;
+  iVar6 = (int)DAT_8c16441c;
+  *(undefined4 *)(*(int *)(PTR_PTR_8c164430 + iVar6) + 0x24) = DAT_8c164434;
+  *(undefined2 *)(*(int *)(puVar3 + iVar6) + 0x28) = DAT_8c16441e;
+  uVar5 = DAT_8c164420;
+  iVar14 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar14 + 0x2c) =
+       (uint)*(ushort *)(iVar14 + 0x28) + *(int *)(iVar14 + 0x24) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x30) = uVar5;
+  iVar19 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar19 + 0x34) =
+       (uint)*(ushort *)(iVar19 + 0x30) + *(int *)(iVar19 + 0x2c) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x38) = uVar5;
+  uVar1 = DAT_8c164422;
+  iVar20 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar20 + 0x3c) =
+       (uint)*(ushort *)(iVar20 + 0x38) + *(int *)(iVar20 + 0x34) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x40) = uVar1;
+  uVar1 = DAT_8c164424;
+  iVar21 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar21 + 0x44) =
+       (uint)*(ushort *)(iVar21 + 0x40) + *(int *)(iVar21 + 0x3c) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x48) = uVar1;
+  iVar8 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar8 + 0x4c) =
+       (uint)*(ushort *)(iVar8 + 0x48) + *(int *)(iVar8 + 0x44) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x50) = DAT_8c164426;
+  uVar2 = DAT_8c164428;
+  iVar22 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar22 + 0x54) =
+       (uint)*(ushort *)(iVar22 + 0x50) + *(int *)(iVar22 + 0x4c) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x58) = uVar2;
+  uVar2 = DAT_8c16442a;
+  iVar6 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar6 + 0x5c) =
+       (uint)*(ushort *)(iVar6 + 0x58) + *(int *)(iVar6 + 0x54) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x60) = uVar2;
+  uVar2 = DAT_8c16442c;
+  iVar9 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar9 + 100) = (uint)*(ushort *)(iVar9 + 0x60) + *(int *)(iVar9 + 0x5c) + 3 & 0xfffffffc
+  ;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x68) = uVar2;
+  iVar10 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar10 + 0x6c) =
+       (uint)*(ushort *)(iVar10 + 0x68) + *(int *)(iVar10 + 100) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x70) = uVar1;
+  iVar11 = *(int *)(puVar3 + DAT_8c16441c);
+  *(uint *)(iVar11 + 0x74) =
+       (uint)*(ushort *)(iVar11 + 0x70) + *(int *)(iVar11 + 0x6c) + 3 & 0xfffffffc;
+  *(undefined2 *)(*(int *)(puVar3 + DAT_8c16441c) + 0x78) = uVar1;
+  iVar23 = *(int *)(puVar3 + DAT_8c16441c);
+  piVar12 = (int *)(iVar23 + 0x74);
+  *(uint *)(iVar23 + 0x7c) = (uint)*(ushort *)(iVar23 + 0x78) + *piVar12 + 3 & 0xfffffffc;
+  *(undefined2 *)((int)DAT_8c16450e + *(int *)(puVar3 + DAT_8c16450c)) = uVar1;
+  iVar15 = *(int *)(puVar3 + DAT_8c16450c);
+  *(uint *)(iVar15 + 0x84) =
+       (uint)*(ushort *)(iVar15 + 0x80) + *(int *)(iVar15 + 0x7c) + 3 & 0xfffffffc;
+  uVar1 = DAT_8c164510;
+  uVar7 = (uint)(int)DAT_8c16450c >> 2;
+  *(undefined2 *)(uVar7 + *(int *)(puVar3 + DAT_8c16450c)) = uVar5;
+  iVar16 = *(int *)(puVar3 + uVar7 * 4);
+  *(uint *)(iVar16 + 0x8c) =
+       (uint)*(ushort *)(iVar16 + 0x88) + *(int *)(iVar16 + 0x84) + 3 & 0xfffffffc;
+  *(undefined2 *)((int)DAT_8c164512 + *(int *)(puVar3 + DAT_8c16450c)) = uVar1;
+  puVar4 = PTR_FUN_8c164518;
+  uVar5 = DAT_8c164514;
+  iVar17 = *(int *)(puVar3 + DAT_8c16450c);
+  *(uint *)(iVar17 + 0x94) =
+       (uint)*(ushort *)(iVar17 + 0x90) + *(int *)(iVar17 + 0x8c) + 3 & 0xfffffffc;
+  iVar26 = 0;
+  *(undefined2 *)((int)DAT_8c164516 + *(int *)(puVar3 + DAT_8c16450c)) = uVar5;
+  do {
+    iVar25 = iVar26 * 8;
+    puVar24 = (undefined4 *)(*(int *)(puVar3 + DAT_8c16450c) + 0x24 + iVar25);
+    (*(code *)PTR_FUN_8c164520)
+              (0x16,PTR_s__2d__08x_size__08x_8c16451c,iVar26,*puVar24,*(undefined2 *)(puVar24 + 1),
+               piVar12,iVar17,iVar16,iVar15,iVar23,iVar11,iVar10,iVar9,iVar6,iVar22,iVar8,iVar21,
+               iVar20,iVar19,iVar14,puVar28);
+    puVar24 = (undefined4 *)(*(int *)(puVar3 + DAT_8c16450c) + 0x24 + iVar25);
+    uVar7 = (uint)*(ushort *)(puVar24 + 1);
+    puVar13 = (undefined1 *)*puVar24;
+    while (bVar27 = uVar7 != 0, uVar7 = uVar7 - 1, bVar27) {
+      *puVar13 = 0;
+      puVar13 = puVar13 + 1;
+    }
+    puVar24 = (undefined4 *)(*(int *)(puVar3 + DAT_8c164654) + 0x24 + iVar25);
+    uVar5 = (*(code *)puVar4)(*puVar24,*(undefined2 *)(puVar24 + 1));
+    iVar26 = iVar26 + 1;
+    *(undefined2 *)((int)puVar24 + 6) = uVar5;
+  } while (iVar26 < 0xf);
+  uVar18 = (uint)DAT_8c164656;
+  uVar7 = 0;
+  do {
+    iVar6 = (int)DAT_8c164654;
+    *(undefined2 *)((int)DAT_8c164658 + *(int *)(puVar3 + iVar6) + uVar7) = 0xffff;
+    *(undefined4 *)((int)DAT_8c164658 + *(int *)(puVar3 + iVar6) + uVar7 + 4) = 0;
+    *(undefined2 *)((int)DAT_8c164658 + *(int *)(puVar3 + iVar6) + uVar7 + 2) = 0;
+    iVar8 = uVar7 + 8;
+    iVar6 = (int)DAT_8c164654;
+    *(undefined2 *)((int)DAT_8c164658 + *(int *)(puVar3 + iVar6) + iVar8) = 0xffff;
+    *(undefined4 *)((int)DAT_8c164658 + *(int *)(puVar3 + iVar6) + iVar8 + 4) = 0;
+    uVar7 = uVar7 + 0x10;
+    *(undefined2 *)((int)DAT_8c164658 + *(int *)(puVar3 + iVar6) + iVar8 + 2) = 0;
+  } while (uVar7 < uVar18);
+  iVar6 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164660 = *(undefined4 *)(*(int *)(puVar3 + iVar6) + 0x24);
+  *(undefined4 *)PTR_DAT_8c164664 = *(undefined4 *)(*(int *)(puVar3 + iVar6) + 0x2c);
+  *(undefined4 *)PTR_DAT_8c164668 = *(undefined4 *)(*(int *)(puVar3 + iVar6) + 0x34);
+  *(undefined4 *)PTR_DAT_8c16466c = *(undefined4 *)(*(int *)(puVar3 + iVar6) + 0x3c);
+  iVar8 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164670 = *(undefined4 *)(*(int *)(puVar3 + iVar6) + 0x44);
+  iVar6 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164674 = *(undefined4 *)(*(int *)(puVar3 + iVar8) + 0x4c);
+  iVar8 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164678 = *(undefined4 *)(*(int *)(puVar3 + iVar6) + 0x54);
+  iVar6 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c16467c = *(undefined4 *)(*(int *)(puVar3 + iVar8) + 0x5c);
+  iVar8 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164680 = *(undefined4 *)(*(int *)(puVar3 + iVar6) + 100);
+  iVar6 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164684 = *(undefined4 *)(*(int *)(puVar3 + iVar8) + 0x6c);
+  iVar8 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164688 = *(undefined4 *)(*(int *)(puVar3 + iVar6) + 0x74);
+  *(undefined4 *)PTR_DAT_8c16468c = *(undefined4 *)(*(int *)(puVar3 + iVar8) + 0x7c);
+  iVar6 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164690 =
+       *(undefined4 *)((int)DAT_8c16465a + *(int *)(puVar3 + DAT_8c164654));
+  iVar8 = (int)DAT_8c164654;
+  *(undefined4 *)PTR_DAT_8c164694 = *(undefined4 *)((int)DAT_8c16465c + *(int *)(puVar3 + iVar6));
+  *(undefined4 *)PTR_DAT_8c164698 = *(undefined4 *)((int)DAT_8c16465e + *(int *)(puVar3 + iVar8));
+  return;
+}
+
+
+-- callers:
+   8c164ad2
+   8c164b50
+   8c1593bc

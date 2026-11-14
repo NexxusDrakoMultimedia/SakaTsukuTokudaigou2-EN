@@ -1,0 +1,609 @@
+0	help	FLOW_PRG/HELP.BIN#1a1a8	187	@Y/＜基本方針変更＞@\n選手の配置の変更、及びクラブの\n用いる「システム」、「戦術」\n「中盤守備」、「ＤＦタイプ」を選択\nする事ができます。\nまたプレイスキックを蹴るキッカーの\n指定も行えます。
+1	help	FLOW_PRG/HELP.BIN#23492	239	@Y/＜応援歌＞@\n応援歌の作曲や、クラブや代表への\n応援歌の割り付けを行えます。\n割り付ける曲の数はサポーターの人数\nに応じ、それぞれ最大３曲まで付ける\n事が出来ます。\nまたメールやメモリーカードを通じて\n友達とのデータの受け渡しなども\n可能です。
+2	help	ATFIRST/HELP.BIN#d5ae	84	@O/＜ゴールエリア＞@\nゴール前にある縦5.5メートル、\n横18.3メートルの地域のことです。
+3	help	FLOW_PRG/HELP.BIN#d311	201	@O/＜プレイスキック＞@\n相手の反則により与えられるキックで\nフリーでキックをすることができます。\nこの時守備側は１０ヤード、キッカー\nから離れなければなりません。\nフリーキックやコーナーキックの\nことです。
+4	help	ATFIRST/HELP.BIN#bac5	141	@O/＜センタリング＞@\n攻撃側の選手が、タッチライン側から\nゴール前にパスを送る事です。この\nパスの精度が高いと、得点につながり\nやすくなります。
+5	help	FLOW_PRG/HELP.BIN#1ff7e	277	@Y/＜海外選手獲得＞@\n外国籍の選手を獲得します。\nリストは現在のスカウトによって\n選手の質や量が変化します。\n欲しい選手と同じ出身国のスカウトと\n契約していると、出現し易いですが\nクラブの実績や年数、現在の監督など\nで登場しない事があります。リストは\n１週と３週の前半に更新されます。
+6	help	FLOW_PRG/HELP.BIN#ea1b	182	@O/＜勝ち点制＞@\n９０分での勝ちには３ポイント。\nＶゴールでの勝ちには２ポイント。\n引き分けには１ポイントの勝ち点が\nチームに与えられ、ステージ毎に勝ち\n点の多いチームが優勝となります。
+7	help	FLOW_PRG/HELP.BIN#b8ca	59	@O/＜グラウンダー＞@\n地面の上を転がして送る\nパスの事です。
+8	help	ATFIRST/HELP.BIN#150ba	177	@Y/＜実況メッセージ＞@\n試合中に表示される実況メッセージを\n『表示する／しない』のどちらかに\n設定できます。\n「ＯＮ」で表示します。\n「ＯＦＦ」で表示しません。\n通常は「ＯＮ」です。
+9	help	ATFIRST/HELP.BIN#22525	229	@Y/＜５－３－２＞@\nユースチームが5-3-2のシステムに\n適応するように練習します。\n上手く機能すれば、相手の得点を\n許さない固い守りが期待できます。\nただ中盤が少ないため、攻撃には\nサイドバックを有効に使える戦術に\nした方が良いでしょう。
+10	help	ATFIRST/HELP.BIN#d69e	110	@O/＜ゴールマウス＞@\nゴールのことで縦2.44Ｍ、横7.32Ｍ\nの内側のことです。\n『枠』と呼んだりすることもあります。
+11	help	FLOW_PRG/HELP.BIN#2156f	67	@Y/＜身長＞@\n身長を、150から199センチの間で\n設定する事が出来ます。
+12	help	ATFIRST/HELP.BIN#b905	221	@O/＜サイドチェンジ＞@\n守備の薄い逆のサイドにボールを送り\n攻撃の流れを変える事です。\nフィールドを一杯に使うことにより\n相手守備陣の穴が見出せます。ただし\n素早いボール回しで行わないと、\nインターセプトされる危険があります。
+13	help	ATFIRST/HELP.BIN#1a68b	201	@Y/＜特別調整＞@\n特別な調整でコンディションを大幅に\n上昇させます。\nそのターンで絶対に勝ちたい試合が\nある時などに有効ですが、特別調整を\n行うと急激に疲労も増加する為、疲れ\nに十分な注意が必要になります。
+14	help	FLOW_PRG/HELP.BIN#c70c	194	@O/＜マンツーマンディフェンス＞@\n特定の相手に１対１でマークにつく\nディフェンスのやり方のことです。\n相手チームのストライカーにＤＦが\nマークすることが多いです。\n『マンマーク』と言ったりもします。
+15	help	ATFIRST/HELP.BIN#18289	203	@Y/＜ＧＫランキング＞@\n世界中のクラブに所属する、ＧＫの\nランキングを参照できます。\n左右で参照したい年度を選択し\n上下でランキングされている選手を\nその方向に送り、画面外に\n表示されている選手を表示します。
+16	help	FLOW_PRG/HELP.BIN#1ceae	173	@Y/＜日程進行＞@\n現在のターンを終え、次のターンに\n進めます。\n現在のターンに試合が組まれていた\n場合、その試合を行った後に\n次のターンへ移行します。\n１ターンの単位は半週です。
+17	help	ATFIRST/HELP.BIN#1bbba	65	@Y/＜ＧＫ＞@\nゴールキーパーとしての能力を\n高める練習を行います。
+18	help	FLOW_PRG/HELP.BIN#20d32	186	@Y/＜セールスポイント＞@\n選手たちに、自分のウリの部分を\n主張して貰います。特にウリを感じて\nいない選手は、主張を行いません。\nまた何か良い事があった場合なども\nここで話を聞く事が出来ます。
+19	help	FLOW_PRG/HELP.BIN#1520d	175	@Y/＜スクリーンセーバー＞@\nスクリーンセーバーの起動時間を\n設定できます。\n「１分」１分で起動します。\n「３分」３分で起動します。\n「５分」５分で起動します。\n通常は「３分」です。
+20	help	FLOW_PRG/HELP.BIN#13660	258	@K/＜怪我人が出やすい時は＞@\n疲れが多いようなら休養を多めに取る\nようにしてください。\nまた、練習場の状態によっても怪我の\nしやすさは異なります。土よりも芝の\n方がもちろん選手にやさしいですし、\n荒れていたら怪我は増えます。練習場\nにも注意するようにしてください。
+21	help	FLOW_PRG/HELP.BIN#8ff1	103	@O/システム@\n　３-４-３\n　３-５-２\n　３-６-１\n　４-３-３\n　４-４-２\n　４-５-１\n　５-３-２\n　５-４-１\n\n
+22	help	ATFIRST/HELP.BIN#1a3ae	120	@Y/＜監督チーム診断＞@\n監督に自クラブの現在の総合評価及び\n戦術、ＤＦタイプに関して評価と\nアドバイスを聞く事が出来ます。
+23	help	FLOW_PRG/HELP.BIN#14f70	171	@Y/＜選手名＞@\n試合中の選手名を\n『表示する／表示しない』\nのどちらかに設定できます。\n「ＯＮ」で選手名を表示します。\n「ＯＦＦ」で選手名を表示しません。\n通常は「ＯＮ」です。
+24	help	FLOW_PRG/HELP.BIN#1b8a2	111	@Y/＜休養＞@\n特定の選手のみを休養させ、たまった\n疲労の回復に努めます。\n他の選手は指定された練習を\n実行します。
+25	help	ATFIRST/HELP.BIN#1b0ba	122	@Y/＜３－４－３＞@\n3-4-3の理解力を高める練習をします。\n選手がシステム3-4-3を効果的に機能\nさせる事ができるようになります。
+26	help	FLOW_PRG/HELP.BIN#1e8bc	257	@Y/＜サポーターズクラブ＞@\n今月のサポーターズクラブへの会員の\n増減を表示します。\nサポーターの人数は、年会費や広告費\nクラブの人気と今月の成績等によって\n影響を受けて増減します。\nサポーター数は、観客数や視聴率、\nサポーターズクラブコマンド等に\n影響を与えます。
+27	help	FLOW_PRG/HELP.BIN#192aa	257	@Y/＜グレイトプレイヤーズ画面＞@\n私たちのクラブが獲得した、世界中に\n名の通った偉大なサッカー選手を\nここで確認できます。\n獲得した選手は、能力別に\n「FANTASTIC PLAYER」と\n「GREAT PLAYER」に分けられ\n上下で表示を切り替えます。\n左右でその方向にリストを送ります。
+28	help	ATFIRST/HELP.BIN#1c612	122	@Y/＜４－３－３＞@\n試合で使うシステムを\n4-3-3に変更します。\n上手く機能すれば、攻撃、防御ともに\n優れたシステムとなります。
+29	help	ATFIRST/HELP.BIN#21742	179	@Y/＜能力＞@\nポジションと、それに連動した特徴を\n選択して、選手の能力を決定します。\n特徴は、長所/性格/特技の3種類から\nなり、組み合わせによって、選手の\n基本的な能力が決定されます。
+30	help	FLOW_PRG/HELP.BIN#2434e	174	@Y/＜左サイドアタック＞@\nサテライトが左ｻｲﾄﾞｱﾀｯｸの戦術に適応\nするように練習します。\n上手く機能すれば上手く左サイドの\nスペースを突いて、攻撃を展開して\nいく事ができるでしょう。
+31	help	FLOW_PRG/HELP.BIN#2374d	188	@Y/＜代表グラウンド＞@\n代表チームの練習を行う場所です。\n試合直前に必要な、実戦的な練習や\n戦術の確認、調整等を行います。\nなお代表グラウンドには、代表戦の\nある時にしか入ることが出来ません。
+32	help	FLOW_PRG/HELP.BIN#c645	89	@O/＜ディレイ＞@\n相手の攻撃に時間をかけさせ、味方の\n守備組織を整える時間をかせぐ事です。
+33	help	ATFIRST/HELP.BIN#1b917	123	@Y/＜各自自主トレ＞@\n各選手に好きに練習させます。\n選手の最も得意とするポジションを\nより上手くこなすための練習を\n行います。
+34	help	FLOW_PRG/HELP.BIN#12251	258	@K/＜守備的ＭＦを育てるコツ＞@\n守備的ＭＦは攻守の橋渡し役です。\n守備面では敵の攻撃の芽を摘むための\nパスカット、攻撃面ではパスや筋力を\n鍛えておくと良いでしょう。\nまた守備的ＭＦは他のポジション以上\nに運動量が必要になります。持久力は\n充分に鍛えておきましょう。
+35	help	FLOW_PRG/HELP.BIN#10683	87	@O/＜オンサイド＞@\nオフサイドになる地域以外の場所で\n選手が正当にプレイできる位置です。
+36	help	ATFIRST/HELP.BIN#13881	291	@K/＜システムの決め方＞@\nどのシステムにも一長一短があり一概\nにこれが良いとは言えませんので自由\nに選んで構いません。\n使用する戦術や選手の構成を考えて、\nシステムを決めましょう。なお選手毎\nに得手不得手がありますので、あまり\n理解力が伸びないような時は思い切っ\nて戦術を変更するのも良いでしょう。
+37	help	ATFIRST/HELP.BIN#1e9c3	263	@Y/＜人事情報＞@\n今月行われた、世界中の主な人事活動\nを報告します。\nどこからどこへと選手が移籍したかを\n話題性の順にリストアップします。\nもちろん、ここに載っている人事以外\nにも、数多くの人事活動が行われて\nいます。世界にどのような選手が存在\nするかの参考になります。
+38	help	ATFIRST/HELP.BIN#15b92	193	@Y/＜背番号選択＞@\n選手の背番号を決定します。\n方向ボタンで設定したい選手を決定\n付けたい背番号を１番から２９番の\n中から選んで下さい。\nただし既にクラブにいる選手の背番号\nをつける事はできません。
+39	help	ATFIRST/HELP.BIN#1b040	122	@Y/＜５－３－２＞@\n5-3-2の理解力を高める練習をします。\n選手がシステム5-3-2を効果的に機能\nさせる事ができるようになります。
+40	help	ATFIRST/HELP.BIN#b9e2	227	@O/＜スルーパス＞@\n最終ラインの背後に出すパスのことで\n得点につながる可能性が高いパスです。\nラインの背後に出すため、受け手の\n飛び出しが早いとオフサイドになって\nしまいます。受け手の選手とパスを\n出す選手とのタイミングが重要です。
+41	help	ATFIRST/HELP.BIN#92ec	47	　ポストプレイヤー\n　ボランチ\n　リベロ\n\n\n\n\n\n\n\n
+42	label	FLOW_PRG/G_INCOME.BIN#29814	16	#chi#中央教習所
+43	label	FLOW_PRG/WEEKLY.BIN#531b4	16	回転寿司の#kyu#
+44	label	FLOW_PRG/FIRE.BIN#1fcb4	26	#sname#さんか、よろしく。
+45	label	FLOW_PRG/ESTABLIS.BIN#35c80	16	#chi#国際海運
+46	label	FLOW_PRG/ESTABLIS.BIN#35e98	12	#ken#電鉄
+47	label	FLOW_PRG/OFFICE.BIN#9d084	8	備前
+48	label	FLOW_PRG/BACKUP.BIN#294a4	12	L徹敬
+49	label	FLOW_PRG/TOWNDATA.BIN#13d3c	8	駿河
+50	label	FLOW_PRG/VTRLOAD.BIN#3b2fc	8	歌志内
+51	label	FLOW_PRG/COMM.BIN#28a8	16	試合収支画面
+52	label	FLOW_PRG/PL_EDIT.BIN#413b8	8	うま
+53	label	FLOW_PRG/NEWS_OP.BIN#5fab0	4	億
+54	label	FLOW_PRG/HOMETOWN.BIN#18563	35	いこま
+55	label	FLOW_PRG/G_INCOME.BIN#291fc	8	武蔵
+56	label	FLOW_PRG/G_INCOME.BIN#292f4	8	浪速
+57	label	FLOW_PRG/DRSOLIST.BIN#28ba0	8	日本
+58	label	FLOW_PRG/CSAVE3.BIN#64528	8	東北
+59	label	FLOW_PRG/GAME.BIN#807ce	11	ヒールパス
+60	label	FLOW_PRG/J1_REP.BIN#258c	20	ライセンス表記画面
+61	label	FLOW_PRG/MEETING.BIN#d5250	8	国未定
+62	label	FLOW_PRG/TOWN.BIN#5f0f4	12	Ｊﾐｭｰｼﾞｯｸ
+63	label	FLOW_PRG/DATAROOM.BIN#5ccdc	8	優勝
+64	label	FLOW_PRG/SS_EDIT.BIN#12234	12	標準応援歌
+65	label	FLOW_PRG/OPTION.BIN#8ac8	12	データ室
+66	label	FLOW_PRG/FLOW10.BIN#2c2c	20	選手名スカウト画面
+67	label	FLOW_PRG/ABROAD.BIN#2e8f4	24	保存されている留学先
+68	label	FLOW_PRG/HOMETOWN.BIN#3b777	35	ゆうふつ
+69	label	FLOW_PRG/EVENT.BIN#e6e18	16	#chi#総合ﾌﾟﾛﾊﾟﾝ
+70	label	FLOW_PRG/HOMETOWN.BIN#26bbb	35	さまに
+71	label	FLOW_PRG/DRSGRFJ.BIN#dee8	4	－
+72	label	FLOW_PRG/HOMETOWN.BIN#1e851	35	かがみがはら
+73	label	FLOW_PRG/NEWS_OP.BIN#5ed38	8	横浜FC
+74	label	FLOW_PRG/PLNUMSET.BIN#330c4	8	てしま
+75	label	FLOW_PRG/HOMETOWN.BIN#47ed0	8	関東
+76	label	FLOW_PRG/FLOW9.BIN#2b3c	20	選手契約更新画面
+77	label	FLOW_PRG/PLNUMSET.BIN#30508	12	おおやま
+78	label	FLOW_PRG/DRSOLIST.BIN#461bf	9	覧藍楓舶
+79	label	FLOW_PRG/SCDRF.BIN#5f8d2	7	麹倹月
+80	label	FLOW_PRG/G_INCOME.BIN#291a4	8	北海
+81	label	FLOW_PRG/CHALMODE.BIN#3e69c	12	%s万%s人@
+82	name	FLOW_PRG/ENDOPT.BIN#5c09a	14	大住 尚人
+83	name	FLOW_PRG/CHALMODE.BIN#6b5fc	14	鈴木 浩介
+84	name	FLOW_PRG/EXFLAG.BIN#3df38	14	尾澤 夏雄
+85	name	FLOW_PRG/CSAVE.BIN#404b8	14	植田 洋児
+86	name	FLOW_PRG/AUTOSAVE.BIN#3b07a	14	西澤 佐久男
+87	name	FLOW_PRG/DMCLBEDT.BIN#84ebc	14	朝野 光
+88	name	FLOW_PRG/SONGSAVE.BIN#63dd6	14	吾妻 弘将
+89	name	FLOW_PRG/CSAVE4.BIN#3fbcc	14	村崎 伸介
+90	name	FLOW_PRG/BACKUP.BIN#62a24	14	土橋 宏由樹
+91	name	FLOW_PRG/FREELOAD.BIN#43d7e	14	三倉 輝樹
+92	name	FLOW_PRG/SPF_READ.BIN#5e330	14	多那田 浩康
+93	name	FLOW_PRG/CSAVE.BIN#5dcc0	14	飯尾 一慶
+94	name	FLOW_PRG/LOAD.BIN#4750c	14	内田 一哉
+95	name	FLOW_PRG/LOAD.BIN#400ea	14	木場 智
+96	name	FLOW_PRG/CHALMODE.BIN#4cd8c	14	池畑 忠晃
+97	name	FLOW_PRG/BACKUP.BIN#406e0	14	朝日向 宏次
+98	name	FLOW_PRG/DMCLBEDT.BIN#a8baa	14	山崎 理人
+99	name	FLOW_PRG/CSAVE.BIN#60e16	14	浦上 壮史
+100	name	FLOW_PRG/BPMATCH.BIN#5e7e6	14	向山 卓夫
+101	name	FLOW_PRG/VTRLOAD.BIN#453d6	14	白石 誠人
+102	name	FLOW_PRG/EXTRADE.BIN#3ee52	14	肥田 勤
+103	name	FLOW_PRG/AUTOSAVE.BIN#3891a	14	川口 英次
+104	name	FLOW_PRG/DMCLBEDT.BIN#8b9d8	14	大城 恭二
+105	name	FLOW_PRG/SPF_READ.BIN#80aac	14	山道 高平
+106	name	FLOW_PRG/CSAVE4.BIN#60c50	14	西 紀寛
+107	name	FLOW_PRG/EXFLAG.BIN#5ef08	14	清野 智秋
+108	name	FLOW_PRG/FREELOAD.BIN#4152e	14	富士 茂雄
+109	name	FLOW_PRG/CSAVE4.BIN#5f53a	14	加藤 慎也
+110	name	FLOW_PRG/EXFLAG.BIN#3ee38	14	興 真琴
+111	name	FLOW_PRG/VTRLOAD.BIN#5f95c	14	熊谷 浩二
+112	name	FLOW_PRG/VTRLOAD.BIN#409e4	14	守下 成晴
+113	name	FLOW_PRG/CSAVE.BIN#5d5b8	14	坂本 将貴
+114	name	FLOW_PRG/CSAVE.BIN#60204	14	森 勇介
+115	name	FLOW_PRG/SPF_READ.BIN#455bc	12	入江 秀典
+116	name	FLOW_PRG/ENDOPT.BIN#797ee	14	磯山 和司
+117	name	FLOW_PRG/EXFLAG.BIN#3e064	14	高橋 源太
+118	name	FLOW_PRG/EXTRADE.BIN#41e04	14	樋山 基邦
+119	name	FLOW_PRG/AUTOSAVE.BIN#390f4	14	玉多 誠
+120	name	FLOW_PRG/CSAVE3.BIN#3e58d	13	勢多 昇平
+121	name	FLOW_PRG/FREELOAD.BIN#3feae	14	小林 直彦
+122	name	FLOW_PRG/FREELOAD.BIN#61964	14	松波 正信
+123	name	FLOW_PRG/SONGSAVE.BIN#45d22	14	湧井 平良
+124	name	FLOW_PRG/VTRLOAD.BIN#5fea2	14	櫛野 亮
+125	name	FLOW_PRG/LOAD.BIN#611e6	14	手島 和希
+126	name	FLOW_PRG/AUTOSAVE.BIN#3a26a	14	中威 理
+127	name	FLOW_PRG/LOAD.BIN#457a2	14	月形 洋平 
+128	name	FLOW_PRG/CHALMODE.BIN#3df90	12	多奈瀬 賢一
+129	name	FLOW_PRG/EXTRADE.BIN#435ec	14	植原 匡治
+130	name	FLOW_PRG/DMCLBEDT.BIN#834b8	14	大竹 秀人
+131	name	FLOW_PRG/BPMATCH.BIN#7f540	14	小島 伸幸
+132	name	FLOW_PRG/CSAVE3.BIN#3cb9c	13	三栗谷 知行
+133	name	FLOW_PRG/CSAVE.BIN#42240	14	正影 勇人
+134	name	FLOW_PRG/BPMATCH.BIN#80e72	14	長谷川 太一
+135	name	FLOW_PRG/AUTOSAVE.BIN#3981a	14	村田 邦彦
+136	name	FLOW_PRG/SPF_READ.BIN#6018a	14	矢部 啓介
+137	name	FLOW_PRG/SONGSAVE.BIN#44648	14	坂本 涼
+138	name	FLOW_PRG/SONGSAVE.BIN#47fd2	14	上原 一之
+139	name	FLOW_PRG/LOAD.BIN#61060	14	本田 征治
+140	name	FLOW_PRG/VTRLOAD.BIN#63e44	14	寶示戸 進哉
+141	name	FLOW_PRG/CSAVE4.BIN#46832	14	石川 忠昭
+142	name	FLOW_PRG/SONGSAVE.BIN#631c4	14	太田 雅之
+143	name	FLOW_PRG/VTRLOAD.BIN#62ab2	14	森下 仁志
+144	name	FLOW_PRG/SONGSAVE.BIN#42884	14	小玉 雄二
+145	name	FLOW_PRG/EXTRADE.BIN#47390	14	長谷川 真二
+146	name	FLOW_PRG/VTRLOAD.BIN#47c9e	14	神田 祐司
+147	name	FLOW_PRG/SPF_READ.BIN#5a87a	14	戸板 哲雄
+148	name	FLOW_PRG/CHALMODE.BIN#51d3c	14	戸谷 弥太郎
+149	name	FLOW_PRG/CSAVE.BIN#3e76c	14	盛長 秀一
+150	numunit	FLOW_PRG/ESTABLIS.BIN#2c274	16	表情変化 to %d
+151	numunit	FLOW_PRG/NEWS.BIN#c0d24	12	負け  = %d
+152	numunit	FLOW_PRG/NEWS_ED.BIN#63cd8	20	大会の優勝回数:%d
+153	numunit	FLOW_PRG/NEWS.BIN#c7ec6	21	#tk25#長い戦いに決着
+154	numunit	FLOW_PRG/SPF_READ.BIN#4ab34	24	国籍エラー!! %d , %d
+155	numunit	FLOW_PRG/NENREP.BIN#23fb0	16	込み 人口<09><09>%d:
+156	numunit	FLOW_PRG/CHALMODE.BIN#99100	28	上限:%dのため%dとなります
+157	numunit	FLOW_PRG/NEWS.BIN#c6678	21	無抵抗の#tk20#ＤＦ陣
+158	numunit	FLOW_PRG/NEWS.BIN#c65c3	23	#tk20#健闘むなしく惜敗
+159	numunit	FLOW_PRG/NEWS.BIN#c0b24	16	リーグ数 = %d
+160	numunit	FLOW_PRG/NEWS.BIN#c851f	23	#tk25#もはや常勝チーム
+161	numunit	FLOW_PRG/MON_INST.BIN#24d54	20	サポータ人数  :%d
+162	numunit	FLOW_PRG/PL_CON.BIN#2a84	4	０
+163	numunit	FLOW_PRG/FLOW10.BIN#2a18	12	ダミー６
+164	numunit	FLOW_PRG/BPMATCH.BIN#4888c	16	Ｕｎｄｅｒ ２１
+165	numunit	FLOW_PRG/LOGO.BIN#1ea4	4	８
+166	numunit	FLOW_PRG/FLOW1.BIN#2a24	12	ダミー７
+167	numunit	FLOW_PRG/PL_CON.BIN#2aa8	4	９
+168	numunit	FLOW_PRG/OPTION.BIN#8ba8	12	試合前１
+169	numunit	FLOW_PRG/DRSLIST.BIN#219fc	4	４
+170	numunit	FLOW_PRG/PL_CON.BIN#2514	12	ダミー２
+171	numunit	FLOW_PRG/NENREP.BIN#2d280	16	決勝２回戦敗退
+172	numunit	FLOW_PRG/DRSRANK.BIN#1a270	4	７
+173	numunit	FLOW_PRG/DRSGRF.BIN#1768c	4	３
+174	numunit	FLOW_PRG/NENREP.BIN#2d184	8	５位
+175	numunit	FLOW_PRG/S_SELECT.BIN#4f9c0	4	６
+176	numunit	FLOW_PRG/SELNAT.BIN#1cbfc	12	%6d00万円
+177	numunit	FLOW_PRG/VTRLOAD.BIN#3552c	8	4週前半
+178	numunit	FLOW_PRG/FLOW1.BIN#29f4	12	ダミー３
+179	numunit	FLOW_PRG/FLOW8.BIN#2a3c	12	ダミー９
+180	numunit	FLOW_PRG/SUPPORT.BIN#1b1fc	4	0円
+181	numunit	FLOW_PRG/DMCLBEDT.BIN#75a20	8	2週後半
+182	numunit	FLOW_PRG/GAME.BIN#1b2e7c	12	攻撃側 [%d]
+183	numunit	FLOW_PRG/DRAFT.BIN#3cfb5	13	%d年希望だ。
+184	numunit	FLOW_PRG/NEWS.BIN#c6adf	29	#tk20#優勝の栄冠まであと１勝
+185	numunit	FLOW_PRG/NEWUNIF.BIN#1d34c	4	５
+186	numunit	FLOW_PRG/NEWS.BIN#c74a7	29	#tk24#執念の追い上げでドロー
+187	numunit	FLOW_PRG/SEARCH.BIN#32a14	16	%2d年契約希望
+188	numunit	FLOW_PRG/FLOW9.BIN#29dc	12	ダミー１
+189	numunit	FLOW_PRG/NEWS.BIN#c0d3c	12	ＶＧ  = %d
+190	place	FLOW_PRG/HOMETOWN.BIN#5e684	8	夕張市
+191	place	FLOW_PRG/CHALMODE.BIN#46808	8	利島村
+192	place	FLOW_PRG/FREELOAD.BIN#3b1d8	8	滝川市
+193	place	FLOW_PRG/BACKUP.BIN#6f0e4	8	羽村市
+194	place	FLOW_PRG/OFFICE.BIN#a2130	8	池田市
+195	place	FLOW_PRG/OFFICE.BIN#a2478	8	有田郡
+196	place	FLOW_PRG/ESTABLIS.BIN#36d50	8	鹿島郡
+197	place	FLOW_PRG/TOWN.BIN#652e8	8	久米島
+198	place	FLOW_PRG/INVEST.BIN#15e10	12	徳之島町
+199	place	FLOW_PRG/TOWNDATA.BIN#12244	8	庄原市
+200	place	FLOW_PRG/CHALMODE.BIN#47fd0	8	宇佐市
+201	place	FLOW_PRG/TOWNDATA.BIN#1238c	8	山口市
+202	place	FLOW_PRG/DRSHRANK.BIN#19580	12	河内長野市
+203	place	FLOW_PRG/EVENT.BIN#e1220	8	三戸郡
+204	place	FLOW_PRG/DMCLBEDT.BIN#802b4	8	八丈町
+205	place	FLOW_PRG/HOMETOWN.BIN#6046c	8	後月郡
+206	place	FLOW_PRG/CSAVE3.BIN#65814	8	長岡市
+207	place	FLOW_PRG/SCHE0.BIN#56064	12	東砺波郡
+208	place	FLOW_PRG/INVEST.BIN#151dc	8	新宮市
+209	place	FLOW_PRG/TOWNDATA.BIN#11384	8	小松市
+210	place	FLOW_PRG/TOWN.BIN#64da4	8	田川市
+211	place	FLOW_PRG/FREELOAD.BIN#3b2e8	8	稚内市
+212	place	FLOW_PRG/CSAVE4.BIN#708a0	8	米沢市
+213	place	FLOW_PRG/DRSHRANK.BIN#18a2c	8	加茂市
+214	place	FLOW_PRG/DRSHRANK.BIN#18060	8	大沼郡
+215	place	FLOW_PRG/NENREP.BIN#2acf0	8	石岡市
+216	place	FLOW_PRG/CHALMODE.BIN#45fd4	8	高萩市
+217	place	FLOW_PRG/FREELOAD.BIN#3d110	8	因島市
+218	place	FLOW_PRG/HOMETOWN.BIN#5f4f0	8	豊栄市
+219	place	FLOW_PRG/CSAVE3.BIN#65b18	12	上水内郡
+220	place	FLOW_PRG/OFFICE.BIN#a0c2c	8	最上郡
+221	place	FLOW_PRG/FREELOAD.BIN#3c0dc	8	三条市
+222	place	FLOW_PRG/SCHE0.BIN#5690c	12	北桑田郡
+223	place	FLOW_PRG/SPF_READ.BIN#915f8	8	相生市
+224	place	FLOW_PRG/OFFICE.BIN#a10fc	8	蓮田市
+225	place	FLOW_PRG/AUTOSAVE.BIN#69558	8	福島県
+226	place	FLOW_PRG/OFFICE.BIN#a071c	8	札幌市
+227	place	FLOW_PRG/FIRE.BIN#22784	8	徳島県
+228	place	FLOW_PRG/INVEST.BIN#152e8	8	益田市
+229	place	FLOW_PRG/DRSHRANK.BIN#18784	8	品川区
+230	place	FLOW_PRG/FREELOAD.BIN#3bae8	8	児玉郡
+231	place	FLOW_PRG/FREELOAD.BIN#3c568	8	可児市
+232	place	FLOW_PRG/LOCAL.BIN#21d94	8	神崎郡
+233	place	FLOW_PRG/LOCAL.BIN#20684	12	中津軽郡
+234	place	FLOW_PRG/CHALMODE.BIN#45828	8	赤平市
+235	place	FLOW_PRG/DRSHRANK.BIN#17174	8	大阪府
+236	place	FLOW_PRG/EXFLAG.BIN#70df0	8	石川市
+237	place	FLOW_PRG/ESTABLIS.BIN#3803c	8	守山市
+238	place	FLOW_PRG/VTRLOAD.BIN#3c5ec	12	東八代郡
+239	place	FLOW_PRG/DMCLBEDT.BIN#81ab8	8	下毛郡
+240	place	FLOW_PRG/INVEST.BIN#1491c	8	伊東市
+241	place	FLOW_PRG/CSAVE.BIN#6f84c	12	東浅井郡
+242	place	FLOW_PRG/LOAD.BIN#742c8	8	昭島市
+243	place	FLOW_PRG/DRSHRANK.BIN#19080	8	裾野市
+244	place	FLOW_PRG/ESTABLIS.BIN#38b0c	8	筑後市
+245	place	FLOW_PRG/YOUTH.BIN#54138	8	埼玉県
+246	prose_event	FLOW_PRG/EVENT.BIN#c9da0	108	建設する為には@P/$1@必要です。\n是非、記念碑としてどうでしょうか。\n完成に@O/2週間@掛りますが、建設しますか？
+247	prose_event	FLOW_PRG/EVENT.BIN#c95c0	108	=w/グッドニュースです、#sname#さん。\n日頃のクラブ経営の手腕が認められ、\n優秀な経営者として表彰されました。=
+248	prose_event	FLOW_PRG/EVENT.BIN#c9e0c	80	スポンサーさんの協力で割引されます。\n建設には@P/$1@掛ります。\n建設しますか？
+249	prose_event	FLOW_PRG/EVENT.BIN#c887c	92	=w/おめでとうございます。\n我がホームタウン、$1での\n@P/ｲﾝﾀｰﾅｼｮﾅﾙｶｯﾌﾟ@開催が決定しました。=
+250	prose_event	FLOW_PRG/EVENT.BIN#c7178	60	@Y/$1@選手を移籍させます。\n@P/$2@の移籍金が入金されました。
+251	prose_event	FLOW_PRG/EVENT.BIN#c8610	100	#sname#さん、大ニュースです。\n日頃の功績を認められ、名誉市民として\n#sname#さんが表彰されました。
+252	prose_event	FLOW_PRG/EVENT.BIN#13d824	40	選手:%d の能力%dは%dから%dになりました
+253	prose_event	FLOW_PRG/EVENT.BIN#e0500	48	交通レベル :%d クラブ人気 :%d サッカー人気 :%d
+254	prose_event	FLOW_PRG/EVENT.BIN#c9754	84	=w/おめでとうございます。\n#sname#さんのような素晴らしい方の\nもとで働けて光栄です。=
+255	prose_event	FLOW_PRG/EVENT.BIN#cf418	56	最終順位は@Y/$4位@でした。\n順位賞金@P/$3@を入金します。
+256	prose_event	FLOW_PRG/EVENT.BIN#ced08	64	=w/惜しくも@Y/準優勝@でしたね。\n順位賞金@P/$3@を入金します。=
+257	prose_event	FLOW_PRG/EVENT.BIN#c786c	104	スポンサーさんの協力で割引されます。\n増設費用は@P/$1@、毎月の維持費が\n@P/$2@掛ります。増設しますか？
+258	prose_event	FLOW_PRG/EVENT.BIN#e8df4	72	趣味の@Y/重火器セット@、掘り出し物が\nあるんです。買って頂けませんか？
+259	prose_event	FLOW_PRG/EVENT.BIN#e7ad8	32	サッカースクール完成まで %d
+260	prose_event	FLOW_PRG/EVENT.BIN#e9c94	60	すぐに後任を手配しましょう。\n素晴らしい方が見つかりますよ。
+261	prose_event	FLOW_PRG/EVENT.BIN#c8934	80	なお、開催国特権として、\n日本代表は予選無しで、本選に出場が\n可能となります。
+262	prose_event	FLOW_PRG/EVENT.BIN#c91a8	104	私たちのクラブの歴史も10年を越えました。\nそして、データ室の資料も、入りきらなく\nなってしまいました。
+263	prose_event	FLOW_PRG/EVENT.BIN#e9330	60	すぐに後任は手配します。私に\n負けない位の方を見つけますよ。
+264	prose_event	FLOW_PRG/EVENT.BIN#cde94	88	世界中の人々が注目しています。\n代表チームの実力を、十分に発揮できると\n信じています。=
+265	prose_event	FLOW_PRG/EVENT.BIN#cd8e0	92	疲労回復に悪い影響が出ています。\nドリンクの方は処分しましたが、\n少し影響が残りそうです。
+266	prose_event	FLOW_PRG/EVENT.BIN#d076c	28	代表練習グラウンドです。
+267	prose_event	FLOW_PRG/EVENT.BIN#e82b8	20	収容人数 14万5000人
+268	prose_event	FLOW_PRG/EVENT.BIN#e7700	20	ｲﾝﾀｰﾅｼｮﾅﾙｶｯﾌﾟ予選
+269	prose_event	FLOW_PRG/EVENT.BIN#e8290	20	収容人数 8万8000人
+270	prose_event	FLOW_PRG/EVENT.BIN#d283c	24	スポンサー条件警告[2]
+271	prose_event	FLOW_PRG/EVENT.BIN#d05d8	52	今から、若い選手に注目しておく必要が\nありますね。\n
+272	prose_event	FLOW_PRG/EVENT.BIN#d07b0	28	スタジアムレベル１です。
+273	prose_event	FLOW_PRG/EVENT.BIN#d2c20	24	補修する建物(0ク,1ス)
+274	prose_event	FLOW_PRG/EVENT.BIN#cf740	104	=k/Ｊ２への降格が確定しましたが、\n再び昇格できる様に頑張りましょうね。\n今日から新たなスタートです。=
+275	prose_event	FLOW_PRG/EVENT.BIN#d19cc	28	選手転職[10](0無,1監,2ス)
+276	prose_event	FLOW_PRG/EVENT.BIN#d0628	28	テストメッセージ（秘書2)。
+277	prose_event	FLOW_PRG/EVENT.BIN#c7ce4	104	今回は見合わせる事にしました。\n夜間練習が出来れば、選手達も充実した\nメニューをこなせると思いましたが。
+278	prose_event	FLOW_PRG/EVENT.BIN#d2b90	56	メッセージ分岐(0-3)\n世界選抜VS欧州選抜は固有メッセージ
+279	prose_event	FLOW_PRG/EVENT.BIN#ea1f0	112	サポーターの会員数によって、今後も\n応援歌の数を増やすという計画のようです。\n３万人と５万人が目処だそうです。
+280	prose_event	FLOW_PRG/EVENT.BIN#d08e4	28	クラブハウスレベル５です。
+281	prose_event	FLOW_PRG/EVENT.BIN#e9444	56	それでですね、もし良かったら\n辞めさせて頂けませんか？
+282	prose_event	FLOW_PRG/EVENT.BIN#d02d8	116	最大６名の選手を置く事が出来ます。\nトップチームと合わせて22名まで確保できる\n事で、育成の幅が大きく広がるでしょう。
+283	prose_event	FLOW_PRG/EVENT.BIN#e947c	64	ご迷惑をお掛けします。ちょっと\n人生を見詰め直そうと思います。
+284	prose_event	FLOW_PRG/EVENT.BIN#c6f58	104	=w/テスト販売で好調な売れ行きとのことで\n正式に発売された様です。\nショップの売れ行きが伸びていますね。=
+285	prose_event	FLOW_PRG/EVENT.BIN#ea050	48	私を必要としてくれるんですね？\nウレシイです。
+286	prose_meeting	FLOW_PRG/MEETING.BIN#a4b10	28	現任 監督スカウト[%d]:[%s]\n
+287	prose_meeting	FLOW_PRG/MEETING.BIN#4f13b	52	@Y/#tk01#@選手なら#tk00#を\nこなせる素質を感じます。
+288	prose_meeting	FLOW_PRG/MEETING.BIN#43802	56	#tk00#のポジショニングは\n高いレベルを保っているハズだ。
+289	prose_meeting	FLOW_PRG/MEETING.BIN#9cbb1	67	#sname#さんの決断が\n求められています。\n良く考えて決定して下さい。
+290	prose_meeting	FLOW_PRG/MEETING.BIN#4eeff	50	@Y/#tk01#@選手なら#tk00#で\nそこそこ使えるだろう。
+291	prose_meeting	FLOW_PRG/MEETING.BIN#9259e	38	早く対応してくれる事を\nお願いします。
+292	prose_meeting	FLOW_PRG/MEETING.BIN#6028c	42	僕の年俸額ですが、\n少ないと…思いません？
+293	prose_meeting	FLOW_PRG/MEETING.BIN#60564	48	長話に付合ってくれて、\nありがとうございました。
+294	prose_meeting	FLOW_PRG/MEETING.BIN#7a93f	54	私は何の為に生活をしてきたと\n言ったか覚えていますか？
+295	prose_meeting	FLOW_PRG/MEETING.BIN#82d3a	54	僕はこれ以上彼と同じチームに\n居る事が我慢できません！
+296	prose_meeting	FLOW_PRG/MEETING.BIN#76790	42	まあ長くなるだろうけど、\n我慢してくれよ。
+297	prose_meeting	FLOW_PRG/MEETING.BIN#4616d	62	キャプテン位は楽勝で出来ますよ。\n選手の統率なんて朝飯前です。
+298	prose_meeting	FLOW_PRG/MEETING.BIN#74de1	46	随分前から主張してきたし、\n伝わってるんだろ？
+299	prose_meeting	FLOW_PRG/MEETING.BIN#98c7c	34	これ以上負けるのは\n耐えられない。
+300	prose_meeting	FLOW_PRG/MEETING.BIN#436f3	48	ヘディングは強いと思うよ。\n当り負けはしないね。
+301	prose_meeting	FLOW_PRG/MEETING.BIN#4da38	50	足の遅さが、私の持ち味をつぶして\nいる気がします。
+302	prose_meeting	FLOW_PRG/MEETING.BIN#812ac	44	もちろん俺達選手の事も\n書かれるんだけどね。
+303	prose_meeting	FLOW_PRG/MEETING.BIN#75d6b	46	私は、この扱いでは、\nただの何と言いましたか？
+304	prose_meeting	FLOW_PRG/MEETING.BIN#5295e	64	なんでここまで嫌うようになったか\nっていう明確な理由はないんだ。
+305	prose_meeting	FLOW_PRG/MEETING.BIN#558da	54	ははは、こんな事もするとはな。\n最低の奴だな、あんた。
+306	prose_meeting	FLOW_PRG/MEETING.BIN#884af	56	単に名声欲ではなくて、\nクラブに奉仕したかったんですよ。
+307	prose_meeting	FLOW_PRG/MEETING.BIN#43d17	54	どんな場面でも、精神面では\n負けない自信はありますよ。
+308	prose_meeting	FLOW_PRG/MEETING.BIN#5ac25	46	私の言ってる事は、間違っては\nいないですよね？
+309	prose_meeting	FLOW_PRG/MEETING.BIN#6f9fa	60	今まで避けられてたからな。\n今日はじっくり行こうじゃないか。
+310	prose_meeting	FLOW_PRG/MEETING.BIN#699bd	60	いくら契約でもさ、活躍に応じて\n報酬は考えてくれるもんだろ？
+311	prose_meeting	FLOW_PRG/MEETING.BIN#89f7a	46	クラブの為に、何かしたい。\nその為なんですよ。
+312	prose_meeting	FLOW_PRG/MEETING.BIN#736d0	60	ありがとうございます。僕の悩みを\n感じ取ってくれたんですね。
+313	prose_meeting	FLOW_PRG/MEETING.BIN#43592	31	パスカットは、自慢のひとつだ。
+314	prose_meeting	FLOW_PRG/MEETING.BIN#4a5c9	56	やっぱりボールがまっすぐ飛ばないん\nだよね。なんでだよ？
+315	prose_meeting	FLOW_PRG/MEETING.BIN#714e7	56	他に良い選手がリストアップ\nされるのを待っているんだろ？
+316	prose_meeting	FLOW_PRG/MEETING.BIN#5eb59	54	アイツ最低なんだよ、ホント！\nもうやってられないって！
+317	prose_meeting	FLOW_PRG/MEETING.BIN#89daa	56	私の実力を発揮できる、\n見せ付けられる場が無いんですよ。
+318	prose_meeting	FLOW_PRG/MEETING.BIN#5f517	46	この対応は正解と言えるな。\n悪くない気持ちだ。
+319	prose_meeting	FLOW_PRG/MEETING.BIN#596e2	58	成果を見せられないから、選手として\nどうかとも知られない。
+320	prose_meeting	FLOW_PRG/MEETING.BIN#7b2e5	48	僕は、あなたを何と言って\n責めたか覚えています？
+321	prose_meeting	FLOW_PRG/MEETING.BIN#5f83f	54	いいねぇ、こういう対応を\n待ってたんだよ。さんきゅー！
+322	prose_meeting	FLOW_PRG/MEETING.BIN#7640d	56	指示の内容、考え方、戦術\n全てが僕にとってダメなんです。
+323	prose_meeting	FLOW_PRG/MEETING.BIN#86b01	52	俺だって出たくはない。\nクラブ自体は気に入っている。
+324	prose_meeting	FLOW_PRG/MEETING.BIN#5ab71	60	監督といえば、選手をまとめるのが\n大きな役目じゃないですか。
+325	prose_meeting	FLOW_PRG/MEETING.BIN#8a1ff	50	私の扱いに関しての事だよ。\n苦言に近いものだがな。
+326	prose_meeting	FLOW_PRG/MEETING.BIN#7dcc8	68	そういう部分で、その、あなたの努力\nが足りないんじゃ無いでしょうか？
+327	prose_meeting	FLOW_PRG/MEETING.BIN#49ddd	58	少しだが、瞬発力不足を感じる。\n練習次第で良くなるハズだ。
+328	prose_meeting	FLOW_PRG/MEETING.BIN#5a19e	58	あんな監督に仕切られる位なら\n監督なんか居ない方がいいね。
+329	prose_meeting	FLOW_PRG/MEETING.BIN#4a119	46	キーパー技術全般で、\n少し自信が有りませんね。
+330	prose_meeting	FLOW_PRG/MEETING.BIN#6804f	54	ねぇ、やる気あんの？\n遊びでやってるんじゃ無いんだよ？
+331	prose_meeting	FLOW_PRG/MEETING.BIN#462af	56	僕の判断はいつでも正しいですね。\n全面的に信用出来ます。
+332	prose_meeting	FLOW_PRG/MEETING.BIN#8f8ae	48	話の内容は分かりますよね？\n監督に付いてですよ。
+333	prose_meeting	FLOW_PRG/MEETING.BIN#6ae76	54	だからある時言ったんですよ。\nどうして笑うんだってね。
+334	prose_meeting	FLOW_PRG/MEETING.BIN#8fe19	50	それとも、俺を他のクラブに\n移籍させるか・・・だ。
+335	prose_meeting	FLOW_PRG/MEETING.BIN#70b9e	66	俺を雇っている理由は何だろうね。\n多分道具として見てるんだろうね。
+336	prose_meeting	FLOW_PRG/MEETING.BIN#4a66d	56	キックのパワー不足を感じますね。\nもっと練習したいです。
+337	prose_meeting	FLOW_PRG/MEETING.BIN#6156a	58	その、前から言ってたから\n分かっているとは思うんだけどね。
+338	prose_meeting	FLOW_PRG/MEETING.BIN#9bd92	109	選手側も不満の累積が著しいようです。\nなんらかのアクションを起こさない限り\nこの場を収めるのは難しいでしょう。
+339	prose_meeting	FLOW_PRG/MEETING.BIN#99810	42	だが現状はどうだ。\n俺はもはや退団寸前だ。
+340	prose_meeting	FLOW_PRG/MEETING.BIN#58d04	48	そうなんだよ、試合での選手の\n起用に関する事だ。
+341	prose_meeting	FLOW_PRG/MEETING.BIN#796e8	44	僕の価値なんて、そんなもん\nなんでしょうか？
+342	prose_meeting	FLOW_PRG/MEETING.BIN#5a150	44	このままの監督じゃ、\n俺はやってられないね。
+343	prose_meeting	FLOW_PRG/MEETING.BIN#40ca9	48	キックの精度はそこそこ高いと\n自分では思います。
+344	prose_meeting	FLOW_PRG/MEETING.BIN#7073c	34	不満が有るとすれば、\nただ一つだ。
+345	prose_meeting	FLOW_PRG/MEETING.BIN#91ea5	28	俺の年俸額、\n上げてくれよ。
+346	prose_meeting	FLOW_PRG/MEETING.BIN#6d5b7	54	正直言って、これといった\n原因が有る訳じゃないんです。
+347	prose_meeting	FLOW_PRG/MEETING.BIN#7a79f	66	それなのに、評価は変わりません。\n私の生き方を否定されたかの様に。
+348	prose_meeting	FLOW_PRG/MEETING.BIN#862b6	66	彼が一人居るだけで、今後チームが\nバラバラになる恐れがあるんです。
+349	prose_meeting	FLOW_PRG/MEETING.BIN#6c632	44	でも、それを指摘すると、\n凄く怒るんですよ。
+350	prose_meeting	FLOW_PRG/MEETING.BIN#42966	60	ボール保持については、クラブ内で\n一番という自信が有ります。
+351	prose_meeting	FLOW_PRG/MEETING.BIN#68d51	38	どうにも合いそうにない\n選手が居るな。
+352	prose_meeting	FLOW_PRG/MEETING.BIN#9298a	42	な？そんな事態を望んでる訳じゃ\nないだろ？
+353	prose_meeting	FLOW_PRG/MEETING.BIN#61f88	44	失望しましたよ。\nもう結構です、失礼します。
+354	prose_meeting	FLOW_PRG/MEETING.BIN#61924	44	何も今すぐに、なんて事は\n言わないからさぁ。
+355	prose_meeting	FLOW_PRG/MEETING.BIN#600bf	62	タイミング的に難しいかも知れない、\n更新まで時間があるからな。
+356	prose_meeting	FLOW_PRG/MEETING.BIN#4676b	50	積極的な飛び出しは、\nオレの理想的なスタイルだね。
+357	prose_meeting	FLOW_PRG/MEETING.BIN#8565a	38	私はクラブを出て行く\n用意があるのだ。
+358	prose_news	FLOW_PRG/NEWS.BIN#f88b4	95	それでは試合結果です。接戦が続いた\n@P/J2@ですが、@Y/#tk08#@がＪ１昇格の\nキップを物にしました。
+359	prose_news	FLOW_PRG/NEWS.BIN#f95a8	83	この時期にこの連勝は大きいですね。\n#tk00#の勢いはとどまる所を\n知りませんでしたね。
+360	prose_news	FLOW_PRG/NEWS.BIN#11e87c	112	@Y/日本代表@は決勝戦でも安定しており、\nとうとう@P/ｲﾝﾀｰﾅｼｮﾅﾙｶｯﾌﾟ@優勝です。\nこの優勝は大きな自信になるでしょう。
+361	prose_news	FLOW_PRG/NEWS.BIN#c383c	105	それでは海外のリーグの情報です。\n今月は卓越した個人技を見せる\n@Y/ブラジルリーグ@の模様をお知らせします。
+362	prose_news	FLOW_PRG/NEWS.BIN#11942e	99	@M/日本代表@ここにきて大崩れしました。\n@Y/#tk04#@に#tk05#点もの大差をつけられ\n敗れてしまいました。
+363	prose_news	FLOW_PRG/NEWS.BIN#11e179	101	@Y/日本代表@が@Y/#tk04#@に安定した\n戦いで勝利しています。世界のトップとも\n互角に渡り合っていますよ。
+364	prose_news	FLOW_PRG/NEWS.BIN#116dec	111	後を追われる@Y/#tk03#@は大変ですね。\n上位陣の実力も競っており、決勝戦に\n進出するチームが最後までわかりません。
+365	prose_news	FLOW_PRG/NEWS.BIN#bfc6c	40	大会結果が入っていません。 match = %d
+366	prose_news	FLOW_PRG/NEWS.BIN#111188	91	本日の結果による順位です。\n最終戦を待たずして@Y/#tk00#@の\n１位での予選突破が決定しました。
+367	prose_news	FLOW_PRG/NEWS.BIN#1029cf	50	本日の試合結果ですが\n@Y/#tk01#@が敗北しています。
+368	prose_news	FLOW_PRG/NEWS.BIN#109401	79	試合も残す所あとわずか。\n@Y/#tk00#@がさらに順位をさげ\n下位をさまよっています。
+369	prose_news	FLOW_PRG/NEWS.BIN#ec096	101	本日の結果、シードを除き２回戦へ進出する\n１２クラブが決定しました。\n@Y/#tk00#@も進出を決めています。
+370	prose_news	FLOW_PRG/NEWS.BIN#10f446	64	本日の結果による順位です。\n@Y/#tk00#@の予選突破が決定しました。
+371	prose_news	FLOW_PRG/NEWS.BIN#104364	97	そろそろ中盤ですが@Y/#tk00#@にとって\n筋書き通りという感じですね。この調子なら\n終盤相当楽ですよ。
+372	prose_news	FLOW_PRG/NEWS.BIN#f7d2a	83	それでは試合結果です。\n@P/#tk04#@もそろそろ中盤ですが\n@M/#tk05#@が敗北しています。
+373	prose_news	FLOW_PRG/NEWS.BIN#cc01c	97	今年は、首位に並ぶ#tk02#人の選手が\n様々な活躍を見せてくれ、\n試合もレベルの高い物となりましたよ。
+374	prose_news	FLOW_PRG/NEWS.BIN#c2abb	105	ここに来て#tk02#選手の能力が\n問題視されているようです。知力体力とも\n現地のレベルについて行けない様です。
+375	prose_news	FLOW_PRG/NEWS_ED.BIN#5d460	111	もはやアジアの誇り#tk00#、敗退とは\nいえ、この結果は誇っていいでしょう。\nそれではまた次回お目にかかりましょう。
+376	prose_news	FLOW_PRG/NEWS.BIN#fda35	99	@M/日本代表@と@Y/#tk02#@との間で\n試合が行われ、健闘したのですが\n惜しくも@M/日本代表@が敗れました。
+377	prose_news	FLOW_PRG/NEWS_ED.BIN#58e40	93	@P/J1#tk01#@は全日程を終了しました。\n最後に相応しい接戦でしたね。\nではまたお会いしましょう。
+378	prose_news	FLOW_PRG/NEWS.BIN#11b509	91	@M/#tk03#@の完敗でしたね。\n結果としては２位ですが、\n実力の開きはもっと大きかったようです。
+379	prose_news	FLOW_PRG/NEWS.BIN#112f72	87	@Y/#tk01#@いい調子のようですね。\nこの勢いを大事にし、もっと上位を\n狙って欲しいですね。
+380	prose_news	FLOW_PRG/NEWS_ED.BIN#5caef	115	決勝ﾄｰﾅﾒﾝﾄを賭け、どのクラブも真剣その物\nでしたが#tk00#の健闘が光りました。\nそれではまた次回お目にかかりましょう。
+381	prose_news	FLOW_PRG/NEWS.BIN#ca66d	113	@P/欧州ﾁｬﾚﾝｼﾞﾘｰｸﾞ@は@Y/#tk00#@が優勝し\n最優秀選手が@Y/#tk03#@選手です。\n@M/日本代表@、惜しい結果に終わりました。
+382	prose_news	FLOW_PRG/NEWS.BIN#10e76a	85	本日@P/#tk05#@が終了しました。\n今までの全試合を振り返って見ての\n感想はいかがですか？
+383	prose_news	FLOW_PRG/NEWS.BIN#10f83a	87	現在首位の@Y/#tk03#@が\n早くも他のチームを大きく引き離し、\n独走態勢にはいっていますよ。
+384	prose_news	FLOW_PRG/NEWS.BIN#11f948	92	@Y/#tk03#@と@M/#tk04#@、\n実力差がほとんど感じられない接戦だけに\n悔しさもひとしおでしょう。
+385	prose_news	FLOW_PRG/NEWS.BIN#fe267	80	本日の@P/ﾌﾟﾚｼｰｽﾞﾝﾏｯﾁ@、\n@Y/#tk03#@と@Y/#tk02#@の試合は\n引分けに終わっています。
+386	prose_news	FLOW_PRG/NEWS.BIN#11a824	112	非常に接戦でしたが@Y/U22日本代表@が\n@M/#tk04#@を相手に競り勝っています。\nこの粘り強さが決勝で生きるでしょうか？
+387	prose_news	FLOW_PRG/NEWS.BIN#10656b	97	本日の試合結果による順位です。\n万全の滑り出しを見せる@Y/#tk00#@は\n少し順位を下げてしまいました。
+388	prose_news	FLOW_PRG/NEWS_ED.BIN#5e9f7	105	１回戦突破を果たした#tk00#、\n何位まで勝ち上がれるか楽しみですね。\nそれではまた次回お目にかかりましょう。
+389	prose_news	FLOW_PRG/NEWS.BIN#c2f80	97	#tk00#月のＪリーグベストイレブンです。\nワントップにはやはり高い得点力の選手が\n選ばれていますね。
+390	prose_news	FLOW_PRG/NEWS.BIN#11e6ec	109	非常に接戦でしたが@Y/日本代表@が\n@Y/#tk04#@を相手に競り勝っています。\nこの粘り強さが決勝で生きるでしょうか？
+391	prose_news	FLOW_PRG/NEWS.BIN#ee24b	109	@Y/#tk00#@は勝利しましたが、\n前の結果を含め決勝進出なりませんでした。\n決勝を目前に、悔しい結果になりました。
+392	prose_news	FLOW_PRG/NEWS.BIN#ee442	105	@Y/#tk00#@は決勝戦でも安定しており、\n危なげなく優勝を手にしました。\nこの優勝は大きな自信になるでしょう。
+393	prose_news	FLOW_PRG/NEWS.BIN#c4788	101	首位に立っている選手の実力が伯仲し、\n#tk02#人が首位に並んでいます。\nゴールランキングも白熱しました。
+394	prose_news	FLOW_PRG/NEWS.BIN#112279	109	後を追われる@Y/#tk03#@は大変ですね。\n上位陣の実力も伯仲しており、優勝国が\n最後まで絞りきれそうにありません。
+395	prose_news	FLOW_PRG/NEWS.BIN#109625	103	@P/J2ﾘｰｸﾞ@の全試合が終了しました。\n最終的な順位をご覧ください。\nこの大会を振り返って感想はどうですか？
+396	prose_news	FLOW_PRG/NEWS.BIN#f182e	94	@P/ﾌﾟﾗﾁﾅﾘｰｸﾞ@の激戦の順位争いを\n尻目に、優勝した@Y/#tk01#@は\n余裕をもった試合をしていました。
+397	prose_news	FLOW_PRG/NEWS.BIN#c4a2d	99	#tk03#位の@Y/#tk01#@選手の調子が\n良くなりませんね。クラブも彼を\n生かし切れていないかも知れません。
+398	prose_news	FLOW_PRG/NEWS.BIN#108dc0	93	本日の試合結果による順位です。\n@Y/#tk00#@首位争いの位置から\nわずかながら順位を下げています。
+399	prose_news	FLOW_PRG/NEWS.BIN#11d6bf	81	ついに@P/#tk00#@の決勝戦です。\n@Y/#tk01#@が@M/#tk02#@を破り\n優勝を物にしました。
+400	prose_news	FLOW_PRG/NEWS.BIN#fd69c	109	本日は素晴らしいプレイが飛び出す、\n見ごたえのある試合が多かったですね。\n各クラブとも全力を出しきりましたよ。
+401	prose_news	FLOW_PRG/NEWS.BIN#fc34e	113	優勝争いの緊張感がなくなったことは\n否めませんが、今エンジンがかかってきた\nクラブがあり面白い試合も行われてます。
+402	prose_news	FLOW_PRG/NEWS.BIN#c105c	28	評価ランキングの反映終了
+403	prose_news	FLOW_PRG/NEWS.BIN#1108aa	95	本日の結果による順位です。\n優勝が既に確定していますが、２位以下の\n順位争いがまだ続いています。
+404	prose_news	FLOW_PRG/NEWS.BIN#ed3ba	85	それでは試合結果です。\n本日も各クラブが全力を尽くし、\n激戦がくり広げられたようです。
+405	prose_news	FLOW_PRG/NEWS.BIN#fa3a1	101	本日の試合ですが、どのクラブも\n全力を尽くす事のみを考えており、\n見ごたえのある試合が多かったですね。
+406	prose_news	FLOW_PRG/NEWS.BIN#fc177	99	本当に調子は最悪のようでしたね。\n後に引きずらないように、残りの試合\n１つでも勝利して欲しいですね。
+407	prose_news	FLOW_PRG/NEWS_ED.BIN#6f5a0	36	CHK_CMP_RES_RES_ANY(なんでもＯＫ）
+408	prose_news	FLOW_PRG/NEWS.BIN#10c02a	103	今は順位の変動の激しい時期ですからね。\n少し勝てば十分上位になれる順位ですし\nほとんど問題ないでしょう。
+409	prose_news	FLOW_PRG/NEWS.BIN#114163	107	既に優勝は決まっていますが、各クラブとも\n勢いは衰えていませんね。一つ一つの試合に\n集中しているようですよ。
+410	prose_news	FLOW_PRG/NEWS.BIN#11207a	83	日本代表が上り調子ですし\n優勝候補の筆頭といえるでしょう。\nですが油断は禁物ですよ。
+411	prose_news	FLOW_PRG/NEWS.BIN#105765	101	他のチームの気勢がそがれた様子なく、\n一つでも良い順位をとろうと激しい戦いが\nくり広げられていますよ。
+412	prose_news	FLOW_PRG/NEWS.BIN#c241a	90	フィジカル面での素質と能力は高く評価\nされ、留学先のレベルを完全に\n満たしている様です。\n。
+413	prose_news	FLOW_PRG/NEWS.BIN#12a3a0	75	#tk00#選手、\nチーム内の誰とでも、ある程度の連携が\n出来ているみたいですね。
+414	prose_news	FLOW_PRG/NEWS.BIN#1150d2	115	最終戦前に予選突破が決まりだしましたが\n本選に進出する@Y/上位４チーム@は、来年\nどんな活躍を見せてくれるでしょうか？
+415	prose_news	FLOW_PRG/NEWS.BIN#113aee	99	@Y/#tk01#@調子が悪いようですね。\n集中すれば結果はついてきますので\n最後までがんばって欲しいですよ。
+416	prose_news	FLOW_PRG/NEWS_ED.BIN#5eac3	95	２回戦に勝ち残った#tk00#、\nまだまだ行けると思いますよ。\nそれではまた次回お目にかかりましょう。
+417	prose_news	FLOW_PRG/NEWS.BIN#d09fe	111	攻撃も平均的で、特に守備は良いものを\n持っています。攻撃展開もそつなくこなす\n守備的ＭＦとして活躍できそうです。
+418	prose_news	FLOW_PRG/NEWS.BIN#10b8c2	107	終盤優勝争いに参加した@Y/#tk00#@は\n優勝クラブとそう実力差はないですよ。\n次の大会で活躍が期待できそうです。
+419	prose_news	FLOW_PRG/NEWS.BIN#119828	93	@M/日本代表@と@Y/#tk04#@、\n実力差がほとんど感じられない接戦だけに\n悔しさもひとしおでしょう。
+420	prose_other	FLOW_PRG/ABROAD.BIN#2bd80	77	@O/#tk00#@です。\n@Y/%s選手@の技術面に若干不安が\n残りますが、よろしいですか？
+421	prose_other	FLOW_PRG/PWK_EDIT.BIN#5c23c	36	代表復帰時の成長反映 :選手番号 %d
+422	prose_other	FLOW_PRG/RECON.BIN#22dba	27	%d年契約くらいがいいかな。
+423	prose_other	FLOW_PRG/CHALMODE.BIN#4249c	40	** %d番目の人が新たに加わります(%d) **
+424	prose_other	FLOW_PRG/ESTABLIS.BIN#192b8	100	スポンサーにより改良費が割引されます。\n改良に@Y/%m@。維持費に毎月\n@Y/%m@必要です。よろしいですか？\n
+425	prose_other	FLOW_PRG/OFFICE.BIN#97a30	40	SPONSOR DELETE SET (%d) money:%d万円
+426	prose_other	FLOW_PRG/NEWS_OP.BIN#57767	94	まだ残暑も厳しい季節の中、\n白熱した闘いを見せる@P/Jﾘｰｸﾞﾃﾞｨﾋﾞｼﾞｮﾝ2@。\n本日の試合結果をどうぞ。
+427	prose_other	FLOW_PRG/NEWS_OP.BIN#56f89	92	すっかり暖かい季節になりつつも\n激戦が続く@P/Jﾘｰｸﾞﾃﾞｨﾋﾞｼﾞｮﾝ2@。\n本日の結果はどうでしょうか。
+428	prose_other	FLOW_PRG/GETREP.BIN#26d14	28	サポーター増加数マイナス:%d
+429	prose_other	FLOW_PRG/GETREP.BIN#27e78	24	@Y/Ｊリーグ DIVISION 1@
+430	prose_other	FLOW_PRG/HOMETOWN.BIN#47150	52	気温(x10倍):%d %d %d %d %d %d %d %d %d %d %d %d
+431	prose_other	FLOW_PRG/NEWS_OP.BIN#5963d	99	@P/ｱｼﾞｱﾄｰﾅﾒﾝﾄ@も準決勝を迎えました。\nここまで来たら、どのクラブも\n是非決勝に進出したいところです。
+432	prose_other	FLOW_PRG/EXTRADE.BIN#368a0	36	** %d番目の人は居なくなりました **
+433	prose_other	FLOW_PRG/DRSJAPAN.BIN#a5bf	113	私たちのクラブには、試合に出場できる\n選手が@M/%D人@しかいません。気をつけないと\n公式戦に出場できなくなりますよ。
+434	prose_other	FLOW_PRG/TITLE.BIN#2e850	32	自クラブ前回優勝、補欠参加%d
+435	prose_other	FLOW_PRG/DRSGRF.BIN#16907	95	現在の１位は@Y/%s選手@です。\n世界のトップクラブからどれほどゴールを\n守れるか見てみたいですね。
+436	prose_other	FLOW_PRG/SCHE0.BIN#4f380	76	ｽﾎﾟﾝｻｰさん協賛による\n@Y/ﾌｧﾝ感謝ﾏｯﾁ@です。\n対戦相手は世界から選出されます。
+437	prose_other	FLOW_PRG/GAMEOVER.BIN#7efcc	90	#sname#さん。クラブに所属する\n選手数が少なすぎますよ。\nこれではＪリーグに参加できません。
+438	prose_other	FLOW_PRG/ENDOPT.BIN#49294	28	トレード禁止フラグ %d(%d)
+439	prose_other	FLOW_PRG/NEWS_OP.BIN#5a19c	91	本日は企業提供による@P/ﾌｧﾝ感謝ﾏｯﾁ@が\n行われました。強豪@Y/#tk02#@との\n闘いの模様をどうぞ。
+440	prose_other	FLOW_PRG/GAME.BIN#1b2d74	107	勝利プレミアムを#tk25#にしました。\n試合に臨むにあたり、顔つきまで変わって\n見えますね。期待出来そうですよ。
+441	prose_other	FLOW_PRG/SPF_READ.BIN#42a11	103	日本人としては高名な監督、\n@Y/石田 義定@氏を追加しました。\nいつか監督リストに登場してくれる\nでしょう。
+442	prose_other	FLOW_PRG/CLUBEDIT.BIN#219bf	107	@Y/ﾚｵｰﾈ@とはイタリア語で@K/『ライオン』@の\n事です。やはりこの名前からは百獣の王、\n王者の印象を受けますね。
+443	prose_other	FLOW_PRG/DRSKIYA.BIN#8e2f	103	私たちのクラブが@Y/#tk02#回@で１位です。\nでも、防御の優れたクラブなら\nいずれ更新してこれる数字ですよ。
+444	prose_other	FLOW_PRG/ESTABLIS.BIN#1d306	98	改良した@Y/休憩室@です。\n更に多くのお客さんに利用されます。\n利用者に例外なく好印象を持たれます。\n
+445	prose_other	FLOW_PRG/CSAVE.BIN#8ee30	40	選手:%d の能力%dは%dから%dになりました
+446	prose_other	FLOW_PRG/GETREP.BIN#26ff8	24	地元増加人数        :%d
+447	prose_other	FLOW_PRG/DRAFT.BIN#35c00	96	高い闘争心と技術力、１対１に強さを\n発揮する精神力でゴールを死守する\n韓国を代表する守護神です。
+448	prose_other	FLOW_PRG/SCDRF.BIN#2cb24	120	近代的プレスサッカーの始祖となる戦術理論\nで最強軍団を築いた名将です。その難解な\nシステムを理解する事が鍵となりますね。\n
+449	prose_other	FLOW_PRG/DRSSRANK.BIN#dda6	91	Ｊ１のクラブから生まれた、\nまだ破られたことがない、不名誉な\n記録を確認することができます。
+450	prose_other	FLOW_PRG/YOUTH.BIN#331bf	35	状況判断に優れ必要な行動ができる。
+451	prose_other	FLOW_PRG/YOUTH.BIN#27b61	46	僕なんかが、彼を教えられるとは\n思えませんよ。
+452	prose_other	FLOW_PRG/SONGSAVE.BIN#34118	36	ロードを行うデータを選んで下さい。
+453	prose_other	FLOW_PRG/DRSLIST.BIN#22470	35	十分に通用する広い守備範囲を所有。
+454	prose_other	FLOW_PRG/ESTABLIS.BIN#1c440	100	この施設を増設するスペースが\n現在のスタジアムにありません。\nスペースを確保した時に増設しましょう。\n
+455	prose_other	ATFIRST/TITLE.BIN#27b8c	20	ﾊﾝｽ・ﾍﾟｰﾀｰ・ﾌﾞﾘｰｹﾞﾙ
+456	prose_other	FLOW_PRG/DRSLIST.BIN#2224f	35	少々不安は残るがＧＫ技術面に期待。
+457	prose_other	FLOW_PRG/DRSLIST.BIN#2410a	33	世界に通じる爆発的なシュート力。
+458	prose_other	FLOW_PRG/DRSLIST.BIN#227f1	31	優れたリーダーシップと信頼性。
+459	prose_other	FLOW_PRG/GAME.BIN#1ad904	62	怪我をしていますね。\n彼本来の動きはまったく出来ないでしょう。
+460	prose_other	FLOW_PRG/RECON.BIN#2212e	101	ゴールキーパーです。\n１対１の強さや優れた勘、判断力を必要とし\nＰＫ時には精神力の強さも要求されます。
+461	prose_other	FLOW_PRG/DRAFT.BIN#416f5	29	ピークは過ぎたが期待出来る。
+462	prose_other	FLOW_PRG/CSAVE4.BIN#37004	28	『これぞッ……最強流ッ!!』
+463	prose_other	FLOW_PRG/SCHE1.BIN#4e0cc	80	海外キャンプを設定します。\nクラブの全員が参加し、1ヶ月海外で練習を\n行います。
+464	prose_other	FLOW_PRG/FIRE.BIN#1d914	48	私の何がいけなかったんですか？\n教えて下さいよ！
+465	prose_other	FLOW_PRG/ESTABLIS.BIN#182b3	80	=W/世界に誇ることができる\nクラブハウスですね。\nこれ以上のものは望めませんよ。=\n
+466	prose_other	FLOW_PRG/DRSBEST.BIN#17ceb	81	Ｊリーグ全クラブの今年度の成績と\n年度別最終成績の推移を\n確認することができます。
+467	prose_other	FLOW_PRG/PWK_EDIT.BIN#540a4	24	公式HP開設済み=1,まだ=0
+468	prose_other	FLOW_PRG/SCDRF.BIN#26b5a	99	素晴らしい方が呼び出されましたね。\n南米出身のＦＷ選手に関しては、\n最高と言える人脈を持っています。
+469	prose_other	FLOW_PRG/ESTABLIS.BIN#1a257	86	グラウンドを増設しました。\nこれで練習スペースが豊富にとれ、\n練習効率もあがりますね。\n
+470	prose_other	FLOW_PRG/YOUTH.BIN#274ed	99	中盤を厚くし、組織的なプレイを重視する\nｼｽﾃﾑの練習をします。\n攻撃、守備への対応が早いMFが必要です。
+471	prose_other	FLOW_PRG/PL_EDIT.BIN#46a87	64	この選手はどんな性格でしょうか。\n選択肢の中から決定して下さい。
+472	prose_other	FLOW_PRG/FIRE.BIN#1fa28	56	充分な戦力が有りますからね。\n初年度から優勝できますよ。
+473	prose_other	FLOW_PRG/DRAFT.BIN#401b4	33	プロ選手としてはやや物足りない。
+474	prose_other	FLOW_PRG/YOUTH.BIN#27550	56	最も一般的で、攻守の対応が\n柔軟にできるｼｽﾃﾑの練習です。
+475	prose_other	FLOW_PRG/SCHE1.BIN#51388	56	キャンプ費がこれだけ必要なのですが\nとても払えませんね。
+476	prose_other	FLOW_PRG/NEWCON.BIN#279e8	50	俺が入ったからには、\n守備面の不安は無くなったな。
+477	prose_other	FLOW_PRG/ABROAD.BIN#29b75	99	個人技術のレベルが非常に高いですね。\n感情面が少し荒いですが、想像力豊かな\nサッカーをする国ですね。
+478	prose_other	FLOW_PRG/SPONSOR2.BIN#31962	111	江戸時代創業の、老舗の和菓子店です。\n新製品のアピールに、私たちのクラブの\n知名度を利用したがっているそうです。
+479	prose_other	FLOW_PRG/GAME.BIN#1ac6be	91	取りに足らないレベルのチームですね。\n選手達の調子は良さそうですが\n十分勝てる相手でしょう。
+480	prose_other	FLOW_PRG/RECON.BIN#22e6e	44	良かった…。\nこの調子でお願いしたいですね。
+481	prose_other	FLOW_PRG/FIRE.BIN#1de84	56	僕の能力を分かってるんですか？\nこれから伸びるんですよ？
+482	prose_other	FLOW_PRG/YOUTH.BIN#340c0	35	選手の信望の厚さは正にリーダー格。
+483	prose_other	FLOW_PRG/PWK_EDIT.BIN#54068	24	名物発売中 0以外=発売中
+484	prose_other	FLOW_PRG/GAME.BIN#1aefdf	97	やや相手ペースの試合でしたね。\n得点でも大きく引き離されています。\n何とか流れを引き寄せましょう。
+485	prose_other	FLOW_PRG/DRAFT.BIN#415cc	33	リーダーシップを発揮できる選手。
+486	prose_other	FLOW_PRG/SCHE1.BIN#4e59c	112	個人技が高く評価される事が多い国ですね。\nカウンター攻撃や、フリーキック精度などの\n能力の向上が期待できます。
+487	prose_other	FLOW_PRG/CHALMODE.BIN#3d360	49	この対戦データを\nロードします。\nよろしいですか？
+488	prose_other	FLOW_PRG/GAME.BIN#19c510	28	DF:OKフラグがついていません
+489	prose_other	FLOW_PRG/TITLE.BIN#2796c	20	ｱﾙﾂｰﾙ・ﾌﾘｰﾃﾞﾝﾗｲﾋ
+490	prose_other	FLOW_PRG/NENREP.BIN#2374c	99	多くのサポーターの方が脱退されました。\nサポーターに見捨てられては、クラブ運営は\n成り立ちませんよ。
+491	prose_other	FLOW_PRG/INVEST.BIN#ca82	82	街の経済を活発化させるために\n地元投資を行います。\n街の経済力が高くなるでしょう。\n
+492	prose_other	FLOW_PRG/YOUTH.BIN#34e7f	31	将来的に爆発的に伸びる可能性。
+493	prose_other	FLOW_PRG/DRSLIST.BIN#235aa	31	見事なパスには世界が注目する。
+494	prose_other	FLOW_PRG/DRAFT.BIN#377b4	116	アルゼンチンが誇る、テクニックのある\n攻撃的ＭＦです。その軽快な身のこなしで\nドリブル、パスにセンスを発揮します。
+495	prose_other	FLOW_PRG/SS_EDIT.BIN#10d67	103	今つくっている応援歌を、VMにセーブ\nするよ。試合で応援歌に割り付ける時には、\n一度セーブが必要だからね。
+496	prose_other	FLOW_PRG/YOUTH.BIN#34b5f	31	経験を生かし若い選手をリード。
+497	prose_other	FLOW_PRG/PWK_EDIT.BIN#54a14	36	ｹﾞｰﾑｾﾝﾀｰ 正=完成待ち,負=再発防止
+498	prose_other	FLOW_PRG/TITLE.BIN#27e44	16	ﾏﾙｺ・ﾃﾞﾙﾍﾞｯｷｵ
+499	prose_other	FLOW_PRG/INVEST.BIN#116dc	36	表情テクスチャがロードされてません
+500	prose_other	FLOW_PRG/DRSBEST.BIN#18020	111	ここでは私たちのクラブが加入してからの\nＪリーグの年度別成績が表示されます。\n今年のリーグ終了までお待ち下さい。
+501	prose_other	FLOW_PRG/DRAFT.BIN#26b90	92	日本では類希なゴールへの嗅覚を持ち\n短時間でもきっちり仕事をする天性の\nストライカーです。
+502	prose_other	FLOW_PRG/GAME.BIN#1ae399	80	世界最強のシュート力を持った選手です。\n彼がはずす事はほぼ皆無と言えるでしょう。
+503	prose_other	FLOW_PRG/DRAFT.BIN#3b308	116	ポーランドが世界に誇る右ウイングですね。\n抜群の俊足を誇り、中へ切れ込んでの\n得点能力は、世界屈指の破壊力ですよ。
+504	prose_other	FLOW_PRG/DRSLIST.BIN#22a26	33	相手に仕事をさせない、秀才ＤＦ。
+505	prose_other	FLOW_PRG/DRAFT.BIN#37a04	116	「パト」の愛称で知られるアルゼンチンを\n代表する守護神です。長い手足と鋭い反応で\n読みも鋭く、好セーブを連発します。
+506	prose_other	FLOW_PRG/DRAFT.BIN#27c60	116	いわずとしれた「キング・カズ」です。\nブラジル仕込みの技術と勝負強さで抜群の\n決定力を誇るエースストライカーです。
+507	prose_other	FLOW_PRG/DRSOLIST.BIN#27140	35	持ち前のセンスを生かし果敢に攻撃。
+508	prose_other	FLOW_PRG/YOUTH.BIN#330a9	35	チャンスを逃さず、モノにする選手。
+509	prose_other	FLOW_PRG/SPF_READ.BIN#41f5c	133	あの強靭なディフェンダー、\n宮澤　ミシェルさんが我々のクラブ発足に\n力を貸してくれるそうです。\n　\n守備の要になってくれることでしょう。
+510	prose_other	FLOW_PRG/SCDRF.BIN#292ed	113	こんな方が登場する時代になったんですね。\nヨーロッパ圏出身の全ての選手に対して、\n最高と言える人脈を持っています。
+511	prose_other	FLOW_PRG/DRAFT.BIN#3f6a5	35	指定されたＤＦタイプを充分に理解。
+512	prose_other	FLOW_PRG/DRSHRANK.BIN#150d3	58	全世界の選手を対象にした\nＦＷのランキングを確認出来ます。
+513	prose_other	FLOW_PRG/PWK_EDIT.BIN#54820	32	ｸﾗﾌﾞﾀﾜｰ 正=完成待ち,負=再発防止
+514	prose_other	FLOW_PRG/CAP_SLCT.BIN#1f93b	46	私ではそのような重責を果たすのは\n不可能だよ。
+515	prose_other	FLOW_PRG/DRSKIYA.BIN#8b6d	42	選手の移籍情報を\n確認することができます。
+516	prose_other	FLOW_PRG/SCHE1.BIN#58b00	16	日本ﾃﾞｻﾞｲﾝｻﾎﾟｰﾄ
+517	prose_other	FLOW_PRG/NEWCON.BIN#25277	77	交渉したい選手が居た場合には\nその選手に対して、契約年数と年俸を\n提示します。
+518	prose_other	FLOW_PRG/SPONSOR2.BIN#317be	111	チェーン店の書店経営以外に、出版業も\n行っています。主催している雑誌で、\nクラブを載せてくれるかもしれませんね。
+519	prose_other	FLOW_PRG/SCDRF.BIN#2f731	106	実績においてはそこそこですが、攻守の\n切り替えが早い独特のサッカーを実践する\nチェコを代表する監督ですね。\n
+520	prose_other	FLOW_PRG/SPONSOR2.BIN#2e4e0	32	年間得点ﾗﾝｷﾝｸﾞ\n10位以内の選手
+521	prose_other	FLOW_PRG/YOUTH.BIN#31ac0	35	肉体的に恵まれ、ＧＫとしては適切。
+522	prose_other	FLOW_PRG/YOUTH.BIN#34b7e	33	成長が期待できる有望な若手選手。
+523	prose_other	FLOW_PRG/YOUTH.BIN#32c85	35	正確なキックで本領を発揮するＭＦ。
+524	prose_other	FLOW_PRG/DRSGRFJ.BIN#d5d1	95	参照したいクラブを選択できます。\nクラブの旗を選択し、Ａボタンで\nそのクラブの情報を参照します。
+525	prose_other	FLOW_PRG/CSAVE3.BIN#34efc	53	、。」ー…？ぁぅぇぉぃっゃゅょァィゥェォャュョッヵヶ
+526	prose_other	FLOW_PRG/SCDRF.BIN#26908	105	南米出身のＭＦ選手に関しては\nトップクラスの情報網を持っています。\n素晴らしい選手を集めてくれるでしょう。
+527	prose_other	FLOW_PRG/SELNAT.BIN#1c358	20	ｲﾝﾀｰﾅｼｮﾅﾙｶｯﾌﾟ予選
+528	prose_other	FLOW_PRG/SCDRF.BIN#2261c	111	戦術面の理解を第一とする監督ですね。\n練習量は多いですが、怪我に気を使います。\nあまり評判を聞く事は無いですね。
+529	prose_other	FLOW_PRG/FIRE.BIN#1eb6c	38	馬鹿な・・・。\n呆れて、物も言えない。
+530	prose_other	FLOW_PRG/DRAFT.BIN#403dd	33	走力はあるが、まだまだ練習不足。
+531	prose_other	FLOW_PRG/SCHE1.BIN#4f810	96	しつこく強い守備が特徴のクラブです。\nゲルマン魂と呼ばれる精神面と統率力の\n向上が見込めます。
+532	prose_other	FLOW_PRG/DRSLIST.BIN#2372a	33	センスあるキープ力を持っている。
+533	prose_other	FLOW_PRG/SEARCH.BIN#2c228	16	ﾌﾗﾝｼｽ・ｼﾞｪﾌｧｰｽﾞ
+534	prose_other	FLOW_PRG/GAME.BIN#1abe47	87	戦力的に物足りないチームですね。\n選手達の調子も悪いようです。\n十分勝てる試合でしょう。
+535	prose_other	FLOW_PRG/SCDRF.BIN#286ae	113	遂に私たちのオファーに応えて頂けました。\nヨーロッパ圏出身のＤＦ選手に関しては、\n最高と言える人脈を持っています。
+536	prose_other	FLOW_PRG/RECON.BIN#22ca2	46	少し狙い過ぎな気もするが。\n・・・いいだろう。
+537	prose_other	FLOW_PRG/DRSOLIST.BIN#27e8b	27	すでにムリはできない年齢。
+538	prose_other	FLOW_PRG/TITLE.BIN#27b9c	16	ｼﾞﾐｰ・ｸﾞﾘｰﾌﾞｽ
+539	prose_other	FLOW_PRG/YOUTH.BIN#32a43	35	時に鋭いドリブルで敵陣に切れ込む。
+540	prose_other	FLOW_PRG/SUPPORT.BIN#1995a	87	ちょっと気になりますね。\n今後の事も考えて、早めの対応をした方が\n良いかもしれませんね。
+541	prose_other	FLOW_PRG/DRAFT.BIN#3c7c1	44	こんな金額で、俺を獲得しようと\nいうのかい？
+542	prose_other	FLOW_PRG/RECON.BIN#24a36	42	契約切れまで待てないのか？\nせっかちだな。
+543	prose_other	FLOW_PRG/DRSDENDO.BIN#399fa	58	Ｊ１の年度別のゴールランキングを\n確認することができます。
+544	prose_other	FLOW_PRG/LOCAL.BIN#11a54	54	店がもう少しあればのう。\nあまり買い物が楽しくないし。
+545	prose_other	FLOW_PRG/SCHE1.BIN#5151c	36	*** フレンドリーマッチ相手選出 ***
+546	prose_other	FLOW_PRG/RECON.BIN#23962	48	冗談にもほどが有るというものだ。\n不快感極まる！
+547	prose_other	FLOW_PRG/DRAFT.BIN#42391	31	若い頃のパワーは感じられない。
+548	prose_other	FLOW_PRG/LOCAL.BIN#112c4	64	この街じゃ、将来僕が住む家なんて\n無いんだろうね。スゴく困るよ。
+549	prose_other	FLOW_PRG/DRSISEKI.BIN#15fa1	48	私たちのクラブの\n試合スケジュールを確認します。
+550	prose_other	FLOW_PRG/DRAFT.BIN#2af40	116	知る人ぞ知るという選手の登場ですね。\nあらゆるシステムに対応できる適応性を持ち\n高い技術力で中盤を支配するＭＦです。
+551	prose_other	FLOW_PRG/NEWCON.BIN#28540	50	素晴らしいクラブを作って行こう。\nよろしく頼むよ。
+552	prose_other	FLOW_PRG/YOUTH.BIN#33d9c	35	システム見極めと実践は世界レベル。
+553	prose_other	FLOW_PRG/ESTABLIS.BIN#1b333	22	オフィスへ戻ります。\n
+554	prose_other	FLOW_PRG/SCHE0.BIN#4e6e8	116	激しいあたりでボールを奪い、研ぎ澄まされ\nたカウンターを繰り出すプレイが象徴的\nですね。ハイボール、堅守も定評です。
+555	prose_other	FLOW_PRG/YOUTH.BIN#34dc7	27	爆発的な成長を見せている。
+556	prose_training	FLOW_PRG/TRAINING.BIN#7ec2b	107	戦術に対するﾁｰﾑの理解力は低いですが、\n@Y/%s@選手がｳｲﾝｸﾞとして抜群で\n右ｻｲﾄﾞｱﾀｯｸをスムーズに機能しています。
+557	prose_training	FLOW_PRG/TRAINING.BIN#6d2b8	115	@Y/#tk20#@選手、GK技術、飛び出しが\n非常に上手く、相手FWに大きなプレッシャー\nになります。GKとして頼れる選手ですね。
+558	prose_training	FLOW_PRG/TRAINING.BIN#6acbc	93	@Y/#tk20#@選手、守備の技術、\nキック精度ともに高いです。\n攻撃への繋ぎに非常に活躍しそうです。
+559	prose_training	FLOW_PRG/TRAINING.BIN#51e6f	81	@Y/ｽﾄﾗｲｶｰ@の能力を高めます。\nゴールに向かう集中力とシュートの\n決定力を養います。
+560	prose_training	FLOW_PRG/TRAINING.BIN#6b9a6	96	@Y/#tk20#@選手、走力は高いですが\nウイングとしての理解度は低いです。\nｵｰﾊﾞｰﾗｯﾌﾟは期待できません。
+561	prose_training	FLOW_PRG/TRAINING.BIN#44dff	64	今回の試合で使うチーム戦術を決定します。\n現在は@Y/#tk21#@です。
+562	prose_training	FLOW_PRG/TRAINING.BIN#62772	99	@Y/#tk20#@選手の練習結果です。\n４-３-３ｼｽﾃﾑをかなり理解しています。\nうまく機能出来ている様ですね。
+563	prose_training	FLOW_PRG/TRAINING.BIN#7eea1	93	ﾁｰﾑが戦術を理解してきており、\n@Y/%s@選手のｽﾋﾟｰﾄﾞも確かで\n右からの攻撃がｽﾑｰｽﾞにいっています。
+564	prose_training	FLOW_PRG/TRAINING.BIN#7cd50	99	@Y/%s@選手が未熟ながら前線の\nﾎﾟｲﾝﾄになっていますが、戦術に対する\nﾁｰﾑの理解が低過ぎて機能しません。
+565	prose_training	FLOW_PRG/TRAINING.BIN#6209f	101	@Y/#tk20#@選手の練習結果です。\n守りからチャンスをうかがう５-３-２の\nｼｽﾃﾑをうまく機能出来ていません。
+566	prose_training	FLOW_PRG/TRAINING.BIN#6842d	107	@Y/#tk20#@選手、シュート技術は非常に\nに高く、そこそこのｽﾄﾗｲｶｰの役割理解度で\nクラブの得点源になりそうです。
+567	prose_training	FLOW_PRG/TRAINING.BIN#576cc	106	@Y/ﾄﾞﾘﾌﾞﾗｰ@としての能力を高めます。\n局面の打開と得点のチャンスを作る為の\nドリブル技術とキープ力を養います
+568	prose_training	FLOW_PRG/TRAINING.BIN#699c1	111	@Y/#tk20#@選手、キック精度はそこそこ\nですが、その場の判断力は皆無です。\nｹﾞｰﾑﾒｰｶｰとしてまだまだ練習が必要です。
+569	prose_training	FLOW_PRG/TRAINING.BIN#67734	109	@Y/#tk20#@選手、世界トップクラスの\n得点力ながら、ﾎﾟｽﾄﾌﾟﾚｲの理解の低さで\nこのスタイルの足を引っ張っています。
+570	prose_training	FLOW_PRG/TRAINING.BIN#696a7	106	@Y/#tk20#@選手、キック精度は問題外\nですが、その場の判断力は標準レベルです。\nかろうじてｹﾞｰﾑﾒｰｸは可能です。
+571	prose_training	FLOW_PRG/TRAINING.BIN#6d581	103	@Y/#tk20#@選手、シュート技術は\n高く、得点もそれなりに期待できます。\n練習次第でさらに上を目指せますよ。
+572	prose_training	FLOW_PRG/TRAINING.BIN#5fb29	92	@Y/ﾎﾞﾗﾝﾁ@としての能力を高めます。\nＤＦと前線をつなぎ、攻守の起点となる為の\n能力を養います。
+573	prose_training	FLOW_PRG/TRAINING.BIN#5cfbd	111	@Y/ｻｲﾄﾞﾊﾞｯｸ@としての能力を高めます。\n攻撃時に、後方から素早くオーバーラップ\nする為の走力やパス能力を養います。
+574	prose_training	FLOW_PRG/TRAINING.BIN#67609	89	@Y/#tk20#@選手、驚異的な得点力と\n高いレベルのﾎﾟｽﾄﾌﾟﾚｲ理解度で\n見事に機能させていますね。
+575	prose_training	FLOW_PRG/TRAINING.BIN#7e077	103	ｳｲﾝｸﾞの@Y/%s@選手は平均的で、\nﾁｰﾑとしても戦術を理解してきており、\n何とか左ｻｲﾄﾞｱﾀｯｸを機能させています。
+576	prose_training	FLOW_PRG/TRAINING.BIN#53558	72	設定した練習メニューを実行します。\n練習後には各選手の成果を報告します。
+577	prose_training	FLOW_PRG/TRAINING.BIN#47aba	83	かなり高い決定力を有するＦＷですね。\nやすやすと止めさせてはくれそうに\n無いですよ。
+578	prose_training	FLOW_PRG/TRAINING.BIN#7779a	115	中盤を厚くしてチャンスを作り、２列目の\n攻撃参加を狙うシステムです。ゾーンプレス\nも効果的に行う事ができるでしょう。
+579	prose_training	FLOW_PRG/TRAINING.BIN#48fcd	117	プレッシャーにはあまり強く無い選手ですが\n世界でも屈指のシュート力を持つ選手です。\n彼の決定力には期待出来そうですね。
+580	prose_training	FLOW_PRG/TRAINING.BIN#487e0	62	怪我をしていますね。\n彼本来の動きはまったく出来ないでしょう。
+581	prose_training	FLOW_PRG/TRAINING.BIN#5d3cb	99	パスカットの技術を高めます。\n相手のパスコースを効果的に遮断する\nポジショニングと判断力を養います。
+582	prose_training	FLOW_PRG/TRAINING.BIN#48331	87	十分な能力を有するＤＦですね。\n彼の守備を破るのは、そうたやすい\n事ではなさそうですよ。
+583	prose_training	FLOW_PRG/TRAINING.BIN#4d4ee	87	驚異的なスタミナの持ち主ですね。\n今からなら１秒間も休まずに\n全力を出し続けられますよ。
+584	prose_training	FLOW_PRG/TRAINING.BIN#50488	42	設定した練習を行います。\nよろしいですか？
+585	prose_training	FLOW_PRG/TRAINING.BIN#56d5c	87	攻撃に専念するＦＷを１人だけ残し、\n徹底的な守りを主眼とする\nシステムの練習を行います。
+586	prose_training	FLOW_PRG/TRAINING.BIN#505db	109	まだ対戦相手の情報が集まっていません。\n次の試合が行われる時には情報が集まります\nので、それまでお待ち下さい。
+587	prose_training	FLOW_PRG/TRAINING.BIN#45187	105	３-５-２システムをより守備的にした\nシステムです。ｻｲﾄﾞ攻撃主体は同じですが\nより守備に重点を置いています。
+588	prose_training	FLOW_PRG/TRAINING.BIN#748a6	79	瞬発力を高めます。\nあらゆる局面で優位になる為に、\n行動の速さや走力を養います。
+589	prose_training	FLOW_PRG/TRAINING.BIN#b6b14	115	１トップのＦＷを前線に張り付かせます。\n人数が少ない分、より少ないチャンスを物に\n出来る決定力のあるＦＷが必要です。
+590	prose_training	FLOW_PRG/TRAINING.BIN#77dc5	77	通常の中盤守備を行います。\nゾーンプレスに比べ、選手の負担は\n少なくなります。
+591	prose_training	FLOW_PRG/TRAINING.BIN#78d99	79	クラブ全体の攻撃力を強化します。\n選手全員で攻撃力を高める為の\n練習を行います。
+592	prose_training	FLOW_PRG/TRAINING.BIN#81b01	113	ｿﾞｰﾝﾌﾟﾚｽに関しては、プレスのかけかたが\n大変上手いのですが、それを試合中に行う\n体力がほとんどの選手にありません。
+593	prose_training	FLOW_PRG/TRAINING.BIN#6005f	101	相手のセンタリングに対し、タイミング良く\n飛び出してシュートを打たせない\nやや攻撃的なＧＫの練習です。
+594	prose_training	FLOW_PRG/TRAINING.BIN#8022f	105	中央の選手達がドリブル、ﾊﾟｽに長け、\nﾁｰﾑが戦術を完全に理解しているので\n見事な中央突破を行う事が出来ます。
+595	prose_training	FLOW_PRG/TRAINING.BIN#5a5e0	101	ヘディング能力を高めます。\n攻守での制空権争いに優位に立つ為の\nポジショニング、タイミングを養います。
+596	prose_training	FLOW_PRG/TRAINING.BIN#59761	83	様々なセットプレーの状況を想定した\n練習を行い、セットプレーでの得点力を\n高めます。
+597	prose_training	FLOW_PRG/TRAINING.BIN#56d07	85	中盤を厚くしてチャンスを作り出し、\n２列目の攻撃参加を狙うシステムの\n練習を行います。
+598	prose_training	FLOW_PRG/TRAINING.BIN#55886	66	特別な戦術を指定しない状態です。\nバランスをとって攻撃を行います。
+599	prose_training	FLOW_PRG/TRAINING.BIN#b7630	117	とても攻撃的なＭＦタイプです。中央からも\nサイドからも効果的に攻撃できます。ただし\n中盤での守備力の低下は否めません。
+600	prose_training	FLOW_PRG/TRAINING.BIN#4804f	87	十分な能力を有するＭＦですね。\n相手の攻撃を中盤で食い止め\n確実に攻撃に繋いでいますね。
+601	prose_training	FLOW_PRG/TRAINING.BIN#4ab9a	99	得点ではリードしていますが\n試合の流れは完全に相手のものですね。\nこのままでは追いつかれそうですよ。
+602	prose_training	FLOW_PRG/TRAINING.BIN#6ac59	99	@Y/#tk20#@選手、守備の技術は高く、\nキック精度は標準的です。\n上手く中盤で敵の侵攻を防いでいますよ。
+603	prose_training	FLOW_PRG/TRAINING.BIN#51d52	91	練習をキャンセルし、選手を休養させます。\n選手の疲労度を回復させ、怪我を未然に\n防止します。
+604	prose_training	FLOW_PRG/TRAINING.BIN#7514c	115	守備スペースの空きを補い、防御を高める\n役割を果たすスイーパーを用いる守備戦術\nです。守備能力の高いＤＦが必要です。
+605	label	FLOW_PRG/PL_EDIT.BIN#43160	8	しいな
+606	label	FLOW_PRG/PLNUMSET.BIN#3489c	4	く
+607	label	FLOW_PRG/AUTOSAVE.BIN#8a78c	8	北朝鮮
+608	label	FLOW_PRG/GAME.BIN#19d9fc	16	タイトル未定

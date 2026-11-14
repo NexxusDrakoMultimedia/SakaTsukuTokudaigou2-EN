@@ -1,0 +1,77 @@
+{"l10n":1,"kind":"main","style":"compact","n":76,"final_newline":true,"src":"FLOW_PRG/N_ENTRY.BIN"}
+{"id":"dce0","jah":"5900d2ed95c2bfd7e73fd30e0a8805ad","max_bytes":105,"refs":1,"ctx":"ptr@e0b4","skip":true}
+{"id":"dd49","jah":"50ec2847c5808f3a551c455b725f4c9d","max_bytes":105,"refs":1,"ctx":"ptr@e0b8","skip":true}
+{"id":"ddb2","jah":"546e2fbf7d27a2e891f0a688314471c7","max_bytes":105,"refs":1,"ctx":"ptr@e0c0","skip":true}
+{"id":"de1b","jah":"61ca7d6aeb50f6030d0dc0cbb8c1b5bd","max_bytes":105,"refs":1,"ctx":"ptr@e0c4","skip":true}
+{"id":"df56","jah":"e4b0238fd24c193dd8adc665cf949479","max_bytes":125,"refs":1,"ctx":"ptr@e0d4","skip":true}
+{"id":"dfd3","jah":"eb4ea44115a51d54698476948c870fea","max_bytes":50,"refs":1,"ctx":"ptr@e0d8","skip":true}
+{"id":"10100","jah":"4455ec1c8fe0b5f907e75b4514c88628","en":"What is your name? You can enter up to\n13 characters. Put a space between\nyour given name and family name.","max_bytes":107,"refs":1,"ctx":"tbl@e100[0/5]"}
+{"id":"1016b","jah":"bcfcf820253b10fec763f1d5e92b305e","en":"So you're @Y/\"%s%s\"@.\nI'll call you @Y/\"%s\"@ from now on.\nIs that all right?","max_bytes":85,"refs":1,"ctx":"tbl@e100[1/5]"}
+{"id":"101c0","jah":"4df88b5d84a93ea29b3ebc0a7f7d2634","en":"You entered @Y/\"%s\"@, with no space\nbetween family and given name, so you\nwill be called @Y/\"%s\"@. Is that OK?","max_bytes":91,"refs":1,"ctx":"tbl@e100[2/5]"}
+{"id":"1021b","jah":"2465311fe7edfa0e4f34310fd4a17e9e","en":"You haven't entered a name, so I'll\ncall you @Y/\"Hide Tamano\"@ for now.\nIs that all right?","max_bytes":92,"refs":1,"ctx":"tbl@e100[3/5]"}
+{"id":"10277","jah":"aef1b43b2b5d461cc93d8a92f35acea8","en":"Your name is @R/\"#tk00#\"@?\n...You must have had a hard life.\nAre you sure about this name?","max_bytes":93,"refs":1,"ctx":"tbl@e100[4/5]"}
+{"id":"102d4","jah":"d511c65cd2d6725fce0c11bf729c03da","en":"H. Tamano","max_bytes":12,"refs":1,"ctx":"ptr@d28"}
+{"id":"10320","jah":"e39b319d59d82d2469ad0034c328c989","en":"FUCK","max_bytes":12,"refs":1,"ctx":"tbl@e120[0/3]"}
+{"id":"1032c","jah":"c344473f72907752674acd946d83fb8f","en":"Fuck","max_bytes":12,"refs":1,"ctx":"tbl@e120[1/3]"}
+{"id":"10338","jah":"811f42fa017027962e3e963a14737ee7","en":"fuck","max_bytes":12,"refs":1,"ctx":"tbl@e120[2/3]"}
+{"id":"1034c","jah":"da59a139784a089df32a5a26ed90fea9","en":"SEX","max_bytes":8,"refs":1,"ctx":"tbl@e134[0/44]"}
+{"id":"10354","jah":"7a4229a889541dbf314c61cce950c62f","en":"sex","max_bytes":8,"refs":1,"ctx":"tbl@e134[1/44]"}
+{"id":"1035c","jah":"73170355cd1bc70b8cacb33a972fbdba","en":"A","max_bytes":4,"refs":1,"ctx":"tbl@e134[2/44]"}
+{"id":"10360","jah":"962c0912dea9bc5418ee5a630c04ab06","en":"A","max_bytes":4,"refs":1,"ctx":"tbl@e134[3/44]"}
+{"id":"10364","jah":"ab959e5eb4d2f3b0847c841759e22904","en":"Anal","max_bytes":8,"refs":1,"ctx":"tbl@e134[4/44]"}
+{"id":"1036c","jah":"0c323ff697ed368e0a320ebbd06d65f8","en":"Twit","max_bytes":8,"refs":1,"ctx":"tbl@e134[5/44]"}
+{"id":"10374","jah":"f84972cdc583e298846270dd3da0f707","en":"Fool","max_bytes":8,"refs":1,"ctx":"tbl@e134[6/44]"}
+{"id":"1037c","jah":"a4e2d0f1438c8d1f705e71df0135430c","en":"Clit","max_bytes":12,"refs":1,"ctx":"tbl@e134[7/44]"}
+{"id":"10388","jah":"82683c98f3175d354bf57a75c142c947","en":"Labia","max_bytes":12,"refs":1,"ctx":"tbl@e134[8/44]"}
+{"id":"10394","jah":"48dccef20bcae2c7f2297043505381f0","en":"Sac","max_bytes":8,"refs":1,"ctx":"tbl@e134[9/44]"}
+{"id":"1039c","jah":"d7bb95fcbde13b4f8434379c750f3636","en":"Vagina","max_bytes":12,"refs":1,"ctx":"tbl@e134[10/44]"}
+{"id":"103a8","jah":"4fdeb7feb0230e40b903bda51825265d","en":"Poo","max_bytes":8,"refs":1,"ctx":"tbl@e134[11/44]"}
+{"id":"103b0","jah":"9db0e19251e5892d04f85e0384f44bfd","en":"Poop","max_bytes":8,"refs":1,"ctx":"tbl@e134[12/44]"}
+{"id":"103b8","jah":"727ddcb8ffa60618194aa175fdb60d0e","en":"Wee","max_bytes":12,"refs":1,"ctx":"tbl@e134[13/44]"}
+{"id":"103c4","jah":"1bbb7555e2e95d7bb95f290e99292fa3","en":"Willy","max_bytes":12,"refs":1,"ctx":"tbl@e134[14/44]"}
+{"id":"103d0","jah":"e114e3e1aeffe5761b164768713b4a37","en":"Cock","max_bytes":8,"refs":1,"ctx":"tbl@e134[15/44]"}
+{"id":"103d8","jah":"2f7f9e0d227f942b73b36ff81d14d44d","en":"Wank","max_bytes":12,"refs":1,"ctx":"tbl@e134[16/44]"}
+{"id":"103e4","jah":"323c92e84631cdf88295c66096dc30be","en":"Pussy","max_bytes":12,"refs":1,"ctx":"tbl@e134[17/44]"}
+{"id":"103f0","jah":"c46a3535de4a1b55bb80ffefe2f6b9e2","en":"Cunt","max_bytes":8,"refs":1,"ctx":"tbl@e134[18/44]"}
+{"id":"103f8","jah":"9871c0231a14f35718b6b7dc992832b4","en":"Nuts","max_bytes":8,"refs":1,"ctx":"tbl@e134[19/44]"}
+{"id":"10400","jah":"a4dd9c1f337ba0635fb1f0a412d2b64a","en":"Shit","max_bytes":8,"refs":1,"ctx":"tbl@e134[20/44]"}
+{"id":"10408","jah":"7513835a75296a02825299f5d2139542","en":"Clitoris","max_bytes":12,"refs":1,"ctx":"tbl@e134[21/44]"}
+{"id":"10414","jah":"45a40ee282b35c3d0c3af55f12ebf071","en":"Anus","max_bytes":8,"refs":1,"ctx":"tbl@e134[22/44]"}
+{"id":"1041c","jah":"6bd4c65e59ca52fe13e72aa858f36b26","en":"Pee","max_bytes":8,"refs":1,"ctx":"tbl@e134[23/44]"}
+{"id":"10424","jah":"10905c82fc56269d8442ab534d2ebb18","en":"Labia Minora","max_bytes":16,"refs":1,"ctx":"tbl@e134[24/44]"}
+{"id":"10434","jah":"2b4e7dfa4723bbc976e5b957d6e15e7b","en":"Piss","max_bytes":8,"refs":1,"ctx":"tbl@e134[25/44]"}
+{"id":"1043c","jah":"e9a12c568fe71671f776d1d217c64adb","en":"Scat","max_bytes":12,"refs":1,"ctx":"tbl@e134[26/44]"}
+{"id":"10448","jah":"5f555edbf253fccd1dced60b6a9ea052","en":"Sex","max_bytes":12,"refs":1,"ctx":"tbl@e134[27/44]"}
+{"id":"10454","jah":"5bf9002b62c5253de7d19d84dfb6ebd3","en":"Labia Majora","max_bytes":16,"refs":1,"ctx":"tbl@e134[28/44]"}
+{"id":"10464","jah":"68ae4fd50befd5c8023bd25fa93125a3","en":"Bollocks","max_bytes":12,"refs":1,"ctx":"tbl@e134[29/44]"}
+{"id":"10470","jah":"4b14a7c1f22e006c2b75a3071414c108","en":"Sack","max_bytes":8,"refs":1,"ctx":"tbl@e134[30/44]"}
+{"id":"10478","jah":"7335e4a8950957f9070e3bfd7bb6ad26","en":"Twat","max_bytes":8,"refs":1,"ctx":"tbl@e134[31/44]"}
+{"id":"10480","jah":"0ba62230ed7e491a29956e2849fb51bb","en":"Dick","max_bytes":8,"refs":1,"ctx":"tbl@e134[32/44]"}
+{"id":"10488","jah":"5b3cfd882d43d62a141a7f7175de9652","en":"Knob","max_bytes":12,"refs":1,"ctx":"tbl@e134[33/44]"}
+{"id":"10494","jah":"a65b8a51d3ae634f85d51067c60a6f67","en":"Prick","max_bytes":8,"refs":1,"ctx":"tbl@e134[34/44]"}
+{"id":"1049c","jah":"93dab731c864cea461856d16d157996b","en":"Todger","max_bytes":8,"refs":1,"ctx":"tbl@e134[35/44]"}
+{"id":"104a4","jah":"866cdbde0a44875483c2b5eb3e46da07","en":"Johnson","max_bytes":12,"refs":1,"ctx":"tbl@e134[36/44]"}
+{"id":"104b0","jah":"01b3f52e041dc867a7dc23d35562d5e7","en":"Dolt","max_bytes":8,"refs":1,"ctx":"tbl@e134[37/44]"}
+{"id":"104b8","jah":"8e48ded781dc7ba4c5c177448409f09f","en":"Dumb","max_bytes":8,"refs":1,"ctx":"tbl@e134[38/44]"}
+{"id":"104c0","jah":"4df229296f70230d704beccdb883cba9","en":"Blowjob","max_bytes":12,"refs":1,"ctx":"tbl@e134[39/44]"}
+{"id":"104cc","jah":"90d23135eb5af70ed050ca38f682a20a","en":"Penis","max_bytes":8,"refs":1,"ctx":"tbl@e134[40/44]"}
+{"id":"104d4","jah":"3b5bb9ea3b393670cd5a3725b994a7cf","en":"Winkle","max_bytes":12,"refs":1,"ctx":"tbl@e134[41/44]"}
+{"id":"104e0","jah":"46a7b4745f265b52974f3dd19b1f65aa","en":"Dong","max_bytes":8,"refs":1,"ctx":"tbl@e134[42/44]"}
+{"id":"104e8","jah":"c41c7e4dac46023ec8898fbf530c7252","en":"Minge","max_bytes":8,"refs":1,"ctx":"tbl@e134[43/44]"}
+{"id":"1053c","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@5ed0","skip":true}
+{"id":"10540","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@5ed8[0/3]","skip":true}
+{"id":"10548","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@5ed8[1/3]","skip":true}
+{"id":"1054c","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@5ed8[2/3]","skip":true}
+{"id":"10550","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@1050c[0/11]"}
+{"id":"10554","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@1050c[1/11]"}
+{"id":"10558","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@1050c[2/11]"}
+{"id":"1055c","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@1050c[3/11]"}
+{"id":"10560","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@1050c[4/11]"}
+{"id":"10564","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@1050c[5/11]"}
+{"id":"10568","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@1050c[6/11]"}
+{"id":"1056c","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@1050c[7/11]"}
+{"id":"10570","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@1050c[8/11]"}
+{"id":"10574","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@1050c[9/11]"}
+{"id":"10578","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@1050c[10/11]"}
+{"id":"105f8","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@626c"}
+{"id":"106dc","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@763c"}

@@ -1,0 +1,11 @@
+loop1 zero-fill words  [0x8c16f800, 0x8c299400)
+loop2 copy bytes dst [0x8c017120, 0x8c017120) src 0x8c017100  (empty if equal)
+loop3 zero-fill bytes  [0x8c193c30, 0x8c1fc180)
+loop4 copy bytes dst [0x8c13bae0, 0x8c13bae0) src 0x8c134b24  (empty if equal)
+section table at 0x8c10dbdc: ['0x8c010000', '0x8c010060', '0x8c010060', '0x8c010080', '0x8c134b24', '0x8c13ba60', '0x8c13bae0', '0x8c13bae0', '0x8c13bae0', '0x8c13bae0', '0x8c193c30', '0x8c1f9fc0', '0x8c1f9fc0', '0x8c1fc180', '0x8c2e0000', '0x8c2e0000', '0x8c2e0000']
+pool table at 0x8c016b68: ['0x8c017100', '0x8c017120', '0x8c017120', '0x8c017120', '0x8c017120', '0x8c017120', '0x8c16f800', '0x8c193c30', '0x8c239000', '0x8c299400', '0x8c2e0000', '0x8c2e0000', '0x8c2e0000', '0x8c2e0000']
+file [8c299400,8c2a0000) all zero: True len 27648
+file [8c2a0000,8c2b0000) = repeated 64-byte filler: True
+gap1 zero in file: True len 120096 next byte nonzero: True prev byte nonzero: True
+gap2 zero in file: True len 13466 next byte nonzero: True prev byte nonzero: True
+gap3 zero in file: True len 16701 next byte nonzero: True prev byte nonzero: True

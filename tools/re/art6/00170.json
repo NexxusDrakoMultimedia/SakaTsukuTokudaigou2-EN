@@ -1,0 +1,316 @@
+{
+ "texture": "00170",
+ "supersample": 4,
+ "quantize": "argb4444",
+ "regions": [
+  {
+   "id": "ovs",
+   "ja": "海外クラブ",
+   "text": "Overseas Clubs",
+   "x": 2,
+   "y": 26,
+   "w": 133,
+   "h": 34,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 24,
+   "min_sx": 0.7,
+   "erase_rect": [
+    1,
+    24,
+    135,
+    38
+   ]
+  },
+  {
+   "id": "nat",
+   "ja": "国代表",
+   "text": "National Teams",
+   "x": 146,
+   "y": 26,
+   "w": 133,
+   "h": 34,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 24,
+   "min_sx": 0.7,
+   "erase_rect": [
+    145,
+    24,
+    135,
+    38
+   ]
+  },
+  {
+   "id": "auto",
+   "ja": "自動選択",
+   "text": "Auto",
+   "x": 290,
+   "y": 24,
+   "w": 132,
+   "h": 36,
+   "style": "wht",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 160
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 28,
+   "min_sx": 0.7,
+   "erase_rect": [
+    289,
+    22,
+    134,
+    40
+   ]
+  },
+  {
+   "id": "jl",
+   "ja": "Jリーグ",
+   "text": "J.League",
+   "x": 2,
+   "y": 110,
+   "w": 133,
+   "h": 34,
+   "style": "yel",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 170
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 26,
+   "min_sx": 0.7,
+   "erase_rect": [
+    1,
+    108,
+    135,
+    41
+   ]
+  },
+  {
+   "id": "man",
+   "ja": "手動選択",
+   "text": "Manual",
+   "x": 290,
+   "y": 110,
+   "w": 132,
+   "h": 36,
+   "style": "wht",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 160
+     },
+     {
+      "luma_lt": 20
+     }
+    ],
+    "dilate": 3,
+    "fill": "hfill"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 28,
+   "min_sx": 0.7,
+   "erase_rect": [
+    289,
+    108,
+    134,
+    40
+   ]
+  },
+  {
+   "id": "start",
+   "ja": "試合開始",
+   "text": "Start Match",
+   "x": 150,
+   "y": 102,
+   "w": 84,
+   "h": 30,
+   "style": "btn",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 185
+     },
+     {
+      "luma_lt": 40
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 15,
+   "min_sx": 0.7,
+   "erase_rect": [
+    150,
+    100,
+    84,
+    34
+   ]
+  },
+  {
+   "id": "redraw",
+   "ja": "再ドロー",
+   "text": "Redraw",
+   "x": 150,
+   "y": 142,
+   "w": 84,
+   "h": 30,
+   "style": "btn",
+   "erase": {
+    "mode": "mask",
+    "ink": [
+     {
+      "luma_gt": 185
+     },
+     {
+      "luma_lt": 40
+     }
+    ],
+    "dilate": 1,
+    "fill": "diffuse"
+   },
+   "align": "center",
+   "size": "auto",
+   "max_size": 15,
+   "min_sx": 0.7,
+   "erase_rect": [
+    150,
+    140,
+    84,
+    34
+   ]
+  }
+ ],
+ "styles": {
+  "yel": {
+   "bold": 0.6,
+   "font": [
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffff70"
+    ],
+    [
+     0.55,
+     "#ffee10"
+    ],
+    [
+     1,
+     "#e8c800"
+    ]
+   ],
+   "outline": {
+    "color": "#201000",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 2,
+    "dy": 2,
+    "alpha": 1.0
+   }
+  },
+  "wht": {
+   "bold": 0.6,
+   "font": [
+    "arial-bold"
+   ],
+   "gradient": [
+    [
+     0,
+     "#ffffff"
+    ],
+    [
+     0.5,
+     "#e8e8ec"
+    ],
+    [
+     1,
+     "#9c9ca8"
+    ]
+   ],
+   "outline": {
+    "color": "#101018",
+    "width": 1.0
+   },
+   "shadow": {
+    "color": "#000000",
+    "dx": 2,
+    "dy": 2,
+    "alpha": 1.0
+   }
+  },
+  "btn": {
+   "font": [
+    "arial-bold"
+   ],
+   "fill": "#f4f4ff",
+   "outline": {
+    "color": "#10104a",
+    "width": 0.8
+   },
+   "shadow": {
+    "color": "#10104a",
+    "dx": 1,
+    "dy": 1,
+    "alpha": 1.0
+   }
+  }
+ }
+}

@@ -1,0 +1,34 @@
+---- 8c2d0000-8c2d0040
+8c2d0000: mov.l 0x8c2d002c,r0
+8c2d0002: mov.l 0x8c2d0024,r2
+8c2d0004: mov.l 0x8c2d0028,r1
+8c2d0006: sts.l PR,@-r15
+8c2d0008: mov.l @r0,r6
+8c2d000a: mov.l @r2,r3
+8c2d000c: mov #-0x20,r2
+8c2d000e: mov.l 0x8c2d0030,r5
+8c2d0010: or r1,r6
+8c2d0012: mov.l 0x8c2d0034,r4
+8c2d0014: and r2,r6
+8c2d0016: jsr @r3
+8c2d0018: _add #0x20,r6
+8c2d001a: lds.l @r15+,PR
+8c2d001c: mov.l 0x8c2d0034,r0
+8c2d001e: rts
+8c2d0020: _nop
+8c2d0022: .data ?
+8c2d0024: mov.w 0x8c2d00b0,r1
+8c2d0026: .data ?
+8c2d0028: .data ?
+8c2d002a: mov.b r0,@(0x0,r0)
+8c2d002c: mov.l 0x8c2d0410,r14
+8c2d002e: .data ?
+8c2d0030: .data ?
+8c2d0032: .data ?
+8c2d0034: bsr 0x8c2cf6e8
+8c2d0036: .data ?
+8c2d0038: .data ?
+8c2d003a: .data ?
+8c2d003c: .data ?
+8c2d003e: .data ?
+8c2d0040: .data ?

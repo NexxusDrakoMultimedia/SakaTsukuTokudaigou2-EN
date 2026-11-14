@@ -1,0 +1,24 @@
+{"l10n":1,"kind":"main","style":"compact","n":23,"final_newline":true,"src":"FLOW_PRG/INITCON.BIN"}
+{"id":"11808","jah":"c7414a275400996ae12f0a7340bfeabf","en":"These are the players of our club.\nThey'd all like to say hello to\n#sname#.","max_bytes":82,"refs":1,"ctx":"tbl@55e8[0/4]"}
+{"id":"1185a","jah":"0a471c8e29c05b7f8ca406f286e15b7a","en":"Now, let's choose the club's manager.\nThe manager follows #sname#'s policy\nand runs effective training sessions.","max_bytes":106,"refs":1,"ctx":"tbl@55e8[1/4]"}
+{"id":"118c4","jah":"5d81d3ed1088b7acc71309abc66715d7","en":"Next, let's choose a scout. The scout\nlists good players based on what\n#sname# is looking for.","max_bytes":102,"refs":1,"ctx":"tbl@55e8[2/4]"}
+{"id":"1192a","jah":"65f89477e2476c6d57b5944fd8419f1a","en":"That settles nearly everything about\nour club. Now, let's get the club\nofficially started.","max_bytes":94,"refs":1,"ctx":"tbl@55e8[3/4]"}
+{"id":"11a6c","jah":"9e7d7f5a91c0ed851ada6f3a7fde11ed","en":"Expression %d","max_bytes":16,"refs":1,"ctx":"ptr@e18"}
+{"id":"11a7c","jah":"bf901b65b51e0860dba2b43242bbd483","en":"Expression textures not loaded","max_bytes":36,"refs":1,"ctx":"ptr@10a4"}
+{"id":"11b20","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@1c18"}
+{"id":"11c04","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@2fe8"}
+{"id":"11c38","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@3ab4","skip":true}
+{"id":"11c3c","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@3abc[0/3]","skip":true}
+{"id":"11c44","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@3abc[1/3]","skip":true}
+{"id":"11c48","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@3abc[2/3]","skip":true}
+{"id":"11c4c","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@11c08[0/11]"}
+{"id":"11c50","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@11c08[1/11]"}
+{"id":"11c54","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@11c08[2/11]"}
+{"id":"11c58","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@11c08[3/11]"}
+{"id":"11c5c","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@11c08[4/11]"}
+{"id":"11c60","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@11c08[5/11]"}
+{"id":"11c64","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@11c08[6/11]"}
+{"id":"11c68","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@11c08[7/11]"}
+{"id":"11c6c","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@11c08[8/11]"}
+{"id":"11c70","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@11c08[9/11]"}
+{"id":"11c74","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@11c08[10/11]"}

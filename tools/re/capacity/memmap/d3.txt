@@ -1,0 +1,65 @@
+no func at 8c159e9c
+no func at 8c164434
+no func at 8c164b4c
+no func at 8c016b88
+no func at 8c15e620
+no func at 8c160020
+
+//////// FUN_8c011084 @ 8c011084 body 8c011084-8c011117
+
+undefined * FUN_8c011084(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4)
+
+{
+  undefined *puVar1;
+  undefined *puVar2;
+  int iVar3;
+  undefined *puVar4;
+  undefined1 *puVar5;
+  undefined1 auStack_10004 [65516];
+  undefined4 auStack_18 [2];
+  undefined *local_10 [2];
+  
+  local_10[1] = &DAT_8c16a5fc;
+  puVar1 = (undefined *)(int)DAT_8c011174;
+  puVar5 = (undefined1 *)((int)local_10 + (int)puVar1);
+  *(undefined4 *)((int)(local_10 + 1) + (int)puVar1) = param_2;
+  *(undefined4 *)((int)local_10 + (int)puVar1) = param_3;
+  *(undefined4 *)(puVar1 + (int)(local_10 + 2)) = param_4;
+  puVar2 = puVar1;
+  if ((((*PTR_DAT_8c01117c != '\0') && (-1 < param_1)) && (param_1 < 0x17)) &&
+     (puVar2 = PTR_DAT_8c011180, PTR_DAT_8c011180[param_1] != '\0')) {
+    puVar4 = puVar1 + (int)(local_10 + 3);
+    puVar2 = (undefined *)
+             (*(code *)PTR_FUN_8c011184)
+                       (puVar4,*(undefined4 *)((int)local_10 + (int)puVar1),
+                        *(undefined4 *)(puVar1 + (int)(local_10 + 2)));
+    if ((int)DAT_8c011176 <= (int)puVar2) {
+      *(undefined **)((int)(auStack_18 + 1) + (int)puVar1) = puVar2;
+      *(undefined **)((int)auStack_18 + (int)puVar1) =
+           PTR_s_Too_long_syslog_string_length__d_8c011188;
+      FUN_8c0111b4(1);
+      puVar5 = (undefined1 *)((int)local_10 + (int)puVar1);
+      puVar4[DAT_8c011176] = 0;
+    }
+    FUN_8c011118(puVar4,*(undefined4 *)(puVar5 + 4));
+    if (param_1 == 0) {
+      FUN_8c011118(PTR_s____fatal_error_TRAP__press_SPACE_8c01118c,1);
+      puVar1 = PTR_FUN_8c011194;
+      if (*PTR_DAT_8c011190 == '\x01') {
+        do {
+          iVar3 = (*(code *)puVar1)();
+        } while (iVar3 != 0x20);
+      }
+      FUN_8c011234();
+    }
+    *PTR_DAT_8c011198 = (char)param_1;
+  }
+  return puVar2;
+}
+
+
+-- callers:
+   8c011228
+   8c0111e8
+   8c159f9a
+   8c15a078

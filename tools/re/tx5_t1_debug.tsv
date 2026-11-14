@@ -1,0 +1,155 @@
+FLOW_PRG/BPMATCH.BIN#3cc6d	Dummy BootRom comment.
+FLOW_PRG/BPMATCH.BIN#49ee0	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [Data of 8 or fewer]
+FLOW_PRG/BPMATCH.BIN#49f24	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [Over 3 foreigners]
+FLOW_PRG/BPMATCH.BIN#49f68	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [EDIT players included]
+FLOW_PRG/BPMATCH.BIN#49fb4	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [Foreigners]
+FLOW_PRG/BPMATCH.BIN#49ff0	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [Player aged 19+]
+FLOW_PRG/BPMATCH.BIN#4a038	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [Player aged 21+]
+FLOW_PRG/BPMATCH.BIN#4a080	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [Player aged 23+]
+FLOW_PRG/BPMATCH.BIN#4a0c8	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [Player under 30]
+FLOW_PRG/BPMATCH.BIN#4a110	>>>>>>>>>>>EntryTeamPlayerCheck ERROR!!  [Player under 35]
+FLOW_PRG/BPMATCH.BIN#4de28	TEAM_%d: no such club in J2
+FLOW_PRG/BPMWEEK.BIN#1918c	TEAM_%d: no such club in J2
+FLOW_PRG/GAME.BIN#182690	TEAM_%d: no such club in J2
+FLOW_PRG/SPF_READ.BIN#47d20	TEAM_%d: no such club in J2
+ATFIRST/TITLE.BIN#28990	TEAM_%d: no such club in J2
+FLOW_PRG/TITLE.BIN#28a78	TEAM_%d: no such club in J2
+FLOW_PRG/EVENT.BIN#13cf28	TEAM_%d: no such club in J2
+FLOW_PRG/GAME.BIN#17de34	Best Players Match team data set tm:%d
+FLOW_PRG/GAME.BIN#17df48	Best Players Match proxy team data set tm:%d
+FLOW_PRG/GAME.BIN#17e2e0	Corner kick set Scene Num:%d
+FLOW_PRG/GAME.BIN#17e34c	Dummy chance calc
+FLOW_PRG/GAME.BIN#17e360	Chance type  GM_AI_CHC_TYPE_DF
+FLOW_PRG/GAME.BIN#17e384	Chance type  GM_AI_CHC_TYPE_PC
+FLOW_PRG/GAME.BIN#17e41c	Free kick set Scene Num:%d
+FLOW_PRG/GAME.BIN#17e50c	Crowd total:%d normal:%d HOME:%d AWAY:%d
+FLOW_PRG/GAME.BIN#17e698	Card: nonstandard scene  scn:%04d
+FLOW_PRG/GAME.BIN#17e6bc	Dummy scene not freed
+FLOW_PRG/GAME.BIN#17e6d4	Sent off: odd scene  scn:%04d
+FLOW_PRG/GAME.BIN#17e6f4	Injury: odd scene  scn:%04d
+FLOW_PRG/GAME.BIN#17e714	Dummy scene not freed
+FLOW_PRG/GAME.BIN#17e8a0	Regular write-back: too many  tm:%d rpl2:%d
+FLOW_PRG/GAME.BIN#17e8d0	Regular write-back: bad value  tm:%d pl:%d rpl:%d  mrcard:%d rcard:%d
+FLOW_PRG/GAME.BIN#17e91c	Regular write-back: bad value  tm:%d pl:%d rpl:%d  mcard:%d card:%d
+FLOW_PRG/GAME.BIN#17e9cc	Midfield foul set Scene Num:%d
+FLOW_PRG/GAME.BIN#17ea10	Tournament start no:%d matches:%d phase:%d
+FLOW_PRG/GAME.BIN#17eb50	phase info mismatch  card:%d  sch:%d
+FLOW_PRG/GAME.BIN#17ebf0	Challenge match  %08x -> name:%d  unif:%d
+FLOW_PRG/GAME.BIN#17ec78	VTR mode  [HOME]  %08x -> name:%d  unif:%d
+FLOW_PRG/GAME.BIN#17eca8	VTR mode  [AWAY]  %08x -> name:%d  unif:%d
+FLOW_PRG/GAME.BIN#17ed9c	Penalty kick set Scene Num:%d
+FLOW_PRG/GAME.BIN#17eec0	Bad scene data  Scene:%d  attackers  List:%d  Data:%d
+FLOW_PRG/GAME.BIN#17eef8	Bad scene data  Scene:%d  defenders  List:%d  Data:%d
+FLOW_PRG/GAME.BIN#17ef30	Bad tactic  tm:%d  tact:%d
+FLOW_PRG/GAME.BIN#17ef4c	Too few players; cancelling tactic flags  of:%d  df:%d
+FLOW_PRG/GAME.BIN#17f1b8	Bad scene type  FOUL  scn:%04d
+FLOW_PRG/GAME.BIN#17f204	Nobody holds the ball last  scn:%04d
+FLOW_PRG/GAME.BIN#17f3fc	Counter chance  scn:%d  frame:%d (%d+%d)
+FLOW_PRG/GAME.BIN#17f428	Chance set Scene Num:%d
+FLOW_PRG/GAME.BIN#17f458	Player assign error  scene:%d  mixed sides ofdf:%d  pl:%d
+FLOW_PRG/GAME.BIN#17f49c	Player assign error  scene:%d  duplicate player  ofdf:%d  %d = %d
+FLOW_PRG/GAME.BIN#1947f0	Parking lot (Level:%d)
+FLOW_PRG/GAME.BIN#194808	Observatory (Level:%d)
+FLOW_PRG/GAME.BIN#194bd4	CHK_CMP_RES_TYPE_NON(none)
+FLOW_PRG/GAME.BIN#194c74	CHK_CMP_RES_TYPE_TO_QUALIFY_NG(J2 drop, J2 stay, qual. out)
+FLOW_PRG/GAME.BIN#194cb4	CHK_CMP_RES_RES_ANY(anything OK)
+FLOW_PRG/GAME.BIN#194d04	CHK_CMP_RES_RES_WIN_VGOAL(V-goal win)
+FLOW_PRG/GAME.BIN#194d30	CHK_CMP_RES_RES_DRAW(draw)
+FLOW_PRG/GAME.BIN#194de0	LookAtBall : scene not yet set, or scene error.
+FLOW_PRG/GAME.BIN#1956b4	AI: tournament grade adj  grade:%d  tm:%d rpl:%d  (%.3f)
+FLOW_PRG/GAME.BIN#1956f4	AI: captain adj tm:%d  (%.3f)
+FLOW_PRG/GAME.BIN#195718	AI: condition adj  tm:%d rpl:%d  cond:%d  (%.3f)
+FLOW_PRG/GAME.BIN#195a4c	Enemy team set  tm:%d  [
+FLOW_PRG/GAME.BIN#195a6c	Tactics tm:%d
+FLOW_PRG/GAME.BIN#195ae4	CUP sub change  tm:%d  OUT:%d(r:%d)  IN:%d(r:%d)
+FLOW_PRG/GAME.BIN#195b44	No injured player found  tm:%d
+FLOW_PRG/GAME.BIN#195b6c	No free regular slot  tm:%d pl:%d
+FLOW_PRG/GAME.BIN#195b98	No GK  tm:%d
+FLOW_PRG/GAME.BIN#195bb0	CUP: injured sub  tm:%d  OUT:%d(r:%d) IN:%d(r:%d)
+FLOW_PRG/GAME.BIN#195bf0	CUP: tired sub  tm:%d  OUT:%d(r:%d)  IN:%d(r:%d)
+FLOW_PRG/GAME.BIN#196264	Substitution  Team:%d  old:%d  new:%d
+FLOW_PRG/GAME.BIN#19628c	No sub  Team:%d  old:%d  new:%d
+FLOW_PRG/GAME.BIN#1962b4	Sub count mismatch  tm:%d kega:%d rcard:%d  num:%d i:%d i2:%d
+FLOW_PRG/GAME.BIN#19632c	Bad scorer  tm:%d  pl:%d  rpl:%d
+FLOW_PRG/GAME.BIN#196354	Off-field player scored  tm:%d  pl:%d  rpl:%d  apfl:%d
+FLOW_PRG/GAME.BIN#196394	Card to bad player  tm:%d  pl:%d  rpl:%d
+FLOW_PRG/GAME.BIN#1963c0	Bad player injured tm:%d pl:%d rpl:%d
+FLOW_PRG/GAME.BIN#19647c	Frames reversed, removed who:%d list:%d %d>=%d
+FLOW_PRG/GAME.BIN#1964ac	Frames over, shortened who:%d list:%d frame:%d(%d) size:%d
+FLOW_PRG/GAME.BIN#19ad7c	warning vqstring:%d %d(use even coordinates)\n
+FLOW_PRG/GAME.BIN#19bdd0	Fixed string number too large num = %d
+FLOW_PRG/GAME.BIN#19bdf8	Fixed text num = %d, str = %s
+FLOW_PRG/GAME.BIN#19c03c	ytTactGetBigRegularNumPlayerNum failed: no starters, apparently
+FLOW_PRG/GAME.BIN#19c4c8	Goal scene chosen while goal flag is 0  scn:%04d  type:%d
+FLOW_PRG/GAME.BIN#19d8a8	Midfield foul  tm:%d rpl:%d pl:%d
+FLOW_PRG/GAME.BIN#19daa4	bcFunc: bad team number  %d
+FLOW_PRG/GAME.BIN#19dac0	bcFunc: bad player no.  %d
+FLOW_PRG/GAME.BIN#1a8958	Local PWK not initialised yet.
+FLOW_PRG/GAME.BIN#1b3134	bcFunc: can't get ball holder Scn:%d(%d)  Frame:%d
+FLOW_PRG/GAME.BIN#1b3178	bcFunc: scene doesn't exist  Scn:%d  Frame:%d
+FLOW_PRG/GAME.BIN#1b31d0	bcFunc: can't get pass receiver Scn:%d(%d)  Frame:%d
+FLOW_PRG/GAME.BIN#1b323c	Called at a bad time. (sysGameDefencePl)
+FLOW_PRG/GAME.BIN#1b3290	Team not found in league  team:%d  kind:%d
+FLOW_PRG/GAME.BIN#1b32fc	bcFunc: 1st half uses prev-half goals
+FLOW_PRG/GAME.BIN#1b3328	bcFunc: 1st half uses prev-half chances
+FLOW_PRG/GAME.BIN#1b335c	bcFunc: nobody to commit foul
+FLOW_PRG/GAME.BIN#1b337c	bcFunc: nobody to be fouled
+FLOW_PRG/GAME.BIN#1b33a0	bcFunc: nobody injured
+FLOW_PRG/GAME.BIN#1b33bc	bcFunc: bad value match_no:%d tm:%d team:%d
+FLOW_PRG/GAME.BIN#1db674	ytMes Japan team training start
+FLOW_PRG/GAME.BIN#1db698	ytMes Japan team training end
+FLOW_PRG/GAME.BIN#1db6bc	ytMes normal team training start
+FLOW_PRG/GAME.BIN#1db6e0	ytMes normal team training end
+FLOW_PRG/GAME.BIN#1db728	PlchainPrint: line table max exceeded.
+FLOW_PRG/G_RESULT.BIN#2c490	Local PWK not initialised yet.
+FLOW_PRG/G_RESULT.BIN#2d7e8	ytTactGetBigRegularNumPlayerNum failed: no starters, apparently
+FLOW_PRG/SPF_READ.BIN#33f05	Dummy BootRom comment.
+FLOW_PRG/SPF_READ.BIN#43438	Flag diff found : %d (0x%x) (0x%x)
+FLOW_PRG/AUTOSAVE.BIN#24715	Dummy BootRom comment.
+FLOW_PRG/BACKUP.BIN#29671	Dummy BootRom comment.
+FLOW_PRG/CSAVE.BIN#2851d	Dummy BootRom comment.
+FLOW_PRG/CSAVE3.BIN#28f51	Dummy BootRom comment.
+FLOW_PRG/CSAVE4.BIN#2a51d	Dummy BootRom comment.
+FLOW_PRG/ENDOPT.BIN#3cb25	Dummy BootRom comment.
+FLOW_PRG/FREELOAD.BIN#280cd	Dummy BootRom comment.
+FLOW_PRG/LOAD.BIN#2947d	Dummy BootRom comment.
+FLOW_PRG/SONGSAVE.BIN#283e5	Dummy BootRom comment.
+FLOW_PRG/VTRLOAD.BIN#281d5	Dummy BootRom comment.
+FLOW_PRG/ENDING.BIN#6c790	LookAtBall : scene not yet set, or scene error.
+FLOW_PRG/ENDING.BIN#6cf70	Parking lot (Level:%d)
+FLOW_PRG/ENDING.BIN#6cf88	Observatory (Level:%d)
+FLOW_PRG/ENDING.BIN#6d4d8	warning vqstring:%d %d(use even coordinates)\n
+FLOW_PRG/ENDOPT.BIN#49294	Trade-ban flag %d(%d)
+FLOW_PRG/ENDOPT.BIN#85474	ytTactGetBigRegularNumPlayerNum failed: no starters, apparently
+FLOW_PRG/NEWCON.BIN#4ee20	ytTactGetBigRegularNumPlayerNum failed: no starters, apparently
+FLOW_PRG/NEWS.BIN#bf020	ytTactGetBigRegularNumPlayerNum failed: no starters, apparently
+FLOW_PRG/EVENT.BIN#13f184	ytTactGetBigRegularNumPlayerNum failed: no starters, apparently
+FLOW_PRG/J1_REP.BIN#2508	Dummy 1
+FLOW_PRG/J1_REP.BIN#2514	Dummy 2
+FLOW_PRG/J1_REP.BIN#2520	Dummy 3
+FLOW_PRG/J1_REP.BIN#252c	Dummy 4
+FLOW_PRG/J1_REP.BIN#2538	Dummy 5
+FLOW_PRG/J1_REP.BIN#2544	Dummy 6
+FLOW_PRG/J1_REP.BIN#2550	Dummy 7
+FLOW_PRG/J1_REP.BIN#255c	Dummy 8
+FLOW_PRG/J1_REP.BIN#2568	Dummy 9
+FLOW_PRG/J1_REP.BIN#2574	Dummy 10
+FLOW_PRG/J1_REP.BIN#2580	Dummy 11
+FLOW_PRG/PASS_PL.BIN#2508	Dummy 1
+FLOW_PRG/PASS_PL.BIN#2514	Dummy 2
+FLOW_PRG/PASS_PL.BIN#2520	Dummy 3
+FLOW_PRG/PASS_PL.BIN#252c	Dummy 4
+FLOW_PRG/PASS_PL.BIN#2538	Dummy 5
+FLOW_PRG/PASS_PL.BIN#2544	Dummy 6
+FLOW_PRG/PASS_PL.BIN#2550	Dummy 7
+FLOW_PRG/PASS_PL.BIN#255c	Dummy 8
+FLOW_PRG/PASS_PL.BIN#2568	Dummy 9
+FLOW_PRG/PASS_PL.BIN#2574	Dummy 10
+FLOW_PRG/PASS_PL.BIN#2580	Dummy 11
+FLOW_PRG/LOAD.BIN#34ea4	Trade-ban flag %d
+FLOW_PRG/NEWCON.BIN#2dc34	no:%4d rank:%d salary:%d fee:%d
+FLOW_PRG/NENREP.BIN#23f84	PWKHOME<09>write attendance<09><09>%d:
+FLOW_PRG/NENREP.BIN#23ffc	PWKHOME<09>write city level<09>%d:
+FLOW_PRG/LOAD.BIN#36be8	** Updated scout list (PWK) **
+FLOW_PRG/LOAD.BIN#36c50	?? %d is not in the PWK scout list ??
+FLOW_PRG/NEWCON.BIN#4a30c	WARNING:plCalcOdtNew():not found in PWK_TEAM.ypinfo

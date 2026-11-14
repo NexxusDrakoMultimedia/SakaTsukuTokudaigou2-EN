@@ -1,0 +1,5 @@
+no-BSS FLOW_PRG overlays: worst-case append (all JA text re-appended at 1.214x) vs budgets
+overlay        ja_text    x1.214 append_cons      heap tail_slot cons_basis
+ESTABLIS.BIN     39249     47648         0   2097120   3952276 n/a (private a >cons
+GAME.BIN         58322     70802    856064   6851040   6851064 heap/8 (INFERR
+flagged 2

@@ -1,0 +1,9 @@
+overlay records 119946 relocatable 81986 non-relocatable (orphan/pinned/interior) 37960
+JP bytes relocatable 2243846 non-relocatable 505232
+r=1.00: banked strings 0, bank bytes (no dedupe) 0, dedupe-by-ja 0 (unique 0); non-relocatable overflow strings 0
+r=1.25: banked strings 66053, bank bytes (no dedupe) 2665485, dedupe-by-ja 1584835 (unique 19639); non-relocatable overflow strings 7193
+r=1.50: banked strings 76577, bank bytes (no dedupe) 3299549, dedupe-by-ja 1909468 (unique 20799); non-relocatable overflow strings 30835
+r=1.75: banked strings 78247, bank bytes (no dedupe) 3865526, dedupe-by-ja 2226897 (unique 20886); non-relocatable overflow strings 31182
+r=2.00: banked strings 81928, bank bytes (no dedupe) 4405110, dedupe-by-ja 2538519 (unique 21475); non-relocatable overflow strings 36400
+r=1.5 per-overlay bank bytes top: [('FLOW_PRG__MEETING.BIN', 564147), ('FLOW_PRG__NEWS.BIN', 451797), ('FLOW_PRG__DRAFT.BIN', 176966), ('ATFIRST__HELP.BIN', 164404), ('FLOW_PRG__HELP.BIN', 164395), ('FLOW_PRG__TRAINING.BIN', 163548), ('FLOW_PRG__SCDRF.BIN', 108688), ('FLOW_PRG__EVENT.BIN', 105509), ('FLOW_PRG__NEWS_ED.BIN', 88029), ('FLOW_PRG__GAME.BIN', 77737), ('FLOW_PRG__ESTABLIS.BIN', 53873), ('FLOW_PRG__SPONSOR.BIN', 42412)]
+r=1.5 overlays needing bank 113 sum 3299549

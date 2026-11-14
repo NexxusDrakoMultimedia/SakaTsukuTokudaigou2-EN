@@ -1,0 +1,10 @@
+n 60
+ALL              n=60  natural/JP=1.120 tight/JP=0.755 tight/natural=0.675 | fit natural 27% tight 93%
+JP>=30 bytes     n=52  natural/JP=1.120 tight/JP=0.748 tight/natural=0.668 | fit natural 23% tight 96%
+help             n= 7  natural/JP=1.077 tight/JP=0.686 tight/natural=0.637 | fit natural 29% tight 100%
+prose_event      n= 6  natural/JP=1.203 tight/JP=0.800 tight/natural=0.665 | fit natural 17% tight 100%
+prose_meeting    n=11  natural/JP=0.977 tight/JP=0.693 tight/natural=0.710 | fit natural 55% tight 100%
+prose_news       n=10  natural/JP=1.150 tight/JP=0.823 tight/natural=0.716 | fit natural 10% tight 100%
+prose_other      n=21  natural/JP=1.178 tight/JP=0.803 tight/natural=0.682 | fit natural 24% tight 81%
+prose_training   n= 5  natural/JP=1.135 tight/JP=0.732 tight/natural=0.645 | fit natural 20% tight 100%
+LINES (JP>=30 bytes strings, n=52): English needs more lines than JP had: natural 16 (31%), tight 0 (0%); needs >3 lines: natural 18, tight 6

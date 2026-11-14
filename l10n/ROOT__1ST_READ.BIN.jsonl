@@ -1,0 +1,205 @@
+{"l10n":1,"kind":"main","style":"spaced","n":204,"final_newline":true,"src":"1ST_READ.BIN"}
+{"id":"157898","jah":"8a9651577ace57971794a6995f721a97","en":"For Testing","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1578b0","jah":"a07746188446709b47ff37b63fbed990","en":"Supporters' Club Formed","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"1578d0","jah":"c33517c3a367cca17293ef938da12147","en":"Youth Team Setup","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1578f0","jah":"fafd0de961dd8e4614794a77e8329c03","en":"Scout Report","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157910","jah":"4dc68a547ef8e10c16b8e5943731eae5","en":"Transfer Request","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157930","jah":"daf63c14432cfbba7582d6f8e42d62a0","en":"Leaves Club","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157950","jah":"c0a455e097b6230f2cf246cedcfcf387","en":"Retirement","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"15796c","jah":"f0628fd53d6f9e772fc092adcdfea21c","en":"Player Signing","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157994","jah":"a8dac146259a7d4bf18f8e73bead8bde","en":"Foreign Signing","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1579b4","jah":"4473a940a7919dd51fdb91ff49ce3a12","en":"Goes Abroad","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1579c8","jah":"0bafd595d6a5f5ca850b5ba146942262","en":"Injury List","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1579e4","jah":"ec5f6ab963d7f9afb7d9ef6f2eaa8a81","en":"Hall Entry","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157a04","jah":"80c8cb2de4393635a10bbd505a60285d","en":"Facility Request","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157a2c","jah":"1a800923bfa37c41aeaa90aaabd96e19","en":"-Pitch View-","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"157a5c","jah":"bfa1dcc3567776549837392738e52b2c","en":"Facility Complaint","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157a88","jah":"c043a363ccd39b2a37879173aa112acf","en":"-Stadium View-","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"157aa8","jah":"1f7e09492b6afac0201b748e50099a4d","en":"Local Food","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157abc","jah":"3eca25111e62de83117a0ef143c191cb","en":"Merch Sale","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157ad0","jah":"94444bd34913917ea6e1b2fc4d67b41b","en":"Recruitment","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157ae4","jah":"c2db664b00e5d41795bc5500d1df1b8a","en":"Player Ad","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157afc","jah":"9ae463add31242e163b156a7fad8d1d7","en":"Game Launch","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157b14","jah":"21b805985c72d0df9c67f4185a94a1bd","en":"Spot Sponsor","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157b3c","jah":"7d3989f9b602221de55e8bf4cc0ae492","en":"Sponsor Dropped","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157b5c","jah":"d18e1012af8cdc260484891916be838e","en":"Website Launched","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157b7c","jah":"56306516076950527a6da5b1f2058d88","en":"Boom","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"157b90","jah":"92ce8c153c7219bb33ed8033bb3994dc","en":"Bust","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"157ba4","jah":"599677c1661da619cbf37ce7262b8602","en":"Bus Expansion","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157bbc","jah":"bb2cf80226ca7cc91f62df7a350fbefc","en":"Foreign VIP","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157bd0","jah":"da83ed5748214c563f3784e0af6edf7e","en":"2nd Pitch","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157bec","jah":"af7a3673f33b536b48b37ef70915ca99","en":"Pitch Upgrade","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157c04","jah":"3d8fbb2c8160b81a38505d9e4c40dd85","en":"Floodlights","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157c18","jah":"3723c5187fa1ec447dd7a4590ac070fd","en":"Town Growth","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157c30","jah":"ccac5a048cac13e13e536785eef7dabc","en":"-Clubhouse View-","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"157c50","jah":"9f3df44cdf50b8646598788c46c0bf93","en":"Slump","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157c64","jah":"aa363a02df13a0af097d6850e060f24e","en":"Out of Slump","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157c84","jah":"87f787e5886c3dd3a4b50b054d51da2c","en":"Stadium Upgrade","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157c9c","jah":"20ed7f6b0934ef828f6169c6e709672c","en":"Grass Pitch","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157cb4","jah":"f3cf1efff84557ffc5e9d2f5f8eda154","en":"Roof Added","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157cc8","jah":"c7b7ab3895885aec1de69296a0aff9bc","en":"Hon Citizen","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157ce8","jah":"fb6d46812e4dd5172285a9495f734317","en":"Bid to Host","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157d08","jah":"f5cc2cbf60d276a42366f08b62afba78","en":"Site Visit","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157d28","jah":"b1f97eb38af3200c1a38d069a428bacb","en":"Bid Success","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157d48","jah":"f342555220f6157db81a500f57bd39c8","en":"Bid Failed","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157d60","jah":"c366d19ce6076af5e7f621749670c009","en":"Tournament Report","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157d84","jah":"fa2d701063bc1a548f90099d26169a66","en":"Intercup Winners","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157da8","jah":"a75f0867346d5dca145d68efdfefa40d","en":"Clubhouse Upgrade","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157dd0","jah":"502df59aed165e3b0ef5754a8ff7ee00","en":"Foreigner Home","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157df4","jah":"32e6ce4962ef4243dcb0d074936a9097","en":"Foreigner Back","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157e10","jah":"0121e2eae51db1729cbe007af55efd51","en":"Japan Squad Named","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157e38","jah":"6ee7dcc91d9ba9352b02d8fd436de415","en":"Japan Departs","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157e5c","jah":"0b6e897519faf689bf2dcd4754122515","en":"Japan Returns","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157e78","jah":"ae460cf0c470f710f0422fc68ee8b69e","en":"Study Back","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157e8c","jah":"23c9ed8fd909ba3ee9dcdf40b23e0795","en":"Local VIP","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157ea0","jah":"4b152cf62e549d4fb2d36186e7f75133","en":"Data Deleted","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157eb8","jah":"dd6cfa4b75d94993c3a59de5f58e6aad","en":"Results Bonus","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157ed0","jah":"931648b3d92887da7a369422cb687f3a","en":"Sponsor Warning","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157eec","jah":"ca9b20d3b15b5b3bd9b0bf1cfffde6a4","en":"Captain Choice","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157f0c","jah":"a54c14efdd94b6c3ffc1582a78ee0d89","en":"Supporters' Club Budget Set","max_bytes":32,"refs":1,"ctx":"ptr"}
+{"id":"157f38","jah":"add26d91f35762319f3937d1e0ab4d59","en":"Thanksgiving Match","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"157f58","jah":"df778346a2fbed74a0004686b3e16497","en":"Test 2","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157f78","jah":"b25889fd6b029f6ef31df12fa7b1838b","en":"Mgr Retires","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"157f8c","jah":"b9739867c179aa68a3ed15cade20d0af","en":"Injury Return","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"157fa8","jah":"bbbc4ced75531aa1999f407a43f31822","en":"Sec. 1 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"157fcc","jah":"50a5ccd2b33d0e0312f2fa30b6ec82a7","en":"Sec. 2 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"157ff0","jah":"41b84c5e599072f7f32fbffc13a1104e","en":"Sec. 3 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158014","jah":"faf2622b7558188f08f7be4b5f827488","en":"Sec. 4 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158038","jah":"5bfc558c63d736b384c5bfeca25778ab","en":"Sec. 5 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"15805c","jah":"0de0888bdd5859d593621951bcb986b9","en":"Top Exec","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158074","jah":"9b90b2211345833aad29bb87a6e2054a","en":"Scout New Job","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158090","jah":"a75645190f5e79f6ebb90fdc6f3a8799","en":"Mgr New Job","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1580ac","jah":"636b46097445b48cde9e05e0ad6d48ef","en":"Stn Complex","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1580c0","jah":"3ad48f1a2c5fa74bdd71adb52e12d3f1","en":"New Airport","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1580dc","jah":"577a8c41bd951b54a54893f297bfecea","en":"Club Building","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1580f4","jah":"4112fec20c89ed663769c3bbe733260c","en":"New School","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"15810c","jah":"d25cbae9b31d53e59e675d1ff14bf16d","en":"Club Tower Built","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"15812c","jah":"2131e649b2c2a47734afa642f5ed396a","en":"Youth Success","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158144","jah":"eabe9b57352a4c1110fca096c14e55a8","en":"Abroad News","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"15815c","jah":"1f4196b374a7c9f1716e93c4812a20ff","en":"Mgr Skill Surge","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158180","jah":"5a7d1491eaf696c100e394fec8c8f628","en":"Talent Find","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158198","jah":"4334634357aac68dda4f7be798f21355","en":"New Merch Sale","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1581b4","jah":"7a1296099d095d0ada4be95e72f696ab","en":"Twin Town Deal","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1581cc","jah":"b71139ad5cb195d44025672265dab8dd","en":"Wear & Tear","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1581e4","jah":"b78cd973802ce523b57d901a7381e647","en":"Study Request","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"15820c","jah":"7fd4befb1454f3eb01c96bc4e0374f12","en":"Transfer Imminent","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"15822c","jah":"f90d4673862f0b628e4ebaffb4dda722","en":"New Kit","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"158244","jah":"f4c2ee0aa02ba5dfdeb589e76cb124c1","en":"Machine Seller","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158264","jah":"e63a027b2e31a1f1922f72bd3a7a2c35","en":"Manager Accident","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158284","jah":"271a591ebf970e739b82a20c34d9c151","en":"Drifter Manager","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1582a4","jah":"9a752499f7476b4d115a5ebe6f7499ac","en":"Drifter Player","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1582c4","jah":"1caefe37eae44d306967d101f8d7e68e","en":"Rival Transfer Request","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"1582e8","jah":"51e0a2c77f039b1a326d5830a325f589","en":"Fan Letter","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"15831c","jah":"f7ca5bdeffee08f237be6aa340d91e2b","en":"Sec. Quits","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158334","jah":"e3d011b8a1afe9984dc28e61b8fa426d","en":"J2 Win","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"158348","jah":"ef6c3e7f67672ff088b952fafff4a611","en":"J1 Win","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"158358","jah":"0f39948d767d519f64cc811215c2918f","en":"J2 Drop","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"158370","jah":"77f79cc2794202f4a9931eec5d6b396c","en":"Natl Ground Built","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158394","jah":"7426eed4a193c3a54bca7fe717eaae2a","en":"Natl Squad Pick","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1583ac","jah":"f46b7560e801864de37316d0e1ce1967","en":"New Star","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1583c4","jah":"cfa58c8474b7d4e1859cde180c77ac84","en":"Local Boys Win","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1583e0","jah":"a8fc39b4bcd8e42cab442710c6e0e14d","en":"Local JHS Win","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1583f8","jah":"b3b8f626fa1d5aaeb22c69b948110e59","en":"Local HS Win","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158418","jah":"6c01a2d6275900067cf580076dfaeed7","en":"Soccer School Opens","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158440","jah":"908a50e13878c8015693e5b5a1a8112b","en":"Friendly","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158454","jah":"21311ecc343f11fa99f45eaebaf9dbc9","en":"Autographs","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"15846c","jah":"b51061876beddf0e6f443ff494456bad","en":"Match Sponsor","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158488","jah":"b173575efb35f54bea95d809d6c3a133","en":"Merch Shop Opens","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1584a8","jah":"9b9bc8ac4a73aeaf74ca626045910079","en":"Merch Shop Closes","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1584cc","jah":"9f8f6649cbc261def62349181497ebe1","en":"Hall of Famer's Son","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1584e4","jah":"555649fd0512d2f8250e98cb5c9667c0","en":"Spa Found","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1584fc","jah":"165bec8f826f2a14b077b0812c957dae","en":"Manager Demand","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158518","jah":"92fc5a99612ef49e3fc51e909ef0ec3a","en":"Club Song CD Out","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"15853c","jah":"244640e9f4261aa925f7510c3d8fc8c3","en":"Ability Surge","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158558","jah":"0ecbda5871ee54c149cb8e39793010c9","en":"Test 4","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"15857c","jah":"66c1a82de0ebbfe550e6128049101cce","en":"Pop Boom","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158598","jah":"2ca9d04648cfad8275ef69f272ce990b","en":"Study Abroad","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1585b8","jah":"a2e13484c9d3aeebb66e49c803b3cf71","en":"Abroad Options","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1585d4","jah":"555943bd4347d16a6d0fe7f3270dbf08","en":"11 Hall of Famers","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1585f0","jah":"2f84d60cd8388274f6a81d13cf72c5d4","en":"Extra Entries","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"15860c","jah":"c59f28ebf50962301bf9a04d7cf67cd1","en":"Test 5","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158630","jah":"bf600db332f97bc5b57a4427a1ce7eaf","en":"Japan Mgr Picked","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158654","jah":"fe50e07f4cc8b09de3f38bf4a9e8060f","en":"Injury Exit","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158670","jah":"33730cc8ef28d53f1264af8d5fd182c6","en":"Sports Drink Seller Appears","max_bytes":28,"refs":1,"ctx":"ptr"}
+{"id":"15869c","jah":"ed90c734949c37a7e2959beb3b7993b4","en":"Boot Seller Appears","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1586bc","jah":"f7ed93dd37bab4e161eaa1738e996736","en":"Intl Park Built","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1586d4","jah":"f8fc77009a96c9c50c2680ad4474d448","en":"Pool Built","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1586ec","jah":"b0415770be825a936971f5217cee9b08","en":"Lib. Built","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158704","jah":"6e6708f889c49510c6d139621e971f40","en":"Nature Pk Built","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158724","jah":"df117ff29022b7370de68762ee7556a4","en":"Police Stn","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158734","jah":"095e072f173ba38fc56e0635ba8436df","en":"Zoo Built","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"15874c","jah":"87e68bee915c7e015cb30715bc6db9ea","en":"Hosp. Built","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158768","jah":"550247fcb00f2610ba09336e5588c594","en":"Scout Retires","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158784","jah":"54b54d145841a9fe97e916b23d3bd1c9","en":"Test 6","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1587a4","jah":"42209148b2c070088c2d0383f9393467","en":"Funfair","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1587b8","jah":"2c4c90f682156ff1f302305428cb841f","en":"Elevated Rail","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"1587d8","jah":"bf85cbebb2f4b69b1955cb589b4b591c","en":"Special Stadium","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1587fc","jah":"6c7cdab5a50f0b04d4bf491aa4151e36","en":"Ballpark","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"15881c","jah":"80d2b625422fc3575e3f1ce821bc7711","en":"Factory","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158834","jah":"538427a1ec5d5d943a3f5439600a082c","en":"Test 7","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158850","jah":"354170899f36ad0c7163793bf9b03f18","en":"Arcade Built","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158870","jah":"3170af57f6a370a777ef6f24a17a99f9","en":"Test 8","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"15888c","jah":"c40c96a65ae9838efff9ca177fbae473","en":"Booster Machine Hit","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1588ac","jah":"2bc93bd3201dfa3f7e63d357b7667a72","en":"Booster Machine Dud","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1588cc","jah":"5d0087e164a30845ab20aa28f75f961e","en":"Sports Drink Is a Hit","max_bytes":28,"refs":1,"ctx":"ptr"}
+{"id":"1588f4","jah":"16b198b97e39879d1b81c75a84745947","en":"Sports Drink Hits Jackpot","max_bytes":28,"refs":1,"ctx":"ptr"}
+{"id":"15891c","jah":"a2eb739d5ffebf7317b8c4263cb3a63a","en":"Boots Work Great","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"15893c","jah":"6ef85debbe96e70581c20ab217c852c3","en":"Boots Defective","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"15895c","jah":"e38a31d485c84d3f3e584a2c61a1d52e","en":"Natl Mgr Sacked","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158978","jah":"dfc5a627246072b75cf04ccc36c36c9f","en":"Game Over","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158998","jah":"444e4dca661951fdd4685a8fd8bddbf0","en":"Cup Notice","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"1589b0","jah":"73c404d7ee11ce2a7780706c0892fca3","en":"Sponsor Grows","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"1589d0","jah":"963da57fa129eb1dd7fa61a6a201c660","en":"Squad No. Screen Call","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"1589f4","jah":"ceb0b0e82fe7f30700f7a568851d9b83","en":"Spare 2","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"158a08","jah":"3d27ae6a15f6b1bb055f9235afb96ef2","en":"No Qualifiers Notice","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158a2c","jah":"684aad5565e6fb5c6c7290b19f543d86","en":"Two-Team Result","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158a4c","jah":"2433d8cca46800b02986ace31b514d28","en":"Bad Combo","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158a6c","jah":"0ffbe8b42a1a0bf31e1040271667085d","en":"Lib. Done","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158a8c","jah":"0cb4f96c3b21c6bf16a0513e16f73405","en":"Soccer School Done","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158ab4","jah":"91c45057629dbc9cb0bb85dd2b476878","en":"Hosp. Done","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158ad4","jah":"76ae82806fbc00dac626f1744dfc5426","en":"Intl Park Done","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158af8","jah":"86298fe8531a51a5272f37d2a2103964","en":"Nature Pk Done","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158b18","jah":"8189546ef49d9dd6ec37a2510782894b","en":"Club Tower Done","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158b38","jah":"3e5174bd6394741420eeda9011d52c3f","en":"Spa Done","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158b5c","jah":"bd245f4c554b14442077d006e8fbb4b7","en":"Stn Bldg","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158b78","jah":"0870c4da3bcf23dd9d664d9dce77ff32","en":"School Done","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158b98","jah":"68045b4670bb076f56023b9ede565091","en":"Funfair OK","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158bb0","jah":"1f6d45f619a0e6765daab7109797c648","en":"Zoo Done","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158bc8","jah":"5c78c235b2f0a3b51b1bad95c12962b8","en":"Pool Done","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158bec","jah":"2a2959fff226ae87855f11f4882c4cea","en":"Club Bldg Done","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158c10","jah":"f0389a00f9b86686df58193267753567","en":"Ballpark OK","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158c38","jah":"23ac775c97afa13a1a2f5b1aa6f64405","en":"Factory OK","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158c58","jah":"4f3599acb2d0aef9e470ea44318a2c2e","en":"Ballpark Razed","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158c80","jah":"697c258548d74d806812b24f2c5006f2","en":"Factory Razed","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158ca4","jah":"76d0e2a87533836ca06007aa643e217b","en":"Sports Club Done","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158ccc","jah":"6baf84ad91b0f35d561b3ec0ea225a44","en":"Own League Position","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158cf4","jah":"78ebdbbd8c33d2a4b7a58b2eda7e46ec","en":"Rival League Winner","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158d20","jah":"6697947d6014fa72b41ea052993fb71b","en":"Cup Winner Report","max_bytes":28,"refs":1,"ctx":"ptr"}
+{"id":"158d4c","jah":"b70139fc1ce7f3f817848182fdfbe02e","en":"Own Qualifier Result","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158d78","jah":"2421954b81dc1cecad4bac06a373f519","en":"Natl Training","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158d98","jah":"41b95464ccfb61771cdbf47646602d2e","en":"Club Founded","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158db8","jah":"a9833dcb35af1998974d3d50a53434fa","en":"Watch Natl Game","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158dd8","jah":"bf22806489e754d5d7941f11276790d0","en":"Airport OK","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158df0","jah":"bf38abaf6af5daa1f1cdbc726237c56f","en":"Camp Departure","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158e08","jah":"0f4c402108b23ea30f108fbdea84bce7","en":"Camp Return","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158e24","jah":"6b33dea1a0749d66a058c68aaeb37e40","en":"Satellite","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158e44","jah":"70a1f20385e1671a817c8c546c920a9b","en":"Natl Mgr Preview","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158e74","jah":"6bdb805ae7063fc73630803a33fba1a9","en":"Youth Unrest Report","max_bytes":28,"refs":1,"ctx":"ptr"}
+{"id":"158ea4","jah":"b228055e16c393c6cea5a4917fb6c8a3","en":"Youth Quits","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158ed4","jah":"06e13580cc26e6a627af99b51662791b","en":"Youth Very Unhappy Report","max_bytes":36,"refs":1,"ctx":"ptr"}
+{"id":"158f04","jah":"f37a1c0b028e6864736f22b7e699dd69","en":"Sec. 6 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158f28","jah":"495c3542380cd94dd7fc4cea239907f1","en":"Sec. 7 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158f4c","jah":"01d009f1149f878970e88f238ff77fce","en":"Sec. 8 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158f70","jah":"16c98fc472a60df0b97ede4b369bcbea","en":"Sec. 9 Birthday Gift","max_bytes":24,"refs":1,"ctx":"ptr"}
+{"id":"158f88","jah":"02602db12b3beda2a797c552aa7cb406","en":"New Year Event","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158f98","jah":"2e6139b074492ad95d979af03a756b37","en":"Monthly Event","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158fa8","jah":"736d4afcad52f848e7ea25cdf08b9a1a","en":"1st Half Start","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158fb8","jah":"901116e4416edfc0b7725aad1f26da5b","en":"2nd Half Start","max_bytes":16,"refs":1,"ctx":"ptr"}
+{"id":"158fc8","jah":"bbbb648fcd87219b1ed16b4fd76bd685","en":"Before","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"158fd0","jah":"f26024fde265a267e9914c5d14bf0959","en":"After","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"158fd8","jah":"0bc410ee2c5309a6e0258073ccd1834d","en":"After News","max_bytes":12,"refs":1,"ctx":"ptr"}
+{"id":"158fe4","jah":"b27bbbc5b967adca95a7d41cdf8f1750","en":"Office Event","max_bytes":20,"refs":1,"ctx":"ptr"}
+{"id":"158ff8","jah":"00edd9b5bc9e18b115b525400ece5eba","en":"J1 Only","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"159000","jah":"da54b2024e84aed1c7af9cc0da946bca","en":"J2 Only","max_bytes":8,"refs":1,"ctx":"ptr"}
+{"id":"15a5fc","jah":"45e5a4e4fd24520656b67841b34eb451","en":"Quick resume file load not finished!","max_bytes":52,"refs":1,"ctx":"ptr"}
+{"id":"15a820","jah":"c3fefd97c0900c410e594fda8cf902c7","en":"Wrong module specified","max_bytes":36,"refs":1,"ctx":"ptr"}

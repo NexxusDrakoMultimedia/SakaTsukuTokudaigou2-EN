@@ -1,0 +1,16 @@
+overlay has_bss | words in [file_end,slot_end): raw, loaded-by-mov.l (decoded)
+CHALDANI.BIN 0 |   10    2 [('0xc4b0', '0x8c834581'), ('0xc4c8', '0x8c834581')]
+CHALMODE.BIN 0 |   35    0 []
+CLUBEDIT.BIN 0 |   11    1 [('0x210b4', '0x8c638343')]
+DRSBEST.BIN  0 |    1    0 []
+DRSDENDO.BIN 0 |   10    0 []
+DRSHRANK.BIN 0 |    1    0 []
+DRSLIST.BIN  0 |   10    0 []
+DRSOLIST.BIN 0 |   10    0 []
+DRSRANK.BIN  0 |    1    0 []
+ESTABLIS.BIN 0 |   15    3 [('0x24c', '0x8c3d0000'), ('0x368', '0x8c3f0000'), ('0x374', '0x8c3d0000')]
+GAME.BIN     0 |  202    0 []
+MOVIE.BIN    0 |   46    0 []
+MOVIE_BG.BIN 0 |   46    2 [('0x23578', '0x8c343f00'), ('0x235ac', '0x8c343f00')]
+PL_EDIT.BIN  0 |    4    0 []
+total raw 402 decoded-as-code-literal 8 (random-data false-positive expectation ~12% = 50)

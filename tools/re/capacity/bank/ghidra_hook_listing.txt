@@ -1,0 +1,40 @@
+program 1ST_READ_HOOK.BIN
+8c160280  36d6  mov.l 0x8c16035c,r6
+8c160282  35d4  mov.l 0x8c160358,r4
+8c160284  0b4e  jsr @r14
+8c160286  0365  _mov r0,r5
+8c160288  35d3  mov.l 0x8c160360,r3
+8c16028a  0b43  jsr @r3
+8c16028c  0900  _nop
+8c16028e  35d2  mov.l 0x8c160364,r2
+8c160290  0b42  jsr @r2
+8c160360  .long 0x8c13bb00
+8c13bb00  224f  sts.l PR,@-r15
+8c13bb02  04d4  mov.l 0x8c13bb14,r4
+8c13bb04  04d6  mov.l 0x8c13bb18,r6
+8c13bb06  05d3  mov.l 0x8c13bb1c,r3
+8c13bb08  0b43  jsr @r3
+8c13bb0a  00e5  _mov #0x0,r5
+8c13bb0c  264f  lds.l @r15+,PR
+8c13bb0e  0b00  rts
+8c13bb10  0900  _nop
+8c13bb12  ??
+8c13bb14  .long 0x8c13bb20
+8c13bb18  .long 0x8c13c000
+8c13bb1c  .long 0x8c15eeb8
+8c13bb20  .string "NAMIHEI.DRV"
+8c163984  0b00  rts
+8c163986  0900  _nop
+8c15eeb8  224f  sts.l PR,@-r15
+8c15eeba  10b0  bsr 0x8c15eede
+8c15eebc  00e7  _mov #0x0,r7
+8c15eebe  0364  mov r0,r4
+8c15eec0  4824  tst r4,r4
+8c15eec2  028b  bf 0x8c15eeca
+8c15eec4  264f  lds.l @r15+,PR
+8c15eec6  0b00  rts
+8c15eec8  ffe0  _mov #-0x1,r0
+8c15eeca  00e0  mov #0x0,r0
+8c15eecc  264f  lds.l @r15+,PR
+8c15eece  0b00  rts
+8c15eed0  0900  _nop

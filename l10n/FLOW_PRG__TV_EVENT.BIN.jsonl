@@ -1,0 +1,115 @@
+{"l10n":1,"kind":"main","style":"compact","n":114,"final_newline":true,"src":"FLOW_PRG/TV_EVENT.BIN"}
+{"id":"ab28","jah":"77af8d1e6c05e5130b984ec1d1e86ffb","en":"The TV station that broadcasts our\nmatches has changed. More people\nwill be able to watch us now.","max_bytes":101,"refs":3,"ctx":"ptr@31c xrefs=3"}
+{"id":"ab8d","jah":"26180d1cf087ff87eb14318938b45708","en":"Sadly, the TV station that broadcast\nour club has changed. Let's play more\npopular matches.","max_bytes":113,"refs":2,"ctx":"ptr@314 xrefs=2"}
+{"id":"abfe","jah":"7b547395bbc296c07fa722db34e8db30","en":"From this year, a @Y/6-Station Network@\nwill broadcast our matches.\nThat should fire the players up more.","max_bytes":88,"refs":2,"ctx":"tbl@999c[2/23] xrefs=2"}
+{"id":"ac56","jah":"b45c4f515aaf72b20efe74c058f4070c","en":"From this year, a @Y/12-Station Network@\nwill broadcast our matches. We can\npromote our club even more.","max_bytes":97,"refs":2,"ctx":"tbl@999c[3/23] xrefs=2"}
+{"id":"acb7","jah":"420bdb06ebcb0fce33b1dabe56405ea7","en":"From this year, a @Y/National Network@\nbegins broadcasting. Our matches will\nbe shown all across Japan.","max_bytes":101,"refs":2,"ctx":"tbl@999c[4/23] xrefs=2"}
+{"id":"ad1c","jah":"c914629f32324484bf23c007a5bec068","en":"From this year, a @Y/Pan-Asian Network@\nbegins broadcasting. Our matches will\nbe shown all across Asia.","max_bytes":101,"refs":2,"ctx":"tbl@999c[5/23] xrefs=2"}
+{"id":"ad81","jah":"6bc8620239f4f5fdd83daf7bd5b248d6","en":"From this year, a @Y/World Network@\nwill broadcast our matches. At last,\nthe whole world can watch us.","max_bytes":113,"refs":2,"ctx":"tbl@999c[6/23] xrefs=2"}
+{"id":"adf2","jah":"012a7eb84a7fca3e4f0d75a41b33ac34","en":"From this year, a @Y/Local Network@\nwill broadcast us. Let's play matches\nthat draw crowds and widen our reach.","max_bytes":121,"refs":2,"ctx":"tbl@999c[7/23] xrefs=2"}
+{"id":"ae6b","jah":"8d93b5f987fbd98a8623da9f210c6ad6","en":"From this year, a @Y/6-Station Network@\nwill broadcast our matches. We must\nwork to play more attractive football.","max_bytes":112,"refs":2,"ctx":"tbl@999c[8/23] xrefs=2"}
+{"id":"aedb","jah":"2ce6091ede3f15f48dbf7fe88de51b10","en":"From this year, a @Y/12-Station Network@\nwill show our matches. Let's work hard\nall year to be on nationwide TV again.","max_bytes":115,"refs":2,"ctx":"tbl@999c[9/23] xrefs=2"}
+{"id":"af4e","jah":"754d9602d15df737297e3ee73d53fc6f","en":"From this year, a @Y/National Network@\nwill broadcast us. Let's work hard to\nget back to Asia-wide coverage.","max_bytes":105,"refs":2,"ctx":"tbl@999c[10/23] xrefs=2"}
+{"id":"afb7","jah":"1473d0d465de66d48026fff6e26ac4a2","en":"From this year, a @Y/Pan-Asian Network@\nwill broadcast our matches. Let's work\nhard to be shown worldwide again.","max_bytes":117,"refs":2,"ctx":"tbl@999c[11/23] xrefs=2"}
+{"id":"b02c","jah":"6aef8fae362e0e4b90e653970bc0c445","en":"This year again, a @Y/Local Network@\nwill broadcast us. Let's raise our\npopularity and aim for wider coverage.","max_bytes":109,"refs":2,"ctx":"tbl@999c[12/23] xrefs=2"}
+{"id":"b099","jah":"f8742bc79dd793b35116fa37b8080760","en":"This year again, a @Y/6-Station Network@\nwill show our matches. Let's play for\npopularity and win more viewers.","max_bytes":118,"refs":2,"ctx":"tbl@999c[13/23] xrefs=2"}
+{"id":"b10f","jah":"53a57addb0d6f9122bc4d87361cd9cf1","en":"This year again, a @Y/12-Station Network@\nwill show our matches. Let's aim for\nmatches with better ratings and reach.","max_bytes":119,"refs":2,"ctx":"tbl@999c[14/23] xrefs=2"}
+{"id":"b186","jah":"3641a3191a2a3b7b802a675b47e6d6c6","en":"This year again, a @Y/National Network@\nwill broadcast us. To go any further,\nwe will need to think about Asia.","max_bytes":117,"refs":2,"ctx":"tbl@999c[15/23] xrefs=2"}
+{"id":"b1fb","jah":"0f3dfc1ba4880cfd3b700e0cc57a2dac","en":"This year again, a @Y/Pan-Asian Network@\nwill broadcast us. How about aiming\nhigher, at the whole world?","max_bytes":115,"refs":2,"ctx":"tbl@999c[16/23] xrefs=2"}
+{"id":"b26e","jah":"ca6fb00eafb91ebdbedf36720af4d915","en":"This year again, a @Y/World Network@\nwill broadcast us. Let's keep it up so\nthe whole world can watch our matches.","max_bytes":113,"refs":2,"ctx":"tbl@999c[17/23] xrefs=2"}
+{"id":"b2df","jah":"4f2b2a79ae9be36083a542ab1c3cd3ae","en":"A TV station has been chosen to\nbroadcast our club's matches.\nThey say they'll show every match.","max_bytes":99,"refs":2,"ctx":"ptr@310 xrefs=2"}
+{"id":"b342","jah":"13d88892329910e9b0ec978395fa3695","en":"Our performances will be broadcast\nby a @Y/Local Network@ station.\nThat should fire up the players.","max_bytes":93,"refs":2,"ctx":"ptr@454 xrefs=2"}
+{"id":"b39f","jah":"8ce4c7b0cee7824eb543a123c98f23e6","en":"From now on, the stations that\nbroadcast our matches will be\nreviewed each year, based on ratings.","max_bytes":89,"refs":2,"ctx":"ptr@458 xrefs=2"}
+{"id":"b3f8","jah":"c0060acb6c271a8558f2c1dab4e79cbe","en":"Playing crowd-pleasing matches or\nspending on advertising will raise our\nratings and expand our broadcast area.","max_bytes":119,"refs":2,"ctx":"ptr@51c xrefs=2"}
+{"id":"b46f","jah":"30b48fd456d14e4a93b2113588b93133","en":"A higher TV station rank affects our\npopularity and supporter membership.\nI'd love as many people to watch us.","max_bytes":113,"refs":2,"ctx":"ptr@520 xrefs=2"}
+{"id":"b520","jah":"6cf76d375f1aaeb29d76cb935addcbbe","en":"Old TV Level<09>:%d","max_bytes":24,"refs":1,"ctx":"ptr@7dc"}
+{"id":"b538","jah":"8c7f24738f951aafa9c73e2621443380","en":"New TV Level<09>:%d","max_bytes":24,"refs":1,"ctx":"ptr@7e0"}
+{"id":"b5b0","jah":"03351c7bf024ef4991333c4a30029917","en":"Club Pop.:%d","max_bytes":16,"refs":1,"ctx":"ptr@b3c"}
+{"id":"b5c0","jah":"32662d7b5bc1be9ede163f1eabfd3c89","en":"Club Pop. Change:%d","max_bytes":20,"refs":1,"ctx":"ptr@b44"}
+{"id":"b5d4","jah":"ee7bc1d60c59be192441204865ad91be","en":"Football Pop:%d","max_bytes":16,"refs":2,"ctx":"ptr@b48 xrefs=2"}
+{"id":"b5e4","jah":"813079fa65a23bce35607037aeea345c","en":"Football Pop. Chg:%d","max_bytes":20,"refs":1,"ctx":"ptr@c48"}
+{"id":"b5f8","jah":"09c297cbd28ab794c2de471315aab2e7","en":"Club Pop. :%d","max_bytes":16,"refs":1,"ctx":"tbl@c50[0/3]"}
+{"id":"b608","jah":"c94be887a5a486449feb662d1173da4b","en":"Avg TV Rtg:%d","max_bytes":16,"refs":1,"ctx":"tbl@c50[2/3]"}
+{"id":"b61c","jah":"68812168801396a192af3b5b9cb01a89","en":"%s","max_bytes":8,"refs":1,"ctx":"ptr@f24"}
+{"id":"b624","jah":"712da175543bd1858eb7005f5be8d36d","max_bytes":8,"refs":2,"ctx":"ptr@f28 xrefs=2","skip":true}
+{"id":"b62c","jah":"c5a69be970ecc789bde3333c12402b3f","max_bytes":8,"refs":1,"ctx":"ptr@1068","skip":true}
+{"id":"b728","jah":"9e7d7f5a91c0ed851ada6f3a7fde11ed","en":"Expression %d","max_bytes":16,"refs":1,"ctx":"ptr@2358"}
+{"id":"b738","jah":"bf901b65b51e0860dba2b43242bbd483","en":"Expression textures not loaded","max_bytes":36,"refs":1,"ctx":"ptr@25e4"}
+{"id":"b790","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@34c0","skip":true}
+{"id":"b794","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@34c8[0/3]","skip":true}
+{"id":"b79c","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@34c8[1/3]","skip":true}
+{"id":"b7a0","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@34c8[2/3]","skip":true}
+{"id":"b7a4","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@b760[0/11]"}
+{"id":"b7a8","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@b760[1/11]"}
+{"id":"b7ac","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@b760[2/11]"}
+{"id":"b7b0","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@b760[3/11]"}
+{"id":"b7b4","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@b760[4/11]"}
+{"id":"b7b8","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@b760[5/11]"}
+{"id":"b7bc","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@b760[6/11]"}
+{"id":"b7c0","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@b760[7/11]"}
+{"id":"b7c4","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@b760[8/11]"}
+{"id":"b7c8","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@b760[9/11]"}
+{"id":"b7cc","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@b760[10/11]"}
+{"id":"b84c","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@3d44"}
+{"id":"b930","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@5114"}
+{"id":"ba00","jah":"61b099639951c0eed71c801e92fb1d2b","en":"Hokkaido","max_bytes":8,"refs":2,"ctx":"tbl@9a9c[0/50] xrefs=2"}
+{"id":"ba08","jah":"0950ce65062fc481cfa5c2944c2dfaf2","en":"Aomori","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[1/50]"}
+{"id":"ba10","jah":"32186134057cf4589e3caea5a11c4586","en":"Iwate","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[2/50]"}
+{"id":"ba18","jah":"f70d77a25b18b715b79f5162a11c8fa8","en":"Miyagi","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[3/50]"}
+{"id":"ba20","jah":"7ce1343175ff9759814cfe8edee29b76","en":"Akita","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[4/50]"}
+{"id":"ba28","jah":"a0d677442a9ffd6422390a6b84e14edd","en":"Yamagata","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[5/50]"}
+{"id":"ba30","jah":"e7019e6ac833a7f27a8a0a89a0c462dc","en":"Fukushima","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[6/50]"}
+{"id":"ba38","jah":"da430224a97b29cf5818b2996fdf8fd5","en":"Ibaraki","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[7/50]"}
+{"id":"ba40","jah":"1c022a1079888739d6e2df9b7898abf9","en":"Tochigi","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[8/50]"}
+{"id":"ba48","jah":"49dc031cbe6dac88a61e993983d962dd","en":"Gunma","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[9/50]"}
+{"id":"ba50","jah":"ba13885bedbfeb9b76b92c1846d9fcca","en":"Saitama","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[10/50]"}
+{"id":"ba58","jah":"6f2e379e9ccd1665664820638a125292","en":"Chiba","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[11/50]"}
+{"id":"ba60","jah":"df2b6cd8c01ab9ca005e2495e88d28ff","en":"Tokyo","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[12/50]"}
+{"id":"ba68","jah":"e13bc05ffd4990f97ab48ab5b63cd1a8","en":"Kanagawa","max_bytes":12,"refs":1,"ctx":"tbl@9a9c[13/50]"}
+{"id":"ba74","jah":"08741ada186bb6c3e1bd391532e9fa7c","en":"Izu Is.","max_bytes":12,"refs":1,"ctx":"tbl@9a9c[14/50]"}
+{"id":"ba80","jah":"aee4b6c5fa941290cdf7f424bf8b7ebf","en":"Niigata","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[15/50]"}
+{"id":"ba88","jah":"6deaaa980ec93a13c8264a0d4c611af8","en":"Toyama","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[16/50]"}
+{"id":"ba90","jah":"22953f7192e2e3bc92cd3ef6c73d0f91","en":"Ishikawa","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[17/50]"}
+{"id":"ba98","jah":"69177459eb934894308db74dfdc8f609","en":"Fukui","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[18/50]"}
+{"id":"baa0","jah":"60ce9867a7b4d2da078d58ba319755ca","en":"Yamanashi","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[19/50]"}
+{"id":"baa8","jah":"9d4e863411127e736586677cefdecb9f","en":"Nagano","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[20/50]"}
+{"id":"bab0","jah":"ef16c40bcad72c1044202d3ee00100f9","en":"Gifu","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[21/50]"}
+{"id":"bab8","jah":"8fb432c804baad654128001ee10e5d80","en":"Shizuoka","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[22/50]"}
+{"id":"bac0","jah":"dcd3f9e6d14157976d3a6a5f2d219a2f","en":"Aichi","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[23/50]"}
+{"id":"bac8","jah":"3e1dbdeaaf4b0609906ef4746f3c0284","en":"Mie","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[24/50]"}
+{"id":"bad0","jah":"315fcefc075cecc7b4ac0850350ab5b4","en":"Shiga","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[25/50]"}
+{"id":"bad8","jah":"13cccabec1a08efafac6756799267a75","en":"Kyoto","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[26/50]"}
+{"id":"bae0","jah":"aa37d4e965dd3deae882256a6d7790cf","en":"Osaka","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[27/50]"}
+{"id":"bae8","jah":"4eb741e6df7bf78f70bba9d5cab9397c","en":"Hyogo","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[28/50]"}
+{"id":"baf0","jah":"376399ac99c313bb191625a66e65d0eb","en":"Nara","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[29/50]"}
+{"id":"baf8","jah":"0f6b810dac67f2087d170435893c7935","en":"Wakayama","max_bytes":12,"refs":1,"ctx":"tbl@9a9c[30/50]"}
+{"id":"bb04","jah":"22e83f0c634130a6ba4b4b6978619b97","en":"Tottori","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[31/50]"}
+{"id":"bb0c","jah":"3feee89720d12720d2b11d661ea121ca","en":"Shimane","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[32/50]"}
+{"id":"bb14","jah":"a538f5f4dc79d02edaabc86d12562123","en":"Okayama","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[33/50]"}
+{"id":"bb1c","jah":"104563674c0bda23166a599b37e8b7ef","en":"Hiroshima","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[34/50]"}
+{"id":"bb24","jah":"056662dc4e521f27501b40b9f5f594d8","en":"Yamaguchi","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[35/50]"}
+{"id":"bb2c","jah":"9d9ca7d1ea06031563b5da6f349b5d9d","en":"Tokushima","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[36/50]"}
+{"id":"bb34","jah":"f7025d4d53c9439299c2205ace61d008","en":"Kagawa","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[37/50]"}
+{"id":"bb3c","jah":"02206bdc175a0e9bf64d733fc2b63310","en":"Ehime","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[38/50]"}
+{"id":"bb44","jah":"ce5b730bc781510a1445956d3248023e","en":"Kochi","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[39/50]"}
+{"id":"bb4c","jah":"f65c2e7a703c5fd314c04ad1ae1c1c3a","en":"Fukuoka","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[40/50]"}
+{"id":"bb54","jah":"8acfe3cdbaa98889daf6475770b04f14","en":"Saga","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[41/50]"}
+{"id":"bb5c","jah":"ae2d03630cb6e86a5406099c10f30577","en":"Nagasaki","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[42/50]"}
+{"id":"bb64","jah":"202325fa92f6f733a0e6bf18ba4ac3d9","en":"Kumamoto","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[43/50]"}
+{"id":"bb6c","jah":"d1ed0a10156799e3f7be83d578cec2bd","en":"Oita","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[44/50]"}
+{"id":"bb74","jah":"fc325a44655c668ae4718777ae4ff4bb","en":"Miyazaki","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[45/50]"}
+{"id":"bb7c","jah":"5817083102e930c02c3b851d384e8435","en":"Kagoshima","max_bytes":12,"refs":1,"ctx":"tbl@9a9c[46/50]"}
+{"id":"bb88","jah":"513a56d4f41797e49db990e6e4ffb25d","en":"Okinawa","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[47/50]"}
+{"id":"bb90","jah":"da41939d534805cae36ad491be6c8a3d","en":"Amami Is.","max_bytes":12,"refs":1,"ctx":"tbl@9a9c[48/50]"}
+{"id":"bb9c","jah":"d298eea0ec1f04db1fb83882f018ae51","en":"Japan","max_bytes":8,"refs":1,"ctx":"tbl@9a9c[49/50]"}
+{"id":"bba4","jah":"345c9fa96eaaf3ad9e74bf5f60403784","en":"Tohoku","max_bytes":8,"refs":1,"ctx":"ptr@b9a8"}
+{"id":"bbac","jah":"0a3f267b0fd53ea86fed299839cb73da","en":"Kanto","max_bytes":8,"refs":1,"ctx":"ptr@b9b0"}
+{"id":"bbb4","jah":"e0a49126ab120bd4b4dc7797f2c0036b","en":"Izu","max_bytes":8,"refs":1,"ctx":"ptr@b9b8"}
+{"id":"bbbc","jah":"2f94f4f9eac3301cca126353622472e3","en":"Chubu","max_bytes":8,"refs":1,"ctx":"ptr@b9c0"}
+{"id":"bbc4","jah":"4cdae619ef309e9ba80bf9e461b32dc5","en":"Tokai","max_bytes":8,"refs":1,"ctx":"ptr@b9c8"}
+{"id":"bbcc","jah":"851e047322b0b2adfbe43a1c1da98259","en":"Kansai","max_bytes":8,"refs":1,"ctx":"ptr@b9d0"}
+{"id":"bbd4","jah":"f2a9cf3006c70c99d645d1354bef85b9","en":"China","max_bytes":8,"refs":1,"ctx":"ptr@b9d8"}
+{"id":"bbdc","jah":"211f43b037863cb5344115ae0be29af2","en":"Shikoku","max_bytes":8,"refs":1,"ctx":"ptr@b9e0"}
+{"id":"bbe4","jah":"ae2b1d04d39913f690739d11d1ec9626","en":"Kyushu","max_bytes":8,"refs":1,"ctx":"ptr@b9e8"}
+{"id":"bbec","jah":"985f59f6c281dffb7205b98d16b44edf","en":"Amami","max_bytes":8,"refs":1,"ctx":"ptr@b9f0"}
+{"id":"bbf4","jah":"16fe2a9502cdd455dff1c23c62601518","en":"Okinawa","max_bytes":8,"refs":1,"ctx":"ptr@b9f8"}

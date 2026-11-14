@@ -1,0 +1,23 @@
+/0GDTEX.PVR hits for 0GDTEX.PVR : []
+/1ST_READ.BIN hits for 1ST_READ.BIN : ['IP.BIN']
+/2_DP.BIN hits for 2_DP.BIN : ['SG_DPLDR.BIN']
+/DP3.INI hits for DP3.INI : ['2_DP.BIN']
+/FONT.BIN hits for FONT.BIN : ['1ST_READ.BIN']
+/MAIGO.BIN hits for MAIGO.BIN : ['2_DP.BIN']
+/MANATEE.DRV hits for MANATEE.DRV : ['1ST_READ.BIN', 'MANATEE.DRV']
+/NAMIHEI.DRV hits for NAMIHEI.DRV : []
+/SG_DPLDR.BIN hits for SG_DPLDR.BIN : ['1ST_READ.BIN']
+dir DPETC hits for dir name: []
+  files 9 files named in the game (1ST_READ/overlays): {'/DPETC/MANATEE.DRV': ['1ST_READ.BIN']}
+dir DPFONT hits for dir name: []
+  files 4 files named in the game (1ST_READ/overlays): {}
+dir DPMODEL hits for dir name: []
+  files 1 files named in the game (1ST_READ/overlays): {}
+dir DPSS hits for dir name: []
+  files 55 files named in the game (1ST_READ/overlays): {}
+dir DPTEX hits for dir name: []
+  files 27 files named in the game (1ST_READ/overlays): {}
+dir DPWWW hits for dir name: ['2_DP.BIN', '2_DP.BIN']
+  files 6 files named in the game (1ST_READ/overlays): {}
+dir BCAST hits for dir name: []
+  files 3 files named in the game (1ST_READ/overlays): {'/BCAST/BCAST.BIN': ['FLOW_PRG/GAME.BIN'], '/BCAST/ENDING_L.P04': ['FLOW_PRG/ENDING.BIN'], '/BCAST/ENDING_R.P04': ['FLOW_PRG/ENDING.BIN']}

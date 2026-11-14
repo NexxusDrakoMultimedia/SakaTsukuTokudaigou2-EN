@@ -1,0 +1,560 @@
+{"l10n":1,"kind":"main","style":"compact","n":559,"final_newline":true,"src":"FLOW_PRG/RECON.BIN","ctx":["orphan (no pointer)"]}
+{"id":"21260","jah":"c70f1c84ce1c5c5e56d0d41055fb1ddb","en":"%d:%4d:%d man %d yr","max_bytes":20,"refs":1,"ctx":"ptr@23e0"}
+{"id":"21274","jah":"be2b45bda8be05a5eb304c55c37f3f89","en":"=w/Domestic transfer targets.\nA fee is due on top of the signing\nfee, but they're worth it.=","max_bytes":95,"ctx":0,"orphan":true}
+{"id":"212d3","jah":"134e4e3a6a6d838fb78f503b82bdbb53","en":"A forward with a superb eye for goal.\nGreat technique and stamina, but weak\nat team play.","max_bytes":97,"ctx":0,"orphan":true}
+{"id":"21334","jah":"2df70bdb2c1dddacec4ca89ac8098da3","en":"A very athletic player whose\ntechnique has improved with age.","max_bytes":66,"ctx":0,"orphan":true}
+{"id":"21376","jah":"44cd8320c4de2602d4849b4e0f58a379","en":"#sname#, %s wants a @Y/%d@-year\ncontract. How long should it be?","max_bytes":84,"ctx":0,"orphan":true}
+{"id":"213ca","jah":"48c1a9383f76540af9029f9d312dbbae","en":"Let's begin the negotiations.\nPlease set this player's annual\nsalary.","max_bytes":75,"ctx":0,"orphan":true}
+{"id":"21415","jah":"9fdd408ddf2887933cecf7e8fd3f0003","en":"On these terms, @Y/%d years@ will\ncost @K/%m@ in total.\nIs that all right?","max_bytes":77,"ctx":0,"orphan":true}
+{"id":"21462","jah":"db52dd2575f7604e4ab44e9bb0a3c85a","en":"Not for that kind of money.\nCan't you do any better?","max_bytes":64,"ctx":0,"orphan":true}
+{"id":"214a2","jah":"97f6a345683f2f15797674f481cffbee","en":"=k/I seem to have hurt their pride.\nWas the offer too low for what\nthey wanted?=","max_bytes":91,"ctx":0,"orphan":true}
+{"id":"214fd","jah":"bd330ff94da578e878379cc2e444bc83","en":"=w/Congratulations, #sname#!\nYour contract with @Y/%s@ is agreed.\nDeal: @G/%m@ over @K/%d@ years.=","max_bytes":106,"ctx":"gap string: no pointer found by textdb, in place only stride-table(in-place only)","fmt":"gap"}
+{"id":"21567","jah":"b9eda91a86b2afeda871c741fa2fb97f","en":"It's January.\nPlayer contracts are renewed every\nJanuary.","max_bytes":61,"refs":1,"ctx":"tbl@1fa80[2/127]"}
+{"id":"215a4","jah":"4f7a4946bbb6edb99096662c2c4ffc7f","en":"We'll discuss extending contracts of\nplayers whose terms expired last year,\nplus their salary and length.","max_bytes":99,"refs":1,"ctx":"tbl@1fa80[3/127]"}
+{"id":"21607","jah":"e4095d78b4a1060c1a0ae62928ee199f","en":"Beginning this year's renewals.","max_bytes":29,"refs":1,"ctx":"tbl@1fa80[4/127]"}
+{"id":"21624","jah":"0c8189b28e3a1556cb19b70cda3bfb16","en":"No one is due a new contract this\nyear, it seems. That ends the\nrenewals.","max_bytes":77,"refs":1,"ctx":"tbl@1fa80[5/127]"}
+{"id":"21671","jah":"7685eae2cda9afdce60b89a674a608dd","en":"The brightly lit players are up for\nrenewal. How shall we handle it?","max_bytes":78,"refs":1,"ctx":"tbl@1fa80[6/127]"}
+{"id":"216bf","jah":"b0a7631d1b9d68fe59e22a662276f8be","en":"#sname#, you negotiate in person\nand set the terms directly.","max_bytes":72,"refs":1,"ctx":"tbl@1fa80[7/127]"}
+{"id":"21707","jah":"c2e5f4d60a8df0e8919eaf75212c62f2","en":"I'll negotiate with everyone and renew\nall deals amicably, but don't expect\ngreat terms.","max_bytes":103,"refs":1,"ctx":"tbl@1fa80[8/127]"}
+{"id":"2176e","jah":"e3f595586b2cf48ddbf5cfcaf41142ba","en":"Select players who won't be renewed.\nThey'll be automatically transferred.","max_bytes":78,"refs":1,"ctx":"tbl@1fa80[9/127]"}
+{"id":"217bc","jah":"bd48b9c7e1a0dfc69cce6807fc9dff55","en":"Ending renewals. Unrenewed players\nwill be transferred out of the club,\nso be careful.","max_bytes":91,"refs":1,"ctx":"tbl@1fa80[10/127]"}
+{"id":"21817","jah":"8f9fb4c4b9431054d2481b728ed9a515","en":"Select a player to negotiate\na renewal with.","max_bytes":48,"refs":1,"ctx":"tbl@1fa80[11/127]"}
+{"id":"21847","jah":"84aad8379373b9ef2215b0a8ae7065f1","en":"By my estimate, all the unrenewed\nplayers will cost @P/%m@ in\ntotal. Is that all right?","max_bytes":73,"refs":1,"ctx":"tbl@1fa80[12/127]"}
+{"id":"21890","jah":"9a9396f5ab87e4bc42b2b83924683aed","en":"Select the players you won't renew.\nThere's no going back once chosen,\nso be careful.","max_bytes":93,"refs":1,"ctx":"tbl@1fa80[13/127]"}
+{"id":"218ed","jah":"ae32fcbac490be55c43fac575197101f","en":"Renewals are done. The total cost\nthis time was @P/%m@.","max_bytes":63,"refs":1,"ctx":"tbl@1fa80[14/127]"}
+{"id":"2192c","jah":"d02697d0a647e32010e5fdffad624a84","en":"Ending renewals. Anyone not yet renewed\nwill be transferred automatically.\nIs that all right?","max_bytes":95,"refs":1,"ctx":"tbl@1fa80[15/127]"}
+{"id":"2198b","jah":"9663ebfdbd6768c453e8a774085ea9eb","en":"Talks with all players are over.\nThe total cost this time was\n@P/%m@.","max_bytes":71,"refs":1,"ctx":"tbl@1fa80[16/127]"}
+{"id":"219d2","jah":"6595e5b6179868c137a8aebb18eb0019","en":"Your club seems short of funds.\nPlease set the amount again.","max_bytes":62,"refs":1,"ctx":"tbl@1fa80[17/127]"}
+{"id":"21a10","jah":"7dcdb45a561ab887828f7ebf84c0a114","en":"Now enter this player's salary.","max_bytes":39,"refs":1,"ctx":"tbl@1fa80[18/127]"}
+{"id":"21a37","jah":"aa0386435ffa531ab6119a5749bf4ce5","en":"That's far from what the player had in\nmind. You'll need to offer more\nto win them over.","max_bytes":101,"refs":1,"ctx":"tbl@1fa80[19/127]"}
+{"id":"21a9c","jah":"acaea57ee19d596b0f702ed9b0e191c0","en":"They're very unhappy with the money,\nand it shows in their tone. Their\npride is badly hurt.","max_bytes":95,"refs":1,"ctx":"tbl@1fa80[20/127]"}
+{"id":"21afb","jah":"0e226f15d9f6b59495f385aa1bbe81c0","en":"You and the player are far apart. They\nseem quite unhappy. A big increase\nwill probably be needed.","max_bytes":109,"refs":1,"ctx":"tbl@1fa80[21/127]"}
+{"id":"21b68","jah":"3c2ce90459bb718f74c2138886bab103","en":"They don't look happy. A little upset\nabout the money. Perhaps offer a\nbit more.","max_bytes":105,"refs":1,"ctx":"tbl@1fa80[22/127]"}
+{"id":"21bd1","jah":"0286422221c7febe7c37a79d82f29cde","en":"The talks aren't clicking. Their pride\nwon't allow this amount. They seem\na little unhappy.","max_bytes":101,"refs":1,"ctx":"tbl@1fa80[23/127]"}
+{"id":"21c36","jah":"aa6fa7839b0c6cf10534683ef1140f1d","en":"They don't seem happy with the amount.\nTheir unhappiness shows on their face.\nLet's reconsider the amount slightly.","max_bytes":95,"refs":1,"ctx":"tbl@1fa80[24/127]"}
+{"id":"21c95","jah":"71b0177250c08ba40da50c4f2a57efd5","en":"There's some unhappiness, though only\nslight. Talks still aren't clicking.\nLet's consider offering a little more.","max_bytes":103,"refs":1,"ctx":"tbl@1fa80[25/127]"}
+{"id":"21cfc","jah":"60f9b4eda27a9be7506da2c2b126e90c","en":"Their expression has clouded a little.\nThe amount seems slightly off from\nwhat they were hoping for.","max_bytes":75,"refs":1,"ctx":"tbl@1fa80[26/127]"}
+{"id":"21d47","jah":"b6d243a1106f7c41e1f6794e6a8f39e5","en":"A slightly tense look. There's a subtle\nmismatch over the money. The offer is\njust a touch too low, it seems.","max_bytes":101,"refs":1,"ctx":"tbl@1fa80[27/127]"}
+{"id":"21dac","jah":"a7bc49074dd3eabcb2c231442b0dc8c1","en":"Congratulations!\n@Y/#tk00#@ has signed, delighted by\nan amount far above their hopes.","max_bytes":93,"refs":1,"ctx":"tbl@1fa80[28/127]"}
+{"id":"21e09","jah":"a8db939943f439239040b55b80320b13","en":"Congratulations!\n@Y/#tk00#@ has signed.\nPleased with more than they hoped for.","max_bytes":87,"refs":1,"ctx":"tbl@1fa80[29/127]"}
+{"id":"21e60","jah":"e3359294ad28a172e45a5b9997eee76f","en":"Congratulations!\n@Y/#tk00#@ has signed.\nContent with exactly what they asked.","max_bytes":93,"refs":1,"ctx":"tbl@1fa80[30/127]"}
+{"id":"21ebd","jah":"f9bb2ab6e61371fff3366c46ee65d282","en":"Sadly, the deal with @Y/#tk00#@ fell\nthrough. Can't be helped at this\namount...","max_bytes":85,"refs":1,"ctx":"tbl@1fa80[31/127]"}
+{"id":"21f12","jah":"87b979f5d18f18c43e5f89e1f757a944","en":"From July, half a year is added.\n%d-year contract: @Y/%m@ in\ntotal. Is that all right?","max_bytes":91,"refs":1,"ctx":"tbl@1fa80[32/127]"}
+{"id":"21f6d","jah":"263923c28f3d1ea9b39f50825df14cf8","en":"On these terms, a %d-year deal costs\n@Y/%m@ in total. Is that\nall right?","max_bytes":77,"refs":1,"ctx":"tbl@1fa80[33/127]"}
+{"id":"21fba","jah":"1796af5c0e032de9baca2eefcdca81b3","en":"#sname#, you're short of money.\nPlease enter it again.","max_bytes":59,"refs":1,"ctx":"tbl@1fa80[34/127]"}
+{"id":"21ff5","jah":"6f30f8038fcd0f69bbc8e6a88cc85ef6","en":"Each new year, the coach reviews the\npositions of everyone in the squad.\nChanges reflect last year's results.","max_bytes":113,"refs":1,"ctx":"tbl@1fa80[35/127]"}
+{"id":"22066","jah":"580f09d538217fec4fa79d947757fe69","en":"The coach will suggest position\nchanges for some players. Change\nthem if you wish.","max_bytes":101,"refs":1,"ctx":"tbl@1fa80[36/127]"}
+{"id":"220cb","jah":"e2ecca59651737a23f9afe6a2f6423fc","en":"Let's go through the position changes.\nThe coach will explain who is being\nconsidered and why.","max_bytes":99,"refs":1,"ctx":"tbl@1fa80[37/127]"}
+{"id":"2212e","jah":"6e9d34f99683e6332b9da15249c450f2","en":"Goalkeeper.\nNeeds strong one-on-ones, instinct and\njudgement, plus nerve for penalties.","max_bytes":101,"refs":1,"ctx":"tbl@1fa80[38/127]"}
+{"id":"22193","jah":"dfb5c38119e57b328ed1ba9cc5785515","en":"Defender.\nNeeds good interceptions and tackling\nto shut down the opposition's attacks.","max_bytes":91,"refs":1,"ctx":"tbl@1fa80[39/127]"}
+{"id":"221ee","jah":"2e99137d3d14c276fef6069d2020db5e","en":"Midfielder.\nNeeds a playmaker's range and vision,\nplus retention, passing, versatility.","max_bytes":95,"refs":1,"ctx":"tbl@1fa80[40/127]"}
+{"id":"2224d","jah":"e4320a53177e8964b7621eb5729066d1","en":"Forward.\nNeeds kicking power and shot accuracy\nto reliably turn chances into goals.","max_bytes":91,"refs":1,"ctx":"tbl@1fa80[41/127]"}
+{"id":"222a8","jah":"b95676d0dfa00ef8ced8a31ea0c05b1f","en":"Whose position shall we change?\nPlease select a player.","max_bytes":58,"refs":1,"ctx":"tbl@1fa80[42/127]"}
+{"id":"222e2","jah":"525a408664ae85ecfa279fb3bbc81f5e","en":"Which position for them?\nPlease choose.","max_bytes":44,"refs":1,"ctx":"tbl@1fa80[43/127]"}
+{"id":"2230e","jah":"34fca7118fdd97892e9c8423dc490f89","en":"That finishes this year's\nposition changes. All right?","max_bytes":52,"refs":1,"ctx":"tbl@1fa80[44/127]"}
+{"id":"22342","jah":"3c0d61ff79e20ba2929d1bce169cdd05","en":"That concludes the position changes.\nPlayers stay registered in these\npositions until next year.","max_bytes":77,"refs":1,"ctx":"tbl@1fa80[45/127]"}
+{"id":"2238f","jah":"83abf3c86cb046c66419fb60890b7e2e","en":"No players need a position change\nthis year, it seems. That concludes\nthe position changes.","max_bytes":81,"refs":1,"ctx":"tbl@1fa80[46/127]"}
+{"id":"223e0","jah":"7616f65e5a0fd7cf867e3cf03ce32070","en":"I don't think this amount is\nreasonable.","max_bytes":46,"refs":1,"ctx":"tbl@1fa80[47/127]"}
+{"id":"2240e","jah":"ba7dedd87478a6f9f7af669f3b3140a2","en":"Is this figure a mistake? Or\nare you taking the mickey?","max_bytes":56,"refs":1,"ctx":"tbl@1fa80[48/127]"}
+{"id":"22446","jah":"71faa15815b3b63a82d4c73ca0f01712","en":"So... that's all I'm worth\nto you, is it?","max_bytes":50,"refs":1,"ctx":"tbl@1fa80[49/127]"}
+{"id":"22478","jah":"df194acbfbce141b1f8ef444326eb1f1","en":"Not much of a joke. Too stupid to\neven get angry about.","max_bytes":60,"refs":1,"ctx":"tbl@1fa80[50/127]"}
+{"id":"224b4","jah":"2469427d0d5b22635fce6698040fc2ae","en":"Is this amount how you rate me?\nThat's too harsh.","max_bytes":50,"refs":1,"ctx":"tbl@1fa80[51/127]"}
+{"id":"224e6","jah":"15d3e5469bb2795c40767a4a5e735509","en":"Think I'll accept this amount?\nIf you don't want me, say so.","max_bytes":56,"refs":1,"ctx":"tbl@1fa80[52/127]"}
+{"id":"2251e","jah":"0d461f3f69fddd7488acef881b7dc79d","en":"...Stop joking.","max_bytes":19,"refs":1,"ctx":"tbl@1fa80[53/127]"}
+{"id":"22531","jah":"df8e74eec35c91ca03e1178940289238","en":"Hey, come on! Even I get angry.\nThis is no joke!","max_bytes":52,"refs":1,"ctx":"tbl@1fa80[54/127]"}
+{"id":"22565","jah":"83795af0b328890107f7761d390434e0","en":"I can't accept this amount. I did\nmore for this club than that.","max_bytes":58,"refs":1,"ctx":"tbl@1fa80[55/127]"}
+{"id":"2259f","jah":"e7551fa28f645fa17fd6039df5270637","en":"I believe my value is somewhat\nhigher than this.","max_bytes":50,"refs":1,"ctx":"tbl@1fa80[56/127]"}
+{"id":"225d1","jah":"41cafa5ed80adf4ebc706ea146a1d067","en":"Please reconsider the money.\nI can't accept this.","max_bytes":58,"refs":1,"ctx":"tbl@1fa80[57/127]"}
+{"id":"2260b","jah":"e0b7ed325382e84cd359231a7e8f6356","en":"I can't accept that amount.\nI'm worth more than that, surely.","max_bytes":60,"refs":1,"ctx":"tbl@1fa80[58/127]"}
+{"id":"22647","jah":"cce9d54e2a3226cb892aa12b47e97b57","en":"That's far from my expectation.\nI can't accept that amount.","max_bytes":62,"refs":1,"ctx":"tbl@1fa80[59/127]"}
+{"id":"22685","jah":"6d7fe9cae7e21e71b1348238396bdc51","en":"I'm worth a bit more than that,\nno? Please understand.","max_bytes":62,"refs":1,"ctx":"tbl@1fa80[60/127]"}
+{"id":"226c3","jah":"d07eb47c73b9cbd68d3f90af3e8585ee","en":"...Still low.","max_bytes":15,"refs":1,"ctx":"tbl@1fa80[61/127]"}
+{"id":"226d2","jah":"28d03bf5bfd7ca9508f20f74c1152c98","en":"Could you raise it a bit?\nMy livelihood's at stake.","max_bytes":56,"refs":1,"ctx":"tbl@1fa80[62/127]"}
+{"id":"2270a","jah":"7e0834b270647d1e75aa6d52b420c634","en":"Could you give a bit more\non the money?","max_bytes":50,"refs":1,"ctx":"tbl@1fa80[63/127]"}
+{"id":"2273c","jah":"b64350558e4d24efd532929afd7d71cf","en":"Hmm, we're almost there.\nCould you raise the sum a bit?","max_bytes":60,"refs":1,"ctx":"tbl@1fa80[64/127]"}
+{"id":"22778","jah":"21abeb5d81036f8a94641651c5447692","en":"Just a little more, please?\nCould you go higher?","max_bytes":50,"refs":1,"ctx":"tbl@1fa80[65/127]"}
+{"id":"227aa","jah":"ec6db7a2cea95e3218a03f0d8ce4696d","en":"We're just one step apart\nfrom my figure.","max_bytes":46,"refs":1,"ctx":"tbl@1fa80[66/127]"}
+{"id":"227d8","jah":"28c628ea55f327b63cfc30e63f8d5721","en":"We're nearly there. Could you\nraise the salary a bit?","max_bytes":60,"refs":1,"ctx":"tbl@1fa80[67/127]"}
+{"id":"22814","jah":"7e38dc519eba319d91815d3cbcc9b86f","en":"Almost there, but the amount...\nRaise it a bit?","max_bytes":50,"refs":1,"ctx":"tbl@1fa80[68/127]"}
+{"id":"22846","jah":"138c95f70450a56492bf9d85c8fc7427","en":"...Nearly there.","max_bytes":17,"refs":1,"ctx":"tbl@1fa80[69/127]"}
+{"id":"22857","jah":"b660babc5e169d93dd7f48c34e286d08","en":"Just a bit more! Please? Then\nI'll sign on the dotted line!","max_bytes":60,"refs":1,"ctx":"tbl@1fa80[70/127]"}
+{"id":"22893","jah":"23d94f65630d9110f0d93eb718809727","en":"You rate me this highly? Wow!\nI'm so happy.","max_bytes":48,"refs":1,"ctx":"tbl@1fa80[71/127]"}
+{"id":"228c3","jah":"47a45a1acf3d0ed3fda365b80e7a6516","en":"I'm honoured you rate me so\nhighly. Thanks. Let's sign.","max_bytes":58,"refs":1,"ctx":"tbl@1fa80[72/127]"}
+{"id":"228fd","jah":"5e91c4a6d95556f952cb7ae1870fdc0e","en":"R-really? You value me this much?\nIt's like a dream.","max_bytes":62,"refs":1,"ctx":"tbl@1fa80[73/127]"}
+{"id":"2293b","jah":"4a12f18830b631a168fcb0ecc19d6c4a","en":"Leave it to me. A year to\nremember, I promise.","max_bytes":49,"refs":1,"ctx":"tbl@1fa80[74/127]"}
+{"id":"2296c","jah":"f9bbc7f23b90af3dab9f0dede51c886c","en":"I never expected such high\nhopes of me.","max_bytes":48,"refs":1,"ctx":"tbl@1fa80[75/127]"}
+{"id":"2299c","jah":"6a6795bf16853cf02d54db4bf8e52c78","en":"Rating me that highly, eh?\nNow that's good to hear.","max_bytes":52,"refs":1,"ctx":"tbl@1fa80[76/127]"}
+{"id":"229d0","jah":"fb4b735b8b6cf58a3c177d7e5c5c0286","en":"Thanks. I'll sign.","max_bytes":21,"refs":1,"ctx":"tbl@1fa80[77/127]"}
+{"id":"229e5","jah":"35d9cfb4e197df2ef29974fbbab72e26","en":"T-this isn't a dream, is it?\nFeels unreal...","max_bytes":46,"refs":1,"ctx":"tbl@1fa80[78/127]"}
+{"id":"22a13","jah":"b7ebf890608ec2cc609f80959a15021a","en":"I'll work hard to live up\nto your hopes.","max_bytes":42,"refs":1,"ctx":"tbl@1fa80[79/127]"}
+{"id":"22a3d","jah":"9cc9184750971baef83203d08c52c242","en":"To the future.\nI'll give my all.","max_bytes":38,"refs":1,"ctx":"tbl@1fa80[80/127]"}
+{"id":"22a63","jah":"c9bdf60d2fb5a2539e6305e8176547f4","en":"Quite high... I'm surprised.\nLet me sign.","max_bytes":46,"refs":1,"ctx":"tbl@1fa80[81/127]"}
+{"id":"22a91","jah":"35300f141b5afb5ba399766706450cf6","en":"Nice valuation.\nBack with you, then.","max_bytes":38,"refs":1,"ctx":"tbl@1fa80[82/127]"}
+{"id":"22ab7","jah":"c2b8b4121b836c4330bfbb170f7aa9b3","en":"Very good terms.\nI'd better give it my all, then.","max_bytes":54,"refs":1,"ctx":"tbl@1fa80[83/127]"}
+{"id":"22aed","jah":"8183bc23e0b616c51d2e58d466d39f69","en":"You've splashed out!\nI'll do it, then.","max_bytes":42,"refs":1,"ctx":"tbl@1fa80[84/127]"}
+{"id":"22b17","jah":"5e866d637dfaac2cdc90ca52d14a4922","en":"Good terms.","max_bytes":13,"refs":1,"ctx":"tbl@1fa80[85/127]"}
+{"id":"22b24","jah":"e157c3083fe59959f68e303df014dc83","en":"Wow, you went all out.\nI'd better pull my weight too.","max_bytes":60,"refs":1,"ctx":"tbl@1fa80[86/127]"}
+{"id":"22b60","jah":"577cab802fb4224791629867a977fb08","en":"That's right on the limit. Oh\nwell, I suppose that's fine.","max_bytes":46,"refs":1,"ctx":"tbl@1fa80[87/127]"}
+{"id":"22b8e","jah":"0cbb5e33512f50adb98400038530b61e","en":"The bare minimum, really. Still,\nI promise to give my all.","max_bytes":60,"refs":1,"ctx":"tbl@1fa80[88/127]"}
+{"id":"22bca","jah":"b41cfacb919ff8e445e60647af634879","en":"That's exactly my asking figure.\nAlmost suspiciously on target.","max_bytes":50,"refs":1,"ctx":"tbl@1fa80[89/127]"}
+{"id":"22bfc","jah":"3c5409679b064d9adb18744c704e7b73","en":"You're stingy.\nYou win. Let's sign.","max_bytes":44,"refs":1,"ctx":"tbl@1fa80[90/127]"}
+{"id":"22c28","jah":"8993659c7220adad1d96b6f06c2492ca","en":"That's the lowest I can accept.\nAll right, I'll sign.","max_bytes":62,"refs":1,"ctx":"tbl@1fa80[91/127]"}
+{"id":"22c66","jah":"f0ff5c4c314711d41541a7915d00ce91","en":"I'd really like a bit more...\nAll right, I'll sign.","max_bytes":60,"refs":1,"ctx":"tbl@1fa80[92/127]"}
+{"id":"22ca2","jah":"8fa784a1e2429ed22c35be44b2526402","en":"A bit too calculated.\n...Fine, I'll accept.","max_bytes":46,"refs":1,"ctx":"tbl@1fa80[93/127]"}
+{"id":"22cd0","jah":"c323fbe5fc669c2abc6494e09db505f1","en":"Exactly what I asked for.\nWell, why not. I'll sign.","max_bytes":56,"refs":1,"ctx":"tbl@1fa80[94/127]"}
+{"id":"22d08","jah":"bc9734f25a41b5aeca25f878ee5dcf65","en":"This time I'd like a %d-year deal.","max_bytes":35,"refs":1,"ctx":"tbl@1fa80[95/127]"}
+{"id":"22d2b","jah":"31f6d6b7514358f8956894a33719e927","en":"Hmm,\nI'd like a %d-year deal.","max_bytes":32,"refs":1,"ctx":"tbl@1fa80[96/127]"}
+{"id":"22d4b","jah":"624cdf123ecbafd44dbbe8cc5e07d291","en":"I'd like a %d-year contract,\nif possible...","max_bytes":48,"refs":1,"ctx":"tbl@1fa80[97/127]"}
+{"id":"22d7b","jah":"651569c61aec393cfdf438a8bd6b2b56","en":"Let's make it %d years.","max_bytes":27,"refs":1,"ctx":"tbl@1fa80[98/127]"}
+{"id":"22d96","jah":"ac96f4ae6510179f8c6020e87adad0b3","en":"I'd like a %d-year\ncontract, please.","max_bytes":36,"refs":1,"ctx":"tbl@1fa80[99/127]"}
+{"id":"22dba","jah":"c0e08c7b6fa59a0d8d54fde560dd22dd","en":"%d years feels right.","max_bytes":27,"refs":1,"ctx":"tbl@1fa80[100/127]"}
+{"id":"22dd5","jah":"f24d48f8b451edaadbc7e5f95028a510","en":"Request %d years","max_bytes":17,"refs":1,"ctx":"tbl@1fa80[101/127]"}
+{"id":"22de6","jah":"19d449850fd842cb51e1d989110b6f95","en":"Hmm, I feel like a\n%d-year deal this time.","max_bytes":48,"refs":1,"ctx":"tbl@1fa80[102/127]"}
+{"id":"22e16","jah":"6f8fb42eab9b2a60947504e2267eb435","en":"A promising start\nto the talks.","max_bytes":38,"refs":1,"ctx":"tbl@1fa80[103/127]"}
+{"id":"22e3c","jah":"0ddc46f42039056eb12f3a7e6a004169","en":"Good, that's the right answer.\nI expect excellent negotiations.","max_bytes":50,"refs":1,"ctx":"tbl@1fa80[104/127]"}
+{"id":"22e6e","jah":"1f08a64c0247958232921298784cb70b","en":"What a relief...\nLet's keep this up.","max_bytes":44,"refs":1,"ctx":"tbl@1fa80[105/127]"}
+{"id":"22e9a","jah":"fc5f8f35bdb8ab231e76bddec74fff8b","en":"Yes! Going well.\nLet's keep rolling.","max_bytes":44,"refs":1,"ctx":"tbl@1fa80[106/127]"}
+{"id":"22ec6","jah":"67983c462916512e7fc038eef97f945d","en":"I'm glad you accepted that.","max_bytes":31,"refs":1,"ctx":"tbl@1fa80[107/127]"}
+{"id":"22ee5","jah":"05ec8ebb8e083e6451bf72da31c6d316","en":"Glad to hear it.\nDo the contract like this too.","max_bytes":38,"refs":1,"ctx":"tbl@1fa80[108/127]"}
+{"id":"22f0b","jah":"c179578f29bd4c553fa856b823a02bca","en":"...A relief.","max_bytes":17,"refs":1,"ctx":"tbl@1fa80[109/127]"}
+{"id":"22f1c","jah":"0387f24408551f09bd98b0f44220b012","en":"Yes! Brilliant.\nGood feeling about this.","max_bytes":44,"refs":1,"ctx":"tbl@1fa80[110/127]"}
+{"id":"22f48","jah":"ad3b3e29a49512360d41ed1a16997801","en":"So my opinion won't be accepted,\nis that it?","max_bytes":46,"refs":1,"ctx":"tbl@1fa80[111/127]"}
+{"id":"22f76","jah":"bfb4280d4151f57531f66ff272c71baa","en":"So my opinion doesn't matter\nat all?","max_bytes":40,"refs":1,"ctx":"tbl@1fa80[112/127]"}
+{"id":"22f9e","jah":"50d6b705bbcdd738155c4e73802d9ff8","en":"I guess my opinion never\ncounts for much.","max_bytes":48,"refs":1,"ctx":"tbl@1fa80[113/127]"}
+{"id":"22fce","jah":"2a61692b995ddafff1b91c667cad5ebf","en":"Why did you even bother asking\nme about the length, then?","max_bytes":40,"refs":1,"ctx":"tbl@1fa80[114/127]"}
+{"id":"22ff6","jah":"6d6d87a05e4bf2af0a9600a9b8762925","en":"My opinion is just ignored, then.","max_bytes":25,"refs":1,"ctx":"tbl@1fa80[115/127]"}
+{"id":"2300f","jah":"600d33fae603d607258b959359a48a0c","en":"Ignoring my opinion?\nNot a good sign.","max_bytes":42,"refs":1,"ctx":"tbl@1fa80[116/127]"}
+{"id":"23039","jah":"8a0c8fdcc19c4030a902fa3174507faf","en":"...Unpleasant.","max_bytes":17,"refs":1,"ctx":"tbl@1fa80[117/127]"}
+{"id":"2304a","jah":"67845dfeb2b49dc979478aaaefacd727","en":"You're joking. I went to the\ntrouble of giving you my opinion.","max_bytes":48,"refs":1,"ctx":"tbl@1fa80[118/127]"}
+{"id":"2307a","jah":"1abbdaf3ebbef2128bb01460e0b60972","en":"We can't seem to agree.\nSadly, talks have broken down.","max_bytes":56,"refs":1,"ctx":"tbl@1fa80[119/127]"}
+{"id":"230b2","jah":"4a6fca80975e0177856c1b12a480a6ed","en":"There's no point going on.\nGoodbye.","max_bytes":40,"refs":1,"ctx":"tbl@1fa80[120/127]"}
+{"id":"230da","jah":"f54814a3d9345c559b1901ea60afce86","en":"Even I can't put up with\nthis any longer.","max_bytes":42,"refs":1,"ctx":"tbl@1fa80[121/127]"}
+{"id":"23104","jah":"21356e133cc7872e539f2b99f6506e76","en":"Talks are off.\nWe won't meet again.","max_bytes":38,"refs":1,"ctx":"tbl@1fa80[122/127]"}
+{"id":"2312a","jah":"673635e101bd13cfe22a137f1e1763bf","en":"This is a waste of time now.","max_bytes":29,"refs":1,"ctx":"tbl@1fa80[123/127]"}
+{"id":"23147","jah":"2025ecfc02273f65c5e4c84dc625afe2","en":"Can't take this.\nI'm going home.","max_bytes":32,"refs":1,"ctx":"tbl@1fa80[124/127]"}
+{"id":"23167","jah":"fa6f28df4868f9c66a279bd6cc3b5ac3","en":"...Pointless now.","max_bytes":19,"refs":1,"ctx":"tbl@1fa80[125/127]"}
+{"id":"2317a","jah":"5798c82c6efecb27a7cacd783a58384e","en":"No point going on.\nSee ya.","max_bytes":30,"refs":1,"ctx":"tbl@1fa80[126/127]"}
+{"id":"23250","jah":"e4f5d1170c37cf9bdbc7203906fa3f8c","en":"     yrs\n@Y/Talks Left\n\n@Y/Last Year@\n    Apps\n        Goals\n@Y/Avg Rating@\n          pts","max_bytes":90,"refs":1,"ctx":"ptr@3440"}
+{"id":"232aa","jah":"f3eac0da79ebbed8fcd04c2fca228c90","en":"     yrs\n      yr deal\n\n@Y/Last Year@\n    Apps\n        Goals\n@Y/Avg Rating@\n          pts","max_bytes":90,"refs":1,"ctx":"ptr@3448"}
+{"id":"2330c","jah":"dd95d5fc5a27c81e9c4870c5e83a926a","en":"You won't be signing %s for\nnext season. Is that all right?","max_bytes":52,"refs":1,"ctx":"tbl@1fa80[0/127]"}
+{"id":"23340","jah":"4e9a51b6e771f86e729719563d078bc9","en":"@Y/%s@ has been transferred.","max_bytes":36,"refs":1,"ctx":"tbl@1fa80[1/127]"}
+{"id":"23364","jah":"970caf7d6fb0adc0b29b2cb513e5840c","en":"Dropped this quickly? What a\nfine club you run.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[0/160]"}
+{"id":"23396","jah":"70125d584a39550e40d2a1da3dcfd96a","en":"What exactly is lacking in me?\nYou'll regret this.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[1/160]"}
+{"id":"233ce","jah":"dca25f055b54137a40277bdded31e73c","en":"Can this club really afford to\nlet a player of my level go?","max_bytes":68,"refs":1,"ctx":"tbl@1fc88[2/160]"}
+{"id":"23412","jah":"8337906d352c154be4a89e1b6f3d058d","en":"Even I can't beat old age.\nPerhaps it's a fair offer.","max_bytes":68,"refs":1,"ctx":"tbl@1fc88[3/160]"}
+{"id":"23456","jah":"e5469d4e2a2563caff29a21636d36e1d","en":"My best is still to come.\nWon't you reconsider?","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[4/160]"}
+{"id":"2348a","jah":"b9729436925f7c1f9780497105362a9a","en":"What do you dislike about me?\nDisappointing.","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[5/160]"}
+{"id":"234ba","jah":"0d62d4501897a146c8cd0bce72bc614c","en":"My experience would surely have\nbeen useful to the club.","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[6/160]"}
+{"id":"234ea","jah":"2a0c96b030bb1cbbf8122d4a463fa41d","en":"Thank you for everything so far.\nI'll take life easy from now on.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[7/160]"}
+{"id":"23524","jah":"d99c0ddbad70cbb303700c623f23d429","en":"Written off so young?\nI feel rather betrayed.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[8/160]"}
+{"id":"2355c","jah":"5be737be0d27bc84283705277a5e35c1","en":"Pushing me out at my age?\nWhat's your complaint?","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[9/160]"}
+{"id":"2358e","jah":"b2fedd9ca05525f0740dd6a314b616f4","en":"What did I do wrong?\nPlease tell me!","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[10/160]"}
+{"id":"235be","jah":"bbfb554ae0258cc5fc2ecb8f9d7f68b0","en":"I'd rather my fans didn't see\nme in decline.","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[11/160]"}
+{"id":"235f2","jah":"74ee66eb8ccd713d4024877a512527a0","en":"Giving up on me at this age...\nCan you see the future?","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[12/160]"}
+{"id":"2362c","jah":"4d73ba9937f6cb248661142c045638d7","en":"Please, calm down a little.\nI'll work even harder.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[13/160]"}
+{"id":"23666","jah":"2bc5d37fecac3b3281ad91469f45ce12","en":"My experience counts right now.\nGive me a little longer?","max_bytes":66,"refs":1,"ctx":"tbl@1fc88[14/160]"}
+{"id":"236a8","jah":"ada3b4f27f3fd8d2ed2976a2f3c672e7","en":"Thanks for everything so far.\nI'm grateful to the club.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[15/160]"}
+{"id":"236e2","jah":"e1b7df7ff2f484943cc8daeb240462b3","en":"This decision humiliates me.\nYou'll pay a painful price.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[16/160]"}
+{"id":"2371c","jah":"143cdf31c495fb4e6b6d753dc13a25af","en":"Sack me if you must.\nThere are endless places to go.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[17/160]"}
+{"id":"23756","jah":"72ee73d92ebdb81e60f0aec6d1196ada","en":"Wasting my experience is\na foolish decision.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[18/160]"}
+{"id":"23788","jah":"47d7f2ecfbf1b69d460c4dd599b01c38","en":"An old soldier simply moves on.\nThanks for everything. Loved it.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[19/160]"}
+{"id":"237ba","jah":"c4f780f9d598073b7d09234084e574ae","en":"As a joke, it's most unpleasant.\nEven I get angry sometimes.","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[20/160]"}
+{"id":"237ee","jah":"6cfc6112272058ae7c2775b2b7bbdb77","en":"I'm to accept this decision?\nRidiculous.","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[21/160]"}
+{"id":"2381e","jah":"8691c8d36769e27086bd919f5b8f57f5","en":"Your decision is wrong.\nYou're going to regret it.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[22/160]"}
+{"id":"23856","jah":"38324e92091a748a00de821259900299","en":"Hm, the time has finally come.\nA wonderful club it was.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[23/160]"}
+{"id":"2388e","jah":"6ea8cc08dc38bb5156467e9132a81359","en":"Go ahead and try. There are clubs\nbeyond count that want my talent.","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[24/160]"}
+{"id":"238ca","jah":"e3b909e4b7b679ccd4272afca8754a2a","en":"Nothing is worse than ignorance.\nI'm talking about you.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[25/160]"}
+{"id":"238fc","jah":"13a1f29ce8aa4eeecdac9497bfec387a","en":"Surely the most important quality\nin a player is experience?","max_bytes":46,"refs":1,"ctx":"tbl@1fc88[26/160]"}
+{"id":"2392a","jah":"5c6728175029e8f42e6153525c2cd8f0","en":"Was I of any use?\nThanks for looking after me.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[27/160]"}
+{"id":"23962","jah":"596307746d4eae58028f301801e5cd60","en":"This joke has gone too far.\nDeeply offensive!","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[28/160]"}
+{"id":"23992","jah":"90d3677c1b66b3368c43a566ace607cd","en":"It'll be too late for regrets.\nAnd I'm at my peak right now.","max_bytes":44,"refs":1,"ctx":"tbl@1fc88[29/160]"}
+{"id":"239be","jah":"6c16392fc0d0ad27a3b5fa5cb871e28e","en":"The most foolish decision of my\ncareer. Everyone will mock you.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[30/160]"}
+{"id":"239f8","jah":"ab67c57c8e5bc3075737a705d20282ed","en":"Know when to step away.\nThanks for it all.","max_bytes":44,"refs":1,"ctx":"tbl@1fc88[31/160]"}
+{"id":"23a24","jah":"80475b9446126c97256c585f439ce761","en":"Wh-what do you know about me?\nThis is all wrong.","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[32/160]"}
+{"id":"23a58","jah":"5d6f920eb05e0cdcb447809befc06b58","en":"You understand nothing.\nYou don't know the real me!","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[33/160]"}
+{"id":"23a92","jah":"473394631b04bc85354a39b175c46649","en":"This is absurd.\nYou'll definitely regret it!","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[34/160]"}
+{"id":"23ac6","jah":"8cc6c66676fe03e3b446f5ba46c2dde5","en":"I've got unfinished business.\nUse me a bit longer.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[35/160]"}
+{"id":"23afe","jah":"d1143691448a325e89dce26bb0cd5d61","en":"Know what I'm capable of?\nI'm only getting better!","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[36/160]"}
+{"id":"23b36","jah":"39fbc442f0a8c3fbd9374ee5ecb307c3","en":"Please calm down a bit.\nYou're being fooled.","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[37/160]"}
+{"id":"23b72","jah":"cbbbe1c0e1637db0a689894fca1e402c","en":"Few players have this\nmuch experience!","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[38/160]"}
+{"id":"23ba6","jah":"b959de2d2ee63d5528f99274c4dce4fe","en":"Age counts against me, but used\nwell I can still deliver.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[39/160]"}
+{"id":"23be4","jah":"2f71c36183af24f328c5627d6ab88a20","en":"Tell me what's lacking.\nI'll sort it out, I promise...","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[40/160]"}
+{"id":"23c20","jah":"684c77871c0f7860c8e23e6e50d1044f","en":"This is my prime, you know?\nDo you really have no use for me?","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[41/160]"}
+{"id":"23c5e","jah":"342ca2d7d249159a97705e5228c03a14","en":"So you need others more than\nmy experience... It hurts.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[42/160]"}
+{"id":"23c98","jah":"a2bf7d65f83b27452f77ce5f0456b4df","en":"I can still do it. Look, my body\nstill moves just fine!","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[43/160]"}
+{"id":"23cd6","jah":"40978efedefec5785a5bac48d0c4d8fe","en":"I thought this was a club I'd\nhappily give my whole life to...","max_bytes":66,"refs":1,"ctx":"tbl@1fc88[44/160]"}
+{"id":"23d18","jah":"2cf375aac7898b659fd0fe48c4940d15","en":"Nobody can beat me for drive.\nSo please, I'm asking you.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[45/160]"}
+{"id":"23d52","jah":"5a67d65bc8392af8bcc0b564fcdf6afe","en":"What's the problem? My youth?\nMy talent? I...","max_bytes":46,"refs":1,"ctx":"tbl@1fc88[46/160]"}
+{"id":"23d80","jah":"d21441d83b462fa748942b410115bc1f","en":"My body may be near its limit,\nbut my spirit beats the rookies!","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[47/160]"}
+{"id":"23dbc","jah":"0e0e9859034e52b61afaa6573571f93a","en":"Anyone blind to talent's a fool.\nI did nothing wrong.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[48/160]"}
+{"id":"23df4","jah":"c2beac7c6fc2e303b5e4d6233549a4d0","en":"I thought you a fool before, but\nnot this much.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[49/160]"}
+{"id":"23e32","jah":"fc4d79e1f4234bd70e2b34626d549e75","en":"Fine. Clubs all over the world\nwill buy my experience.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[50/160]"}
+{"id":"23e6c","jah":"7fced334ae4e80d552ab4f309f42ab9b","en":"I can still beat the young lads.\nMy experience pays off now.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[51/160]"}
+{"id":"23eaa","jah":"f937f8fd1f13fd35fa66d88fc69c17cd","en":"That is lack of foresight.\nWhat do you know about me?","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[52/160]"}
+{"id":"23ede","jah":"d7dbf415b0bf90c76fa512048da6cea3","en":"Glad you're throwing me out.\nNo more putting up with you.","max_bytes":64,"refs":1,"ctx":"tbl@1fc88[53/160]"}
+{"id":"23f1e","jah":"4488dcd5cfca36a1438ff87629d06092","en":"I can picture you fuming as I\nshine at another club.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[54/160]"}
+{"id":"23f58","jah":"a4d1bd97639a19e27d75da7b6872837a","en":"I've got plenty of stamina and\nspirit. I can play on for ages.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[55/160]"}
+{"id":"23f8a","jah":"cc1db475eb1f19af3bd5d3f5deb2a9f1","en":"Think it over again, will you?\nWho else can you rely on?","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[56/160]"}
+{"id":"23fc2","jah":"b9bdd3bf1f8e3214297343329d5fb034","en":"What are you thinking...?\nThis is ridiculous.","max_bytes":44,"refs":1,"ctx":"tbl@1fc88[57/160]"}
+{"id":"23fee","jah":"2c967edff8ad32c0fee47ad8b96a159f","en":"You can't buy experience.\nYou'll regret this.","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[58/160]"}
+{"id":"24024","jah":"447fd3df3525b6c3708ed39e237a460f","en":"I can fight for ten more years.\nI must still have the ability.","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[59/160]"}
+{"id":"24060","jah":"3b63bd2d682049ee008039ce6de625ac","en":"Hang on, you've got this wrong.\nOthers should go before me.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[60/160]"}
+{"id":"24098","jah":"001fb1aaabeb2d00d8b96a588508c3dd","en":"What a colossal misjudgement.\nWhat do you gain from sacking me?","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[61/160]"}
+{"id":"240cc","jah":"43c3c1f8120d98270bb680a918eb2755","en":"What? You don't want me?\nMust be a mistake.","max_bytes":46,"refs":1,"ctx":"tbl@1fc88[62/160]"}
+{"id":"240fa","jah":"69ef7d8ccc42a14f59c451dacb2654f0","en":"Sometimes experience beats youth.\nThink again.","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[63/160]"}
+{"id":"2412e","jah":"cc97aefa405518148d05e36d0c2bf9b7","en":"My real ability shows from here.\nDo you realise?","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[64/160]"}
+{"id":"24166","jah":"4310d346e83078d97c4d171f0f1d233b","en":"Transfer me now and I'll come\nback as your worst enemy.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[65/160]"}
+{"id":"2419e","jah":"937ff42deecbb8876819af0be81c280c","en":"Mental ability from experience\nshould matter to the club.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[66/160]"}
+{"id":"241dc","jah":"cfe785de57d732c94c0642fea848a297","en":"I've worried about my form\nlately too.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[67/160]"}
+{"id":"2420e","jah":"e89cc7214718dad455b6e6e73a2bf6d1","en":"What exactly am I lacking?\nI simply can't accept this.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[68/160]"}
+{"id":"24246","jah":"3281ba6f7e25b15893850e772d26a697","en":"Wait, please.\nI haven't been told anything.","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[69/160]"}
+{"id":"2427a","jah":"2bbf7636f55ca777bc6f1650f04872d2","en":"Springing this on me,\nI'm not mentally prepared.","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[70/160]"}
+{"id":"242b0","jah":"a1126856cd896f265655b9820b2f4a4c","en":"Maybe it's about time I stepped\naside. Thanks for everything.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[71/160]"}
+{"id":"242ee","jah":"a3b6f4891daf6e585029c1eceac42237","en":"I can't accept that.\nJust as things start going well!","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[72/160]"}
+{"id":"2431e","jah":"9c8d43ef3b3acca29840c970e1c4abe4","en":"This is my peak right now!\nDo you realise that?","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[73/160]"}
+{"id":"24350","jah":"bfdd52e19ce602fd3c14cc1e07e931de","en":"No one here is better than me.\nThis has to be a mistake.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[74/160]"}
+{"id":"2438e","jah":"fff944e407bba70acfce55e702219d58","en":"Stepping aside matters, but\nI want the contract kept.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[75/160]"}
+{"id":"243c8","jah":"a72249c252eeaabae91da57b593bc290","en":"Even if you transfer me now, you\nwon't gain anything from it.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[76/160]"}
+{"id":"24402","jah":"33a1d832199dfd1ee992558d5a0dcf9c","en":"Am I such a nuisance?\nSupporters won't stay quiet.","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[77/160]"}
+{"id":"24438","jah":"e5d64bcf63ca214712583232931fa226","en":"Is there something you need more\nthan my experience?","max_bytes":46,"refs":1,"ctx":"tbl@1fc88[78/160]"}
+{"id":"24466","jah":"8eca1a018734b10f8a98602e5a81ca98","en":"I suppose it's about time.\nThanks for looking after me.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[79/160]"}
+{"id":"24498","jah":"0b7f4418f97c7b4dde2ec2237244f189","en":"You're heartless.\nNobody will follow you like this.","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[80/160]"}
+{"id":"244ce","jah":"6e52a4bd55074b47695bb3f2bd377821","en":"My ability's below squad level?\nAre you blind or what?","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[81/160]"}
+{"id":"2450a","jah":"2b64a659ea894c58dba6a6c64f1ba715","en":"I can still beat those kids.\nBut you don't want me anyway.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[82/160]"}
+{"id":"24548","jah":"8dd70d13582dd8441488c5e6475dc1d0","en":"I don't need a send-off.\nI'll go by myself.","max_bytes":44,"refs":1,"ctx":"tbl@1fc88[83/160]"}
+{"id":"24574","jah":"1a5c118a69d8c69b7c49802a0fbcbb9f","en":"What did you want from me? Just\na tool for your vanity?","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[84/160]"}
+{"id":"245ac","jah":"d729f0c540edf5e94d9865cef2a5a4ca","en":"Get rid of me now and you could\nregret it forever.","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[85/160]"}
+{"id":"245e2","jah":"8f7e7436c87d534a71e1393bb99fea27","en":"Cross a veteran and you'll pay.\nI'm not here just for show.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[86/160]"}
+{"id":"24620","jah":"e44aa0728219c061c9262ca815b13c4a","en":"Maybe it's time to call it a day.\nI've been feeling my limits.","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[87/160]"}
+{"id":"24654","jah":"6384aea7352058c1bc62f44f5219abdd","en":"Transferring me at my age? What\ndid you expect?","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[88/160]"}
+{"id":"24686","jah":"bc2985ef5fec21f710cb3d749564228e","en":"Just as my best is coming,\nyou throw it away. Shame.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[89/160]"}
+{"id":"246c0","jah":"1145d98f8bc394e53298a0c6da02ef87","en":"No complaints. I doubt anything I\nsaid would reach you.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[90/160]"}
+{"id":"246fa","jah":"39bc36bf9c53b497bcd54182beab1986","en":"It's a shame to leave midway, but\nI had a pretty good time.","max_bytes":46,"refs":1,"ctx":"tbl@1fc88[91/160]"}
+{"id":"24728","jah":"7359909660752b2b6a4ead4db7fb5307","en":"Terrible.\nYou don't understand me.","max_bytes":42,"refs":1,"ctx":"tbl@1fc88[92/160]"}
+{"id":"24752","jah":"6a01633bd6446e8ec0e7a71a5b3ac3e7","en":"To you, are players just tools?","max_bytes":40,"refs":1,"ctx":"tbl@1fc88[93/160]"}
+{"id":"2477a","jah":"3915e1684bc0522f104a30681d4b756c","en":"Veterans have their own quality.\nIf you can't see it, so be it.","max_bytes":64,"refs":1,"ctx":"tbl@1fc88[94/160]"}
+{"id":"247ba","jah":"5cd87cbc9e33acb90beb8ca03073dbd3","en":"Lousy food, but I ate my fill.\nSee ya.","max_bytes":44,"refs":1,"ctx":"tbl@1fc88[95/160]"}
+{"id":"247e6","jah":"b66fec47030e816dae4ca485e2a928fb","en":"Unbelievable...\nI'm speechless.","max_bytes":38,"refs":1,"ctx":"tbl@1fc88[96/160]"}
+{"id":"2480c","jah":"a9e8d87aed9f5c497fd26bc0de5fa046","en":"Hopeless club.\nThe worst.","max_bytes":34,"refs":1,"ctx":"tbl@1fc88[97/160]"}
+{"id":"2482e","jah":"06eaf2cb867278aae57179fd40d1ef19","en":"Then I'll quit this club\nmyself.","max_bytes":36,"refs":1,"ctx":"tbl@1fc88[98/160]"}
+{"id":"24852","jah":"f7496a3a68603996604416deca52c9ce","en":"Given my age it's natural, but\nit's a shame to go mid-season.","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[99/160]"}
+{"id":"24888","jah":"f1c2d0025ff13042c7147f6f6bd2c67b","en":"There's no hope in this world,\nis there...","max_bytes":46,"refs":1,"ctx":"tbl@1fc88[100/160]"}
+{"id":"248b6","jah":"3637eed0cea2795b17afcf4d5bb67a85","en":"You won't hear me out? How\nimpressive.","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[101/160]"}
+{"id":"248e6","jah":"653f2fb7c2842698298a669c6ab3f88d","en":"What a terrible thing to do.\nYou've no idea how people feel.","max_bytes":44,"refs":1,"ctx":"tbl@1fc88[102/160]"}
+{"id":"24912","jah":"244b94fe90d26798e326e9f25e52509d","en":"Nobody knows me better than I do.\nI've still got more to give.","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[103/160]"}
+{"id":"24942","jah":"99d34144c2f31e8450874c70b2086782","en":"You've got to be joking.\nThis is a betrayal.","max_bytes":32,"refs":1,"ctx":"tbl@1fc88[104/160]"}
+{"id":"24962","jah":"846552346e5d77d8b171e171c99abea6","en":"...That's not what we agreed.\nHold on.","max_bytes":32,"refs":1,"ctx":"tbl@1fc88[105/160]"}
+{"id":"24982","jah":"4f59e656dd75b7d90d2070e5989603eb","en":"Experience beats everything else.\nPlease reconsider.","max_bytes":42,"refs":1,"ctx":"tbl@1fc88[106/160]"}
+{"id":"249ac","jah":"b94bdd03f58e0a0ae8a990bca4181a66","en":"If possible, could you wait until\nthe season ends?","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[107/160]"}
+{"id":"249e0","jah":"9da43e6c5c3a9c201f3d894809f4b532","en":"You can judge a player this old?\nImpressive.","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[108/160]"}
+{"id":"24a10","jah":"0172ffdd62d4e0826b575de2dfdc7544","en":"This is my growth period.\nDon't you think it'd be a waste?","max_bytes":38,"refs":1,"ctx":"tbl@1fc88[109/160]"}
+{"id":"24a36","jah":"fb38803879e56dc498b97dc1659df9e8","en":"Can't you wait till I'm out of\ncontract? You're impatient.","max_bytes":42,"refs":1,"ctx":"tbl@1fc88[110/160]"}
+{"id":"24a60","jah":"3450ab11af1e20d8b17a1d7c3eaae71b","en":"A fun club.\nThanks for the memories.","max_bytes":42,"refs":1,"ctx":"tbl@1fc88[111/160]"}
+{"id":"24a8a","jah":"27f74c3ae240e2fa7d9bcb5e0be2d46a","en":"You're joking.\nWhat do you know about me?","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[112/160]"}
+{"id":"24abc","jah":"f84da23e0126fb75ec2b20c513e8c560","en":"Come on, for real!\nI'll never forgive you for this.","max_bytes":40,"refs":1,"ctx":"tbl@1fc88[113/160]"}
+{"id":"24ae4","jah":"ad1eb116d30075fc7521094cffde4dc8","en":"No other player has this much\nexperience. Are you sure?","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[114/160]"}
+{"id":"24b1a","jah":"3c05551c6984ae57097decf142a09fa1","en":"Bad timing, but whatever.\nThanks for everything.","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[115/160]"}
+{"id":"24b4e","jah":"c39f03eaed2d97ce1bdadecdee21e1a2","en":"Didn't you want me for my talent?\nI'm only starting to grow!","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[116/160]"}
+{"id":"24b8c","jah":"66b4592f23e7a4e51009c84e8df2f1a8","en":"Hey, wait,\nthis isn't what we agreed.","max_bytes":42,"refs":1,"ctx":"tbl@1fc88[117/160]"}
+{"id":"24bb6","jah":"c84170c1f27b48eb6ff381e98b127995","en":"Transfer me? Really?\nDon't do it.","max_bytes":38,"refs":1,"ctx":"tbl@1fc88[118/160]"}
+{"id":"24bdc","jah":"384ee1d4109a546c372ce5f3a2afd073","en":"Transfer me now?\nYou've got to be joking.","max_bytes":44,"refs":1,"ctx":"tbl@1fc88[119/160]"}
+{"id":"24c08","jah":"db0b50f4f9982092443514355449bc2f","en":"If I upset you, I'm sorry.\nCan you call this off?","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[120/160]"}
+{"id":"24c3c","jah":"6f304ece38ce59146e56e5f360cc2310","en":"La la la, can't hear you.\nI heard nothing, okay?","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[121/160]"}
+{"id":"24c6e","jah":"17893ef39adba542ef90130c4357e23a","en":"You promised me, didn't you?\nThis isn't fair.","max_bytes":46,"refs":1,"ctx":"tbl@1fc88[122/160]"}
+{"id":"24c9c","jah":"59f099de4ab3f3f74dbc7f6796a52e6c","en":"I'm about to retire, you know.\nCan't you wait a bit?","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[123/160]"}
+{"id":"24cd8","jah":"aaf42b4bd4081d091d1fde54d7d4b442","en":"Hey, are you serious?\nThis isn't funny.","max_bytes":40,"refs":1,"ctx":"tbl@1fc88[124/160]"}
+{"id":"24d00","jah":"bae11efeb429f03707ba2b542732fd9a","en":"Cruel joke, come on.\nIt's not April 1st.","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[125/160]"}
+{"id":"24d30","jah":"4c313576606dbaf7df8bd3f0a95fba7d","en":"Transfer ME? You've got nerve.\nYou'll regret it!","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[126/160]"}
+{"id":"24d64","jah":"64b03a040889304ccf2737f40c276efe","en":"Give me one more month.\nI'll deliver, honest.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[127/160]"}
+{"id":"24d96","jah":"b279cd10285d63234f73389f05e4c3e3","en":"Is this any way to treat someone\njust for being injured?","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[128/160]"}
+{"id":"24dd2","jah":"4a0d121ead40bf1c5ec7e80a780b945a","en":"Have you no humanity at all?\nYou disgust me.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[129/160]"}
+{"id":"24e04","jah":"fb8082483f0d9d3cae19a8f6cbb09e74","en":"You'd treat me like this...?\nToo cruel.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[130/160]"}
+{"id":"24e36","jah":"60780219465d590b82762a6528aa5dad","en":"After working me to the bone?\nYou're despicable.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[131/160]"}
+{"id":"24e6e","jah":"6fc74e4a06d599c5fc624f5082017156","en":"Don't be absurd. Whose fault is\nit that I got injured?","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[132/160]"}
+{"id":"24ea8","jah":"07b20191c2d42898a5b9b7f99ac10df7","en":"Heh, a handy opportunity, is it?\nSuits a coward like you.","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[133/160]"}
+{"id":"24ee4","jah":"9e9a5694590c9a6710762ff368fd0793","en":"Treating the injured so.\nUnbelievable.","max_bytes":40,"refs":1,"ctx":"tbl@1fc88[134/160]"}
+{"id":"24f0c","jah":"0bdbada56cefdf072767fe7fa7c61e5f","en":"Fiend, devil, monster!\nGo to hell!","max_bytes":42,"refs":1,"ctx":"tbl@1fc88[135/160]"}
+{"id":"24f36","jah":"9e61b8cd99a3ba69d13ccac1d94ae5f8","en":"This injury will heal in no time.\nCan't you wait for that?","max_bytes":60,"refs":1,"ctx":"tbl@1fc88[136/160]"}
+{"id":"24f72","jah":"be1b7de8c0d8b9aa18dbdcead02650b5","en":"Injuries come with the job.\nYou'll pay dearly for this.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[137/160]"}
+{"id":"24fac","jah":"029435893a658820ec278313c6ec93bb","en":"My body will heal, but the wound\nto my heart...","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[138/160]"}
+{"id":"24fe0","jah":"c1c74e3164adb3462c1af8e1fc741de8","en":"Are you sane?\nLook after injured players!","max_bytes":46,"refs":1,"ctx":"tbl@1fc88[139/160]"}
+{"id":"2500e","jah":"5dffa7a84b1994153d6f23f5a09716e0","en":"My injury will heal soon.\nAnd yet you'd transfer me?","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[140/160]"}
+{"id":"25048","jah":"1360eb0ab100a469977c0c19970ea046","en":"I know what you think.\nI was in your way, wasn't I?","max_bytes":52,"refs":1,"ctx":"tbl@1fc88[141/160]"}
+{"id":"2507c","jah":"b55c9608c5485cb414ad7138914556fe","en":"I'll resent this.","max_bytes":21,"refs":1,"ctx":"tbl@1fc88[142/160]"}
+{"id":"25091","jah":"5d260f4ee93f3bcb42dbbc8445aabac0","en":"Injury's just an excuse, right?\nYou dislike me?","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[143/160]"}
+{"id":"250c7","jah":"3ce6c30af40a2a7e8f7605e808046e92","en":"Please wait a little longer.\nI'll recover soon.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[144/160]"}
+{"id":"250ff","jah":"bab0b917ef5d853167d9864eb17f4488","en":"It'll clear up soon.\nPlease reconsider.","max_bytes":48,"refs":1,"ctx":"tbl@1fc88[145/160]"}
+{"id":"2512f","jah":"6fd151fd86130fcb407b0fd2d7937a85","en":"Is my injury the reason\nfor this transfer?","max_bytes":44,"refs":1,"ctx":"tbl@1fc88[146/160]"}
+{"id":"2515b","jah":"7f3514cd0fadc1ee413ee375a1cae99d","en":"Transferring me over an injury?\nYou're heartless.","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[147/160]"}
+{"id":"25191","jah":"83e6df7a9811c5d9e82ab5b37be95834","en":"This is out of the question.\nPlease reconsider.","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[148/160]"}
+{"id":"251cb","jah":"7c4064ba27c651b48f5eaa5815ce10b0","en":"You'd transfer an injured player?\nAre you even human?","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[149/160]"}
+{"id":"25203","jah":"613134ee22fb3cb5d3b06779e9c53f97","en":"This is what heartless means.\nMonstrous.","max_bytes":50,"refs":1,"ctx":"tbl@1fc88[150/160]"}
+{"id":"25235","jah":"6d9f858b9e32a820d5f45706dccb939e","en":"My fortune says moving me this\nweek is bad luck.","max_bytes":64,"refs":1,"ctx":"tbl@1fc88[151/160]"}
+{"id":"25275","jah":"982099101de9021ab678abea4622b8c4","en":"My injury's just your chance?\nIf I'm in the way, say so.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[152/160]"}
+{"id":"252ad","jah":"9d03fb16c4ffe0cf21cff7082f3b5b83","en":"Injury won't change my ability.\nPlease reconsider.","max_bytes":62,"refs":1,"ctx":"tbl@1fc88[153/160]"}
+{"id":"252eb","jah":"fa7a57fb35581beedaa5e87dcdcea6d6","en":"If you sell me now, my injury\nmay never heal.","max_bytes":54,"refs":1,"ctx":"tbl@1fc88[154/160]"}
+{"id":"25321","jah":"9bc47ff8b5ce3c229d3137d63b881626","en":"Kicking me while I'm down?\nWhat are you thinking?","max_bytes":58,"refs":1,"ctx":"tbl@1fc88[155/160]"}
+{"id":"2535b","jah":"c9a38fed946681671862a9c0726138ef","en":"Transferring me because I'm hurt?\nThat's not decent.","max_bytes":56,"refs":1,"ctx":"tbl@1fc88[156/160]"}
+{"id":"25393","jah":"215758c1326c53b70fd0664a95ea1390","en":"Did you plan this injury just\nto push me out?","max_bytes":66,"refs":1,"ctx":"tbl@1fc88[157/160]"}
+{"id":"253d5","jah":"21e3de7d10ecc751b8973ef44c46f301","en":"No place for the injured?","max_bytes":29,"refs":1,"ctx":"tbl@1fc88[158/160]"}
+{"id":"253f2","jah":"34d6a2912fbf4e3ac02498c3d0fc624c","en":"What a club!\nDrop dead!","max_bytes":36,"refs":1,"ctx":"tbl@1fc88[159/160]"}
+{"id":"307cc","jah":"9e7d7f5a91c0ed851ada6f3a7fde11ed","en":"Expression %d","max_bytes":16,"refs":1,"ctx":"ptr@6e24"}
+{"id":"307dc","jah":"bf901b65b51e0860dba2b43242bbd483","en":"Expression textures not loaded","max_bytes":36,"refs":1,"ctx":"ptr@70b0"}
+{"id":"30834","jah":"1e55032295902ffb240bfadfe4a48f5d","max_bytes":4,"refs":1,"ctx":"ptr@7f8c","skip":true}
+{"id":"30838","jah":"bc8e0726badc5e19ea01a65302713230","max_bytes":8,"refs":1,"ctx":"tbl@7f94[0/3]","skip":true}
+{"id":"30840","jah":"fc4d77ac498af12209c5290b3f70c53e","max_bytes":4,"refs":1,"ctx":"tbl@7f94[1/3]","skip":true}
+{"id":"30844","jah":"e7957ef6fc92d831ed566453183f2a42","max_bytes":4,"refs":1,"ctx":"tbl@7f94[2/3]","skip":true}
+{"id":"30848","jah":"e12f22cc810f0c88851cc2a3b650ce8b","en":"0","max_bytes":4,"refs":1,"ctx":"tbl@30804[0/11]"}
+{"id":"3084c","jah":"620f5b7c5f0ffca8d5e4ee0ab0af23a0","en":"1","max_bytes":4,"refs":1,"ctx":"tbl@30804[1/11]"}
+{"id":"30850","jah":"9f7f0bdaac2f6d4008ef40557021e829","en":"2","max_bytes":4,"refs":1,"ctx":"tbl@30804[2/11]"}
+{"id":"30854","jah":"0f1e067225b5153675a916b9ee77f539","en":"3","max_bytes":4,"refs":1,"ctx":"tbl@30804[3/11]"}
+{"id":"30858","jah":"1e0c0857cf1877e07c3180f1ee2c96c5","en":"4","max_bytes":4,"refs":1,"ctx":"tbl@30804[4/11]"}
+{"id":"3085c","jah":"a663f794b1226fe25e4094e73053c62e","en":"5","max_bytes":4,"refs":1,"ctx":"tbl@30804[5/11]"}
+{"id":"30860","jah":"516b21380724ba5bacb194e52fcd1995","en":"6","max_bytes":4,"refs":1,"ctx":"tbl@30804[6/11]"}
+{"id":"30864","jah":"b15c39cd0a45da161d778b3423020bd5","en":"7","max_bytes":4,"refs":1,"ctx":"tbl@30804[7/11]"}
+{"id":"30868","jah":"2a565720968e823e78220fc8feceeb0d","en":"8","max_bytes":4,"refs":1,"ctx":"tbl@30804[8/11]"}
+{"id":"3086c","jah":"0de3ba7f01e0cc42a9d6aa69e480dfd7","en":"9","max_bytes":4,"refs":1,"ctx":"tbl@30804[9/11]"}
+{"id":"30870","jah":"907df46f636ebe028fe561cc773cc086","en":"-","max_bytes":4,"refs":1,"ctx":"tbl@30804[10/11]"}
+{"id":"30958","jah":"e316600bd3281354dbd8f57977c2bca4","en":",.)?!","max_bytes":53,"refs":1,"ctx":"ptr@92f4"}
+{"id":"30a3c","jah":"5845a3f69ea59cfc12219a5272b8be0b","max_bytes":4,"refs":1,"ctx":"ptr@a6c4"}
+{"id":"30a64","jah":"c7d8aaa15f13294dd8c34724c06ade71","en":"Mgr Scout[%d]:[%s]\n","max_bytes":28,"refs":5,"ctx":"ptr@cc3c xrefs=5"}
+{"id":"30a80","jah":"c03b025b3af223231ed14b501a08f839","en":"Manager Scout[%d]:[%s]\n","max_bytes":24,"refs":5,"ctx":"ptr@cd78 xrefs=5"}
+{"id":"30bb4","jah":"a30cae985f5118593112a7e722a4d416","en":"Satellite unhappy %s %d->%d ","max_bytes":32,"refs":1,"ctx":"ptr@e250"}
+{"id":"32a24","jah":"235d85e1affb47886e15b40caf5fe23d","en":"Re-entry Ban List: %d now","max_bytes":28,"refs":1,"ctx":"ptr@14338"}
+{"id":"32fd4","jah":"d423f010369051ed62d46f858f626c6d","en":"Nuchitos","max_bytes":40,"slot":9,"refs":1,"ctx":"hwptr ptr@12464 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"336f3","jah":"a8f22613ca9dcbbd002d967d3a061ef9","max_bytes":9,"ctx":0,"orphan":true,"skip":true}
+{"id":"33b8d","jah":"ebd866269f029c42ff2cbc3eaf4368b6","max_bytes":17,"ctx":0,"orphan":true,"skip":true}
+{"id":"33bb2","jah":"2d00ae3344cbc8439cf4185dcc44ef86","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"33bcc","jah":"34b5abab823fbecf854c8e85db442817","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"33e67","jah":"ce88f0569aea0b59d806962fc5e38412","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"33e6e","jah":"ce88f0569aea0b59d806962fc5e38412","max_bytes":7,"ctx":0,"orphan":true,"skip":true}
+{"id":"3a82f","jah":"90b8164ad7affe790c2ff2334c266d56","max_bytes":5,"ctx":0,"orphan":true,"skip":true}
+{"id":"50d74","jah":"a28b21d35df1c21ef71553fe300e300b","en":"No Team","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a00[0/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50d7c","jah":"51b3ee0ee947569705dc0c4405d57c16","en":"My Team","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a00[1/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50d84","jah":"5f9ae182679fa38b3d4a4a286aaa7c76","en":"Rival Team","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20a00[2/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50d90","jah":"f18a3c3a264d68dc075306c5f8d5a01f","en":"Antlers","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a00[3/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50d98","jah":"19fcd082afd0e183ee5d1e97b1d3bcb2","en":"Reds","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a00[4/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50da0","jah":"0af80e82f62cb52f602f775cc918f9d9","en":"JEF","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a00[5/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50da8","jah":"1b62551679ac2281c383c93a794ea295","en":"Reysol","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a00[6/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50db0","jah":"82c121fda3b602102cc34f37366c4a16","en":"Verdy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a00[7/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50db8","jah":"10c1d794ee6ce3d0ec8b1b345700d6a4","en":"Marinos","max_bytes":8,"refs":0,"ctx":"hwpool run=36 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50dc0","jah":"aaf12fb2bdb6267b3db0c8facc4cf5ce","en":"Belmare","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[0/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50dc8","jah":"b7bb52311ecd0cd69c0c4b748686e16e","en":"S-Pulse","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[1/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50dd0","jah":"20b901f043f9a4b0d4e17eadd89a3293","en":"Jubilo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[2/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50dd8","jah":"0310a14bf66e2c05692fafa06692c3c5","en":"Grampus","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[3/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50de0","jah":"5257001f2713f636d511f6957d6f611a","en":"PurpleSanga","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20a24[4/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50dec","jah":"b4b6bc550a07ea3c755cc5feb9e6ca05","en":"Gamba","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[5/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50df4","jah":"320fa46c8fa320ff787add95815c0119","en":"Cerezo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[6/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50dfc","jah":"a2255446499c05d2fe56ae4c2c057317","en":"Vissel","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[7/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e04","jah":"a10fb15f4877cea2c4a7bbee1e64c57f","en":"Sanfrec","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[8/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e0c","jah":"1ac1ff36eb4d66a052c30459b23c0cbe","en":"Avispa","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[9/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e14","jah":"98aef041effa5675c2e0aa59902748e1","en":"Consado","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[10/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e1c","jah":"ebb14dee04c47449660d3fa412b67587","en":"Vegalta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[11/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e24","jah":"ed7454c7a16670804c09b3c445007b99","en":"Montedo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a24[12/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e2c","jah":"c41b357d8d0ae2d3eb043c2e2e950715","en":"Ardija","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20a24[13/14] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e38","jah":"9bbd678e223e2c7ad64e2ae0a922769f","en":"FCTokyo","max_bytes":8,"refs":1,"ctx":"ptr@20a5c"}
+{"id":"50e40","jah":"be605122902addb49be4b17b89ee626e","en":"Frontal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a60[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e48","jah":"0ce43c4429469f58828e96c4ff959051","en":"Ventforet","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20a60[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e54","jah":"572f9b1f761932650540ce57f491e111","en":"Albirex","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20a60[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e60","jah":"41530ec4602f673444ab7770b6397cb3","en":"Sagan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a60[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e68","jah":"f0858223bd8b84ce4582febafe6e911a","en":"Trinita","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a60[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e70","jah":"dcb3be575c5c4d6e3a13c834d70ec1f4","en":"Holyhok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a60[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e78","jah":"8ae10017e8eb311254732c6dc8be7199","en":"Yoko.FC","max_bytes":8,"refs":1,"ctx":"ptr@20a78"}
+{"id":"50e80","jah":"93912bb0b16dcf81a16f2e22338e740b","en":"East","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a7c[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e88","jah":"e0174adbca8a7146b241315ca06fa353","en":"West","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20a7c[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e90","jah":"a3c1faae1d6b5be7d6521ea591e1709f","en":"Dream","max_bytes":40,"slot":12,"refs":2,"ctx":"hwptr tbl@20a7c[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50e9c","jah":"8af8e3662e9f2e334bf05b82ee8d9fd8","en":"Euro","max_bytes":12,"refs":1,"ctx":"ptr@20a8c"}
+{"id":"50ea8","jah":"fbc6c63107460e861b77440d4a571c20","en":"World","max_bytes":12,"refs":1,"ctx":"ptr@20a90"}
+{"id":"50ebc","jah":"d298eea0ec1f04db1fb83882f018ae51","en":"Japan","max_bytes":8,"refs":1,"ctx":"ptr@20ac8"}
+{"id":"50ec4","jah":"43de6e90dcda5594949f6278d57a7071","en":"S.Korea","max_bytes":8,"refs":1,"ctx":"ptr@20acc"}
+{"id":"50ecc","jah":"8e90a9f7e065518f069f6fde4fb8ea3c","en":"Saudi Arab.","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ad0[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50ed8","jah":"6e4278ee4049a946cc6d5222ce2f278a","en":"IRN","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ad0[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50edc","jah":"688a9dcc1f1fe35203303edf13cbc56d","en":"THA","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ad0[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50ee0","jah":"f2a9cf3006c70c99d645d1354bef85b9","en":"China","max_bytes":8,"refs":1,"ctx":"ptr@20adc"}
+{"id":"50ee8","jah":"9673ca66abf53ca9d9317d090cbb2e77","en":"Kuwait","max_bytes":40,"slot":8,"refs":2,"ctx":"hwptr ptr@20ae0 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50ef4","jah":"eb84ad62590e6e1c190c403ae35273f4","en":"Uzbekistan","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ae8[0/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f00","jah":"804dedc7d3faa54212f098fb674dd1fb","en":"IRQ","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ae8[1/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f04","jah":"04560fe5e37872e5bdb05b1a9dbc6f9a","en":"Kazakh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ae8[2/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f0c","jah":"3887573b4f64bf221411d3d33e06d663","en":"Turkmen","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ae8[3/4] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f18","jah":"803dc7aa2aff7bf6c2cdba4e16bb4641","en":"N.Korea","max_bytes":8,"refs":1,"ctx":"ptr@20af8"}
+{"id":"50f20","jah":"1f33ea08babf05b439a180fd2f87338c","en":"Qatar","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20afc[0/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f28","jah":"e3a4853a4a850e88d91015a7778dbb5b","en":"Indon.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20afc[1/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f30","jah":"d6a25a0402a11f58d6b39487b8dad607","en":"Singapore","max_bytes":40,"slot":12,"refs":2,"ctx":"hwptr tbl@20afc[2/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f3c","jah":"3981f879dd27ff5b6b80382b9f0aca9e","en":"Malay.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20afc[3/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f44","jah":"90283fd65975e62fc42fc89e09ad4c0e","en":"Oman","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20afc[4/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f4c","jah":"b539093f790ca3783d8431d04eb78bec","en":"Tajik.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20afc[5/6] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f54","jah":"e9dae6f899a91f24b9acd5deac416c92","en":"HK","max_bytes":8,"refs":2,"ctx":"ptr@20b14 xrefs=2"}
+{"id":"50f5c","jah":"da357531cf1c922653c841d3e971b736","en":"Kyrgyz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr ptr@20b18 stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f64","jah":"4b94bdfdc19883198bff9ca3fe51afaf","en":"Taiwan","max_bytes":8,"refs":1,"ctx":"ptr@20b1c"}
+{"id":"50f6c","jah":"2fd67d8551393c8a5e800125c9f9812b","en":"MAC","max_bytes":40,"slot":4,"refs":2,"ctx":"hwptr tbl@20b20[0/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f70","jah":"8462fc14f940f055841b4ae0499c436d","en":"Nepal","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b20[1/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f78","jah":"aab79c214bb26c1693c3f98e6a47ae2b","en":"Austral","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b20[2/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f80","jah":"9a172eb61032f4719320148103e084e2","en":"Nigeria","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b20[3/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f88","jah":"ead600c5eb5af4685ab68dc9bd508453","en":"Morocco","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b20[4/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f90","jah":"9884080639d0896b906348b0cb8db6b7","en":"Camern.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b20[5/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50f98","jah":"779fafd51f839e81877a4952531dc0e1","en":"Tunisia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b20[6/7] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fa0","jah":"64212fd24932bb326aa9dcd8d29091fb","en":"S.Afr.","max_bytes":8,"refs":1,"ctx":"ptr@20b3c"}
+{"id":"50fa8","jah":"acaa076bdfc31f5715316e73d96d5bc7","en":"Egypt","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[0/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fb0","jah":"ff2369c3b50273e6c02fe7bb343cb881","en":"Zambia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[1/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fb8","jah":"c64d83e82ff2ee0023550491d943f0b3","en":"Ghana","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[2/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fc0","jah":"5754a4d850b5400feec507a396dbe496","en":"Liberia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[3/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fc8","jah":"2fd5bdcd632e7d2c490a890ed1916019","en":"Zimbabwe","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20b40[4/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fd4","jah":"200d8b6acdf9af3f0308043ce413a0fe","en":"France","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[5/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fdc","jah":"2a26773c68a6ae65ede64c72c1cbaeac","en":"Germany","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[6/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fe4","jah":"fea12737a943cbd27e15d1cea70b36a3","en":"Holland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[7/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50fec","jah":"51cfdd9cd3a951bc283953102f9609c2","en":"Italy","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[8/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"50ff4","jah":"c3bc56ef5c67cc047123cb903b5af0a5","en":"England","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20b40[9/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51000","jah":"7908a4439dbf7a02b8cd52116c8216ff","en":"Spain","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[10/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51008","jah":"076b67b017eb2ce2f4264845268581a6","en":"Croatia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[11/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51010","jah":"2774c595b23be0695cfafdf997c244b8","en":"CZE","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20b40[12/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51014","jah":"4dbb8420cb61edc8d015e5bf6f0ac1cb","en":"Yugoslavia","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20b40[13/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51020","jah":"1c6f5bbf7667e9484c56604e11dd55ee","en":"Norway","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[14/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51028","jah":"6ae6c347fe5f3fd47ebee459fdea7905","en":"Romania","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[15/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51030","jah":"b0c886f269fcb2bfd3d9cb04982b7719","en":"Denmark","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[16/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51038","jah":"f6416ff3b1cd11f8ce992980315f7fde","en":"RUS","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20b40[17/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5103c","jah":"1652c7f1a2f43303916ae7c5c0b821c4","en":"Sweden","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[18/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51044","jah":"0f06150e06c618c5e0119e9b7d309fec","en":"Belgium","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[19/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5104c","jah":"45f8eeb909c0ecd8e44aa970a52f47ab","en":"Bulg.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[20/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51054","jah":"5c35b24229b137a07b3f070b4abafcfa","en":"Scotland","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20b40[21/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51060","jah":"d3b8ec46e7e353f572fe424782d2855d","en":"Port.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[22/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51068","jah":"a8c2673ea2f385bad95ce4ab029d2b44","en":"Austria","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[23/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51070","jah":"54ca015f29ba77afc7897d72235f4744","en":"Slovak.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[24/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51078","jah":"776268b45d49b6e1520db5595633785a","en":"Poland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[25/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51080","jah":"d20cdff23622e9b3e0f52f7d8c874d6e","en":"Greece","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[26/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51088","jah":"35b506bfa0e22daa41ef168e619a1a27","en":"SUI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20b40[27/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5108c","jah":"b85e4acbaeca9134c048f166ec35820f","en":"Israel","max_bytes":40,"slot":8,"refs":2,"ctx":"hwptr tbl@20b40[28/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51094","jah":"1ab80c616bc38d1fbe34fa918d222438","en":"Ireland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[29/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5109c","jah":"4b64792aba2b0a0d91b9ebd9da0e535b","en":"TUR","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20b40[30/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510a0","jah":"179b2731784c1e517b6664cccecf1908","en":"Hungary","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[31/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510a8","jah":"ab1679e3916081d85ae924d2125cd4c6","en":"Finland","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[32/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510b0","jah":"49f04d27d69344146b29b805197c302b","en":"Ukraine","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20b40[33/34] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510b8","jah":"79f5cf0156b31b21c8271d233ba22595","en":"N.Ireland","max_bytes":12,"refs":1,"ctx":"ptr@20bc8"}
+{"id":"510c4","jah":"32ebd76a2e68126f9773e4ed2650caaf","en":"Brazil","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[0/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510cc","jah":"8c14f3320fc7dc72b2679ee3a62a0a73","en":"Arg.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[1/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510d4","jah":"01f43676e9acf85dd2b1fc562c7d2704","en":"CHI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20bcc[2/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510d8","jah":"eb099d1078323ea83011052e66e34b76","en":"Col.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[3/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510e0","jah":"e7116e53b1dd357df15f71a9dcac61d4","en":"Parag.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[4/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510e8","jah":"050a9f19cad9640d2a8f0aa40f4d8e20","en":"Uruguay","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[5/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510f0","jah":"7b2f4b1dfd931442a017a870a373f06c","en":"Peru","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[6/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"510f8","jah":"8c777ca5ca6142e9cd55d972273e28d7","en":"Bolivia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[7/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51100","jah":"24298350279c9a712003c3a9e87b6de1","en":"Venez.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[8/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51108","jah":"a22665b0ba244787ab0db4effe4aff65","en":"Ecuador","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[9/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51110","jah":"aa622ebb6cc65f6e8c8af0fb0245feb3","en":"Mexico","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bcc[10/11] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5111c","jah":"7e1e15c453e4b60e0bab0facd82fe33e","en":"Jamaica","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bfc[0/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51124","jah":"d7099aa59801f49eeb3ec293e6d27576","en":"C. Rica","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bfc[1/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5112c","jah":"4270949e2f10cc9365e5e5c5b99fff47","en":"El Salvador","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20bfc[2/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51138","jah":"9fb212d87725cf4f7801e72092c6898f","en":"Canada","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bfc[3/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51140","jah":"45af52067f918268d9c66d16a7e32d80","en":"Sloven.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20bfc[4/5] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5114c","jah":"11e09c982b019e8ef65a85617e819cb4","en":"Not set","max_bytes":8,"refs":1,"ctx":"ptr@20c14"}
+{"id":"51154","jah":"67df2a8cc517ef009498a6c1dd1daa88","en":"Incheon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[0/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5115c","jah":"c3b6356c7180f72ada626830bd1eff82","en":"SEO","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20c30[1/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51160","jah":"6105807a173a0a198e7d9336fb31529e","en":"Daegu","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[2/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51168","jah":"cd0fdb6b0ba34b5466558ff3c5e1c800","en":"Daejeon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[3/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51170","jah":"a23847fc6bea512e2138e89feaef28d6","en":"Busan","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[4/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51178","jah":"de09326329ad6ada6b4e4831ff84626b","en":"Riyadh","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[5/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51180","jah":"4ad04ec03af370ad241805dbce549545","en":"Tehran","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[6/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51188","jah":"a1ebfd8e3c62fd5f5564b5f9b100cd8e","en":"Bangkok","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[7/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51190","jah":"f4c94aa612bafa9ddb9dbb0ddd45250b","en":"Qingdao","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[8/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51198","jah":"00a4832aa3b818490b99ca766e4567ac","en":"Shangh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[9/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511a0","jah":"6365c0f8daa1e3d36fbc777b20b45621","en":"Dalian","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[10/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511a8","jah":"f3db83aa82970343dfcd1fadbf2a71ba","en":"Beijing","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c30[11/12] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511b0","jah":"7f6fcda6ed9bb8221d33700cc05d1dff","en":"A.Dhabi","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c64[0/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511b8","jah":"c1cae71d35ae14f3b838adf06f2d5937","en":"Bukhara","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c64[1/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511c0","jah":"0d9dd31a2b34c9cfb24c02f03ff597f0","en":"Baghdad","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20c64[2/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511cc","jah":"910d5d329ad3432e09289c369df598fd","en":"Astana","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c64[3/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511d4","jah":"4aa7a736b30a2044eee85b7a1242852b","en":"Krasnovodsk","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20c64[4/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511e0","jah":"4d7785f7ae3b8798db7478c30547f6bb","en":"Pyong.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c64[5/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511e8","jah":"35878447e662db2ba363f8d03ac06af8","en":"Doha","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c64[6/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511f0","jah":"20dadcf56d711de097c24a62176b3630","en":"Jakarta","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c64[7/8] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"511f8","jah":"e2e986cb86254872a08bbcc941e63246","en":"K. Lumpur","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20c88[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51204","jah":"bcf9a57166e58627a17fb3fde711c570","en":"Muscat","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c88[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5120c","jah":"752e711046029429c7e810604cf41e7f","en":"Dush.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c88[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51214","jah":"e112c21e57247cc34b092e791eae3965","en":"Frunze","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c98[0/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5121c","jah":"c23eb43bfff024e07b354068b289dac2","en":"Taipei","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c98[1/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51224","jah":"a11a6bf383760711098b757a51392dc7","en":"Kaoh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20c98[2/3] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5122c","jah":"3a8dc1b4a67f8c284efd1c32aa8c0d7b","en":"Kathm.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[0/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51234","jah":"94b612d76e5118ee262e18830f290c7b","en":"Canb.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[1/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5123c","jah":"a2cb44996043d02cd94995c0e2cc0100","en":"Lagos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[2/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51244","jah":"465ecc24b896aaeef5e39448b0e74f7e","en":"Casab.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[3/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5124c","jah":"fa18ab05c1a811c330d73d17f8331fc7","en":"Yaounde","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[4/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51254","jah":"fe98241b5ef93e9fe056fa38b2d69e4a","en":"Carth.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[5/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5125c","jah":"9020386cb9e01d9821cf60dc4f2c2bb7","en":"Joburg","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[6/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51268","jah":"cb44ffdda18d9f308556fb25dfd6598b","en":"CAI","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[7/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5126c","jah":"7f435ee38cd550bdcc217c5dd92c2c2e","en":"Lus","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[8/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51270","jah":"dfb3e7d6847528e2dde3ff161f11d57f","en":"ACC","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[9/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51274","jah":"dd4c01c6434245ef18748cb91dad4737","en":"Monrov.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[10/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5127c","jah":"70885bdd6cd0c42495a035546a336f20","en":"Salisbury","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[11/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51288","jah":"5137db63ffca1c614d120695fdab38e9","en":"PAR","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[12/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5128c","jah":"24e2d63920017f04cd87d951b5affd9f","en":"MON","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[13/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51290","jah":"7cc32824575bd8e49def424a7ff694cb","en":"Mars.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[14/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51298","jah":"dfe2beadbd15f07347b6dc05671221da","en":"Dortm.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[15/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512a0","jah":"591e534829fa621ead462f7e312b92f8","en":"Munich","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[16/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512a8","jah":"e982ea729b517f3be8aac146ea099c2a","en":"Bremen","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[17/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512b0","jah":"1800dc3b3716c4346565c177f0f8d043","en":"Amsterdam","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[18/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512bc","jah":"d2853b2ef0e15d00f26eaca785b82672","en":"Eindhoven","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[19/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512c8","jah":"f0d6b52e4e8d3ada52dea80ca38632cc","en":"R'dam","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[20/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512d0","jah":"0b16729a314328161cc1ea2fff0ca633","en":"TRN","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[21/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512d4","jah":"49c11c76c969d5caca63a50893c41613","en":"MIL","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[22/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512d8","jah":"eecdace6497c30f49aab8030b0b7daeb","en":"ROM","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[23/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512dc","jah":"491f8a3029c0e3f8df362cb034d245d8","en":"Lazio","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[24/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512e4","jah":"b53ac44136640d9344a12c495328d787","en":"Manch.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[25/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512ec","jah":"3b4e7128152b8fcd9b46a9272840ead5","en":"London","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[26/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512f4","jah":"062bc304f3fd93d090898765504e8cd0","en":"L'pool","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[27/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"512fc","jah":"21ba9c1500fdc6df3a2da15e51bc7ede","en":"Stamford","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[28/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51308","jah":"51dea70b94441933b002b669c05374bc","en":"Barca","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[29/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51310","jah":"5f0d36ad1fe3d2246660d3a0d814414e","en":"Madrid","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[30/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51318","jah":"82d1e465b11f51bda1a2f225bf24cb0a","en":"Valenci","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[31/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51320","jah":"3a1c91e0facadbd7dddfd4c2bd2a73ec","en":"Valladolid","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[32/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5132c","jah":"73f7cc9a10fbca305efecaa9f17d63cb","en":"Zagreb","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[33/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51334","jah":"3f4cf801d947388bbd8f133faee2955f","en":"Prague","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[34/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5133c","jah":"16941d1e6b2004fe58e0d3cc07bc0a6c","en":"Belgrade","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[35/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51348","jah":"b175303deafa9fca31abf11811db98ca","en":"OSL","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[36/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5134c","jah":"304825f620557707f6d0456d68b9d7f9","en":"Buch.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[37/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51354","jah":"def0396e20ed95fd35e80f3ea1e7fa45","en":"Copenhagen","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[38/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51360","jah":"8b464e1f62484c24fe004445bf6dcd7a","en":"Moscow","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[39/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51368","jah":"dbc3edefade52605271b756913c615a4","en":"Stockh.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[40/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51370","jah":"73df72ee4f632365d2ff13a5267acc09","en":"Bruss.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[41/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51378","jah":"a67f2d19a00352a13aff9eed3edefd34","en":"Sofia","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[42/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51380","jah":"d20b1b4a1235f05ed0405f158ad3ba6a","en":"Glasgow","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[43/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51388","jah":"4f000f049a2c48424b2dbbc5af638e66","en":"Porto","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[44/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51390","jah":"bb8641a2a8503e601cc086307b7987ed","en":"Lisbon","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[45/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51398","jah":"721e717d69955ce0925eaebb4386f3a7","en":"Coimbra","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[46/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513a0","jah":"d261d2ada10f63318fa8b1741f92ae88","en":"Vienna","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[47/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513a8","jah":"7a821f0b418a7e6dbbbdcd16bb72b906","en":"Bratislava","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20ca8[48/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513b4","jah":"aaa409feb1bce475d14d0267c0142204","en":"Warsaw","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[49/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513bc","jah":"08af84e259430dd3807a024edf2f0190","en":"ATH","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20ca8[50/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513c0","jah":"c1c380a369f5c642a3bf0c1fbac0c272","en":"Bern","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20ca8[51/52] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513c8","jah":"2cf50a50309d3c520b966e2fd4cf058f","en":"Dublin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[0/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513d0","jah":"3cd7e0c874167e0e9ef8054b80920ace","en":"Ankara","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[1/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513d8","jah":"f5e7974d2a824679ea6909b03693320c","en":"B'pest","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[2/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513e0","jah":"6b8f7c12c59ebc6da18eb9d1d4010398","en":"H'sinki","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[3/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513e8","jah":"58904eed58446f175464b2c87657c54c","en":"Kyv","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20d7c[4/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513ec","jah":"12bfd954337920c2692f70be3d2073af","en":"S.Paulo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[5/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"513f4","jah":"e8c7510f793b01f193673a95d860276a","en":"Rio de Jan.","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20d7c[6/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51400","jah":"8ffdc25171d17a5e3407350753833b47","en":"B.Horizonte","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20d7c[7/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5140c","jah":"e816808e83bf49e8b65b668c7f487914","en":"P. Alegre","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20d7c[8/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51418","jah":"e21d3b18b6bc752d41769572b02169f0","en":"Santos","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[9/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51420","jah":"574c3b227090a2034cc18002ceec6954","en":"B. Aires","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20d7c[10/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5142c","jah":"de94077eba2fa32a91052f54afd94c4b","en":"Boc","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20d7c[11/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51430","jah":"4a4ca05db3c30ee1579a92fc0b94559d","en":"Stgo","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[12/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51438","jah":"4724f752d3aafbd0b2b096085b897e80","en":"Medelin","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[13/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51440","jah":"135e99d78056b3b8806fe452c967a4f1","en":"Bogota","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[14/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51448","jah":"a695c1e01075137c870128bf9e69d76e","en":"Asunc.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[15/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51450","jah":"bce3a8cbf4427e422127ff1b0a6f6826","en":"Montevideo","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20d7c[16/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5145c","jah":"3320a5e2ce6f2c4cd28375e7911b02c5","en":"Lim","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20d7c[17/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51460","jah":"000bf6aa6880d65b73444411a5d740e9","en":"La Paz","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[18/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51468","jah":"355aed18e4f9728f59c5d72891bc15e3","en":"Caracas","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[19/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51470","jah":"3741117514e2314c6e7d99d23481ff84","en":"Qto","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20d7c[20/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51474","jah":"72e42c91da99dca750f06eec2f903f8f","en":"Acapulc","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[21/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5147c","jah":"54c2540ed03d9742bbb7630dddcb2c27","en":"Mexico","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[22/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51484","jah":"9083d043d3a100da28bf9197b7c66d7b","en":"N.York","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[23/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5148c","jah":"71f294df3709ecc32ff918f027752341","en":"L.A.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[24/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"51494","jah":"a4ff87e843ed5a0ced9656d08cdcb5c0","en":"Wash.","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[25/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"5149c","jah":"5566723fb4f77fe560cf284c605e2fec","en":"Kingstn","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[26/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"514a4","jah":"db3e21cadbcc56900abf850cc59cc81b","en":"Sanjose","max_bytes":40,"slot":8,"refs":1,"ctx":"hwptr tbl@20d7c[27/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"514ac","jah":"d7d59bb1f77dc8957f035c20e4b82f9d","en":"S.Salvador","max_bytes":40,"slot":12,"refs":1,"ctx":"hwptr tbl@20d7c[28/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"514b8","jah":"3c884ce4961f1c3f28878e0f71deda06","en":"Ott","max_bytes":40,"slot":4,"refs":1,"ctx":"hwptr tbl@20d7c[29/30] stride-table(in-place only)","fmt":"hwptr"}
+{"id":"515e8","jah":"62e61410905e24e66450d54ed05654d5","en":"Intl Return Growth: Player %d","max_bytes":36,"refs":1,"ctx":"ptr@1ba6c"}
+{"id":"5160c","jah":"b8eaff67cbe96edbb865475ddaff3098","en":"Plr %d stat %d: %d to %d, skipped","max_bytes":48,"refs":1,"ctx":"ptr@1ba74"}
+{"id":"5163c","jah":"00253978a6e91d74c5a0543385d825ea","en":"Plr %d stat %d: %d to %d, added","max_bytes":40,"refs":2,"ctx":"ptr@1ba7c xrefs=2"}
+{"id":"51664","jah":"c30485ae19816d8c67a38555ee9036b6","en":"Limit %d, so set to %d","max_bytes":28,"refs":1,"ctx":"ptr@1bd08"}
