@@ -13,15 +13,17 @@ patch bytes (corrections, rebuilt art).  Pre-releases carry a suffix (`-beta.1`)
 ### Fixed
 
 - The match-time crash: the console reset to the BIOS when a goal was scored.  Record `FLOW_PRG/GAME.BIN#82138` is a script pointer, not text, and the build had written `---` over it.  It and 16 more records of the same kind (a pointer, a struct field or code that the text extraction had read as Shift-JIS) are blank again, so the build keeps the original bytes; `build_patch.py` now refuses such a record by looking at the original bytes (`docs/hang-investigation.md`, section 9).  Confirmed in play: five matches and more than a dozen goals with no reset.
-- The in-match Attack/Defend instruction labels being clipped (`Attack/D` and `efend`): the `sakusen` HUD texture is now painted one English word per original sprite cell (`Attack` | `Defend`, `Hold` | `Atk` | `Def`, `All` | `Defend`, `All` | `Attack`).  The cell split is inferred from the original art and has not been confirmed in game.
+- The in-match Attack/Defend instruction labels being clipped (`Attack/D` and `efend`): the `sakusen` HUD texture is now painted one English word per original sprite cell (`Attack` | `Defend`, `Hold` | `Atk` | `Def`, `All` | `Defend`, `All` | `Attack`); on the two `All` rows the word is right-aligned so the gap to the second word is a few pixels.  The split was checked in Flycast; the cell coordinates themselves are inferred from the original art, not read from the game code.
 
 ### Changed
 
 - Correction to the beta.1 "Money and units" entry: the annual report is not covered by the money-format hook.  Read that entry as "in every text, on the TV station card, in the finance screens and the income table; the annual report has its own English formats".  The annual report (NENREP) money amounts are English because the report's own money formats were translated in place; they are not handled by `--money-format` and print glued (`13oku 1500man`).
+- Annual report: the attendance (head-count) lines are now English too, written in place in `NENREP.BIN`.  They keep the Japanese counting, `man` = 10,000 and `ppl` for people, e.g. `  1man 2345ppl`, ` 345ppl`, and the red negative form `@R/ 345ppl@`.  Decoded and run in the SH-4 simulator, not yet seen on screen; the long form is wider than the Japanese (162 px against 132 px).
 
 ### Known issues
 
-- Annual report (year-end club report): money amounts use the report's own English formats instead of the money hook, so they are glued (`13oku 1500man`, `58 man`, `5000 Yen`), with the red form for negatives (`@R/` kept).  Attendance and people counts on the same screen (formats `%s万%s人`, `%s人`) are still Japanese and show kanji (万, 人).  Not yet seen on screen.
+- Annual report (year-end club report): money amounts use the report's own English formats instead of the money hook, so they are glued (`13oku 1500man`, `58 man`, `5000 Yen`), with the red form for negatives (`@R/` kept).  Not yet seen on screen.
+- The same head-count formats in other overlays (`CHALMODE`, `DRSHRANK`, `DRSISEKI`, `DRSJAPAN`, `DRSLIST`, `DRSSRANK`, `GETREP`, `PL_EDIT`, `SELNAT`, `TV_EVENT`) are still Japanese and show kanji (万, 人).
 
 ## [0.1.0-beta.1] - 2026-11-14
 
