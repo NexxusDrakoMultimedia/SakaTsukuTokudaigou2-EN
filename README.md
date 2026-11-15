@@ -104,6 +104,12 @@ The list below is for 0.1.0-beta.1; the complete, current list is in [`CHANGELOG
 * Composed club names have an abbreviated town (13-character limit); two people with the same romanised name may look identical.
 * Texture deltas: 236 of the 637 repainted textures are VQ-compressed; their delta carries a re-quantised codebook (new codebook data derived from the whole picture, not only our lettering).  This does not affect how the game runs; it is a known point of the delta route (`docs/texture-delta.md`).
 
+## Community
+
+* Ask questions and talk to other players and translators in the **Community Discord**: https://discord.gg/7DNrGye9TZ .
+* Want to help (testing, English fixes, art, tools)?  Read [`CONTRIBUTING.md`](CONTRIBUTING.md).  Everyone is expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+* Who made this: [`CONTRIBUTORS.md`](CONTRIBUTORS.md).  AI coding agents: [`AGENTS.md`](AGENTS.md).
+
 ## Reporting problems
 
 Open an issue at https://github.com/NexxusDrakoMultimedia/SakaTsukuTokudaigou2-EN/issues .  Please give: the patch version, the dump form you applied it to, the output of
@@ -125,7 +131,8 @@ Do not attach the game, a disc image or a save made from a patched disc.
 | What | Licence |
 |---|---|
 | The tooling: everything in `tools/` (build scripts, `apply_patch.py`, `verify_dist.py`, `release.py`, the tests) | **GPL-3.0-or-later** (`LICENSES/GPL-3.0-or-later.txt`, `LICENSE`) |
-| The translators' own work: the English text (the `l10n/` files, the glossary), the repainted textures and art specs, the documents (`README.md`, `CHANGELOG.md`, `doc/`, `docs/`) | **CC-BY-SA-4.0** (`LICENSES/CC-BY-SA-4.0.txt`) |
+| The translators' own work: the English text (the `l10n/` files, the glossary), the repainted textures and art specs, the documents (`README.md`, `CHANGELOG.md`, `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `AGENTS.md`, `doc/`, `docs/`) | **CC-BY-SA-4.0** (`LICENSES/CC-BY-SA-4.0.txt`) |
+| `CODE_OF_CONDUCT.md`: the Contributor Covenant 2.1 by Coraline Ada Ehmke and contributors | **CC-BY-4.0** (`LICENSES/CC-BY-4.0.txt`) |
 | The half-width Latin glyphs of the `--open-font on` build: `translation/fonts/` (bitmaps rendered from Roboto Condensed Medium) | **OFL-1.1** (`LICENSES/OFL-1.1.txt`) |
 | The original game: its Japanese text, pictures, music and code | **Not licensed by this project.**  It belongs to its owners.  The repainted textures are new artwork painted over the game's own pictures: CC-BY-SA-4.0 covers only the new contribution, never the art underneath |
 
