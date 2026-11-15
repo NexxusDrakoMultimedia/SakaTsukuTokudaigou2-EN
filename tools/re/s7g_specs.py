@@ -45,8 +45,8 @@ def _grad(bottom):
             'outline': {'color': '#000000', 'width': 1.0}, 'shadow': {'color': '#000000', 'dx': 1, 'dy': 1, 'alpha': 0.7}}
 
 
-def _sakc(i, text, x, w, ex0, ex1, y, h=28, size=23):
-    return {'id': i, 'text': text, 'x': x, 'y': y, 'w': w, 'h': h, 'style': 's_' + i[0], 'size': size, 'min_sx': 0.5, 'align': 'center',
+def _sakc(i, text, x, w, ex0, ex1, y, h=28, size=23, align='center'):
+    return {'id': i, 'text': text, 'x': x, 'y': y, 'w': w, 'h': h, 'style': 's_' + i[0], 'size': size, 'min_sx': 0.5, 'align': align,
             'erase': {'mode': 'flat', 'color': [0, 0, 0, 0]}, 'erase_rect': [ex0, y - 1, ex1 - ex0, h + 2]}
 
 
@@ -58,8 +58,10 @@ JOBS['sakusen'] = dict(file=GE, tid='@110/sakusen.pvr', spec={
     'styles': {'s_a': _grad('#eeee11'), 's_b': _grad('#77dddd'), 's_c': _grad('#aa33bb'), 's_d': _grad('#dd2255')},
     'regions': [_sakc('a1', 'Attack', 0, 75, 0, 76, 0), _sakc('a2', 'Defend', 78, 50, 76, 128, 0),
                 _sakc('b1', 'Hold', 0, 53, 0, 54, 31), _sakc('b2', 'Atk', 56, 25, 54, 83, 31), _sakc('b3', 'Def', 96, 25, 83, 128, 31),
-                _sakc('c1', 'All', 0, 48, 0, 50, 63), _sakc('c2', 'Defend', 52, 49, 50, 128, 63),
-                _sakc('d1', 'All', 0, 48, 0, 50, 95), _sakc('d2', 'Attack', 52, 49, 50, 128, 95)]})
+                # rows 2/3: "All" is right-aligned in its cell (ink ends at x ~48, inside 0..49) and the second word is left-aligned from the
+                # cell's left edge (x 51), so the gap between the two words is a few pixels instead of ~18 (owner feedback)
+                _sakc('c1', 'All', 0, 49, 0, 50, 63, align='right'), _sakc('c2', 'Defend', 51, 50, 50, 128, 63, align='left'),
+                _sakc('d1', 'All', 0, 49, 0, 50, 95, align='right'), _sakc('d2', 'Attack', 51, 50, 50, 128, 95, align='left')]})
 
 
 _INK = [{'luma_lt': 75}, {'luma_gt': 205}]
