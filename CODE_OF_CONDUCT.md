@@ -47,15 +47,16 @@ These notes are the project's own addition to the Contributor Covenant text.
 
 **Community spaces.**  The GitHub repository (issues, pull requests, comments, commit messages) and the project's Community Discord (https://discord.gg/7DNrGye9TZ).
 
-**Community leaders.**  The project maintainer (Nexxus Drako Multimedia) and anyone the maintainer appoints, including the moderators of the Community Discord.
+**Community leaders.**  The project maintainer (Nexxus Drako Multimedia) and anyone the maintainer appoints.  The moderators of the Community Discord are not part of the project, so they are not community leaders unless the maintainer appoints them.
 
 **How to report.**  Please do not put the details of a conduct problem in a public issue.
 
-* In the Community Discord: send a private message to a moderator or to the maintainer.
+* By e-mail to the maintainer: nexxus@nexxusdrako.au.
+* In the Community Discord: send a private message to the maintainer.
 * On GitHub: open an issue titled "Conduct report" that says only that you need a private channel and names no one; a maintainer will reply and move the conversation somewhere private.
   Content that is abusive can also be reported to GitHub with its "Report content" function.
 
-Reports are handled by someone other than the person reported.  If the maintainer is the subject of the report, say so and ask a Discord moderator to take it.
+Reports are handled by someone other than the person reported.  If the maintainer is the subject of the report, say so in your report; the maintainer will then ask an independent person to review it.
 
 ## Enforcement Guidelines
 

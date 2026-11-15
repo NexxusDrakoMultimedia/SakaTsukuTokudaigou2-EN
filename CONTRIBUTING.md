@@ -35,7 +35,7 @@ Open an issue: https://github.com/NexxusDrakoMultimedia/SakaTsukuTokudaigou2-EN/
 * what kind of problem it is: clipped or overflowing text, wrong text (Japanese, garbage, a wrong number or unit), or a crash or hang (note the last button pressed and the frame it froze on).
 
 Faint tick marks around letters in Flycast are a texture-filter artifact; set texture filtering to nearest-neighbour (`doc/TRANSLATORS_NOTES.md`).  Please do not attach saves or save states (they contain game data); describe the state instead.
-For a security problem (for example a crafted patch file that crashes `apply_patch.py`), do not post exploit details publicly: open an issue saying only that you have a security report, and a maintainer will arrange a private channel.
+For a security problem (for example a crafted patch file that crashes `apply_patch.py`), do not post exploit details publicly: e-mail the maintainer at nexxus@nexxusdrako.au instead.
 
 ## Development setup
 
