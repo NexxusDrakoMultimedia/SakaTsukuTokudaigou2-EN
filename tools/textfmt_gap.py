@@ -55,6 +55,18 @@ GAPS = {
         (0x24f18, 10, False, 12),   # @R/%s万円@
         (0x24f24, 6, False, 8),     # %s万円
         (0x24f2c, 4, False, 8),     # %s円
+        # the annual report's people formats (data block 0x24f34..0x24f8b, loaded by the number function at 0xe3cc through 8 literal-pool words; the money
+        # formats above are the same function family).  `real(fmt, hi, lo)` prints the visible text: hi = V / 10000 padded with spaces to the mode (3),
+        # lo = V % 10000 zero padded to 4 digits; hi == 0: `real(fmt, lo)` with lo space padded to 4.  The four formats that end in `@` without `@R/`
+        # (`-%s...@`, `%s...@`) go to the debug printf 0x8c0111b4 only (gated by a flag byte that is 0); they get short English to fit their slots.
+        (0x24f34, 12, False, 16),   # @R/%s万%s人@   (red, negative, hi > 0)
+        (0x24f44, 10, False, 12),   # -%s万%s人@     (debug printf only)
+        (0x24f50, 8, False, 12),    # %s万%s人      (hi > 0)
+        (0x24f5c, 9, False, 12),    # %s万%s人@     (debug printf only)
+        (0x24f68, 8, False, 12),    # @R/%s人@       (red, negative, hi == 0)
+        (0x24f74, 6, False, 8),     # -%s人@         (debug printf only)
+        (0x24f7c, 4, False, 8),     # %s人          (hi == 0)
+        (0x24f84, 5, False, 8),     # %s人@         (debug printf only)
     ],
     'FLOW_PRG/RECON.BIN': [(0x214fd, 105, False)],      # =w/#sname#さん、おめでとうございます！ ...契約を結びました。=
     'FLOW_PRG/TRAINING.BIN': [(0x44d89, 57, False),     # 今回の試合で使うｼｽﾃﾑを決定します。

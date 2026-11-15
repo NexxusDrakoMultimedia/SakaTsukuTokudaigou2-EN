@@ -33,7 +33,7 @@ Text: `OPTION.BIN` `Advance Schedule` / `Quit / Options`, `PLNUMSET#34b74` ` Squ
 Trial discs: everything older than prop10c except `hsk_full1` was deleted (prop10a in stage 8c, 1.2 GB; the 103 older entries, 43 GB, in stage 8b, `build/s8i_clean.log`); `bis_summary.txt` and `tvc_dump` were kept (not disc sets).
 
 Open for the user: ordinal `th`; `Mid Defence` / `Midfield Defence`; `Rd` / `MD`; the five low-confidence staff readings; tag window width (limit 7, alternatives 5 / 6); `Grampus` vs `Grampus Eight`; `European XI` / `World XI` vs `EURO` / `WORLD` on plates.
-Not done: the black name boxes and `CF` overlap of Player Placement, the black rectangle above `4-4-2`, the annual report attendance formats (`%s万%s人`), the `OPTION.BIN` cell width check, any release.
+Not done: the black name boxes and `CF` overlap of Player Placement, the black rectangle above `4-4-2`, the other overlays' people formats (`%s万%s人`, library overlays), the `OPTION.BIN` cell width check, any release.
 
 ## 0. After the first playtest of prop7 (integrator, 2026-11-12)
 

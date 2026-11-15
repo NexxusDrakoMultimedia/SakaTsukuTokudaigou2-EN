@@ -341,7 +341,7 @@ that stayed as wide as the Japanese (`%6d00 man`, `%s man`).  Since the second p
 | `%s円` (same: the zero) / `0円` (GETREP, no argument) | | `%s Yen` / the pool word points at a `0 Yen` string of the cave | `0 Yen` |
 | `%d円` (G_INCOME income / costs rows, plain yen) | yen | `%d Yen` | `3 oku 9000 man` (390,000,000 yen), `5000 Yen`, `0 Yen` |
 | `%d億` `%d万` `0万円` `%s円` (GAME: strcat of the pieces) | | (dead: GAME's text function jumps into the money cave) | `13 oku 1500 man` |
-| `%s万%s人` etc. (people in 10,000s) | | unchanged (not money) | |
+| `%s万%s人` etc. (people in 10,000s) | | unchanged in the nine library overlays (not money); **NENREP** (annual report attendance) translated in place: `%sman %sppl`, `@R/%sman %sppl@`, `%sppl`, `@R/%sppl@` (section 13) | `  1man 2345ppl`, ` 345ppl` |
 | `%3d %-13s %d円 %d年` (HELP / TITLE / LOCAL / SCDRF / SPF_READ lists) | | `%3d %-13s Y%d %d yr` (open: 20 bytes, no room for `%d Yen`; looks like a debug list) | |
 
 The library's lo part is zero padded to four digits and hi space padded (`mov #48,r7 / mov #4,r6` before the string conversion in CHALMODE `0x8c4d783a`), which is why printf alone could not
@@ -467,7 +467,38 @@ finders), `mn6_db_lib.py` / `mn6_db_num.py` / `mn6_db_case.py` (record edits thr
 
 Re-run: `test_moneypatch_tv` 16, `test_patchengine` 26, `test_sh4sim` 15 OK; `moneycheck.py --quick` 0 failures; a fresh trial disc (standard flags, empty textures dir, deleted afterwards) read back with
 `tools/re/mn6_discfmt.py` / `mn6_discsim.py --quick`: library, numeric and GAME checks OK, formats read `oku` / `man`.  Found and fixed: 8 records `Profit of Y200M` (NEWS_ED, OFFICE, SCHE0, SCHE1, SPONSOR,
-SPONSOR2, TOWN, WEEKLY) that the literal-amount pass had missed -> `Profit of 2 oku` (`tools/re/skm7_db_fix.py`).  **Open: NENREP** (annual report) carries its own copy of the library formats as a data block
+SPONSOR2, TOWN, WEEKLY) that the literal-amount pass had missed -> `Profit of 2 oku` (`tools/re/skm7_db_fix.py`).  **NENREP** (annual report; money formats and people formats done in stage 8b / section 13) carries its own copy of the library formats as a data block
 (file offsets 0x24efc..0x24f4c: `@R/%s億%s万円@`, `%s億%s万円`, `@R/%s万円@`, `%s万円`, `%s円`, people formats) loaded by code at 0xf49e / 0xf58e / 0xf8c2 / 0xfadc / 0xfcfa; it is not in `LIB_SITES`
 (`mn6_libscan.py` finds 8 false hits on the float constants at 0x24ef4..0x24ef8) so positive amounts there stay Japanese kanji and the red form reads `Y%s/%s` (DB record NENREP#24ef8, which also holds the
 float 0.7).  Helpers: `tools/re/skm7_nen*.py`.  `tools/re/sk2_money_edges.py` still expects capitals (reports BAD only for the case).
+
+## 13. NENREP people formats (annual report attendance, `%s万%s人`)
+
+NENREP has its own number function (file `0xe3cc`, literal-pool callers at `0x514`, `0x582`, `0x5158`, `0x51b0`; mode 3, one caller mode 4) that prints a head count V in people.  NENREP loads at `0x8c2d0000`
+(not `0x8c2e0000`: that wrong base is why the money and people strings looked unreferenced before).  Executed in `tools/sh4sim.py` on the original bytes (`V` -> text handed to the library printf `real` = file `0xafcc`):
+
+| V | `real(fmt, ...)` | arguments |
+|---|---|---|
+| 12345 | `%s万%s人` | hi `'  1'` (V / 10000, space padded to the mode), lo `'2345'` (V % 10000, four digits, zero padded) |
+| 345 | `%s人` | lo `' 345'` (space padded to four); the object is moved right by `12 * mode + 24` px so the Japanese text ends at the same x as the long form |
+| -12345 / -345 | `@R/%s万%s人@` / `@R/%s人@` | the same, red, no minus sign |
+
+The four formats that end in `@` without `@R/` (`-%s万%s人@`, `%s万%s人@`, `-%s人@`, `%s人@`) go to the debug printf `0x8c0111b4` only (`mov #22,r4` + stack arguments; gated by the flag
+bytes `0x8c230bd6` / `0x8c193c04`, both 0 in the image and in all seven RAM dumps of `build/emu`): never shown.  A second function at `0xe606` uses the same strings and has no caller.
+
+English, kept in the Japanese style (`man` = 10,000, like `%soku %sman`; 人 = `ppl`), in place in the slots (string + NUL + zero padding up to the next string):
+
+| offset | Japanese | English | bytes (slot) | role |
+|---|---|---|---|---|
+| `0x24f34` | `@R/%s万%s人@` | `@R/%sman %sppl@` | 15 (16) | shown, negative, hi > 0 |
+| `0x24f50` | `%s万%s人` | `%sman %sppl` | 11 (12) | shown, hi > 0 |
+| `0x24f68` | `@R/%s人@` | `@R/%sppl@` | 9 (12) | shown, negative, hi == 0 |
+| `0x24f7c` | `%s人` | `%sppl` | 5 (8) | shown, hi == 0 |
+| `0x24f44` `0x24f5c` `0x24f74` `0x24f84` | `-%s万%s人@` `%s万%s人@` `-%s人@` `%s人@` | `-%sman %sp@` `%sman %sp@` `-%sppl@` `%sppl@` | 11 (12) 10 (12) 7 (8) 6 (8) | debug printf only (abbreviated to fit) |
+
+Prints `  1man 2345ppl`, ` 12man 3456ppl`, `123man 4567ppl` (hi space padded to 3), ` 345ppl`.  The text object keeps the Japanese x position; English is wider than the Japanese 132 px of the long form: 162 px with the
+open font table (digits and spaces 12 px; mode 4: 174 vs 144), the short form 77 vs 72 px, so the right end moves right by 30 px (5 px).  The callers draw the long form at x = 422 / 410 (right end 584)
+and x = 466 (`mov.w` literal `0x5248`, right end 628 of 640; Japanese 598): NOT looked at on a screen; if it is crowded, the literal words (466 at `0x5248`, 422 at `0x5d2`) can be moved left.  Executed on the BUILT NENREP.BIN
+(`tools/sh4sim.py`, mode 3): V 12345 -> `  1man 2345ppl`, 123456 -> ` 12man 3456ppl`, 9999999 -> `999man 9999ppl`, 345 -> ` 345ppl`, -12345 -> `@R/  1man 2345ppl@`, -345 -> `@R/ 345ppl@`.  The nine library overlays carry the same eight strings (CHALMODE, DRSHRANK, DRSISEKI,
+DRSJAPAN, DRSLIST, GETREP, PL_EDIT, SELNAT, DRSSRANK; TV_EVENT has one `%s人`) behind the money wrapper, which passes them through: still Japanese there.
+Files: `tools/textfmt_gap.py` (GAPS), `tools/re/p1_nenrep_people.py` (records), `tools/test_gap.py`.

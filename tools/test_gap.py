@@ -61,7 +61,7 @@ class RealImages(unittest.TestCase):
                 else:
                     self.assertEqual(data[off + r['max_bytes'] - 1], 0)
                 n += 1
-        self.assertEqual(n, 29)
+        self.assertEqual(n, 37)
 
     def test_apply_round_trip_on_nenrep(self):
         source = 'FLOW_PRG/NENREP.BIN'
@@ -82,6 +82,36 @@ class RealImages(unittest.TestCase):
             else:
                 tail = b'\n' if r['ja'].endswith('\n') else b' '          # a Japanese head that ends in a line break keeps one
                 self.assertEqual(new[off:off + r['max_bytes']], b'A' + b' ' * (r['max_bytes'] - 2) + tail)
+
+    def test_nenrep_people_formats_fit_their_slots(self):
+        """the 8 people formats (0x24f34..0x24f8b): English written in place, every slot keeps its zero padding, nothing leaks into the next string"""
+        source = 'FLOW_PRG/NENREP.BIN'
+        data = open(os.path.join(ROOT, 'extracted', *source.split('/')), 'rb').read()
+        db = {}
+        for ln in open(os.path.join(ROOT, 'translation', T.jsonl_name(source)), encoding='utf8'):
+            r = json.loads(ln)
+            db[r['id']] = r
+        recs = [r for r in G.extract(data, source) if 0x24f34 <= T._off(r) < 0x24f8c]
+        self.assertEqual([T._off(r) for r in recs], [0x24f34, 0x24f44, 0x24f50, 0x24f5c, 0x24f68, 0x24f74, 0x24f7c, 0x24f84])
+        shown = {0x24f34: '@R/%sman %sppl@', 0x24f50: '%sman %sppl', 0x24f68: '@R/%sppl@', 0x24f7c: '%sppl'}      # the four that real() prints
+        for r in recs:
+            r['en'] = db[r['id']]['en']
+            self.assertTrue(r['en'], r['id'])
+            self.assertEqual(r['en'].count('%s'), r['ja'].count('%s'), r['id'])             # same arguments as the Japanese
+            self.assertEqual(r['en'].startswith('@R/'), r['ja'].startswith('@R/'), r['id'])   # the red form stays the red form
+            self.assertEqual(r['en'].endswith('@'), r['ja'].endswith('@'), r['id'])
+            if T._off(r) in shown:
+                self.assertEqual(r['en'], shown[T._off(r)])
+        new = G.apply(data, recs)
+        self.assertEqual(len(new), len(data))
+        changed = [i for i in range(len(data)) if data[i] != new[i]]
+        self.assertTrue(all(0x24f34 <= i < 0x24f8c for i in changed))                       # `ktLoadZarcTexture : %s` at 0x24f8c is untouched
+        self.assertEqual(new[0x24f8c:0x24f9c], data[0x24f8c:0x24f9c])
+        for r in recs:
+            off = T._off(r)
+            e = r['en'].encode('cp932')
+            self.assertEqual(new[off:off + len(e) + 1], e + b'\0')
+            self.assertFalse(any(new[off + len(e) + 1:off + r['max_bytes']]))               # zero padding up to the next string
 
     def test_stale_text_is_refused(self):
         source = 'FLOW_PRG/HELP.BIN'

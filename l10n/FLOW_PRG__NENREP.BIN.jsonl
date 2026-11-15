@@ -1,4 +1,4 @@
-{"l10n":1,"kind":"main","style":"compact","n":2052,"final_newline":true,"src":"FLOW_PRG/NENREP.BIN","ctx":["orphan (no pointer) stride-table(in-place only)","recarray S=28 n=289 W=14 modeshare=1.00 stride-table(in-place only)","orphan (no pointer)","hwpool run=96 stride-table(in-place only)","hwpool run=64 stride-table(in-place only)","hwpool run=49 stride-table(in-place only)","hwpool run=40 stride-table(in-place only)","recarray S=56 n=36 W=14 modeshare=1.00 stride-table(in-place only)","hwpool run=23 stride-table(in-place only)","gap string: no pointer found by textdb, in place only stride-table(in-place only)","gap head: the text continues into the next record, no NUL stride-table(in-place only)","hwpool run=9 stride-table(in-place only)","hwpool run=8 stride-table(in-place only)","hwpool run=6 stride-table(in-place only)"]}
+{"l10n":1,"kind":"main","style":"compact","n":2060,"final_newline":true,"src":"FLOW_PRG/NENREP.BIN","ctx":["orphan (no pointer) stride-table(in-place only)","recarray S=28 n=289 W=14 modeshare=1.00 stride-table(in-place only)","orphan (no pointer)","hwpool run=96 stride-table(in-place only)","hwpool run=64 stride-table(in-place only)","hwpool run=49 stride-table(in-place only)","hwpool run=40 stride-table(in-place only)","recarray S=56 n=36 W=14 modeshare=1.00 stride-table(in-place only)","hwpool run=23 stride-table(in-place only)","gap string: no pointer found by textdb, in place only stride-table(in-place only)","gap head: the text continues into the next record, no NUL stride-table(in-place only)","hwpool run=9 stride-table(in-place only)","hwpool run=8 stride-table(in-place only)","hwpool run=6 stride-table(in-place only)"]}
 {"id":"162","jah":"a836438cca96d1bd6adc828cf03df92e","max_bytes":8,"ctx":2,"orphan":true,"skip":true}
 {"id":"109e","jah":"f73a87ca37caa1d1ac326722fbe3aac2","max_bytes":5,"refs":18,"ctx":"ptr@12558 xrefs=18","skip":true}
 {"id":"1d7c","jah":"2ac0f12b50f0045df6f156adbcacb67f","max_bytes":12,"ctx":2,"orphan":true}
@@ -174,6 +174,14 @@
 {"id":"24f18","jah":"ed78bd629cadbab61fde83450643fba6","en":"@R/%s man@","max_bytes":12,"ctx":9,"fmt":"gap"}
 {"id":"24f24","jah":"712da175543bd1858eb7005f5be8d36d","en":"%s man","max_bytes":8,"ctx":9,"fmt":"gap"}
 {"id":"24f2c","jah":"9826107d9ac30a5ea35ad419455ef5cd","en":"%s Yen","max_bytes":8,"ctx":9,"fmt":"gap"}
+{"id":"24f34","jah":"ceb400799345acb13fd96fcfc25b66cb","en":"@R/%sman %sppl@","max_bytes":16,"ctx":9,"fmt":"gap"}
+{"id":"24f44","jah":"47bd32ed131fcfbbd5520b31c0d97725","en":"-%sman %sp@","max_bytes":12,"ctx":9,"fmt":"gap"}
+{"id":"24f50","jah":"278ab324890f28ed1bd5ea1d47c6ab00","en":"%sman %sppl","max_bytes":12,"ctx":9,"fmt":"gap"}
+{"id":"24f5c","jah":"7500b6fe5993ad1746778a9261a7e584","en":"%sman %sp@","max_bytes":12,"ctx":9,"fmt":"gap"}
+{"id":"24f68","jah":"4daaee11393bcad98cb5b659298c240d","en":"@R/%sppl@","max_bytes":12,"ctx":9,"fmt":"gap"}
+{"id":"24f74","jah":"b6bb1dc86195b3e77072a39e52e3fe10","en":"-%sppl@","max_bytes":8,"ctx":9,"fmt":"gap"}
+{"id":"24f7c","jah":"68812168801396a192af3b5b9cb01a89","en":"%sppl","max_bytes":8,"ctx":9,"fmt":"gap"}
+{"id":"24f84","jah":"33efd05935976528edcb69b7d34dc97b","en":"%sppl@","max_bytes":8,"ctx":9,"fmt":"gap"}
 {"id":"25160","jah":"8ec31a2e0312246b9a5ae981f2730979","en":"Rem","max_bytes":14,"ctx":1,"fmt":"recarr"}
 {"id":"25198","jah":"abc5b1f4baa3f757caa4c32f606876a7","en":"H. Sueyoshi","max_bytes":14,"ctx":1,"fmt":"recarr"}
 {"id":"251d0","jah":"5ac5edc3b10c111faa070258261e22e8","en":"M. Taguri","max_bytes":14,"ctx":2,"orphan":true}
