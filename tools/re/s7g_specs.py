@@ -45,16 +45,21 @@ def _grad(bottom):
             'outline': {'color': '#000000', 'width': 1.0}, 'shadow': {'color': '#000000', 'dx': 1, 'dy': 1, 'alpha': 0.7}}
 
 
-def _sak(i, text, y, h, bottom):
-    return {'id': i, 'text': text, 'x': 0, 'y': y, 'w': 128, 'h': h, 'style': 's_' + i, 'size': 23, 'min_sx': 0.6, 'align': 'left', 'dx': 1,
-            'erase': {'mode': 'flat', 'color': [0, 0, 0, 0]}, 'erase_rect': [0, y - 1, 128, h + 2]}
+def _sakc(i, text, x, w, ex0, ex1, y, h=28, size=23):
+    return {'id': i, 'text': text, 'x': x, 'y': y, 'w': w, 'h': h, 'style': 's_' + i[0], 'size': size, 'min_sx': 0.5, 'align': 'center',
+            'erase': {'mode': 'flat', 'color': [0, 0, 0, 0]}, 'erase_rect': [ex0, y - 1, ex1 - ex0, h + 2]}
 
 
+# cell layout of the ORIGINAL (measured on the decoded texture): row 0 = 0..74 | 77..127 (gap 75-76); row 1 = 0..52 | 55..81 | 96..121;
+# rows 2 and 3 = 0..49 | 51..101.  Same split as the beta.1 clipping ("Attack/D" + "efend") says the game uses; the exact UVs are NOT
+# verified in the game code.
 JOBS['sakusen'] = dict(file=GE, tid='@110/sakusen.pvr', spec={
     'supersample': 4, 'quantize': 'argb4444',
     'styles': {'s_a': _grad('#eeee11'), 's_b': _grad('#77dddd'), 's_c': _grad('#aa33bb'), 's_d': _grad('#dd2255')},
-    'regions': [_sak('a', 'Attack/Defend', 0, 28, ''), _sak('b', 'Hold', 31, 28, ''), _sak('c', 'All Defend', 63, 28, ''),
-                _sak('d', 'All Attack', 95, 28, '')]})
+    'regions': [_sakc('a1', 'Attack', 0, 75, 0, 76, 0), _sakc('a2', 'Defend', 78, 50, 76, 128, 0),
+                _sakc('b1', 'Hold', 0, 53, 0, 54, 31), _sakc('b2', 'Atk', 56, 25, 54, 83, 31), _sakc('b3', 'Def', 96, 25, 83, 128, 31),
+                _sakc('c1', 'All', 0, 48, 0, 50, 63), _sakc('c2', 'Defend', 52, 49, 50, 128, 63),
+                _sakc('d1', 'All', 0, 48, 0, 50, 95), _sakc('d2', 'Attack', 52, 49, 50, 128, 95)]})
 
 
 _INK = [{'luma_lt': 75}, {'luma_gt': 205}]

@@ -19,7 +19,7 @@ share or upload the game, a patched disc or an image made from it.
 ## What it changes
 
 * **Text:** menus, dialogue, help pages, news and reports, data tables (places, clubs, nations, leagues, sponsors, players, staff) and all 30,083 lines of the
-  match commentary subtitles are English (British English; 396,813 of the 398,604 text records of the game).
+  match commentary subtitles are English (British English; 396,796 of the 398,604 text records of the game).
 * **Pictures:** 637 repainted textures: title screen and logo tiles, town and office menus, club-name plates, practice and match menus, unit pictures, the credits role titles and staff names.
 * **Engine patches:** an English proportional font, English money text in the Japanese style (`13 oku 1500 man`), a bounded club-name builder (13 characters), layout fixes so that
   the longer English fits its boxes.
