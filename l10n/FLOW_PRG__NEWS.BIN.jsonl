@@ -3147,7 +3147,7 @@
 {"id":"11747e","jah":"30d870822158d7472a07c4e6532fbd60","en":"It went down to the wire to decide who\nreached the knockout stage, proof that\nthis group was evenly matched.","max_bytes":105,"refs":3,"ctx":"tbl@b402c[89/122] xrefs=3"}
 {"id":"1174e7","jah":"313c322ebd037ca87eb6753ad743fed8","en":"@Y/#tk03#@ are in great form. At this\nrate they are very likely to reach the\nknockout stage.","max_bytes":95,"refs":1,"ctx":"tbl@b402c[90/122]"}
 {"id":"117546","jah":"57609e123b653672b451bc880b10dd55","en":"@Y/#tk03#@ and @Y/#tk04#@ stood out in\nthis group and went through to the\nknockout stage as expected.","max_bytes":102,"refs":1,"ctx":"tbl@b402c[91/122]"}
-{"id":"1175b4","jah":"f3fba30372fa76949963b759edb797c9","en":"-","max_bytes":12,"refs":1,"ctx":"ptr@60760 interior-ptrs=1"}
+{"id":"1175b4","jah":"f3fba30372fa76949963b759edb797c9","max_bytes":12,"refs":1,"ctx":"ptr@60760 interior-ptrs=1","skip":true}
 {"id":"1175c0","jah":"342e63caeedeebfbe158c429461ecfae","en":"B","max_bytes":4,"refs":1,"ctx":"tbl@b44a0[0/83]"}
 {"id":"1175c4","jah":"24c81071cd0528b0822ddb23931851bc","en":"C","max_bytes":4,"refs":1,"ctx":"tbl@b44a0[1/83]"}
 {"id":"1175c8","jah":"cac76d39d4dfca4181b853a285e7fd1c","en":"D","max_bytes":4,"refs":1,"ctx":"tbl@b44a0[2/83]"}
@@ -3595,7 +3595,7 @@
 {"id":"121fce","jah":"0fdd2ba491a805957221c85d0793c482","en":"@Y/#tk03#@ could not disrupt their\nopponents' pace, but we hope they use\nthis to go for the title next time.","max_bytes":101,"refs":3,"ctx":"tbl@b5300[98/105] xrefs=3"}
 {"id":"122033","jah":"a689fce1130977731f9ef543892e40bd","en":"@Y/#tk03#@ beat @M/#tk04#@ with sheer\ntenacity. A title won in such a close\nmatch is worth a great deal.","max_bytes":111,"refs":3,"ctx":"tbl@b5300[99/105] xrefs=3"}
 {"id":"1220a2","jah":"4851a70af2f5ab95a47f1f3ff4b5f457","en":"@Y/#tk03#@ and @M/#tk04#@ were almost\nimpossible to separate, so the\ndefeat must hurt all the more.","max_bytes":94,"refs":3,"ctx":"tbl@b5300[100/105] xrefs=3"}
-{"id":"122118","jah":"ef6e3f611e01e1a61b98015091abb5ac","en":"Debug message %x, x = %d, y = %d","max_bytes":40,"refs":1,"ctx":"ptr@611e4 interior-ptrs=1"}
+{"id":"122118","jah":"ef6e3f611e01e1a61b98015091abb5ac","max_bytes":40,"refs":1,"ctx":"ptr@611e4 interior-ptrs=1","skip":true}
 {"id":"122144","jah":"4466b3a950f17fabaed0bc981bd7ae41","en":"It's a test","max_bytes":16,"refs":1,"ctx":"ptr@613a8"}
 {"id":"123ee0","jah":"02cc2a2f26a5b8b3955037e2c8e9fb67","max_bytes":24,"refs":1,"ctx":"ptr@617cc"}
 {"id":"123f54","jah":"cff19404a78b2821c6d3fb4112a2eccc","max_bytes":52,"refs":1,"ctx":"ptr@617ec"}

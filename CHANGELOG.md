@@ -10,6 +10,10 @@ patch bytes (corrections, rebuilt art).  Pre-releases carry a suffix (`-beta.1`)
 
 ## [Unreleased]
 
+### Fixed
+
+- The match-time crash: the console reset to the BIOS when a goal was scored.  Record `FLOW_PRG/GAME.BIN#82138` is a script pointer, not text, and the build had written `---` over it.  It and 16 more records of the same kind (a pointer, a struct field or code that the text extraction had read as Shift-JIS) are blank again, so the build keeps the original bytes; `build_patch.py` now refuses such a record by looking at the original bytes (`docs/hang-investigation.md`, section 9).  Not yet confirmed in play.
+
 ## [0.1.0-beta.1] - 2026-11-14
 
 Initial pass of the English translation of Sakatsuku Tokudaigou 2 - J.League Pro Soccer Club o Tsukurou! (Sega Dreamcast, Japan, HDR-0183; Redump disc 27370), released as a beta: it covers the whole game, was played in the Flycast emulator, and still has the known issues listed below.

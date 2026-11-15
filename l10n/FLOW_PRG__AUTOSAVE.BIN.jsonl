@@ -103,7 +103,7 @@
 {"id":"33508","jah":"edb7a49abea19a209521a8d2e39961ed","en":"%s Legend Club %s","max_bytes":20,"refs":0,"ctx":4,"fmt":"hwptr"}
 {"id":"3351c","jah":"e8ed97f88fa019dfbdc75bda4358db6d","en":"%s Bonus %s","max_bytes":16,"refs":0,"ctx":4,"fmt":"hwptr"}
 {"id":"3352c","jah":"8a5ab9bbfa48ec3b476a91727f915941","en":"%s Bonus %s","max_bytes":16,"refs":1,"ctx":"ptr@10594"}
-{"id":"3353c","jah":"7554b43c0ca5bf74ce420ac050e36719","en":"<3C> %2d/%2d %2d:%02d","max_bytes":56,"refs":1,"ctx":"ptr@10768 interior-ptrs=1"}
+{"id":"3353c","jah":"7554b43c0ca5bf74ce420ac050e36719","max_bytes":56,"refs":1,"ctx":"ptr@10768 interior-ptrs=1","skip":true}
 {"id":"3358c","jah":"2083e54071acb19139e707a8115c9b20","en":"Yr%3d Mth%2d %s","max_bytes":16,"refs":2,"ctx":"ptr@10784 xrefs=2"}
 {"id":"335ac","jah":"5d5a76bd9ef48c4b695af2f805da0d8b","en":"%s Age%2d %s","max_bytes":16,"refs":1,"ctx":"ptr@108b8"}
 {"id":"335dc","jah":"d8b91aa8fe64045f305f702c361837eb","en":"%2d:Bonus Data(%s)","max_bytes":24,"refs":1,"ctx":"ptr@1099c"}

@@ -91,6 +91,7 @@ output; do not use it.
 The list below is for 0.1.0-beta.1; the complete, current list is in [`CHANGELOG.md`](CHANGELOG.md).
 
 * Tested in the Flycast emulator only.
+* Flycast cannot load the volume-ISO form of the patched disc; load the `.cue` or `.gdi` instead.
 * Practice screen, left strip: three labels overshoot the strip by 1 to 3 px.
 * In-match team-instruction label (HOME / AWAY): the repaint is incomplete and a remnant of the old picture (`efend`) can show.
 * Name tags: the tag icon can overlap the name; in-match player tags (above the players) show initials only.

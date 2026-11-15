@@ -1,8 +1,8 @@
 {"l10n":1,"kind":"main","style":"compact","n":15337,"final_newline":true,"src":"FLOW_PRG/CSAVE3.BIN","ctx":["recarray S=29 n=4466 W=16 modeshare=1.00 stride-table(in-place only)","recarray S=29 n=4462 W=13 modeshare=1.00 stride-table(in-place only)","orphan (no pointer) stride-table(in-place only)","orphan (no pointer)","hwpool run=15 stride-table(in-place only)"]}
-{"id":"28d84","jah":"9c4f0067ed951e90585cc7fa316ee0e7","en":"----","max_bytes":12,"refs":1,"ctx":"ptr@fed4"}
-{"id":"28db4","jah":"9c4f0067ed951e90585cc7fa316ee0e7","en":"----","max_bytes":12,"refs":1,"ctx":"ptr@10128"}
-{"id":"28de4","jah":"9c4f0067ed951e90585cc7fa316ee0e7","en":"----","max_bytes":12,"refs":1,"ctx":"ptr@102b0"}
-{"id":"28e14","jah":"9c4f0067ed951e90585cc7fa316ee0e7","en":"----","max_bytes":12,"refs":1,"ctx":"ptr@1045c"}
+{"id":"28d84","jah":"9c4f0067ed951e90585cc7fa316ee0e7","max_bytes":12,"refs":1,"ctx":"ptr@fed4","skip":true}
+{"id":"28db4","jah":"9c4f0067ed951e90585cc7fa316ee0e7","max_bytes":12,"refs":1,"ctx":"ptr@10128","skip":true}
+{"id":"28de4","jah":"9c4f0067ed951e90585cc7fa316ee0e7","max_bytes":12,"refs":1,"ctx":"ptr@102b0","skip":true}
+{"id":"28e14","jah":"9c4f0067ed951e90585cc7fa316ee0e7","max_bytes":12,"refs":1,"ctx":"ptr@1045c","skip":true}
 {"id":"28f51","jah":"f0167dedb1a444e8a7074529cd02cce4","en":"Dummy BootRom comment.","max_bytes":33,"refs":1,"ctx":"ptr@3610"}
 {"id":"33e34","jah":"f77312696f1875afb4b9673e1c0222ff","en":"Bonus 04","max_bytes":12,"refs":1,"ctx":"tbl@282e8[0/4]"}
 {"id":"33e40","jah":"5110660c8e73f1f8715a91cef5085ec4","en":"Bonus 05","max_bytes":12,"refs":1,"ctx":"tbl@282e8[1/4]"}

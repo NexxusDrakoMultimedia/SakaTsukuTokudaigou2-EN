@@ -370,6 +370,39 @@ def is_junk_orphan(r):
     return bool(r.get('orphan') and en and (en in _JUNK_EN or all(c in '-_.?*/ ' for c in en)))
 
 
+def is_binary_record(r, img):
+    """Record (orphan or not) whose ORIGINAL bytes are machine data that the extractor read as cp932 text: a pointer, a
+    struct or SH-4 code.  Writing English over it breaks the game; docs/hang-investigation.md s9: `---` over
+    FLOW_PRG/GAME.BIN#82138 (a script pointer that 3,502 name-table entries use) reset the console when a goal was scored.
+    is_junk_orphan cannot see these because they are pointer records, so this test reads the original bytes:
+      R1  English without any ASCII letter or digit (`-`, `---`, `?`) over an original that contains a kanji.  A genuine
+          punctuation record (a full-width dash, `...` for an ellipsis, `->` for an arrow) has no kanji, which is what separates them.
+      R2  the original starts with, or holds, two or more consecutive 4-aligned words that point into this image: a
+          pointer table with a string glued behind it, overwritten with real English (the week-label table of AUTOSAVE).
+          One in-image word alone is not enough (`8c d6 93 8c` is a two-character place name), nor is the top byte alone
+          (0x8c is a Shift-JIS lead byte).
+    Measured over all 396,819 records with English of the database: 17 records, no genuine text among them (tools/test_junk.py)."""
+    en = (r.get('en') or '').strip()
+    if not en:
+        return False
+    off = _hexoff(r['id'])
+    d = img.data
+    if off >= len(d):
+        return False
+    e = d.find(b'\0', off)
+    raw = d[off:len(d) if e < 0 else e]
+    if not any(c.isascii() and c.isalnum() for c in en):                                        # R1
+        if any('\u4e00' <= c <= '\u9fff' for c in raw.decode('cp932', errors='replace')):
+            return True
+    run = 0
+    for i in range((-(img.base + off)) % 4, len(raw) - 3, 4):                                    # R2
+        w = int.from_bytes(raw[i:i + 4], 'little')
+        run = run + 1 if img.base <= w < img.base + len(d) else 0
+        if run >= 2:
+            return True
+    return False
+
+
 def do_overlay(res, source, recs, survey, append_safe, repack=True, share='none', cross_pool=True, grow=0):
     iso = '/' + source
     rep = FileReport(iso, 'overlay')
@@ -390,6 +423,12 @@ def do_overlay(res, source, recs, survey, append_safe, repack=True, share='none'
         # an orphan record with placeholder English is binary data / code decoded as cp932 (docs/hang-investigation.md s0): never write it
         guarded += [(r['id'], 'junk orphan record (placeholder English over binary data or code); left unchanged') for r in junk]
         ids = {r['id'] for r in junk}
+        recs = [r for r in recs if r['id'] not in ids]
+    binrec = [r for r in recs if is_binary_record(r, img)]
+    if binrec:
+        # a pointer record whose original bytes are a pointer / struct / code (docs/hang-investigation.md s9): never write it
+        guarded += [(r['id'], 'binary record (pointer table, data or code read as text); left unchanged') for r in binrec]
+        ids = {r['id'] for r in binrec}
         recs = [r for r in recs if r['id'] not in ids]
     if not repack:
         new, r = _legacy_overlay(img, recs, source, survey, append_safe, rep, extracted, grow)

@@ -1,6 +1,6 @@
 {"l10n":1,"kind":"main","style":"compact","n":1898,"final_newline":true,"src":"FLOW_PRG/OFFICE.BIN","ctx":["hwpool run=118 stride-table(in-place only)","orphan (no pointer)","hwpool run=30 stride-table(in-place only)"]}
-{"id":"41f88","jah":"99fa1b5ea02dfd58fef25f20cf954310","en":"?","max_bytes":8,"refs":1,"ctx":"ptr@421a8"}
-{"id":"42080","jah":"ddfbce970ccca4d86028825cf03fa637","en":"?","max_bytes":8,"refs":1,"ctx":"ptr@42194"}
+{"id":"41f88","jah":"99fa1b5ea02dfd58fef25f20cf954310","max_bytes":8,"refs":1,"ctx":"ptr@421a8","skip":true}
+{"id":"42080","jah":"ddfbce970ccca4d86028825cf03fa637","max_bytes":8,"refs":1,"ctx":"ptr@42194","skip":true}
 {"id":"790c0","jah":"367d6751cb4eacb6e9758dd9637c6b52","max_bytes":5,"ctx":1,"orphan":true,"skip":true}
 {"id":"79120","jah":"c5f7c8396871aaa81232003c6e6ca45b","max_bytes":5,"ctx":1,"orphan":true,"skip":true}
 {"id":"79310","jah":"3f2e4e0c3be5e6b2a540b467f97f7af5","max_bytes":5,"ctx":1,"orphan":true}

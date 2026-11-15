@@ -1,8 +1,8 @@
 {"l10n":1,"kind":"main","style":"compact","n":2052,"final_newline":true,"src":"FLOW_PRG/NENREP.BIN","ctx":["orphan (no pointer) stride-table(in-place only)","recarray S=28 n=289 W=14 modeshare=1.00 stride-table(in-place only)","orphan (no pointer)","hwpool run=96 stride-table(in-place only)","hwpool run=64 stride-table(in-place only)","hwpool run=49 stride-table(in-place only)","hwpool run=40 stride-table(in-place only)","recarray S=56 n=36 W=14 modeshare=1.00 stride-table(in-place only)","hwpool run=23 stride-table(in-place only)","gap string: no pointer found by textdb, in place only stride-table(in-place only)","gap head: the text continues into the next record, no NUL stride-table(in-place only)","hwpool run=9 stride-table(in-place only)","hwpool run=8 stride-table(in-place only)","hwpool run=6 stride-table(in-place only)"]}
 {"id":"162","jah":"a836438cca96d1bd6adc828cf03df92e","max_bytes":8,"ctx":2,"orphan":true,"skip":true}
-{"id":"109e","jah":"f73a87ca37caa1d1ac326722fbe3aac2","en":"---","max_bytes":5,"refs":18,"ctx":"ptr@12558 xrefs=18"}
+{"id":"109e","jah":"f73a87ca37caa1d1ac326722fbe3aac2","max_bytes":5,"refs":18,"ctx":"ptr@12558 xrefs=18","skip":true}
 {"id":"1d7c","jah":"2ac0f12b50f0045df6f156adbcacb67f","max_bytes":12,"ctx":2,"orphan":true}
-{"id":"1c70c","jah":"d4e71f729e996f6b11f22deed2e19525","en":"---","max_bytes":6,"refs":1,"ctx":"ptr@21a4c"}
+{"id":"1c70c","jah":"d4e71f729e996f6b11f22deed2e19525","max_bytes":6,"refs":1,"ctx":"ptr@21a4c","skip":true}
 {"id":"23200","jah":"e3369da5c86e8adcdc50bc0ac7b1ef69","en":"Home Attendance","max_bytes":20,"ctx":2,"orphan":true}
 {"id":"23220","jah":"770d6462712b84cde16b44b2845b200d","en":"J1 First Stage","max_bytes":24,"ctx":2,"orphan":true}
 {"id":"23238","jah":"bc061ca434d51b88aefa95362a8724ec","en":"J1 Second Stage","max_bytes":20,"ctx":0,"orphan":true}

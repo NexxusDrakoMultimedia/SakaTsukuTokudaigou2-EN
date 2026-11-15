@@ -178,3 +178,23 @@ Discs of this pass (standard flags + `--strict`, all 387,649 applied, failed 0, 
 
 Boot order and the exact steps: `docs/playtest-checklist.md` section 0.  If bis_e hangs and prop8 hangs, the junk overwrite was not the (only) cause and the cause is in text, BCAST-independent layout steps or the proportional font:
 the next discs to build are `bis_n` (`hng_build_bis3.sh`) and a per-source `--only` bisect of the text.
+
+## 9. Goal crash of 0.1.0-beta.1 (2026-11-16): the pointer records that section 8 did not catch
+
+* **Symptom.**  The beta reset the console to the BIOS when a goal was scored.
+* **Cause.**  `FLOW_PRG/GAME.BIN#82138` (8 bytes, `refs` 3502) is not text.  The original bytes `e0 58 3a 8c 71 00 00 00` are a RAM script pointer (`0x8c3a58e0`) and a data word of the match overlay; 3,502 name-table entries point at that address and the goal labels read them.
+  The database held `en = "---"` for it (the Japanese side is those bytes decoded as cp932), so the build wrote `2d 2d 2d 00 00 00 00 00` over the pointer; the entry then ran into an address error in the SH-4 simulator (`tools/sh4sim.py`).
+* **Why the guard of section 8 missed it.**  `is_junk_orphan` looks only at ORPHAN records (no pointer into them).  This record has pointers, so it is a normal pointer record, and `tools/test_junk.py` rightly says that a pointer record `-` is not junk (a genuine `-` separator string exists).
+  A test on the English alone cannot tell the two apart; the original bytes can.
+* **The class.**  A scan of all 396,819 records with English found 17 such records, not 2, in two families (both non-orphan, all with English in the database):
+  placeholder English (`-`, `---`, `?`) over an original that is a pointer, a struct field or SH-4 code (12 records: `GAME#82138`, `GAME#11a2c8` (a four-colour text palette between two pointer tables, cosmetic at most), `CSAVE3#28d84 / #28db4 / #28de4 / #28e14`, `NENREP#109e / #1c70c`, `NEWS#1175b4`, `OFFICE#41f88 / #42080`, `OPTION#7cdc`);
+  and real English over a pointer table with a string glued behind it (6 records, `NEWS#1175b4` is in both families: `AUTOSAVE#3353c` and `SONGSAVE#3563c` (the week-label pointer table in front of the date format), `NEWS#122118`, `SCHE0#39248`, `SCHE1#39248`).
+  Only `GAME#82138` is known to have caused a visible failure.
+* **Data fix.**  The 17 records have `en = ""` and `skip: true` in `translation/*.jsonl` and in `l10n/*.jsonl` (the `en` key is omitted there; `jah` is unchanged), `l10n/MANIFEST.json` carries the new file hashes.  The ten changed working files were copied before the edit.  The build keeps the original bytes when `en` is empty (section 0), and the measured build left the 8 bytes and all 3,502 pointer words of `GAME#82138` identical.
+* **Guard.**  `build_patch.is_binary_record(r, img)` (next to `is_junk_orphan`, called from `do_overlay` in the same way) refuses a record, orphan or not, whose ORIGINAL bytes are machine data; it is counted as failed, so `--strict` stops.  Two rules:
+  R1, English without an ASCII letter or digit over an original that contains a kanji (the 12 placeholder records; a genuine punctuation record has no kanji);
+  R2, the original starts with or holds two or more consecutive 4-aligned words that point into the same image (the 6 pointer-table records).
+  Looser tests were measured and rejected because they hit genuine text: one in-image word alone (160 hits, place names such as a two-character prefecture), the top byte `0x8c` alone (15,765 hits, it is a Shift-JIS lead byte), symbol-only English without the kanji test (251 hits, 239 genuine).
+  Over the whole database the two rules flag exactly the 17 records and nothing else; `tools/test_junk.py` asserts that the database holds none, that the real records are caught, and that genuine records are not (a full-width dash, an ellipsis, a place name next to a pointer-looking word, synthetic ASCII and kanji originals).
+* **Not covered.**  A binary record with real-looking English and a single pointer, or pointers outside the image, would pass both rules (none exists today).  `--repack on` can in theory move a short string into spare room of a pool whose own record is blank (`textrepack` cross-pool recipients); that did not happen in the standard build, and the same holds for every other blank pointer record.
+* **Verified.**  `tools/test_junk.py`, `test_l10n`, `test_hwguard`, `test_layoutpatch`, `test_bldflags`, `test_refit` and `test_release` pass.  No emulator was run and no disc was built for this entry, so that the game no longer resets on a goal is **not yet confirmed in play**.

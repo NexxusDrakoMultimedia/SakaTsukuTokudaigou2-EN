@@ -1,5 +1,5 @@
 {"l10n":1,"kind":"main","style":"compact","n":2157,"final_newline":true,"src":"FLOW_PRG/SCHE1.BIN","ctx":["hwpool run=155 stride-table(in-place only)","orphan (no pointer)","hwpool run=30 stride-table(in-place only)"]}
-{"id":"39248","jah":"0438e6c13524cfdf2455ec98723e9d89","en":"This Module: heap left %x , max %x","max_bytes":48,"refs":1,"ctx":"ptr@4c4 interior-ptrs=2"}
+{"id":"39248","jah":"0438e6c13524cfdf2455ec98723e9d89","max_bytes":48,"refs":1,"ctx":"ptr@4c4 interior-ptrs=2","skip":true}
 {"id":"3936c","jah":"00204a85b03c21d24c9cf0734418e16f","en":"Cost","max_bytes":8,"refs":1,"ctx":"ptr@838"}
 {"id":"39374","jah":"e7957ef6fc92d831ed566453183f2a42","en":"Y0","max_bytes":8,"refs":1,"ctx":"ptr@840"}
 {"id":"39470","jah":"34a45e300acf09da661a63874ea90558","en":"SEGA(?)","max_bytes":8,"refs":1,"ctx":"ptr@1474"}
