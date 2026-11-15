@@ -10,6 +10,7 @@
                                            [--align-fix on|off] [--tag-fix on|off] [--scout-fix on|off]
                                            [--crowd-fix on|off] [--bcast-speed off|1.7|1.9|2.2] [--lin-center on|off] [--small-prop on|off]
                                            [--options-fix on|off] [--cell-prop on|off] [--clip-lead-space on|off]
+                                           [--name-entry-order half-first|original]
                                            [--grow-overlays N] [--dedupe-files on|off] [--allow-overflow]
                                            [--add-file /ISO/PATH=LOCAL ...] [--verify-disc off|fast|full]
                                            [--club-guard on|off] [--club-dot on|off]
@@ -1049,6 +1050,29 @@ def apply_options_fix(res):
     res.notes.append('options fix: OPTIONS highlight windows of %d overlays' % len(out))
 
 
+# ------------------------------------------------------------------ Name Entry keyboard page order (docs/layout-issues.md section 20)
+def apply_name_entry_order(res, order):
+    """tools/layoutpatch.py name_entry_patches: the ABC/123 tab of FLOW_PRG/N_ENTRY.BIN opens on the HALF-width letter pages instead of the full-width ones (the four
+    pointer words of the page table are swapped in pairs, data, same size); the pages and pointers are located by content on the CURRENT bytes and the image is refused
+    when it has neither known order.  'original' leaves the file untouched (the Japanese disc order)."""
+    import layoutpatch as LP
+    if order == 'original':
+        return
+    try:
+        out = LP.name_entry_patches(read_extracted, res.patches, order)
+    except LP.LayoutPatchError as e:
+        raise PipelineError('name entry order: %s' % e)
+    for iso, new in sorted(out.items()):
+        rep = FileReport(iso, 'layout')
+        rep.old_size = rep.new_size = len(new)
+        rep.changed = True
+        rep.records = rep.with_en = rep.applied = 1
+        rep.notes.append('Name Entry ABC/123 tab: half-width letter pages first (4 pointer words, docs/layout-issues.md s20)')
+        res.patches[iso] = bytes(new)
+        res.files.append(rep)
+    res.notes.append('name entry order: ABC/123 tab opens on the half-width letter pages (%s)' % order)
+
+
 # ------------------------------------------------------------------ commentary subtitle speed (docs/layout-issues.md section 14)
 def apply_bcast_speed(res, speed):
     """tools/layoutpatch.py bcast_patches: the commentary box typewriter of FLOW_PRG/GAME.BIN reveals one character per 2.23 ticks; speed 1.7 / 1.9 /
@@ -1273,7 +1297,7 @@ def build_patches(tdb='translation', append_safe=False, relocate_ptrblob=False,
                   textures_dir=None, texture_policy='exact', money_fmt=False, money_decimal_d=True, hw_relocate='off',
                   prop_scale=False, money_style='jp', refit=False, grow_overlays=0, align_fix=False, tag_fix=False, scout_fix=False,
                   open_font=False, crowd_fix=False, bcast_speed='off', lin_center=False, small_prop=False, options_fix=False, cell_prop=False,
-                  clip_lead_space=False):
+                  clip_lead_space=False, name_entry_order='original'):
     """Run stages 1-3.  Returns Result (res.patches = {iso path: bytes} of CHANGED files).
     New keywords (all default to the previous behaviour): prop_scale (fontpatch --prop-scale cave), money_style 'jp'|'western' (moneypatch.STYLES),
     refit (apply tools/refit.py overlays; implies hw_relocate 'on' unless it is 'force'), grow_overlays N (opt-in BSS-pad growth, needs append_safe),
@@ -1291,7 +1315,11 @@ def build_patches(tdb='translation', append_safe=False, relocate_ptrblob=False,
     cell_prop (fontpatch.CELL_SRC + layoutpatch.patch_cell_prop: the commentary subtitle line engine of GAME.BIN advances glyphs by the proportional table and drops a blank
     at the start of a wrapped line; needs prop_font with glyphs and the tail placement; library default False, the command line default is on, s19),
     clip_lead_space (build_patch.bcast_clip_text: the blank between two consecutive commentary clips is written IN FRONT of the clip that starts with a letter / digit instead of
-    after every clip; needs cell_prop, because only that engine skips a blank at the first column of a line; library default False, the command line default follows --cell-prop)."""
+    after every clip; needs cell_prop, because only that engine skips a blank at the first column of a line; library default False, the command line default follows --cell-prop),
+    name_entry_order 'half-first'|'original' (layoutpatch.name_entry_patches: the order of the ABC/123 keyboard pages of N_ENTRY.BIN; library default 'original' = unchanged,
+    the command line default is 'half-first', s20)."""
+    if name_entry_order not in ('half-first', 'original'):
+        raise PipelineError('unknown --name-entry-order %r (one of half-first, original)' % (name_entry_order,))
     if clip_lead_space and not cell_prop:
         raise PipelineError("--clip-lead-space on needs --cell-prop on (the stock line engine draws a blank at the first column of a line as 12 px of indent; with --cell-prop off the trailing blank rule is used)")
     if cell_prop and not (prop_font and prop_glyphs):
@@ -1339,7 +1367,7 @@ def build_patches(tdb='translation', append_safe=False, relocate_ptrblob=False,
         return _build_patches(tdb, append_safe, relocate_ptrblob, font_dir, members_dir, files_dir, only, repack, share, cross_pool, prop_font,
                               prop_variants, prop_place, prop_glyphs, textures_dir, texture_policy, money_fmt, money_decimal_d, hw_relocate,
                               prop_scale, money_style, refit, grow_overlays, align_fix, tag_fix, scout_fix, open_data, crowd_fix, bcast_speed, lin_center,
-                              small_prop, options_fix, cell_prop, clip_lead_space)
+                              small_prop, options_fix, cell_prop, clip_lead_space, name_entry_order)
     finally:
         pixelwidth.set_open_font(False)
 
@@ -1347,7 +1375,7 @@ def build_patches(tdb='translation', append_safe=False, relocate_ptrblob=False,
 def _build_patches(tdb, append_safe, relocate_ptrblob, font_dir, members_dir, files_dir, only, repack, share, cross_pool, prop_font,
                    prop_variants, prop_place, prop_glyphs, textures_dir, texture_policy, money_fmt, money_decimal_d, hw_relocate,
                    prop_scale, money_style, refit, grow_overlays, align_fix, tag_fix, scout_fix, open_data, crowd_fix=False, bcast_speed='off', lin_center=False,
-                   small_prop=False, options_fix=False, cell_prop=False, clip_lead_space=False):
+                   small_prop=False, options_fix=False, cell_prop=False, clip_lead_space=False, name_entry_order='original'):
     res = Result()
     by_src = load_tdb(tdb)
     if refit:
@@ -1403,6 +1431,7 @@ def _build_patches(tdb, append_safe, relocate_ptrblob, font_dir, members_dir, fi
     apply_bcast_speed(res, bcast_speed)
     if options_fix:
         apply_options_fix(res)
+    apply_name_entry_order(res, name_entry_order)
     if money_fmt:
         apply_money_fmt(res, money_decimal_d, money_style)
     if prop_font:
@@ -1482,7 +1511,8 @@ def flags_line(a):
         ' --strict' if a.strict else '', a.texture_policy) + (' --open-font on' if getattr(a, 'open_font', 'off') == 'on' else '') + (
         ' --small-prop on' if getattr(a, 'small_prop', 'off') == 'on' else '') + (
         ' --options-fix %s' % a.options_fix if hasattr(a, 'options_fix') else '') + (
-        ' --clip-lead-space %s' % a.clip_lead_space if getattr(a, 'clip_lead_space', None) else '')
+        ' --clip-lead-space %s' % a.clip_lead_space if getattr(a, 'clip_lead_space', None) else '') + (
+        ' --name-entry-order %s' % a.name_entry_order if getattr(a, 'name_entry_order', None) else '')
 
 
 def check_flag_combos(a):
@@ -1601,6 +1631,11 @@ def main(argv=None):
                     help='in-match OPTIONS panel (FLOW_PRG/GAME.BIN and ENDING.BIN): the selected option (ON / OFF, A / B, Near / Mid / Far) is brightened by a sprite window '
                          'of fixed character cells that fitted the Japanese full-width values; the 11 window records (data, same size) are recomputed from the cells of the '
                          'English option words (tools/layoutpatch.py options_patches, docs/layout-issues.md s18); signature located, refuses foreign or already patched bytes; default on')
+    ap.add_argument('--name-entry-order', choices=['half-first', 'original'], default='half-first',
+                    help='Name Entry (FLOW_PRG/N_ENTRY.BIN) ABC/123 tab: half-first (default) = the keyboard opens on the HALF-width letter pages (1-0 A-L M-X Y-Z a-l, then m-z) and the '
+                         'full-width pages follow, original = the Japanese disc order (full-width first); the four pointer words of the page table are swapped in pairs (data, same size; '
+                         'tools/layoutpatch.py name_entry_patches, docs/layout-issues.md s20); pages and table located by content, refuses foreign bytes; a usability fix of the base build, '
+                         'not a style layer')
     ap.add_argument('--bcast-speed', choices=['off', '1.7', '1.9', '2.2'], default='1.9',
                     help='commentary subtitle (BCAST) reveal speed in GAME.BIN (tools/layoutpatch.py bcast_patches, docs/layout-issues.md s14): off = original (2.23 ticks per '
                          'character), 1.7 = 1.67x, 1.9 = 1.94x (default), 2.2 = 2.23x (one character per tick); two sites, signature located, '
@@ -1690,7 +1725,8 @@ def main(argv=None):
                             a.prop_scale == 'on', a.money_style, a.refit == 'on', a.grow_overlays, a.align_fix == 'on', a.tag_fix == 'on', scout_fix=a.scout_fix == 'on',
                             crowd_fix=a.crowd_fix == 'on', bcast_speed=a.bcast_speed,
                             open_font=a.open_font == 'on', lin_center=a.lin_center == 'on', small_prop=a.small_prop == 'on',
-                            options_fix=a.options_fix == 'on', cell_prop=a.cell_prop == 'on', clip_lead_space=a.clip_lead_space == 'on')
+                            options_fix=a.options_fix == 'on', cell_prop=a.cell_prop == 'on', clip_lead_space=a.clip_lead_space == 'on',
+                            name_entry_order=a.name_entry_order)
     except PipelineError as e:
         print('ERROR: %s' % e, file=sys.stderr)
         return 1

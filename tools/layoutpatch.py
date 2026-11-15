@@ -1069,3 +1069,98 @@ def cell_patches(read_extracted, current=None, cave_addr=None, space_adv=12):
     if d is None:
         d = read_extracted(CELL_ISO.lstrip('/'))
     return {CELL_ISO: patch_cell_prop(d, cave_addr, space_adv, 'GAME')}
+
+
+# ------------------------------------------------------------------ Name Entry keyboard page order (docs/layout-issues.md section 20, build flag --name-entry-order)
+# FLOW_PRG/N_ENTRY.BIN (base 0x8c8d0000, file offset = address - base): the pages of the keyboard are plain strings (12 cells x 5 rows, a cell is 2 bytes, rows end in '\n') that
+# the three tab handlers reach ONLY through NULL-terminated pointer tables, one table per tab, indexed by a one-byte page number (hiragana 0xe0b4, katakana 0xe0c0, ABC/123 0xe0d4):
+#   ABC/123 table (file 0xe0d4):  full-width  1-0 / A-L / M-X / Y-Z / a-l   full-width  m-z   half-width  1-0 / A-L / M-X / Y-Z / a-l   half-width  m-z   NULL
+# The page number starts at 0 (zeroed at init, 0x200), the cursor index (page * 60 + row * 12 + column, 0xe0f6) starts at 0, the strings are read through the pointer of the page
+# that was drawn (0x1fb6 stores it, 0x276c / 0x270c address the cell from it), and the pointers of the four pages occur nowhere else in the overlay.  Swapping the two pairs of
+# pointer words (data, same size) therefore makes the half-width block the FIRST pages of the tab, which is what English players want: the original order opens the tab on the
+# full-width Latin letters.  Everything else (page flipping through the cursor index, the NULL end of the table, the cell reader) is index based and unchanged.
+# The four pages are found BY CONTENT (generated below, full-width = the SJIS row 0x82), the table by the four consecutive pointer words, and each word must occur exactly once in
+# the image.  An image that has neither the original nor the swapped table is refused.
+NE_ISO = '/FLOW_PRG/N_ENTRY.BIN'
+NE_BASE = 0x8C8D0000
+NE_ORDERS = ('half-first', 'original')
+
+
+def _ne_cells(rows, wide):
+    """the keyboard page text: rows of 12 cells (a cell is 2 bytes: a full-width glyph, or a half-width glyph and a blank), joined by '\n', no final newline"""
+    out = []
+    for row in rows:
+        b = b''
+        for ch in row:
+            if wide:
+                c = ord(ch)
+                b += bytes([0x82, 0x4F + c - 48 if ch.isdigit() else 0x60 + c - 65 if ch.isupper() else 0x81 + c - 97])
+            else:
+                b += ch.encode('ascii') + b' '
+        out.append(b + b' ' * (24 - len(b)))
+    return b'\n'.join(out)
+
+
+NE_PAGES_ROWS = (('1234567890', 'ABCDEFGHIJKL', 'MNOPQRSTUVWX', 'YZ', 'abcdefghijkl'), ('mnopqrstuvwx', 'yz'))
+
+
+def ne_pages():
+    """-> (full1, full2, half1, half2): the four ABC/123 page strings (bytes, without NUL) of the original image"""
+    return (_ne_cells(NE_PAGES_ROWS[0], True), _ne_cells(NE_PAGES_ROWS[1], True), _ne_cells(NE_PAGES_ROWS[0], False), _ne_cells(NE_PAGES_ROWS[1], False))
+
+
+def _ne_locate(d, name):
+    """-> (offset of the 4-word table in its current order, current order name) or raises LayoutPatchError.  Pages by content, table by the four consecutive words."""
+    d = bytes(d)
+    offs = []
+    for k, page in enumerate(ne_pages()):
+        pat = page + b'\0'
+        hits, i = [], d.find(pat)
+        while i >= 0:
+            hits.append(i)
+            i = d.find(pat, i + 1)
+        if len(hits) != 1:
+            raise LayoutPatchError('%s: the keyboard page %d (%s) was found %d times (expected once: another image)' % (name, k + 1, ('full-width 1-l', 'full-width m-z', 'half-width 1-l', 'half-width m-z')[k], len(hits)))
+        offs.append(hits[0])
+    words = [NE_BASE + o for o in offs]
+    refs = {}
+    for o in range(0, len(d) - 3, 4):
+        w = struct.unpack_from('<I', d, o)[0]
+        if w in words:
+            refs.setdefault(w, []).append(o)
+    for k, w in enumerate(words):
+        if len(refs.get(w, ())) != 1:
+            raise LayoutPatchError('%s: the pointer to keyboard page %d is referenced %d time(s) as an aligned word (expected exactly once, in the page table)' % (name, k + 1, len(refs.get(w, ()))))
+    first = min(refs[w][0] for w in words)
+    seq = [struct.unpack_from('<I', d, first + 4 * k)[0] for k in range(4)]
+    if seq == words:
+        order = 'original'
+    elif seq == [words[2], words[3], words[0], words[1]]:
+        order = 'half-first'
+    else:
+        raise LayoutPatchError('%s: the four keyboard page pointers are not consecutive in one of the two known orders (at %#x: %s)' % (name, first, ' '.join('%08x' % x for x in seq)))
+    if first < 4 or struct.unpack_from('<I', d, first - 4)[0] != 0 or first + 20 > len(d) or struct.unpack_from('<I', d, first + 16)[0] != 0:
+        raise LayoutPatchError('%s: the keyboard page table at %#x is not NULL terminated / NULL preceded (not the ABC/123 table)' % (name, first))
+    return first, order, words
+
+
+def patch_name_entry(data, order='half-first', name='N_ENTRY'):
+    """the N_ENTRY.BIN image -> same size: the ABC/123 keyboard page table is put in `order` ('half-first': half-width pages first; 'original': the Japanese disc order).
+    16 bytes of pointer words at most; applying it again changes nothing; foreign images are refused (LayoutPatchError)."""
+    if order not in NE_ORDERS:
+        raise LayoutPatchError('unknown name entry order %r (one of %s)' % (order, ', '.join(NE_ORDERS)))
+    first, cur, words = _ne_locate(data, name)
+    d = bytearray(data)
+    want = words if order == 'original' else [words[2], words[3], words[0], words[1]]
+    for k, w in enumerate(want):
+        struct.pack_into('<I', d, first + 4 * k, w)
+    return bytes(d)
+
+
+def name_entry_patches(read_extracted, current=None, order='half-first'):
+    """-> {iso path: new bytes} for N_ENTRY.BIN, composed on the CURRENT bytes (text repacking done before is kept); {} when the image already is in `order`"""
+    d = (current or {}).get(NE_ISO)
+    if d is None:
+        d = read_extracted(NE_ISO.lstrip('/'))
+    new = patch_name_entry(d, order)
+    return {NE_ISO: new} if new != bytes(d) else {}

@@ -250,7 +250,11 @@ scripts: kanji, hiragana, katakana, alphanumerics, symbols, then a confirm butto
 * **The picker grids are Japanese by design.** The grids of kana and letters are rigid data tables in the game: each cell
   is two bytes wide, and translating them to ordinary letters broke the cursor, so they are left as the game made them.
 * **To type an English name use the alphanumeric tab** (the fourth of the five tabs, "eisuuji" in Japanese, "ABC/123" if it
-  has been repainted). Its letters are the game's full-width Latin letters, so they look wide.
+  has been repainted). It opens on the **half-width** letters: the game's ordinary narrow Latin letters, the same as the rest
+  of the English text (digits, A-L, M-X, Y-Z and a-l on the first page, m-z on the second). The same letters in the game's
+  **full-width** (wide) form come after them. The original Japanese disc shows the wide letters first; the patch puts the
+  narrow ones first because they take one byte each (the owner name takes 13 of them) and show like normal English. If you
+  prefer the original order, build the patch with `--name-entry-order original`.
 * The tab names and the confirm button are pictures; some of them may still be Japanese in your build. Which tab is which
   does not change with the patch.
 * Names are cut for display: the lists show about 12 characters of a person's name.

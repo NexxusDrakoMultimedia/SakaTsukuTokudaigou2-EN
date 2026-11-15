@@ -19,6 +19,7 @@ patch bytes (corrections, rebuilt art).  Pre-releases carry a suffix (`-beta.1`)
 
 - Correction to the beta.1 "Money and units" entry: the annual report is not covered by the money-format hook.  Read that entry as "in every text, on the TV station card, in the finance screens and the income table; the annual report has its own English formats".  The annual report (NENREP) money amounts are English because the report's own money formats were translated in place; they are not handled by `--money-format` and print glued (`13oku 1500man`).
 - Annual report: the attendance (head-count) lines are now English too, written in place in `NENREP.BIN`.  They keep the Japanese counting, `man` = 10,000 and `ppl` for people, e.g. `  1man 2345ppl`, ` 345ppl`, and the red negative form `@R/ 345ppl@`.  Decoded and run in the SH-4 simulator, not yet seen on screen; the long form is wider than the Japanese (162 px against 132 px).
+- Name Entry: the ABC/123 tab now opens on the half-width letter pages (narrow `1-0 A-L M-X Y-Z a-l`, then `m-z`), with the full-width pages after them.  The Japanese disc opens it on the wide full-width letters.  Done by swapping four pointer words in `FLOW_PRG/N_ENTRY.BIN` (8 bytes, same size).  New build flag `--name-entry-order half-first|original` (default `half-first`; `original` restores the disc order).  Read from the overlay code only; not seen in game yet, and typing on the half-width pages is untested.
 
 ### Known issues
 

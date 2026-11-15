@@ -19,6 +19,8 @@ product = "HDR-0183"
 #   --lin-center on --cell-prop on --money-format on --prop-scale off --strict --texture-policy exact --open-font on --small-prop on --options-fix on --clip-lead-space on
 # --repack on, --share dup, --append-safe, --proportional-font on, --open-font on, --small-prop on and --strict are not defaults of build_patch.py and stay explicit
 # here on purpose; --refit on and --align-fix on are repeated for clarity; the other flags of the list are defaults of build_patch.py and are not repeated.
+# --name-entry-order half-first (the Name Entry ABC/123 tab opens on the half-width letters; added after prop10j) is a default of build_patch.py too, so it is not listed;
+# a release that wants the Japanese disc order adds --name-entry-order original to standard_flags.
 [build]
 standard_flags = ["--repack", "on", "--share", "dup", "--append-safe", "--proportional-font", "on", "--refit", "on", "--align-fix", "on", "--open-font", "on", "--small-prop", "on", "--strict"]
 

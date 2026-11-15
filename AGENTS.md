@@ -42,12 +42,12 @@ Every opt-in build flag must leave the default output byte-identical when off (`
 
 ### Tests
 
-`python -I -X utf8 tools/test_X.py` (39 scripts in `tools/`, each ends with a pass summary; many take `--quick`).  There is no CI and no test runner; run the ones that match what you touched.
+`python -I -X utf8 tools/test_X.py` (40 scripts in `tools/`, each ends with a pass summary; many take `--quick`).  There is no CI and no test runner; run the ones that match what you touched.
 
 | Changed | Run |
 |---|---|
 | any translation data or `l10n/` | `test_junk`, `test_l10n` (`--full` before export changes), `test_transwork --quick`, `test_gap` |
-| build flags, layout, font, money | `test_bldflags`, `test_layoutpatch`, `test_refit`, `test_hwguard`, `test_smallprop`, `test_open_font` |
+| build flags, layout, font, money | `test_bldflags`, `test_layoutpatch`, `test_nameentry`, `test_refit`, `test_hwguard`, `test_smallprop`, `test_open_font` |
 | textures | `test_texdelta` (`--full` for the whole set), `test_texinject`, `test_pvr` |
 | patching, releases, licences | `test_vcdiff`, `test_release` (fast, synthetic disc), `test_bincue2iso` |
 | everything | `test_pipeline` (end to end, about 3 min, 3.5 GB scratch, needs the disc) |

@@ -361,6 +361,19 @@ def test_cli(tmp):
             check(rc == 1 and 'ERROR' in err and '--clip-lead-space' in err and '--cell-prop' in err, '--clip-lead-space on is refused without --cell-prop on: %s' % ' '.join(argv))
         check(raises(lambda: orig(clip_lead_space=True, cell_prop=False), '--cell-prop'), 'build_patches(clip_lead_space=True) without cell_prop is refused')
         rc, out, err = run(['--proportional-font', 'on'])
+        check(rc == 0 and seen['kw'].get('name_entry_order') == 'half-first' and out.rstrip().count('--name-entry-order half-first') >= 1,
+              'default: --name-entry-order half-first reaches build_patches and the flags line')
+        rc, out, err = run([])
+        check(rc == 0 and seen['kw'].get('name_entry_order') == 'half-first', 'bare command line: --name-entry-order is half-first too (it needs no other flag)')
+        rc, out, err = run(['--proportional-font', 'on', '--name-entry-order', 'original'])
+        check(rc == 0 and seen['kw'].get('name_entry_order') == 'original' and '--name-entry-order original' in out, '--name-entry-order original works and is printed')
+        try:
+            rc = run(['--name-entry-order', 'full-first'])[0]
+        except SystemExit as e:
+            rc = e.code
+        check(rc == 2, '--name-entry-order full-first is refused by the argument parser (exit 2)')
+        check(raises(lambda: orig(name_entry_order='full-first'), '--name-entry-order'), "build_patches(name_entry_order='full-first') is refused")
+        rc, out, err = run(['--proportional-font', 'on'])
         check(rc == 0 and seen['kw'].get('small_prop') is False and '--small-prop' not in out, '--small-prop is OFF by default and absent from the flags line')
         rc, out, err = run(['--proportional-font', 'on', '--small-prop', 'on'])
         check(rc == 0 and seen['kw'].get('small_prop') is True and '--small-prop on' in out, '--small-prop on reaches build_patches and the flags line')

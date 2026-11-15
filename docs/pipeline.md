@@ -166,6 +166,7 @@ A bad combination or an impossible input stops the run with `ERROR: ...` and exi
 | `--clip-lead-space on\|off` | follows `--cell-prop` (`on` with it) | 9.18 |
 | `--small-prop on\|off` | `off` (opt-in, unproven in game) | 9.15 |
 | `--options-fix on\|off` | `on` | 9.16 |
+| `--name-entry-order half-first\|original` | `half-first` (changes the base build; `original` = the Japanese disc order, output identical to builds before the flag) | 9.19 |
 | `--grow-overlays N` | `0` | 9.5 |
 | `--club-guard on\|off` | `on` | 9.9 |
 | `--club-dot on\|off` | `on` | 9.9 |
@@ -331,6 +332,10 @@ followed by a gap (`Fi r st hal f`), and the blank that a wrap leaves at the sta
 
 ### 9.18 `--clip-lead-space on|off` (commentary clip separator, default follows `--cell-prop`, not booted)
 `build_patch.bcast_clip_text` / `do_bcast(..., lead_space)`: the blank between two consecutive commentary (BCAST) clips is written IN FRONT of the clip (one blank before every clip that starts with a letter, digit or opening mark, none before `, . ; : ! ? ) ] } '`, nothing appended) instead of AFTER it (old rule: one trailing blank after every clip but the name callouts, which gave `SuzukiCut out` and `Grampus ,`).  Needs `--cell-prop on`: only that engine skips a blank at column 0 (first clip of an utterance, line start after a wrap); an explicit `on` without it is refused in `check_flag_combos` and `build_patches`.  Names and team names are not special (they follow `The one to watch,` / `Seoul FC vs` and need the blank in front like any clip).  Details, counts and the shortened 15-letter epithets: `docs/text-sources.md` s6.1.  Proof: `tools/test_bcast.py` (`ClipSeparator`), `tools/test_bldflags.py`, read back with `tools/re/tx5_verify_bcast.py ... --blank lead`.
+
+### 9.19 `--name-entry-order half-first|original` (Name Entry keyboard, default HALF-FIRST, not booted)
+`layoutpatch.patch_name_entry` / `name_entry_patches` / `build_patch.apply_name_entry_order`: the ABC/123 tab of `FLOW_PRG/N_ENTRY.BIN` reaches its four keyboard pages (full-width `1-0 A-L M-X Y-Z a-l`, full-width `m-z`, half-width `1-0 A-L M-X Y-Z a-l`, half-width `m-z`) only through a NULL terminated table of pointer words (file `0xe0d4`, entries `0xe0d4 / d8 / dc / e0`).  The original order opens the tab on the wide full-width letters; English players want the half-width pages (they look like the rest of the English text, one byte per typed letter).  The patch swaps the pointer words in pairs (8 bytes change, data, same size) so the table reads half-width pages first.  Usability fix of the base build (`ROADMAP.md` principle 2), not a style layer; `--name-entry-order original` leaves the file untouched.
+Located by content: the four pages are found exactly once as strings, each of their pointer words occurs exactly once as an aligned word (the table), the four words are consecutive in one of the two known orders and the table is NULL before and after; anything else stops the build (`name entry order: ...`).  Composed on the CURRENT bytes of the overlay after the text stage (applying it again changes nothing).  `tools/release.toml` `standard_flags` does NOT list it (it is a default of `build_patch.py`, like `--options-fix`); the `flags:` line of every build prints it.  Proof: `tools/test_nameentry.py` (bytes, refusals, pinned assumptions, wiring), scratch build compared with the previous one (only the 8 pointer bytes of `N_ENTRY.BIN` differ; `original` is byte-identical); the cursor / page code analysis is in `docs/layout-issues.md` s20.  Not booted.
 
 ## 10. Documentation index (docs owner, 2026-11-11)
 
