@@ -17,7 +17,7 @@ Second beta.  Fixes the match-time crash of beta.1 (confirmed in play), repaints
 ### Fixed
 
 - The match-time crash: the console reset to the BIOS when a goal was scored.  Record `FLOW_PRG/GAME.BIN#82138` is a script pointer, not text, and the build had written `---` over it.  It and 16 more records of the same kind (a pointer, a struct field or code that the text extraction had read as Shift-JIS) are blank again, so the build keeps the original bytes; `build_patch.py` now refuses such a record by looking at the original bytes (`docs/hang-investigation.md`, section 9).  Confirmed in play: five matches and more than a dozen goals with no reset.
-- The in-match Attack/Defend instruction labels being clipped (`Attack/D` and `efend`): the `sakusen` HUD texture is now painted one English word per original sprite cell (`Attack` | `Defend`, `Hold` | `Atk` | `Def`, `All` | `Defend`, `All` | `Attack`); on the two `All` rows the word is right-aligned so the gap to the second word is a few pixels.  The split was checked in Flycast; the cell coordinates themselves are inferred from the original art, not read from the game code.
+- The in-match Attack/Defend instruction labels being clipped (`Attack/D` and `efend`): the `sakusen` HUD texture is now painted one English word per original sprite cell (`Attack` | `Defend`, `Hold` | `Atk` | `Def`, `All` | `Defend`, `All` | `Attack`); on the two `All` rows the word is right-aligned so the gap to the second word is a few pixels.  The split and the tightened `All` spacing were checked in Flycast; the cell coordinates themselves are inferred from the original art, not read from the game code.
 
 ### Changed
 
