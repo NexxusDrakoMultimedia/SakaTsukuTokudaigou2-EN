@@ -1,6 +1,6 @@
 # SakaTsuku Tokudaigou 2 - English patch
 
-**Version 0.1.0-beta.1 (beta), 2026-11-14.**  An English translation of **Sakatsuku Tokudaigou 2: J.League Pro Soccer Club o Tsukurou!**
+**Version 0.1.0-beta.2 (beta), 2026-11-16.**  An English translation of **Sakatsuku Tokudaigou 2: J.League Pro Soccer Club o Tsukurou!**
 (Sega Dreamcast, Japan, HDR-0183), made by reverse engineering the game and rebuilding the disc.  The project ships **patches only**:
 xdelta (VCDIFF) files that a player applies to their own dump of the Japanese disc.
 
@@ -88,7 +88,7 @@ output; do not use it.
 
 ## Known issues
 
-The list below is for 0.1.0-beta.1; the complete, current list is in [`CHANGELOG.md`](CHANGELOG.md).
+The list below is for 0.1.0-beta.1 and still applies unless `CHANGELOG.md` lists a fix; the complete, current list is in [`CHANGELOG.md`](CHANGELOG.md).
 
 * Tested in the Flycast emulator only.
 * Flycast cannot load the volume-ISO form of the patched disc; load the `.cue` or `.gdi` instead.

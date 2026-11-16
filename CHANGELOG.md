@@ -10,6 +10,10 @@ patch bytes (corrections, rebuilt art).  Pre-releases carry a suffix (`-beta.1`)
 
 ## [Unreleased]
 
+## [0.1.0-beta.2] - 2026-11-16
+
+Second beta.  Fixes the match-time crash of beta.1 (confirmed in play), repaints the in-match Attack/Defend labels, translates the annual report head counts, and opens Name Entry on the half-width letters.
+
 ### Fixed
 
 - The match-time crash: the console reset to the BIOS when a goal was scored.  Record `FLOW_PRG/GAME.BIN#82138` is a script pointer, not text, and the build had written `---` over it.  It and 16 more records of the same kind (a pointer, a struct field or code that the text extraction had read as Shift-JIS) are blank again, so the build keeps the original bytes; `build_patch.py` now refuses such a record by looking at the original bytes (`docs/hang-investigation.md`, section 9).  Confirmed in play: five matches and more than a dozen goals with no reset.
@@ -65,5 +69,6 @@ Initial pass of the English translation of Sakatsuku Tokudaigou 2 - J.League Pro
 
 Planned for 0.2.0, not in this release: Japanese honorifics (`-san`, `-kun`, `-sama`, `-senshu`) and Japanese name order (Family name, then Given name) as optional build and patch features, off by default; a width re-check of the name fields for both.
 
-[Unreleased]: https://github.com/NexxusDrakoMultimedia/SakaTsukuTokudaigou2-EN/compare/v0.1.0-beta.1...HEAD
+[Unreleased]: https://github.com/NexxusDrakoMultimedia/SakaTsukuTokudaigou2-EN/compare/v0.1.0-beta.2...HEAD
+[0.1.0-beta.2]: https://github.com/NexxusDrakoMultimedia/SakaTsukuTokudaigou2-EN/releases/tag/v0.1.0-beta.2
 [0.1.0-beta.1]: https://github.com/NexxusDrakoMultimedia/SakaTsukuTokudaigou2-EN/releases/tag/v0.1.0-beta.1

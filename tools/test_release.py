@@ -625,16 +625,21 @@ def test_version_and_licences(guide):
     cl = get(os.path.join(ROOT, 'CHANGELOG.md')).decode('utf-8')
     check('keepachangelog.com/en/1.1.0' in cl and 'semver.org/spec/v2.0.0' in cl, 'CHANGELOG.md names Keep a Changelog 1.1.0 and SemVer 2.0.0')
     heads = re.findall(r'^## \[([^\]]+)\]', cl, re.M)
-    check(heads == ['Unreleased', ver], 'CHANGELOG.md: [Unreleased] on top, then the current version %s (%s)' % (ver, heads))
-    check(re.search(r'^## \[%s\] - \d{4}-\d{2}-\d{2}\s*$' % re.escape(ver), cl, re.M) is not None, 'CHANGELOG.md: %s has an ISO date' % ver)
-    sec = cl.split('## [%s]' % ver)[1].split('[Unreleased]:')[0]
-    for h in ('### Added', '### Known issues'):
+    check(heads[:2] == ['Unreleased', ver] and len(set(heads)) == len(heads),
+          'CHANGELOG.md: [Unreleased] on top, then the current version %s, then older releases only (%s)' % (ver, heads))
+    for hv in heads[1:]:
+        check(re.search(r'^## \[%s\] - \d{4}-\d{2}-\d{2}\s*$' % re.escape(hv), cl, re.M) is not None, 'CHANGELOG.md: %s has an ISO date' % hv)
+    # the section of the current version: up to the next '## [' heading or the link block
+    sec = re.search(r'^## \[%s\][^\n]*\n(.*?)(?=^## \[|^\[[^\]]+\]: |\Z)' % re.escape(ver), cl, re.M | re.S).group(1)
+    # the first release must have an Added section; a later one needs only the headings it has (Known issues always)
+    need = ['### Known issues'] + (['### Added'] if len(heads) == 2 else [])
+    for h in need:
         check(h in sec, 'CHANGELOG.md %s has %s' % (ver, h))
     kac = set(x.strip() for x in re.findall(r'^### (.+)$', cl, re.M))
     check(kac <= {'Added', 'Changed', 'Deprecated', 'Removed', 'Fixed', 'Security', 'Known issues'},
           'CHANGELOG.md uses only the Keep a Changelog headings (plus Known issues): %s' % sorted(kac))
     check(R.changelog_section(cl, ver, 'Known issues'), 'the Known issues of %s are bullet lines the bundle README can quote' % ver)
-    check('honorifics' in sec.lower() and 'name order' in sec.lower() and 'Planned for 0.2.0' in sec,
+    check('honorifics' in cl.lower() and 'name order' in cl.lower() and 'Planned for 0.2.0' in cl,
           'CHANGELOG.md: optional honorifics and name order are noted as planned for 0.2.0')
     base = 'https://github.com/NexxusDrakoMultimedia/SakaTsukuTokudaigou2-EN'
     check('[%s]: %s/releases/tag/v%s' % (ver, base, ver) in cl and '[Unreleased]: %s/compare/v%s...HEAD' % (base, ver) in cl,
